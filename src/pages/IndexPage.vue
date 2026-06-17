@@ -2,10 +2,6 @@
   <q-page class="q-pa-lg">
     <div class="column q-gutter-md" style="max-width: 40rem">
       <h1 class="text-h4 q-my-none">Strength of Thousands</h1>
-      <p class="text-body1 sot-muted">
-        Campaign companion for the Pathfinder 2e Strength of Thousands table. Track Spire Dorm
-        friendships, browse campaign tools, and access GM prep when running locally.
-      </p>
 
       <q-list bordered class="rounded-borders">
         <q-item-label header>Campaign tools</q-item-label>
@@ -14,7 +10,7 @@
             <q-icon name="favorite" />
           </q-item-section>
           <q-item-section>
-            <q-item-label>Relationship tracker</q-item-label>
+            <q-item-label>Relationships</q-item-label>
             <q-item-label caption>Spire Dorm friendships and classroom benefits</q-item-label>
           </q-item-section>
         </q-item>

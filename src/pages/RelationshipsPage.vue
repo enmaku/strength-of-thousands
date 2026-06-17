@@ -1,10 +1,6 @@
 <template>
   <q-page class="q-pa-lg">
     <div class="column q-gutter-md">
-      <div class="row items-center q-gutter-sm">
-        <q-btn flat round icon="arrow_back" to="/" aria-label="Back to index" />
-        <h1 class="text-h4 q-my-none">Relationship tracker</h1>
-      </div>
 
       <q-banner v-if="error" class="bg-negative text-white" rounded>
         {{ error }}
