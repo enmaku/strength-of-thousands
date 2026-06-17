@@ -28,6 +28,10 @@ body {
   border-color: var(--sot-border);
 }
 
+.q-tab-panels {
+  background: transparent;
+}
+
 .sot-muted {
   color: var(--sot-muted);
 }

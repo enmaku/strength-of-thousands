@@ -104,10 +104,6 @@ function heartAriaLabel(n) {
 </script>
 
 <style scoped>
-.student-tile {
-  height: 100%;
-}
-
 .indicator-unlocked {
   color: var(--q-primary);
   opacity: 1;

@@ -49,7 +49,7 @@
           <q-tab v-if="tabs.showAddTab" name="__add__" icon="add" aria-label="Add hero" />
         </q-tabs>
 
-        <q-tab-panels v-model="activeTab" animated>
+        <q-tab-panels v-model="activeTab" animated class="relationship-panels">
           <q-tab-panel
             v-for="hero in tabs.heroes"
             :key="hero.slug"
@@ -195,5 +195,18 @@ async function submitAddHero() {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 1rem;
+}
+
+.relationship-panels {
+  display: contents;
+}
+
+.relationship-panels :deep(.q-panel) {
+  height: auto;
+  overflow: visible;
+}
+
+.relationship-panels :deep(.q-panel > div) {
+  height: auto;
 }
 </style>
