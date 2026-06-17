@@ -1,8 +1,6 @@
 <template>
   <q-page class="q-pa-lg">
     <div class="column q-gutter-md" style="max-width: 40rem">
-      <h1 class="text-h4 q-my-none">Strength of Thousands</h1>
-
       <p class="text-body1 q-mb-none">
         This site is a companion for players in our Pathfinder 2e
         <em>Strength of Thousands</em> campaign — tools and references to help you
