@@ -44,3 +44,22 @@ body {
   background: var(--sot-green-soft);
   color: var(--sot-teal);
 }
+
+.bg-toolbar-menu {
+  background: var(--sot-earth) !important;
+  color: var(--sot-parchment-light);
+}
+
+.bg-toolbar-menu .q-item {
+  color: var(--sot-parchment-light);
+}
+
+.bg-toolbar-menu .q-item__label--caption {
+  color: var(--sot-gold-bright);
+  opacity: 0.85;
+}
+
+.bg-toolbar-menu .q-icon {
+  color: var(--sot-parchment-light);
+  opacity: 0.85;
+}
