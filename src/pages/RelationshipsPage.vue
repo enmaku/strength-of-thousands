@@ -45,7 +45,7 @@
           <q-tab v-if="tabs.showAddTab" name="__add__" icon="add" aria-label="Add hero" />
         </q-tabs>
 
-        <q-tab-panels v-model="activeTab" animated class="relationship-panels">
+        <q-tab-panels v-model="activeTab" class="relationship-panels">
           <q-tab-panel
             v-for="hero in tabs.heroes"
             :key="hero.slug"
