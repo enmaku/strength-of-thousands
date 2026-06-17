@@ -7,7 +7,7 @@ export function slugify(displayName) {
 }
 
 export function createHeroState(displayName, catalogSlugs) {
-  const relationships = Object.fromEntries(catalogSlugs.map((slug) => [slug, 0]))
+  const relationships = Object.fromEntries(catalogSlugs.map((slug) => [slug, 1]))
   return {
     displayName: displayName.trim(),
     relationships,
@@ -22,7 +22,7 @@ export function sortHeroes(heroes) {
 
 export function defaultHearts(catalogSlugs, relationships = {}) {
   return Object.fromEntries(
-    catalogSlugs.map((slug) => [slug, Math.max(0, Math.min(5, relationships[slug] ?? 0))]),
+    catalogSlugs.map((slug) => [slug, Math.max(0, Math.min(5, relationships[slug] ?? 1))]),
   )
 }
 

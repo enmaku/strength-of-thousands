@@ -15,9 +15,9 @@ const catalogEntry = {
 }
 
 describe('buildStudentTile', () => {
-  it('defaults missing hearts to 0', () => {
+  it('defaults missing hearts to 1', () => {
     const tile = buildStudentTile(catalogEntry, undefined)
-    expect(tile.disposition).toBe(0)
+    expect(tile.disposition).toBe(1)
     expect(tile.classroomAdvantageUnlocked).toBe(false)
   })
 

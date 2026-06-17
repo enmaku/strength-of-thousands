@@ -18,13 +18,13 @@ describe('slugify', () => {
 })
 
 describe('createHeroState', () => {
-  it('initializes all catalog students at 0 hearts', () => {
+  it('initializes all catalog students at 1 heart', () => {
     const slugs = ['anchor-root', 'chizire']
     const hero = createHeroState('Test Hero', slugs)
     expect(hero.displayName).toBe('Test Hero')
     expect(hero.relationships).toEqual({
-      'anchor-root': 0,
-      chizire: 0,
+      'anchor-root': 1,
+      chizire: 1,
     })
   })
 })
@@ -40,8 +40,8 @@ describe('sortHeroes', () => {
 })
 
 describe('defaultHearts', () => {
-  it('defaults missing slugs to 0', () => {
-    expect(defaultHearts(['a', 'b'], { a: 3 })).toEqual({ a: 3, b: 0 })
+  it('defaults missing slugs to 1', () => {
+    expect(defaultHearts(['a', 'b'], { a: 3 })).toEqual({ a: 3, b: 1 })
   })
 
   it('clamps heart values to 0–5', () => {

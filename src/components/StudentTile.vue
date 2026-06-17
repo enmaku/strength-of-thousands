@@ -21,8 +21,8 @@
           :icon="n <= tile.disposition ? 'favorite' : 'favorite_border'"
           :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
           :disable="!editable"
-          :aria-label="`Set disposition to ${n}`"
-          @click="editable && $emit('set-hearts', n)"
+          :aria-label="heartAriaLabel(n)"
+          @click="onHeartClick(n)"
         />
       </div>
 
@@ -55,13 +55,23 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
   tile: { type: Object, required: true },
   portraitUrl: { type: String, required: true },
   editable: { type: Boolean, default: false },
 })
 
-defineEmits(['set-hearts'])
+const emit = defineEmits(['set-hearts'])
+
+function onHeartClick(n) {
+  if (!props.editable) return
+  emit('set-hearts', n === props.tile.disposition ? n - 1 : n)
+}
+
+function heartAriaLabel(n) {
+  const target = n === props.tile.disposition ? n - 1 : n
+  return target === 0 ? 'Clear disposition' : `Set disposition to ${target}`
+}
 </script>
 
 <style scoped>

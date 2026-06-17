@@ -1,7 +1,7 @@
 import { deriveUnlocks } from './unlocks.js'
 
 export function buildStudentTile(catalogEntry, hearts) {
-  const disposition = Math.max(0, Math.min(5, hearts ?? 0))
+  const disposition = Math.max(0, Math.min(5, hearts ?? 1))
   const unlocks = deriveUnlocks(disposition)
 
   return {

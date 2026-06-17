@@ -37,6 +37,10 @@ export default defineConfig((/* ctx */) => {
           { server: false },
         ],
       ],
+
+      extendViteConf(viteConf) {
+        viteConf.plugins.unshift(campaignDevPlugin())
+      },
     },
 
     devServer: {
@@ -45,13 +49,9 @@ export default defineConfig((/* ctx */) => {
 
     framework: {
       config: {},
-      plugins: [],
+      plugins: ['Notify'],
     },
 
     animations: [],
-
-    extendViteConf(viteConf) {
-      viteConf.plugins.unshift(campaignDevPlugin())
-    },
   }
 })
