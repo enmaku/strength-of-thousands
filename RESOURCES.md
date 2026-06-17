@@ -37,5 +37,4 @@
 
 ## Gaps
 
-- Lesson HTML for Books 3–5 (*Hurricane's Howl*, *Secrets of the Temple-City*, *Doorway to the Red Star*) — extracts exist, GM prep lessons not written.
 - Prefab/VTT-specific walkthroughs vary by platform; not catalogued here.

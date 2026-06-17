@@ -108,6 +108,47 @@ Senior Spire Dorm initiates assign tasks; day 6 = meet teachers; then classes.
 2. **Service to the City** — conversant sandbox (10 missions, player order)
 3. **The Flooded Mansion** — Salathiss at Asanda’s manor; graduate as lore-speakers
 
+## Book 3 advancement (Hurricane's Howl)
+
+1. Start **8th** — lore-speakers / teachers
+2. **9th** — before Knights pursuit (Ch 2)
+3. **10th** — before Prison of the Vacant Eye (Ch 3)
+4. **11th** — before Jula (Ch 4)
+5. **12th** — end of book
+
+## Book 3 chapters
+
+1. **The Missing Student** — first classes; I'boko vanishes; Bloodsalt ruins
+2. **Vanished Villagers** — Knights of Abendego; savanna pursuit
+3. **Prison of the Vacant Eye** — cyclops-era prison; liberate captives
+4. **Jula's Plight** — Ajbal Kimon; coastal finale
+
+## Book 4 advancement (Secrets of the Temple-City)
+
+1. Start **12th**
+2. **13th** — meet Walkena
+3. **14th** — after Temple of Dajermube cleansing
+4. **15th** — end of book (Osibu)
+
+## Book 4 chapters
+
+1. **Words for the Dead** — Mzali diplomatic delegation
+2. **Raising the Sun** — Shrine of the Eclipse; path to Osibu
+3. **Guardians of the Golden City** — defend Dimari-Diji's ritual
+
+## Book 5 advancement (Doorway to the Red Star)
+
+1. Start **15th**
+2. **16th** — through Doorway
+3. **17th** — sand-racer chase (Ch 3)
+4. **18th** — end; Jatembe freed; King's contingency
+
+## Book 5 chapters
+
+1. **Pranksters and Preparations** — semester downtime; Iobane; clear undead at portal
+2. **Beyond the Door** — Akiton; Contemplatives of Ashok
+3. **Thousands and Thousands** — Seldo; Mandibles of Fate; King of Biting Ants
+
 ## Book 6 advancement (Shadows of the Ancients)
 
 1. Start **18th** — return from Akiton with Jatembe

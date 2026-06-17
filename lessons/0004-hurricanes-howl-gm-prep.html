@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Hurricane's Howl GM Prep</title>
+  <style>
+    :root {
+      --bg: #f5f3ef; --ink: #1c1814; --muted: #5a5348; --gold: #b8860b;
+      --gold-soft: #f3e8c8; --accent: #3d5a6c; --accent-soft: #e4edf2;
+      --green: #2d5016; --border: #d4cbb8; --spoiler-bg: #ebe4d8;
+      --correct: #2d6a4f; --wrong: #9b2226;
+      --font: Georgia, "Iowan Old Style", Palatino, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 1.1rem; line-height: 1.65; }
+    header { background: linear-gradient(135deg, var(--accent) 0%, #243844 100%); color: #f7f4ed; padding: 2.5rem 1.5rem 2rem; }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.85; margin: 0 0 0.5rem; }
+    header h1 { font-size: 2rem; font-weight: 600; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 { font-size: 1.35rem; margin: 2.25rem 0 0.75rem; color: var(--accent); border-bottom: 2px solid var(--gold); padding-bottom: 0.35rem; }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--green); }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    a { color: var(--accent); }
+    .callout { background: var(--accent-soft); border-left: 4px solid var(--accent); padding: 1rem 1.15rem; margin: 1.25rem 0; font-size: 0.98rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+    th { background: var(--gold-soft); font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; }
+    .timeline td:first-child { white-space: nowrap; font-weight: 600; color: var(--accent); width: 6rem; }
+    .quiz { background: #fff; border: 1px solid var(--border); padding: 1.25rem; margin: 1.5rem 0; }
+    .quiz h3 { margin-top: 0; }
+    .quiz button { font-family: var(--sans); background: var(--accent); color: #fff; border: none; padding: 0.45rem 0.9rem; margin: 0.35rem 0.35rem 0.35rem 0; cursor: pointer; border-radius: 2px; font-size: 0.85rem; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem 3rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .nav-lessons { font-family: var(--sans); font-size: 0.88rem; margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Book 3 of 6 · GM Prep</p>
+    <h1>Hurricane's Howl — teachers in the Sodden Lands</h1>
+    <p>Lore-speakers run their first classes, chase a missing student to Kiutu, and face the Knights of Abendego.</p>
+  </div>
+</header>
+
+<main>
+
+<p class="nav-lessons"><a href="0002-spoken-on-the-song-wind-gm-prep.html">← Book 2</a> · <a href="0005-secrets-temple-city-gm-prep.html">Book 4 →</a> · <a href="../reference/sot-glossary-and-npcs.html">NPC reference</a> · <a href="../reference/sot-thematic-guide.html#book3">Themes</a></p>
+
+<section id="open">
+  <div class="callout">
+    <strong>Open this lesson:</strong>
+    <code>open /Users/enmaku/learning/strength-of-thousands/lessons/0004-hurricanes-howl-gm-prep.html</code>
+  </div>
+</section>
+
+<section id="pitch">
+  <h2>The one-sentence pitch</h2>
+  <p>Fresh **lore-speakers** teach a student cohort until **I'boko** vanishes homeward to **Kiutu**; the party pursues her through **Bloodsalt** ruins, rescues villagers from the **Knights of Abendego**, storms a cyclops **prison**, and topples **Ajbal Kimon** in **Jula** — ending at **12th level** as field teachers who model what they preach.</p>
+</section>
+
+<section id="levels">
+  <h2>Levels & rank</h2>
+  <table>
+    <thead><tr><th>Level</th><th>When</th><th>Rank</th></tr></thead>
+    <tbody>
+      <tr><td>8</td><td>Start (Book 2 graduates)</td><td><strong>Lore-speakers</strong> / teachers</td></tr>
+      <tr><td>9</td><td>Before pursuing Knights in Ch 2</td><td>Lore-speakers</td></tr>
+      <tr><td>10</td><td>Before Prison of the Vacant Eye (Ch 3)</td><td>Lore-speakers</td></tr>
+      <tr><td>11</td><td>Before Jula finale (Ch 4)</td><td>Lore-speakers</td></tr>
+      <tr><td>12</td><td>End of book</td><td>Lore-speakers</td></tr>
+    </tbody>
+  </table>
+  <p class="callout"><strong>Practical Research:</strong> Lore-speakers don't advance branches by teaching alone — field discovery counts. First opportunity: Bloodsalt expedition (Ch 1). Second in Ch 3 if PCs recognize it. See <a href="https://paizo.com/products/btq01yop?Pathfinder-Adventure-Path-169-Kindled-Magic">Kindled Magic</a> academia sidebar vs. this book's Practical Research note (Paizo AP #171 p. 3).</p>
+</section>
+
+<section id="structure">
+  <h2>Four chapters</h2>
+  <table class="timeline">
+    <thead><tr><th>Chapter</th><th>Title</th><th>Core beats</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Ch 1</td>
+        <td><strong>The Missing Student</strong></td>
+        <td>First classes; student problems; I'boko leaves for Kiutu; Oyamba frames Bloodsalt research trip; ruins of the City of Dragon-Speakers.</td>
+      </tr>
+      <tr>
+        <td>Ch 2</td>
+        <td><strong>Vanished Villagers</strong></td>
+        <td>Knights of Abendego escalate kidnappings; pursuit across savanna; unexpected allies; trail toward ancient prison.</td>
+      </tr>
+      <tr>
+        <td>Ch 3</td>
+        <td><strong>Prison of the Vacant Eye</strong></td>
+        <td>Mountainside cyclops-era prison; sinister jailers; history-seekers; liberate villagers and allies.</td>
+      </tr>
+      <tr>
+        <td>Ch 4</td>
+        <td><strong>Jula's Plight</strong></td>
+        <td><strong>Ajbal Kimon</strong> rules coastal Jula; sacrifices in caves; unite townspeople; end the cult's grip.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="chapter1">
+  <h2>Chapter 1 — teaching & Bloodsalt</h2>
+  <h3>Opening: you are teachers now</h3>
+  <ul>
+    <li><strong>Janatimo</strong> asked PCs to stay as teachers; Oyamba assigns a shared student cohort.</li>
+    <li>Each PC teaches their primary branch (Rain-Scribe excursions, Tempest-Sun tactics, etc.) — let players define curricula.</li>
+    <li>Offices often in <strong>Heron Archives</strong>; stipend covers modest housing on campus or in Nantambu.</li>
+    <li>Customary honorific: "Teacher" + name.</li>
+  </ul>
+
+  <h3>Familiar faces in the cohort</h3>
+  <ul>
+    <li><strong>Ignaci</strong> — jealous but motivated; studies the PCs' "secret method."</li>
+    <li><strong>Mariama</strong> — irreverent; teases slip-ups; gossip about PC mischief as students.</li>
+    <li><strong>Esi Djana</strong> — now a fellow lore-speaker colleague, not a dorm peer.</li>
+    <li>New students: <strong>Onyiji</strong> (half-orc staff warrior), <strong>Selozè</strong> (tiefling), <strong>Jumimo</strong> (elf), <strong>I'boko</strong> (dwarf rain caller — brightest, family-first).</li>
+  </ul>
+
+  <h3>Early scenes (before I'boko vanishes)</h3>
+  <ul>
+    <li><strong>Onyiji sparring</strong> — teachable combat review; Diplomacy/Athletics to assess tactics.</li>
+    <li>Student problem-of-the-week vignettes — use to establish teaching philosophy.</li>
+    <li><strong>I'boko disappears</strong> when Kiutu reports Knight attacks; classmates insist on going after her.</li>
+    <li>Oyamba reframes departure as sanctioned research at nearby <strong>Bloodsalt</strong> ruins (Practical Research hook).</li>
+  </ul>
+</section>
+
+<section id="chapter2-4">
+  <h2>Chapters 2–4 — Sodden Lands arc</h2>
+  <ul>
+    <li><strong>Knights of Abendego</strong> — long-standing threat to Kiutu; escalation drives the book.</li>
+    <li>Track kidnapped villagers; savanna travel with students in tow — PCs as protectors and mentors.</li>
+    <li><strong>Prison of the Vacant Eye</strong> — cyclops empire remnant; don't rush — atmosphere and history matter.</li>
+    <li><strong>Jula</strong> — Ajbal Kimon as BBEG; caves beneath town; rally townsfolk (social + dungeon crawl).</li>
+    <li>Return to Magaambya as heroes — fame sets up Book 4 Mzali delegation.</li>
+  </ul>
+</section>
+
+<section id="npcs">
+  <h2>NPCs to voice</h2>
+  <table>
+    <thead><tr><th>NPC</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>High Sun-Mage Oyamba</td><td>Headmaster; assigns Bloodsalt framing; distracted charm</td></tr>
+      <tr><td>Janatimo</td><td>Requested PCs stay teaching</td></tr>
+      <tr><td>I'boko</td><td>Missing student; clever; family loyalty drives plot</td></tr>
+      <tr><td>Onyiji / Selozè / Jumimo</td><td>Student cohort — mirror Spire Dorm dynamics</td></tr>
+      <tr><td>Ignaci & Mariama</td><td>Former classmates in cohort — jealousy vs. teasing</td></tr>
+      <tr><td>Esi Djana</td><td>Peer teacher now — cohort friendship evolved</td></tr>
+      <tr><td>Ajbal Kimon</td><td>Knights leader; Jula finale villain</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="themes">
+  <h2>Themes at this book</h2>
+  <p>Full guide: <a href="../reference/sot-thematic-guide.html#book3">Thematic GM Guide — Book 3</a>.</p>
+  <table>
+    <thead><tr><th>Theme</th><th>Where it lives</th><th>Push it</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Students become teachers</strong></td><td>First classes; Heron Archives</td><td>One-sentence teaching philosophy per PC</td><td>Run a "first day of class" scene before I'boko vanishes</td></tr>
+      <tr><td><strong>Responsibility for growth</strong></td><td>I'boko; classmates hid her leaving</td><td>"When did we last make failure safe?"</td><td>Connect to Uduak (Book 1) — institution vs. individual</td></tr>
+      <tr><td><strong>Wardens of the world</strong></td><td>Sodden Lands; Knights cult</td><td>Service beyond comfortable borders</td><td>After fights: debrief with students — what can't be lectured?</td></tr>
+      <tr><td><strong>Strength of thousands</strong></td><td>Field expedition with cohort</td><td>PCs model branch virtues under pressure</td><td>"What would Takulu Ot praise? What would Koride criticize?"</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="gm-tips">
+  <h2>GM tips</h2>
+  <ul>
+    <li><strong>Don't skip teaching prep</strong> — a session of campus life pays off when students matter in Sodden Lands.</li>
+    <li><strong>Practical Research</strong> — remind players branch advancement needs discovery, not just XP.</li>
+    <li><strong>Pacing:</strong> four chapters + travel; trim random encounters if Knight pursuit drags.</li>
+    <li><strong>Prefab:</strong> maps/stats in PDF; your job is student relationships and moral weight of the rescue.</li>
+  </ul>
+</section>
+
+<section id="foreshadow">
+  <h2>Threads forward</h2>
+  <ul>
+    <li>Heroic return → Oyamba selects PCs for **Mzali diplomacy** (Book 4).</li>
+    <li>Insects/egg still background; Koride on faculty roster if you want continuity.</li>
+    <li>Teaching semester continues in Book 5 before Akiton window opens.</li>
+  </ul>
+  <p>Next: <a href="0005-secrets-temple-city-gm-prep.html">Book 4 — Secrets of the Temple-City</a></p>
+</section>
+
+<section id="quiz">
+  <h2>Self-check</h2>
+  <div class="quiz" data-answer="b">
+    <h3>1. PCs start Book 3 at what level?</h3>
+    <button onclick="check(this,'a')">A. 4</button>
+    <button onclick="check(this,'b')">B. 8</button>
+    <button onclick="check(this,'c')">C. 12</button>
+    <div class="feedback"></div>
+  </div>
+  <div class="quiz" data-answer="a">
+    <h3>2. The missing student who triggers the Sodden Lands arc is…</h3>
+    <button onclick="check(this,'a')">A. I'boko</button>
+    <button onclick="check(this,'b')">B. Anchor Root</button>
+    <button onclick="check(this,'c')">C. Goss</button>
+    <div class="feedback"></div>
+  </div>
+  <div class="quiz" data-answer="c">
+    <h3>3. Book 3 finale villain Ajbal Kimon leads…</h3>
+    <button onclick="check(this,'a')">A. Serpentfolk</button>
+    <button onclick="check(this,'b')">B. Stone Ghost's gremlins</button>
+    <button onclick="check(this,'c')">C. Knights of Abendego</button>
+    <div class="feedback"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Source: Paizo AP #171 · <code>reference/sot-extracts/hurricanes-howl.txt</code></p>
+  <p>Ask follow-up questions anytime — your teacher can drill NPCs, pacing, or student scenes.</p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const quiz = btn.closest('.quiz');
+  const fb = quiz.querySelector('.feedback');
+  if (choice === quiz.dataset.answer) {
+    fb.textContent = 'Correct.';
+    fb.className = 'feedback correct';
+  } else {
+    fb.textContent = 'Not quite — reread above.';
+    fb.className = 'feedback wrong';
+  }
+}
+</script>
+</body>
+</html>

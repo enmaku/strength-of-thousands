@@ -22,8 +22,11 @@ See glossary entry + Book 1 lesson § Anadi arrival.
 
 1. Kindled Magic (Book 1) — `lessons/0001-kindled-magic-gm-prep.html`
 2. Spoken on the Song Wind (Book 2) — `lessons/0002-spoken-on-the-song-wind-gm-prep.html`
-3. Shadows of the Ancients (Book 6 finale) — `lessons/0003-shadows-of-the-ancients-gm-prep.html`
+3. Hurricane's Howl (Book 3) — `lessons/0004-hurricanes-howl-gm-prep.html`
+4. Secrets of the Temple-City (Book 4) — `lessons/0005-secrets-temple-city-gm-prep.html`
+5. Doorway to the Red Star (Book 5) — `lessons/0006-doorway-to-the-red-star-gm-prep.html`
+6. Shadows of the Ancients (Book 6) — `lessons/0003-shadows-of-the-ancients-gm-prep.html`
 
-Books 3–5 extracts exist; lessons not yet written.
+(File numbers 0003/0004–0006 reflect creation order; Quasar index lists books 1–6.)
 
 Text extracts: `reference/sot-extracts/` (all 6 books + Player's Guide)
