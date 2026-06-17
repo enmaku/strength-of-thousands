@@ -62,6 +62,7 @@
                 :key="tile.slug"
                 :tile="tile"
                 :portrait-url="portraitUrl(tile.thumb)"
+                :portrait-full-url="portraitUrl(tile.portrait)"
                 :editable="gmMode"
                 @set-hearts="(hearts) => onSetHearts(hero.slug, tile.slug, hearts)"
               />

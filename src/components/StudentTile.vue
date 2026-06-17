@@ -1,9 +1,14 @@
 <template>
   <q-card flat bordered class="student-tile">
     <q-card-section class="row items-center q-gutter-sm q-pb-none">
-      <q-avatar size="72px" rounded>
-        <img :src="portraitUrl" :alt="tile.displayName" />
-      </q-avatar>
+      <PortraitLightbox
+        :full-src="portraitFullUrl"
+        :alt="tile.displayName"
+      >
+        <q-avatar size="72px" rounded>
+          <img :src="portraitUrl" :alt="tile.displayName" />
+        </q-avatar>
+      </PortraitLightbox>
       <div class="col">
         <div class="text-subtitle1 text-weight-medium">{{ tile.displayName }}</div>
         <div class="text-caption text-grey-7">{{ tile.branch }}</div>
@@ -77,9 +82,12 @@
 </template>
 
 <script setup>
+import PortraitLightbox from 'components/PortraitLightbox.vue'
+
 const props = defineProps({
   tile: { type: Object, required: true },
   portraitUrl: { type: String, required: true },
+  portraitFullUrl: { type: String, required: true },
   editable: { type: Boolean, default: false },
 })
 

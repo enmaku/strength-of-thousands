@@ -39,6 +39,7 @@
     footer { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding: 1rem 1.5rem 2rem; border-top: 1px solid var(--border); max-width: 52rem; margin: 0 auto; }
     @media print { nav { display: none; } body { font-size: 9pt; } }
   </style>
+  <link rel="stylesheet" href="portrait-lightbox.css">
 </head>
 <body>
 <header>
@@ -107,15 +108,15 @@
   <table>
     <thead><tr><th></th><th>Student</th><th>Branch</th><th>Hook</th><th>Study bonus (when Helpful)</th></tr></thead>
     <tbody>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/anchor-root-120.jpg" alt="Anchor Root" width="72" height="72"></td><td>Anchor Root</td><td>Rain-Scribe</td><td>Ant gnoll bonekeeper; shy; rhythm bones</td><td>Rain-Scribe crit fail → fail on Study</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/chizire-120.jpg" alt="Chizire" width="72" height="72"></td><td>Chizire</td><td>Cascade Bearer</td><td>Catfolk slacker; dorm still</td><td>—</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/esi-djana-120.jpg" alt="Esi Djana" width="72" height="72"></td><td>Esi Djana</td><td>Tempest-Sun</td><td>Star pupil; rules follower</td><td>Tempest-Sun success → crit success</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/haibram-thodja-120.jpg" alt="Haibram Thodja" width="72" height="72"></td><td>Haibram Thodja</td><td>Tempest-Sun</td><td>Dwarf daredevil; hang-gliders</td><td>Cram Rain-Scribe 3× not 2×</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/ignaci-canterells-120.jpg" alt="Ignaci Canterells" width="72" height="72"></td><td>Ignaci Canterells</td><td>Emerald Bough</td><td>Chelaxian thaumaturge; fashionable</td><td>—</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/mariama-keitana-120.jpg" alt="Mariama Keitana" width="72" height="72"></td><td>Mariama Keitana</td><td>Cascade Bearer</td><td>Chaos magnet occultist</td><td>Reroll Cascade Study (fortune)</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/noxolo-120.jpg" alt="Noxolo" width="72" height="72"></td><td>Noxolo</td><td>Uzunjati</td><td>Fugitive noble; dancer; snabble pet</td><td>Uzunjati crit fail → fail</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/okoro-obiyo-120.jpg" alt="Okoro Obiyo" width="72" height="72"></td><td>Okoro Obiyo</td><td>Uzunjati</td><td>Game master; fear of butterflies</td><td>No fatigue after Uzunjati Cram</td></tr>
-      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/tzeniwe-120.jpg" alt="Tzeniwe" width="72" height="72"></td><td>Tzeniwe</td><td>Emerald Bough</td><td>Anadi dreamweaver (human-form portrait); mom to Zachva & Zanvi; stress-baker</td><td>Emerald success → crit success (not when Cramming)</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/anchor-root.jpg" aria-label="View portrait of Anchor Root"><img class="student-portrait" src="images/spire-dorm/anchor-root-120.jpg" alt="Anchor Root" width="72" height="72"></button></td><td>Anchor Root</td><td>Rain-Scribe</td><td>Ant gnoll bonekeeper; shy; rhythm bones</td><td>Rain-Scribe crit fail → fail on Study</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/chizire.jpg" aria-label="View portrait of Chizire"><img class="student-portrait" src="images/spire-dorm/chizire-120.jpg" alt="Chizire" width="72" height="72"></button></td><td>Chizire</td><td>Cascade Bearer</td><td>Catfolk slacker; dorm still</td><td>—</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/esi-djana.jpg" aria-label="View portrait of Esi Djana"><img class="student-portrait" src="images/spire-dorm/esi-djana-120.jpg" alt="Esi Djana" width="72" height="72"></button></td><td>Esi Djana</td><td>Tempest-Sun</td><td>Star pupil; rules follower</td><td>Tempest-Sun success → crit success</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/haibram-thodja.jpg" aria-label="View portrait of Haibram Thodja"><img class="student-portrait" src="images/spire-dorm/haibram-thodja-120.jpg" alt="Haibram Thodja" width="72" height="72"></button></td><td>Haibram Thodja</td><td>Tempest-Sun</td><td>Dwarf daredevil; hang-gliders</td><td>Cram Rain-Scribe 3× not 2×</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/ignaci-canterells.jpg" aria-label="View portrait of Ignaci Canterells"><img class="student-portrait" src="images/spire-dorm/ignaci-canterells-120.jpg" alt="Ignaci Canterells" width="72" height="72"></button></td><td>Ignaci Canterells</td><td>Emerald Bough</td><td>Chelaxian thaumaturge; fashionable</td><td>—</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/mariama-keitana.jpg" aria-label="View portrait of Mariama Keitana"><img class="student-portrait" src="images/spire-dorm/mariama-keitana-120.jpg" alt="Mariama Keitana" width="72" height="72"></button></td><td>Mariama Keitana</td><td>Cascade Bearer</td><td>Chaos magnet occultist</td><td>Reroll Cascade Study (fortune)</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/noxolo.jpg" aria-label="View portrait of Noxolo"><img class="student-portrait" src="images/spire-dorm/noxolo-120.jpg" alt="Noxolo" width="72" height="72"></button></td><td>Noxolo</td><td>Uzunjati</td><td>Fugitive noble; dancer; snabble pet</td><td>Uzunjati crit fail → fail</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/okoro-obiyo.jpg" aria-label="View portrait of Okoro Obiyo"><img class="student-portrait" src="images/spire-dorm/okoro-obiyo-120.jpg" alt="Okoro Obiyo" width="72" height="72"></button></td><td>Okoro Obiyo</td><td>Uzunjati</td><td>Game master; fear of butterflies</td><td>No fatigue after Uzunjati Cram</td></tr>
+      <tr><td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/tzeniwe.jpg" aria-label="View portrait of Tzeniwe"><img class="student-portrait" src="images/spire-dorm/tzeniwe-120.jpg" alt="Tzeniwe" width="72" height="72"></button></td><td>Tzeniwe</td><td>Emerald Bough</td><td>Anadi dreamweaver (human-form portrait); mom to Zachva & Zanvi; stress-baker</td><td>Emerald success → crit success (not when Cramming)</td></tr>
     </tbody>
   </table>
   <h3>Ch 3 — new anadi students</h3>
@@ -169,5 +170,6 @@
 <footer>
   Source: Paizo AP #169–170 extracts in <code>reference/sot-extracts/</code> · <a href="sot-campaign-overview.md">Campaign overview</a>
 </footer>
+  <script src="portrait-lightbox.js"></script>
 </body>
 </html>

@@ -10,11 +10,16 @@ async function copyDir(src, dest) {
   await cp(src, dest, { recursive: true, force: true })
 }
 
-async function copyHtmlFiles(srcDir, destDir) {
+async function copyReferenceAssets(srcDir, destDir) {
   await mkdir(destDir, { recursive: true })
   const entries = await readdir(srcDir, { withFileTypes: true })
   for (const entry of entries) {
-    if (entry.isFile() && entry.name.endsWith('.html')) {
+    if (
+      entry.isFile() &&
+      (entry.name.endsWith('.html') ||
+        entry.name.endsWith('.js') ||
+        entry.name.endsWith('.css'))
+    ) {
       await cp(path.join(srcDir, entry.name), path.join(destDir, entry.name))
     }
   }
@@ -26,7 +31,7 @@ async function main() {
   const imagesSrc = path.join(referenceSrc, 'images')
 
   await copyDir(lessonsSrc, path.join(dist, 'lessons'))
-  await copyHtmlFiles(referenceSrc, path.join(dist, 'reference'))
+  await copyReferenceAssets(referenceSrc, path.join(dist, 'reference'))
 
   try {
     await copyDir(imagesSrc, path.join(dist, 'reference', 'images'))
