@@ -1,0 +1,53 @@
+/* Kindled Magic cover palette — sampled from AP #169 PDF */
+:root {
+  --sot-parchment: #f7f1e3;
+  --sot-parchment-light: #fcf2d1;
+  --sot-ink: #361f14;
+  --sot-muted: #7b796c;
+
+  --sot-teal: #204050;
+  --sot-teal-dark: #103040;
+  --sot-teal-soft: #e8eff2;
+
+  --sot-green: #406010;
+  --sot-green-soft: #eef2e4;
+
+  --sot-gold: #b09060;
+  --sot-gold-bright: #eed5a7;
+  --sot-gold-soft: #f7e3b4;
+
+  --sot-earth: #6d3711;
+  --sot-earth-soft: #f5ebe0;
+
+  --sot-cinnabar: #c06040;
+  --sot-cinnabar-soft: #f8ece6;
+
+  --sot-border: #c7aa82;
+  --sot-correct: #406010;
+  --sot-wrong: #a04030;
+
+  --bg: var(--sot-parchment);
+  --ink: var(--sot-ink);
+  --muted: var(--sot-muted);
+  --accent: var(--sot-teal);
+  --accent-dark: var(--sot-teal-dark);
+  --accent-soft: var(--sot-teal-soft);
+  --green: var(--sot-green);
+  --green-soft: var(--sot-green-soft);
+  --gold: var(--sot-gold);
+  --gold-soft: var(--sot-gold-soft);
+  --earth: var(--sot-earth);
+  --earth-soft: var(--sot-earth-soft);
+  --cinnabar: var(--sot-cinnabar);
+  --cinnabar-soft: var(--sot-cinnabar-soft);
+  --border: var(--sot-border);
+  --correct: var(--sot-correct);
+  --wrong: var(--sot-wrong);
+  --spoiler: var(--sot-earth);
+  --spoiler-bg: var(--sot-earth-soft);
+  --red-earth: var(--sot-cinnabar);
+  --header-ink: var(--sot-parchment-light);
+  --surface: #fffcf5;
+  --font: Georgia, "Iowan Old Style", Palatino, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

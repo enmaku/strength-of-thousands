@@ -15,10 +15,10 @@
       </div>
 
       <template v-else-if="tabs.heroes.length === 0">
-        <q-banner v-if="gmMode" class="bg-blue-1 text-blue-10" rounded>
+        <q-banner v-if="gmMode" class="sot-callout" rounded>
           No heroes yet. Add a hero to start tracking Spire Dorm friendships.
         </q-banner>
-        <q-banner v-else class="bg-grey-2 text-grey-9" rounded>
+        <q-banner v-else class="bg-grey-2 sot-muted" rounded>
           No heroes published yet. Check back after the GM updates campaign state.
         </q-banner>
         <q-btn

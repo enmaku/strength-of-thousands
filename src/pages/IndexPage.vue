@@ -2,7 +2,7 @@
   <q-page class="q-pa-lg">
     <div class="column q-gutter-md" style="max-width: 40rem">
       <h1 class="text-h4 q-my-none">Strength of Thousands</h1>
-      <p class="text-body1 text-grey-8">
+      <p class="text-body1 sot-muted">
         Campaign companion for the Pathfinder 2e Strength of Thousands table. Track Spire Dorm
         friendships, browse campaign tools, and access GM prep when running locally.
       </p>

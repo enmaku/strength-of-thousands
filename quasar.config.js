@@ -48,7 +48,18 @@ export default defineConfig((/* ctx */) => {
     },
 
     framework: {
-      config: {},
+      config: {
+        brand: {
+          primary: '#204050',
+          secondary: '#6d3711',
+          accent: '#c06040',
+          dark: '#361f14',
+          positive: '#406010',
+          negative: '#a04030',
+          info: '#204050',
+          warning: '#b09060',
+        },
+      },
       plugins: ['Notify'],
     },
 

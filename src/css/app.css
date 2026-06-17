@@ -1,1 +1,42 @@
-/* app global css */
+@import url('../../reference/sot-theme.css');
+
+body {
+  background: linear-gradient(180deg, var(--sot-parchment-light) 0%, var(--sot-parchment) 12rem);
+  color: var(--sot-ink);
+  font-family: var(--font);
+}
+
+.q-header {
+  background: linear-gradient(
+    135deg,
+    var(--sot-teal) 0%,
+    var(--sot-teal-dark) 55%,
+    var(--sot-earth) 100%
+  ) !important;
+}
+
+.q-toolbar {
+  border-bottom: 3px solid var(--sot-gold);
+}
+
+.q-page {
+  color: var(--sot-ink);
+}
+
+.q-card {
+  background: var(--surface);
+  border-color: var(--sot-border);
+}
+
+.sot-muted {
+  color: var(--sot-muted);
+}
+
+.sot-heart-filled {
+  color: var(--sot-cinnabar) !important;
+}
+
+.sot-callout {
+  background: var(--sot-green-soft);
+  color: var(--sot-teal);
+}

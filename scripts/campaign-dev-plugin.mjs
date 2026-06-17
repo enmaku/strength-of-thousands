@@ -74,10 +74,14 @@ function serveStaticFile(res, filePath) {
     .then((data) => {
       const ext = path.extname(filePath)
       const types = {
-        '.json': 'application/json',
+        '.css': 'text/css; charset=utf-8',
+        '.js': 'text/javascript; charset=utf-8',
+        '.json': 'application/json; charset=utf-8',
         '.jpg': 'image/jpeg',
-        '.html': 'text/html',
-        '.md': 'text/markdown',
+        '.jpeg': 'image/jpeg',
+        '.png': 'image/png',
+        '.html': 'text/html; charset=utf-8',
+        '.md': 'text/markdown; charset=utf-8',
       }
       res.statusCode = 200
       res.setHeader('Content-Type', types[ext] ?? 'application/octet-stream')

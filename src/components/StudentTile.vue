@@ -11,7 +11,7 @@
       </PortraitLightbox>
       <div class="col">
         <div class="text-subtitle1 text-weight-medium">{{ tile.displayName }}</div>
-        <div class="text-caption text-grey-7">{{ tile.branch }}</div>
+        <div class="text-caption sot-muted">{{ tile.branch }}</div>
       </div>
     </q-card-section>
 
@@ -28,7 +28,7 @@
             dense
             round
             :icon="n <= tile.disposition ? 'favorite' : 'favorite_border'"
-            :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
+            :class="n <= tile.disposition ? 'sot-heart-filled' : 'sot-heart-empty'"
             :aria-label="heartAriaLabel(n)"
             @click="onHeartClick(n)"
           />
@@ -37,9 +37,8 @@
           <q-icon
             v-for="n in 5"
             :key="n"
-            class="heart-icon"
+            :class="['heart-icon', n <= tile.disposition ? 'sot-heart-filled' : 'sot-heart-empty']"
             :name="n <= tile.disposition ? 'favorite' : 'favorite_border'"
-            :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
             aria-hidden="true"
           />
         </template>
