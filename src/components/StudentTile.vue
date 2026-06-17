@@ -47,7 +47,11 @@
             size="sm"
             :class="tile.classroomAdvantageUnlocked ? 'indicator-unlocked' : 'indicator-locked'"
           />
-          <q-tooltip anchor="top middle" self="bottom middle" class="benefit-tooltip">
+          <q-tooltip
+            anchor="top middle"
+            self="bottom middle"
+            max-width="22rem"
+          >
             <div class="text-weight-medium q-mb-xs">Classroom Advantage</div>
             {{ tile.classroomAdvantageTooltip }}
           </q-tooltip>
@@ -58,7 +62,11 @@
             size="sm"
             :class="tile.uncommonRulesUnlocked ? 'indicator-unlocked' : 'indicator-locked'"
           />
-          <q-tooltip anchor="top middle" self="bottom middle" class="benefit-tooltip">
+          <q-tooltip
+            anchor="top middle"
+            self="bottom middle"
+            max-width="22rem"
+          >
             <div class="text-weight-medium q-mb-xs">{{ tile.uncommonRulesName }}</div>
             {{ tile.uncommonRulesTooltip.replace(`${tile.uncommonRulesName}: `, '') }}
           </q-tooltip>
@@ -101,10 +109,6 @@ function heartAriaLabel(n) {
 .indicator-locked {
   color: var(--q-dark);
   opacity: 0.35;
-}
-
-.benefit-tooltip {
-  max-width: 22rem;
 }
 
 .heart-icon {
