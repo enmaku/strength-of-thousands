@@ -3,11 +3,24 @@
     <div class="column q-gutter-md" style="max-width: 40rem">
       <h1 class="text-h4 q-my-none">Strength of Thousands</h1>
       <p class="text-body1 text-grey-8">
-        GM tools and references for the Pathfinder 2e adventure path. Player tools and campaign
-        utilities will live here; for now this is a blank shell alongside the teaching workspace.
+        Campaign companion for the Pathfinder 2e Strength of Thousands table. Track Spire Dorm
+        friendships, browse campaign tools, and access GM prep when running locally.
       </p>
 
       <q-list bordered class="rounded-borders">
+        <q-item-label header>Campaign tools</q-item-label>
+        <q-item clickable v-ripple to="/relationships">
+          <q-item-section avatar>
+            <q-icon name="favorite" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Relationship tracker</q-item-label>
+            <q-item-label caption>Spire Dorm friendships and classroom benefits</q-item-label>
+          </q-item-section>
+        </q-item>
+      </q-list>
+
+      <q-list v-if="gmMode" bordered class="rounded-borders">
         <q-expansion-item label="GM prep lessons (static HTML)">
           <q-item
             v-for="lesson in lessons"
@@ -33,6 +46,9 @@
 </template>
 
 <script setup>
+import { isGmMode } from '../domain/mode.js'
+
+const gmMode = isGmMode()
 const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
 
 const lessons = [

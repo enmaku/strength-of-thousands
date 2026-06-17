@@ -2,6 +2,7 @@
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file
 
 import { defineConfig } from '#q-app/wrappers'
+import { campaignDevPlugin } from './scripts/campaign-dev-plugin.mjs'
 
 /** Public path for assets/router. CI sets `GH_PAGES_BASE` (e.g. `/strength-of-thousands/` on github.io). */
 const pagesBase = process.env.GH_PAGES_BASE || '/'
@@ -48,5 +49,9 @@ export default defineConfig((/* ctx */) => {
     },
 
     animations: [],
+
+    extendViteConf(viteConf) {
+      viteConf.plugins.unshift(campaignDevPlugin())
+    },
   }
 })

@@ -34,6 +34,12 @@ async function main() {
     if (err.code !== 'ENOENT') throw err
   }
 
+  try {
+    await copyDir(path.join(root, 'heroes'), path.join(dist, 'heroes'))
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err
+  }
+
   console.log('Copied teaching assets into dist/spa/')
 }
 
