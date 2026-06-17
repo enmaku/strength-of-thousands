@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoT — Thematic GM Guide</title>
+  <style>
+    :root {
+      --bg: #f5f0e8; --ink: #1c1814; --muted: #6b6358;
+      --accent: #4a3728; --accent-soft: #ebe4d8;
+      --gold: #9a7b2e; --green: #2d5016; --green-soft: #e6efe0;
+      --blue: #1e4d6b; --blue-soft: #e8f1f6;
+      --crimson: #6b1a0a; --crimson-soft: #f0e4e0;
+      --border: #d4cbb8;
+      --font: Georgia, "Iowan Old Style", Palatino, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 1rem; line-height: 1.6; }
+    header { background: linear-gradient(135deg, var(--accent) 0%, #2a1f18 100%); color: #f5f0e8; padding: 2rem 1.5rem; border-bottom: 3px solid var(--gold); }
+    header h1 { margin: 0; font-size: 1.65rem; font-weight: 600; }
+    header p { margin: 0.5rem 0 0; opacity: 0.92; font-size: 0.95rem; max-width: 40rem; }
+    nav { background: var(--accent-soft); padding: 0.75rem 1.5rem; font-family: var(--sans); font-size: 0.78rem; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+    nav a { margin-right: 0.85rem; color: var(--accent); white-space: nowrap; }
+    main { max-width: 50rem; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
+    h2 { font-size: 1.3rem; color: var(--accent); margin: 2.5rem 0 0.75rem; border-bottom: 2px solid var(--gold); padding-bottom: 0.3rem; }
+    h3 { font-size: 1.05rem; margin: 1.5rem 0 0.5rem; color: var(--gold); }
+    h4 { font-family: var(--sans); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 1.25rem 0 0.4rem; }
+    p { margin: 0 0 0.85rem; }
+    ul, ol { margin: 0 0 0.85rem; padding-left: 1.35rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 0.85rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.45rem 0.6rem; text-align: left; vertical-align: top; }
+    th { background: var(--accent-soft); font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .thesis { background: var(--green-soft); border-left: 4px solid var(--green); padding: 1rem 1.15rem; margin: 1.25rem 0; font-size: 1.05rem; }
+    .theme-card { background: #fff; border: 1px solid var(--border); padding: 0.85rem 1rem; margin: 0.75rem 0; }
+    .theme-card strong { color: var(--accent); }
+    .push { background: var(--blue-soft); border-left: 3px solid var(--blue); padding: 0.65rem 0.9rem; margin: 0.5rem 0; font-size: 0.92rem; }
+    .engage { background: var(--green-soft); border-left: 3px solid var(--green); padding: 0.65rem 0.9rem; margin: 0.5rem 0; font-size: 0.92rem; }
+    .book-header { background: var(--accent); color: #f5f0e8; padding: 0.65rem 1rem; margin: 2rem 0 0.75rem; font-family: var(--sans); font-size: 0.9rem; font-weight: 600; }
+    .book-1 { border-left: 4px solid var(--green); }
+    .book-2 { border-left: 4px solid var(--blue); }
+    .book-3 { border-left: 4px solid #6b4423; }
+    .book-4 { border-left: 4px solid #5c4d7a; }
+    .book-5 { border-left: 4px solid #8b2500; }
+    .book-6 { border-left: 4px solid var(--crimson); }
+    .tag { font-family: var(--sans); font-size: 0.65rem; background: var(--accent-soft); color: var(--accent); padding: 0.08rem 0.35rem; border-radius: 2px; margin-right: 0.2rem; }
+    footer { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding: 1rem 1.5rem 2rem; border-top: 1px solid var(--border); max-width: 50rem; margin: 0 auto; }
+    @media print { nav { position: static; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Strength of Thousands — Thematic GM Guide</h1>
+  <p>Human themes to emphasize at your table: where they live in each book, who carries them, when to push, and how to invite player engagement. Pin beside session prep.</p>
+</header>
+
+<nav>
+  <a href="#throughline">Through-line</a>
+  <a href="#toolkit">Toolkit</a>
+  <a href="#virtues">Virtues</a>
+  <a href="#characters">Characters</a>
+  <a href="#book1">Book 1</a>
+  <a href="#book2">Book 2</a>
+  <a href="#book3">Book 3</a>
+  <a href="#book4">Book 4</a>
+  <a href="#book5">Book 5</a>
+  <a href="#book6">Book 6</a>
+  <a href="#arc">Long arcs</a>
+  <a href="../lessons/0001-kindled-magic-gm-prep.html">Lessons</a>
+</nav>
+
+<main>
+
+<section id="throughline">
+  <h2>Campaign through-line</h2>
+  <div class="thesis">
+    You stand on others' shoulders. Knowledge obligates you to serve beyond yourself. Becoming a guardian of tradition requires humility as much as courage — because the same curiosity that rebuilds civilization can destroy the community that nurtured it.
+  </div>
+
+  <table>
+    <thead><tr><th>Theme</th><th>What it means at the table</th><th>Primary payoff</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Strength of thousands</strong></td><td>No one succeeds alone; every rank names a debt to prior generations</td><td>Book 6 Magic Warrior ceremony; Circle ritual with faculty statues</td></tr>
+      <tr><td><strong>Word and Way</strong></td><td>Study must become service — knowledge unused is incomplete</td><td>Perquisite → conversant missions → teaching → disaster rescues</td></tr>
+      <tr><td><strong>Knowledge after catastrophe</strong></td><td>Institutions preserve hope when the world loses memory</td><td>Jatembe lore; Magaambya founding; Osibu as hidden city to protect</td></tr>
+      <tr><td><strong>Five virtues</strong></td><td>Adulthood = adaptability, camaraderie, imagination, valor, knowledge</td><td>Branch assignments; Janatimo debates; Rain-Scribe "admit errors"</td></tr>
+      <tr><td><strong>Cohort & friendship</strong></td><td>Peers are load-bearing, not backdrop</td><td>Spire Dorm → teaching your own students → Unshadowed reunions</td></tr>
+      <tr><td><strong>Masks & renamed identity</strong></td><td>Who you become in service can outweigh who you were</td><td>First Masking → lore-speaker obelisk → Magic Warrior renaming</td></tr>
+      <tr><td><strong>Curiosity's shadow</strong></td><td>Smart people with good intentions can endanger everyone</td><td>Koride & the egg; serpentfolk exploiting scholarship</td></tr>
+      <tr><td><strong>Scope of responsibility</strong></td><td>Obligation grows with maturity — campus → city → nations → cosmos</td><td>Books 1→6 level and rank progression</td></tr>
+      <tr><td><strong>Succession, not conquest</strong></td><td>Immortality through institution and teaching the next generation</td><td>Graduation; Books 3–4 as teachers; PCs inherit Magic Warrior mantle</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="toolkit">
+  <h2>GM toolkit — encouraging engagement</h2>
+  <p>Reuse these habits across the whole AP. They turn prefab beats into conversations your players remember.</p>
+
+  <div class="theme-card">
+    <strong>Ask virtue questions, not lore quizzes.</strong>
+    After major scenes: "Which branch virtue did that solution embody?" or "Which virtue did we fail to show?" Reward XP or Impression Points for thoughtful answers, not correct ones.
+  </div>
+  <div class="theme-card">
+    <strong>End sessions on reflection, not loot.</strong>
+    Last 5 minutes: one player names something they learned about another PC, the school, or themselves. Tie to rank progression — initiates report to seniors; teachers debrief with students.
+  </div>
+  <div class="theme-card">
+    <strong>Keep a cohort journal (in-world).</strong>
+    Uzunjati tradition: PCs maintain a shared log of service projects, theories, and names of people helped. Read entries aloud when Book 6 callbacks land (Xhokan's shop, Tahenkot's class, etc.).
+  </div>
+  <div class="theme-card">
+    <strong>Spirit mask check-ins.</strong>
+    At First Masking and each rank ceremony, ask each PC: what animal did you choose and what part of yourself are you willing to show the community? Revisit at Magic Warrior renaming — what title replaces your old name?
+  </div>
+  <div class="theme-card">
+    <strong>Foreshadow Koride with admiration, not suspicion.</strong>
+    Players should like Koride early. When the egg plot pays off, the tragedy is personal. Have her praise a PC's specimen work; argue with Esi about rules vs. discovery.
+  </div>
+  <div class="theme-card">
+    <strong>Let failures teach.</strong>
+    Rain-Scribe ethos: wrong theories are valuable if you update them. When Janatimo's debate or an investigation goes sideways, celebrate the revision — "What do we believe now?"
+  </div>
+  <div class="theme-card">
+    <strong>Scale responsibility explicitly.</strong>
+    When rank changes, narrate the new weight: conversants speak for the school in the city; lore-speakers shape young minds; Magic Warriors carry Jatembe's legacy. Ask: "What are you not ready for yet?"
+  </div>
+</section>
+
+<section id="virtues">
+  <h2>Five branches — theme hooks</h2>
+  <table>
+    <thead><tr><th>Branch</th><th>Virtue</th><th>Theme in play</th><th>Prompt for players</th></tr></thead>
+    <tbody>
+      <tr><td>Cascade Bearers</td><td>Imagination</td><td>Problems have non-obvious solutions; wonder is professional</td><td>"What's a solution no one at this school would expect?"</td></tr>
+      <tr><td>Emerald Boughs</td><td>Camaraderie</td><td>Community inside and outside the academy</td><td>"Who outside Magaambya needs to trust us?"</td></tr>
+      <tr><td>Rain-Scribes</td><td>Adaptability</td><td>Change your mind; admit error; destroy what must not be kept</td><td>"What did we get wrong, and what do we do now?"</td></tr>
+      <tr><td>Tempest-Sun</td><td>Valor</td><td>Physical and intellectual courage — hear opposing views</td><td>"What argument are we avoiding because it's uncomfortable?"</td></tr>
+      <tr><td>Uzunjati</td><td>Knowledge</td><td>Stories + lived experience; history is alive</td><td>"What story from today belongs in the journal?"</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="characters">
+  <h2>Character theme map (whole AP)</h2>
+  <table>
+    <thead><tr><th>NPC</th><th>Theme carrier</th><th>Book 1</th><th>Book 2</th><th>Books 3–5</th><th>Book 6</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Koride Ulawa</strong></td><td>Curiosity without humility; love of discovery vs. duty to destroy</td><td>Favorite teacher; insect plot</td><td>Egg sought by Salathiss</td><td>Off-screen research</td><td>Unshadowed tragedy; contrite ally</td></tr>
+      <tr><td><strong>Takulu Ot</strong></td><td>Warm mentorship; Word and Way in daily life</td><td>Interview, Perquisite</td><td>Background</td><td>Colleague teacher</td><td>Circle ritual ally</td></tr>
+      <tr><td><strong>Janatimo</strong></td><td>Stories, diplomacy, intellectual courage</td><td>Traveling Learned One</td><td>Primary mentor; graduation</td><td>Field support</td><td>Background at finale</td></tr>
+      <tr><td><strong>Old-Mage Jatembe</strong></td><td>Hope after catastrophe; succession</td><td>Folk hero lore</td><td>Mythic reference</td><td>Doorway; rescue (B5)</td><td>Names Magic Warriors; rituals</td></tr>
+      <tr><td><strong>Spire Dorm cohort</strong></td><td>Friendship as infrastructure</td><td>Study buddies, rivals</td><td>Less present — visit them</td><td>Esi as fellow teacher</td><td>Unshadowed → freed; emotional core</td></tr>
+      <tr><td><strong>Stone Ghost (Uduak)</strong></td><td>Excluded student; institution's failures</td><td>Book 1 BBEG</td><td>—</td><td>—</td><td>Parallel to Koride (exclusion vs. favor)</td></tr>
+      <tr><td><strong>Salathiss</strong></td><td>Outsiders weaponizing your secrets</td><td>—</td><td>Manor villain</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>Walkena</strong></td><td>Power without dialogue; sovereignty vs. outreach</td><td>Named threat</td><td>—</td><td>Book 4 siege</td><td>Optional revenge hook</td></tr>
+      <tr><td><strong>Magistrate Asanda</strong></td><td>Neglect enabled by distance from consequences</td><td>—</td><td>Floods, impersonation</td><td>—</td><td>Luncheon influence game</td></tr>
+      <tr><td><strong>Slana (Vesicant Guardian)</strong></td><td>Corrupted guardian redeemed; institution endures</td><td>—</td><td>—</td><td>—</td><td>Epilogue — new protector</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- BOOK 1 -->
+<section id="book1">
+  <div class="book-header book-1">Book 1 — Kindled Magic (levels 1→4) · Initiate → Attendant</div>
+
+  <h3>Themes this book establishes</h3>
+  <ul>
+    <li><strong>You inherit a tradition</strong> — welcome speech, Perquisite, Introduction Ceremony</li>
+    <li><strong>Service before status</strong> — five branch tasks before anyone calls you attendant</li>
+    <li><strong>Cohort belonging</strong> — shared dorm, shared rank, classmates with study bonuses</li>
+    <li><strong>First identity ritual</strong> — spirit mask at First Masking</li>
+    <li><strong>Institution has blind spots</strong> — Uduak expelled; gremlin history; insects never stop</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Perquisite (Ch 1)</strong></td>
+        <td>Word and Way — magic in the market, barn, mail route</td>
+        <td>Each task: ask "who benefited?" Day 6 ceremony interrupted — service doesn't earn safety</td>
+        <td>Let PCs choose task order; debrief each evening at Spire Dorm: best/worst moment of serving strangers</td>
+      </tr>
+      <tr>
+        <td><strong>Semester & First Masking (Ch 2)</strong></td>
+        <td>Becoming someone the school recognizes</td>
+        <td>Teacher missions — PCs treated as capable before they feel ready; masking ceremony as public commitment</td>
+        <td>Mask crafting session: OOC share why this animal; NPC students react to each mask</td>
+      </tr>
+      <tr>
+        <td><strong>Stone Ghost (Ch 3)</strong></td>
+        <td>What happens to students the institution fails</td>
+        <td>Uduak's backstory via Esi; tunnels under library — buried history</td>
+        <td>After Uduak: "What would Magaambya need to change so the next Uduak isn't expelled into bitterness?" (no right answer)</td>
+      </tr>
+      <tr>
+        <td><strong>Insect through-line (hidden)</strong></td>
+        <td>Curiosity's shadow (foreshadow Koride)</td>
+        <td>Koride's enthusiasm at Rain-Scribe tasks; giant insect after masking</td>
+        <td>Reward theories about insects; Janatimo preview in Book 2 pays off if PCs speculated in Book 1</td>
+      </tr>
+      <tr>
+        <td><strong>Anadi arrival</strong></td>
+        <td>Community expands; fate vs. agency</td>
+        <td>Climax griffon attack — new students thrown into your cohort's story</td>
+        <td>Introduce Goss/Mazta/Savana with player-facing "what do we owe newcomers?" — they arrive in <strong>hybrid form</strong>; Tzeniwe (human-form anadi peer) models a different relationship to visibility</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Key NPC beats</h4>
+  <div class="push"><strong>Takulu Ot (interview):</strong> "Magic demands service" — have him ask each PC why they came, and whether they're ready to be ordinary on day one of the Perquisite.</div>
+  <div class="push"><strong>Koride (Rain-Scribe task):</strong> Brilliant, dismissive of rules — players should want her approval. Note if a PC shares her love of "gross" discovery.</div>
+  <div class="push"><strong>Esi vs. Koride:</strong> Rules-follower vs. rule-bender — let players pick sides without making either wrong.</div>
+  <div class="engage"><strong>Table habit to start here:</strong> Cohort journal + end-of-session "what did we learn about each other?"</div>
+
+  <p><a href="../lessons/0001-kindled-magic-gm-prep.html">→ Book 1 lesson</a></p>
+</section>
+
+<!-- BOOK 2 -->
+<section id="book2">
+  <div class="book-header book-2">Book 2 — Spoken on the Song Wind (levels 4→8) · Attendant → Lore-speaker</div>
+
+  <h3>Themes this book develops</h3>
+  <ul>
+    <li><strong>Intellectual courage</strong> — Janatimo wants theories, not answers</li>
+    <li><strong>Representing the institution</strong> — conversant rank; city sandbox</li>
+    <li><strong>Knowledge exploited</strong> — serpentfolk hunt Koride's secret</li>
+    <li><strong>Neglect has victims</strong> — Asanda's floods; infrastructure missions</li>
+    <li><strong>Graduation = obligation to teach</strong> — lore-speaker ceremony</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Janatimo audience (Ch 1)</strong></td>
+        <td>Revision of belief; Uzunjati knowledge</td>
+        <td>Four debate questions — reward changing your mind mid-conversation</td>
+        <td>Impression Points for best argument, not winning side. Crown of the Companion — gift of collaborative inquiry</td>
+      </tr>
+      <tr>
+        <td><strong>Anadi / Hababe investigation</strong></td>
+        <td>Secrets in the walls; egg plot surfaces</td>
+        <td>Serpentfolk in storeroom; Salathiss passwall into Koride's lab</td>
+        <td>PCs can't follow — frustration teaches limits of access. "What is Koride hiding, and why might she think she's right?"</td>
+      </tr>
+      <tr>
+        <td><strong>Griffon / Froglegs</strong></td>
+        <td>Exploitation of living things for profit</td>
+        <td>Oba Eze's shop; animal welfare</td>
+        <td>Connect to Book 1 griffon attack — causality vs. blame. Emerald Boughs: community beyond campus</td>
+      </tr>
+      <tr>
+        <td><strong>Conversant sandbox (Ch 2)</strong></td>
+        <td>Word and Way at city scale</td>
+        <td>Promotion speech: "best use of magic in the world"; pick missions that match PC virtues</td>
+        <td>Each mission debrief: one Nantambu NPC who will remember the PCs. "Tell a Tale" mission = literal Uzunjati theme</td>
+      </tr>
+      <tr>
+        <td><strong>Flooded manor (Ch 3)</strong></td>
+        <td>Leaders who abdicate; impersonation of trust</td>
+        <td>Salathiss as Asanda; neglect enabled coup</td>
+        <td>Before combat: "What did the city lose while the mayor was gone?"</td>
+      </tr>
+      <tr>
+        <td><strong>Graduation</strong></td>
+        <td>Succession — you are now teachers</td>
+        <td>Name obelisk speech: "what magic still has to teach <em>me</em>"</td>
+        <td>Full ceremony — campus + city witnesses. Ask each player to write 3 sentences; read aloud. Janatimo asks probationary teaching stay</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Key NPC beats</h4>
+  <div class="push"><strong>Janatimo:</strong> Never give the egg secret away — validate every plausible theory. Model Tempest-Sun intellectual valor.</div>
+  <div class="push"><strong>Asanda (before kidnapping):</strong> Not cartoonishly evil — busy, distant. Theme is neglect, not malice.</div>
+  <div class="engage"><strong>Between missions:</strong> Spire Dorm slice-of-life — Book 2 has less dorm content; interleave to keep camaraderie theme alive.</div>
+
+  <p><a href="../lessons/0002-spoken-on-the-song-wind-gm-prep.html">→ Book 2 lesson</a></p>
+</section>
+
+<!-- BOOK 3 -->
+<section id="book3">
+  <div class="book-header book-3">Book 3 — Hurricane's Howl (levels 8→11) · Lore-speakers become teachers</div>
+
+  <h3>Themes this book develops</h3>
+  <ul>
+    <li><strong>Students become teachers</strong> — first class, field expedition</li>
+    <li><strong>Responsibility for others' growth</strong> — missing student I'boko; pride vs. mentorship</li>
+    <li><strong>Wardens of the world</strong> — Sodden Lands; cult subjugation</li>
+    <li><strong>Showing virtue by example</strong> — PCs must model what they teach</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>First teaching assignment</strong></td>
+        <td>Succession; impostor syndrome</td>
+        <td>Oyamba assigns classes; fellow lore-speakers (Esi!) as colleagues now</td>
+        <td>Session zero for Book 3: each PC defines their teaching philosophy in one sentence. Run a short "first day of class" scene</td>
+      </tr>
+      <tr>
+        <td><strong>Student cohort (Kiutu expedition)</strong></td>
+        <td>Cohort theme inverted — you are the elders now</td>
+        <td>Onyiji, Selozè, Jumimo, I'boko — named students with personalities</td>
+        <td>Give players a student they're especially responsible for. Mirror Spire Dorm dynamics</td>
+      </tr>
+      <tr>
+        <td><strong>I'boko vanishes</strong></td>
+        <td>When protection becomes control; students hide problems from teachers</td>
+        <td>Classmates didn't report — fear of getting her in trouble</td>
+        <td>"When did we last make it safe for a student to fail?" Connect to Uduak in Book 1</td>
+      </tr>
+      <tr>
+        <td><strong>Sodden Lands / Vacant Eye</strong></td>
+        <td>Service beyond comfortable borders; environmental hardship</td>
+        <td>Liberate town; stop cult — wardens, not tourists</td>
+        <td>Debrief with students after combat: what did you learn that you can't teach from a lecture hall?</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="engage"><strong>Engagement idea:</strong> After major encounters, ask the PC teachers: "What would Takulu Ot say you did well? What would Koride criticize?"</div>
+  <p class="cite">Extract: <code>reference/sot-extracts/hurricanes-howl.txt</code> · Lesson TBD</p>
+</section>
+
+<!-- BOOK 4 -->
+<section id="book4">
+  <div class="book-header book-4">Book 4 — Secrets of the Temple-City (levels 12→14) · Diplomacy & sovereignty</div>
+
+  <h3>Themes this book develops</h3>
+  <ul>
+    <li><strong>Knowledge as diplomacy</strong> — not export, but partnership</li>
+    <li><strong>Sovereignty vs. outreach</strong> — Walkena's Mzali vs. hidden Osibu</li>
+    <li><strong>Protecting what must stay hidden</strong> — lost city needs Magaambya; army marches</li>
+    <li><strong>Valor of dialogue</strong> — Tempest-Sun: engage opposing powers before the blade</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Mzali delegation</strong></td>
+        <td>Undead god-king; power without consent</td>
+        <td>Walkena's armies; necropolis politics</td>
+        <td>PCs as teachers-diplomats: "What does Magaambya offer that conquest cannot?"</td>
+      </tr>
+      <tr>
+        <td><strong>Osibu / Nemesis Well</strong></td>
+        <td>Hidden knowledge worth guarding</td>
+        <td>Race to protect lost city from plunder</td>
+        <td>Contrast Book 2's open city service with Book 4's secret stewardship — when is silence ethical?</td>
+      </tr>
+      <tr>
+        <td><strong>Army on the march</strong></td>
+        <td>Scope of responsibility — national stakes</td>
+        <td>Failure unleashes ancient evil</td>
+        <td>Influence/luncheon skills from Book 6 preview: practice diplomatic victories here</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="push"><strong>Walkena:</strong> Embodies anti-dialogue — compare to Janatimo's debate style. PCs must represent Word and Way to powers that reject both.</div>
+  <div class="engage"><strong>Engagement idea:</strong> Assign each PC a Walkena argument they must steelman before rejecting it — intellectual valor under pressure.</div>
+  <p class="cite">Extract: <code>reference/sot-extracts/secrets-temple-city.txt</code> · Lesson TBD</p>
+</section>
+
+<!-- BOOK 5 -->
+<section id="book5">
+  <div class="book-header book-5">Book 5 — Doorway to the Red Star (levels 15→17) · Cosmic succession</div>
+
+  <h3>Themes this book develops</h3>
+  <ul>
+    <li><strong>Founder's legacy is personal</strong> — Jatembe imprisoned, not mythically absent</li>
+    <li><strong>Earning trust of guardians</strong> — Doorway keepers; Contemplatives</li>
+    <li><strong>Alliance across difference</strong> — brain creatures, ratfolk, red desert culture</li>
+    <li><strong>Contingency of evil</strong> — King's trap; rescuing Jatembe triggers Book 6 egg</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Doorway to the Red Star</strong></td>
+        <td>Knowledge after catastrophe — literal portal Jatembe used</td>
+        <td>Earn guardians' trust before passage</td>
+        <td>Connect to Uzunjati stories from Book 1 — "We are walking into the founder's myth"</td>
+      </tr>
+      <tr>
+        <td><strong>Akiton & allies</strong></td>
+        <td>Service at planetary scale; humility abroad</td>
+        <td>Scholarly cultures unlike Magaambya</td>
+        <td>PCs as ambassadors — what do they offer besides power?</td>
+      </tr>
+      <tr>
+        <td><strong>Mandibles of Fate / free Jatembe</strong></td>
+        <td>Succession imminent — save the ancestor to become the successor</td>
+        <td>Infiltration; King's contingency (egg awakens)</td>
+        <td>Before finale: Jatembe asks what they've learned as teachers. Foreshadow renaming ritual</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="push"><strong>Jatembe:</strong> Warm, deferring — he doesn't steal the spotlight. Theme: true leaders prepare successors, not dependents.</div>
+  <div class="engage"><strong>Engagement idea:</strong> Each PC tells Jatembe one story from their cohort journal. He references a detail they forgot — strength of thousands made literal.</div>
+  <p class="cite">Extract: <code>reference/sot-extracts/doorway-red-star.txt</code> · Lesson TBD</p>
+</section>
+
+<!-- BOOK 6 -->
+<section id="book6">
+  <div class="book-header book-6">Book 6 — Shadows of the Ancients (levels 18→20) · Magic Warriors · Finale</div>
+
+  <h3>Themes this book pays off</h3>
+  <ul>
+    <li><strong>Inheriting the mantle</strong> — Magic Warrior ceremony; renaming ritual</li>
+    <li><strong>Curiosity's cost</strong> — Koride, Unshadowed, egg hatches</li>
+    <li><strong>Friendship under existential threat</strong> — cohort enslaved then freed</li>
+    <li><strong>Guardian, not conqueror</strong> — save people first; Slana redeemed</li>
+    <li><strong>Institution survives</strong> — Circle ritual; faculty statues; new Vesicant Guardian</li>
+  </ul>
+
+  <h3>Story arcs</h3>
+  <table>
+    <thead><tr><th>Arc</th><th>Theme</th><th>Push moments</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Magic Warrior ceremony (Ch 1)</strong></td>
+        <td>Identity in service; renamed for the world</td>
+        <td>Koride absent; cohort absent — wrongness at triumph</td>
+        <td>OOC confirm renaming. Each PC: why this title? Who from Book 1 would be proudest?</td>
+      </tr>
+      <tr>
+        <td><strong>Luncheon influence</strong></td>
+        <td>Word and Way as politics</td>
+        <td>Asanda, Heveril, Umanja-jinga, Mpondo</td>
+        <td>Book 2 Asanda callback — did neglect change? Diplomatic growth since Book 4</td>
+      </tr>
+      <tr>
+        <td><strong>Unshadowed Koride / Protea Pavilion</strong></td>
+        <td>Love the person; condemn the hubris</td>
+        <td>True Koride fights inside; acid ate her shadow</td>
+        <td>PC who was Koride's favorite speaks first in parley. "What would you have done with the egg?"</td>
+      </tr>
+      <tr>
+        <td><strong>Endless Table (Ch 2)</strong></td>
+        <td>Humility; fable scale — smallness before vast forces</td>
+        <td>Shadow fragments; Hlakana; Practical Research on a lab table</td>
+        <td>Tone shift — wonder and whimsy before Ch 3 devastation. Rain-Scribe: adaptability at ant-size</td>
+      </tr>
+      <tr>
+        <td><strong>Larva disaster (Ch 3)</strong></td>
+        <td>Responsibility = rescue, not boss fight</td>
+        <td>Tahenkot's class, Osirian diplomats, Xhokan's shop</td>
+        <td>Name every callback NPC aloud. Split party — who goes where reflects who they became</td>
+      </tr>
+      <tr>
+        <td><strong>Circle ritual</strong></td>
+        <td>Strength of thousands — collective action</td>
+        <td>Ten Magic Warrior statues; Takulu, Oyamba, Esi, Noxolo coordinate</td>
+        <td>PCs guard Jatembe — he trusts them with the ritual while he works. Succession complete</td>
+      </tr>
+      <tr>
+        <td><strong>Three aspects / Slana epilogue</strong></td>
+        <td>Fragmentation vs. wholeness; guardian redeemed</td>
+        <td>King's split psyche; Vesicant Guardian freed</td>
+        <td>Closing question: "What will the Magaambya teach about Koride's mistake?" — institution learns from failure</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Finale engagement checklist</h4>
+  <ol>
+    <li>Read one entry from the cohort journal from Book 1 or 2.</li>
+    <li>Each PC reunites with one Spire Dorm friend during rescues.</li>
+    <li>Koride's apology scene — let it breathe; no rush to combat.</li>
+    <li>After Slana hatches: "You are no longer students. What do you teach now?"</li>
+  </ol>
+
+  <p><a href="../lessons/0003-shadows-of-the-ancients-gm-prep.html">→ Book 6 lesson</a></p>
+</section>
+
+<section id="arc">
+  <h2>Long arcs — when to plant and harvest</h2>
+  <table>
+    <thead><tr><th>Arc</th><th>Plant</th><th>Develop</th><th>Harvest</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Vesicant Egg / insects</strong></td><td>Book 1 swarms, Koride's interest</td><td>Book 2 serpentfolk; Books 3–5 background</td><td>Book 6 hatch, Unshadowed, Slana</td></tr>
+      <tr><td><strong>Spirit mask → Magic Warrior title</strong></td><td>Book 1 First Masking</td><td>Book 2 lore-speaker obelisk</td><td>Book 6 renaming — world forgets old name</td></tr>
+      <tr><td><strong>Cohort friendships</strong></td><td>Book 1 study bonuses, dorm scenes</td><td>Book 2 visit dorm; Book 3 Esi as peer teacher</td><td>Book 6 Unshadowed reunions</td></tr>
+      <tr><td><strong>Institution's failures</strong></td><td>Book 1 Uduak expelled</td><td>Book 3 students hide problems</td><td>Book 6 "what we teach about Koride"</td></tr>
+      <tr><td><strong>Jatembe succession</strong></td><td>Book 1 folk tales, Uzunjati lore</td><td>Book 5 rescue</td><td>Book 6 appointment as Magic Warriors</td></tr>
+      <tr><td><strong>Scope of service</strong></td><td>Book 1 campus Perquisite</td><td>Book 2 city; Book 4 nations</td><td>Book 5 planet; Book 6 save the school</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Session prompts by rank</h3>
+  <table>
+    <thead><tr><th>Rank</th><th>Reflection prompt</th></tr></thead>
+    <tbody>
+      <tr><td>Initiate</td><td>"Who at this school do you want to make proud — and who do you want to prove wrong?"</td></tr>
+      <tr><td>Attendant</td><td>"What part of yourself does your mask show that you used to hide?"</td></tr>
+      <tr><td>Conversant</td><td>"When we speak for Magaambya in the city, what must we not become?"</td></tr>
+      <tr><td>Lore-speaker</td><td>"What is one thing your students should learn that you can't put in a syllabus?"</td></tr>
+      <tr><td>Magic Warrior</td><td>"What title will the world remember — and what are you willing to let go of?"</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace: <code>/Users/enmaku/learning/strength-of-thousands</code> · GM spoilers · Pin with <a href="sot-glossary-and-npcs.html">glossary</a> and book lessons.</p>
+</footer>
+
+</body>
+</html>

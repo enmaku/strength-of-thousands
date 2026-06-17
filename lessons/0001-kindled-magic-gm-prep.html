@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Kindled Magic GM Prep</title>
+  <style>
+    :root {
+      --bg: #f7f4ed;
+      --ink: #1c1814;
+      --muted: #5a5348;
+      --gold: #b8860b;
+      --gold-soft: #f3e8c8;
+      --green: #2d5016;
+      --green-soft: #e6efe0;
+      --red-earth: #8b4513;
+      --border: #d4cbb8;
+      --spoiler: #4a3728;
+      --spoiler-bg: #ebe4d8;
+      --correct: #2d6a4f;
+      --wrong: #9b2226;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #1a3310 100%);
+      color: #f7f4ed;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .spoiler-box {
+      background: var(--spoiler-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      border-radius: 2px;
+    }
+    .spoiler-box strong { color: var(--spoiler); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--gold-soft); font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .timeline { font-family: var(--sans); font-size: 0.88rem; }
+    .timeline td:first-child { white-space: nowrap; font-weight: 600; color: var(--green); width: 7rem; }
+    .npc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin: 1rem 0;
+    }
+    @media (max-width: 560px) { .npc-grid { grid-template-columns: 1fr; } }
+    .npc-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 0.75rem 0.9rem;
+      border-radius: 2px;
+      font-size: 0.92rem;
+    }
+    .npc-card .name { font-weight: 700; color: var(--green); }
+    .npc-card .role { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .student-portrait { width: 64px; height: 64px; object-fit: cover; border-radius: 3px; border: 1px solid var(--border); display: block; background: #fff; }
+    td.portrait { width: 4.5rem; padding: 0.35rem; text-align: center; vertical-align: middle; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #1a3310; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Book 1 of 6 · GM Prep</p>
+    <h1>Kindled Magic — what you need before session one</h1>
+    <p>Plot threads, NPCs, chapter beats, and foreshadowing. Read once, run confidently.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="open">
+  <div class="callout">
+    <strong>Open this lesson:</strong>
+    <code>open /Users/enmaku/learning/strength-of-thousands/lessons/0001-kindled-magic-gm-prep.html</code>
+    <br>Keep <a href="../reference/sot-glossary-and-npcs.html">the glossary & NPC reference</a> and <a href="../reference/sot-thematic-guide.html">thematic guide</a> pinned for session lookup.
+  </div>
+</section>
+
+<section id="pitch">
+  <h2>The one-sentence pitch</h2>
+  <p>New initiates at the Magaambya — Golarion's oldest magic academy — complete their <em>Perquisite</em> (mandatory public service), earn their spirit masks, and uncover that campus insect swarms and gremlin sabotage trace back to a vengeful spirit in the walls… while a secret artifact in a professor's lab is the <em>real</em> long-term threat the whole AP builds toward.</p>
+  <p class="cite">Sources: <a href="https://pathfinderwiki.com/wiki/Kindled_Magic">PathfinderWiki — Kindled Magic</a>, <a href="https://paizo.com/blog/strength-of-thousands-adventure-path">Paizo AP blog</a></p>
+</section>
+
+<section id="whole-ap">
+  <h2>Whole campaign arc (skim now, detail later)</h2>
+  <p>You do <em>not</em> need Books 2–6 read to run Book 1. But these threads explain <strong>why</strong> Book 1 keeps pushing insects and why Koride matters:</p>
+  <table>
+    <thead><tr><th>Book</th><th>Levels</th><th>PC role</th><th>Main thrust</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1 Kindled Magic</strong></td><td>1→4</td><td>Initiates → attendants</td><td>Campus mystery; gremlins & Stone Ghost; mask ceremony</td></tr>
+      <tr><td>2 Spoken on the Song Wind</td><td>4→8</td><td>Conversants → <strong>lore-speakers</strong></td><td>Janatimo sandbox; city missions; Salathiss/Asanda; graduate at end</td></tr>
+      <tr><td>3 Hurricane's Howl</td><td>8→12</td><td>Lore-speakers / teachers</td><td>Field trip; missing student; Sodden Lands cult</td></tr>
+      <tr><td>4 Secrets of the Temple-City</td><td>12→15</td><td>Teachers</td><td>Diplomacy in Mzali; mummy-god Walkena's army</td></tr>
+      <tr><td>5 Doorway to the Red Star</td><td>15→18</td><td>Teachers</td><td>Portal to Akiton; rescue ally; airship infiltration</td></tr>
+      <tr><td>6 Shadows of the Ancients</td><td>18→20</td><td>Magic Warriors</td><td>Vesicant Egg hatches; King of Biting Ants; save the school</td></tr>
+    </tbody>
+  </table>
+
+  <div class="spoiler-box">
+    <strong>GM-only: the hidden main villain line</strong>
+    <ul>
+      <li><strong>Vesicant Egg</strong> — indestructible artifact; fragments of the <em>King of Biting Ants</em>. Rain-Scribe entomologist <strong>Koride Ulawa</strong> acquired it and hid it on campus. It <em>draws insects and pests</em> toward the Magaambya (and may have drawn the anadi students in Book 1's climax). Not revealed to players in Book 1.</li>
+      <li><strong>Serpentfolk</strong> — spies seek the egg's power (major in Book 2+). Koride's secret research and shadow-plane activity attract them.</li>
+      <li><strong>Jatembe's enemies</strong> — AP framing: Old-Mage Jatembe vanished; enemies still plot against his school. Pays off late.</li>
+    </ul>
+    <p class="cite">Organized Play chronicle summaries; community play reports corroborate egg/insect through-line.</p>
+  </div>
+</section>
+
+<section id="setting">
+  <h2>Setting essentials</h2>
+  <h3>Magaambya & Nantambu</h3>
+  <ul>
+    <li>Academy in the heart of <strong>Nantambu</strong>, Song-Wind City on the Vanji River (<em>Mwangi Expanse</em>).</li>
+    <li>Founded ~−2832 AR by disciples of <strong>Old-Mage Jatembe</strong> and the <strong>Ten Magic Warriors</strong> (animal-mask legends).</li>
+    <li>Philosophy: <strong>"Word and Way"</strong> — study <em>and</em> apply knowledge in service to others. Isolationist perpetual study is looked down on.</li>
+    <li>Head: <strong>High Sun-Mage Oyamba</strong> (Tempest-Sun). Most faculty are abroad at any given time; campus still feels lived-in via students & staff.</li>
+  </ul>
+
+  <h3>Five branches (each PC picks primary + secondary)</h3>
+  <table>
+    <thead><tr><th>Branch</th><th>Virtue</th><th>Book 1 hook</th></tr></thead>
+    <tbody>
+      <tr><td>Cascade Bearers</td><td>Imagination</td><td>Takulu Ot's branch; creative problem-solving</td></tr>
+      <tr><td>Emerald Boughs</td><td>Camaraderie</td><td>Social/outreach tasks; Zuma's conspiracy rants</td></tr>
+      <tr><td>Rain-Scribes</td><td>Adaptability</td><td>Koride's entomology; insect plot center</td></tr>
+      <tr><td>Tempest-Sun Mages</td><td>Valor</td><td>Mafika's tournaments & martial training</td></tr>
+      <tr><td>Uzunjati</td><td>Knowledge</td><td>Janatimo & Ahassunu; history as story</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Rank progression (whole AP)</h3>
+  <p><strong>Initiate</strong> → complete <strong>Perquisite</strong> (public service) → <strong>Attendant</strong> (wooden spirit mask) → <strong>Conversant</strong> (city reps) → <strong>Lore-speaker</strong> (teacher). Book 1 covers initiate through attendant; pace is <em>fast</em> by design.</p>
+  <p class="cite"><a href="https://paizo.com/pathfinder/adventures/pathfinderadventurepath/strengthofthousands">Player's Guide</a></p>
+</section>
+
+<section id="book1-structure">
+  <h2>Book 1 structure — three chapters</h2>
+  <p>Levels <strong>1→4</strong>. Calendar starts <strong>Arodus 4721</strong> (rainy season). Combat exists but <strong>mystery, relationships, and clever solutions</strong> are the main rewards — not hack-and-slash.</p>
+
+  <table class="timeline">
+    <thead><tr><th>When</th><th>Chapter</th><th>What happens</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>~1 week</td>
+        <td><strong>Ch 1 — Orientation</strong></td>
+        <td>Interview with Takulu Ot; dorm tour; <strong>5-day Perquisite</strong> (one task per branch); <strong>Introduction Ceremony</strong> disrupted by gremlins. <strong>Level 2</strong> after gremlin fight. 1 Study slot.</td>
+      </tr>
+      <tr>
+        <td>~1 semester+</td>
+        <td><strong>Ch 2 — First of Many</strong></td>
+        <td>Classes; teacher service missions; academia downtime (<strong>2–4 Study</strong>); insect infestations worsen; <strong>First Masking</strong> in Tireless Hall → giant insect attack. <strong>Level 3</strong> after masking fight.</td>
+      </tr>
+      <tr>
+        <td>~few days</td>
+        <td><strong>Ch 3 — Stone-Cast Shadows</strong></td>
+        <td>Map tunnels under Archhorn Library; fight <strong>Stone Ghost</strong> (oread ex-student Uduak); anadi students arrive; griffon attack. Magical mask loot. <strong>Level 4</strong> at end. <em>Content warning: animal cruelty.</em></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="cite">Advancement track: Paizo AP #169 Campaign Overview (extracted from your PDF).</p>
+</section>
+
+<section id="chapter1">
+  <h2>Chapter 1 — beat by beat</h2>
+
+  <h3>Opening</h3>
+  <ul>
+    <li>PCs arrive as a <strong>cohort</strong> (not a random adventuring party — shared dorm, shared rank).</li>
+    <li><strong>Takulu Ot</strong> (Cascade Bearer teacher) conducts the <strong>group interview</strong> — often at Welcome Walk or Tireless Hall. Friendly diplomat; mbira player; loves anteaters. Becomes recurring mentor.</li>
+    <li>Welcome speech: magic demands <strong>service</strong>. PCs get brief campus exploration, then the Perquisite.</li>
+  </ul>
+
+  <h3>Perquisite — five service projects (5 days + ceremony)</h3>
+  <p>Spire Dorm seniors assign one task per day (Esi organized them by branch). Day 6 = meet teachers; then a rest day and classes. Order in book:</p>
+  <ol>
+    <li><strong>Rain-Scribes</strong> — Ojofiri chicks from <strong>Kafesi Market</strong> (Magaambya boycotts market; PCs pass as new). Esi + Haibram.</li>
+    <li><strong>Tempest-Sun</strong> — Remove <strong>pugwampi gremlins</strong> from storage barn <em>non-lethally</em>. Esi mentions expelled student <strong>Uduak</strong>. Secret hatch → tunnels.</li>
+    <li><strong>Cascade Bearers</strong> — Gather magical components (Chizire/Mariama assignment).</li>
+    <li><strong>Emerald Boughs</strong> — Ritual / outreach task (Ignaci/Tzeniwe).</li>
+    <li><strong>Uzunjati</strong> — Mail delivery into Nantambu + recount stories (Okoro/Noxolo).</li>
+  </ol>
+  <p>Day 6: <strong>Introduction Ceremony</strong> at Tireless Hall — gremlin saboteurs attack. PCs reach <strong>level 2</strong> after defeating them.</p>
+
+  <h3>Chapter 1 antagonists (first hints)</h3>
+  <ul>
+    <li><strong>Kurshkin</strong> — pugwampi; unluck aura; tied to gremlin attack on ceremony.</li>
+    <li><strong>Stone Ghost</strong> — not named yet; gremlins use tunnels beneath campus.</li>
+    <li>Library research on Uduak / pugwampis rewards curious PCs early.</li>
+  </ul>
+</section>
+
+<section id="chapter2">
+  <h2>Chapter 2 — the school year</h2>
+
+  <h3>Academia subsystem (your pacing lever)</h3>
+  <ul>
+    <li>Between scenes: PCs <strong>Study</strong> primary/secondary branch → ranks → bonus feats/skills (Magaambyan Attendant archetype at rank 3).</li>
+    <li>Book suggests <strong>2–4 Study opportunities</strong> this chapter. Pair each with a "meet a teacher" or campus event.</li>
+    <li><strong>Cramming</strong> = study both branches at once but stay fatigued — discourage early.</li>
+    <li>Typical GM calendar: ~4 Study checks + 4 events → masking ceremony ~1 year after arrival.</li>
+  </ul>
+
+  <h3>First Masking (emotional peak)</h3>
+  <ul>
+    <li>Held in <strong>Tireless Hall</strong>. Each PC crafts a wooden <strong>spirit mask</strong> (animal face = spirit face / Magic Warrior tradition). Initiates → attendants.</li>
+    <li>Fellow students' masks are described in "Students of the Magaambya" — use for color (Esi's buffalo, Tzeniwe's peacock spider with crooked eyes from her kids, etc.).</li>
+    <li>Ceremony interrupted by a <strong>major insect attack</strong> — giant bees, silverfish swarms, tsetse flies. PCs reach <strong>level 3</strong> after.</li>
+  </ul>
+
+  <h3>Other chapter 2 beats (interleave with Study)</h3>
+  <ul>
+    <li>Fetch quests, a joust/tournament (Mafika's mecha-leshies), rituals, Koride's entomology lectures (repulsive but charismatic).</li>
+    <li><strong>Tzeniwe's</strong> surprise party — slice-of-life with her spiderling twins.</li>
+    <li>Relationship track: students move from Liked → <strong>Helpful</strong> (grants study bonuses). Not everyone will love every PC — that's fine.</li>
+  </ul>
+
+  <h3>Chapter epigraphs</h3>
+  <p>Each chapter opens with a fable or in-world vignette. Author intent (<a href="https://paizo.com/threads/rzs43fo2?1-Kindled-Magic=">Ron Lundeen, Paizo forums</a>): mood and theme, not player spoilers. Read aloud or paraphrase.</p>
+  <ul>
+    <li>Ch 1 — Jatembe fable: bad-luck spirit targets his "children" (students).</li>
+    <li>Ch 2 — Mountain woman: magic-users need respect or they withdraw.</li>
+    <li>Ch 3 — Bee dance: trickster teaches communication (foreshadows investigation & teamwork).</li>
+  </ul>
+</section>
+
+<section id="chapter3">
+  <h2>Chapter 3 — the truth in the tunnels</h2>
+
+  <h3>Investigation</h3>
+  <p>After the insect surge, PCs (and faculty) need answers. Trail leads to <strong>tunnels / abandoned sections</strong> beneath campus. Hazards include trapped centipede carcasses, gremlin nests, and **magical mask treasures** (Ot can transfer powers to PCs' own masks).</p>
+
+  <h3>Stone Ghost — Book 1 BBEG</h3>
+  <div class="spoiler-box">
+    <p><strong>Uduak Basni</strong> — former <strong>oread</strong> student, cruel and selfish. During his Perquisite he massacred gremlins instead of removing them peacefully (the sin Esi warns against). Expelled; attacked teachers; Magaambya wards <strong>rebounded</strong> and seemingly disintegrated him.</p>
+    <p>He survived merged with the <strong>stone walls</strong>. Wards hide him. He commands gremlins, takes the name <strong>Stone Ghost</strong>, digs tunnels, and plots revenge. Body: stone chunks, mosaic face, shattered ward-runes.</p>
+    <p>Module may involve kidnapped students — some GMs soften this (students endangered but not murdered) to preserve trust in the academy.</p>
+  </div>
+
+  <h3>Kurshkin — secondary villain</h3>
+  <p>Immortal pugwampi; grudge against Takulu Ot (he stuffed her in a sack on an elephant ~4698). Her gremlin friends were killed by Uduak. Returns ~4719, allying with Stone Ghost. Fightable non-lethally; may negotiate truce after Book 1 if handled with care.</p>
+
+  <h3>Anadi arrival & griffons</h3>
+  <ul>
+    <li><strong>Anadi forms matter:</strong> three shapes (human, spider, hybrid). <strong>Tzeniwe</strong> usually presents human; her portrait in “Students of the Magaambya” is human-form — correct. Twins shift freely (spiderling on her back, human child on knee).</li>
+    <li>New arrivals <strong>Goss, Mazta, Savana</strong> appear in <strong>hybrid form</strong> at the Speaker’s Stage — atypical for travelers; Society DC 15 = they’re new to Nantambu customs. Some classmates are unsettled (Esi is fine — friends with Tzeniwe).</li>
+    <li><strong>Griffons</strong> attack them (unusual predation). PCs intervene; faculty backup for climax.</li>
+    <li>GM layer: egg's pull may explain both anadi and insects — don't reveal yet; Janatimo might note the coincidence later.</li>
+  </ul>
+
+  <h3>Book 1 ending</h3>
+  <p>Defeat or banish Stone Ghost. Campus safer. PCs are <strong>level 4 attendants</strong> with masks. Insects <em>don't</em> fully stop — Koride's egg still beckons. Bridge to Book 2: conversant duties in Nantambu, serpentfolk interest.</p>
+</section>
+
+<section id="npcs">
+  <h2>Who to know — Book 1 cast</h2>
+
+  <h3>Faculty & staff (recurring AP-wide)</h3>
+  <div class="npc-grid">
+    <div class="npc-card"><div class="name">Takulu Ot</div><div class="role">Cascade Bearer · mentor</div>Group interview, Perquisite, mbira, wholesome (students joke about secret dark past — false). <strong>AP:</strong> steady ally.</div>
+    <div class="npc-card"><div class="name">Koride Ulawa</div><div class="role">Rain-Scribe · entomology</div>Acerbic, skips class, loves gross nature. <strong>AP:</strong> biggest faculty role; secretly holds Vesicant Egg; Book 6 climax.</div>
+    <div class="npc-card"><div class="name">Janatimo</div><div class="role">Uzunjati · Learned One</div>Kind storyteller; recently returned from travel. <strong>AP:</strong> lore & diplomacy.</div>
+    <div class="npc-card"><div class="name">Zuma</div><div class="role">Emerald Boughs</div>Half-orc conspiracy theorist playwright; sharp mind, exhausting. Defensive magic expert.</div>
+    <div class="npc-card"><div class="name">Ahassunu</div><div class="role">Uzunjati · iruxi</div>Diplomatic history; vivid past, forgets lunch. Perceives time strangely.</div>
+    <div class="npc-card"><div class="name">Mafika Ayuwari</div><div class="role">Tempest-Sun</div>Ruby Phoenix Tournament veteran; mecha-leshy fights; leopard jacket.</div>
+    <div class="npc-card"><div class="name">Teacher Nhyira</div><div class="role">Ekujae elf</div>Fortress sieges reenacted as poetry assignments; claims to hear plants grow.</div>
+    <div class="npc-card"><div class="name">Lumusi Yao</div><div class="role">Dining hall</div>Campus cook; seasonal Mwangi food; students eat free.</div>
+    <div class="npc-card"><div class="name">Xhokan</div><div class="role">Kobold · Powderpile</div>Strict shopkeeper; gear up to low-level magic items.</div>
+  </div>
+
+  <h3>Spire Dorm students (relationship engine)</h3>
+  <p>Nine detailed peers — friends, rivals, study buddies. Authors suggest players optionally <a href="https://paizo.com/products/btq01yop?Pathfinder-Adventure-Path-152-Kindled-Magic">roleplay specific student NPCs</a> in addition to their PCs. Each grants a <strong>study bonus</strong> when Helpful. Portraits from the book’s “Students of the Magaambya” section (pp. 67–71).</p>
+  <table>
+    <thead><tr><th></th><th>Student</th><th>Branch</th><th>One-line hook</th></tr></thead>
+    <tbody>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/anchor-root-120.jpg" alt="Anchor Root" width="64" height="64"></td><td>Anchor Root</td><td>Rain-Scribe</td><td>Ant gnoll bonekeeper-in-training; shy; rhythm bones</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/chizire-120.jpg" alt="Chizire" width="64" height="64"></td><td>Chizire</td><td>Cascade Bearer</td><td>Catfolk slacker; dorm still; sleeps through class but knows answers</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/esi-djana-120.jpg" alt="Esi Djana" width="64" height="64"></td><td>Esi Djana</td><td>Tempest-Sun</td><td>Star pupil; idolizes her Tempest-Sun mother; rules follower</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/haibram-thodja-120.jpg" alt="Haibram Thodja" width="64" height="64"></td><td>Haibram Thodja</td><td>Tempest-Sun</td><td>Dwarf daredevil; hang-gliders; pyromania (never his fault)</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/ignaci-canterells-120.jpg" alt="Ignaci Canterells" width="64" height="64"></td><td>Ignaci Canterells</td><td>Emerald Bough</td><td>Chelaxian thaumaturge; fashionable; "trust no one"</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/mariama-keitana-120.jpg" alt="Mariama Keitana" width="64" height="64"></td><td>Mariama Keitana</td><td>Cascade Bearer</td><td>Chaos magnet occultist; accidentally summoned a devil once</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/noxolo-120.jpg" alt="Noxolo" width="64" height="64"></td><td>Noxolo</td><td>Uzunjati</td><td>Mysterious augur/dancer; fled noble life; pet "snabble"</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/okoro-obiyo-120.jpg" alt="Okoro Obiyo" width="64" height="64"></td><td>Okoro Obiyo</td><td>Uzunjati</td><td>Board-game GM; terrified of butterflies; relentless positivity</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="../reference/images/spire-dorm/tzeniwe-120.jpg" alt="Tzeniwe" width="64" height="64"></td><td>Tzeniwe</td><td>Emerald Bough</td><td>Anadi dreamweaver — book portrait is <em>human form</em>; twins Zachva & Zanvi; stress-baker; themed outfits</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Antagonists</h3>
+  <ul>
+    <li><strong>Stone Ghost (Uduak)</strong> — vengeful spirit in the walls; Book 1 finale.</li>
+    <li><strong>Kurshkin</strong> — pugwampi jinxer; comic relief menace; collateral damage aura.</li>
+    <li><strong>Umbo</strong> — fungus-related NPC/creature tied to scarlet-cap mushroom component quest; attacks if PCs steal mushrooms.</li>
+  </ul>
+</section>
+
+<section id="themes">
+  <h2>Themes at this book</h2>
+  <p>Full guide: <a href="../reference/sot-thematic-guide.html#book1">Thematic GM Guide — Book 1</a>. Emphasize these at your table:</p>
+  <table>
+    <thead><tr><th>Theme</th><th>Where it lives</th><th>Push it</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Strength of thousands</strong></td><td>Welcome speech; Perquisite; cohort dorm</td><td>Takulu Ot: "magic demands service" at interview</td><td>Start cohort journal; end sessions with "what we learned about each other"</td></tr>
+      <tr><td><strong>Word and Way</strong></td><td>Five Perquisite tasks leave campus</td><td>Debrief each task: who benefited?</td><td>Let PCs choose task order; seniors advise, not command</td></tr>
+      <tr><td><strong>Cohort friendship</strong></td><td>Spire Dorm students; study bonuses</td><td>Esi/Haibram on Rain-Scribe run; branch pairs</td><td>Pick 1–2 NPC students each PC cares about; voice them at dorm meals</td></tr>
+      <tr><td><strong>First identity ritual</strong></td><td>First Masking</td><td>Mask = spirit fragment shown to community</td><td>OOC: why this animal? NPCs react to each mask at ceremony</td></tr>
+      <tr><td><strong>Institution's blind spots</strong></td><td>Uduak expelled; gremlin tunnels</td><td>Esi mentions Uduak during Tempest-Sun task</td><td>After Stone Ghost: "What would change so the next Uduak isn't cast out?"</td></tr>
+      <tr><td><strong>Curiosity's shadow</strong> <span class="tag">foreshadow</span></td><td>Insects; Koride's enthusiasm</td><td>Koride dismisses rules; favors Anchor Root</td><td>Reward insect theories — Janatimo pays off in Book 2</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><strong>Koride:</strong> Players should <em>admire</em> her in Book 1. Brilliant, acerbic, exciting — the Book 6 tragedy only lands if they like her first.</div>
+</section>
+
+<section id="gm-tips">
+  <h2>GM tips — prefab-friendly</h2>
+  <ul>
+    <li><strong>Read Campaign Overview + Ch 1</strong> before session 1; skim Ch 2–3 and "Students" / "Life in the Academy" before month-two play.</li>
+    <li><strong>Mwangi Expanse</strong> book — optional for Book 1 (mostly campus); valuable for mail run and essential later.</li>
+    <li><strong>Hand out all service projects at once</strong> if the fetch chain feels railroady; fellow students advise, not command.</li>
+    <li><strong>Reward creativity</strong> — XP for service, mysteries, and friends, not just combat (Paizo sidebar).</li>
+    <li><strong>Common = Mwangi</strong> in this AP, not Taldane.</li>
+    <li><strong>Ch 3 content warning</strong> — animal cruelty; check table consent.</li>
+    <li><strong>Insects</strong> are the AP's through-line enemy type; Lean into creepy-crawlies.</li>
+    <li><strong>Everyone should feel magical</strong> — Player's Guide gives dabblers cantrips; casters get more. Non-casters aren't second-class.</li>
+    <li><strong>Prefab handles maps/stats</strong> — your job is pacing, NPC voice, and connecting beats to branch virtues.</li>
+  </ul>
+</section>
+
+<section id="foreshadow">
+  <h2>What to foreshadow in Book 1 (don't explain yet)</h2>
+  <ul>
+    <li>Insects keep coming back no matter what you clear.</li>
+    <li>Koride is <em>weirdly</em> interested in specimens; she plays favorites (Anchor Root) and antagonizes Esi.</li>
+    <li>Gremlin history on campus is older and bloodier than current pranks suggest.</li>
+    <li>Anadi arrival feels fated — Janatimo might call it a blessing in disguise.</li>
+    <li>Faculty trust PCs with real responsibility absurdly fast — lean into "legendary cohort" tone or add slice-of-life to slow burn.</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>Self-check — ready for session one?</h2>
+
+  <div class="quiz" data-q="1" data-answer="b">
+    <h3>1. What must initiates complete before becoming attendants?</h3>
+    <button onclick="check(this,'a')">A. The Ruby Phoenix Tournament</button>
+    <button onclick="check(this,'b')">B. The Perquisite (public service)</button>
+    <button onclick="check(this,'c')">C. A thesis defense before Oyamba</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="c">
+    <h3>2. Book 1's immediate BBEG is…</h3>
+    <button onclick="check(this,'a')">A. Koride Ulawa</button>
+    <button onclick="check(this,'b')">B. The King of Biting Ants</button>
+    <button onclick="check(this,'c')">C. Stone Ghost (Uduak)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="a">
+    <h3>3. Which faculty member is most important AP-wide (Book 6 payoff)?</h3>
+    <button onclick="check(this,'a')">A. Koride Ulawa</button>
+    <button onclick="check(this,'b')">B. Zuma</button>
+    <button onclick="check(this,'c')">C. Lumusi Yao</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b">
+    <h3>4. How many Study downtime slots should you plan in Chapter 2?</h3>
+    <button onclick="check(this,'a')">A. Zero — all adventure</button>
+    <button onclick="check(this,'b')">B. Two to four</button>
+    <button onclick="check(this,'c')">C. Ten minimum</button>
+    <div class="feedback"></div>
+  </div>
+</section>
+
+<section id="followup">
+  <h2>Next steps</h2>
+  <p>When Book 1 ends, continue with <a href="0002-spoken-on-the-song-wind-gm-prep.html">Book 2 — Spoken on the Song Wind</a>.</p>
+  <p>Ask your teacher for: a player-safe Nantambu primer; session-zero checklist; or Book 3 prep after graduation.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace: <code>/Users/enmaku/learning/strength-of-thousands</code> · Lesson 0001 · Spoilers for GMs only — do not share with players.</p>
+  <p>Citations: <a href="https://pathfinderwiki.com/wiki/Strength_of_Thousands">PathfinderWiki</a>, <a href="https://paizo.com/threads/rzs43fo2?1-Kindled-Magic=">Paizo GM Reference</a>, <a href="https://thegaminggang.com/our_reviews/schools-in-for-summer-pathfinder-kindled-magic-reviewed">The Gaming Gang review</a>.</p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const quiz = btn.closest('.quiz');
+  const correct = quiz.dataset.answer;
+  const fb = quiz.querySelector('.feedback');
+  if (choice === correct) {
+    fb.textContent = 'Correct — you\'re ready to run this beat.';
+    fb.className = 'feedback correct';
+  } else {
+    fb.textContent = 'Not quite — reread the section above and try again.';
+    fb.className = 'feedback wrong';
+  }
+}
+</script>
+</body>
+</html>

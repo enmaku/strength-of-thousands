@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "anchor-root",
+    "name": "Anchor Root",
+    "portrait": "anchor-root.jpg",
+    "thumb": "anchor-root-120.jpg",
+    "source_page": 69,
+    "xref": 1321
+  },
+  {
+    "slug": "chizire",
+    "name": "Chizire",
+    "portrait": "chizire.jpg",
+    "thumb": "chizire-120.jpg",
+    "source_page": 70,
+    "xref": 1336
+  },
+  {
+    "slug": "esi-djana",
+    "name": "Esi Djana",
+    "portrait": "esi-djana.jpg",
+    "thumb": "esi-djana-120.jpg",
+    "source_page": 70,
+    "xref": 1340
+  },
+  {
+    "slug": "haibram-thodja",
+    "name": "Haibram Thodja",
+    "portrait": "haibram-thodja.jpg",
+    "thumb": "haibram-thodja-120.jpg",
+    "source_page": 71,
+    "xref": 1357
+  },
+  {
+    "slug": "ignaci-canterells",
+    "name": "Ignaci Canterells",
+    "portrait": "ignaci-canterells.jpg",
+    "thumb": "ignaci-canterells-120.jpg",
+    "source_page": 71,
+    "xref": 1361
+  },
+  {
+    "slug": "mariama-keitana",
+    "name": "Mariama Keitana",
+    "portrait": "mariama-keitana.jpg",
+    "thumb": "mariama-keitana-120.jpg",
+    "source_page": 72,
+    "xref": 1378
+  },
+  {
+    "slug": "noxolo",
+    "name": "Noxolo",
+    "portrait": "noxolo.jpg",
+    "thumb": "noxolo-120.jpg",
+    "source_page": 72,
+    "xref": 1382
+  },
+  {
+    "slug": "okoro-obiyo",
+    "name": "Okoro Obiyo",
+    "portrait": "okoro-obiyo.jpg",
+    "thumb": "okoro-obiyo-120.jpg",
+    "source_page": 73,
+    "xref": 1399
+  },
+  {
+    "slug": "tzeniwe",
+    "name": "Tzeniwe",
+    "portrait": "tzeniwe.jpg",
+    "thumb": "tzeniwe-120.jpg",
+    "source_page": 73,
+    "xref": 1403
+  }
+]

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Shadows of the Ancients GM Prep</title>
+  <style>
+    :root {
+      --bg: #1a1410; --ink: #f5efe6; --muted: #a89888;
+      --crimson: #8b2500; --crimson-soft: #3d1a12;
+      --gold: #c9a227; --gold-soft: #2a2418;
+      --border: #4a3d32; --spoiler-bg: #251c16;
+      --correct: #6b9e78; --wrong: #c45c5c;
+      --font: Georgia, "Iowan Old Style", Palatino, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 1.1rem; line-height: 1.65; }
+    header { background: linear-gradient(135deg, var(--crimson) 0%, #3d0a00 100%); padding: 2.5rem 1.5rem 2rem; border-bottom: 3px solid var(--gold); }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.9; margin: 0 0 0.5rem; }
+    header h1 { font-size: 2rem; font-weight: 600; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 { font-size: 1.35rem; margin: 2.25rem 0 0.75rem; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 0.35rem; }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: #e8c896; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    a { color: #e8b86d; }
+    .callout { background: var(--crimson-soft); border-left: 4px solid var(--crimson); padding: 1rem 1.15rem; margin: 1.25rem 0; font-size: 0.98rem; }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); padding: 1rem 1.15rem; margin: 1.25rem 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+    th { background: var(--gold-soft); font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; color: var(--gold); }
+    .timeline td:first-child { white-space: nowrap; font-weight: 600; color: var(--gold); width: 6rem; }
+    .quiz { background: var(--spoiler-bg); border: 1px solid var(--border); padding: 1.25rem; margin: 1.5rem 0; }
+    .quiz h3 { margin-top: 0; color: var(--gold); }
+    .quiz button { font-family: var(--sans); background: var(--crimson); color: #fff; border: none; padding: 0.45rem 0.9rem; margin: 0.35rem 0.35rem 0.35rem 0; cursor: pointer; border-radius: 2px; font-size: 0.85rem; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem 3rem; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 1.5rem; }
+    .nav-lessons { font-family: var(--sans); font-size: 0.88rem; margin-bottom: 1.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Book 6 of 6 · GM Prep · Finale</p>
+    <h1>Shadows of the Ancients — save the Magaambya</h1>
+    <p>Magic Warriors, the Vesicant Egg hatches, fairy-tale shrinkage, colossal larva, and the King’s last stand.</p>
+  </div>
+</header>
+
+<main>
+
+<p class="nav-lessons"><a href="0002-spoken-on-the-song-wind-gm-prep.html">← Book 2</a> · <a href="0001-kindled-magic-gm-prep.html">Book 1</a> · <a href="../reference/sot-glossary-and-npcs.html">NPC reference</a> · <a href="../reference/sot-thematic-guide.html#book6">Themes</a></p>
+
+<section id="pitch">
+  <h2>The one-sentence pitch</h2>
+  <p>PCs return from Akiton with **Old-Mage Jatembe**, become **Magic Warriors** — then discover **Koride** and their original cohort enslaved by the hatching **Vesicant Egg**. After a **Honey-I-Shrunk** fable on Koride’s lab table, a **colossal larva** wrecks campus; the finale is disaster-movie rescues, a campus-wide binding ritual at **the Circle**, and a three-boss fight against the **King of Biting Ants’s** split psyche — ending with a benevolent **Vesicant Guardian** ant.</p>
+  <p class="callout"><strong>Prerequisite:</strong> Assumes Book 5 (*Doorway to the Red Star*) — PCs rescued Jatembe from the King aboard the *Mandibles of Fate*. The King’s defeat triggered his contingency: the egg awakens.</p>
+</section>
+
+<section id="arc-payoff">
+  <h2>What this book pays off (Book 1 → now)</h2>
+  <ul>
+    <li><strong>Vesicant Egg</strong> — Koride was supposed to destroy it; she kept it at the **Protea Pavilion** instead. Acid from a fracture eats shadows → victims become **Unshadowed** drones.</li>
+    <li><strong>Insect swarms</strong> — since Kindled Magic; the egg was always calling vermin.</li>
+    <li><strong>Original cohort</strong> — Esi, Haibram, Ignaci, Okoro, etc. reappear as Unshadowed helpers; Koride absent from Jatembe’s ceremony.</li>
+    <li><strong>Magic Warrior masks</strong> — Jatembe gives PCs new **Magic Warrior** titles (renaming ritual — the world remembers only their title, not their old names).</li>
+    <li><strong>Dignitaries</strong> — Asanda, Father Heveril, Umanja-jinga of Osibu, Warder-Chief Mpondo (Iobane) attend; influence luncheon with Oyamba.</li>
+  </ul>
+</section>
+
+<section id="levels">
+  <h2>Levels</h2>
+  <table>
+    <thead><tr><th>Level</th><th>When</th></tr></thead>
+    <tbody>
+      <tr><td>18</td><td>Start — return with Jatembe</td></tr>
+      <tr><td>19</td><td>Before entering the Endless Table (shrunken)</td></tr>
+      <tr><td>20</td><td>After claiming the egg / restored size; Ch 3 finale</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="structure">
+  <h2>Three chapters</h2>
+  <table class="timeline">
+    <thead><tr><th>Chapter</th><th>Title</th><th>Core beats</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Ch 1</td>
+        <td><strong>Unshadowed Academy</strong></td>
+        <td>Triumph + Magic Warrior ceremony; luncheon influence game; find missing Koride & cohort; **Protea Pavilion** hedge maze; fight **Unshadowed Koride**; egg shrinks PCs.</td>
+      </tr>
+      <tr>
+        <td>Ch 2</td>
+        <td><strong>The Endless Table</strong></td>
+        <td>Fable-mode: ant-sized on Koride’s lab table; red ant queen, clockwork cat, norn **Hlakana**; recover **4 pieces of Koride’s shadow**; cure Unshadowed; claim egg → normal size.</td>
+      </tr>
+      <tr>
+        <td>Ch 3</td>
+        <td><strong>The Unborn King</strong></td>
+        <td>**Titanic larva** (natural disaster, not direct damage sponge); rescue NPCs (Tahenkot’s class, Osirian diplomats, Xhokan’s shop); net ritual at **the Circle**; **Mind of the King** — 3 aspects; **Vesicant Guardian** hatches.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="chapter1">
+  <h2>Chapter 1 — Unshadowed Academy</h2>
+
+  <h3>Opening celebration (don’t rush this)</h3>
+  <ul>
+    <li>Massive ceremony at the name obelisk; Jatembe names PCs **Magic Warriors** (first living holders in millennia).</li>
+    <li>PCs demonstrate prowess; **renaming ritual** — everyone except Jatembe & other PCs remembers them only by chosen Magic Warrior title.</li>
+    <li><strong>Koride is absent</strong> (DC 35 Perception to notice). So is the rest of the PCs’ original cohort.</li>
+    <li>Cameos: Esi (skeptical teacher), Tzeniwe + grown twins Zachva & Zanvi.</li>
+  </ul>
+
+  <h3>Luncheon — influence subsystem</h3>
+  <p>Four rounds with dignitaries (Gamemastery Guide p.151). Impress Asanda, Heveril, Umanja-jinga, Mpondo for political rewards. Beaded bracelet luck charms optional.</p>
+
+  <h3>Investigation → Protea Pavilion</h3>
+  <ul>
+    <li>Cohort members (Ignaci, Okoro, etc.) act oddly — running Koride’s insect research.</li>
+    <li>Pavilion **relocated/hidden** in overgrown hedges; thorn guardians, **Tatterthread** (First World creature).</li>
+    <li><strong>Unshadowed Koride</strong> — egg’s acid ate her shadow; true Koride still fights inside.</li>
+    <li>Defeating/curing her triggers egg fracture → PCs **shrunk** onto the Endless Table.</li>
+  </ul>
+</section>
+
+<section id="chapter2">
+  <h2>Chapter 2 — The Endless Table</h2>
+  <p>Deliberately **fable/fairy-tale** tone — whimsical problems, improbable NPCs. Not a combat grind; exploration and story logic.</p>
+  <ul>
+    <li>PCs smaller than ants; ordinary lab objects are dungeons.</li>
+    <li><strong>Red ant queen</strong> wants to marry the returning King; ant society blocks the party.</li>
+    <li>Roamers: **Adanyini** the kitten (Anchor Root → Haibram), clockwork hazards.</li>
+    <li>Collect <strong>4 shadow fragments</strong>; earn **Hlakana** the norn’s favor → restore Koride, remove Unshadowed.</li>
+    <li><strong>Practical Research</strong> downtime on the table (branch levels up to 20!).</li>
+    <li>Claiming the **Vesicant Egg** restores PC size — but hatching continues.</li>
+  </ul>
+</section>
+
+<section id="chapter3">
+  <h2>Chapter 3 — The Unborn King</h2>
+
+  <h3>Larva as disaster (key GM note)</h3>
+  <p>The larva is **too big to fight with normal damage**. Treat it like an earthquake + acid flood. PCs save people first:</p>
+  <ul>
+    <li><strong>Tahenkot’s</strong> Tempest-Sun class — trapped on acid island (slowed by psychic birth cry).</li>
+    <li><strong>Osirian diplomats</strong> — Izem Mezitani sheltering them (romance subplot optional).</li>
+    <li><strong>Xhokan’s Powderpile</strong> — supply store endangered.</li>
+  </ul>
+  <p>Split party OK; time pressure; acid splash escalates if rescues drag.</p>
+
+  <h3>The Circle ritual</h3>
+  <ul>
+    <li>Koride (contrite, shadow restored) proposes containing the larva; Jatembe leads combined ritual at campus edge.</li>
+    <li>Allies coordinate at **Ten Magic Warrior statues**: Oyamba, Takulu, Ahassunu, Esi, Noxolo, etc.</li>
+    <li>PCs **guard Jatembe** at the Circle for ~1 hour — waves of wereants & ant swarms; DC 35 Arcana/Nature each round or extra monsters spawn.</li>
+  </ul>
+
+  <h3>Mind of the King (final combat)</h3>
+  <p>Net forces larva to burst; three psychic aspects manifest:</p>
+  <table>
+    <thead><tr><th>Aspect</th><th>Represents</th><th>Key weakness (Evaluate Aspect DC 40)</th></tr></thead>
+    <tbody>
+      <tr><td>Aspect of Hunger</td><td>Mindless consumption (crimson worm)</td><td>Divine & primal spells</td></tr>
+      <tr><td>Aspect of Insects</td><td>Insectile nature (multi-headed mukradi-like)</td><td>Arcane & occult spells</td></tr>
+      <tr><td>Aspect of Immortality</td><td>Victory over death (grim reaper skeleton)</td><td>Arcane & primal spells</td></tr>
+    </tbody>
+  </table>
+  <p>Destroying one aspect heals others +100 HP — kill order matters. Aspects don’t flank together.</p>
+
+  <h3>Epilogue — Vesicant Guardian</h3>
+  <p>After all three fall, larva dissolves. A **giant black ant** (Slana / Vesicant Guardian) hatches — Jatembe’s intended guardian, corrupted long ago, now freed. She becomes the Magaambya’s new defender. Campaign ends.</p>
+</section>
+
+<section id="npcs">
+  <h2>Who matters in the finale</h2>
+  <table>
+    <thead><tr><th>NPC</th><th>Role</th></tr></thead>
+    <tbody>
+      <tr><td>Old-Mage Jatembe</td><td>Names Magic Warriors; leads rituals; powerful but defers spotlight to PCs</td></tr>
+      <tr><td>Koride Ulawa / Unshadowed Koride</td><td>Tragic villain-turned-ally; insect expert; egg keeper</td></tr>
+      <tr><td>High Sun-Mage Oyamba</td><td>Hosts luncheon; coordinates ritual teams</td></tr>
+      <tr><td>Original cohort</td><td>Unshadowed then freed — emotional reunions</td></tr>
+      <tr><td>Lesedi</td><td>Guards Koride during Circle ritual</td></tr>
+      <tr><td>Slana (Vesicant Guardian)</td><td>New campus protector; reward tone</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="themes">
+  <h2>Themes at this book — payoff</h2>
+  <p>Full guide: <a href="../reference/sot-thematic-guide.html#book6">Thematic GM Guide — Book 6</a> · <a href="../reference/sot-thematic-guide.html#arc">long arcs</a>.</p>
+  <table>
+    <thead><tr><th>Theme</th><th>Where it lives</th><th>Push it</th><th>Engage players</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Inheriting the mantle</strong></td><td>Magic Warrior ceremony; renaming</td><td>Koride absent at triumph — wrongness first</td><td>OOC confirm renaming; each PC: why this title?</td></tr>
+      <tr><td><strong>Curiosity's cost</strong></td><td>Unshadowed Koride; egg; Protea Pavilion</td><td>True Koride fights inside — love the person</td><td>PC Koride favored speaks first in parley</td></tr>
+      <tr><td><strong>Cohort friendship</strong></td><td>Unshadowed then freed; Ch 3 rescues</td><td>Name Spire Dorm friends in rescue scenes</td><td>Read one cohort journal entry from Book 1/2 aloud</td></tr>
+      <tr><td><strong>Guardian, not conqueror</strong></td><td>Larva as disaster; save people first</td><td>Tahenkot, Xhokan, diplomats — not HP sponge</td><td>Split party by who they became — who goes where?</td></tr>
+      <tr><td><strong>Strength of thousands</strong></td><td>Circle ritual; faculty at statues</td><td>Jatembe defers — PCs guard the ritual</td><td>Closing: "What will Magaambya teach about Koride's mistake?"</td></tr>
+    </tbody>
+  </table>
+  <div class="callout"><strong>Finale checklist:</strong> Koride apology scene — let it breathe · Ch 2 fable tone before Ch 3 devastation · Slana epilogue: "What do you teach now?"</div>
+</section>
+
+<section id="gm-tips">
+  <h2>GM tips</h2>
+  <ul>
+    <li><strong>Let Book 1 callbacks land</strong> — name every Spire Dorm friend you can in Ch 1 & 3 rescues.</li>
+    <li><strong>Ch 2 tone shift</strong> — play it lighter; contrast makes Ch 3 devastation hit harder.</li>
+    <li><strong>Ch 3 is frantic</strong> — short rests scarce; familiar faces need saving, not just strangers.</li>
+    <li><strong>Renaming ritual</strong> — confirm with players OOC; their old names vanish from NPC memories (except party + Jatembe).</li>
+    <li><strong>Campaign Repercussions</strong> (book p.75) — optional hooks: Jatembe’s travels, Walkena’s revenge, Osibu’s Nemesis Well, “one ant survived on Akiton…”</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>Self-check</h2>
+  <div class="quiz" data-answer="b">
+    <h3>1. What creates the Unshadowed?</h3>
+    <button onclick="check(this,'a')">A. Stone Ghost’s curse</button>
+    <button onclick="check(this,'b')">B. Vesicant Egg acid destroying shadows</button>
+    <button onclick="check(this,'c')">C. Salathiss’s poison</button>
+    <div class="feedback"></div>
+  </div>
+  <div class="quiz" data-answer="c">
+    <h3>2. The colossal larva should be run as…</h3>
+    <button onclick="check(this,'a')">A. A single-target HP sponge</button>
+    <button onclick="check(this,'b')">B. A social encounter</button>
+    <button onclick="check(this,'c')">C. A natural disaster — save people first</button>
+    <div class="feedback"></div>
+  </div>
+  <div class="quiz" data-answer="a">
+    <h3>3. The campaign’s final reward guardian is…</h3>
+    <button onclick="check(this,'a')">A. Slana / Vesicant Guardian (giant black ant)</button>
+    <button onclick="check(this,'b')">B. Kurshkin redeemed</button>
+    <button onclick="check(this,'c')">C. Stone Ghost reborn</button>
+    <div class="feedback"></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Source: Paizo AP #174 · <code>reference/sot-extracts/shadows-of-the-ancients.txt</code></p>
+  <p>Books 3–5 lessons not yet written — read those volumes before running into this finale.</p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const quiz = btn.closest('.quiz');
+  const fb = quiz.querySelector('.feedback');
+  if (choice === quiz.dataset.answer) {
+    fb.textContent = 'Correct.';
+    fb.className = 'feedback correct';
+  } else {
+    fb.textContent = 'Not quite — reread above.';
+    fb.className = 'feedback wrong';
+  }
+}
+</script>
+</body>
+</html>

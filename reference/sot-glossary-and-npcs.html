@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoT — Glossary & NPC Quick Reference</title>
+  <style>
+    :root {
+      --bg: #faf8f3;
+      --ink: #1a1814;
+      --muted: #6b6358;
+      --accent: #2d5016;
+      --accent-soft: #e8efe4;
+      --gold: #9a7b2e;
+      --border: #d8d0c4;
+      --font: Georgia, "Iowan Old Style", Palatino, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 0.95rem; line-height: 1.5; }
+    header { background: var(--accent); color: #fff; padding: 1.5rem; }
+    header h1 { margin: 0; font-size: 1.4rem; }
+    header p { margin: 0.35rem 0 0; opacity: 0.9; font-size: 0.88rem; }
+    nav { background: var(--accent-soft); padding: 0.75rem 1.5rem; font-family: var(--sans); font-size: 0.8rem; border-bottom: 1px solid var(--border); }
+    nav a { margin-right: 1rem; color: var(--accent); }
+    main { max-width: 52rem; margin: 0 auto; padding: 1.25rem 1.5rem 3rem; }
+    h2 { font-size: 1.15rem; color: var(--accent); margin: 2rem 0 0.6rem; border-bottom: 1px solid var(--gold); padding-bottom: 0.25rem; }
+    h3 { font-size: 1rem; margin: 1.25rem 0 0.4rem; color: var(--gold); }
+    dl { margin: 0 0 1rem; }
+    dt { font-weight: 700; margin-top: 0.65rem; }
+    dd { margin: 0.15rem 0 0 0; color: var(--ink); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0.75rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.4rem 0.55rem; text-align: left; vertical-align: top; }
+    th { background: var(--accent-soft); font-family: var(--sans); font-size: 0.72rem; text-transform: uppercase; }
+    .tag { font-family: var(--sans); font-size: 0.68rem; background: var(--accent-soft); color: var(--accent); padding: 0.1rem 0.35rem; border-radius: 2px; margin-left: 0.25rem; }
+    .student-portrait { width: 72px; height: 72px; object-fit: cover; border-radius: 3px; border: 1px solid var(--border); display: block; background: #fff; }
+    td.portrait { width: 5rem; padding: 0.35rem; text-align: center; vertical-align: middle; }
+    @media print { .student-portrait { width: 56px; height: 56px; } }
+    footer { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding: 1rem 1.5rem 2rem; border-top: 1px solid var(--border); max-width: 52rem; margin: 0 auto; }
+    @media print { nav { display: none; } body { font-size: 9pt; } }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Strength of Thousands — Glossary & NPCs</h1>
+  <p>Book 1 focus · print-friendly · GM spoilers</p>
+</header>
+<nav>
+  <a href="#terms">Terms</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#students">Spire Dorm</a>
+  <a href="#villains">Antagonists</a>
+  <a href="#places">Places</a>
+  <a href="sot-thematic-guide.html">Themes</a>
+  <a href="../lessons/0001-kindled-magic-gm-prep.html">← Lesson</a>
+</nav>
+<main>
+
+<section id="terms">
+  <h2>Glossary</h2>
+  <dl>
+    <dt>Magaambya</dt>
+    <dd>World's oldest magic academy; island campus in Nantambu. Founded by Old-Mage Jatembe's disciples. Service-oriented: "Word and Way."</dd>
+    <dt>Perquisite</dt>
+    <dd>Mandatory public service before becoming an attendant. Book 1 Ch 1 = five branch-themed tasks over five days.</dd>
+    <dt>Spirit mask / spirit face</dt>
+    <dd>Wooden animal mask holding a fragment of the student's spirit. First Masking ceremony (Ch 2) marks initiate → attendant.</dd>
+    <dt>Introduction Ceremony</dt>
+    <dd>End of Ch 1 — formal welcome for new initiates. Gremlins attack here; PCs hit level 2 after.</dd>
+    <dt>First Masking</dt>
+    <dd>Ch 2 ceremony in Tireless Hall; giant insects attack; PCs hit level 3 after.</dd>
+    <dt>Vesicant Egg</dt>
+    <dd>~1 ft artifact; King's psyche fragments. Koride holds it secretly. Draws insects. AP-wide MacGuffin.</dd>
+    <dt>King of Biting Ants</dt>
+    <dd>Ant-swarm sorcerer; banished to Akiton by Jatembe. Final AP villain line via the egg.</dd>
+    <dt>Doorway to the Red Star</dt>
+    <dd>Portal in Mwangi jungles; links to Akiton. Books 5–6.</dd>
+    <dt>Common (this AP)</dt>
+    <dd><strong>Mwangi</strong>, not Taldane — per Campaign Overview.</dd>
+    <dt>Anadi</dt>
+    <dd>Shapeshifting spider-folk: <strong>human</strong>, <strong>spider</strong>, and <strong>hybrid</strong> forms. Peaceful; tight-knit communities. Book portraits often show human form — especially <strong>Tzeniwe</strong>, who usually presents human on campus. Outside the Magaambya, many Mwangi wrongly fear anadi as monsters; Nantambu/academy culture is more accepting, but reactions still vary by NPC.</dd>
+  </dl>
+</section>
+
+<section id="faculty">
+  <h2>Faculty & staff (Book 1)</h2>
+  <table>
+    <thead><tr><th>Name</th><th>Branch</th><th>Voice / role</th></tr></thead>
+    <tbody>
+      <tr><td>Takulu Ot</td><td>Cascade Bearer</td><td>Kind mentor; group interview; mbira; anteater trinket. Mathematician who studies teaching.</td></tr>
+      <tr><td>Koride Ulawa</td><td>Rain-Scribe</td><td>Entomologist; acerbic; skips class. <strong>AP keystone</strong>; has Vesicant Egg.</td></tr>
+      <tr><td>Janatimo</td><td>Uzunjati</td><td>Learned One; storyteller; returned from travels.</td></tr>
+      <tr><td>Zuma</td><td>Emerald Bough</td><td>Half-orc conspiracy-theorist playwright; sharp, exhausting.</td></tr>
+      <tr><td>Ahassunu</td><td>Uzunjati</td><td>Iruxi diplomatic historian; vivid past, forgets present.</td></tr>
+      <tr><td>Mafika Ayuwari</td><td>Tempest-Sun</td><td>Ruby Phoenix celeb; mecha-leshy tournaments.</td></tr>
+      <tr><td>Nhyira</td><td>—</td><td>Ekujae elf; siege reenactments as poetry assignments.</td></tr>
+      <tr><td>High Sun-Mage Oyamba</td><td>Tempest-Sun</td><td>Head of school (mostly off-screen Book 1).</td></tr>
+      <tr><td>Lumusi Yao</td><td>Staff</td><td>Dining hall chef; seasonal Mwangi food.</td></tr>
+      <tr><td>Xhokan</td><td>Staff</td><td>Kobold; Powderpile shop; strict accountant.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="students">
+  <h2>Spire Dorm cohort</h2>
+  <p>Senior initiates assign Perquisite tasks. Relationship: Liked → Helpful (study bonuses). Portraits from <em>Kindled Magic</em> pp. 67–71 (“Students of the Magaambya”).</p>
+  <table>
+    <thead><tr><th></th><th>Student</th><th>Branch</th><th>Hook</th><th>Study bonus (when Helpful)</th></tr></thead>
+    <tbody>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/anchor-root-120.jpg" alt="Anchor Root" width="72" height="72"></td><td>Anchor Root</td><td>Rain-Scribe</td><td>Ant gnoll bonekeeper; shy; rhythm bones</td><td>Rain-Scribe crit fail → fail on Study</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/chizire-120.jpg" alt="Chizire" width="72" height="72"></td><td>Chizire</td><td>Cascade Bearer</td><td>Catfolk slacker; dorm still</td><td>—</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/esi-djana-120.jpg" alt="Esi Djana" width="72" height="72"></td><td>Esi Djana</td><td>Tempest-Sun</td><td>Star pupil; rules follower</td><td>Tempest-Sun success → crit success</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/haibram-thodja-120.jpg" alt="Haibram Thodja" width="72" height="72"></td><td>Haibram Thodja</td><td>Tempest-Sun</td><td>Dwarf daredevil; hang-gliders</td><td>Cram Rain-Scribe 3× not 2×</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/ignaci-canterells-120.jpg" alt="Ignaci Canterells" width="72" height="72"></td><td>Ignaci Canterells</td><td>Emerald Bough</td><td>Chelaxian thaumaturge; fashionable</td><td>—</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/mariama-keitana-120.jpg" alt="Mariama Keitana" width="72" height="72"></td><td>Mariama Keitana</td><td>Cascade Bearer</td><td>Chaos magnet occultist</td><td>Reroll Cascade Study (fortune)</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/noxolo-120.jpg" alt="Noxolo" width="72" height="72"></td><td>Noxolo</td><td>Uzunjati</td><td>Fugitive noble; dancer; snabble pet</td><td>Uzunjati crit fail → fail</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/okoro-obiyo-120.jpg" alt="Okoro Obiyo" width="72" height="72"></td><td>Okoro Obiyo</td><td>Uzunjati</td><td>Game master; fear of butterflies</td><td>No fatigue after Uzunjati Cram</td></tr>
+      <tr><td class="portrait"><img class="student-portrait" src="images/spire-dorm/tzeniwe-120.jpg" alt="Tzeniwe" width="72" height="72"></td><td>Tzeniwe</td><td>Emerald Bough</td><td>Anadi dreamweaver (human-form portrait); mom to Zachva & Zanvi; stress-baker</td><td>Emerald success → crit success (not when Cramming)</td></tr>
+    </tbody>
+  </table>
+  <h3>Ch 3 — new anadi students</h3>
+  <p><strong>Goss</strong> (Rainbows-Reflected-Upon-Gossamer-Strands), <strong>Mazta</strong> (Barest-Threads-Billowing Maztachia), <strong>Savana</strong> (Droplets-Hanging-Gently Savanakin) — arrive after tunnel events in <strong>hybrid form</strong> (unusual for travelers; signals they’re new to Nantambu). Need defense from griffons. Book 2: still prefer spider/hybrid at Hababe; Tzeniwe is the social bridge.</p>
+</section>
+
+<section id="villains">
+  <h2>Antagonists — Book 1</h2>
+  <dl>
+    <dt>Stone Ghost <span class="tag">BBEG</span></dt>
+    <dd><strong>Uduak</strong>, expelled oread student who slaughtered gremlins during his Perquisite. Wards rebounding "killed" him; merged with campus stone. Commands gremlins; digs tunnel network.</dd>
+    <dt>Kurshkin <span class="tag">secondary</span></dt>
+    <dd>Ancient pugwampi; unluck aura; grudge vs Takulu Ot. Allies with Stone Ghost. Cowardly; may survive non-lethally.</dd>
+    <dt>Gremlin saboteurs</dt>
+    <dd>Disrupt Introduction Ceremony (Ch 1). Connected to Stone Ghost's network.</dd>
+  </dl>
+</section>
+
+<section id="places">
+  <h2>Campus landmarks (Book 1)</h2>
+  <table>
+    <thead><tr><th>Location</th><th>Book 1 use</th></tr></thead>
+    <tbody>
+      <tr><td>Welcome Walk</td><td>Arrival; interview with Takulu Ot</td></tr>
+      <tr><td>Spire Dormitory</td><td>PC & NPC housing</td></tr>
+      <tr><td>Tireless Hall</td><td>Introduction Ceremony; First Masking; insect attack</td></tr>
+      <tr><td>Archhorn Library</td><td>Ch 3 tunnel entry; Koride sends mapping teams</td></tr>
+      <tr><td>Kafesi Market</td><td>Ch 1 Rain-Scribe run (Ojofiri chicks); Magaambya boycott</td></tr>
+      <tr><td>Powderpile</td><td>Xhokan's shop</td></tr>
+      <tr><td>Verdant House / Warden House</td><td>Campus map — note errata: p.52 "Warden House next to Archhorn" → Verdant House</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="book2">
+  <h2>Book 2 — Nantambu & graduation</h2>
+  <dl>
+    <dt>Conversant</dt>
+    <dd>Rank after attendant; Magaambya reps in Nantambu. Granted early in Book 2 Ch 2.</dd>
+    <dt>Lore-speaker</dt>
+    <dd>Graduated teacher rank. PCs earn at end of Book 2 (level 8) at the name obelisk.</dd>
+    <dt>Salathiss</dt>
+    <dd>Serpentfolk spy studying Vesicant Egg via passwall into Koride's lab; impersonates Mayor Asanda.</dd>
+    <dt>Froglegs</dt>
+    <dd>Grippli crime boss; released griffons; tainted alchemical powders.</dd>
+  </dl>
+  <p><a href="../lessons/0003-shadows-of-the-ancients-gm-prep.html">Book 6 finale lesson →</a></p>
+</section>
+
+</main>
+<footer>
+  Source: Paizo AP #169–170 extracts in <code>reference/sot-extracts/</code> · <a href="sot-campaign-overview.md">Campaign overview</a>
+</footer>
+</body>
+</html>
