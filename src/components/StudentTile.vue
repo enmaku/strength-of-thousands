@@ -11,19 +11,33 @@
     </q-card-section>
 
     <q-card-section class="q-pt-sm">
-      <div class="row items-center q-gutter-xs hearts-row">
-        <q-btn
-          v-for="n in 5"
-          :key="n"
-          flat
-          dense
-          round
-          :icon="n <= tile.disposition ? 'favorite' : 'favorite_border'"
-          :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
-          :disable="!editable"
-          :aria-label="heartAriaLabel(n)"
-          @click="onHeartClick(n)"
-        />
+      <div
+        class="row items-center q-gutter-xs hearts-row"
+        :aria-label="editable ? undefined : `Disposition ${tile.disposition} of 5`"
+      >
+        <template v-if="editable">
+          <q-btn
+            v-for="n in 5"
+            :key="n"
+            flat
+            dense
+            round
+            :icon="n <= tile.disposition ? 'favorite' : 'favorite_border'"
+            :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
+            :aria-label="heartAriaLabel(n)"
+            @click="onHeartClick(n)"
+          />
+        </template>
+        <template v-else>
+          <q-icon
+            v-for="n in 5"
+            :key="n"
+            class="heart-icon"
+            :name="n <= tile.disposition ? 'favorite' : 'favorite_border'"
+            :color="n <= tile.disposition ? 'red-6' : 'grey-5'"
+            aria-hidden="true"
+          />
+        </template>
       </div>
 
       <div class="row q-gutter-md q-mt-sm indicator-row">
@@ -91,5 +105,9 @@ function heartAriaLabel(n) {
 
 .benefit-tooltip {
   max-width: 22rem;
+}
+
+.heart-icon {
+  font-size: 1.5rem;
 }
 </style>
