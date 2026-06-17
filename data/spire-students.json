@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "anchor-root",
+    "displayName": "Anchor Root",
+    "branch": "Rain-Scribe",
+    "portrait": "anchor-root.jpg",
+    "thumb": "anchor-root-120.jpg",
+    "classroomAdvantage": "Treat your critical failures when you Study for Rain-Scribe classes as failures instead.",
+    "uncommonRules": {
+      "name": "Rhythm Bone",
+      "description": "ITEM 1 · UNCOMMON · AUDITORY · MAGICAL. Held in 1 hand; Bulk L. Activate [one-action] Interact: the bone records the next 1 minute of ambient sounds (including speech) that require a DC 15 or lower Perception check to hear. Magical auditory effects are not copied. Once activated this way, it retains the recording for the rest of its existence and cannot record again. Activate [one-action] Interact: replay recorded sounds. Level 1, 8 gp. Greater (level 4, 64 gp): records 10 minutes at DC 20. Craft Requirements: supply a casting of ghost sound."
+    }
+  },
+  {
+    "slug": "chizire",
+    "displayName": "Chizire",
+    "branch": "Cascade Bearer",
+    "portrait": "chizire.jpg",
+    "thumb": "chizire-120.jpg",
+    "classroomAdvantage": "You don't get tired after you Cram for Cascade Bearer classes.",
+    "uncommonRules": {
+      "name": "Verminous Lure",
+      "description": "SPELL 1 · UNCOMMON · OLFACTORY · TRANSMUTATION · Primal. Cast [two-actions] somatic, verbal; Range 30 feet; Targets 1 creature or object; Duration 10 minutes. The target emits a musk captivating to certain animals. Tiny animals and animal swarms within range must attempt a Will save. On failure, non-hostile animals try to touch the target; hostile ones prefer to attack the target if able without extra actions or danger. Does not change attitudes; overridden by direct control (e.g. Command an Animal). Animals with imprecise sense can use scent as precise sense against the target."
+    }
+  },
+  {
+    "slug": "esi-djana",
+    "displayName": "Esi Djana",
+    "branch": "Tempest-Sun Mage",
+    "portrait": "esi-djana.jpg",
+    "thumb": "esi-djana-120.jpg",
+    "classroomAdvantage": "Treat your successes to Study for Tempest-Sun Mage classes as critical successes instead.",
+    "uncommonRules": {
+      "name": "Impeccable Flow",
+      "description": "SPELL 2 · UNCOMMON · DIVINATION · LAWFUL · Arcane, divine. Cast [two-actions] somatic, verbal; Duration 1 minute. Attune to cosmic order: +1 status bonus to Perception checks, saving throws, and skill checks. If you critically fail any check while under the effect, the bonus ends and you take –1 status penalty to all checks for the remaining duration. Heightened (5th): +2. Heightened (8th): +3."
+    }
+  },
+  {
+    "slug": "haibram-thodja",
+    "displayName": "Haibram Thodja",
+    "branch": "Rain-Scribe",
+    "portrait": "haibram-thodja.jpg",
+    "thumb": "haibram-thodja-120.jpg",
+    "classroomAdvantage": "When you Cram for Rain-Scribe classes, you can Study three times rather than twice.",
+    "uncommonRules": {
+      "name": "Airburst",
+      "description": "SPELL 1 · UNCOMMON · AIR · EVOCATION · Arcane, primal. Cast [one-action] verbal; Area 5-foot emanation. A blast of wind pushes everything nearby. Unattended objects of 1 Bulk or less are pushed 5 feet away. Large or smaller creatures: Fortitude save. Critical Success: unaffected. Success: –2 status penalty to reaction checks until end of your turn. Failure: as success, pushed 5 feet. Critical Failure: pushed 5 feet and cannot use reactions until end of your turn. Heightened (4th): 10-foot emanation, push 10 feet."
+    }
+  },
+  {
+    "slug": "ignaci-canterells",
+    "displayName": "Ignaci Canterells",
+    "branch": "Emerald Bough",
+    "portrait": "ignaci-canterells.jpg",
+    "thumb": "ignaci-canterells-120.jpg",
+    "classroomAdvantage": "When you Cram for Emerald Boughs classes, treat your critical failures as failures instead.",
+    "uncommonRules": {
+      "name": "Forgetful Ink",
+      "description": "ITEM 6 · UNCOMMON · ALCHEMICAL · CONSUMABLE · CONTACT · POISON · 32 gp. Held in 2 hands; Bulk L. Activate [one-action] Interact. One dose pens a page of text. Anyone handling the page is exposed (including casual reading unless precautions are taken). Retains potency for one year regardless of victims exposed. Saving Throw DC 20 Fortitude (secret); Onset 1 minute; Stage 1: reader forgets the contents, recalling blank or inconsequential text."
+    }
+  },
+  {
+    "slug": "mariama-keitana",
+    "displayName": "Mariama Keitana",
+    "branch": "Cascade Bearer",
+    "portrait": "mariama-keitana.jpg",
+    "thumb": "mariama-keitana-120.jpg",
+    "classroomAdvantage": "You can reroll a check to Study for a Cascade Bearer class; this is a fortune effect.",
+    "uncommonRules": {
+      "name": "Lesson of Calamity",
+      "description": "LESSON (Uncommon): A witch who befriends Mariama can select the lesson of calamity when a feat or other effect grants a basic lesson. You gain the stumbling curse hex, and your familiar learns ill omen. Stumbling Curse (Focus 1): Cast [one-action] somatic; Range 60 feet; 1 creature; sustained up to 1 minute. Reflex save. Success: –2 status penalty to Athletics and Acrobatics. Failure: as success, and each Stride uses the first 5 feet in a random direction (forced movement). Critical Failure: you control the direction of the first 5 feet."
+    }
+  },
+  {
+    "slug": "noxolo",
+    "displayName": "Noxolo",
+    "branch": "Uzunjati",
+    "portrait": "noxolo.jpg",
+    "thumb": "noxolo-120.jpg",
+    "classroomAdvantage": "Treat your critical failures to Study in Uzunjati classes as failures instead.",
+    "uncommonRules": {
+      "name": "Grave Impressions",
+      "description": "SPELL 2 · UNCOMMON · NECROMANCY · Divine, occult. Cast 1 minute (somatic, verbal); Range touch; Targets 1 corpse; Duration 10 minutes. Project a fragment of your senses into the corpse. Within 500 feet (even without line of sight/effect), see from where the corpse had eyes and hear from where it had ears using your normal senses. Switch between your senses and the corpse's with a single concentrate action. If the corpse lacked eyes or ears in life, that sense is unavailable. Spell ends if the corpse is moved. Heightened (4th): 1 hour. Heightened (6th): until next daily preparations."
+    }
+  },
+  {
+    "slug": "okoro-obiyo",
+    "displayName": "Okoro Obiyo",
+    "branch": "Uzunjati",
+    "portrait": "okoro-obiyo.jpg",
+    "thumb": "okoro-obiyo-120.jpg",
+    "classroomAdvantage": "You don't get tired after you Cram for Uzunjati classes.",
+    "uncommonRules": {
+      "name": "Mind Games",
+      "description": "SPELL 2 · UNCOMMON · ENCHANTMENT · MENTAL · Arcane, occult. Cast [two-actions] somatic, verbal; Cost 3 gp game piece focus; Range 30 feet; Targets 1 creature; Will save; Duration sustained up to 1 minute. Lock minds with the target to mentally subdue them. Each Sustain: target attempts another Will save. Critical Success: you are stunned 1, spell ends. Success: unaffected. Failure: stunned 1. Critical Failure: stunned 2."
+    }
+  },
+  {
+    "slug": "tzeniwe",
+    "displayName": "Tzeniwe",
+    "branch": "Emerald Bough",
+    "portrait": "tzeniwe.jpg",
+    "thumb": "tzeniwe-120.jpg",
+    "classroomAdvantage": "Treat your successes to Study for Emerald Boughs classes as critical successes instead, but this doesn't apply when you Cram.",
+    "uncommonRules": {
+      "name": "Friendfetch",
+      "description": "SPELL 1 · UNCOMMON · EVOCATION · FORCE · Arcane, occult. Cast [two-actions] somatic, verbal; Range 30 feet; Targets 1 or 2 willing creatures. Ephemeral telekinetic strands drag each target directly toward you, stopping in the closest unoccupied space in that path. Forced movement."
+    }
+  }
+]

@@ -2,7 +2,9 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-toolbar-title> Strength of Thousands </q-toolbar-title>
+        <q-toolbar-title>
+          <router-link to="/" class="home-link"> Strength of Thousands </router-link>
+        </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -15,3 +17,10 @@
 <script setup>
 //
 </script>
+
+<style scoped>
+.home-link {
+  color: inherit;
+  text-decoration: none;
+}
+</style>
