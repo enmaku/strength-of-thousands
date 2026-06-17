@@ -45,42 +45,51 @@
       </div>
 
       <div class="row q-gutter-md q-mt-sm indicator-row">
-        <div class="row items-center q-gutter-xs">
+        <button
+          type="button"
+          class="indicator-trigger"
+          :aria-label="classroomAdvantageAriaLabel"
+          @click="openDetail('classroom')"
+        >
           <q-icon
             name="school"
             size="sm"
             :class="tile.classroomAdvantageUnlocked ? 'indicator-unlocked' : 'indicator-locked'"
           />
-          <q-tooltip
-            anchor="top middle"
-            self="bottom middle"
-            max-width="22rem"
-          >
-            <div class="text-weight-medium q-mb-xs">Classroom Advantage</div>
-            {{ tile.classroomAdvantageTooltip }}
-          </q-tooltip>
-        </div>
-        <div class="row items-center q-gutter-xs">
+        </button>
+        <button
+          type="button"
+          class="indicator-trigger"
+          :aria-label="uncommonRulesAriaLabel"
+          @click="openDetail('uncommon')"
+        >
           <q-icon
             name="auto_stories"
             size="sm"
             :class="tile.uncommonRulesUnlocked ? 'indicator-unlocked' : 'indicator-locked'"
           />
-          <q-tooltip
-            anchor="top middle"
-            self="bottom middle"
-            max-width="22rem"
-          >
-            <div class="text-weight-medium q-mb-xs">{{ tile.uncommonRulesName }}</div>
-            {{ tile.uncommonRulesTooltip.replace(`${tile.uncommonRulesName}: `, '') }}
-          </q-tooltip>
-        </div>
+        </button>
       </div>
     </q-card-section>
+
+    <q-dialog v-model="detailOpen">
+      <q-card class="indicator-detail-card">
+        <q-card-section>
+          <div class="text-h6">{{ detailTitle }}</div>
+        </q-card-section>
+        <q-card-section class="q-pt-none">
+          {{ detailBody }}
+        </q-card-section>
+        <q-card-actions align="right">
+          <q-btn flat label="Close" @click="detailOpen = false" />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </q-card>
 </template>
 
 <script setup>
+import { computed, ref } from 'vue'
 import PortraitLightbox from 'components/PortraitLightbox.vue'
 
 const props = defineProps({
@@ -91,6 +100,38 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['set-hearts'])
+
+const detailOpen = ref(false)
+const detailKind = ref(null)
+
+const detailTitle = computed(() => {
+  if (detailKind.value === 'classroom') return 'Classroom Advantage'
+  if (detailKind.value === 'uncommon') return props.tile.uncommonRulesName
+  return ''
+})
+
+const detailBody = computed(() => {
+  if (detailKind.value === 'classroom') return props.tile.classroomAdvantageTooltip
+  if (detailKind.value === 'uncommon') {
+    return props.tile.uncommonRulesTooltip.replace(`${props.tile.uncommonRulesName}: `, '')
+  }
+  return ''
+})
+
+const classroomAdvantageAriaLabel = computed(() => {
+  const status = props.tile.classroomAdvantageUnlocked ? '' : ' (locked)'
+  return `Classroom Advantage${status}`
+})
+
+const uncommonRulesAriaLabel = computed(() => {
+  const status = props.tile.uncommonRulesUnlocked ? '' : ' (locked)'
+  return `${props.tile.uncommonRulesName}${status}`
+})
+
+function openDetail(kind) {
+  detailKind.value = kind
+  detailOpen.value = true
+}
 
 function onHeartClick(n) {
   if (!props.editable) return
@@ -116,5 +157,24 @@ function heartAriaLabel(n) {
 
 .heart-icon {
   font-size: 1.5rem;
+}
+
+.indicator-trigger {
+  padding: 0.25rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 4px;
+  line-height: 0;
+}
+
+.indicator-trigger:focus-visible {
+  outline: 2px solid var(--q-primary);
+  outline-offset: 2px;
+}
+
+.indicator-detail-card {
+  min-width: 20rem;
+  max-width: min(28rem, 92vw);
 }
 </style>
