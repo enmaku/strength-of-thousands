@@ -59,7 +59,7 @@ describe('deriveHeroTile', () => {
     expect(tile.name).toBe('Taraan Skyseeker')
     expect(tile.level).toBe(2)
     expect(tile.ancestry).toBe('Tengu')
-    expect(tile.alignment).toBe('N')
+    expect(tile.background).toBe('Archaeologist')
     expect(tile.classLine).toBe('Cleric / Witch / Winged Warrior')
 
     expect(tile.abilityMods).toEqual({
@@ -110,6 +110,40 @@ describe('deriveHeroTile', () => {
       { name: 'Ancient Regional', rank: 2 },
       { name: 'Tengu', rank: 2 },
     ])
+  })
+
+  it('treats PathBuilder "None selected" as empty for languages and lores', () => {
+    const tile = deriveHeroTile({
+      ...taraanBuild,
+      languages: ['Common', 'None selected', 'Elven'],
+      lores: [
+        ['Hunting', 2],
+        ['None selected', 2],
+      ],
+    })
+
+    expect(tile.languages).toEqual(['Common', 'Elven'])
+    expect(tile.lores).toEqual([{ name: 'Hunting', rank: 2 }])
+  })
+
+  it('hides languages section when only placeholder is present', () => {
+    const tile = deriveHeroTile({
+      ...taraanBuild,
+      languages: ['None selected'],
+      lores: [],
+    })
+
+    expect(tile.languages).toEqual([])
+    expect(tile.lores).toEqual([])
+  })
+
+  it('omits background when PathBuilder placeholder is set', () => {
+    const tile = deriveHeroTile({
+      ...taraanBuild,
+      background: 'None selected',
+    })
+
+    expect(tile.background).toBeNull()
   })
 })
 

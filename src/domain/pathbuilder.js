@@ -165,6 +165,15 @@ function trainedOrBetter(rank) {
   return (rank ?? 0) >= PROF_RANK_TRAINED
 }
 
+function isPathbuilderNoneSelected(value) {
+  // PathBuilder emits "None selected" for unset list fields; treat as empty (see CONTEXT.md).
+  return typeof value === 'string' && value.trim().toLowerCase() === 'none selected'
+}
+
+function withoutPathbuilderPlaceholders(values) {
+  return (values ?? []).filter((value) => !isPathbuilderNoneSelected(value))
+}
+
 function computeProficiencies(build) {
   const prof = build.proficiencies ?? {}
   const wornShield = (build.armor ?? []).some((a) => a.worn && a.prof === 'shield')
@@ -179,7 +188,9 @@ function computeProficiencies(build) {
 }
 
 function formatLores(lores) {
-  return (lores ?? []).map(([name, rank]) => ({ name, rank }))
+  return (lores ?? [])
+    .filter(([name]) => !isPathbuilderNoneSelected(name))
+    .map(([name, rank]) => ({ name, rank }))
 }
 
 export function deriveHeroTile(build) {
@@ -192,7 +203,7 @@ export function deriveHeroTile(build) {
     name: build.name,
     level: build.level,
     ancestry: build.ancestry,
-    alignment: build.alignment,
+    background: isPathbuilderNoneSelected(build.background) ? null : (build.background ?? null),
     classLine: buildClassLine(build),
     abilityMods: {
       str: mods.str,
@@ -213,7 +224,7 @@ export function deriveHeroTile(build) {
     spellAttack: spellStats.spellAttack,
     spellDc: spellStats.spellDc,
     proficiencies: computeProficiencies(build),
-    languages: [...(build.languages ?? [])],
+    languages: withoutPathbuilderPlaceholders(build.languages),
     lores: formatLores(build.lores),
   }
 }

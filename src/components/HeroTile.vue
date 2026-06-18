@@ -3,7 +3,7 @@
     <q-card-section class="hero-header q-pb-sm">
       <div class="text-h6 text-weight-bold">{{ tile.name }}</div>
       <div class="text-caption sot-muted">
-        Level {{ tile.level }} {{ tile.ancestry }} · {{ tile.alignment }}
+        Level {{ tile.level }} {{ tile.ancestry }}<template v-if="tile.background"> · {{ tile.background }}</template>
       </div>
       <div class="text-caption sot-muted">{{ tile.classLine }}</div>
     </q-card-section>
@@ -102,22 +102,30 @@
 
     <q-card-section class="hero-footer q-pt-none">
       <div class="zone-rule q-mb-sm" />
-      <div class="prof-checks">
-        <span v-for="item in profItems" :key="item.key" class="prof-item">
-          <q-icon
-            :name="tile.proficiencies[item.key] ? 'check_box' : 'check_box_outline_blank'"
-            size="xs"
-          />
-          {{ item.label }}
-          <q-tooltip>{{ item.tooltip }}</q-tooltip>
-        </span>
+      <div class="prof-section">
+        <div class="cell-label prof-section-label">Proficiencies</div>
+        <div class="prof-checks">
+          <span v-for="item in profItems" :key="item.key" class="prof-item">
+            <q-icon
+              :name="tile.proficiencies[item.key] ? 'check_box' : 'check_box_outline_blank'"
+              size="xs"
+            />
+            {{ item.label }}
+            <q-tooltip>{{ item.tooltip }}</q-tooltip>
+          </span>
+        </div>
       </div>
       <div v-if="tile.languages.length || tile.lores.length" class="zone-rule q-my-sm" />
-      <div v-if="tile.languages.length" class="footer-meta">
-        {{ tile.languages.join(', ') }}
+      <div v-if="tile.languages.length">
+        <div class="cell-label">Languages</div>
+        <div class="cell-value">{{ tile.languages.join(', ') }}</div>
       </div>
-      <div v-if="tile.lores.length" class="footer-meta">
-        {{ tile.lores.map((l) => `${l.name} +${l.rank}`).join(', ') }}
+      <div v-if="tile.languages.length && tile.lores.length" class="zone-rule q-my-sm" />
+      <div v-if="tile.lores.length">
+        <div class="cell-label">Lores</div>
+        <div class="cell-value">
+          {{ tile.lores.map((l) => `${l.name} +${l.rank}`).join(', ') }}
+        </div>
       </div>
     </q-card-section>
 
@@ -262,6 +270,10 @@ function fmtBonus(value) {
   line-height: 1.4;
 }
 
+.prof-section-label {
+  text-align: center;
+}
+
 .prof-checks {
   display: flex;
   flex-wrap: wrap;
@@ -275,13 +287,5 @@ function fmtBonus(value) {
   gap: 0.1rem;
   color: var(--sot-ink);
   cursor: default;
-}
-
-.footer-meta {
-  color: var(--sot-muted);
-}
-
-.footer-meta + .footer-meta {
-  margin-top: 0.15rem;
 }
 </style>
