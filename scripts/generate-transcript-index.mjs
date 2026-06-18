@@ -5,7 +5,28 @@ import { fileURLToPath } from 'node:url'
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const transcriptsDir = path.join(root, 'transcripts')
 
-export async function generateTranscriptIndex() {
+/** GitHub Pages origin + repo path (no trailing slash). */
+export const DEFAULT_PUBLISH_BASE = 'https://enmaku.github.io/strength-of-thousands'
+
+export function resolvePublishBase(publishBase) {
+  return (publishBase ?? process.env.TRANSCRIPT_PUBLISH_BASE ?? DEFAULT_PUBLISH_BASE).replace(
+    /\/$/,
+    '',
+  )
+}
+
+export function publishedTranscriptFileUrl(
+  campaign,
+  sessionDir,
+  filename = 'edited.json',
+  publishBase,
+) {
+  const base = resolvePublishBase(publishBase)
+  return `${base}/transcripts/${campaign}/${sessionDir}/${filename}`
+}
+
+export async function generateTranscriptIndex(options = {}) {
+  const publishBase = resolvePublishBase(options.publishBase)
   const entries = []
   let campaigns
 
@@ -34,6 +55,12 @@ export async function generateTranscriptIndex() {
           sessionNumber: meta.sessionNumber,
           sessionId: meta.sessionId,
           label: `Session ${meta.sessionNumber}`,
+          editedUrl: publishedTranscriptFileUrl(
+            campaign.name,
+            session.name,
+            'edited.json',
+            publishBase,
+          ),
         })
       } catch (err) {
         if (err.code !== 'ENOENT') throw err
