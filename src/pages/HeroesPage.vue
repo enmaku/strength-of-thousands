@@ -37,8 +37,12 @@
           />
         </div>
 
-        <div class="hero-grid">
-          <template v-for="hero in sortedRoster" :key="hero.slug">
+        <div class="row q-col-gutter-md">
+          <div
+            v-for="hero in sortedRoster"
+            :key="hero.slug"
+            class="col-12 col-sm-4 col-md-3"
+          >
             <HeroTile
               v-if="heroTileFor(hero.slug)"
               :tile="heroTileFor(hero.slug)"
@@ -46,7 +50,7 @@
               :updating="refreshingSlug === hero.slug"
               @refresh="onRefresh(hero.slug)"
             />
-          </template>
+          </div>
         </div>
       </template>
     </div>
@@ -152,11 +156,3 @@ async function onRefresh(slug) {
   }
 }
 </script>
-
-<style scoped>
-.hero-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  gap: 1rem;
-}
-</style>
