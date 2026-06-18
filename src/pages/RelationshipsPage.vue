@@ -126,6 +126,7 @@ async function onSetHearts(heroSlug, studentSlug, hearts) {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 .relationship-panels {
