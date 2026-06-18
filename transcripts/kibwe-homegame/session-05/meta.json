@@ -1,0 +1,10 @@
+{
+  "sessionId": "kibwe-homegame-session-05",
+  "campaign": "Kibwe homegame",
+  "system": "Pathfinder 1e",
+  "sessionNumber": 5,
+  "partyLevel": 5,
+  "transcriptionSource": "whisper",
+  "schemaVersion": 1,
+  "sourceFile": "whisper with custom vocab prompt.json"
+}

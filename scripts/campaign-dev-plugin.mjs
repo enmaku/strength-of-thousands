@@ -2,9 +2,11 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { HeroImportError, planHeroImportWithCatalog, planHeroRefresh } from '../src/domain/heroesApi.js'
+import { TranscriptEditError, planSegmentDelete, planSegmentRestore, planSegmentSplit, planSegmentUpdate } from '../src/domain/transcriptEdits.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const heroesDir = path.join(root, 'heroes')
+const transcriptsDir = path.join(root, 'transcripts')
 const catalogPath = path.join(root, 'data', 'spire-students.json')
 
 function isLocalHost(host) {
@@ -51,6 +53,15 @@ async function readHero(slug) {
 async function writeHero(slug, hero) {
   await fs.mkdir(heroesDir, { recursive: true })
   await fs.writeFile(path.join(heroesDir, `${slug}.json`), `${JSON.stringify(hero, null, 2)}\n`)
+}
+
+async function readJsonFile(filePath) {
+  const raw = await fs.readFile(filePath, 'utf8')
+  return JSON.parse(raw)
+}
+
+async function writeJsonFile(filePath, data) {
+  await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`)
 }
 
 async function readAllHeroesBySlug() {
@@ -268,15 +279,192 @@ async function handleHeroesApi(req, res) {
   sendJson(res, 405, { error: 'Method not allowed' })
 }
 
+async function handleTranscriptsApi(req, res) {
+  if (!isLocalHost(req.headers.host)) {
+    sendJson(res, 403, { error: 'GM writes require localhost' })
+    return
+  }
+
+  const subPath = req.url?.split('?')[0] ?? '/'
+  const segmentMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)$/)
+  const restoreMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)\/restore$/)
+  const splitMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)\/split$/)
+
+  if (req.method === 'PUT' && segmentMatch) {
+    const [, campaign, session, segmentIdRaw] = segmentMatch
+    const segmentId = Number(segmentIdRaw)
+    const sessionDir = path.join(transcriptsDir, campaign, session)
+    const editedPath = path.join(sessionDir, 'edited.json')
+    const changelogPath = path.join(sessionDir, 'changelog.json')
+    const playerMapPath = path.join(transcriptsDir, campaign, 'player-map.json')
+
+    try {
+      const body = await readBody(req)
+      const segments = await readJsonFile(editedPath)
+      const changelog = await readJsonFile(changelogPath)
+      let playerMap = {}
+      try {
+        playerMap = await readJsonFile(playerMapPath)
+      } catch (err) {
+        if (err.code !== 'ENOENT') throw err
+      }
+      const result = planSegmentUpdate(segments, changelog, segmentId, body, playerMap)
+
+      if (result.changed) {
+        await writeJsonFile(editedPath, result.segments)
+        await writeJsonFile(changelogPath, result.changelog)
+      }
+
+      sendJson(res, 200, {
+        segment: result.segment,
+        segments: result.segments,
+        changelog: result.changelog,
+        changed: result.changed,
+      })
+    } catch (err) {
+      if (err instanceof TranscriptEditError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Session not found' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  if (req.method === 'DELETE' && segmentMatch) {
+    const [, campaign, session, segmentIdRaw] = segmentMatch
+    const segmentId = Number(segmentIdRaw)
+    const sessionDir = path.join(transcriptsDir, campaign, session)
+    const editedPath = path.join(sessionDir, 'edited.json')
+    const changelogPath = path.join(sessionDir, 'changelog.json')
+
+    try {
+      const segments = await readJsonFile(editedPath)
+      const changelog = await readJsonFile(changelogPath)
+      const result = planSegmentDelete(segments, changelog, segmentId)
+
+      await writeJsonFile(editedPath, result.segments)
+      await writeJsonFile(changelogPath, result.changelog)
+
+      sendJson(res, 200, {
+        deletedSegmentId: result.deletedSegmentId,
+        segments: result.segments,
+        changelog: result.changelog,
+      })
+    } catch (err) {
+      if (err instanceof TranscriptEditError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Session not found' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  if (req.method === 'POST' && restoreMatch) {
+    const [, campaign, session, segmentIdRaw] = restoreMatch
+    const segmentId = Number(segmentIdRaw)
+    const sessionDir = path.join(transcriptsDir, campaign, session)
+    const editedPath = path.join(sessionDir, 'edited.json')
+    const changelogPath = path.join(sessionDir, 'changelog.json')
+    const normalizedPath = path.join(sessionDir, 'normalized.json')
+
+    try {
+      const segments = await readJsonFile(editedPath)
+      const changelog = await readJsonFile(changelogPath)
+      const normalized = await readJsonFile(normalizedPath)
+      const normalizedById = new Map(normalized.map((segment) => [segment.id, segment]))
+      const result = planSegmentRestore(segments, changelog, segmentId, normalizedById)
+
+      await writeJsonFile(editedPath, result.segments)
+      await writeJsonFile(changelogPath, result.changelog)
+
+      sendJson(res, 200, {
+        segment: result.segment,
+        segments: result.segments,
+        changelog: result.changelog,
+      })
+    } catch (err) {
+      if (err instanceof TranscriptEditError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Session not found' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  if (req.method === 'POST' && splitMatch) {
+    const [, campaign, session, segmentIdRaw] = splitMatch
+    const segmentId = Number(segmentIdRaw)
+    const sessionDir = path.join(transcriptsDir, campaign, session)
+    const editedPath = path.join(sessionDir, 'edited.json')
+    const changelogPath = path.join(sessionDir, 'changelog.json')
+    const normalizedPath = path.join(sessionDir, 'normalized.json')
+
+    try {
+      const body = await readBody(req)
+      const segments = await readJsonFile(editedPath)
+      const changelog = await readJsonFile(changelogPath)
+      let normalizedIds = []
+      try {
+        const normalized = await readJsonFile(normalizedPath)
+        normalizedIds = normalized.map((segment) => segment.id)
+      } catch (err) {
+        if (err.code !== 'ENOENT') throw err
+      }
+
+      const result = planSegmentSplit(segments, changelog, segmentId, body, normalizedIds)
+
+      await writeJsonFile(editedPath, result.segments)
+      await writeJsonFile(changelogPath, result.changelog)
+
+      sendJson(res, 200, {
+        originalSegment: result.originalSegment,
+        newSegment: result.newSegment,
+        segments: result.segments,
+        changelog: result.changelog,
+      })
+    } catch (err) {
+      if (err instanceof TranscriptEditError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Session not found' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  sendJson(res, 405, { error: 'Method not allowed' })
+}
+
 export function campaignDevPlugin() {
   return {
     name: 'campaign-dev',
     enforce: 'pre',
     configureServer(server) {
       server.middlewares.use('/api/heroes', wrapAsync(handleHeroesApi))
+      server.middlewares.use('/api/transcripts', wrapAsync(handleTranscriptsApi))
       mountStatic(server, '/heroes', heroesDir)
       mountStatic(server, '/reference', path.join(root, 'reference'))
       mountStatic(server, '/lessons', path.join(root, 'lessons'))
+      mountStatic(server, '/transcripts', path.join(root, 'transcripts'))
     },
   }
 }

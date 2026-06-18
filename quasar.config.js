@@ -60,7 +60,7 @@ export default defineConfig((/* ctx */) => {
           warning: '#b09060',
         },
       },
-      plugins: ['Notify'],
+      plugins: ['Notify', 'Dialog'],
     },
 
     animations: [],

@@ -1,6 +1,7 @@
-import { cp, mkdir, readdir } from 'node:fs/promises'
+import { cp, mkdir, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { generateTranscriptIndex } from './generate-transcript-index.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dist = path.join(root, 'dist', 'spa')
@@ -41,6 +42,17 @@ async function main() {
 
   try {
     await copyDir(path.join(root, 'heroes'), path.join(dist, 'heroes'))
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err
+  }
+
+  try {
+    const transcriptIndex = await generateTranscriptIndex()
+    await writeFile(
+      path.join(root, 'transcripts', 'index.json'),
+      `${JSON.stringify(transcriptIndex, null, 2)}\n`,
+    )
+    await copyDir(path.join(root, 'transcripts'), path.join(dist, 'transcripts'))
   } catch (err) {
     if (err.code !== 'ENOENT') throw err
   }

@@ -41,6 +41,12 @@
               icon="favorite"
               label="Relationships"
             />
+            <q-route-tab
+              to="/transcripts"
+              name="/transcripts"
+              icon="forum"
+              label="Transcripts"
+            />
           </q-tabs>
           <q-btn-dropdown
             v-if="gmMode"
@@ -107,6 +113,20 @@
             <q-icon name="favorite" />
           </q-item-section>
           <q-item-section>Relationships</q-item-section>
+        </q-item>
+
+        <q-item
+          v-ripple
+          clickable
+          to="/transcripts"
+          :active="route.path === '/transcripts'"
+          active-class="bg-grey-3 text-weight-medium"
+          @click="leftDrawerOpen = false"
+        >
+          <q-item-section avatar>
+            <q-icon name="forum" />
+          </q-item-section>
+          <q-item-section>Transcripts</q-item-section>
         </q-item>
 
         <template v-if="gmMode">

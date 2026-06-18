@@ -1,0 +1,1987 @@
+{
+  "edited": [
+    {
+      "id": 252,
+      "index": 0,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "I'll try to find exactly which building they're staying in—that kind of location intel.",
+      "mechanics": [],
+      "sourceText": "Yeah, I'll try to see, like, what building, exactly where they're staying, that kind of location.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 253,
+      "index": 1,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Go ahead and roll. You can roll twice as well.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Investigation",
+          "rolls": []
+        }
+      ],
+      "sourceText": "Okay, yeah, go ahead and roll. You can roll two as well.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 254,
+      "index": 2,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "25.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Investigation",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 25,
+              "modifier": null,
+              "total": 25
+            }
+          ]
+        }
+      ],
+      "sourceText": "25.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 255,
+      "index": 3,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "With a strong roll, you both overhear a couple of guards talking: \"I can't believe Captain Togaloo just let them in.\" \"Yeah, the captain knows what she's doing—and normally having pirates in your city would be a cause for concern.\" \"They can't possibly do anything here. There's no sea nearby.\" \"Yes, they're completely harmless.\" One adds, \"I'm heading to Bwamandu.\"",
+      "mechanics": [],
+      "sourceText": "You rolled a nat 20? I did. Okay. You both hear a couple of guards talking, saying, like... Okay, hold on. I need to get the camera for this a little bit. Okay. I can't believe Captain Togaloo just let them in. Yeah, the captain knows what she's doing, and normally having pirates in your city would be a cause for concern. They can't possibly do anything here. There's no sea nearby. Yes, they're completely harmless. I'm going to go to Balmondu.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 257,
+      "index": 4,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "Neo",
+      "contentType": "game",
+      "text": "Wait—how far away are we?",
+      "mechanics": [],
+      "sourceText": "Wait, how far away are we?",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 258,
+      "index": 5,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "About a thirty-minute walk.",
+      "mechanics": [],
+      "sourceText": "A 30-minute walk at that.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 260,
+      "index": 6,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "We need to gather information on the way and slowly hone in on exactly where he is and what he's been doing.",
+      "mechanics": [],
+      "sourceText": "Okay. We need some information on the way and slowly hone in on exactly where he's at and what he's been doing.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 261,
+      "index": 7,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "You enter the Bwamandu district. As you walk through it, you notice a distinct lack of Charau-ka—they're all gone. Usually there are beggars asking for gold and scraps, a few doing odd jobs and errands, some drinking. Even though it's slums, it's where the poor Charau-ka live in little tents pitched against houses, and it smells foul. Now it feels strangely empty.",
+      "mechanics": [],
+      "sourceText": "Yeah. But anyways, you get into the Guamandu district and as you're walking through it, you notice a distinct lack of charter call. Okay. They're all gone. There were beggars around begging you guys for gold and scraps. There was a couple doing odd work and errands, some drinking. You know, just in general, Balmondu, even though it was like slums, Like... like, you know, it's where all the poor beggars live and stuff, and just live in like little tents pitched up against houses, and it smells gross and disgusting. How does it just seem like the charmed car? It's kind of weird.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 262,
+      "index": 8,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "What about the business district?",
+      "mechanics": [],
+      "sourceText": "How about the, like, business owner?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 263,
+      "index": 9,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "The business district is the same—distinct lack of Charau-ka. You might see one or two passed out, very incapacitated.",
+      "mechanics": [],
+      "sourceText": "The business center, same thing. Distinct lack of Charu Kha. Yeah. You might see one or two passed out, very incapacitated.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 264,
+      "index": 10,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "But Fister would be nowhere to be seen?",
+      "mechanics": [],
+      "sourceText": "But Pfister would be nowhere to be seen?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 265,
+      "index": 11,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Fister's Bar is at the end of the Bwamandu district, so you're heading in the right direction. His place is furthest south, closest to the wall where the sewer tunnel is—already on the outskirts. That makes sense: the Charau-ka get pushed to the worst parts of Bwamandu, where there's little infrastructure and sewage collects. It's gross.",
+      "mechanics": [],
+      "sourceText": "Pfister's bar is at the end of the Womondoo district. So you guys are heading in the direction of his bar. Remember, his is the furthest south closest to the wall where the sewer tunnel is. He's already on the outskirts. which makes sense because the Charmca get pushed to the worst parts of the Moabandu district, where there's not a lot of infrastructure, you know, sewage is kind of poured there. Like, it's gross.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 266,
+      "index": 12,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "So we're following the smell.",
+      "mechanics": [],
+      "sourceText": "So we're following the smell.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 267,
+      "index": 13,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "When you reach Fister's Bar, you notice what looks like an oration underway. A large crowd of Charau-ka—fifty to sixty, maybe close to a hundred—has gathered around something. You hear impassioned talking in the distance.",
+      "mechanics": [],
+      "sourceText": "I get it. Yes. Yeah. So when you head over to Pfister's cabin or Pfister's bar, you notice kind of like a... for lack of a better word, like an oration going on. And you see all the Charakha. There's actually a large amount of them, probably about 50 to 60, maybe even close to 100. And they're all gathered around something. It's a big crowd. And you can hear talking, passions talking in the distance.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 268,
+      "index": 14,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "I'm all eyes and ears—I want to figure out what's going on.",
+      "mechanics": [],
+      "sourceText": "I mean, I'm definitely all Lies and ears You can figure out what's going on",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 269,
+      "index": 15,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "You can push your way through the crowd.",
+      "mechanics": [],
+      "sourceText": "You can push your way through the crowd",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 270,
+      "index": 16,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "No—I'll acrobat my way in. I find something tall to stand on and flip myself up.",
+      "mechanics": [],
+      "sourceText": "Honestly, no, I acrobat my way I find something tall to stand on And flip myself up",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 272,
+      "index": 17,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Roll a Perception check, everyone.",
+      "mechanics": [],
+      "sourceText": "Roll a perception test for me, everyone",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 273,
+      "index": 18,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Actually—instead of Perception, roll an Acrobatics check. You're vaulting over the crowd.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": []
+        }
+      ],
+      "sourceText": "Actually it doesn't matter, you don't need a perception test with us. Oh, actually still roll a perception test, this is going to be going for me. You get advantage if you're... Oh roll, instead of a perception test, roll an acrobatics check. Because you're doing acrobatically going through the ground? Okay. Oh shit.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 274,
+      "index": 19,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "24.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 24,
+              "modifier": null,
+              "total": 24
+            }
+          ]
+        }
+      ],
+      "sourceText": "24.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 276,
+      "index": 20,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "player",
+      "contentType": "game",
+      "text": "16.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Mr. Andy",
+              "raw": 16,
+              "modifier": null,
+              "total": 16
+            }
+          ]
+        }
+      ],
+      "sourceText": "16.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 277,
+      "index": 21,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Wait—do I get a bonus on this one? My Investigation… what's his name again?",
+      "mechanics": [],
+      "sourceText": "Wait no, do I get a bonus on this one when my investigation is what is... what's his name up?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 278,
+      "index": 22,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "You're fine—you're good. As the three of you push through the crowd, the Charau-ka are not known for their social graces, so they don't move out of the way. You feel hands going through your pockets. Do you have any gold in obvious spots?",
+      "mechanics": [],
+      "sourceText": "You're fine. You rolled what, a 26? you're good whatever it is I don't care 23 27 27 16 16 okay as you walk through the crowd the three of you kind of have to like push your way through the crowd Charu Kar known for their like social graces so they're not like moving out of the way or you know like it but you are kind of pushing your way through the crowd you feel some pockets some feel some hands going through your pockets do you have any gold in obvious spots That's a good question They rolled a 20 They critted It doesn't matter",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 279,
+      "index": 23,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "Mr. Andy",
+      "contentType": "game",
+      "text": "I keep a few gold coins in obvious pockets on purpose. When I realize they've pickpocketed me, I'll summon my magnet coin back—it brings 3d10 coins from wherever they're stored.",
+      "mechanics": [],
+      "sourceText": "I probably keep a few gold You know what? I keep a few gold for this purpose You lose for our gold You get picked pocket I thought ahead on this I thought ahead on this I have a magnet coin in my inventory So when I realize they've pickpocketed me, I'll summon it back and it'll bring 3d10 coins from wherever it's being stored with it.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 280,
+      "index": 24,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "You get your coins back. There's nothing for them to keep.",
+      "mechanics": [],
+      "sourceText": "You just get your coins back. We don't have anything for you to steal back.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 281,
+      "index": 25,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "Mr. Andy",
+      "contentType": "game",
+      "text": "But they keep the four spiders they didn't realize they grabbed with the magnet coin.",
+      "mechanics": [],
+      "sourceText": "But they keep the four spiders that they didn't realize they grabbed with the marker.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 282,
+      "index": 26,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "At the center of the crowd you see a tall, lanky human man—about six foot five—with ginger hair cut a little long. A large rifle is strung across his back in a leather cover. It's high-tech weaponry; you recognize it as a firearm, though the Charau-ka probably don't. Standing beside him is a small orange-haired charau-ka monkey with golden-tamarin vibes, shouting in demonic Charau-ka language. He wears a little pirate hat with a feather, and next to him sits another captain's hat with two big white feathers matching the monkey's smaller hat. The monkey delivers passionate speeches about riches and adventure—how Charau-ka are strong conquerors who should follow other strong conquerors, and how they're rotting away here in the city.",
+      "mechanics": [],
+      "sourceText": "Okay, this is what you guys see. Now, obviously, he's not pointing his gun. You see a tall, probably six foot five, lanky human man with orange ginger hair cut a little on the longer side. He has a large, long rifle strung across his back in leather cover to protect it from the elements. It's very high-tech weaponry for what you see. You only recognize it because you're all traveled individuals, but these Charu Kha probably don't know what it is. It is a firearm, and standing next to him is another Charu Kha, small, small, small, orange haired monkey char call golden tamarin is specifically golden tamarin vibes this monkey is shouting in demonic char call language wearing a little pirate hat with a feather on it he also has another captain's hat with two big white feathers on it that match the monkey's smaller feathered hat and he is just shouting passionate speeches about riches and adventure and how Charuqa are strong and conquerors and they need to follow other strong conquerors and they're rotting away here in the city.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 283,
+      "index": 27,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Wait—the monkey? I lost track of the visualization. Was it the monkey or the tamarin?",
+      "mechanics": [],
+      "sourceText": "I'm sorry, the monkeys? That's crazy. What happened? My brain got lost in the visualization. I'm sorry, was it the monkey or the tamarind?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 284,
+      "index": 28,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "The monkey is a golden tamarin—use that for visualization.",
+      "mechanics": [],
+      "sourceText": "The monkey is a golden tamarind. Use that for visualization.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 285,
+      "index": 29,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "Neo",
+      "contentType": "game",
+      "text": "Is the golden tamarin the one saying those things?",
+      "mechanics": [],
+      "sourceText": "Yes. Is the golden tamarind the one saying those things?",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 286,
+      "index": 30,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Both of them are. The charau-ka telepathically communicates, and the man impassionately delivers the speech in Charau-ka, translating.",
+      "mechanics": [],
+      "sourceText": "Both of them are. So the tamarind is trans-comming, and the tamarind is impassionately saying it in Charu-Kah, translating. Okay, got it.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 287,
+      "index": 31,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "player",
+      "contentType": "game",
+      "text": "He's the tiny sign-language interpreter in the corner of the screen.",
+      "mechanics": [],
+      "sourceText": "Okay, he's the tiny sign language interpreter in the corner of the screen.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 288,
+      "index": 32,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "The Charau-ka are eating it up.",
+      "mechanics": [],
+      "sourceText": "And you see the Charu-Kah are eating this shit up, right?",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 289,
+      "index": 33,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "Mr. Andy",
+      "contentType": "game",
+      "text": "Is he pied-pipering them?",
+      "mechanics": [],
+      "sourceText": "Is he pie-pipering them?",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 290,
+      "index": 34,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "He's spurring a rebellion.",
+      "mechanics": [],
+      "sourceText": "He's spurring a rebellion.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 291,
+      "index": 35,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "player",
+      "contentType": "game",
+      "text": "You don't know.",
+      "mechanics": [],
+      "sourceText": "You don't know.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 292,
+      "index": 36,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Yes—he's pied-pipering them. Pure charisma, not magic. You've seen this kind of scene before.",
+      "mechanics": [],
+      "sourceText": "No, he's pie-pipering them. Right. He's, yes. Yes, it's just an evil, you know, person. Oh, okay. You've seen this Bocahanna scene before.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 293,
+      "index": 37,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "I check my bracelet—is there any mental manipulation on me? It would have fallen off.",
+      "mechanics": [],
+      "sourceText": "That's... oh, okay. I checked my bracelet, I was a recycled 40 bracelet. Is there any mental manipulation on me? It would have fallen off.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 294,
+      "index": 38,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "What do you mean?",
+      "mechanics": [],
+      "sourceText": "What do you mean?",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 295,
+      "index": 39,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "Is he doing any magical manipulation?",
+      "mechanics": [],
+      "sourceText": "Like, is he doing any magical manipulation?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 296,
+      "index": 40,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "No—you don't notice any. This is pure charisma.",
+      "mechanics": [],
+      "sourceText": "No, no, you don't notice any. This is pure fucking charisma.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 297,
+      "index": 41,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "Kadira",
+      "contentType": "game",
+      "text": "Fair. The bracelet would have fallen off if someone was messing with my mind.",
+      "mechanics": [],
+      "sourceText": "That's fair. I just want a bracelet like it would have fallen off if someone loses your imagination.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 298,
+      "index": 42,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Mid-speech, he turns to three Black Heart Corsairs behind him—no-nonsense, each a little taller than him in full plate with giant pikes. Two wear helmets; the leader does not, scanning the crowd seriously while holding his pike at the ready. All three wear gray sashes repeating the motto: we take what we want. He pauses; the monkey pauses; the Charau-ka listen with bated breath. He says, \"I took what I wanted, and I want you to have it.\" The monkey and two guards pull sacks from behind them. The monkey drags one out, opens it, and copper pieces spill into the crowd—some specked with blood. One Charau-ka pockets a coin and a mad frenzy erupts as they fight over the copper. Everyone roll Acrobatics or Athletics—whatever you prefer to fight through the chaos.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": []
+        }
+      ],
+      "sourceText": "So, in the middle of his speech, He turns to the three Corsairs behind them. These three Corsairs look like they're no-nonsense. They are taller than--he's six foot five. They're a little bit taller than him in full plate armor with giant pikes. And each of them is--well, two of them are wearing helmets, and one who looks like maybe the leader is not wearing a helmet, and the one without the leader is not wearing a helmet and is scanning the crowd seriously. just looking around, paying no attention to the show happening in front of him. And he's just holding his spike like this. And all three of them are wearing, you don't see them on the character, all three of them are wearing these gray scales over and over again. Like, we take what we want. And at that, he pauses, monkey pauses, the char-o-car-o listening with baby breath, and he says, I took what I wanted, and I want you to have it. And then at this, the monkey and the two guards standing in front pull sacks from behind them. The monkey drags out a sack, opens it up, and copper pieces start getting thrown out into the crowd. Just throw it out in the crowd and there's specks of blood on it. One Charokah looks at it, puts it into his pocket and there's a mad frenzy. Now all of the Charokah are fighting for this copper. Everyone roll an acrobatics or strength. Dexterity or strength. Whatever you prefer. However you want to fight your way through this kind of chaos.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 299,
+      "index": 43,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "I don't know if I get a circumstantial bonus, but this is a 29.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 29,
+              "modifier": null,
+              "total": 29
+            }
+          ]
+        }
+      ],
+      "sourceText": "I don't know if I get circumstantial, but this is a 29.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 300,
+      "index": 44,
+      "sceneId": "bwamandu-fisters-bar",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Twenty-nine—you're fine. Athletics or Acrobatics, whichever you'd use to stand your ground and not be trampled in a frenzied crowd.",
+      "mechanics": [],
+      "sourceText": "Okay, 29. Yeah, you're fine. All right, just strength or athletics? Whichever one you prefer. Whichever one you would use to kind of like stand and not be trampled by a frenzied crowd. Okay. I thought it would say it was a shelf. You can do athletics. It doesn't matter. Dexterity would be to like nimbly make a good time. Or acrobatics.",
+      "sourceSpeaker": "Pablo"
+    }
+  ],
+  "changes": [
+    {
+      "segmentId": 251,
+      "op": "remove",
+      "path": "text",
+      "old": "Well, I mean...",
+      "new": null,
+      "reason": "brain_blank_disfluency",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 256,
+      "op": "remove",
+      "path": "text",
+      "old": "Oh, wait.",
+      "new": null,
+      "reason": "merged_into_257",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "merge"
+    },
+    {
+      "segmentId": 259,
+      "op": "remove",
+      "path": "text",
+      "old": "Oh, okay.",
+      "new": null,
+      "reason": "pure_table_ack",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 271,
+      "op": "remove",
+      "path": "text",
+      "old": "Okay",
+      "new": null,
+      "reason": "pure_table_ack",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 275,
+      "op": "remove",
+      "path": "text",
+      "old": "Okay.",
+      "new": null,
+      "reason": "pure_table_ack",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 257,
+      "op": "merge",
+      "path": "text",
+      "sourceSegmentIds": [
+        256,
+        257
+      ],
+      "old": "Oh, wait. / Wait, how far away are we?",
+      "new": "Wait—how far away are we?",
+      "reason": "stt_fragment_merge",
+      "confidence": 0.9,
+      "flagged": false,
+      "category": "merge"
+    },
+    {
+      "segmentId": 252,
+      "op": "replace",
+      "path": "text",
+      "old": "Yeah, I'll try to see, like, what building, exactly where they're staying, that kind of location.",
+      "new": "I'll try to find exactly which building they're staying in—that kind of location intel.",
+      "reason": "filler_removed",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 253,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, yeah, go ahead and roll. You can roll two as well.",
+      "new": "Go ahead and roll. You can roll twice as well.",
+      "reason": "leading_ack",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 255,
+      "op": "replace",
+      "path": "text",
+      "old": "You rolled a nat 20? I did. Okay. You both hear a couple of guards talking, saying, like... Okay, hold on. I need to get the camera for this a little bit. Okay. I can't believe Captain Togaloo just let them in. Yeah, the captain knows what she's doing, and normally having pirates in your city would be a cause for concern. They can't possibly do anything here. There's no sea nearby. Yes, they're completely harmless. I'm going to go to Balmondu.",
+      "new": "With a strong roll, you both overhear a couple of guards talking: \"I can't believe Captain Togaloo just let them in.\" \"Yeah, the captain knows what she's doing—and normally having pirates in your city would be a cause for concern.\" \"They can't possibly do anything here. There's no sea nearby.\" \"Yes, they're completely harmless.\" One adds, \"I'm heading to Bwamandu.\"",
+      "reason": "runon_recast_ooc_trim",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 258,
+      "op": "replace",
+      "path": "text",
+      "old": "A 30-minute walk at that.",
+      "new": "About a thirty-minute walk.",
+      "reason": "clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 260,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay. We need some information on the way and slowly hone in on exactly where he's at and what he's been doing.",
+      "new": "We need to gather information on the way and slowly hone in on exactly where he is and what he's been doing.",
+      "reason": "leading_ack",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 252,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 253,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 254,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 255,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 257,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 258,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 260,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 261,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 262,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 263,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 264,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 265,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 266,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 267,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 268,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 269,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 270,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 272,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 273,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 274,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 276,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 277,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 278,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 279,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 280,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 281,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 282,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 283,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 284,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 285,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 286,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 287,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 288,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 289,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 290,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 291,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 292,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 293,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 294,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 295,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 296,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 297,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 298,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 299,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 300,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "bwamandu-fisters-bar",
+      "reason": "scene_boundary",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 252,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_investigation",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 257,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Neo",
+      "reason": "in_fiction_question",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 260,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_planning",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 262,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_question",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 264,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_question",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 266,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_reaction",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 268,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_action",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 270,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_action",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 272,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_roll_prompt_misattributed",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 279,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Mr. Andy",
+      "reason": "in_fiction_action",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 281,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Mr. Andy",
+      "reason": "in_fiction_action",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 285,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Neo",
+      "reason": "in_fiction_question",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 289,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Mr. Andy",
+      "reason": "in_fiction_observation",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 290,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_observation",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 293,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_action",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 295,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_question",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 297,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "Kadira",
+      "reason": "in_fiction_rules_item",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 272,
+      "op": "set",
+      "path": "speaker",
+      "old": "Lisa",
+      "new": "Pablo",
+      "reason": "gm_line_misattributed_to_player",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 253,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Investigation",
+          "rolls": []
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 254,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Investigation",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 25,
+              "modifier": null,
+              "total": 25
+            }
+          ]
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 273,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": []
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 274,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 24,
+              "modifier": null,
+              "total": 24
+            }
+          ]
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 276,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Mr. Andy",
+              "raw": 16,
+              "modifier": null,
+              "total": 16
+            }
+          ]
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 298,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": []
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 299,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Acrobatics",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 29,
+              "modifier": null,
+              "total": 29
+            }
+          ]
+        }
+      ],
+      "reason": "roll_callout",
+      "confidence": 0.95,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 293,
+      "op": "flag",
+      "path": "text",
+      "old": "recycled 40 bracelet",
+      "new": "recycled 40 bracelet",
+      "reason": "bracelet_name_unclear",
+      "confidence": 0.5,
+      "flagged": true,
+      "category": "uncertain",
+      "notes": "flagOnly: bracelet — magic item name unclear"
+    },
+    {
+      "segmentId": 297,
+      "op": "flag",
+      "path": "text",
+      "old": "if someone loses your imagination",
+      "new": "if someone loses your imagination",
+      "reason": "stt_garbled_bracelet_rule",
+      "confidence": 0.5,
+      "flagged": true,
+      "category": "uncertain",
+      "notes": "flagOnly: bracelet — garbled STT for item behavior"
+    },
+    {
+      "segmentId": 261,
+      "op": "replace",
+      "path": "text",
+      "old": "Yeah. But anyways, you get into the Guamandu district and as you're walking through it, you notice a distinct lack of charter call. Okay. They're all gone. There were beggars around begging you guys for gold and scraps. There was a couple doing odd work and errands, some drinking. You know, just in general, Balmondu, even though it was like slums, Like... like, you know, it's where all the poor beggars live and stuff, and just live in like little tents pitched up against houses, and it smells gross and disgusting. How does it just seem like the charmed car? It's kind of weird.",
+      "new": "You enter the Bwamandu district. As you walk through it, you notice a distinct lack of Charau-ka—they're all gone. Usually there are beggars asking for gold and scraps, a few doing odd jobs and errands, some drinking. Even though it's slums, it's where the poor Charau-ka live in little tents pitched against houses, and it smells foul. Now it feels strangely empty.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 262,
+      "op": "replace",
+      "path": "text",
+      "old": "How about the, like, business owner?",
+      "new": "What about the business district?",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 263,
+      "op": "replace",
+      "path": "text",
+      "old": "The business center, same thing. Distinct lack of Charu Kha. Yeah. You might see one or two passed out, very incapacitated.",
+      "new": "The business district is the same—distinct lack of Charau-ka. You might see one or two passed out, very incapacitated.",
+      "reason": "proper_noun",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 264,
+      "op": "replace",
+      "path": "text",
+      "old": "But Pfister would be nowhere to be seen?",
+      "new": "But Fister would be nowhere to be seen?",
+      "reason": "glossary",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 265,
+      "op": "replace",
+      "path": "text",
+      "old": "Pfister's bar is at the end of the Womondoo district. So you guys are heading in the direction of his bar. Remember, his is the furthest south closest to the wall where the sewer tunnel is. He's already on the outskirts. which makes sense because the Charmca get pushed to the worst parts of the Moabandu district, where there's not a lot of infrastructure, you know, sewage is kind of poured there. Like, it's gross.",
+      "new": "Fister's Bar is at the end of the Bwamandu district, so you're heading in the right direction. His place is furthest south, closest to the wall where the sewer tunnel is—already on the outskirts. That makes sense: the Charau-ka get pushed to the worst parts of Bwamandu, where there's little infrastructure and sewage collects. It's gross.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 267,
+      "op": "replace",
+      "path": "text",
+      "old": "I get it. Yes. Yeah. So when you head over to Pfister's cabin or Pfister's bar, you notice kind of like a... for lack of a better word, like an oration going on. And you see all the Charakha. There's actually a large amount of them, probably about 50 to 60, maybe even close to 100. And they're all gathered around something. It's a big crowd. And you can hear talking, passions talking in the distance.",
+      "new": "When you reach Fister's Bar, you notice what looks like an oration underway. A large crowd of Charau-ka—fifty to sixty, maybe close to a hundred—has gathered around something. You hear impassioned talking in the distance.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 268,
+      "op": "replace",
+      "path": "text",
+      "old": "I mean, I'm definitely all Lies and ears You can figure out what's going on",
+      "new": "I'm all eyes and ears—I want to figure out what's going on.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 270,
+      "op": "replace",
+      "path": "text",
+      "old": "Honestly, no, I acrobat my way I find something tall to stand on And flip myself up",
+      "new": "No—I'll acrobat my way in. I find something tall to stand on and flip myself up.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 272,
+      "op": "replace",
+      "path": "text",
+      "old": "Roll a perception test for me, everyone",
+      "new": "Roll a Perception check, everyone.",
+      "reason": "gm_prompt_clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 273,
+      "op": "replace",
+      "path": "text",
+      "old": "Actually it doesn't matter, you don't need a perception test with us. Oh, actually still roll a perception test, this is going to be going for me. You get advantage if you're... Oh roll, instead of a perception test, roll an acrobatics check. Because you're doing acrobatically going through the ground? Okay. Oh shit.",
+      "new": "Actually—instead of Perception, roll an Acrobatics check. You're vaulting over the crowd.",
+      "reason": "rules_clarification",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 277,
+      "op": "replace",
+      "path": "text",
+      "old": "Wait no, do I get a bonus on this one when my investigation is what is... what's his name up?",
+      "new": "Wait—do I get a bonus on this one? My Investigation… what's his name again?",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 278,
+      "op": "replace",
+      "path": "text",
+      "old": "You're fine. You rolled what, a 26? you're good whatever it is I don't care 23 27 27 16 16 okay as you walk through the crowd the three of you kind of have to like push your way through the crowd Charu Kar known for their like social graces so they're not like moving out of the way or you know like it but you are kind of pushing your way through the crowd you feel some pockets some feel some hands going through your pockets do you have any gold in obvious spots That's a good question They rolled a 20 They critted It doesn't matter",
+      "new": "You're fine—you're good. As the three of you push through the crowd, the Charau-ka are not known for their social graces, so they don't move out of the way. You feel hands going through your pockets. Do you have any gold in obvious spots?",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 279,
+      "op": "replace",
+      "path": "text",
+      "old": "I probably keep a few gold You know what? I keep a few gold for this purpose You lose for our gold You get picked pocket I thought ahead on this I thought ahead on this I have a magnet coin in my inventory So when I realize they've pickpocketed me, I'll summon it back and it'll bring 3d10 coins from wherever it's being stored with it.",
+      "new": "I keep a few gold coins in obvious pockets on purpose. When I realize they've pickpocketed me, I'll summon my magnet coin back—it brings 3d10 coins from wherever they're stored.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 280,
+      "op": "replace",
+      "path": "text",
+      "old": "You just get your coins back. We don't have anything for you to steal back.",
+      "new": "You get your coins back. There's nothing for them to keep.",
+      "reason": "clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 281,
+      "op": "replace",
+      "path": "text",
+      "old": "But they keep the four spiders that they didn't realize they grabbed with the marker.",
+      "new": "But they keep the four spiders they didn't realize they grabbed with the magnet coin.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 282,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, this is what you guys see. Now, obviously, he's not pointing his gun. You see a tall, probably six foot five, lanky human man with orange ginger hair cut a little on the longer side. He has a large, long rifle strung across his back in leather cover to protect it from the elements. It's very high-tech weaponry for what you see. You only recognize it because you're all traveled individuals, but these Charu Kha probably don't know what it is. It is a firearm, and standing next to him is another Charu Kha, small, small, small, orange haired monkey char call golden tamarin is specifically golden tamarin vibes this monkey is shouting in demonic char call language wearing a little pirate hat with a feather on it he also has another captain's hat with two big white feathers on it that match the monkey's smaller feathered hat and he is just shouting passionate speeches about riches and adventure and how Charuqa are strong and conquerors and they need to follow other strong conquerors and they're rotting away here in the city.",
+      "new": "At the center of the crowd you see a tall, lanky human man—about six foot five—with ginger hair cut a little long. A large rifle is strung across his back in a leather cover. It's high-tech weaponry; you recognize it as a firearm, though the Charau-ka probably don't. Standing beside him is a small orange-haired charau-ka monkey with golden-tamarin vibes, shouting in demonic Charau-ka language. He wears a little pirate hat with a feather, and next to him sits another captain's hat with two big white feathers matching the monkey's smaller hat. The monkey delivers passionate speeches about riches and adventure—how Charau-ka are strong conquerors who should follow other strong conquerors, and how they're rotting away here in the city.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 283,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm sorry, the monkeys? That's crazy. What happened? My brain got lost in the visualization. I'm sorry, was it the monkey or the tamarind?",
+      "new": "Wait—the monkey? I lost track of the visualization. Was it the monkey or the tamarin?",
+      "reason": "table_confusion_trim",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 284,
+      "op": "replace",
+      "path": "text",
+      "old": "The monkey is a golden tamarind. Use that for visualization.",
+      "new": "The monkey is a golden tamarin—use that for visualization.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 285,
+      "op": "replace",
+      "path": "text",
+      "old": "Yes. Is the golden tamarind the one saying those things?",
+      "new": "Is the golden tamarin the one saying those things?",
+      "reason": "leading_ack",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 286,
+      "op": "replace",
+      "path": "text",
+      "old": "Both of them are. So the tamarind is trans-comming, and the tamarind is impassionately saying it in Charu-Kah, translating. Okay, got it.",
+      "new": "Both of them are. The charau-ka telepathically communicates, and the man impassionately delivers the speech in Charau-ka, translating.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 287,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, he's the tiny sign language interpreter in the corner of the screen.",
+      "new": "He's the tiny sign-language interpreter in the corner of the screen.",
+      "reason": "leading_ack",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "filler_removed"
+    },
+    {
+      "segmentId": 288,
+      "op": "replace",
+      "path": "text",
+      "old": "And you see the Charu-Kah are eating this shit up, right?",
+      "new": "The Charau-ka are eating it up.",
+      "reason": "proper_noun",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 289,
+      "op": "replace",
+      "path": "text",
+      "old": "Is he pie-pipering them?",
+      "new": "Is he pied-pipering them?",
+      "reason": "clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 292,
+      "op": "replace",
+      "path": "text",
+      "old": "No, he's pie-pipering them. Right. He's, yes. Yes, it's just an evil, you know, person. Oh, okay. You've seen this Bocahanna scene before.",
+      "new": "Yes—he's pied-pipering them. Pure charisma, not magic. You've seen this kind of scene before.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 293,
+      "op": "replace",
+      "path": "text",
+      "old": "That's... oh, okay. I checked my bracelet, I was a recycled 40 bracelet. Is there any mental manipulation on me? It would have fallen off.",
+      "new": "I check my bracelet—is there any mental manipulation on me? It would have fallen off.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 296,
+      "op": "replace",
+      "path": "text",
+      "old": "No, no, you don't notice any. This is pure fucking charisma.",
+      "new": "No—you don't notice any. This is pure charisma.",
+      "reason": "clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 297,
+      "op": "replace",
+      "path": "text",
+      "old": "That's fair. I just want a bracelet like it would have fallen off if someone loses your imagination.",
+      "new": "Fair. The bracelet would have fallen off if someone was messing with my mind.",
+      "reason": "stt_repair",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 298,
+      "op": "replace",
+      "path": "text",
+      "old": "So, in the middle of his speech, He turns to the three Corsairs behind them. These three Corsairs look like they're no-nonsense. They are taller than--he's six foot five. They're a little bit taller than him in full plate armor with giant pikes. And each of them is--well, two of them are wearing helmets, and one who looks like maybe the leader is not wearing a helmet, and the one without the leader is not wearing a helmet and is scanning the crowd seriously. just looking around, paying no attention to the show happening in front of him. And he's just holding his spike like this. And all three of them are wearing, you don't see them on the character, all three of them are wearing these gray scales over and over again. Like, we take what we want. And at that, he pauses, monkey pauses, the char-o-car-o listening with baby breath, and he says, I took what I wanted, and I want you to have it. And then at this, the monkey and the two guards standing in front pull sacks from behind them. The monkey drags out a sack, opens it up, and copper pieces start getting thrown out into the crowd. Just throw it out in the crowd and there's specks of blood on it. One Charokah looks at it, puts it into his pocket and there's a mad frenzy. Now all of the Charokah are fighting for this copper. Everyone roll an acrobatics or strength. Dexterity or strength. Whatever you prefer. However you want to fight your way through this kind of chaos.",
+      "new": "Mid-speech, he turns to three Black Heart Corsairs behind him—no-nonsense, each a little taller than him in full plate with giant pikes. Two wear helmets; the leader does not, scanning the crowd seriously while holding his pike at the ready. All three wear gray sashes repeating the motto: we take what we want. He pauses; the monkey pauses; the Charau-ka listen with bated breath. He says, \"I took what I wanted, and I want you to have it.\" The monkey and two guards pull sacks from behind them. The monkey drags one out, opens it, and copper pieces spill into the crowd—some specked with blood. One Charau-ka pockets a coin and a mad frenzy erupts as they fight over the copper. Everyone roll Acrobatics or Athletics—whatever you prefer to fight through the chaos.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 299,
+      "op": "replace",
+      "path": "text",
+      "old": "I don't know if I get circumstantial, but this is a 29.",
+      "new": "I don't know if I get a circumstantial bonus, but this is a 29.",
+      "reason": "clarity",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 300,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, 29. Yeah, you're fine. All right, just strength or athletics? Whichever one you prefer. Whichever one you would use to kind of like stand and not be trampled by a frenzied crowd. Okay. I thought it would say it was a shelf. You can do athletics. It doesn't matter. Dexterity would be to like nimbly make a good time. Or acrobatics.",
+      "new": "Twenty-nine—you're fine. Athletics or Acrobatics, whichever you'd use to stand your ground and not be trampled in a frenzied crowd.",
+      "reason": "runon_recast",
+      "confidence": 0.85,
+      "flagged": false,
+      "category": "clarity_edit"
+    }
+  ],
+  "removedIds": [
+    251,
+    256,
+    259,
+    271,
+    275
+  ]
+}

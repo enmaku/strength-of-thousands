@@ -1,0 +1,1417 @@
+{
+  "edited": [
+    {
+      "id": 1,
+      "index": 0,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "recap",
+      "text": "We were called to meet Aliciet in the Brass District, a fancy part of town. We learned the East Mwangi Mining Company may also have to turn across slaves. If we could prove that, that would be awesome. And Darkwing is a mythical figure — whispered in dark shadows like Stephen and Longby Jekyll.",
+      "mechanics": [],
+      "sourceText": "Okay, we were called to go meet Alicia in the brass blocks, which is a fancy part of town. We learned that the Deeslaw Mining Company may also have to turn across slaves. If we could prove that, that would be awesome. And then Darkwing is a mythical... whispered in Dark Shadows like Stephen and Longby Jekyll.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 2,
+      "index": 1,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "We're all caught up. Supposedly First Count. We just finished our conversation with Aliciet, but you haven't left her office yet. After she explains everything and stands to escort you out, you hear a polite knock on her door. She says, come in. The same servant who helped you up the elevator enters, politely nods to each of you, hands her a note addressed to Dr. Cordova, and leaves. She reads the note. Roll a Perception check, everyone, as she's reading it.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": []
+        }
+      ],
+      "sourceText": "Yes. Supposedly First Count. Great. We're all caught up. So Alicia actually, I think we ended up we just finished our conversation with her, but we haven't left her offices yet. So after she explains all this stuff meeting you guys um She's just got done explaining basically everything she's doing, uh which is what's going on. And when she stands up to escrow you out of her office, a polite knock on her. You hear a polite knock on her door. She says, come in. You see a human who looks like, actually, the same person The same servant or the same person who helped you guys up the elevator comes in and she says, a note for you. And then... Wait. No, sorry. A note for you, Dr. Cordova. She says, very well, bring it in. He walks into the room, politely nods each one of you as he walks by, hands her the note, and then takes off. She reads the note. Roll a perception test, everyone, as she's reading the note. And...",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 3,
+      "index": 2,
+      "sceneId": "aliciet-office",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Did we go back to her office? I thought we left the office previously.",
+      "mechanics": [],
+      "sourceText": "Wait, I'm so sorry. Did we... I'm sorry if my brain missed the first part of that. Did we go back to her office? Because we left the office previously, right?",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 4,
+      "index": 3,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "No, you haven't left the office.",
+      "mechanics": [],
+      "sourceText": "No, you haven't left the office.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 6,
+      "index": 4,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "You might have left the office in the recap, but I'm retconning that — you haven't. Nat 20. 16.",
+      "mechanics": [],
+      "sourceText": "You might have left the office, but... I'm retconning at the other one. Okay, cool. Journey 20. Journey 20. 16.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 7,
+      "index": 5,
+      "sceneId": "aliciet-office",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Perception check?",
+      "mechanics": [],
+      "sourceText": "What? You said? Perception. Okay.",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 8,
+      "index": 6,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "13. Not a good roll.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 13,
+              "total": null
+            }
+          ]
+        }
+      ],
+      "sourceText": "And a whole 13. A whole what? 13. 13. Not a good roll. Right.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 9,
+      "index": 7,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "We're waiting for Brian. Okay, to the numbers.",
+      "mechanics": [],
+      "sourceText": "Okay, 30-20 and we're waiting for Brian. Right. These are more different. Okay, to the numbers.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 10,
+      "index": 8,
+      "sceneId": "aliciet-office",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Much more legible now.",
+      "mechanics": [],
+      "sourceText": "Much more legible now. Okay.",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 11,
+      "index": 9,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "What's your Perception, Brian? He rolled a 16 — a 5 on the die plus 11. You all notice a faint look of concern on her face as she reads the note. It fades quickly; she has a very good poker face — being a lawyer makes sense. She turns to you and says: I have troubling news. Black Heart Corsairs have been spotted entering the city a few hours ago. We're only just getting reports on it now. They usually hail from the west coast — honestly, he might know.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Brian",
+              "raw": 5,
+              "total": 16
+            }
+          ]
+        }
+      ],
+      "sourceText": "What's your perception Brian? I rolled a 16. My perception is plus 11. So you roll the 5 plus 11? Correct. Alright, you all seem to notice a faint look of concern on her face. as she's reading it. And it bades away very quickly. She's got a very good poker face. Being a lawyer makes a lot of sense. And she turns to you all and says, I have some trouble in the news. black arc corsairs been spotted going into the city a few hours ago. We're only just getting reports on it now. The... Actually, Rollman. They also usually hail on the west coast. Honestly, he might know.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 12,
+      "index": 10,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Brian might have special knowledge because he's so anti-slavery. Maybe we'll give him a roll — thematically it would be fun if he knew it. Wait, what was the name of this?",
+      "mechanics": [],
+      "sourceText": "Bryce might have special knowledge because he's so anti-slavery. Maybe. We'll give him a roll. We'll give him a roll. just thematically it would be fun if he knew it because that would work thematically no what was the name of this?",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 13,
+      "index": 11,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "The Black Heart Corsairs.",
+      "mechanics": [],
+      "sourceText": "the black arc corsairs",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 14,
+      "index": 12,
+      "sceneId": "aliciet-office",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "player",
+      "contentType": "game",
+      "text": "You say arc like A-R-C?",
+      "mechanics": [],
+      "sourceText": "you say arc like a-r-c",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 15,
+      "index": 13,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "A-R-K, like an ark. What?",
+      "mechanics": [],
+      "sourceText": "a-r-k like an arc what?",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 16,
+      "index": 14,
+      "sceneId": "aliciet-office",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Like the ship arc.",
+      "mechanics": [],
+      "sourceText": "Like the ship arc",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 17,
+      "index": 15,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Because they're pirates. Corsairs — C-O-R-S-A-I-R-S.",
+      "mechanics": [],
+      "sourceText": "Because they're pilots Corsair C-O-R-S-A-I-R-S Okay Okay",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 24,
+      "index": 16,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Does Brian want to roll Society?",
+      "mechanics": [],
+      "sourceText": "Does Ryan want to loan me a society rule?",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 25,
+      "index": 17,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "It would be very fun if he knew it — that's a single bit.",
+      "mechanics": [],
+      "sourceText": "it would be very fun if you knew it that's a single bit",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 27,
+      "index": 18,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "None of us know about the pirate slavers, other than I know they're pirate slavers and I would share that.",
+      "mechanics": [],
+      "sourceText": "none of us know about the pirate slavers other than I know they're pirate slavers and I would share that",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 39,
+      "index": 19,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "Aliciet says the Black Heart Corsairs were seen entering the city. As she reads on, double-checking what she's saying, you recognize the name — they're a pirate war band, mercenaries who specialize in transporting slaves up and down the west coast of the Mwangi Expanse. A ruthless band of elves and drow who specialize in slavery and trapping exotic animals; the Mwangi Expanse has a rich assortment of both. Mr. Andy adds their pirate custom: chop the left ear if male, right ear if female. A small party seems to be heading toward the Bwamandu district, led by Morley Finch — and you see a look of contempt on her face she couldn't hide this time. A larger group, with the rest of the forces, is heading north in the general direction of the Brownbrook Barracks.",
+      "mechanics": [],
+      "sourceText": "Okay, so she says that the Black Ark Corsairs were seen entering into the city. As she's reading more, kind of double-checking and reading what she's saying, these two... recognize the name. They're famous pirates. Not famous, but they're pirates. A pirate war band. Somebody can call them mercenaries who specialize in transporting slaves up and down the west coast of the Mwangi Expanse. they're a ruthless band of elves and dark elves who specialize specifically in slavery and also trapping exotic animals where naturally the Mon die Expanse has a rich assortment of both Although, that pirate theme so far... ...that's heard from Dave first. Chop their left ear. Cut their left ear if they're male. Right ear if they're female. Anyways, it's all good. So... So a small party seems to be heading in the direction of the Wamandu district, headed by Morley Finch. And you can see this look of contempt in her. She couldn't even hide it this time. Morley Finch. And then a larger, with the rest of the group, heading north. She pauses. She pauses. in the general direction",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 43,
+      "index": 20,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "They could be heading north into the jungle. Either way.",
+      "mechanics": [],
+      "sourceText": "They could be heading north into the jungle. Either way.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 44,
+      "index": 21,
+      "sceneId": "aliciet-office",
+      "speaker": "Victoria",
+      "character": "Neo",
+      "voice": "player",
+      "contentType": "game",
+      "text": "Morley Finch is the group leading up to the…?",
+      "mechanics": [],
+      "sourceText": "I'm sorry. Morley Finch is the group leading up to the...",
+      "sourceSpeaker": "Victoria"
+    },
+    {
+      "id": 45,
+      "index": 22,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "No, the other way around. Morley Finch and a small group of pirates are in the city and made camp in the Bwamandu district, where the Charau-ka live. The rest of the forces went north to Brownbrook Barracks.",
+      "mechanics": [],
+      "sourceText": "No, the other way around. Morley Finch and a small group of pirates are in the city and made camp in the Womondoo district, which is where all of the Charaka are. And then the rest of the forces went up north to Brownbrook Barracks.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 46,
+      "index": 23,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "The Black Heart Corsairs.",
+      "mechanics": [],
+      "sourceText": "The black art corsairs.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 47,
+      "index": 24,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "She looks at you all. You can roll a Society check if you want to know who Morley Finch is — he's relatively famous. 25 — you do know. Also 25.",
+      "mechanics": [
+        {
+          "kind": "check",
+          "skill": "Society",
+          "rolls": [
+            {
+              "character": null,
+              "raw": null,
+              "total": 25
+            },
+            {
+              "character": null,
+              "raw": null,
+              "total": 25
+            }
+          ]
+        }
+      ],
+      "sourceText": "She looks at you all. You can try to roll probably a society check if you want to know who Morley Finch is. He's a relatively famous 25. You do know. Also 25.",
+      "sourceSpeaker": "Pablo"
+    },
+    {
+      "id": 48,
+      "index": 25,
+      "sceneId": "aliciet-office",
+      "speaker": "Dave",
+      "character": "Mr. Andy",
+      "voice": "player",
+      "contentType": "game",
+      "text": "You also know. It occurred to me that I shouldn't roll — if I don't know the band, I probably…",
+      "mechanics": [],
+      "sourceText": "You also know. Okay. it occurred to me that I shouldn't roll because if I don't know the band, I probably",
+      "sourceSpeaker": "Dave"
+    },
+    {
+      "id": 49,
+      "index": 26,
+      "sceneId": "aliciet-office",
+      "speaker": "Lisa",
+      "character": "Kadira",
+      "voice": "player",
+      "contentType": "game",
+      "text": "wouldn't know the pirate. He might know because he's a slaver.",
+      "mechanics": [],
+      "sourceText": "wouldn't know the pirate. He might know because he's a slaver.",
+      "sourceSpeaker": "Lisa"
+    },
+    {
+      "id": 50,
+      "index": 27,
+      "sceneId": "aliciet-office",
+      "speaker": "Pablo",
+      "character": null,
+      "voice": "narrator",
+      "contentType": "game",
+      "text": "He is a… You don't actually know that.",
+      "mechanics": [],
+      "sourceText": "He is a... You don't actually know that",
+      "sourceSpeaker": "Pablo"
+    }
+  ],
+  "changes": [
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 5,
+      "op": "remove",
+      "path": null,
+      "old": "Oh, okay.",
+      "new": null,
+      "reason": "pure_table_ack",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 18,
+      "op": "remove",
+      "path": null,
+      "old": "Did you get grain going?",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 19,
+      "op": "remove",
+      "path": null,
+      "old": "No.",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 20,
+      "op": "remove",
+      "path": null,
+      "old": "Can you get grain going? Okay. Okay. I forgot to get quinoa going for Binks' dog food. We have food. Wheat and veg all made up. I forgot to get more. And grain. Quinoa or rice? Oh, quinoa. Yeah. I usually go quinoa because I think the soil, but it's high-throating. Yeah, that makes sense. That's good.",
+      "new": null,
+      "reason": "ooc_quinoa_dog_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 21,
+      "op": "remove",
+      "path": null,
+      "old": "Is this for you? Is this for you?",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 22,
+      "op": "remove",
+      "path": null,
+      "old": "Do you think this is for you?",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 23,
+      "op": "remove",
+      "path": null,
+      "old": "He got salmon this time around. Oh shit.",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 26,
+      "op": "remove",
+      "path": null,
+      "old": "alright wait for Dave now",
+      "new": null,
+      "reason": "waiting_for_player_ooc_break",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 28,
+      "op": "remove",
+      "path": null,
+      "old": "David!",
+      "new": null,
+      "reason": "ooc_calling_player",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 29,
+      "op": "remove",
+      "path": null,
+      "old": "David!",
+      "new": null,
+      "reason": "ooc_calling_player",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 30,
+      "op": "remove",
+      "path": null,
+      "old": "That wasn't what I said!",
+      "new": null,
+      "reason": "ooc_food_mishear",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 31,
+      "op": "remove",
+      "path": null,
+      "old": "I did ask him to make do it, thank you, because that's her things.",
+      "new": null,
+      "reason": "ooc_pet_food",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 32,
+      "op": "remove",
+      "path": null,
+      "old": "Okay.",
+      "new": null,
+      "reason": "pure_table_ack",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 33,
+      "op": "remove",
+      "path": null,
+      "old": "And unfortunately, he once does take like an hour to cook.",
+      "new": null,
+      "reason": "ooc_cooking_time",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 34,
+      "op": "remove",
+      "path": null,
+      "old": "Will you bring popcorn on the way back? Like he has to start popcorn?",
+      "new": null,
+      "reason": "ooc_popcorn",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 35,
+      "op": "remove",
+      "path": null,
+      "old": "No.",
+      "new": null,
+      "reason": "ooc_popcorn",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 36,
+      "op": "remove",
+      "path": null,
+      "old": "Oh, like it's only a new one. It's a sweet popcorn thing.",
+      "new": null,
+      "reason": "ooc_popcorn",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 37,
+      "op": "remove",
+      "path": null,
+      "old": "That was prepared. Okay.",
+      "new": null,
+      "reason": "ooc_food_prep",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 38,
+      "op": "remove",
+      "path": null,
+      "old": "Okay. I don't care about the game. I care about Paco.",
+      "new": null,
+      "reason": "ooc_pet_care",
+      "category": "ooc_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 42,
+      "op": "remove",
+      "path": null,
+      "old": "Maybe.",
+      "new": null,
+      "reason": "pure_table_ack",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 39,
+      "op": "merge",
+      "path": "text",
+      "old": "Okay, so she says that the Black Ark Corsairs were seen entering into the city. As she's reading more, kind of double-checking and reading what she's saying, these two... recognize the name. They're famous pirates. Not famous, but they're pirates. A pirate war band. Somebody can call them mercenaries who specialize in transporting slaves up and down the west coast of the Mwangi Expanse. they're a ruthless band of elves and dark elves who specialize specifically in slavery and also trapping exotic animals where naturally the Mon die Expanse has a rich assortment of both Although, that pirate theme so far... ...that's heard from Dave first. Chop their left ear. Cut their left ear if they're male. Right ear if they're female. Anyways, it's all good. So... So a small party seems to be heading in the direction of the Wamandu district, headed by Morley Finch. And you can see this look of contempt in her. She couldn't even hide it this time. Morley Finch. And then a larger, with the rest of the group, heading north. She pauses. She pauses. in the general direction of the brown brook barracks.",
+      "new": null,
+      "reason": "stt_split_mid_sentence",
+      "category": "merge",
+      "sourceSegmentIds": [
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 40,
+      "op": "remove",
+      "path": null,
+      "old": "of",
+      "new": null,
+      "reason": "merged_into_39",
+      "category": "merge"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.95,
+      "segmentId": 41,
+      "op": "remove",
+      "path": null,
+      "old": "the brown brook barracks.",
+      "new": null,
+      "reason": "merged_into_39",
+      "category": "merge"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 1,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, we were called to go meet Alicia in the brass blocks, which is a fancy part of town. We learned that the Deeslaw Mining Company may also have to turn across slaves. If we could prove that, that would be awesome. And then Darkwing is a mythical... whispered in Dark Shadows like Stephen and Longby Jekyll.",
+      "new": "We were called to meet Aliciet in the Brass District, a fancy part of town. We learned the East Mwangi Mining Company may also have to turn across slaves. If we could prove that, that would be awesome. And Darkwing is a mythical figure — whispered in dark shadows like Stephen and Longby Jekyll.",
+      "reason": "recap_clarity_and_proper_nouns",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 1,
+      "op": "set",
+      "path": "contentType",
+      "old": "game",
+      "new": "recap",
+      "reason": "session_recap",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 1,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "reason": "aliciet_office_scene",
+      "category": "scene"
+    },
+    {
+      "flagged": true,
+      "confidence": 0.7,
+      "segmentId": 1,
+      "op": "flag",
+      "path": "text",
+      "old": "turn across slaves",
+      "new": "turn across slaves",
+      "reason": "flagOnly_trafficking_wording",
+      "category": "uncertain"
+    },
+    {
+      "flagged": true,
+      "confidence": 0.6,
+      "segmentId": 1,
+      "op": "flag",
+      "path": "text",
+      "old": "Stephen and Longby Jekyll",
+      "new": "Stephen and Longby Jekyll",
+      "reason": "flagOnly_darkwing_reference",
+      "category": "uncertain"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 2,
+      "op": "replace",
+      "path": "text",
+      "old": "Yes. Supposedly First Count. Great. We're all caught up. So Alicia actually, I think we ended up we just finished our conversation with her, but we haven't left her offices yet. So after she explains all this stuff meeting you guys um She's just got done explaining basically everything she's doing, uh which is what's going on. And when she stands up to escrow you out of her office, a polite knock on her. You hear a polite knock on her door. She says, come in. You see a human who looks like, actually, the same person The same servant or the same person who helped you guys up the elevator comes in and she says, a note for you. And then... Wait. No, sorry. A note for you, Dr. Cordova. She says, very well, bring it in. He walks into the room, politely nods each one of you as he walks by, hands her the note, and then takes off. She reads the note. Roll a perception test, everyone, as she's reading the note. And...",
+      "new": "We're all caught up. Supposedly First Count. We just finished our conversation with Aliciet, but you haven't left her office yet. After she explains everything and stands to escort you out, you hear a polite knock on her door. She says, come in. The same servant who helped you up the elevator enters, politely nods to each of you, hands her a note addressed to Dr. Cordova, and leaves. She reads the note. Roll a Perception check, everyone, as she's reading it.",
+      "reason": "runon_recast_and_proper_nouns",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 2,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "reason": "aliciet_office_scene",
+      "category": "scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 2,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": []
+        }
+      ],
+      "reason": "perception_prompt",
+      "category": "mechanics"
+    },
+    {
+      "flagged": true,
+      "confidence": 0.5,
+      "segmentId": 2,
+      "op": "flag",
+      "path": "text",
+      "old": "First Count",
+      "new": "First Count",
+      "reason": "flagOnly_first_count",
+      "category": "uncertain"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 3,
+      "op": "replace",
+      "path": "text",
+      "old": "Wait, I'm so sorry. Did we... I'm sorry if my brain missed the first part of that. Did we go back to her office? Because we left the office previously, right?",
+      "new": "Did we go back to her office? I thought we left the office previously.",
+      "reason": "session_confusion_clarity",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 3,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "player",
+      "reason": "session_state_table_talk",
+      "category": "voice"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 3,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 4,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.85,
+      "segmentId": 6,
+      "op": "replace",
+      "path": "text",
+      "old": "You might have left the office, but... I'm retconning at the other one. Okay, cool. Journey 20. Journey 20. 16.",
+      "new": "You might have left the office in the recap, but I'm retconning that — you haven't. Nat 20. 16.",
+      "reason": "retcon_and_roll_callout",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 6,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 7,
+      "op": "replace",
+      "path": "text",
+      "old": "What? You said? Perception. Okay.",
+      "new": "Perception check?",
+      "reason": "table_ack_and_clarification",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 7,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 8,
+      "op": "replace",
+      "path": "text",
+      "old": "And a whole 13. A whole what? 13. 13. Not a good roll. Right.",
+      "new": "13. Not a good roll.",
+      "reason": "dice_result_trim",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 8,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Kadira",
+              "raw": 13,
+              "total": null
+            }
+          ]
+        }
+      ],
+      "reason": "perception_roll",
+      "category": "mechanics"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 8,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.8,
+      "segmentId": 9,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, 30-20 and we're waiting for Brian. Right. These are more different. Okay, to the numbers.",
+      "new": "We're waiting for Brian. Okay, to the numbers.",
+      "reason": "waiting_for_absent_player",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 9,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 10,
+      "op": "replace",
+      "path": "text",
+      "old": "Much more legible now. Okay.",
+      "new": "Much more legible now.",
+      "reason": "trailing_table_ack",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 10,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 11,
+      "op": "replace",
+      "path": "text",
+      "old": "What's your perception Brian? I rolled a 16. My perception is plus 11. So you roll the 5 plus 11? Correct. Alright, you all seem to notice a faint look of concern on her face. as she's reading it. And it bades away very quickly. She's got a very good poker face. Being a lawyer makes a lot of sense. And she turns to you all and says, I have some trouble in the news. black arc corsairs been spotted going into the city a few hours ago. We're only just getting reports on it now. The... Actually, Rollman. They also usually hail on the west coast. Honestly, he might know.",
+      "new": "What's your Perception, Brian? He rolled a 16 — a 5 on the die plus 11. You all notice a faint look of concern on her face as she reads the note. It fades quickly; she has a very good poker face — being a lawyer makes sense. She turns to you and says: I have troubling news. Black Heart Corsairs have been spotted entering the city a few hours ago. We're only just getting reports on it now. They usually hail from the west coast — honestly, he might know.",
+      "reason": "runon_recast_proper_nouns",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 11,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Brian",
+              "raw": 5,
+              "total": 16
+            }
+          ]
+        }
+      ],
+      "reason": "brian_perception_roll",
+      "category": "mechanics"
+    },
+    {
+      "flagged": true,
+      "confidence": 0.85,
+      "segmentId": 11,
+      "op": "flag",
+      "path": "text",
+      "old": "Rollman",
+      "new": null,
+      "reason": "flagOnly_rollman_asr_garbage",
+      "category": "uncertain"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 11,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 12,
+      "op": "replace",
+      "path": "text",
+      "old": "Bryce might have special knowledge because he's so anti-slavery. Maybe. We'll give him a roll. We'll give him a roll. just thematically it would be fun if he knew it because that would work thematically no what was the name of this?",
+      "new": "Brian might have special knowledge because he's so anti-slavery. Maybe we'll give him a roll — thematically it would be fun if he knew it. Wait, what was the name of this?",
+      "reason": "table_talk_clarity",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 12,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 13,
+      "op": "replace",
+      "path": "text",
+      "old": "the black arc corsairs",
+      "new": "The Black Heart Corsairs.",
+      "reason": "proper_noun",
+      "category": "proper_noun"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 13,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 14,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 15,
+      "op": "replace",
+      "path": "text",
+      "old": "a-r-k like an arc what?",
+      "new": "A-R-K, like an ark. What?",
+      "reason": "spelling_clarification",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 15,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 16,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 17,
+      "op": "replace",
+      "path": "text",
+      "old": "Because they're pilots Corsair C-O-R-S-A-I-R-S Okay Okay",
+      "new": "Because they're pirates. Corsairs — C-O-R-S-A-I-R-S.",
+      "reason": "spelling_and_filler",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 17,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.85,
+      "segmentId": 24,
+      "op": "replace",
+      "path": "text",
+      "old": "Does Ryan want to loan me a society rule?",
+      "new": "Does Brian want to roll Society?",
+      "reason": "asr_and_rules_clarity",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 24,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 25,
+      "op": "replace",
+      "path": "text",
+      "old": "it would be very fun if you knew it that's a single bit",
+      "new": "It would be very fun if he knew it — that's a single bit.",
+      "reason": "table_talk_clarity",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 25,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 27,
+      "op": "replace",
+      "path": "text",
+      "old": "none of us know about the pirate slavers other than I know they're pirate slavers and I would share that",
+      "new": "None of us know about the pirate slavers, other than I know they're pirate slavers and I would share that.",
+      "reason": "character_knowledge_table_talk",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 27,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 39,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay, so she says that the Black Ark Corsairs were seen entering into the city. As she's reading more, kind of double-checking and reading what she's saying, these two... recognize the name. They're famous pirates. Not famous, but they're pirates. A pirate war band. Somebody can call them mercenaries who specialize in transporting slaves up and down the west coast of the Mwangi Expanse. they're a ruthless band of elves and dark elves who specialize specifically in slavery and also trapping exotic animals where naturally the Mon die Expanse has a rich assortment of both Although, that pirate theme so far... ...that's heard from Dave first. Chop their left ear. Cut their left ear if they're male. Right ear if they're female. Anyways, it's all good. So... So a small party seems to be heading in the direction of the Wamandu district, headed by Morley Finch. And you can see this look of contempt in her. She couldn't even hide it this time. Morley Finch. And then a larger, with the rest of the group, heading north. She pauses. She pauses. in the general direction of the brown brook barracks.",
+      "new": "Aliciet says the Black Heart Corsairs were seen entering the city. As she reads on, double-checking what she's saying, you recognize the name — they're a pirate war band, mercenaries who specialize in transporting slaves up and down the west coast of the Mwangi Expanse. A ruthless band of elves and drow who specialize in slavery and trapping exotic animals; the Mwangi Expanse has a rich assortment of both. Mr. Andy adds their pirate custom: chop the left ear if male, right ear if female. A small party seems to be heading toward the Bwamandu district, led by Morley Finch — and you see a look of contempt on her face she couldn't hide this time. A larger group, with the rest of the forces, is heading north in the general direction of the Brownbrook Barracks.",
+      "reason": "merge_recast_proper_nouns",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 39,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 43,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 44,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm sorry. Morley Finch is the group leading up to the...",
+      "new": "Morley Finch is the group leading up to the…?",
+      "reason": "session_clarification",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 44,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 45,
+      "op": "replace",
+      "path": "text",
+      "old": "No, the other way around. Morley Finch and a small group of pirates are in the city and made camp in the Womondoo district, which is where all of the Charaka are. And then the rest of the forces went up north to Brownbrook Barracks.",
+      "new": "No, the other way around. Morley Finch and a small group of pirates are in the city and made camp in the Bwamandu district, where the Charau-ka live. The rest of the forces went north to Brownbrook Barracks.",
+      "reason": "proper_nouns_and_clarity",
+      "category": "proper_noun"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 45,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 46,
+      "op": "replace",
+      "path": "text",
+      "old": "The black art corsairs.",
+      "new": "The Black Heart Corsairs.",
+      "reason": "proper_noun",
+      "category": "proper_noun"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 46,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 47,
+      "op": "replace",
+      "path": "text",
+      "old": "She looks at you all. You can try to roll probably a society check if you want to know who Morley Finch is. He's a relatively famous 25. You do know. Also 25.",
+      "new": "She looks at you all. You can roll a Society check if you want to know who Morley Finch is — he's relatively famous. 25 — you do know. Also 25.",
+      "reason": "society_check_prompt",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 47,
+      "op": "set",
+      "path": "mechanics",
+      "old": [],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Society",
+          "rolls": [
+            {
+              "character": null,
+              "raw": null,
+              "total": 25
+            },
+            {
+              "character": null,
+              "raw": null,
+              "total": 25
+            }
+          ]
+        }
+      ],
+      "reason": "society_results_announced",
+      "category": "mechanics"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 47,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 48,
+      "op": "replace",
+      "path": "text",
+      "old": "You also know. Okay. it occurred to me that I shouldn't roll because if I don't know the band, I probably",
+      "new": "You also know. It occurred to me that I shouldn't roll — if I don't know the band, I probably…",
+      "reason": "table_talk_filler",
+      "category": "filler_removed"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 48,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 49,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 50,
+      "op": "replace",
+      "path": "text",
+      "old": "He is a... You don't actually know that",
+      "new": "He is a… You don't actually know that.",
+      "reason": "gm_adjudication",
+      "category": "clarity_edit"
+    },
+    {
+      "flagged": false,
+      "confidence": 0.9,
+      "segmentId": 50,
+      "op": "set",
+      "path": "sceneId",
+      "old": null,
+      "new": "aliciet-office",
+      "category": "scene",
+      "reason": "aliciet_office_scene"
+    }
+  ],
+  "removedIds": [
+    5,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42
+  ]
+}

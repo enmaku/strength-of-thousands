@@ -1,0 +1,12 @@
+{
+  "players": {
+    "Lisa": { "character": "Kadira" },
+    "Victoria": { "character": "Neo" },
+    "Dave": { "character": "Mr. Andy" },
+    "Pablo": { "role": "gm" },
+    "Brian": {
+      "character": null,
+      "note": "absent; no in-character speech this session"
+    }
+  }
+}
