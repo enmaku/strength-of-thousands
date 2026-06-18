@@ -282,13 +282,13 @@
     "familiars": []
   },
   "relationships": {
-    "anchor-root": 1,
-    "chizire": 1,
+    "anchor-root": 2,
+    "chizire": 3,
     "esi-djana": 1,
-    "haibram-thodja": 1,
+    "haibram-thodja": 3,
     "ignaci-canterells": 1,
     "mariama-keitana": 1,
-    "noxolo": 1,
+    "noxolo": 2,
     "okoro-obiyo": 1,
     "tzeniwe": 1
   }
