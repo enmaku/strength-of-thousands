@@ -1,6 +1,5 @@
 {
-  "pathbuilderId": 450903,
-  "displayName": "Taraan Skyseeker",
+  "success": true,
   "build": {
     "name": "Taraan Skyseeker",
     "class": "Cleric",
@@ -755,16 +754,5 @@
         ]
       }
     ]
-  },
-  "relationships": {
-    "anchor-root": 3,
-    "chizire": 2,
-    "esi-djana": 2,
-    "haibram-thodja": 4,
-    "ignaci-canterells": 1,
-    "mariama-keitana": 1,
-    "noxolo": 2,
-    "okoro-obiyo": 1,
-    "tzeniwe": 2
   }
 }

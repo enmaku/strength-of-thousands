@@ -16,8 +16,8 @@
       </p>
 
       <p class="text-body1 sot-muted q-mb-none">
-        Use <strong>Relationships</strong> in the top bar to track Spire Dorm friendships
-        and classroom study bonuses for your hero.
+        Use <strong>Heroes</strong> in the top bar for party reference stats, or
+        <strong>Relationships</strong> to track Spire Dorm friendships and classroom study bonuses.
       </p>
     </div>
   </q-page>
