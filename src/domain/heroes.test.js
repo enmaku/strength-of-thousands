@@ -56,17 +56,12 @@ describe('buildHeroTabs', () => {
   ]
 
   it('returns sorted heroes with first as default', () => {
-    const tabs = buildHeroTabs(heroes, false)
+    const tabs = buildHeroTabs(heroes)
     expect(tabs.heroes.map((h) => h.slug)).toEqual(['a', 'z'])
     expect(tabs.defaultSlug).toBe('a')
-    expect(tabs.showAddTab).toBe(false)
-  })
-
-  it('shows add tab in GM mode', () => {
-    expect(buildHeroTabs(heroes, true).showAddTab).toBe(true)
   })
 
   it('returns null default slug for empty roster', () => {
-    expect(buildHeroTabs([], true).defaultSlug).toBeNull()
+    expect(buildHeroTabs([]).defaultSlug).toBeNull()
   })
 })

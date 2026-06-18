@@ -30,6 +30,12 @@
         <div class="row items-center no-wrap gt-xs">
           <q-tabs inline-label :model-value="activePath" align="right" shrink>
             <q-route-tab
+              to="/heroes"
+              name="/heroes"
+              icon="groups"
+              label="Heroes"
+            />
+            <q-route-tab
               to="/relationships"
               name="/relationships"
               icon="favorite"
@@ -75,6 +81,20 @@
 
     <q-drawer v-model="leftDrawerOpen" overlay bordered class="xs">
       <q-list padding>
+        <q-item
+          v-ripple
+          clickable
+          to="/heroes"
+          :active="route.path === '/heroes'"
+          active-class="bg-grey-3 text-weight-medium"
+          @click="leftDrawerOpen = false"
+        >
+          <q-item-section avatar>
+            <q-icon name="groups" />
+          </q-item-section>
+          <q-item-section>Heroes</q-item-section>
+        </q-item>
+
         <q-item
           v-ripple
           clickable

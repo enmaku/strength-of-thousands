@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { createHeroState, slugify } from '../src/domain/heroes.js'
+import { HeroImportError, planHeroImportWithCatalog, planHeroRefresh } from '../src/domain/heroesApi.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const heroesDir = path.join(root, 'heroes')
@@ -51,6 +51,15 @@ async function readHero(slug) {
 async function writeHero(slug, hero) {
   await fs.mkdir(heroesDir, { recursive: true })
   await fs.writeFile(path.join(heroesDir, `${slug}.json`), `${JSON.stringify(hero, null, 2)}\n`)
+}
+
+async function readAllHeroesBySlug() {
+  const index = await readHeroIndex()
+  const heroesBySlug = {}
+  for (const entry of index) {
+    heroesBySlug[entry.slug] = await readHero(entry.slug)
+  }
+  return heroesBySlug
 }
 
 function sendJson(res, status, body) {
@@ -143,70 +152,116 @@ async function handleHeroesApi(req, res) {
   }
 
   if (req.method === 'POST' && (subPath === '/' || subPath === '')) {
-    const body = await readBody(req)
-    const displayName = body.displayName?.trim()
-    if (!displayName) {
-      sendJson(res, 400, { error: 'displayName is required' })
-      return
-    }
-
-    const slug = slugify(displayName)
-    const heroPath = path.join(heroesDir, `${slug}.json`)
     try {
-      await fs.access(heroPath)
-      sendJson(res, 409, { error: 'Hero already exists' })
-      return
+      const body = await readBody(req)
+      const pathbuilderId = Number(body.pathbuilderId)
+      const build = body.build
+
+      if (!Number.isInteger(pathbuilderId) || pathbuilderId <= 0) {
+        sendJson(res, 400, { error: 'pathbuilderId is required' })
+        return
+      }
+
+      if (!build?.name) {
+        sendJson(res, 400, { error: 'PathBuilder build is required' })
+        return
+      }
+
+      const catalogSlugs = await readCatalogSlugs()
+      const index = await readHeroIndex()
+      const heroesBySlug = await readAllHeroesBySlug()
+      const { slug, hero } = planHeroImportWithCatalog(
+        build,
+        pathbuilderId,
+        index,
+        catalogSlugs,
+        heroesBySlug,
+      )
+
+      await writeHero(slug, hero)
+      index.push({ slug, displayName: hero.displayName })
+      await writeHeroIndex(index)
+
+      sendJson(res, 201, { slug, ...hero })
     } catch (err) {
-      if (err.code !== 'ENOENT') throw err
+      if (err instanceof HeroImportError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      throw err
     }
-
-    const catalogSlugs = await readCatalogSlugs()
-    const hero = createHeroState(displayName, catalogSlugs)
-    await writeHero(slug, hero)
-
-    const index = await readHeroIndex()
-    index.push({ slug, displayName: hero.displayName })
-    await writeHeroIndex(index)
-
-    sendJson(res, 201, { slug, ...hero })
     return
   }
 
   if (req.method === 'PUT' && slugMatch) {
     const slug = slugMatch[1]
-    const existing = await readHero(slug)
-    const body = await readBody(req)
-    const catalogSlugs = await readCatalogSlugs()
 
-    if (body.relationships) {
-      for (const [studentSlug, hearts] of Object.entries(body.relationships)) {
-        if (!catalogSlugs.includes(studentSlug)) {
-          sendJson(res, 400, { error: `Unknown student slug: ${studentSlug}` })
+    try {
+      const existing = await readHero(slug)
+      const body = await readBody(req)
+
+      if (body.refresh) {
+        if (!body.build?.name) {
+          sendJson(res, 400, { error: 'PathBuilder build is required for refresh' })
           return
         }
-        const value = Number(hearts)
-        if (!Number.isInteger(value) || value < 0 || value > 5) {
-          sendJson(res, 400, { error: `Invalid hearts for ${studentSlug}` })
-          return
+
+        const hero = planHeroRefresh(existing, body.build)
+        await writeHero(slug, hero)
+
+        const index = await readHeroIndex()
+        const entry = index.find((h) => h.slug === slug)
+        if (entry) {
+          entry.displayName = hero.displayName
+          await writeHeroIndex(index)
         }
+
+        sendJson(res, 200, hero)
+        return
       }
-      existing.relationships = { ...existing.relationships, ...body.relationships }
+
+      const catalogSlugs = await readCatalogSlugs()
+
+      if (body.relationships) {
+        for (const [studentSlug, hearts] of Object.entries(body.relationships)) {
+          if (!catalogSlugs.includes(studentSlug)) {
+            sendJson(res, 400, { error: `Unknown student slug: ${studentSlug}` })
+            return
+          }
+          const value = Number(hearts)
+          if (!Number.isInteger(value) || value < 0 || value > 5) {
+            sendJson(res, 400, { error: `Invalid hearts for ${studentSlug}` })
+            return
+          }
+        }
+        existing.relationships = { ...existing.relationships, ...body.relationships }
+      }
+
+      if (body.displayName?.trim()) {
+        existing.displayName = body.displayName.trim()
+      }
+
+      await writeHero(slug, existing)
+
+      const index = await readHeroIndex()
+      const entry = index.find((h) => h.slug === slug)
+      if (entry) {
+        entry.displayName = existing.displayName
+        await writeHeroIndex(index)
+      }
+
+      sendJson(res, 200, existing)
+    } catch (err) {
+      if (err instanceof HeroImportError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Hero not found' })
+        return
+      }
+      throw err
     }
-
-    if (body.displayName?.trim()) {
-      existing.displayName = body.displayName.trim()
-    }
-
-    await writeHero(slug, existing)
-
-    const index = await readHeroIndex()
-    const entry = index.find((h) => h.slug === slug)
-    if (entry) {
-      entry.displayName = existing.displayName
-      await writeHeroIndex(index)
-    }
-
-    sendJson(res, 200, existing)
     return
   }
 

@@ -12,19 +12,13 @@
 
       <template v-else-if="tabs.heroes.length === 0">
         <q-banner v-if="gmMode" class="sot-callout" rounded>
-          No heroes yet. Add a hero to start tracking Spire Dorm friendships.
+          No heroes yet.
+          <router-link to="/heroes" class="text-primary">Import heroes on the Heroes page</router-link>
+          to start tracking Spire Dorm friendships.
         </q-banner>
         <q-banner v-else class="bg-grey-2 sot-muted" rounded>
           No heroes published yet. Check back after the GM updates campaign state.
         </q-banner>
-        <q-btn
-          v-if="gmMode"
-          color="primary"
-          label="Add hero"
-          icon="add"
-          class="self-start"
-          @click="openAddDialog"
-        />
       </template>
 
       <template v-else>
@@ -42,7 +36,6 @@
             :name="hero.slug"
             :label="hero.displayName"
           />
-          <q-tab v-if="tabs.showAddTab" name="__add__" icon="add" aria-label="Add hero" />
         </q-tabs>
 
         <q-tab-panels v-model="activeTab" class="relationship-panels">
@@ -67,33 +60,6 @@
         </q-tab-panels>
       </template>
     </div>
-
-    <q-dialog v-model="addDialogOpen" persistent>
-      <q-card style="min-width: 20rem">
-        <q-card-section>
-          <div class="text-h6">Add hero</div>
-        </q-card-section>
-        <q-card-section class="q-pt-none">
-          <q-input
-            v-model="newHeroName"
-            label="Hero name"
-            autofocus
-            :rules="[(v) => !!v?.trim() || 'Name is required']"
-            @keyup.enter="submitAddHero"
-          />
-        </q-card-section>
-        <q-card-actions align="right">
-          <q-btn flat label="Cancel" @click="closeAddDialog" />
-          <q-btn
-            flat
-            label="Add"
-            color="primary"
-            :disable="!newHeroName.trim()"
-            @click="submitAddHero"
-          />
-        </q-card-actions>
-      </q-card>
-    </q-dialog>
   </q-page>
 </template>
 
@@ -113,18 +79,15 @@ const {
   ensureHeroLoaded,
   tilesForHero,
   setDisposition,
-  createHero,
   portraitUrl,
 } = useHeroRoster()
 
 const activeTab = ref(null)
-const addDialogOpen = ref(false)
-const newHeroName = ref('')
 
 watch(
   () => tabs.value.defaultSlug,
   (slug) => {
-    if (slug && activeTab.value !== '__add__') {
+    if (slug) {
       activeTab.value = slug
     }
   },
@@ -140,11 +103,6 @@ onMounted(async () => {
 })
 
 async function onTabChange(name) {
-  if (name === '__add__') {
-    openAddDialog()
-    activeTab.value = tabs.value.heroes[0]?.slug ?? null
-    return
-  }
   if (name) {
     try {
       await ensureHeroLoaded(name)
@@ -157,29 +115,6 @@ async function onTabChange(name) {
 async function onSetHearts(heroSlug, studentSlug, hearts) {
   try {
     await setDisposition(heroSlug, studentSlug, hearts)
-  } catch (err) {
-    $q.notify({ type: 'negative', message: err.message })
-  }
-}
-
-function openAddDialog() {
-  newHeroName.value = ''
-  addDialogOpen.value = true
-}
-
-function closeAddDialog() {
-  addDialogOpen.value = false
-}
-
-async function submitAddHero() {
-  const name = newHeroName.value.trim()
-  if (!name) return
-
-  try {
-    const slug = await createHero(name)
-    closeAddDialog()
-    activeTab.value = slug
-    $q.notify({ type: 'positive', message: `Added ${name}` })
   } catch (err) {
     $q.notify({ type: 'negative', message: err.message })
   }

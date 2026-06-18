@@ -26,11 +26,10 @@ export function defaultHearts(catalogSlugs, relationships = {}) {
   )
 }
 
-export function buildHeroTabs(heroes, isGm) {
+export function buildHeroTabs(heroes) {
   const sorted = sortHeroes(heroes)
   return {
     heroes: sorted,
-    showAddTab: isGm,
     defaultSlug: sorted[0]?.slug ?? null,
   }
 }
