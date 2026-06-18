@@ -5,26 +5,42 @@
     </div>
 
     <div v-else class="transcript-layout">
-      <aside class="transcript-sidebar">
+      <aside
+        class="transcript-sidebar"
+        :class="{ 'transcript-sidebar--collapsed': !sidebarOpen }"
+      >
         <div class="transcript-sidebar__header">
-          <div class="transcript-sidebar__title">Sessions</div>
-          <q-btn
-            flat
-            dense
-            round
-            size="sm"
-            color="primary"
-            class="transcript-sidebar__sort-btn"
-            :icon="sortDirection === 'desc' ? 'arrow_downward' : 'arrow_upward'"
-            :aria-label="
-              sortDirection === 'desc'
-                ? 'Sort sessions oldest first'
-                : 'Sort sessions newest first'
-            "
-            @click="toggleSortDirection"
-          />
+          <div v-if="sidebarOpen" class="transcript-sidebar__title">Sessions</div>
+          <div class="transcript-sidebar__header-actions">
+            <q-btn
+              v-if="sidebarOpen"
+              flat
+              dense
+              round
+              size="sm"
+              color="primary"
+              class="transcript-sidebar__sort-btn"
+              :icon="sortDirection === 'desc' ? 'arrow_downward' : 'arrow_upward'"
+              :aria-label="
+                sortDirection === 'desc'
+                  ? 'Sort sessions oldest first'
+                  : 'Sort sessions newest first'
+              "
+              @click="toggleSortDirection"
+            />
+            <q-btn
+              flat
+              dense
+              round
+              size="sm"
+              color="primary"
+              :icon="sidebarOpen ? 'chevron_left' : 'chevron_right'"
+              :aria-label="sidebarOpen ? 'Hide sessions' : 'Show sessions'"
+              @click="sidebarOpen = !sidebarOpen"
+            />
+          </div>
         </div>
-        <q-scroll-area class="transcript-sidebar__scroll">
+        <q-scroll-area v-show="sidebarOpen" class="transcript-sidebar__scroll">
           <q-list dense padding class="transcript-sidebar__list">
             <q-item
               v-for="session in sortedSessions"
@@ -479,6 +495,7 @@ const error = ref(null)
 const transcriptIndex = ref([])
 const selectedSession = ref(null)
 const sortDirection = ref('desc')
+const sidebarOpen = ref(true)
 const meta = ref(null)
 const segments = ref([])
 const changelog = ref(null)
@@ -1018,6 +1035,11 @@ onMounted(async () => {
   border-right: 1px solid var(--sot-border);
   background: var(--sot-parchment-light);
   color: var(--sot-ink);
+  transition: width 0.2s ease;
+}
+
+.transcript-sidebar--collapsed {
+  width: 2.75rem;
 }
 
 .transcript-sidebar__header {
@@ -1029,6 +1051,18 @@ onMounted(async () => {
   flex-shrink: 0;
   border-bottom: 1px solid var(--sot-border);
   background: transparent;
+}
+
+.transcript-sidebar--collapsed .transcript-sidebar__header {
+  justify-content: center;
+  padding-inline: 0.35rem;
+}
+
+.transcript-sidebar__header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  flex-shrink: 0;
 }
 
 .transcript-sidebar__title {
