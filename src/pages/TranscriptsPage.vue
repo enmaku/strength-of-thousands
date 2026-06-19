@@ -385,6 +385,50 @@
         </q-card-actions>
       </q-card>
     </q-dialog>
+
+    <q-btn
+      fab
+      color="primary"
+      class="transcript-assistant-fab"
+      aria-label="Query transcripts with an AI assistant"
+      @click="assistantDialogOpen = true"
+    >
+      <q-icon name="assistant" />
+    </q-btn>
+
+    <q-dialog v-model="assistantDialogOpen">
+      <q-card class="transcript-assistant-dialog">
+        <q-card-section>
+          <div class="text-h6">Query transcripts with AI</div>
+          <p class="q-mt-sm q-mb-none">
+            Paste the transcript URLs below into ChatGPT, Gemini, Claude, NotebookLM, or a similar
+            tool so the agent can read these transcripts 
+            and answer questions about the campaign.
+          </p>
+        </q-card-section>
+        <q-card-section class="q-pt-none">
+          <q-input
+            :model-value="transcriptRawUrlsText"
+            type="textarea"
+            readonly
+            autogrow
+            outlined
+            label="Session transcript URLs"
+          />
+        </q-card-section>
+        <q-card-actions align="right">
+          <q-btn flat label="Close" v-close-popup />
+          <q-btn
+            flat
+            label="Copy URLs"
+            color="primary"
+            icon="content_copy"
+            :disable="transcriptRawUrls.length === 0"
+            @click="copyTranscriptUrlsForAssistant"
+          />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </q-page>
 </template>
 
@@ -401,6 +445,7 @@ import {
 import {
   defaultTranscriptSession,
   isSameTranscriptSession,
+  rawEditedTranscriptUrls,
   sessionPaths,
   sortTranscriptSessions,
 } from '../domain/transcriptSessions.js'
@@ -523,6 +568,25 @@ const splitFirstText = ref('')
 const splitSecondText = ref('')
 const savingSplit = ref(false)
 const splittingSegmentId = ref(null)
+const assistantDialogOpen = ref(false)
+
+async function copyTranscriptUrlsForAssistant() {
+  if (transcriptRawUrls.value.length === 0) {
+    $q.notify({ type: 'warning', message: 'No transcript sessions to copy' })
+    return
+  }
+
+  try {
+    await navigator.clipboard.writeText(transcriptRawUrlsText.value)
+    const count = transcriptRawUrls.value.length
+    $q.notify({
+      type: 'positive',
+      message: `Copied ${count} transcript URL${count === 1 ? '' : 's'}. Paste into ChatGPT, Gemini, or similar.`,
+    })
+  } catch {
+    $q.notify({ type: 'negative', message: 'Could not copy URLs — select and copy manually' })
+  }
+}
 
 function hasChangelogChange(segmentId) {
   return changedSegmentIds.value.has(segmentId)
@@ -752,6 +816,12 @@ async function restoreSegment(deleted) {
 const sortedSessions = computed(() =>
   sortTranscriptSessions(transcriptIndex.value, sortDirection.value),
 )
+
+const transcriptRawUrls = computed(() =>
+  rawEditedTranscriptUrls(sortTranscriptSessions(transcriptIndex.value, 'asc')),
+)
+
+const transcriptRawUrlsText = computed(() => transcriptRawUrls.value.join('\n'))
 
 const sessionBase = computed(() => {
   if (!selectedSession.value) return null
@@ -1247,5 +1317,22 @@ onMounted(async () => {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
+}
+
+.transcript-assistant-fab {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 2;
+}
+
+.transcript-assistant-dialog {
+  width: min(36rem, 92vw);
+}
+
+.transcript-assistant-dialog :deep(textarea) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8rem;
+  line-height: 1.45;
 }
 </style>

@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest'
 import {
   defaultTranscriptSession,
   isSameTranscriptSession,
+  rawEditedTranscriptUrl,
+  rawEditedTranscriptUrls,
   sessionPaths,
   sortTranscriptSessions,
 } from './transcriptSessions.js'
@@ -63,5 +65,23 @@ describe('isSameTranscriptSession', () => {
   it('matches by session id', () => {
     expect(isSameTranscriptSession(sessions[0], sessions[0])).toBe(true)
     expect(isSameTranscriptSession(sessions[0], sessions[1])).toBe(false)
+  })
+})
+
+describe('rawEditedTranscriptUrl', () => {
+  it('builds a raw GitHub URL for edited.json', () => {
+    expect(rawEditedTranscriptUrl(sessions[1])).toBe(
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/transcripts/kibwe-homegame/session-05/edited.json',
+    )
+  })
+})
+
+describe('rawEditedTranscriptUrls', () => {
+  it('returns one URL per session in input order', () => {
+    expect(rawEditedTranscriptUrls(sessions)).toEqual([
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/transcripts/kibwe-homegame/session-03/edited.json',
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/transcripts/kibwe-homegame/session-05/edited.json',
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/transcripts/kibwe-homegame/session-01/edited.json',
+    ])
   })
 })
