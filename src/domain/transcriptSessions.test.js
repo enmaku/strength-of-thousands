@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import {
   defaultTranscriptSession,
+  enrichPlayerMapForAssistant,
   isSameTranscriptSession,
   rawEditedTranscriptUrl,
   rawEditedTranscriptUrls,
+  rawHeroJsonUrl,
   sessionPaths,
   sortTranscriptSessions,
 } from './transcriptSessions.js'
@@ -73,6 +75,43 @@ describe('rawEditedTranscriptUrl', () => {
     expect(rawEditedTranscriptUrl(sessions[1])).toBe(
       'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/transcripts/kibwe-homegame/session-05/edited.json',
     )
+  })
+})
+
+describe('rawHeroJsonUrl', () => {
+  it('builds a raw GitHub URL for a hero file', () => {
+    expect(rawHeroJsonUrl('taraan-skyseeker')).toBe(
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/heroes/taraan-skyseeker.json',
+    )
+  })
+})
+
+describe('enrichPlayerMapForAssistant', () => {
+  it('adds heroUrls and per-player heroUrl when heroSlug is set', () => {
+    const heroUrl =
+      'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/heroes/taraan-skyseeker.json'
+
+    expect(
+      enrichPlayerMapForAssistant(
+        {
+          players: {
+            Lisa: { character: 'Kadira', heroSlug: 'taraan-skyseeker' },
+            Pablo: { role: 'gm' },
+          },
+        },
+        ['taraan-skyseeker', 'xidic-goldenclaw'],
+      ),
+    ).toEqual({
+      players: {
+        Lisa: { character: 'Kadira', heroSlug: 'taraan-skyseeker', heroUrl },
+        Pablo: { role: 'gm' },
+      },
+      heroUrls: {
+        'taraan-skyseeker': heroUrl,
+        'xidic-goldenclaw':
+          'https://raw.githubusercontent.com/enmaku/strength-of-thousands/refs/heads/main/heroes/xidic-goldenclaw.json',
+      },
+    })
   })
 })
 

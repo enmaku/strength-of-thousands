@@ -401,30 +401,30 @@
         <q-card-section>
           <div class="text-h6">Query transcripts with AI</div>
           <p class="q-mt-sm q-mb-none">
-            Paste the transcript URLs below into ChatGPT, Gemini, Claude, NotebookLM, or a similar
-            tool so the agent can read these transcripts 
-            and answer questions about the campaign.
+            Copy the prompt below into ChatGPT, Gemini, Claude, NotebookLM, or a similar tool.
+            This will give the agent the campaign context and Hero data it needs to answer questions about the campaign.
           </p>
         </q-card-section>
         <q-card-section class="q-pt-none">
           <q-input
-            :model-value="transcriptRawUrlsText"
+            :model-value="assistantContextJson"
             type="textarea"
             readonly
-            autogrow
             outlined
-            label="Session transcript URLs"
+            label="Assistant prompt"
+            class="transcript-assistant-prompt"
+            :loading="assistantContextLoading"
           />
         </q-card-section>
         <q-card-actions align="right">
           <q-btn flat label="Close" v-close-popup />
           <q-btn
             flat
-            label="Copy URLs"
+            label="Copy prompt"
             color="primary"
             icon="content_copy"
-            :disable="transcriptRawUrls.length === 0"
-            @click="copyTranscriptUrlsForAssistant"
+            :disable="!assistantContextJson || assistantContextLoading"
+            @click="copyAssistantContext"
           />
         </q-card-actions>
       </q-card>
@@ -442,6 +442,10 @@ import {
   deletedItemsLabel,
   extractRemovedSegments,
 } from '../domain/transcriptFeed.js'
+import {
+  buildTranscriptAssistantContext,
+  serializeTranscriptAssistantContext,
+} from '../domain/transcriptAssistantContext.js'
 import {
   defaultTranscriptSession,
   isSameTranscriptSession,
@@ -569,22 +573,25 @@ const splitSecondText = ref('')
 const savingSplit = ref(false)
 const splittingSegmentId = ref(null)
 const assistantDialogOpen = ref(false)
+const assistantContextLoading = ref(false)
+const assistantSessionMetas = ref([])
+const assistantPlayerMaps = ref({})
+const assistantHeroSlugs = ref([])
 
-async function copyTranscriptUrlsForAssistant() {
-  if (transcriptRawUrls.value.length === 0) {
-    $q.notify({ type: 'warning', message: 'No transcript sessions to copy' })
+async function copyAssistantContext() {
+  if (!assistantContextJson.value) {
+    $q.notify({ type: 'warning', message: 'No assistant context to copy' })
     return
   }
 
   try {
-    await navigator.clipboard.writeText(transcriptRawUrlsText.value)
-    const count = transcriptRawUrls.value.length
+    await navigator.clipboard.writeText(assistantContextJson.value)
     $q.notify({
       type: 'positive',
-      message: `Copied ${count} transcript URL${count === 1 ? '' : 's'}. Paste into ChatGPT, Gemini, or similar.`,
+      message: 'Copied assistant prompt. Paste into ChatGPT, Gemini, or similar.',
     })
   } catch {
-    $q.notify({ type: 'negative', message: 'Could not copy URLs — select and copy manually' })
+    $q.notify({ type: 'negative', message: 'Could not copy JSON — select and copy manually' })
   }
 }
 
@@ -821,7 +828,18 @@ const transcriptRawUrls = computed(() =>
   rawEditedTranscriptUrls(sortTranscriptSessions(transcriptIndex.value, 'asc')),
 )
 
-const transcriptRawUrlsText = computed(() => transcriptRawUrls.value.join('\n'))
+const assistantContextJson = computed(() => {
+  if (transcriptRawUrls.value.length === 0) return ''
+  return serializeTranscriptAssistantContext(
+    buildTranscriptAssistantContext({
+      sessions: transcriptIndex.value,
+      sessionMetas: assistantSessionMetas.value,
+      playerMaps: assistantPlayerMaps.value,
+      heroSlugs: assistantHeroSlugs.value,
+      transcriptUrls: transcriptRawUrls.value,
+    }),
+  )
+})
 
 const sessionBase = computed(() => {
   if (!selectedSession.value) return null
@@ -980,6 +998,49 @@ async function loadPlayerMap(campaign) {
   }
 }
 
+async function loadAssistantSourceData() {
+  const sessions = transcriptIndex.value
+  if (sessions.length === 0) {
+    assistantSessionMetas.value = []
+    assistantPlayerMaps.value = {}
+    assistantHeroSlugs.value = []
+    return
+  }
+
+  assistantContextLoading.value = true
+
+  try {
+    const campaigns = [...new Set(sessions.map((session) => session.campaign))]
+    const heroIndexRes = await fetch(staticUrl('heroes/index.json'))
+
+    const [sessionMetas, playerMapPairs, heroIndex] = await Promise.all([
+      Promise.all(
+        sessions.map(async (session) => {
+          const res = await fetch(staticUrl(`${sessionPaths(session).base}/meta.json`))
+          return res.ok ? await res.json() : null
+        }),
+      ),
+      Promise.all(
+        campaigns.map(async (campaign) => {
+          const res = await fetch(staticUrl(`transcripts/${campaign}/player-map.json`))
+          return [campaign, res.ok ? await res.json() : null]
+        }),
+      ),
+      heroIndexRes.ok ? heroIndexRes.json() : [],
+    ])
+
+    assistantSessionMetas.value = sessionMetas.filter(Boolean)
+    assistantPlayerMaps.value = Object.fromEntries(playerMapPairs)
+    assistantHeroSlugs.value = heroIndex.map((entry) => entry.slug)
+  } catch {
+    assistantSessionMetas.value = []
+    assistantPlayerMaps.value = {}
+    assistantHeroSlugs.value = []
+  } finally {
+    assistantContextLoading.value = false
+  }
+}
+
 async function selectSession(session) {
   if (isSameTranscriptSession(selectedSession.value, session)) return
 
@@ -1002,10 +1063,14 @@ async function loadCatalog() {
 
     transcriptIndex.value = await res.json()
     selectedSession.value = defaultTranscriptSession(transcriptIndex.value)
+    await loadAssistantSourceData()
   } catch (err) {
     error.value = err.message || 'Failed to load transcript list'
     transcriptIndex.value = []
     selectedSession.value = null
+    assistantSessionMetas.value = []
+    assistantPlayerMaps.value = {}
+    assistantHeroSlugs.value = []
   } finally {
     catalogLoading.value = false
   }
@@ -1330,9 +1395,12 @@ onMounted(async () => {
   width: min(36rem, 92vw);
 }
 
-.transcript-assistant-dialog :deep(textarea) {
+.transcript-assistant-prompt :deep(textarea) {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.8rem;
   line-height: 1.45;
+  max-height: min(16rem, 45vh);
+  overflow-y: auto !important;
+  resize: none;
 }
 </style>

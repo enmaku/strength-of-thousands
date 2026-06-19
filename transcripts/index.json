@@ -1,6 +1,14 @@
 [
   {
     "campaign": "kibwe-homegame",
+    "sessionDir": "session-06",
+    "sessionNumber": 6,
+    "sessionId": "kibwe-homegame-session-06",
+    "label": "Session 6",
+    "editedUrl": "https://enmaku.github.io/strength-of-thousands/transcripts/kibwe-homegame/session-06/edited.json"
+  },
+  {
+    "campaign": "kibwe-homegame",
     "sessionDir": "session-05",
     "sessionNumber": 5,
     "sessionId": "kibwe-homegame-session-05",

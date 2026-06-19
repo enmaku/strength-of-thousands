@@ -1,0 +1,11 @@
+{
+  "sessionId": "kibwe-homegame-session-06",
+  "campaign": "Kibwe homegame",
+  "system": "Pathfinder 1e",
+  "sessionNumber": 6,
+  "partyLevel": 5,
+  "transcriptionSource": "fabricated",
+  "schemaVersion": 1,
+  "sourceFile": "fabricated-for-testing.json",
+  "note": "Fabricated session for multi-session search testing. Not from Whisper."
+}
