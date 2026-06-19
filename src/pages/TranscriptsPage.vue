@@ -401,7 +401,7 @@
         <q-card-section>
           <div class="text-h6">Query transcripts with AI</div>
           <p class="q-mt-sm q-mb-none">
-            Copy the prompt below into ChatGPT, Gemini, Claude, NotebookLM, or a similar tool.
+            Copy the prompt below into ChatGPTor a similar tool. Only ChatGPT is tested and supported at present, but other tools may work. 
             This will give the agent the campaign context and Hero data it needs to answer questions about the campaign.
           </p>
         </q-card-section>

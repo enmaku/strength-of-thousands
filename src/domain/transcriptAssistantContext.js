@@ -6,7 +6,8 @@ Before answering any questions:
 1. Fetch every URL in transcriptUrls and every URL in playerMap.heroUrls (and any player heroUrl fields).
 2. Do not report a fetch failure without actually trying the URL.
 3. Reply first with a short source inventory — each URL and whether it loaded (✓ or ✗).
-4. Do not answer campaign questions until that inventory is complete.
+4. If you fail to fetch a file, retry at least 3 times before considering the fetch a failure
+5. Do not answer campaign questions until that inventory is complete.
 
 When answering:
 - Use transcripts for session events and dialogue.
