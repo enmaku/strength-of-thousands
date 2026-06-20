@@ -66,17 +66,20 @@ export async function fetchPathbuilderBuild(pathbuilderId) {
   return extractBuildFromResponse(json)
 }
 
+export function dedicationArchetypeNames(feats) {
+  return (feats ?? [])
+    .map((feat) => feat[0])
+    .filter((name) => name?.endsWith(' Dedication'))
+    .map((name) => name.replace(/ Dedication$/, ''))
+}
+
 export function buildClassLine(build) {
   const parts = []
   if (build.class) parts.push(build.class)
   if (build.dualClass) parts.push(build.dualClass)
 
   const seen = new Set(parts)
-  for (const feat of build.feats ?? []) {
-    const name = feat[0]
-    const type = feat[2]
-    if (type !== 'Archetype Feat' || !name?.endsWith(' Dedication')) continue
-    const archetype = name.replace(/ Dedication$/, '')
+  for (const archetype of dedicationArchetypeNames(build.feats)) {
     if (!seen.has(archetype)) {
       seen.add(archetype)
       parts.push(archetype)
@@ -143,7 +146,20 @@ function formatWeaponAttack(weapon) {
 }
 
 function primarySpellCaster(build) {
-  return (build.spellCasters ?? []).find((c) => c.name === build.class && !c.innate)
+  const casters = (build.spellCasters ?? []).filter((c) => !c.innate)
+  const classMatch = casters.find((c) => c.name === build.class)
+  if (classMatch) return classMatch
+
+  for (const archetype of dedicationArchetypeNames(build.feats)) {
+    const archetypeMatch = casters.find((c) => c.name === `Archetype ${archetype}`)
+    if (archetypeMatch) return archetypeMatch
+  }
+
+  if (build.dualClass) {
+    return casters.find((c) => c.name === build.dualClass) ?? null
+  }
+
+  return null
 }
 
 function computeSpellStats(build) {

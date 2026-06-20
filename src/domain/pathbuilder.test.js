@@ -50,9 +50,39 @@ describe('buildClassLine', () => {
   it('orders class, dual class, and dedication archetypes', () => {
     expect(buildClassLine(taraanBuild)).toBe('Cleric / Witch / Winged Warrior')
   })
+
+  it('includes dedication archetypes regardless of feat type label', () => {
+    expect(
+      buildClassLine({
+        class: 'Inventor',
+        feats: [['Wizard Dedication', null, 'Awarded Feat', 1]],
+      }),
+    ).toBe('Inventor / Wizard')
+  })
 })
 
 describe('deriveHeroTile', () => {
+  it('uses archetype spellcasting from dedication feats', () => {
+    const tile = deriveHeroTile({
+      class: 'Inventor',
+      level: 1,
+      abilities: { int: 14 },
+      feats: [['Wizard Dedication', null, 'Awarded Feat', 1]],
+      spellCasters: [
+        {
+          name: 'Archetype Wizard',
+          ability: 'int',
+          proficiency: 2,
+          innate: false,
+        },
+      ],
+    })
+
+    expect(tile.classLine).toBe('Inventor / Wizard')
+    expect(tile.spellAttack).toBe(5)
+    expect(tile.spellDc).toBe(15)
+  })
+
   it('derives Taraan reference stats', () => {
     const tile = deriveHeroTile(taraanBuild)
 
