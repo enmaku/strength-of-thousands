@@ -3,6 +3,11 @@ export function getGmLessons() {
 
   return [
     {
+      title: 'Academia Downtime',
+      caption: 'GM prep · Study, Cram & Practical Research',
+      href: `${pagesBase}/lessons/0007-academia-downtime-gm-prep.html`,
+    },
+    {
       title: 'Book 1 — Kindled Magic',
       caption: 'GM prep · levels 1→4',
       href: `${pagesBase}/lessons/0001-kindled-magic-gm-prep.html`,

@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Academia Downtime GM Prep</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #3a2850 0%, var(--green) 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .spoiler-box {
+      background: var(--spoiler-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      border-radius: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .timeline td:first-child { white-space: nowrap; font-weight: 600; color: var(--green); width: 7rem; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    .nav-lessons { font-family: var(--sans); font-size: 0.88rem; margin-bottom: 1.5rem; }
+    code { font-family: ui-monospace, monospace; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Campaign Reference · GM Prep</p>
+    <h1>Academia downtime — Study, Cram &amp; Practical Research</h1>
+    <p>How branch levels work, when to call for checks, and how the subsystem shifts from exams to field discovery across all six books.</p>
+  </div>
+</header>
+
+<main>
+
+<p class="nav-lessons"><a href="0001-kindled-magic-gm-prep.html">Book 1</a> · <a href="../reference/sot-glossary-and-npcs.html">NPC reference</a> · <a href="https://2e.aonprd.com/Rules.aspx?ID=1467">AoN — Life in the Academy</a> (share with players)</p>
+
+<section id="pf2e-downtime">
+  <h2>Baseline — Pathfinder 2e downtime</h2>
+  <p>Before the Magaambya subsystem: <strong>downtime mode</strong> is how PF2e handles safe, low-stakes time between adventures — played <strong>day-by-day</strong>, usually summarized in a few minutes at session start or between chapters. One roll often stands in for a whole day’s work.</p>
+  <p>The Strength of Thousands AP <em>adds</em> Study, Cram, and Practical Research on top of this. PCs can still use standard activities whenever the story gives them free time — Lumusi even points initiates at Earn Income jobs in Book 1; Book 5’s teaching semester explicitly allows Crafting, Earn Income, and Learn a Spell alongside prep research.</p>
+
+  <table>
+    <thead><tr><th>Activity</th><th>Skill</th><th>Typical use</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=23">Earn Income</a></td>
+        <td>Crafting, Lore, Performance (+ others by negotiation)</td>
+        <td>Job for pay; GM sets task level; roll once, then keep earning at that rate for days or weeks</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=43">Craft</a></td>
+        <td>Crafting</td>
+        <td>Make items from raw materials; days or weeks per project; needs formula for uncommon+ items</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=2366">Learn a Spell</a></td>
+        <td>Arcana, Nature, Occultism, or Religion</td>
+        <td>Casters add spells to spellbook/repertoire; 1 hour per spell rank + material cost + skill check</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=26">Subsist</a></td>
+        <td>Society or Survival</td>
+        <td>Find food and shelter without paying; “subsistence” cost of living</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=25">Create Forgery</a></td>
+        <td>Society</td>
+        <td>Fabricate a document over a day or week</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Activities.aspx?ID=27">Treat Disease</a></td>
+        <td>Medicine</td>
+        <td>Long-term care toward curing an affliction</td>
+      </tr>
+      <tr>
+        <td><a href="https://2e.aonprd.com/Rules.aspx?ID=475">Retrain</a></td>
+        <td>—</td>
+        <td>Swap a feat (~1 week), skill increase (~1 week), or class feature (~1 month+); no other downtime while retraining</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Also built into downtime mode: <strong>buying and selling</strong> gear, <strong>long-term rest</strong> (recover HP/conditions over days), and <strong>cost of living</strong> (comfortable ≈ 4 gp/month in a city). For weeks-to-years off, the GM picks a few standout events and averages the rest rather than rolling every day.</p>
+
+  <div class="callout">
+    <strong>SoT vs default:</strong> Standard downtime is <em>optional filler</em> the players choose. Academia downtime is <em>story-scheduled</em> — the module tells you when to offer Study or Practical Research slots. Run both; they answer different questions (pocket money vs branch level).
+  </div>
+  <p class="cite"><a href="https://2e.aonprd.com/Rules.aspx?ID=538">AoN — Downtime (Core Rulebook)</a> · <a href="https://2e.aonprd.com/Rules.aspx?ID=2604">GMG — Running Downtime</a> · <a href="https://2e.aonprd.com/Activities.aspx?Category=2">AoN — Downtime Activities index</a></p>
+</section>
+
+<section id="pitch">
+  <h2>The one-sentence pitch</h2>
+  <p>Branch levels (primary + secondary) advance through <strong>semester-scale downtime checks</strong>, not XP — <strong>Study</strong> and <strong>Cram</strong> while students, then <strong>Practical Research</strong> in the field once they graduate to teachers — and the real payoff is a parallel track of lore, skill feats, and Magaambyan Attendant archetype feats tied to each branch.</p>
+  <p class="cite">Sources: <a href="https://2e.aonprd.com/Rules.aspx?ID=1467">Archives of Nethys — Life in the Academy</a>, <a href="https://paizo.com/products/btq01yop?Pathfinder-Adventure-Path-169-Kindled-Magic">Kindled Magic</a> pp. 61–63, per-book Practical Research sidebars.</p>
+</section>
+
+<section id="core-concept">
+  <h2>Core concept — two level tracks</h2>
+  <ul>
+    <li>Each PC picks a <strong>primary branch</strong> and <strong>secondary branch</strong> (both start at level 0).</li>
+    <li><strong>Primary branch level</strong> cannot exceed character level.</li>
+    <li><strong>Secondary branch level</strong> cannot exceed half character level (minimum 0).</li>
+    <li>Branch levels grant benefits at specific thresholds (lore, skill feats, branch feats, Magaambyan Attendant dedication at branch 3, etc.) — see Table 2 in the rules article.</li>
+    <li>Each downtime activity represents <strong>roughly a semester</strong> (a few months). Adventures happen during or between semesters as the story requires.</li>
+  </ul>
+
+  <div class="callout">
+    <strong>Share with players:</strong> The AoN “Life in the Academy” article is written from the player perspective and is not a secret. Hand it out at session zero so they understand branch choice and advancement before you run the first Study check.
+  </div>
+
+  <h3>The star rule (banking progress)</h3>
+  <p>If a check would raise a branch past its cap, mark a <strong>★</strong> next to that branch level. When the PC next gains a character level, bump the branch to the new cap and erase the star. Players never waste a good roll.</p>
+</section>
+
+<section id="activities">
+  <h2>Three downtime activities</h2>
+
+  <h3>Study</h3>
+  <p><strong>Requirements:</strong> initiate, attendant, or conversant.</p>
+  <p>Pick primary <em>or</em> secondary branch. Roll one of that branch’s associated skills against the <strong>standard DC for the branch’s current level</strong>.</p>
+  <table>
+    <thead><tr><th>Result</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td>Critical success</td><td>+2 branch levels</td></tr>
+      <tr><td>Success</td><td>+1 branch level</td></tr>
+      <tr><td>Failure</td><td>No change</td></tr>
+      <tr><td>Critical failure</td><td>Skip the <em>next</em> Study opportunity (remedial work)</td></tr>
+    </tbody>
+  </table>
+  <p class="cite"><a href="https://2e.aonprd.com/Actions.aspx?ID=752">AoN — Study</a></p>
+
+  <h3>Cram</h3>
+  <p><strong>Requirements:</strong> initiate, attendant, or conversant; primary <em>or</em> secondary branch is <strong>2+ levels below its cap</strong>.</p>
+  <p>Perform Study <strong>twice</strong> (each branch must qualify). Until the PC takes Study again normally, each adventuring day starts with a <strong>DC 8 flat check</strong> or they are <strong>fatigued</strong> that day.</p>
+  <p class="callout"><strong>GM tip:</strong> Cram is a catch-up lever, not the default rhythm. Book 1 explicitly suggests discouraging it early — fatigue during insect fights and masking ceremony hurts.</p>
+  <p class="cite"><a href="https://2e.aonprd.com/Actions.aspx?ID=753">AoN — Cram</a></p>
+
+  <h3>Practical Research</h3>
+  <p><strong>Requirements:</strong> conversant or lore-speaker.</p>
+  <p>Field discovery — the GM describes an appropriate check when the opportunity arises. Results usually mirror Study, but some hooks grant unique options (new spells, access to locations, etc.).</p>
+  <p class="spoiler-box"><strong>Post-graduation rule (Book 3 sidebar):</strong> Lore-speakers <em>teach</em>, but they do <strong>not</strong> advance branches by teaching alone. Field discovery — adding scholarship, recovering lost knowledge — is how teachers progress. Book 5 Ch 1 reinforces this: the semester of teaching does <em>not</em> increase branch levels; the Akiton expedition is the Practical Research lever.</p>
+  <p class="cite"><a href="https://2e.aonprd.com/Actions.aspx?ID=754">AoN — Practical Research</a></p>
+</section>
+
+<section id="branches">
+  <h2>Branch skills (for Study checks)</h2>
+  <table>
+    <thead><tr><th>Branch</th><th>Associated skills</th><th>Lore</th><th>General feat (branch 8)</th></tr></thead>
+    <tbody>
+      <tr><td>Cascade Bearers</td><td>Arcana, Occultism, Religion</td><td>Academia Lore</td><td>Canny Acumen</td></tr>
+      <tr><td>Emerald Boughs</td><td>Deception, Diplomacy, Society</td><td>Specific settlement</td><td>Adopted Ancestry</td></tr>
+      <tr><td>Rain-Scribes</td><td>Medicine, Nature, Survival</td><td>Specific terrain</td><td>Fleet</td></tr>
+      <tr><td>Tempest-Sun Mages</td><td>Intimidation, Performance</td><td>Warfare Lore</td><td>Toughness</td></tr>
+      <tr><td>Uzunjati</td><td>Crafting, Lore</td><td>Any Lore</td><td>Incredible Initiative</td></tr>
+    </tbody>
+  </table>
+  <p>Players choose primary vs secondary each Study — you do not need a weekly class schedule.</p>
+</section>
+
+<section id="cohort-bonuses">
+  <h2>Spire Dorm study bonuses</h2>
+  <p>When a PC reaches <strong>Liked</strong> (3+ hearts) with a Spire student on the relationship tracker, that student’s <strong>Classroom Advantage</strong> applies to Study/Cram for their branch — e.g. Anchor Root turns Rain-Scribe crit fails into fails; Esi upgrades Tempest-Sun successes to crit successes.</p>
+  <p>Weave dorm friendships into semester scenes; the mechanical bonus rewards the fiction you’re already playing. Full text lives in the app’s Relationships page and <a href="../reference/sot-glossary-and-npcs.html">NPC reference</a>.</p>
+</section>
+
+<section id="pacing">
+  <h2>When in the story — book by book</h2>
+  <p>Each volume embeds downtime in its calendar. The table below is the quick reference; the subsections spell out <strong>which story beat triggers each slot</strong>.</p>
+
+  <table class="timeline">
+    <thead><tr><th>Book</th><th>Activity</th><th>Slots</th><th>Story window</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>1</strong></td>
+        <td>Study</td>
+        <td>1 + 2–4</td>
+        <td>Ch 1 end → Ch 2 semester → before First Masking</td>
+      </tr>
+      <tr>
+        <td><strong>2</strong></td>
+        <td>Study</td>
+        <td>~1/semester</td>
+        <td>Between conversant missions (Ch 2); not during mansion climax</td>
+      </tr>
+      <tr>
+        <td><strong>3</strong></td>
+        <td>Practical Research</td>
+        <td>1–2</td>
+        <td>Bloodsalt encampment (Ch 1); Vacant Eye prison (Ch 3, optional)</td>
+      </tr>
+      <tr>
+        <td><strong>4</strong></td>
+        <td>Practical Research</td>
+        <td>1–2</td>
+        <td>Mzali necropolis (Ch 1); Osibu stay (Ch 3)</td>
+      </tr>
+      <tr>
+        <td><strong>5</strong></td>
+        <td>Semester + PR</td>
+        <td>Ch 1 semester; PR at plaza &amp; Akiton</td>
+        <td>Teaching semester → Doorway plaza → Hall of Reason</td>
+      </tr>
+      <tr>
+        <td><strong>6</strong></td>
+        <td>Practical Research</td>
+        <td>Open-ended</td>
+        <td>Endless Table exploration (Ch 2); 1 day per check</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 1 — Kindled Magic (Study)</h3>
+  <p><a href="0001-kindled-magic-gm-prep.html">Book 1 lesson</a> · Levels 1→4 · initiate → attendant</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1</strong> — after Introduction Ceremony gremlin fight (level 2)</td>
+        <td>1st Study</td>
+        <td>Gloss over the first few months of classes. PCs may change primary/secondary branch <em>before</em> this roll — the Perquisite was designed to inform that choice. Pair with a dorm or campus scene.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — between “Meet the Teachers” &amp; student vignettes</td>
+        <td>2nd–4th Study</td>
+        <td>Weave checks around Bug Problems (Koride), tournament (Mafika), rituals, dorm events. Book suggests <strong>2–4 total</strong> this chapter — no hurry; Stone Ghost is still hidden. Typical calendar: ~4 Study + ~4 events → First Masking ~1 year after arrival.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2 climax</strong> — First Masking insect attack (level 3)</td>
+        <td>—</td>
+        <td>No Study after the ceremony starts. Branch 3 (Magaambyan Attendant Dedication) may land here if a PC’s Study track kept pace.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — tunnel investigation</td>
+        <td>None</td>
+        <td>Fast-paced investigation/combat. Optional 1-day downtime to transfer mask powers from loot — not a Study slot.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 2 — Spoken on the Song Wind (Study)</h3>
+  <p><a href="0002-spoken-on-the-song-wind-gm-prep.html">Book 2 lesson</a> · Levels 4→8 · attendant → lore-speaker</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1</strong> — Janatimo returns, pre-conversant</td>
+        <td>0–1 Study</td>
+        <td>Bridge from Book 1. Optional Study if you want branch levels to keep pace before the conversant ceremony in Whistle Tower.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — conversant missions sandbox</td>
+        <td>1 per semester</td>
+        <td>Faculty assign ~<strong>2 tasks per semester</strong>; tasks break up classes, not replace them. Offer Study <em>between</em> missions — after Suspicious Alchemy / Flooded Workshop, before taxing tasks like Carving Trouble. Covers two character levels (5→7).</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — if Ubanu is admitted (Carving Trouble outcome)</td>
+        <td>Penalty, not a slot</td>
+        <td>Tutoring Ubanu raises Study DC by <strong>+1</strong> and Cram DC by <strong>+2</strong> for the <strong>next two academic semesters</strong> (can spill into Book 3).</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — Asanda’s flooded mansion</td>
+        <td>None</td>
+        <td>Investigation climax. No Study during the coup reveal.</td>
+      </tr>
+      <tr>
+        <td><strong>End of book</strong> — lore-speaker graduation</td>
+        <td>—</td>
+        <td><strong>~2 months downtime</strong> after ceremony: claim offices, meet senior faculty, prep curricula. Not Study — bridge to Book 3 teaching.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 3 — Hurricane's Howl (Practical Research)</h3>
+  <p><a href="0004-hurricanes-howl-gm-prep.html">Book 3 lesson</a> · Levels 8→12 · first year as teachers</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1</strong> — teaching semester, early events</td>
+        <td>—</td>
+        <td>Campus scenes (Sparring and Study with Onyiji, Runaway Experiment, etc.) — roleplay, not branch checks. Teaching alone does <strong>not</strong> advance branches.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — I'boko's disappearance (near end of first teaching year)</td>
+        <td>Trigger</td>
+        <td>Student vanishes homeward to Kiutu → pursuit to Bloodsalt. Oyamba assigns <strong>practical research in the ruins</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — after Kiutu is secured</td>
+        <td>PR in Bloodsalt (1 month each)</td>
+        <td>Encampment at ruins. Each month: <strong>Practical Research in Bloodsalt</strong> <em>or</em> Rebuild Kiutu (shared Restoration Points) — not both same month. Dead Man's Breath gas forces brief evacuations but doesn't consume months. Start Ch 2 after <strong>~3 months</strong> of these activities.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — Knights pursuit across Mugumo Plains</td>
+        <td>None</td>
+        <td>Travel/combat. Students are days behind — no group PR here.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — after clearing Prison of the Vacant Eye</td>
+        <td>PR at Vacant Eye (optional, 1 month)</td>
+        <td>Book calls this out explicitly — PCs may investigate Ghol-Gan history or send for students. Also valid <em>after</em> Jula (Ch 4) if they didn't stop then. Crit fail bars the site for 1 year.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 4</strong> — Jula finale</td>
+        <td>—</td>
+        <td>Level 12. No downtime during the siege.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 4 — Secrets of the Temple-City (Practical Research)</h3>
+  <p><a href="0005-secrets-temple-city-gm-prep.html">Book 4 lesson</a> · Levels 12→15 · diplomatic delegation</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1</strong> — Mzali influence sandbox (weeks)</td>
+        <td>Contact/Influence first</td>
+        <td>Must <strong>Contact a Mzali Figure</strong> (1 week each) before social encounters. PR unlocks later — don't rush checks before diplomacy earns access.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — Nkiruka Influence 5 (necropolis access)</td>
+        <td>PR in Mzali (1 month)</td>
+        <td>Western necropolis opens for tomb study. Religion or branch skill. Crit fail: doomed 1 + <strong>barred from Mzali PR forever</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — Nkiruka Influence 6</td>
+        <td>Language lessons (1–2 months)</td>
+        <td>Learn spoken/sign Mzunu — <em>not</em> branch advancement, but competes for calendar time.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — shrine task</td>
+        <td>None</td>
+        <td>Walkena's test; level 14 milestone. Osibu clue surfaces here.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — Osibu stay (first few months)</td>
+        <td>PR in Osibu (1 month)</td>
+        <td>Dimari-Diji encourages learning about the golden city. Diplomacy, Society, or branch skill. City leaders review all notes — crit success has a secret Deception check that may endanger Osibu.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 5 — Doorway to the Red Star (semester + PR)</h3>
+  <p><a href="0006-doorway-to-the-red-star-gm-prep.html">Book 5 lesson</a> · Levels 15→18</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1 opening</strong> — new semester begins</td>
+        <td>3-month semester</td>
+        <td>PCs must teach. Portal alignment window opens <strong>after</strong> this semester — built-in deadline. Run in <strong>2-week blocks</strong>; after each block, one faculty event (players pick which mentor to visit). Branch levels do <strong>not</strong> increase from teaching.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — during semester</td>
+        <td>Prep research (not Study)</td>
+        <td>Separate <strong>GMG research sub-system</strong> for Doorway topics, Iobane gifts, Akiton lore (Ahassunu seeds these). Also standard downtime: Crafting, Earn Income, Learn Spell.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1 end</strong> — semester complete</td>
+        <td>Expedition begins</td>
+        <td>Travel to Plaza of the Door (~400 miles; largely hand-waved at level 15).</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 1</strong> — Plaza of the Door (Iobane negotiations)</td>
+        <td>PR at the Doorway (1 week each)</td>
+        <td>Requires friendly/helpful <strong>Mpondo</strong>. Occultism or branch skill. Crit success improves Mpondo's attitude; crit fail = repair week, no PR. Other PCs can PR in the region while diplomats talk.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — Hall of Reason, Akiton</td>
+        <td>PR in Gardens of Enlightenment</td>
+        <td>After securing the Hall from invaders. Occultism or branch skill vs <strong>very hard</strong> DC (damaged memory archive).</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — sand-racer chase &amp; airship</td>
+        <td>None</td>
+        <td>Action sequence to finale. Level 18 at end.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Book 6 — Shadows of the Ancients (Practical Research)</h3>
+  <p><a href="0003-shadows-of-the-ancients-gm-prep.html">Book 6 lesson</a> · Levels 18→20</p>
+  <table class="timeline">
+    <thead><tr><th>When in the story</th><th>Slot</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Ch 1</strong> — Unshadowed Academy, Koride crisis</td>
+        <td>None</td>
+        <td>Magic Warrior naming + hunt for Koride. No academia downtime — pure crisis.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2</strong> — shrunk on the Endless Table</td>
+        <td>PR anywhere on the table (1 day each)</td>
+        <td>Unique rules: branch can reach <strong>level 20 regardless of character level</strong>. Nature or branch skill. Hlakana explicitly encourages PR while she sews shadow-stitches. Crit fail: –2 to future Endless Table PR. Between exploration encounters — Issa's whisker quest, cat-and-clock roamers, etc.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 2 climax</strong> — crack the Vesicant Egg</td>
+        <td>—</td>
+        <td>Return to normal size (level 20). PR window closes.</td>
+      </tr>
+      <tr>
+        <td><strong>Ch 3</strong> — King of Biting Ants larva</td>
+        <td>None</td>
+        <td>Final battle. Campaign end.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <strong>Cross-book continuity:</strong> Ubanu's Study/Cram penalty (Book 2) lasts two semesters — may still apply early in Book 3. Spire Dorm Classroom Advantages (Book 1+) apply whenever the relevant branch is studied. After graduation, assume players need you to <em>offer</em> PR hooks — they won't advance from passive teaching.
+  </div>
+</section>
+
+<section id="running">
+  <h2>Running it at the table</h2>
+
+  <h3>Roleplay before you roll</h3>
+  <p>Paizo’s guidance: the subsystem shines when Study is a <em>scene</em> — hunting a missing library text, convincing a professor to approve a risky experiment, dorm study group with an NPC who grants Classroom Advantage. Roll after the fiction, not instead of it.</p>
+
+  <h3>Pacing anti-patterns</h3>
+  <ul>
+    <li><strong>Calendar paralysis:</strong> You don’t owe four Study checks before the next combat. Book 1 says 2–4 — pick what fits your table.</li>
+    <li><strong>Semester monotony (Book 5):</strong> If players only roll research checks, run faculty events and remind them of Crafting, Earn Income, Learn Spell, etc.</li>
+    <li><strong>Forgetting rank gates:</strong> Study/Cram require initiate through conversant. Lore-speakers need Practical Research hooks.</li>
+    <li><strong>Ignoring crit fail skip:</strong> Track who owes remedial time — it’s a story hook (tutor sessions, embarrassed PC).</li>
+  </ul>
+
+  <h3>If your table wants less paperwork</h3>
+  <p>AoN offers an official shortcut: skip the subsystem entirely (PCs are slightly less versatile), <em>or</em> auto-advance primary branch at every even character level to a max of 11 at level 20. Use this only if players opted out at session zero — the AP assumes branch growth.</p>
+</section>
+
+<section id="milestones">
+  <h2>Branch milestones worth tracking</h2>
+  <table>
+    <thead><tr><th>Branch lvl</th><th>Benefit</th><th>GM note</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Additional Lore</td><td>First Study success — character feels “Magaambyan”</td></tr>
+      <tr><td>3</td><td>Magaambyan Attendant Dedication</td><td>Requires Perquisite complete; huge build pivot — celebrate it</td></tr>
+      <tr><td>7 / 12</td><td>Branch archetype feats</td><td>6th- and 10th-level attendant feats for that branch</td></tr>
+      <tr><td>20</td><td>Magical Paragon</td><td>Capstone branch ability — Book 6 Endless Table can get PCs here early</td></tr>
+    </tbody>
+  </table>
+  <p class="cite">Full table: <a href="https://2e.aonprd.com/Rules.aspx?ID=1472">AoN — Branch Benefits</a></p>
+</section>
+
+<section id="quiz">
+  <h2>Self-check — ready to run semester downtime?</h2>
+
+  <div class="quiz" data-q="1" data-answer="b">
+    <h3>1. A 6th-level PC’s secondary branch cannot exceed…</h3>
+    <button onclick="check(this,'a')">A. 6</button>
+    <button onclick="check(this,'b')">B. 3</button>
+    <button onclick="check(this,'c')">C. 1</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="c">
+    <h3>2. Lore-speakers advance branches primarily through…</h3>
+    <button onclick="check(this,'a')">A. Teaching classes each semester</button>
+    <button onclick="check(this,'b')">B. Automatic advancement at even levels</button>
+    <button onclick="check(this,'c')">C. Practical Research in the field</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="a">
+    <h3>3. On a Study critical failure, the PC must…</h3>
+    <button onclick="check(this,'a')">A. Skip their next Study opportunity</button>
+    <button onclick="check(this,'b')">B. Lose 1 branch level</button>
+    <button onclick="check(this,'c')">C. Take 1d6 mental damage</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b">
+    <h3>4. Cram is available when a branch is…</h3>
+    <button onclick="check(this,'a')">A. At level 0</button>
+    <button onclick="check(this,'b')">B. 2+ levels below its cap</button>
+    <button onclick="check(this,'c')">C. At maximum level</button>
+    <div class="feedback"></div>
+  </div>
+</section>
+
+<section id="followup">
+  <h2>Next steps</h2>
+  <p>Run Book 1 with <a href="0001-kindled-magic-gm-prep.html">Kindled Magic GM prep</a> — Chapter 2 is your first real semester pacing test.</p>
+  <p>Ask your teacher for: a printable branch tracker; semester calendar one-pager; or drill on Book 5’s 2-week semester structure.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace: <code>/Users/enmaku/learning/strength-of-thousands</code> · Lesson 0007 · Spoilers for GMs only — share AoN player article, not this page.</p>
+  <p>Citations: <a href="https://2e.aonprd.com/Rules.aspx?ID=1467">AoN Life in the Academy</a>, <a href="https://doughahn.github.io/sot/life/">GM Doug — Branches &amp; Study</a>, <a href="https://paizo.com/threads/rzs43fo2?1-Kindled-Magic=">Paizo Kindled Magic GM Reference</a>.</p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const quiz = btn.closest('.quiz');
+  const correct = quiz.dataset.answer;
+  const fb = quiz.querySelector('.feedback');
+  if (choice === correct) {
+    fb.textContent = 'Correct — you\'re ready to run semester downtime.';
+    fb.className = 'feedback correct';
+  } else {
+    fb.textContent = 'Not quite — reread the section above and try again.';
+    fb.className = 'feedback wrong';
+  }
+}
+</script>
+</body>
+</html>
