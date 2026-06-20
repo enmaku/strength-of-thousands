@@ -1,10 +1,14 @@
 [
   {
-    "slug": "taraan-skyseeker",
-    "displayName": "Taraan Skyseeker"
+    "slug": "cy-an-copperbottom",
+    "displayName": "Cy’An Copperbottom"
   },
   {
-    "slug": "xidic-goldenclaw",
-    "displayName": "Xidic Goldenclaw"
+    "slug": "solanum-calabash",
+    "displayName": "Solanum Calabash"
+  },
+  {
+    "slug": "taraan-skyseeker",
+    "displayName": "Taraan Skyseeker"
   }
 ]

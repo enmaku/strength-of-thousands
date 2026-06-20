@@ -5,8 +5,8 @@
     "name": "Taraan Skyseeker",
     "class": "Cleric",
     "dualClass": "Witch",
-    "level": 2,
-    "xp": 1360,
+    "level": 1,
+    "xp": 0,
     "ancestry": "Tengu",
     "heritage": "Skyborn Tengu",
     "background": "Archaeologist",
@@ -67,7 +67,7 @@
       "bonushp": 0,
       "bonushpPerLevel": 0,
       "speed": 25,
-      "speedBonus": -5
+      "speedBonus": 0
     },
     "proficiencies": {
       "classDC": 2,
@@ -150,42 +150,6 @@
         "Tengu Feat 1",
         "standardChoice",
         null
-      ],
-      [
-        "Dubious Knowledge",
-        null,
-        "Skill Feat",
-        2,
-        "Skill Feat 2",
-        "standardChoice",
-        null
-      ],
-      [
-        "Communal Healing",
-        null,
-        "Class Feat",
-        2,
-        "Cleric Feat 2",
-        "standardChoice",
-        null
-      ],
-      [
-        "Conceal Spell",
-        null,
-        "Class Feat",
-        2,
-        "Witch Feat 2",
-        "standardChoice",
-        null
-      ],
-      [
-        "Winged Warrior Dedication",
-        null,
-        "Archetype Feat",
-        2,
-        "Free Archetype 2",
-        "standardChoice",
-        null
       ]
     ],
     "specials": [
@@ -194,7 +158,7 @@
       "Cleric Spellcasting",
       "Warpriest",
       "Anathema",
-      "Not Selected",
+      "Holy",
       "Familiar",
       "Phase Familiar",
       "The Inscribed One Patron",
@@ -226,117 +190,75 @@
       [
         "Artisan's Tools",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Basic Crafter's Book",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Bedroll",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
-        "Brass Ear",
-        1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Oilskin Pouch",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Religious Symbol (Wooden)",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Repair Kit",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Religious Text",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Rope",
-        2,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
+        1,
         "Invested"
       ],
       [
         "Rubbing Set",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Ruler",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Soap",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Spellbook (Blank)",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Waterskin",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
-        "Wax Key Blank",
-        1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Writing Set",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Paint Set",
-        1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
-        "Everlight Crystal",
-        1,
-        "Invested"
-      ],
-      [
-        "Reading Ring",
-        1,
-        "Invested"
-      ],
-      [
-        "Predator's Claw",
         1,
         "Invested"
       ],
@@ -346,17 +268,7 @@
         "Invested"
       ],
       [
-        "Aeon Stone (Dusty Rose Prism)",
-        1,
-        "Invested"
-      ],
-      [
         "Glasses of Sociability",
-        1,
-        "Invested"
-      ],
-      [
-        "Twisting Twine, Lesser",
         1,
         "Invested"
       ],
@@ -366,48 +278,18 @@
         "Invested"
       ],
       [
-        "Spacious Pouch I",
-        1,
-        "Invested"
-      ],
-      [
-        "Net",
-        2,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
         "Caltrops",
         1,
         "Invested"
       ],
       [
-        "Catch Pole",
-        1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
         "Familiar Satchel",
         1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
         "Invested"
       ],
       [
         "Sack",
         5,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
-        "Blindpepper Tube",
-        1,
-        "6e551de0-1895-4805-9919-8c6e99b3fd3e",
-        "Invested"
-      ],
-      [
-        "Cantrip Deck (Full Pack)",
-        1,
         "Invested"
       ],
       [
@@ -434,25 +316,7 @@
         "display": "Fist",
         "runes": [],
         "damageType": "B",
-        "attack": 6,
-        "damageBonus": 0,
-        "extraDamage": [],
-        "increasedDice": false,
-        "isInventor": false,
-        "grade": ""
-      },
-      {
-        "name": "Thundermace",
-        "qty": 1,
-        "prof": "simple",
-        "die": "d8",
-        "pot": 0,
-        "str": "",
-        "mat": null,
-        "display": "Thundermace",
-        "runes": [],
-        "damageType": "B",
-        "attack": 4,
+        "attack": 5,
         "damageBonus": 0,
         "extraDamage": [],
         "increasedDice": false,
@@ -470,7 +334,7 @@
         "display": "Sharp Beak",
         "runes": [],
         "damageType": "P",
-        "attack": 6,
+        "attack": 5,
         "damageBonus": 0,
         "extraDamage": [],
         "increasedDice": false,
@@ -488,7 +352,7 @@
         "display": "Wordreaper",
         "runes": [],
         "damageType": "S",
-        "attack": 7,
+        "attack": 6,
         "damageBonus": 0,
         "extraDamage": [],
         "increasedDice": false,
@@ -504,13 +368,13 @@
     },
     "armor": [
       {
-        "name": "Ceramic Plate",
+        "name": "Kilted Breastplate",
         "qty": 1,
-        "prof": "medium",
+        "prof": "light",
         "pot": 0,
         "res": "",
         "mat": null,
-        "display": "Ceramic Plate",
+        "display": "Kilted Breastplate",
         "worn": true,
         "runes": [],
         "grade": ""
@@ -539,7 +403,7 @@
         "innate": false,
         "perDay": [
           5,
-          3,
+          2,
           0,
           0,
           0,
@@ -565,8 +429,7 @@
             "spellLevel": 1,
             "list": [
               "Summon Construct",
-              "Admonishing Ray",
-              "Command"
+              "Admonishing Ray"
             ]
           }
         ],
@@ -622,7 +485,7 @@
         "innate": false,
         "perDay": [
           5,
-          3,
+          2,
           0,
           0,
           0,
@@ -676,8 +539,7 @@
             "spellLevel": 1,
             "list": [
               "Elysian Whimsy",
-              "Sure Strike",
-              "Mindlink"
+              "Sure Strike"
             ]
           }
         ],
@@ -734,10 +596,10 @@
     },
     "formula": [],
     "acTotal": {
-      "acProfBonus": 4,
+      "acProfBonus": 3,
       "acAbilityBonus": 2,
-      "acItemBonus": 3,
-      "acTotal": 19,
+      "acItemBonus": 2,
+      "acTotal": 17,
       "shieldBonus": "1"
     },
     "pets": [],
@@ -757,14 +619,14 @@
     ]
   },
   "relationships": {
-    "anchor-root": 3,
-    "chizire": 2,
-    "esi-djana": 2,
-    "haibram-thodja": 4,
+    "anchor-root": 1,
+    "chizire": 1,
+    "esi-djana": 1,
+    "haibram-thodja": 1,
     "ignaci-canterells": 1,
     "mariama-keitana": 1,
-    "noxolo": 2,
+    "noxolo": 1,
     "okoro-obiyo": 1,
-    "tzeniwe": 2
+    "tzeniwe": 1
   }
 }
