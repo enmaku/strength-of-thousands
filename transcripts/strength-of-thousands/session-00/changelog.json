@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-00",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-21T17:14:19.875Z",
+  "generatedAt": "2026-06-21T17:39:43.805Z",
   "changes": [
     {
       "segmentId": 5,
@@ -135,6 +135,298 @@
       "old": "Let's go around the table. Tell us who you built, what they want from the Magaambya, and one detail the rest of the party would notice on the Welcome Walk. If you have not finished your sheet yet, say TBD and what you are leaning toward.",
       "new": "Let's go around the table. Tell us who you built!",
       "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 1,
+      "op": "replace",
+      "path": "text",
+      "old": "Welcome to session zero. We're running Strength of Thousands — Pathfinder 2e Adventure Path, starting with Book 1, Kindled Magic. No dice tonight; I want everyone aligned on the setting before we make characters official at the table.",
+      "new": "Welcome to session zero. We're running Strength of Thousands, a Pathfinder 2e Adventure Path, starting with Book 1, Kindled Magic. Let's start by getting everyone aligned on the setting before we make characters.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2,
+      "op": "replace",
+      "path": "text",
+      "old": "You are first-year initiates at the Magaambya, the oldest magic academy in the world. The campus sits on its own island in Nantambu, a scholarly city on the Mwangi coast. Think less Hogwarts castle, more university district with ritual halls, dormitories, markets, and faculty who expect you to contribute — not just attend lectures.",
+      "new": "You are first-year initiates at the Magaambya, the oldest magic academy in the world. The campus sits on its own island in Nantambu, a scholarly city on the Mwangi coast. Think less Hogwarts castle, more university district with ritual halls, dormitories, markets, and faculty who expect you to contribute, not just attend lectures.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 3,
+      "op": "replace",
+      "path": "text",
+      "old": "The school was founded by disciples of Old-Mage Jatembe. The through-line of the place is the Word and the Way: knowledge is only worth having if you use it in service to others. That is not flavor text — your first week is a public-service trial called the Perquisite before you can even call yourself an attendant and earn a spirit mask.",
+      "new": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\"",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 3,
+      "op": "replace",
+      "path": "text",
+      "old": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\"",
+      "new": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\" The school itself has strong opinions on this, strong ties to the surrounding community, and will expect you to behave in line with its views. How your characters actually feel is up to them, but you won't make it far at Magaambya being truly antisocial.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 4,
+      "op": "replace",
+      "path": "text",
+      "old": "There are five branches, each with a different virtue: Cascade Bearers for imagination, Emerald Boughs for camaraderie, Rain-Scribes for adaptability, Tempest-Sun Mages for valor, and Uzunjati for knowledge and story. You will get branch-themed errands during the Perquisite. Later you choose where you belong, but at level one you are all initiates learning the whole institution.",
+      "new": "The school has five branches, which are more like majors than Hogwarts houses. You will choose two, essentially a major and a minor. Each branch represents a different virtue: Cascade Bearers for imagination, Emerald Boughs for camaraderie, Rain-Scribes for adaptability, Tempest-Sun Mages for valor, and Uzunjati for knowledge and story. You will get branch-themed errands during the first few sessions, and each branch carries mechanical benefits as you advance through it. You will get the opportunity to choose where you belong, but at level one you are all initiates learning the whole institution.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5,
+      "op": "replace",
+      "path": "text",
+      "old": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously.",
+      "new": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously. You shouldn't need to worry overmuch about earning a living or other worldly matters, you are welcome to have outside interests, but you are students first and foremost.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5,
+      "op": "replace",
+      "path": "text",
+      "old": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously. You shouldn't need to worry overmuch about earning a living or other worldly matters, you are welcome to have outside interests, but you are students first and foremost.",
+      "new": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously. You shouldn't need to worry overmuch about earning a living or other worldly matters, you are welcome to have outside interests, but you are students first and foremost.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5,
+      "op": "split",
+      "path": "text",
+      "old": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously. You shouldn't need to worry overmuch about earning a living or other worldly matters, you are welcome to have outside interests, but you are students first and foremost.",
+      "new": [
+        "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously. You shouldn't need to worry overmuch about earning a living or other worldly matters, you are welcome to have outside interests, but you are students first and foremost.",
+        "Since it doesn't make much sense for you to be at a magical college if you're non-magical, everyone at the table needs to have at least some Arcane or Primal spellcasting abilities. Don't let that limit your choices, though, because if you make a character with no spellcasting abilities, you will be granted a free wizard, druid, or similar archetype feat at level 1."
+      ],
+      "newSegmentId": 16,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 9,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm Cy'An Copperbottom, an irongut goblin inventor with a cook background. They jury-rig a little construct companion and dabble in wizard magic on the side.",
+      "new": "Cy'An Copperbottom, an irongut goblin inventor with a cook background. They jury-rig a little construct companion and dabble in wizard magic on the side.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD for me.",
+      "new": "TBD for me.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "split",
+      "path": "text",
+      "old": "TBD for me.",
+      "new": [
+        "TBD for me.",
+        "TBD"
+      ],
+      "newSegmentId": 17,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 17,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Julia",
+      "new": "Matt",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 17,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD",
+      "new": "TBD",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 17,
+      "op": "split",
+      "path": "text",
+      "old": "TBD",
+      "new": [
+        "TBD",
+        "TBD"
+      ],
+      "newSegmentId": 18,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 18,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Xander",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD for me.",
+      "new": "TBD",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 3,
+      "op": "replace",
+      "path": "text",
+      "old": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\" The school itself has strong opinions on this, strong ties to the surrounding community, and will expect you to behave in line with its views. How your characters actually feel is up to them, but you won't make it far at Magaambya being truly antisocial.",
+      "new": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\" The school itself has strong opinions on this, strong ties to the surrounding community, and will expect you to behave in line with its views. How your characters actually feel is up to them, but you won't make it far at Magaambya being truly antisocial.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 3,
+      "op": "split",
+      "path": "text",
+      "old": "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\" The school itself has strong opinions on this, strong ties to the surrounding community, and will expect you to behave in line with its views. How your characters actually feel is up to them, but you won't make it far at Magaambya being truly antisocial.",
+      "new": [
+        "The school was founded by disciples of Old-Mage Jatembe. The through-lines of this campaign are \"what/who is magic/education for?\" and \"what responsibility do the magical/educated have to others?\" The school itself has strong opinions on this, strong ties to the surrounding community, and will expect you to behave in line with its views. How your characters actually feel is up to them, but you won't make it far at Magaambya being truly antisocial.",
+        "Magaambya also expects you to solve problems in better ways than simply murdering anyone in your way. You aren't going to get expelled for killing something that was trying to kill you first, but if you follow typical adventurer behavior patterns you're going to have problems. Choose your abilities, equipment, and spells with this in mind. Having a non-lethal damage option would be smart, solving your problems with the clever application of skills, utility spells, etc would be smarter."
+      ],
+      "newSegmentId": 19,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 19,
+      "op": "replace",
+      "path": "text",
+      "old": "Magaambya also expects you to solve problems in better ways than simply murdering anyone in your way. You aren't going to get expelled for killing something that was trying to kill you first, but if you follow typical adventurer behavior patterns you're going to have problems. Choose your abilities, equipment, and spells with this in mind. Having a non-lethal damage option would be smart, solving your problems with the clever application of skills, utility spells, etc would be smarter.",
+      "new": "Magaambya also expects you to solve problems in better ways than simply murdering anyone in your way. You aren't going to get expelled for killing something that was trying to kill you first, but if you follow typical adventurer behavior patterns you're going to have problems. Choose your abilities, equipment, and spells with this in mind. Having a non-lethal damage option would be smart, solving your problems with the clever application of skills, utility spells, etc would be smarter.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 19,
+      "op": "split",
+      "path": "text",
+      "old": "Magaambya also expects you to solve problems in better ways than simply murdering anyone in your way. You aren't going to get expelled for killing something that was trying to kill you first, but if you follow typical adventurer behavior patterns you're going to have problems. Choose your abilities, equipment, and spells with this in mind. Having a non-lethal damage option would be smart, solving your problems with the clever application of skills, utility spells, etc would be smarter.",
+      "new": [
+        "Magaambya also expects you to solve problems in better ways than simply murdering anyone in your way. You aren't going to get expelled for killing something that was trying to kill you first, but if you follow typical adventurer behavior patterns you're going to have problems. Choose your abilities, equipment, and spells with this in mind. Having a non-lethal damage option would be smart, solving your problems with the clever application of skills, utility spells, etc would be smarter.",
+        "This is a level 1-20 campaign. You will start off as students. By the end of the campaign you will either be directly teaching classes here or else be some other kind of faculty or have some other kind of deep connection to the institution. It's probably worth thinking now about what your career path might be once you graduate."
+      ],
+      "newSegmentId": 20,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 7,
+      "op": "replace",
+      "path": "text",
+      "old": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights.",
+      "new": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 7,
+      "op": "split",
+      "path": "text",
+      "old": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights.",
+      "new": [
+        "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights.",
+        "Do not feel constrained by money in selecting your starting equipment. Your character can have basically anything that is reasonable for their background, wealth level, etc. I trust you all to be reasonable and use this freedom as an opportunity to add flavor and not build horrible little munchkins designed to ruin my plans."
+      ],
+      "newSegmentId": 21,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 21,
+      "op": "replace",
+      "path": "text",
+      "old": "Do not feel constrained by money in selecting your starting equipment. Your character can have basically anything that is reasonable for their background, wealth level, etc. I trust you all to be reasonable and use this freedom as an opportunity to add flavor and not build horrible little munchkins designed to ruin my plans.",
+      "new": "Do not feel constrained by money in selecting your starting equipment. Your character can have basically anything that is reasonable for their background, wealth level, etc. I trust you all to be reasonable and use this freedom as an opportunity to add flavor and not build horrible little munchkins designed to ruin my plans.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 21,
+      "op": "split",
+      "path": "text",
+      "old": "Do not feel constrained by money in selecting your starting equipment. Your character can have basically anything that is reasonable for their background, wealth level, etc. I trust you all to be reasonable and use this freedom as an opportunity to add flavor and not build horrible little munchkins designed to ruin my plans.",
+      "new": [
+        "Do not feel constrained by money in selecting your starting equipment. Your character can have basically anything that is reasonable for their background, wealth level, etc. I trust you all to be reasonable and use this freedom as an opportunity to add flavor and not build horrible little munchkins designed to ruin my plans.",
+        "You may also choose any combination of ancestry, background, class, equipment, etc that you like but please have a conversation with me if you choose anything beyond \"common\" in rarity. Pathfinder 2e is fairly well balanced and rare things sometimes break that balance, which I'm ok with but I need to know what I'm in store for before it breaks things."
+      ],
+      "newSegmentId": 22,
+      "reason": "gm_split",
       "confidence": 1,
       "flagged": false,
       "category": "gm_edit"
