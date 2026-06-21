@@ -992,7 +992,7 @@ function toggleSortDirection() {
 }
 
 async function loadPlayerMap(campaign) {
-  if (!gmMode || !campaign) {
+  if (!campaign) {
     playerMap.value = null
     return
   }
