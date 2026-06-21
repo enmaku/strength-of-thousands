@@ -1,0 +1,29 @@
+{
+  "players": {
+    "Dave": { "role": "gm" },
+    "Kiri": {
+      "character": "Cy'An Copperbottom",
+      "heroSlug": "cy-an-copperbottom"
+    },
+    "Drew": {
+      "character": "Solanum Calabash",
+      "heroSlug": "solanum-calabash"
+    },
+    "Lisa": {
+      "character": "Taraan Skyseeker",
+      "heroSlug": "taraan-skyseeker"
+    },
+    "Julia": {
+      "character": null,
+      "note": "character TBD"
+    },
+    "Matt": {
+      "character": null,
+      "note": "character TBD"
+    },
+    "Xander": {
+      "character": null,
+      "note": "character TBD"
+    }
+  }
+}

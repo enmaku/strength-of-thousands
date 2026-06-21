@@ -6,6 +6,7 @@ import {
   listPlayerNames,
   listSpeakerOptions,
   listVoiceOptions,
+  isGmSpeaker,
   speakerFieldsForPlayer,
 } from './transcriptSpeakers.js'
 
@@ -97,5 +98,12 @@ describe('isKnownSpeaker', () => {
   it('accepts names from the player map', () => {
     expect(isKnownSpeaker('Victoria', playerMap)).toBe(true)
     expect(isKnownSpeaker('Unknown', playerMap)).toBe(false)
+  })
+})
+
+describe('isGmSpeaker', () => {
+  it('returns true when the player map marks the speaker as gm', () => {
+    expect(isGmSpeaker('Pablo', playerMap)).toBe(true)
+    expect(isGmSpeaker('Lisa', playerMap)).toBe(false)
   })
 })

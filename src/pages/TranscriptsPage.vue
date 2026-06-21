@@ -458,9 +458,8 @@ import {
   formatSpeakerLabel,
   listSpeakerOptions,
   listVoiceOptions,
+  isGmSpeaker,
 } from '../domain/transcriptSpeakers.js'
-
-const GM_SPEAKER = 'Pablo'
 const gmMode = isGmMode()
 const $q = useQuasar()
 
@@ -472,39 +471,47 @@ function staticUrl(path) {
 }
 
 const SPEAKER_COLORS = {
+  Kiri: '#6A1B9A',
+  Drew: '#00838F',
   Lisa: '#2E7D32',
-  Victoria: '#1565C0',
-  Pablo: '#6D3711',
+  Julia: '#AD1457',
+  Matt: '#EF6C00',
+  Xander: '#4527A0',
   Dave: '#C62828',
-  Brian: '#F9A825',
 }
 
 const BUBBLE_COLORS = {
+  Kiri: { bg: 'purple-2', text: 'purple-10' },
+  Drew: { bg: 'cyan-2', text: 'cyan-10' },
   Lisa: { bg: 'green-2', text: 'green-10' },
-  Victoria: { bg: 'blue-2', text: 'blue-10' },
+  Julia: { bg: 'pink-2', text: 'pink-10' },
+  Matt: { bg: 'orange-2', text: 'orange-10' },
+  Xander: { bg: 'deep-purple-2', text: 'deep-purple-10' },
   Dave: { bg: 'red-2', text: 'red-10' },
-  Pablo: { bg: 'brown-2', text: 'brown-10' },
-  Brian: { bg: 'yellow-2', text: 'yellow-10' },
 }
 
 const DELETED_BUBBLE_COLORS = {
+  Kiri: { bg: 'purple-5', text: 'purple-10' },
+  Drew: { bg: 'cyan-5', text: 'cyan-10' },
   Lisa: { bg: 'green-5', text: 'green-10' },
-  Victoria: { bg: 'blue-5', text: 'blue-10' },
+  Julia: { bg: 'pink-5', text: 'pink-10' },
+  Matt: { bg: 'orange-5', text: 'orange-10' },
+  Xander: { bg: 'deep-purple-5', text: 'deep-purple-10' },
   Dave: { bg: 'red-5', text: 'red-10' },
-  Pablo: { bg: 'brown-5', text: 'brown-10' },
-  Brian: { bg: 'yellow-5', text: 'yellow-10' },
 }
 
 const DELETED_SPEAKER_COLORS = {
+  Kiri: '#4A148C',
+  Drew: '#006064',
   Lisa: '#1B5E20',
-  Victoria: '#0D47A1',
+  Julia: '#880E4F',
+  Matt: '#E65100',
+  Xander: '#311B92',
   Dave: '#B71C1C',
-  Pablo: '#4E342E',
-  Brian: '#F57F17',
 }
 
 function isGm(speaker) {
-  return speaker === GM_SPEAKER
+  return isGmSpeaker(speaker, playerMap.value)
 }
 
 function speakerColor(name) {

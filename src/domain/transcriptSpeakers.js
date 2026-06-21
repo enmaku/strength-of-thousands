@@ -68,3 +68,7 @@ export function speakerFieldsForPlayer(speaker, playerMap) {
 export function isKnownSpeaker(speaker, playerMap) {
   return Boolean(playerMap?.players?.[speaker])
 }
+
+export function isGmSpeaker(speaker, playerMap) {
+  return playerMap?.players?.[speaker]?.role === 'gm'
+}

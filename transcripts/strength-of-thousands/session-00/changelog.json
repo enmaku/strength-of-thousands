@@ -1,0 +1,143 @@
+{
+  "sessionId": "strength-of-thousands-session-00",
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-21T17:14:19.875Z",
+  "changes": [
+    {
+      "segmentId": 5,
+      "op": "replace",
+      "path": "text",
+      "old": "You live in the Spire Dormitory with a fixed cohort of fellow initiates — Anchor Root, Chizire, Esi Djana, Haibram Thodja, Ignaci Canterells, Mariama Keitana, Noxolo, Okoro Obiyo, and Tzeniwe. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously.",
+      "new": "You will live in a dormitory with a fixed cohort of fellow initiates. Befriending them matters mechanically and fictionally. This campaign rewards showing up for people, doing the homework, and taking school politics seriously.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 6,
+      "op": "remove",
+      "path": "text",
+      "old": "Book 1 covers your first semester: the Perquisite, the Introduction Ceremony, classes and campus missions, the First Masking, and a mystery under Archhorn Library. Tone is school drama with real danger — gremlins, giant insects, and something wrong beneath the campus stone. We will hit combat, but mystery and relationships drive the plot.",
+      "new": null,
+      "speaker": "Dave",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 7,
+      "op": "replace",
+      "path": "text",
+      "old": "Housekeeping: Common at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights. Safety tools are open-door — if a scene needs adjustment, say so.",
+      "new": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights. Safety tools are open-door — if a scene needs adjustment, say so.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 7,
+      "op": "replace",
+      "path": "text",
+      "old": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights. Safety tools are open-door — if a scene needs adjustment, say so.",
+      "new": "Housekeeping: The \"Common\" language at the table is Mwangi, not Taldane. Your heroes can speak whatever fits their sheet, but assume NPCs default to Mwangi unless noted. We start at level one. Advancement comes from solving problems and serving the school, not only from clearing fights.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 9,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm Cy'An Copperbottom — irongut goblin inventor with a cook background. They jury-rig a little construct companion and dabble in wizard magic on the side. Cy'An came to the Magaambya to learn proper craft after years of scavenging city scrap into something useful. On the Welcome Walk you'd smell whatever they had stewing in a travel pot and hear tools clinking in their coat.",
+      "new": "I'm Cy'An Copperbottom, an irongut goblin inventor with a cook background. They jury-rig a little construct companion and dabble in wizard magic on the side.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 10,
+      "op": "replace",
+      "path": "text",
+      "old": "Solanum Calabash — fruit leshy magus, astrologer background. She reads the sky and fights with a bo staff wrapped in living vine. She wants formal training to marry star-lore with spellstrike instead of village guesswork. You'd notice the faint sweet smell of ripe gourd and the way she tracks clouds like they are lecture notes.",
+      "new": "Solanum Calabash, fruit (tomato) leshy magus, astrologer background.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 11,
+      "op": "replace",
+      "path": "text",
+      "old": "Taraan Skyseeker — skyborn tengu, cleric of Soralyon with witch training on the side, archaeologist background. He documents ruins and treats preservation as worship. He carries Wordreaper, a blade etched with scripture, and an earth wisp familiar that burrows through notes. On the Welcome Walk he'd already be sketching the campus obelisks and asking which ones are oldest.",
+      "new": "Taraan Skyseeker, skyborn tengu, cleric of Soralyon with witch training on the side, archaeologist background.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD for me — still deciding between a few concepts. Leaning toward someone from outside Nantambu who treats the Magaambya like a second chance, but I have not locked ancestry or branch yet.",
+      "new": "TBD for me.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 13,
+      "op": "remove",
+      "path": "text",
+      "old": "TBD — I know I want to play something social for the dorm scenes, but the sheet is not in PathBuilder yet. I'll have a draft before session one.",
+      "new": null,
+      "speaker": "Matt",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 14,
+      "op": "remove",
+      "path": "text",
+      "old": "Also TBD. I'm torn on martial versus magic and need another pass through the Player's Guide. I'll sound off again once the build is done.",
+      "new": null,
+      "speaker": "Xander",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 15,
+      "op": "remove",
+      "path": "text",
+      "old": "Perfect. Session one opens on the Welcome Walk with Takulu Ot's group interview, then straight into the Perquisite. Import finished heroes to the campaign app when ready so the table can see the party grid. Julia, Matt, Xander — ping me when your sheets are set and we'll add a follow-up intro to this archive.",
+      "new": null,
+      "speaker": "Dave",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 8,
+      "op": "replace",
+      "path": "text",
+      "old": "Let's go around the table. Tell us who you built, what they want from the Magaambya, and one detail the rest of the party would notice on the Welcome Walk. If you have not finished your sheet yet, say TBD and what you are leaning toward.",
+      "new": "Let's go around the table. Tell us who you built!",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    }
+  ]
+}
