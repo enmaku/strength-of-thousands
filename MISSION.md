@@ -16,7 +16,7 @@ Run the prefab Strength of Thousands campaign for Pathfinder 2e without reading 
 
 - Time is limited — prioritize high-signal GM knowledge over rules minutiae (prefab handles stat blocks).
 - Using the published adventure path, not homebrew.
-- Teaching workspace: `/Users/enmaku/learning/strength-of-thousands`; lessons should be open-and-run HTML.
+- Teaching workspace: `/Users/enmaku/code/strength-of-thousands`; lessons should be open-and-run HTML.
 
 ## Out of scope
 
