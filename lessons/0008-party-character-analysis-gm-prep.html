@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Your Party in Book 1 GM Prep</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler: #6d3711;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, #6d3711 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    h4 { font-family: var(--sans); font-size: 0.82rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 1rem 0 0.35rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .spoiler-box {
+      background: var(--spoiler-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      border-radius: 2px;
+    }
+    .spoiler-box strong { color: var(--spoiler); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: var(--gold-soft); font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .hero-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--green);
+      border-radius: 2px;
+      padding: 0.25rem 1.25rem 1rem;
+      margin: 1.5rem 0;
+    }
+    .hero-card .heroline { font-family: var(--sans); font-size: 0.82rem; color: var(--muted); letter-spacing: 0.03em; }
+    .tag {
+      display: inline-block;
+      font-family: var(--sans);
+      font-size: 0.66rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.fore { background: #efe2ef; color: #5a2a5a; }
+    .tag.warn { background: #f6e0d8; color: #8a3a22; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Party Reference · GM Prep</p>
+    <h1>Your party in Book 1 — what they bring to the table</h1>
+    <p>Read from each hero's PathBuilder data: the spells, feats, and class features that actually come up during <em>Kindled Magic</em> — plus the thematic hooks you can lean on.</p>
+  </div>
+</header>
+
+<main>
+
+<section id="how">
+  <h2>How to read this</h2>
+  <p>This is built straight from the four imported <strong>hero files</strong> (the stored PathBuilder <code>build</code> blobs), cross-referenced against the Book 1 beats in <a href="0001-kindled-magic-gm-prep.html">the Kindled Magic prep lesson</a>. Everyone is <strong>level 1</strong>; the focus is what each character can <em>do</em> in the Perquisite, the academic year, and the tunnels under Archhorn Library.</p>
+  <div class="callout"><strong>Not in the data:</strong> PathBuilder doesn't store Magaambya <strong>branch</strong> picks (primary/secondary). Those are a session-zero choice — suggestions per hero are in <a href="#prep">Table prep</a> below, but confirm with players.</div>
+</section>
+
+<section id="glance">
+  <h2>The party at a glance</h2>
+  <table>
+    <thead><tr><th>Hero</th><th>Build</th><th>Key</th><th>AC / HP</th><th>Role at the table</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Cy&rsquo;An Copperbottom</strong></td>
+        <td>Irongut Goblin · Inventor (Construct) / Wizard Dedication</td>
+        <td>Int</td>
+        <td>16 / 16</td>
+        <td>Gadgeteer striker with a construct minion; the only area "blaster" outside the casters</td>
+      </tr>
+      <tr>
+        <td><strong>Solanum Calabash</strong></td>
+        <td>Fruit Leshy · Magus (Twisting Tree)</td>
+        <td>Str</td>
+        <td>15 / 18</td>
+        <td>Front-line Spellstrike bruiser; doubles as backup healer</td>
+      </tr>
+      <tr>
+        <td><strong>Taraan Skyseeker</strong></td>
+        <td>Skyborn Tengu · Cleric (Warpriest of Soralyon) <em>/</em> Witch (The Inscribed One) — <strong>dual-class</strong></td>
+        <td>Wis / Int</td>
+        <td>17 / 14</td>
+        <td>Primary healer + the party's investigation/lore/social engine; has a familiar</td>
+      </tr>
+      <tr>
+        <td><strong>Yggostrus</strong></td>
+        <td>Dragonet (Homing Drake) · Summoner (Dragon eidolon, acid)</td>
+        <td>Cha</td>
+        <td>15 / 19*</td>
+        <td>Eidolon front-line + the best anti-swarm AoE; party face</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="cite">* Summoner and eidolon <strong>share one HP pool</strong>; if Yggostrus drops, the eidolon vanishes. AC/HP derived from each hero's stored <code>build</code>.</p>
+
+  <div class="callout">
+    <strong>One save unites them — and it's the dangerous one.</strong> All four are <em>expert</em> Fortitude and <em>expert</em> Will, but only <em>trained</em> Reflex. Book 1's insect surges, breath effects, and the masking-ceremony attack lean heavily on <strong>basic Reflex</strong> saves. The whole party shares the same soft spot — stagger them so one bad area roll doesn't catch everyone.
+  </div>
+</section>
+
+<section id="matrix">
+  <h2>Book 1 spotlight matrix</h2>
+  <p>Where each hero naturally shines (and who to nudge toward the action):</p>
+  <table>
+    <thead><tr><th>Book 1 beat</th><th>Who leans in</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Perquisite: non-lethal gremlin removal</strong> (Tempest-Sun barn)</td><td>Solanum (bo staff, control spells), Taraan (Charm), Cy&rsquo;An (Goblin sack energy) — see the <a href="#nonlethal">non-lethal note</a></td></tr>
+      <tr><td><strong>Kafesi Market</strong> chick-fetch / city errands</td><td>Cy&rsquo;An (Cook, Irongut, City Scavenger), Yggostrus (Diplomacy/Intimidation face)</td></tr>
+      <tr><td><strong>Uzunjati mail run &amp; storytelling</strong> in Nantambu</td><td>Taraan (Performance, languages, lore), Yggostrus (Cha face)</td></tr>
+      <tr><td><strong>Academia downtime</strong> (Study/Cram checks)</td><td>Taraan (trained in nearly everything + 18 Int), Solanum (Occultism/Nature), Cy&rsquo;An (Crafting/Society)</td></tr>
+      <tr><td><strong>Insect swarms &amp; the masking-ceremony attack</strong></td><td>Yggostrus (Caustic Blast + acid breath), Cy&rsquo;An (Explode) — <a href="#swarms">swarm note</a></td></tr>
+      <tr><td><strong>First Masking</strong> (identity ritual)</td><td>Everyone, but Taraan (Soralyon) and Solanum (Astrologer/Leshy) carry the most thematic weight</td></tr>
+      <tr><td><strong>Ch 3 tunnels under Archhorn Library</strong></td><td>Taraan (burrowing familiar + Archaeologist lore), Cy&rsquo;An &amp; Yggostrus (darkvision), Solanum (low-light)</td></tr>
+      <tr><td><strong>Stone Ghost confrontation</strong></td><td>Taraan (Soralyon's mandate — see below), Solanum (Oddity Identification on the haunt)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ CY'AN ============ -->
+<section id="cyan">
+  <h2>Cy&rsquo;An Copperbottom</h2>
+  <div class="hero-card">
+    <p class="heroline">Irongut Goblin · Inventor (Construct Innovation) · Wizard Dedication (School of Unified Magical Theory) · Cook · Int-key</p>
+
+    <h4>Class features that matter</h4>
+    <ul>
+      <li><strong>Construct companion</strong> — a built minion that acts on a Command. A second body on the map for the Perquisite, the gremlin fights, and the tunnels. Mechanically a "golem" Cy&rsquo;An made — thematically right at home at the Magaambya.</li>
+      <li><strong>Overdrive</strong> (Crafting check) → bonus damage on Strikes. His turn-one ramp.</li>
+      <li><strong>Explode</strong> <span class="tag warn">lethal AoE</span> — 2d6 fire, basic Reflex, 5-ft emanation. This is the party's only non-spellcaster area attack and a genuine <a href="#swarms">swarm answer</a>. <span class="cite">(<a href="https://2e.aonprd.com/Actions.aspx?ID=902">AoN: Explode</a>)</span></li>
+      <li><strong>Wizard Dedication</strong> ties him directly to the school's arcane curriculum. Prepared arcane: <em>Prestidigitation</em> (the ultimate utility/flavor cantrip) and <em>Eat Fire</em>.</li>
+    </ul>
+
+    <h4>Spell to know its real text</h4>
+    <p><strong>Eat Fire is not a flamethrower.</strong> It's a <em>reaction</em> when he'd take fire damage: fire resistance 5, plus a one-action <em>Belch Smoke</em> that makes a concealing cloud. So it's a defensive/utility trick (handy if Haibram's pyromania goes sideways, or to break line of sight), <em>not</em> an attack. <span class="cite">(<a href="https://2e.aonprd.com/Spells.aspx?ID=1352">AoN: Eat Fire</a>)</span></p>
+
+    <h4>Feats</h4>
+    <ul>
+      <li><strong>City Scavenger</strong> — Subsist/Earn Income bonuses in a city; great for the <strong>Nantambu</strong> errands and the Kafesi Market boycott.</li>
+      <li><strong>Built-In Tools</strong>, <strong>Shield Block</strong> (note: no shield in his kit — he'd need to grab one to use it), <strong>Seasoned</strong> (cooking/alchemy crafting).</li>
+      <li><strong>Irongut Goblin</strong> heritage — eats spoiled/dangerous food safely. Pure gold for a <em>Cook</em> at a market the school boycotts.</li>
+      <li>Darkvision — useful in Ch 3.</li>
+    </ul>
+
+    <h4>Book 1 hooks</h4>
+    <p>His <strong>Cook</strong> background + <em>Cooking Lore</em> + the <em>Bonding Meal</em> ritual are a direct line to <strong>Lumusi Yao</strong> (dining hall) and the <strong>cohort-friendship</strong> theme — let Cy&rsquo;An cook dorm meals and the table's relationships write themselves. The Irongut goblin who'll eat anything is the obvious pick for the Kafesi Market run.</p>
+    <p class="tag warn">Tension</p>
+    <p>His most efficient tools (Explode, a construct that bites) are emphatically lethal. The Perquisite explicitly asks for <strong>non-lethal</strong> gremlin removal, and the whole Stone Ghost arc is about a student who slaughtered gremlins. A goblin gleefully exploding pests is exactly the temptation the module is built around — surface it, don't punish it.</p>
+  </div>
+</section>
+
+<!-- ============ SOLANUM ============ -->
+<section id="solanum">
+  <h2>Solanum Calabash</h2>
+  <div class="hero-card">
+    <p class="heroline">Fruit Leshy · Magus (Twisting Tree) · Astrologer · Str-key</p>
+
+    <h4>Class features that matter</h4>
+    <ul>
+      <li><strong>Spellstrike + Arcane Cascade</strong> — channels a spell through a melee hit, then stays in a stance for bonus damage. Str 18 + a d8 bo staff (+7 to hit) makes Solanum a real front-liner, not a glass caster.</li>
+      <li><strong>Twisting Tree</strong> hybrid study → staff specialist; <strong>Spinning Staff</strong> conflux focus spell sweeps adjacent foes. Note: these are <em>physical</em> Strikes — resisted by swarms, so point Solanum at the gremlins/oread, not the bug clouds.</li>
+      <li><strong>Healing Plaster</strong> cantrip — out-of-combat healing on tap, backing up Taraan's font. <span class="cite">(prepared arcane caster, Int-based)</span></li>
+    </ul>
+
+    <h4>Spells &amp; ancestry</h4>
+    <ul>
+      <li><em>Bramble Bush</em> / <em>Tangle Vine</em> / <em>Take Root</em> — battlefield control and difficult terrain; useful for funneling gremlins or capturing them alive.</li>
+      <li><em>Befuddle</em> — a non-damaging way to neutralize a target (helps the non-lethal mandate).</li>
+      <li><strong>Seedpod</strong> (Fruit Leshy) — a thrown ranged option with a dazzle rider. As a <strong>Fruit Leshy</strong> he can also offer a once-daily fruit an ally eats to heal — a third healing source in the party.</li>
+      <li>As a leshy he doesn't sleep/breathe like the others — handy in the tunnels and for night-watch flavor.</li>
+    </ul>
+
+    <h4>Book 1 hooks</h4>
+    <p><strong>Occultism + Oddity Identification</strong> make Solanum your go-to for the campus's <em>uncanny</em> mystery — identifying the haunt-like Stone Ghost and odd magical phenomena. The <strong>Astrologer</strong> background + <em>Astrology Lore</em> is a quiet long-game gift: let Solanum read omens in the sky. <span class="tag fore">foreshadow</span> The campaign's Book 5 is literally <em>Doorway to the Red Star</em> — drop celestial portents now and they'll feel earned later.</p>
+  </div>
+</section>
+
+<!-- ============ TARAAN ============ -->
+<section id="taraan">
+  <h2>Taraan Skyseeker</h2>
+  <div class="hero-card">
+    <p class="heroline">Skyborn Tengu · Cleric (Warpriest of Soralyon) / Witch (The Inscribed One) — dual-class · Archaeologist · Wis + Int</p>
+
+    <h4>Class features that matter</h4>
+    <ul>
+      <li><strong>Healing Font</strong> — four extra <em>Heal</em> spells/day on top of prepared slots. Taraan is the <strong>primary healer</strong>; the academic-attrition pacing of Book 1 is very survivable with him in the cohort.</li>
+      <li><strong>Dual-class Cleric/Witch</strong> — two full spell lists (divine <em>and</em> arcane) plus warpriest armor/weapon training. Enormous flexibility: he can prep for the day's expected problem.</li>
+      <li><strong>Familiar — Elemental Wisp (Earth)</strong> with <em>Burrower</em>, <em>Speech</em>, <em>Accompanist</em>. A talking, <strong>burrowing</strong> scout is tailor-made for the Ch 3 tunnels. <em>Phase Familiar</em> focus spell keeps it alive; <em>Discern Secrets</em> focus cantrip aids investigation.</li>
+    </ul>
+
+    <h4>Skills, lore &amp; gear</h4>
+    <ul>
+      <li>Trained in almost the entire skill list with <strong>Int 18 / Wis 16</strong> — the party's <strong>academia downtime</strong> and <strong>mystery</strong> backbone.</li>
+      <li><strong>Archaeologist</strong> + <em>Ancient Regional Lore</em> + <em>Additional Lore</em> — ruins, tunnels, and the <strong>shattered ward-runes</strong> on the Stone Ghost are squarely his wheelhouse.</li>
+      <li><em>Ring of Discretion</em> (hide a magic aura) and <em>Glasses of Sociability</em> (impression bonus) make him a sneaky-good social/utility piece. <em>Wordreaper</em> is a +1 weapon. He's also cash-rich (~300 gp) if you want a shopping beat at Xhokan's.</li>
+    </ul>
+
+    <div class="spoiler-box">
+      <strong>GM gold — Soralyon is the perfect god for this book.</strong>
+      <p>Soralyon, the Mystic Angel, is the empyreal lord of <strong>guardians, monuments, and magic</strong>: study and protect ancient sites, craft golems and artwork from stone, never defile sacred buildings or destroy historical artifacts. His symbol is a <em>rune-covered spire</em>. <span class="cite">(<a href="https://2e.aonprd.com/Deities.aspx?ID=128">AoN: Soralyon</a>)</span></p>
+      <ul>
+        <li>The <strong>Magaambya itself</strong> — the oldest magic academy, an ancient institution worth guarding — <em>is</em> a Soralyon cause. His faith reads as a divine mandate to defend the school.</li>
+        <li>The Book 1 villain is an <strong>oread (earth) ex-student fused into the stone walls, covered in broken ward-runes</strong>. A Soralyon cleric facing a desecrated, runed stone revenant under the campus is thematically electric — and his anathema (<em>don't defile sacred buildings / destroy artifacts</em>) gives Taraan a real stake in how the party resolves it.</li>
+        <li><strong>The Inscribed One</strong> witch patron (the written word, secrets) marries cleanly to the Magaambya's <em>Word and Way</em> and the Uzunjati branch. Soralyon's rune-spire iconography even rhymes with it.</li>
+        <li>Let Taraan be the <strong>moral center</strong> of the Stone Ghost finale — the voice asking whether Uduak gets destroyed or laid to rest, and how the institution failed him.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ YGGOSTRUS ============ -->
+<section id="yggostrus">
+  <h2>Yggostrus</h2>
+  <div class="hero-card">
+    <p class="heroline">Dragonet (Homing Drake) · Summoner (Dragon eidolon, acid) · Eidolon Contact · Cha-key</p>
+
+    <h4>Class features that matter</h4>
+    <ul>
+      <li><strong>Dragon eidolon</strong> — the front-line bruiser (teeth, claws). Yggostrus the tiny dragonet stays back and directs it.</li>
+      <li><strong>Acid Breath Weapon + Energy Heart (acid)</strong> <span class="tag">area</span> — a cone of acid is the single best <a href="#swarms">swarm-clearer</a> in the party.</li>
+      <li><strong>Act Together / Share Senses / Link Spells</strong> — two-body action economy and a built-in scout (see through the eidolon).</li>
+      <li><em>Boost Eidolon</em> and <em>Evolution Surge</em> focus spells pump the eidolon mid-fight.</li>
+    </ul>
+
+    <h4>Spells &amp; skills</h4>
+    <ul>
+      <li>Spontaneous arcane (Cha 18): <em>Caustic Blast</em> <span class="tag">area</span> (5-ft burst of acid — triggers swarm weakness), <em>Daze</em>, <em>Protect Companion</em>, <em>Timber</em>; <em>Weave Wood</em>, <em>Flourishing Flora</em>. <span class="cite">(<a href="https://2e.aonprd.com/Spells.aspx?ID=1461">AoN: Caustic Blast</a>)</span></li>
+      <li><strong>Diplomacy + Intimidation</strong> with Cha 18 — a strong <strong>party face</strong>. <em>Dubious Knowledge</em> means his Recall Knowledge always returns one truth and one plausible lie: lean into it for comedy at the lore-heavy academy.</li>
+      <li>Acid resistance (Dragonet Resistances); darkvision.</li>
+    </ul>
+
+    <div class="callout">
+      <strong>Protect the summoner.</strong> Yggostrus is <strong>Tiny, unarmored, AC 15</strong>, and shares his HP with the eidolon — if he goes down, the eidolon disappears and the party loses two combatants at once. Gremlins and the Stone Ghost focusing the little dragon is a real party-wiper vector. Watch for it, and let allies/the eidolon screen him.
+    </div>
+
+    <h4>Book 1 hook</h4>
+    <p>A student arriving with a <strong>bound dragon eidolon</strong> is exactly the kind of marvel the faculty fixate on — Koride-style fascination, or faculty wariness you can play for drama. <span class="tag fore">foreshadow</span> It also rhymes with Book 1's quiet theme of <em>strange beings drawn to the campus</em> (the anadi arrival; the egg's pull). The <strong>Eidolon Contact</strong> background is pure roleplay fuel: what does the eidolon want from the Magaambya?</p>
+  </div>
+</section>
+
+<section id="party-read">
+  <h2>Party-wide tactical read</h2>
+
+  <h3 id="swarms">Swarms &amp; insects — you're well-armed, but only on the right axis</h3>
+  <p>Book 1 throws <strong>swarms and giant insects</strong> at the party repeatedly (the masking-ceremony attack, silverfish, Ch 3 centipedes). Swarms are <strong>resistant to physical damage, immune to precision, and have a weakness to area &amp; splash damage</strong>. <span class="cite">(<a href="https://2e.aonprd.com/Traits.aspx?ID=239">AoN: Swarm trait</a>)</span></p>
+  <ul>
+    <li><strong>Real anti-swarm tools:</strong> Yggostrus (<em>Caustic Blast</em> + acid breath) is your MVP; Cy&rsquo;An's <em>Explode</em> is the backup. Both are <em>area</em> damage that hits the swarm weakness.</li>
+    <li><strong>Resisted against swarms:</strong> Solanum's staff Spellstrikes, the eidolon's bite, Cy&rsquo;An's construct, Taraan's <em>Needle Darts</em> (single-target). Don't let melee players feel useless — give them the gremlins, the oread, and the giant single bugs while the AoE crew handles clouds.</li>
+  </ul>
+
+  <h3 id="nonlethal">The non-lethal mandate vs. this party's toolkit</h3>
+  <p>The Perquisite (and the Stone Ghost's whole backstory) hinge on removing gremlins <strong>without slaughtering them</strong>. This party's signature moves — acid breath, Explode, eidolon teeth — are decidedly lethal. That's a <em>feature</em>: the temptation to nuke pests is the exact mirror of Uduak's sin. Give them clean non-lethal outs and reward using them:</p>
+  <ul>
+    <li>Solanum's <strong>bo staff</strong> (bludgeoning, easy to declare non-lethal) and <em>Befuddle</em> / <em>Tangle Vine</em>.</li>
+    <li>Taraan's <em>Charm</em> / <em>Forbidding Ward</em> and sheer skill toolkit (talk them out, trick them).</li>
+    <li>Cy&rsquo;An's goblin ingenuity — sacks, traps, bait (he's a cook; lure gremlins with food).</li>
+    <li>Yggostrus's <strong>Diplomacy/Intimidation</strong> — negotiate or scare them off instead of killing.</li>
+  </ul>
+
+  <h3>Healing &amp; resilience</h3>
+  <p>The party is <strong>healing-rich</strong>: Taraan's Healing Font (4 Heals/day) + Solanum's <em>Healing Plaster</em> cantrip + the Fruit Leshy fruit. You can run the attrition-style academic year without coddling them. <strong>Fragile members:</strong> Taraan (14 HP) and Yggostrus (Tiny, AC 15, shared eidolon HP) — both want screening.</p>
+</section>
+
+<section id="themes">
+  <h2>Thematic threads to pull (per the mission)</h2>
+  <table>
+    <thead><tr><th>Theme</th><th>Hero who carries it</th><th>How to lean in</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Service / Word and Way</strong></td><td>Taraan (Soralyon: guard the school; Inscribed One: the written word)</td><td>Frame his faith as a duty to protect and preserve the Magaambya</td></tr>
+      <tr><td><strong>Cohort friendship</strong></td><td>Cy&rsquo;An (Cook, Bonding Meal)</td><td>Dorm meals he cooks become the table's relationship glue</td></tr>
+      <tr><td><strong>Curiosity's shadow</strong> <span class="tag fore">foreshadow</span></td><td>Yggostrus (bound dragon eidolon)</td><td>Faculty fascination/wariness echoes Koride and the egg's pull</td></tr>
+      <tr><td><strong>The long arc</strong> <span class="tag fore">foreshadow</span></td><td>Solanum (Astrologer)</td><td>Sky omens now → pays off toward the Red Star (Book 5)</td></tr>
+      <tr><td><strong>Institution's blind spots</strong></td><td>Taraan again (redemption vs. destruction of Uduak)</td><td>Let him voice "what would change so the next Uduak isn't cast out?"</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="prep">
+  <h2>Table prep &amp; open questions</h2>
+  <ul>
+    <li><strong>Branch picks aren't in PathBuilder.</strong> Confirm each hero's primary/secondary branch at session zero. Natural fits to <em>offer</em> (not impose): Cy&rsquo;An → Cascade Bearers (invention) or Rain-Scribes; Solanum → Rain-Scribes (adaptability) or Tempest-Sun (martial); Taraan → Uzunjati (knowledge / Word and Way); Yggostrus → Emerald Boughs (camaraderie) or Tempest-Sun.</li>
+    <li><strong>Shield Block on Cy&rsquo;An</strong> does nothing until he carries a shield — flag it if he wants the reaction online.</li>
+    <li><strong>Decide your Stone Ghost ending early</strong> — Taraan (Soralyon) gives you a built-in advocate for a redemption/laying-to-rest beat rather than a kill. Know which way you're steering before Ch 3.</li>
+    <li><strong>Spotlight balance:</strong> Taraan can solo a lot of investigation/social scenes. Deliberately hand non-Taraan players the Kafesi run (Cy&rsquo;An), the uncanny-ID checks (Solanum), and the negotiations (Yggostrus).</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>Self-check — do you know your party?</h2>
+
+  <div class="quiz" data-q="1" data-answer="b">
+    <h3>1. A silverfish swarm hits the masking ceremony. Who's your best answer?</h3>
+    <button onclick="check(this,'a')">A. Solanum's bo-staff Spellstrike</button>
+    <button onclick="check(this,'b')">B. Yggostrus's acid breath / Caustic Blast</button>
+    <button onclick="check(this,'c')">C. The eidolon's bite</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="c">
+    <h3>2. Which save is the whole party weakest at (and which Book 1 attacks exploit it)?</h3>
+    <button onclick="check(this,'a')">A. Will — mind-control gremlins</button>
+    <button onclick="check(this,'b')">B. Fortitude — disease</button>
+    <button onclick="check(this,'c')">C. Reflex — insect-swarm / breath area effects</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="a">
+    <h3>3. Why is Taraan's deity such a fit for the Stone Ghost finale?</h3>
+    <button onclick="check(this,'a')">A. Soralyon guards monuments &amp; ancient sites — and the villain is a runed oread fused into the campus walls</button>
+    <button onclick="check(this,'b')">B. Soralyon is the god of insects</button>
+    <button onclick="check(this,'c')">C. Soralyon demands gremlins be exterminated</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b">
+    <h3>4. What's the risk of leaning on Cy&rsquo;An's Explode and Yggostrus's breath during the Perquisite?</h3>
+    <button onclick="check(this,'a')">A. They're too weak to matter</button>
+    <button onclick="check(this,'b')">B. They're lethal — and the task (and Uduak's cautionary tale) is about removing gremlins non-lethally</button>
+    <button onclick="check(this,'c')">C. They damage the innovation permanently</button>
+    <div class="feedback"></div>
+  </div>
+</section>
+
+<section id="followup">
+  <h2>Next steps</h2>
+  <p>Pair this with <a href="0001-kindled-magic-gm-prep.html">Book 1 — Kindled Magic</a> and <a href="0007-academia-downtime-gm-prep.html">Academia Downtime</a>. When the roster changes in PathBuilder, ask your teacher to refresh this analysis from the updated hero files.</p>
+  <p>Ask your teacher for: per-hero "spotlight scene" ideas for the Perquisite; a non-lethal gremlin toolkit cheat sheet; or how each build grows by Book 2 (level 4&rarr;8).</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace: <code>/Users/enmaku/code/strength-of-thousands</code> · Lesson 0008 · Built from imported hero files · GM-only — contains Book 1 spoilers.</p>
+  <p>Citations: <a href="https://2e.aonprd.com/Deities.aspx?ID=128">AoN — Soralyon</a>, <a href="https://2e.aonprd.com/Traits.aspx?ID=239">AoN — Swarm trait</a>, <a href="https://2e.aonprd.com/Actions.aspx?ID=902">AoN — Explode</a>, <a href="https://2e.aonprd.com/Spells.aspx?ID=1461">AoN — Caustic Blast</a>, <a href="https://2e.aonprd.com/Spells.aspx?ID=1352">AoN — Eat Fire</a>. Build data from PathBuilder exports.</p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const quiz = btn.closest('.quiz');
+  const correct = quiz.dataset.answer;
+  const fb = quiz.querySelector('.feedback');
+  if (choice === correct) {
+    fb.textContent = 'Correct — you know this hero.';
+    fb.className = 'feedback correct';
+  } else {
+    fb.textContent = 'Not quite — reread the section above and try again.';
+    fb.className = 'feedback wrong';
+  }
+}
+</script>
+</body>
+</html>

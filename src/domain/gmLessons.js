@@ -3,6 +3,11 @@ export function getGmLessons() {
 
   return [
     {
+      title: 'Party — Your PCs in Book 1',
+      caption: 'GM prep · spells, feats & hooks',
+      href: `${pagesBase}/lessons/0008-party-character-analysis-gm-prep.html`,
+    },
+    {
       title: 'Academia Downtime',
       caption: 'GM prep · Study, Cram & Practical Research',
       href: `${pagesBase}/lessons/0007-academia-downtime-gm-prep.html`,
