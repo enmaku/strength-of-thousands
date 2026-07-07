@@ -1,8 +1,16 @@
 import { ref, computed } from 'vue'
 import catalog from '../../data/spire-students.json'
+import branchCatalog from '../../data/magaambya-branches.json'
 import { isGmMode } from '../domain/mode.js'
 import { buildHeroTabs, defaultHearts, sortHeroes } from '../domain/heroes.js'
 import { deriveHeroTile, fetchPathbuilderBuild, parsePathbuilderId } from '../domain/pathbuilder.js'
+import {
+  deriveStudyCard,
+  normalizeStudy,
+  parseStudy,
+  planBranchDecrement,
+  planBranchIncrement,
+} from '../domain/study.js'
 import { buildHeroTiles } from '../domain/tiles.js'
 
 const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
@@ -43,8 +51,10 @@ export function useHeroRoster() {
     const res = await fetch(staticUrl(`heroes/${slug}.json`))
     if (!res.ok) throw new Error(`Failed to load hero ${slug}`)
     const hero = await res.json()
+    const { study } = normalizeStudy(hero)
     heroes.value[slug] = {
       ...hero,
+      study,
       relationships: defaultHearts(catalogSlugs, hero.relationships),
     }
     return heroes.value[slug]
@@ -94,10 +104,83 @@ export function useHeroRoster() {
     }
 
     const saved = await res.json()
+    const { study } = normalizeStudy(saved)
     heroes.value[heroSlug] = {
       ...saved,
+      study,
       relationships: defaultHearts(catalogSlugs, saved.relationships),
     }
+  }
+
+  async function setStudy(heroSlug, patch) {
+    if (!gmMode) return
+
+    const hero = heroes.value[heroSlug]
+    if (!hero) return
+
+    const previousStudy = hero.study ? { ...parseStudy(hero.study) } : undefined
+    const mergedStudy = { ...parseStudy(hero.study), ...patch }
+    const optimistic = normalizeStudy({ ...hero, study: mergedStudy })
+    heroes.value[heroSlug] = { ...hero, study: optimistic.study }
+
+    const res = await fetch(`/api/heroes/${heroSlug}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ study: patch }),
+    })
+
+    if (!res.ok) {
+      if (previousStudy) {
+        heroes.value[heroSlug] = { ...hero, study: previousStudy }
+      } else {
+        await loadHero(heroSlug)
+      }
+      const body = await res.json().catch(() => ({}))
+      throw new Error(body.error ?? 'Failed to save study progress')
+    }
+
+    const saved = await res.json()
+    const { study } = normalizeStudy(saved)
+    heroes.value[heroSlug] = {
+      ...saved,
+      study,
+      relationships: defaultHearts(catalogSlugs, saved.relationships),
+    }
+  }
+
+  async function incrementBranch(heroSlug, role) {
+    const hero = heroes.value[heroSlug]
+    if (!hero) return
+    const level = hero.build?.level ?? 0
+    const study = planBranchIncrement(parseStudy(hero.study), role, level)
+    const patch =
+      role === 'primary'
+        ? { primaryLevel: study.primaryLevel, primaryStarred: study.primaryStarred }
+        : { secondaryLevel: study.secondaryLevel, secondaryStarred: study.secondaryStarred }
+    await setStudy(heroSlug, patch)
+  }
+
+  async function decrementBranch(heroSlug, role) {
+    const hero = heroes.value[heroSlug]
+    if (!hero) return
+    const study = planBranchDecrement(parseStudy(hero.study), role)
+    const patch =
+      role === 'primary'
+        ? { primaryLevel: study.primaryLevel, primaryStarred: study.primaryStarred }
+        : { secondaryLevel: study.secondaryLevel, secondaryStarred: study.secondaryStarred }
+    await setStudy(heroSlug, patch)
+  }
+
+  function studyCardFor(slug) {
+    const hero = heroes.value[slug]
+    if (!hero) return null
+    return deriveStudyCard(hero, branchCatalog)
+  }
+
+  function branchOptions(excludeSlug = null) {
+    return branchCatalog.branches
+      .filter((b) => b.slug !== excludeSlug)
+      .map((b) => ({ label: b.displayName, value: b.slug }))
   }
 
   async function importHero(input) {
@@ -151,8 +234,10 @@ export function useHeroRoster() {
     }
 
     const updated = await res.json()
+    const { study } = normalizeStudy(updated)
     heroes.value[slug] = {
       ...updated,
+      study,
       relationships: defaultHearts(catalogSlugs, updated.relationships),
     }
 
@@ -171,9 +256,14 @@ export function useHeroRoster() {
     return staticUrl(`reference/images/spire-dorm/${thumb}`)
   }
 
+  function branchImageUrl(image) {
+    return staticUrl(`reference/images/branches/${image}`)
+  }
+
   return {
     gmMode,
     catalog,
+    branchCatalog,
     roster,
     sortedRoster,
     heroes,
@@ -186,9 +276,15 @@ export function useHeroRoster() {
     loadAllHeroes,
     tilesForHero,
     heroTileFor,
+    studyCardFor,
+    branchOptions,
     setDisposition,
+    setStudy,
+    incrementBranch,
+    decrementBranch,
     importHero,
     refreshHero,
     portraitUrl,
+    branchImageUrl,
   }
 }

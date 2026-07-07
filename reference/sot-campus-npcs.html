@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoT — Campus NPCs</title>
+  <link rel="stylesheet" href="sot-theme.css">
+  <link rel="stylesheet" href="portrait-lightbox.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 0.95rem; line-height: 1.5; }
+    header { background: linear-gradient(135deg, var(--green) 0%, var(--accent-dark) 100%); color: var(--header-ink); padding: 1.75rem 1.5rem; border-bottom: 3px solid var(--gold); }
+    header h1 { margin: 0; font-size: 1.55rem; }
+    header p { margin: 0.45rem 0 0; opacity: 0.92; font-size: 0.88rem; max-width: 42rem; }
+    nav { background: var(--green-soft); padding: 0.75rem 1.5rem; font-family: var(--sans); font-size: 0.78rem; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+    nav a { margin-right: 0.85rem; color: var(--green); white-space: nowrap; }
+    main { max-width: 54rem; margin: 0 auto; padding: 1.25rem 1.5rem 3.5rem; }
+    h2 { font-size: 1.18rem; color: var(--accent); margin: 2.25rem 0 0.6rem; border-bottom: 2px solid var(--gold); padding-bottom: 0.25rem; }
+    h3 { font-size: 1rem; margin: 1.25rem 0 0.4rem; color: var(--gold); }
+    p { margin: 0 0 0.7rem; }
+    dl { margin: 0 0 0.85rem; }
+    dt { font-weight: 700; margin-top: 0.55rem; }
+    dd { margin: 0.1rem 0 0 0; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin: 0.7rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.38rem 0.5rem; text-align: left; vertical-align: top; }
+    th { background: var(--accent-soft); font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; }
+    .student-portrait { width: 72px; height: 72px; object-fit: cover; border-radius: 3px; border: 1px solid var(--border); display: block; background: #fff; }
+    td.portrait { width: 5rem; padding: 0.35rem; text-align: center; vertical-align: middle; }
+    .tag { font-family: var(--sans); font-size: 0.65rem; background: var(--accent-soft); color: var(--accent); padding: 0.08rem 0.32rem; border-radius: 2px; margin-left: 0.2rem; }
+    .tag.keystone { background: var(--cinnabar-soft); color: var(--cinnabar); }
+    .card { background: var(--surface); border: 1px solid var(--border); padding: 0.75rem 0.9rem; margin: 0.65rem 0; }
+    .card strong { color: var(--accent); }
+    .voice { font-size: 0.88rem; color: var(--muted); font-style: italic; margin-top: 0.25rem; }
+    .cite { font-family: var(--sans); font-size: 0.76rem; color: var(--muted); }
+    footer { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding: 1rem 1.5rem 2rem; border-top: 1px solid var(--border); max-width: 54rem; margin: 0 auto; }
+    @media print { nav { position: static; } .student-portrait { width: 56px; height: 56px; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Campus NPCs — Faculty, Staff & Cohort</h1>
+  <p>Students, instructors, and notable figures for improvising school life. Book 1–2 focus · GM spoilers · portraits from <em>Kindled Magic</em> pp. 67–71.</p>
+</header>
+
+<nav>
+  <a href="#using">How to use</a>
+  <a href="#learned">Learned Ones</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#staff">Staff</a>
+  <a href="#cohort">Spire Dorm</a>
+  <a href="#anadi">New anadi</a>
+  <a href="#city">City contacts</a>
+  <a href="#villains">Antagonists</a>
+  <a href="sot-nantambu.html">Nantambu</a>
+  <a href="sot-glossary-and-npcs.html">Quick glossary</a>
+</nav>
+
+<main>
+
+<section id="using">
+  <h2>How to use this doc</h2>
+  <ul>
+    <li><strong>Relationship track:</strong> Spire Dorm students move Liked → <strong>Helpful</strong> via Diplomacy, favors, or genuine friendship → grants <strong>Study/Cram bonuses</strong> (table below).</li>
+    <li><strong>Voice first:</strong> Use the one-line hook to improvise; stat blocks live in the books.</li>
+    <li><strong>Cohort load-bearing:</strong> Esi organizes Perquisite; Okoro runs game night; Tzeniwe bridges anadi prejudice — lean on them between missions.</li>
+    <li><strong>Optional:</strong> Paizo suggests players may <em>also</em> roleplay a student NPC alongside their PC.</li>
+  </ul>
+  <p class="cite"><em>Kindled Magic</em> “Students of the Magaambya”; <a href="../lessons/0007-academia-downtime-gm-prep.html">Academia downtime lesson</a>.</p>
+</section>
+
+<section id="learned">
+  <h2>Learned Ones & leadership</h2>
+  <p>Each branch has a <strong>Learned One</strong> (senior scholar-head). Most faculty travel abroad; these names anchor improv.</p>
+  <table>
+    <thead><tr><th>Name</th><th>Branch / role</th><th>Voice</th></tr></thead>
+    <tbody>
+      <tr><td><strong>High Sun-Mage Oyamba</strong></td><td>Head of school · Tempest-Sun</td><td>“What will your story be?” — mostly off-screen Book 1</td></tr>
+      <tr><td><strong>Janatimo</strong></td><td>Learned One · Uzunjati</td><td>Itinerant storyteller; returns Book 2; mentors PCs; theories over answers</td></tr>
+      <tr><td><strong>Takulu Ot</strong></td><td>Cascade Bearer teacher</td><td>First face of Magaambya; “Teacher Ot”; mbira; anteaters; pedagogical reformer</td></tr>
+      <tr><td><strong>Koride Ulawa</strong> <span class="tag keystone">AP keystone</span></td><td>Rain-Scribe entomologist</td><td>Macabre charm; skips class; favorites get indulgence; hides Vesicant Egg</td></tr>
+      <tr><td><strong>Zuma</strong></td><td>Emerald Bough</td><td>Conspiracy-theorist playwright; defensive magic; tattoo ritual gone wrong</td></tr>
+      <tr><td><strong>Mafika Ayuwari</strong></td><td>Tempest-Sun</td><td>Ruby Phoenix celebrity; mecha-leshy tournaments; martial coach</td></tr>
+      <tr><td><strong>Ahassunu</strong></td><td>Uzunjati · iruxi historian</td><td>Vivid past, forgets present; diplomatic historian</td></tr>
+      <tr><td><strong>Nhyira</strong></td><td>Historian & arts patron</td><td>Ekujae elf; siege reenactments as poetry assignments</td></tr>
+      <tr><td><strong>Lesedi</strong></td><td>Extraplanar scholar</td><td>Intimidating elf; named in overview</td></tr>
+      <tr><td><strong>Tahenkot</strong></td><td>Demanding scholar</td><td>Named in overview</td></tr>
+      <tr><td><strong>Izem Mezitani</strong></td><td>Winged aasimar archaeologist</td><td>Named in overview</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="faculty">
+  <h2>Faculty — Book 1 spotlight</h2>
+
+  <div class="card">
+    <strong>Takulu Ot</strong> · LG human Cascade Bearer · Creature 4
+    <p>Kindly mathematician studying <em>how to teach</em>. From Tunyani; sent to Magaambya as sacred ibis gift. Married to Nantambu glass artist. Office: top floor, Heron Archives. Support combat only — protects students first.</p>
+    <p class="voice">“Welcome, and a kind hello… You embark on a life of study and service.”</p>
+  </div>
+
+  <div class="card">
+    <strong>Koride Ulawa</strong> · CN human Rain-Scribe · Creature 6
+    <p>Best entomologist in generations; loves fungus, decay, insects. Reckless with safety rules; neglects commitments. Students split — Anchor/Haibram/Chizire like her; <strong>Esi despises her</strong>. Office: Heron Archives (Black Heron building). Sends PCs to Leshy Gardens, Speaker’s Stage canal, kitchen for specimens.</p>
+    <p class="voice">“Premature conclusions are the bane of logical evaluation.”</p>
+  </div>
+
+  <div class="card">
+    <strong>Zuma</strong> · CN half-orc Emerald Bough
+    <p>Sharp intellect + defensive magic; conspiracy rants alternate with useful rituals. Office in Elephant Museum (Golden Snake building). Tzeniwe has no patience for his “poorly shaped webs of thought.” Runs failed <em>Tattoo Whispers</em> ritual linking cohort verbally.</p>
+  </div>
+
+  <div class="card">
+    <strong>Mafika Ayuwari</strong> · Tempest-Sun celebrity
+    <p>Monthly mecha-leshy jousts on Sparring Field; encourages chaos but stabilizes injured. Starday Tournament set-piece in Ch 2.</p>
+  </div>
+
+  <div class="card">
+    <strong>Janatimo</strong> · CG half-elf lore-speaker 12 · Book 2 lead
+    <p>Takulu’s mentor. Returns two weeks after Book 1; investigates anadi arrival + griffons; promotes conversants. Simple office, curio-filled, northeast campus edge.</p>
+    <p class="voice">“Stories of the past build the events of today.”</p>
+  </div>
+</section>
+
+<section id="staff">
+  <h2>Staff & campus services</h2>
+  <table>
+    <thead><tr><th>Name</th><th>Role</th><th>Hook</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Lumusi Yao</strong></td><td>Head chef · dining hall</td><td>NG human chef 5; fruit-bead badges; Earn Income tasks; seasonal Mwangi food; mites/centipedes plot in Ch 2</td></tr>
+      <tr><td><strong>Xhokan</strong></td><td>Powderpile shop · kobold</td><td>LN inventory manager 9; clay-bead ritual; 40 gp stipend + 4 gp/month; sells gear to 3rd/5th/6th level by category; strict accountant</td></tr>
+      <tr><td><strong>Abena</strong></td><td>Kitchen assistant</td><td>Trapped in cauldron during centipede swarm</td></tr>
+    </tbody>
+  </table>
+  <h3>Campus landmarks (quick)</h3>
+  <dl>
+    <dt>Welcome Walk</dt><dd>Group interview with Takulu; Circle dome legend.</dd>
+    <dt>Spire Dormitory</dt><dd>PC + cohort housing; secret gremlin hatch.</dd>
+    <dt>Tireless Hall</dt><dd>Introduction Ceremony; First Masking; named for Golden Snake.</dd>
+    <dt>Archhorn Library</dt><dd>White Bull’s horn-shaped library; Ch 3 tunnels; planetarium dome.</dd>
+    <dt>Heron Archives</dt><dd>Black Heron building; Koride & Takulu offices.</dd>
+    <dt>Speaker’s Stage</dt><dd>Canal island; free performances; anadi arrival site.</dd>
+    <dt>Verdant House / Warden House</dt><dd>Map note: errata — Warden House next to Archhorn (not Verdant).</dd>
+  </dl>
+</section>
+
+<section id="cohort">
+  <h2>Spire Dorm cohort</h2>
+  <p>Senior initiates assign Perquisite tasks. Portraits: “Students of the Magaambya.”</p>
+  <table>
+    <thead><tr><th></th><th>Student</th><th>Branch</th><th>Hook</th><th>Helpful Study bonus</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/anchor-root.jpg" aria-label="Anchor Root"><img class="student-portrait" src="images/spire-dorm/anchor-root-120.jpg" alt="Anchor Root" width="72" height="72"></button></td>
+        <td>Anchor Root</td><td>Rain-Scribe</td><td>Ant gnoll bonekeeper; anxiety; rhythm bones; chicken-on-a-stick pest control</td>
+        <td>Rain-Scribe crit fail → fail</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/chizire.jpg" aria-label="Chizire"><img class="student-portrait" src="images/spire-dorm/chizire-120.jpg" alt="Chizire" width="72" height="72"></button></td>
+        <td>Chizire</td><td>Cascade Bearer</td><td>Catfolk slacker/dyslexic prodigy; dorm still; pillar prank goal</td>
+        <td>No fatigue after Cascade Cram</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/esi-djana.jpg" aria-label="Esi Djana"><img class="student-portrait" src="images/spire-dorm/esi-djana-120.jpg" alt="Esi Djana" width="72" height="72"></button></td>
+        <td>Esi Djana</td><td>Tempest-Sun</td><td>Nantambu native star pupil; organizes everything; idolizes Tempest-Sun mother</td>
+        <td>Tempest-Sun success → crit success</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/haibram-thodja.jpg" aria-label="Haibram Thodja"><img class="student-portrait" src="images/spire-dorm/haibram-thodja-120.jpg" alt="Haibram Thodja" width="72" height="72"></button></td>
+        <td>Haibram Thodja</td><td>Rain-Scribe</td><td>Dwarf daredevil; hang-gliders; secret fire obsession; wants Tempest-Sun</td>
+        <td>Cram Rain-Scribe 3× not 2×</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/ignaci-canterells.jpg" aria-label="Ignaci Canterells"><img class="student-portrait" src="images/spire-dorm/ignaci-canterells-120.jpg" alt="Ignaci Canterells" width="72" height="72"></button></td>
+        <td>Ignaci Canterells</td><td>Emerald Bough</td><td>Chelaxian/Vidrian thaumaturge; coded notes → “Cryptic Circle”; Ch 3 ally if saved</td>
+        <td>Emerald Cram crit fail → fail</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/mariama-keitana.jpg" aria-label="Mariama Keitana"><img class="student-portrait" src="images/spire-dorm/mariama-keitana-120.jpg" alt="Mariama Keitana" width="72" height="72"></button></td>
+        <td>Mariama Keitana</td><td>Cascade Bearer</td><td>Chaos magnet occultist; accidentally summoned a devil once</td>
+        <td>Reroll Cascade Study (fortune)</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/noxolo.jpg" aria-label="Noxolo"><img class="student-portrait" src="images/spire-dorm/noxolo-120.jpg" alt="Noxolo" width="72" height="72"></button></td>
+        <td>Noxolo</td><td>Uzunjati</td><td>Fugitive noble; dancer; pet “snabble”; dead-bird augury</td>
+        <td>Uzunjati crit fail → fail</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/okoro-obiyo.jpg" aria-label="Okoro Obiyo"><img class="student-portrait" src="images/spire-dorm/okoro-obiyo-120.jpg" alt="Okoro Obiyo" width="72" height="72"></button></td>
+        <td>Okoro Obiyo</td><td>Uzunjati</td><td>Bonuwat researcher; biweekly game night; fear of butterflies</td>
+        <td>No fatigue after Uzunjati Cram</td>
+      </tr>
+      <tr>
+        <td class="portrait"><button type="button" class="portrait-launch" data-full-src="images/spire-dorm/tzeniwe.jpg" aria-label="Tzeniwe"><img class="student-portrait" src="images/spire-dorm/tzeniwe-120.jpg" alt="Tzeniwe" width="72" height="72"></button></td>
+        <td>Tzeniwe</td><td>Emerald Bough</td><td>Anadi dreamweaver (human-form portrait); mom to Zachva & Zanvi; stress-baker; First Masking peacock-spider mask</td>
+        <td>Emerald success → crit (not when Cramming)</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Social graph (improv)</h3>
+  <ul>
+    <li><strong>Drinking:</strong> Chizire + Haibram</li>
+    <li><strong>Sparring:</strong> Esi, Haibram, Mariama</li>
+    <li><strong>Gaming:</strong> Okoro, Chizire, Mariama</li>
+    <li><strong>Fashion/sewing:</strong> Ignaci, Noxolo, Tzeniwe</li>
+    <li><strong>Babysitting:</strong> Esi helps Tzeniwe</li>
+  </ul>
+</section>
+
+<section id="anadi">
+  <h2>Ch 3 — new anadi students</h2>
+  <p>Arrive in <strong>hybrid form</strong> at Speaker’s Stage (Society DC 15 = new to Nantambu customs). Egg’s psychic call drew them. Book 2: still prefer spider/hybrid at Hababe Building — Tzeniwe is the social bridge.</p>
+  <table>
+    <thead><tr><th>Short name</th><th>Full name</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Goss</strong></td><td>Rainbows-Reflected-Upon-Gossamer-Strands</td><td>Unsponsored admission; at least one should survive griffon fight</td></tr>
+      <tr><td><strong>Savana</strong></td><td>Droplets-Hanging-Gently Savanakin</td><td>Serpentfolk spy interest in Book 2 Hababe subplot</td></tr>
+      <tr><td><strong>Mazta</strong></td><td>Barest-Threads-Billowing Maztachia</td><td>Unsettle classmates who expect human presentation</td></tr>
+    </tbody>
+  </table>
+  <p class="cite">See <code>NOTES.md</code> anadi section; <a href="sot-magaambya-history.html#school">Jade Feather fable</a>.</p>
+</section>
+
+<section id="city">
+  <h2>Notable city NPCs (Book 2)</h2>
+  <p>Full gazetteer: <a href="sot-nantambu.html">Nantambu reference</a>.</p>
+  <table>
+    <thead><tr><th>NPC</th><th>Role</th><th>Campus tie-in</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Magistrate-Mayor Asanda</strong></td><td>Elected official</td><td>Book 1 Stage token; Book 2 flooded manor; Salathiss impersonates</td></tr>
+      <tr><td><strong>Salathiss</strong></td><td>Serpentfolk spy</td><td>Passwall into Koride’s lab; Vesicant Egg; coup</td></tr>
+      <tr><td><strong>Froglegs</strong></td><td>Grippli crime boss</td><td>Released griffons; tainted powders; Thieves’ Swamp</td></tr>
+      <tr><td><strong>Oba Eze</strong></td><td>Animal vendor</td><td>Underfed griffons; cages sabotaged</td></tr>
+      <tr><td><strong>Amaechi</strong></td><td>Potter</td><td>Canal flood mission</td></tr>
+      <tr><td><strong>Fire-Pot Ubanu</strong></td><td>Smith</td><td>Alchemical fraud</td></tr>
+      <tr><td><strong>Ibisu</strong></td><td>Goat herder (iruxi)</td><td>Non-lethal drake relocation; Ahassunu sends PCs</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="villains">
+  <h2>Antagonists — Book 1 (brief)</h2>
+  <dl>
+    <dt>Stone Ghost / Uduak Basni <span class="tag">BBEG</span></dt>
+    <dd>Expelled oread; massacred gremlins on Perquisite; wards rebound merged him with campus stone. Gremlin tunnels; insect attacks.</dd>
+    <dt>Kurshkin <span class="tag">secondary</span></dt>
+    <dd>Ancient pugwampi; unluck aura; grudge vs Takulu; may survive non-lethally.</dd>
+    <dt>Gremlin saboteurs</dt>
+    <dd>Introduction Ceremony; Stone Ghost’s network.</dd>
+  </dl>
+  <p>Extended entries: <a href="sot-glossary-and-npcs.html#villains">glossary</a> · Book 1 <a href="../lessons/0001-kindled-magic-gm-prep.html">lesson</a>.</p>
+  <p>Ask your teacher for: relationship advancement pacing, student-as-PC options, or Book 3 faculty once PCs become teachers.</p>
+</section>
+
+</main>
+<footer>
+  Sources: Paizo AP #169–170 · portraits <code>reference/images/spire-dorm/</code> · <a href="sot-thematic-guide.html#characters">Thematic character guide</a>
+</footer>
+<script src="portrait-lightbox.js"></script>
+</body>
+</html>

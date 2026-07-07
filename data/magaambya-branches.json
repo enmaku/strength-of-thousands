@@ -1,0 +1,129 @@
+{
+  "branches": [
+    {
+      "slug": "cascade-bearers",
+      "displayName": "Cascade Bearers",
+      "virtue": "Imagination",
+      "description": "Cascade Bearers esteem imagination, from the dreams of visionary magical theorists to the innovations of creative problem-solvers of all stripes.",
+      "image": "cascade-bearers.jpg",
+      "skills": ["Arcana", "Occultism", "Religion"],
+      "lore": "Academia Lore",
+      "generalFeat": {
+        "name": "Canny Acumen",
+        "description": "At 8th level in this branch, you gain the Canny Acumen general feat. If you already have Canny Acumen, you gain a 1st-level general feat of your choice instead."
+      },
+      "branchFeat6": {
+        "name": "Cascade Bearer's Flexibility",
+        "description": "Once per day, until the end of your turn, you gain a single druid or wizard metamagic feat with a level requirement of no more than half your level. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
+      },
+      "branchFeat10": {
+        "name": "Cascade Bearer's Spellcasting",
+        "description": "You can select halcyon spells from the divine or occult spell lists in addition to arcane or primal. You gain a halcyon cantrip and a halcyon 1st-level spell. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
+      },
+      "magicalParagon": {
+        "name": "Magical Paragon",
+        "description": "Nothing is beyond your imagination. Once per day, you can cast any common 7th-level spell from the arcane, divine, occult, or primal spell lists without expending a spell slot, using your halcyon spellcasting proficiency."
+      }
+    },
+    {
+      "slug": "emerald-boughs",
+      "displayName": "Emerald Boughs",
+      "virtue": "Camaraderie",
+      "description": "Emerald Boughs emphasize camaraderie — community and connection to fellow Magaambyans. They interact with those outside the academy and spread its message.",
+      "image": "emerald-boughs.jpg",
+      "skills": ["Deception", "Diplomacy", "Society"],
+      "lore": "Specific settlement (such as Nantambu Lore)",
+      "generalFeat": {
+        "name": "Adopted Ancestry",
+        "description": "At 8th level in this branch, you gain the Adopted Ancestry general feat. If you already have Adopted Ancestry, you gain a 1st-level general feat of your choice instead."
+      },
+      "branchFeat6": {
+        "name": "Emerald Boughs Accustomation",
+        "description": "Requires expert in Society. When you Subsist in a settlement, a critical success improves your result by one step and a success grants a +2 circumstance bonus to Recall Knowledge about the settlement's culture. Requires Magaambyan Attendant Dedication and Emerald Boughs affiliation."
+      },
+      "branchFeat10": {
+        "name": "Emerald Boughs Hideaway",
+        "description": "You gain a personal extradimensional space to store items. Requires Magaambyan Attendant Dedication and Emerald Boughs affiliation."
+      },
+      "magicalParagon": {
+        "name": "Magical Paragon",
+        "description": "You can stretch your hideaway into a magnificent mansion for you and your allies. Spend 1 minute to enter and expand it; when you leave, remaining guests are expelled and it becomes a normal hideaway until you expand it again."
+      }
+    },
+    {
+      "slug": "rain-scribes",
+      "displayName": "Rain-Scribes",
+      "virtue": "Adaptability",
+      "description": "Rain-Scribes value adaptability in thoughts and deeds, and a willingness to admit errors and learn from past mistakes.",
+      "image": "rain-scribes.jpg",
+      "skills": ["Medicine", "Nature", "Survival"],
+      "lore": "Specific terrain (such as Forest Lore)",
+      "generalFeat": {
+        "name": "Fleet",
+        "description": "At 8th level in this branch, you gain the Fleet general feat. If you already have Fleet, you gain a 1st-level general feat of your choice instead."
+      },
+      "branchFeat6": {
+        "name": "Rain-Scribe Sustenance",
+        "description": "You can sustain yourself with ambient magic instead of food and drink. Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
+      },
+      "branchFeat10": {
+        "name": "Rain-Scribe Mobility",
+        "description": "Stride twice; you ignore difficult terrain and greater difficult terrain, and clear those terrain effects from spaces you enter for 1 round. Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
+      },
+      "magicalParagon": {
+        "name": "Magical Paragon",
+        "description": "You survive severe and extreme cold and heat without damage, move at full Speed through difficult and greater difficult terrain, take no damage from hazardous terrain, and when using Rain-Scribe Mobility you clear all three terrain types from spaces you enter for 1 round."
+      }
+    },
+    {
+      "slug": "tempest-sun-mages",
+      "displayName": "Tempest-Sun Mages",
+      "virtue": "Valor",
+      "description": "Tempest-Sun Mages inspire valor — physical courage to stand up for friends and the school, and intellectual courage to consider opposing viewpoints.",
+      "image": "tempest-sun-mages.jpg",
+      "skills": ["Intimidation", "Performance"],
+      "lore": "Warfare Lore",
+      "generalFeat": {
+        "name": "Toughness",
+        "description": "At 8th level in this branch, you gain the Toughness general feat. If you already have Toughness, you gain a 1st-level general feat of your choice instead."
+      },
+      "branchFeat6": {
+        "name": "Tempest-Sun Absorption",
+        "description": "When you would take damage from a spell, you can use a reaction to reduce that damage by your level. Requires Magaambyan Attendant Dedication and Tempest-Sun Mages affiliation."
+      },
+      "branchFeat10": {
+        "name": "Tempest-Sun Shielding",
+        "description": "When you use Tempest-Sun Shielding, reduce triggering damage to you or an ally within 30 feet by four times the spell level. Requires Magaambyan Attendant Dedication and Tempest-Sun Mages affiliation."
+      },
+      "magicalParagon": {
+        "name": "Magical Paragon",
+        "description": "When you use Tempest-Sun Shielding, you can reduce the triggering damage to you and all allies within 30 feet by four times the spell level, rather than to you or a single ally."
+      }
+    },
+    {
+      "slug": "uzunjati",
+      "displayName": "Uzunjati",
+      "virtue": "Knowledge",
+      "description": "Uzunjati understand that knowledge lives in stories passed down through generations and is earned every day through personal experience.",
+      "image": "uzunjati.jpg",
+      "skills": ["Crafting", "Lore", "Performance"],
+      "lore": "Any Lore",
+      "generalFeat": {
+        "name": "Incredible Initiative",
+        "description": "At 8th level in this branch, you gain the Incredible Initiative general feat. If you already have Incredible Initiative, you gain a 1st-level general feat of your choice instead."
+      },
+      "branchFeat6": {
+        "name": "Uzunjati Storytelling",
+        "description": "You weave stories to captivate listeners and Recall Knowledge through narrative. Requires Magaambyan Attendant Dedication and Uzunjati affiliation."
+      },
+      "branchFeat10": {
+        "name": "Uzunjati Recollection",
+        "description": "Recall Knowledge using Performance or a branch-associated skill with a +2 circumstance bonus. Requires Magaambyan Attendant Dedication and Uzunjati affiliation."
+      },
+      "magicalParagon": {
+        "name": "Magical Paragon",
+        "description": "When you use Uzunjati Recollection, you Recall Knowledge three times instead of once, each with a +2 circumstance bonus. You also gain a +2 circumstance bonus to Uzunjati Storytelling from the combined narrative."
+      }
+    }
+  ]
+}

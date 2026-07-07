@@ -18,6 +18,14 @@
 
 See glossary entry + Book 1 lesson § Anadi arrival.
 
+## Reference docs (GM prep)
+
+- Nantambu — `reference/sot-nantambu.html`
+- Magaambya / Jatembe history — `reference/sot-magaambya-history.html`
+- Campus NPCs — `reference/sot-campus-npcs.html`
+
+Open: `open reference/sot-nantambu.html` (or sibling paths)
+
 ## Lessons
 
 0. Party Character Analysis (Book 1) — `lessons/0008-party-character-analysis-gm-prep.html`

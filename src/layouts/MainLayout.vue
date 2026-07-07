@@ -42,6 +42,12 @@
               label="Relationships"
             />
             <q-route-tab
+              to="/study"
+              name="/study"
+              icon="school"
+              label="Study"
+            />
+            <q-route-tab
               to="/transcripts"
               name="/transcripts"
               icon="forum"
@@ -113,6 +119,20 @@
             <q-icon name="favorite" />
           </q-item-section>
           <q-item-section>Relationships</q-item-section>
+        </q-item>
+
+        <q-item
+          v-ripple
+          clickable
+          to="/study"
+          :active="route.path === '/study'"
+          active-class="bg-grey-3 text-weight-medium"
+          @click="leftDrawerOpen = false"
+        >
+          <q-item-section avatar>
+            <q-icon name="school" />
+          </q-item-section>
+          <q-item-section>Study</q-item-section>
         </q-item>
 
         <q-item

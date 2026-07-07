@@ -43,6 +43,30 @@ _Avoid_: AoN (fine in informal notes)
 **Relationship tracker**:
 A campaign tool showing one tab per hero. Each tab displays a tile grid of all Spire students with portrait, name, disposition hearts, and unlock indicators for Classroom Advantage and uncommon rules. Locked indicators appear muted; unlocked indicators are highlighted. Tooltips always show the full benefit text, even when locked. In GM mode the GM can edit dispositions only; in player mode the same view is read-only. Does not add heroes — roster comes from the Heroes page via **PathBuilder import**.
 
+**Study tracker**:
+A campaign tool listing all heroes alphabetically on one screen. Each hero shows primary and secondary **branch** choice, **branch level** progress (0–20 with a **cap marker**), and gained branch benefits. In GM mode the GM sets branches, adjusts levels with +/−, can mark **starred branch** (banked Study success at cap), and toggle **uncapped branch** for Book 6. Players see read-only progress once branches are configured; unconfigured heroes show a muted placeholder. Branch rules text comes from the **branch catalog**; institutional Magaambya rank is out of scope.
+_Avoid_: Academia page, rank tracker (when meaning institutional rank)
+
+**Branch level**:
+Progress in a primary or secondary branch (0–20), separate from character level. Primary cap equals character level unless uncapped; secondary cap equals half character level (floor). Advanced via Study/Cram in play; the app records current level only.
+_Avoid_: Institutional rank, character level
+
+**Primary branch** / **Secondary branch**:
+Each hero’s two Magaambya branches of scholarship. Must differ. GM sets both on the Study page; stored in hero JSON. Levels tracked independently.
+_Avoid_: Spire student branch (display-only on relationship tiles)
+
+**Cap marker**:
+Visual tick on the 0–20 progress bar at the current maximum branch level (character level for primary, half level for secondary, or 20 when uncapped).
+
+**Starred branch**:
+A ★ shown when a Study success would exceed cap — banked until character level rises, then applied automatically to the new cap.
+
+**Uncapped branch**:
+GM toggle per branch for Book 6 Endless Table — cap treated as 20 regardless of character level.
+
+**Branch catalog**:
+Shared reference data in `data/magaambya-branches.json` — branch names, badge images, branch-specific feats, and benefit tooltip text.
+
 **Spire student catalog**:
 Shared reference data for every Spire student on the roster — slug, display name, portrait, branch, Classroom Advantage description, and uncommon rules description. Hero files reference students by slug only. v1 covers the nine students in the portrait manifest only. Extending the roster (e.g. Goss, Mazta, Savana) and backfilling new students into existing heroes is **out of scope** for the Heroes import project — a separate future effort.
 _Avoid_: Student manifest, NPC list

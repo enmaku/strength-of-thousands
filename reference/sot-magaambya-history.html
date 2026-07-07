@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SoT — Magaambya, Jatembe & the Ten</title>
+  <link rel="stylesheet" href="sot-theme.css">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 0.98rem; line-height: 1.55; }
+    header { background: linear-gradient(135deg, var(--earth) 0%, var(--accent-dark) 50%, var(--accent) 100%); color: var(--header-ink); padding: 1.75rem 1.5rem; border-bottom: 3px solid var(--gold); }
+    header h1 { margin: 0; font-size: 1.55rem; }
+    header p { margin: 0.45rem 0 0; opacity: 0.92; font-size: 0.9rem; max-width: 42rem; }
+    nav { background: var(--earth-soft); padding: 0.75rem 1.5rem; font-family: var(--sans); font-size: 0.78rem; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 10; }
+    nav a { margin-right: 0.85rem; color: var(--earth); white-space: nowrap; }
+    main { max-width: 50rem; margin: 0 auto; padding: 1.35rem 1.5rem 3.5rem; }
+    h2 { font-size: 1.2rem; color: var(--earth); margin: 2.25rem 0 0.65rem; border-bottom: 2px solid var(--gold); padding-bottom: 0.25rem; }
+    h3 { font-size: 1rem; margin: 1.35rem 0 0.45rem; color: var(--gold); }
+    p { margin: 0 0 0.75rem; }
+    ul, ol { margin: 0 0 0.75rem; padding-left: 1.3rem; }
+    li { margin-bottom: 0.3rem; }
+    a { color: var(--green); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.84rem; margin: 0.75rem 0; }
+    th, td { border: 1px solid var(--border); padding: 0.42rem 0.55rem; text-align: left; vertical-align: top; }
+    th { background: var(--earth-soft); font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .thesis { background: var(--green-soft); border-left: 4px solid var(--green); padding: 0.9rem 1rem; margin: 1rem 0; font-size: 1.02rem; }
+    .fable { background: var(--surface); border: 1px solid var(--border); padding: 0.85rem 1rem; margin: 0.75rem 0; font-style: italic; }
+    .spoiler { background: var(--spoiler-bg); border-left: 3px solid var(--spoiler); padding: 0.55rem 0.8rem; margin: 0.5rem 0; font-size: 0.88rem; }
+    .cite { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); }
+    footer { font-family: var(--sans); font-size: 0.78rem; color: var(--muted); padding: 1rem 1.5rem 2rem; border-top: 1px solid var(--border); max-width: 50rem; margin: 0 auto; }
+    @media print { nav { position: static; } .spoiler { break-inside: avoid; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Magaambya — Jatembe & the Ten Magic Warriors</h1>
+  <p>Founding myth, campaign timeline, and institutional philosophy. GM spoilers for the six-book arc.</p>
+</header>
+
+<nav>
+  <a href="#philosophy">Word & Way</a>
+  <a href="#jatembe">Old-Mage Jatembe</a>
+  <a href="#ten">Ten Magic Warriors</a>
+  <a href="#timeline">Timeline</a>
+  <a href="#school">The school today</a>
+  <a href="#egg">Hidden war</a>
+  <a href="#stories">Stories to tell</a>
+  <a href="sot-nantambu.html">Nantambu</a>
+  <a href="sot-campus-npcs.html">Campus NPCs</a>
+</nav>
+
+<main>
+
+<section id="philosophy">
+  <h2>Word and Way</h2>
+  <div class="thesis">
+    Knowledge without service is incomplete. You stand on the shoulders of thousands — and owe the next generation the same.
+  </div>
+  <p>The Magaambya teaches a blend of <strong>arcane and primal</strong> traditions, but its deeper ethic is <strong>service</strong>: study must become action for all people and the natural world. Isolationist scholarship — hoarding magic for personal power — is the antithesis of Jatembe’s mission.</p>
+  <table>
+    <thead><tr><th>Rank</th><th>Meaning</th><th>AP milestone</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Initiate</strong></td><td>New student; sponsor required</td><td>Book 1 opening</td></tr>
+      <tr><td><strong>Perquisite</strong></td><td>Mandatory public service (often ~1 year; Book 1 compresses to 5 days + ceremony)</td><td>Book 1 Ch 1</td></tr>
+      <tr><td><strong>Attendant</strong></td><td>Wooden spirit mask; fragment of student’s spirit</td><td>First Masking (Book 1 Ch 2)</td></tr>
+      <tr><td><strong>Conversant</strong></td><td>School representative in Nantambu and beyond</td><td>Book 2 Ch 2</td></tr>
+      <tr><td><strong>Lore-speaker</strong></td><td>Graduated teacher rank</td><td>Book 2 finale (name obelisk)</td></tr>
+      <tr><td><strong>Magic Warrior</strong></td><td>Jatembe’s mantle — animal mask, renamed identity</td><td>Book 6 ceremony</td></tr>
+    </tbody>
+  </table>
+  <p class="cite"><a href="https://paizo.com/pathfinder/adventures/pathfinderadventurepath/strengthofthousands">Player's Guide</a>; <em>Kindled Magic</em> Campaign Overview.</p>
+</section>
+
+<section id="jatembe">
+  <h2>Old-Mage Jatembe</h2>
+  <p>Folk hero of the Mwangi Expanse — wizard, teacher, myth. Credited with rekindling magic after <strong>Earthfall</strong> and the Age of Anguish, when civilization’s lore was ash.</p>
+  <ul>
+    <li><strong>First rumors:</strong> ~−3600 AR — “an old man, even in the oldest legends.”</li>
+    <li><strong>Method:</strong> Stole magic from foul creatures and banished them; good things of the world gave him secrets.</li>
+    <li><strong>Legacy:</strong> Founded <strong>Nantambu</strong> and the <strong>Magaambya</strong> (~−3502 AR); sightings continued for centuries, then he effectively vanished.</li>
+    <li><strong>Book 5–6:</strong> Imprisoned aboard the King’s airship <em>Mandibles of Fate</em> on Akiton; PCs free him; appoints them new Magic Warriors.</li>
+  </ul>
+  <h3>What Jatembe is not (Book 1 fable)</h3>
+  <div class="fable">
+    A bad-luck spirit asked villagers where Jatembe kept his riches, spouses, weapons, children. They answered: no riches, no spouses, no weapons — his weapon was knowledge in his head. But he had <em>many children</em>: the students of Nantambu. The spirit turned on them instead.
+  </div>
+  <p class="cite">Read aloud or paraphrase — foreshadows gremlins at Introduction Ceremony. <em>Kindled Magic</em> p. 8.</p>
+</section>
+
+<section id="ten">
+  <h2>Ten Magic Warriors</h2>
+  <p>Jatembe challenged his apprentices to surrender their names and wear <strong>golden animal masks</strong> — taking new identities in service. They reintroduced wizardry after Earthfall, advised communities, and fought evils such as the <strong>King of Biting Ants</strong>.</p>
+  <table>
+    <thead><tr><th>Mask / name</th><th>Epithet</th><th>Legacy at Magaambya</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Azure Leopard</strong></td><td>Patient Warden</td><td>Founder of Tempest-Sun Mages; tamed storms</td></tr>
+      <tr><td><strong>Black Heron</strong></td><td>Wings of Knowledge</td><td>Aeromancy; <strong>Heron Archives</strong> named for her; later turned on Jatembe and left — broke his heart</td></tr>
+      <tr><td><strong>Carmine Jaws</strong></td><td>Hyena who Looks Between</td><td>Why kholo students are accepted without question</td></tr>
+      <tr><td><strong>Elephant</strong></td><td>Conjured Chronicle</td><td>Chronicler; founded Uzunjati; <strong>Elephant Museum</strong></td></tr>
+      <tr><td><strong>Golden Snake</strong></td><td>Tireless Guide</td><td><strong>Tireless Hall</strong> / Tireless Guide; likely serpentfolk or nagaji by some accounts</td></tr>
+      <tr><td><strong>Ibex</strong></td><td>Flourishing Field</td><td>Herbal medicine; fairness fable (Hippo & Ant)</td></tr>
+      <tr><td><strong>Shifting Frog</strong></td><td>Storyteller of Past & Future</td><td>Ekujae elf — deep Ekujae ties from founding</td></tr>
+      <tr><td><strong>Verdant Spider</strong></td><td>Speaker of Needs</td><td>Rights of ordinary people; service ethic; shy baker (anadi connection)</td></tr>
+      <tr><td><strong>Whistling Kite</strong></td><td>Vigilant Seer</td><td>Emancipator; depicted as intelligent hawk</td></tr>
+      <tr><td><strong>White Bull</strong></td><td>Horn-Forger</td><td>Iruxi architect; designed <strong>Archhorn Library</strong> (horn shape + mirrored dome)</td></tr>
+    </tbody>
+  </table>
+  <p>Mosaic portraits overlook terraced gardens. First ten campus buildings named for the Ten. <strong>The Circle</strong> — glass dome on elemental pillars — legend says Jatembe and Black Heron raised it for monsoon teaching.</p>
+  <p class="cite"><a href="https://pathfinderwiki.com/wiki/Ten_Magic_Warriors">PathfinderWiki — Ten Magic Warriors</a>; <em>Legends</em> (Paizo); AP #169 map &amp; Koride’s office text.</p>
+</section>
+
+<section id="timeline">
+  <h2>Campaign timeline</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Event</th></tr></thead>
+    <tbody>
+      <tr><td>Age of Legend</td><td>Contemplatives of Ashok create <strong>Doorway to the Red Star</strong>; Throat-of-Nothingness cult builds around it</td></tr>
+      <tr><td>−4294 AR</td><td>Earthfall; Age of Anguish begins</td></tr>
+      <tr><td>~−3600 AR</td><td>First rumors of Old-Mage Jatembe</td></tr>
+      <tr><td>−3505 AR</td><td><strong>King of Biting Ants</strong> dominates region via Doorway; Jatembe banishes him to Akiton; remnant ants create <strong>Vesicant Egg</strong></td></tr>
+      <tr><td>−3504 AR</td><td>Jatembe chooses the Ten Magic Warriors</td></tr>
+      <tr><td>−3502 AR</td><td>Nantambu + Magaambya founded; Jatembe effectively disappears</td></tr>
+      <tr><td>4455 AR</td><td>Jatembe travels to Akiton; imprisoned on <em>Mandibles of Fate</em>; secretly sabotages King’s superweapon</td></tr>
+      <tr><td>4606 AR</td><td>Eye of Abendego; Jula becomes coastal</td></tr>
+      <tr><td>4610 AR</td><td><strong>Walkena</strong> rules Mzali</td></tr>
+      <tr><td>4699 AR</td><td>Knights of Abendego arrive in Jula</td></tr>
+      <tr><td>4705 AR</td><td>King begins secret second superweapon (unknown to Jatembe)</td></tr>
+      <tr><td>4719 AR</td><td><strong>Koride Ulawa</strong> finds Vesicant Egg; hides it on campus</td></tr>
+      <tr><td><strong>4721 AR</strong></td><td><strong>AP start</strong> — PCs arrive as initiates</td></tr>
+    </tbody>
+  </table>
+  <p class="cite"><em>Kindled Magic</em> Campaign Timeline (p. 7).</p>
+</section>
+
+<section id="school">
+  <h2>The school today</h2>
+  <ul>
+    <li><strong>Oldest magic academy in the world</strong> — neutral good institution; evil PCs poor fit.</li>
+    <li><strong>Head:</strong> High Sun-Mage <strong>Oyamba</strong> (Tempest-Sun); five <strong>Learned Ones</strong> lead branches.</li>
+    <li><strong>Campus:</strong> Island in Nantambu’s canals; ten terraced towers; terraced gardens; free dining hall; Powderpile shop; Spire Dorm for new cohorts.</li>
+    <li><strong>Demographics:</strong> Adults (rare children); global students; cohort model — PCs are one peer group, not a mercenary party.</li>
+    <li><strong>Spellcasting:</strong> All PCs gain druid or wizard multiclass archetype at 2nd level (Player's Guide).</li>
+    <li><strong>Five branches</strong> — Cascade Bearers (imagination), Emerald Boughs (camaraderie), Rain-Scribes (adaptability), Tempest-Sun (valor), Uzunjati (knowledge/story).</li>
+  </ul>
+  <h3>Anadi & the Magaambya</h3>
+  <p>Janatimo’s fable: three anadi teachers revealed hybrid forms to <strong>Jade Feather</strong> on eve of acceptance; she agreed to discretion so they would not be driven off. Faculty have quietly spread helpful-spider stories for millennia — accepting anadi before the world was safe.</p>
+  <p class="cite"><em>Spoken on the Song Wind</em> Mwangi Folktales; see <code>NOTES.md</code> anadi section.</p>
+</section>
+
+<section id="egg">
+  <h2>Hidden war (AP through-line)</h2>
+  <div class="spoiler">
+    <strong>Koride Ulawa</strong> holds the <strong>Vesicant Egg</strong> (King of Biting Ants’ psyche fragments) in a hidden lab — she does not know its true origin. It draws insects, gremlins, and eventually anadi toward campus. Serpentfolk seek it (Book 2+). Book 5: Doorway and Akiton. Book 6: egg hatches; Magic Warrior ceremony; colossal larva.
+  </div>
+  <p><strong>Iobane</strong> — Zenj magi order, spiritual successors to the Ten; guard the Doorway vs. undead Throat-of-Nothingness remnants.</p>
+</section>
+
+<section id="stories">
+  <h2>Stories to tell at the table</h2>
+  <h3>Janatimo’s opening song (Book 1 appendix)</h3>
+  <div class="fable">
+    “I sing the song of the one, the Old Mage… the Ten, the Magic Warriors… the hundreds who built this school… the thousands who came before us. Their strength lives on in me. Now they shall live on in you as well.”
+  </div>
+  <h3>Five virtues fable — Elephant’s Chronicles</h3>
+  <p>Snake (adaptability), leopard (valor), spider (camaraderie), hyena (imagination), elephant (memory) — maps directly to branches. Use when assigning Perquisite or debating branch virtue.</p>
+  <h3>GM emphasis</h3>
+  <p>Pin <a href="sot-thematic-guide.html">thematic guide</a> beside this doc: succession, masks, curiosity’s shadow (Koride), scope of responsibility campus → cosmos.</p>
+  <p>Ask your teacher for: Book 5 Akiton prep, Magic Warrior ceremony detail, or Black Heron / Shory Empire deep lore.</p>
+</section>
+
+</main>
+<footer>
+  Sources: Paizo AP #169–170 Campaign Overviews · <a href="https://pathfinderwiki.com/wiki/Old-Mage_Jatembe">Jatembe</a> · <a href="https://pathfinderwiki.com/wiki/Magaambya">Magaambya</a> · <a href="sot-campaign-overview.md">Local overview</a>
+</footer>
+</body>
+</html>

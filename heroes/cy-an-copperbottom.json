@@ -293,5 +293,15 @@
     "noxolo": 1,
     "okoro-obiyo": 1,
     "tzeniwe": 1
+  },
+  "study": {
+    "primaryBranch": null,
+    "secondaryBranch": null,
+    "primaryLevel": 0,
+    "secondaryLevel": 0,
+    "primaryStarred": false,
+    "secondaryStarred": false,
+    "primaryUncapped": true,
+    "secondaryUncapped": false
   }
 }

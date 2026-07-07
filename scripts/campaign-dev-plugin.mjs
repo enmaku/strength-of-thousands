@@ -2,6 +2,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { HeroImportError, planHeroImportWithCatalog, planHeroRefresh } from '../src/domain/heroesApi.js'
+import { applyStudyAfterRefresh, applyStudyPatch, StudyValidationError } from '../src/domain/studyApi.js'
 import { TranscriptEditError, planSegmentDelete, planSegmentRestore, planSegmentSplit, planSegmentUpdate } from '../src/domain/transcriptEdits.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -217,7 +218,8 @@ async function handleHeroesApi(req, res) {
           return
         }
 
-        const hero = planHeroRefresh(existing, body.build)
+        let hero = planHeroRefresh(existing, body.build)
+        hero = applyStudyAfterRefresh(hero)
         await writeHero(slug, hero)
 
         const index = await readHeroIndex()
@@ -252,6 +254,11 @@ async function handleHeroesApi(req, res) {
         existing.displayName = body.displayName.trim()
       }
 
+      if (body.study) {
+        const { hero: withStudy } = applyStudyPatch(existing, body.study)
+        Object.assign(existing, withStudy)
+      }
+
       await writeHero(slug, existing)
 
       const index = await readHeroIndex()
@@ -264,6 +271,10 @@ async function handleHeroesApi(req, res) {
       sendJson(res, 200, existing)
     } catch (err) {
       if (err instanceof HeroImportError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err instanceof StudyValidationError) {
         sendJson(res, err.status, { error: err.message })
         return
       }

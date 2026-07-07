@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "cascade-bearers",
+    "displayName": "Cascade Bearers",
+    "image": "cascade-bearers.jpg"
+  },
+  {
+    "slug": "emerald-boughs",
+    "displayName": "Emerald Boughs",
+    "image": "emerald-boughs.jpg"
+  },
+  {
+    "slug": "rain-scribes",
+    "displayName": "Rain-Scribes",
+    "image": "rain-scribes.jpg"
+  },
+  {
+    "slug": "tempest-sun-mages",
+    "displayName": "Tempest-Sun Mages",
+    "image": "tempest-sun-mages.jpg"
+  },
+  {
+    "slug": "uzunjati",
+    "displayName": "Uzunjati",
+    "image": "uzunjati.jpg"
+  }
+]
