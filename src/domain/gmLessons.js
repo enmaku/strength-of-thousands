@@ -3,6 +3,31 @@ export function getGmLessons() {
 
   return [
     {
+      title: 'Nantambu',
+      caption: 'Reference · Song-Wind City gazetteer',
+      href: `${pagesBase}/reference/sot-nantambu.html`,
+    },
+    {
+      title: 'Magaambya & Jatembe',
+      caption: 'Reference · history, Ten Magic Warriors, timeline',
+      href: `${pagesBase}/reference/sot-magaambya-history.html`,
+    },
+    {
+      title: 'Campus NPCs',
+      caption: 'Reference · faculty, staff & Spire Dorm cohort',
+      href: `${pagesBase}/reference/sot-campus-npcs.html`,
+    },
+    {
+      title: 'Glossary & NPC quick ref',
+      caption: 'Reference · session lookup sheet',
+      href: `${pagesBase}/reference/sot-glossary-and-npcs.html`,
+    },
+    {
+      title: 'Thematic GM guide',
+      caption: 'Reference · themes, push moments, arcs',
+      href: `${pagesBase}/reference/sot-thematic-guide.html`,
+    },
+    {
       title: 'Party — Your PCs in Book 1',
       caption: 'GM prep · spells, feats & hooks',
       href: `${pagesBase}/lessons/0008-party-character-analysis-gm-prep.html`,
