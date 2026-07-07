@@ -199,12 +199,12 @@
     "index": 15,
     "sceneId": "character-intros",
     "speaker": "Julia",
-    "character": null,
+    "character": "Anya",
     "voice": "player",
     "contentType": "ooc",
-    "text": "TBD",
+    "text": "Anya, human summoner with a beast eidolon, feral child background.",
     "mechanics": [],
-    "sourceText": "TBD for me — still deciding between a few concepts. Leaning toward someone from outside Nantambu who treats the Magaambya like a second chance, but I have not locked ancestry or branch yet.",
+    "sourceText": "I'm Anya — human summoner, feral child background. She grew up in the wild with a beast eidolon that glides between the trees. She came to the Magaambya to learn what the bond means and how to live among people. On the Welcome Walk you'd spot leaves in her hair and her eidolon watching the rooftops like perches.",
     "sourceSpeaker": "Julia"
   },
   {
@@ -212,13 +212,13 @@
     "index": 16,
     "sceneId": "character-intros",
     "speaker": "Matt",
-    "character": null,
+    "character": "Yggostrus",
     "voice": "player",
     "contentType": "ooc",
-    "text": "TBD",
+    "text": "Yggostrus, tiny dragonet summoner with a dragon eidolon, eidolon contact background.",
     "mechanics": [],
-    "sourceText": "TBD",
-    "sourceSpeaker": "Julia"
+    "sourceText": "I'm Yggostrus — tiny homing drake dragonet summoner, eidolon contact background. He shares a life with a full dragon eidolon that handles the fighting while he directs from the back. He wants the academy to help him understand a bond he never asked for. On the Welcome Walk you'd notice a palm-sized dragonet sizing up every passerby and acid-scented warmth when the eidolon manifests.",
+    "sourceSpeaker": "Matt"
   },
   {
     "id": 18,
@@ -231,6 +231,6 @@
     "text": "TBD",
     "mechanics": [],
     "sourceText": "TBD",
-    "sourceSpeaker": "Matt"
+    "sourceSpeaker": "Xander"
   }
 ]

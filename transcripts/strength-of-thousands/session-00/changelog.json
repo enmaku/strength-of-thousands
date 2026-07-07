@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-00",
   "schemaVersion": 1,
-  "generatedAt": "2026-06-21T17:39:43.805Z",
+  "generatedAt": "2026-07-07T19:30:00.000Z",
   "changes": [
     {
       "segmentId": 5,
@@ -427,6 +427,50 @@
       ],
       "newSegmentId": 22,
       "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD",
+      "new": "Anya, human summoner with a beast eidolon, feral child background.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 12,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Anya",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 17,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD",
+      "new": "Yggostrus, tiny dragonet summoner with a dragon eidolon, eidolon contact background.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 17,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Yggostrus",
+      "reason": "gm_edit",
       "confidence": 1,
       "flagged": false,
       "category": "gm_edit"
