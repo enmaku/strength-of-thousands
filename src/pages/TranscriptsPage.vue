@@ -14,6 +14,7 @@
           dense
           outlined
           options-dense
+          behavior="menu"
           :clearable="false"
           aria-label="Session"
           @update:model-value="onSessionSelect"

@@ -37,6 +37,7 @@
           dense
           outlined
           options-dense
+          behavior="menu"
           :clearable="false"
           aria-label="Adventurer"
           @update:model-value="onTabChange"
