@@ -2,16 +2,6 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          class="xs"
-          flat
-          round
-          dense
-          icon="menu"
-          aria-label="Open menu"
-          @click="leftDrawerOpen = true"
-        />
-
         <q-toolbar-title>
           <router-link to="/" class="home-link toolbar-brand">
             <img
@@ -39,7 +29,7 @@
               to="/relationships"
               name="/relationships"
               icon="favorite"
-              label="Relationships"
+              label="Social"
             />
             <q-route-tab
               to="/study"
@@ -89,87 +79,20 @@
           </q-btn-dropdown>
         </div>
       </q-toolbar>
+
+      <nav class="mobile-nav xs" aria-label="Primary">
+        <router-link
+          v-for="item in mobileNavItems"
+          :key="item.to"
+          :to="item.to"
+          class="mobile-nav__item"
+          :class="{ 'mobile-nav__item--active': route.path === item.to }"
+        >
+          <q-icon :name="item.icon" size="1.35rem" />
+          <span class="mobile-nav__label">{{ item.label }}</span>
+        </router-link>
+      </nav>
     </q-header>
-
-    <q-drawer v-model="leftDrawerOpen" overlay bordered class="xs">
-      <q-list padding>
-        <q-item
-          v-ripple
-          clickable
-          to="/heroes"
-          :active="route.path === '/heroes'"
-          active-class="bg-grey-3 text-weight-medium"
-          @click="leftDrawerOpen = false"
-        >
-          <q-item-section avatar>
-            <q-icon name="groups" />
-          </q-item-section>
-          <q-item-section>Heroes</q-item-section>
-        </q-item>
-
-        <q-item
-          v-ripple
-          clickable
-          to="/relationships"
-          :active="route.path === '/relationships'"
-          active-class="bg-grey-3 text-weight-medium"
-          @click="leftDrawerOpen = false"
-        >
-          <q-item-section avatar>
-            <q-icon name="favorite" />
-          </q-item-section>
-          <q-item-section>Relationships</q-item-section>
-        </q-item>
-
-        <q-item
-          v-ripple
-          clickable
-          to="/study"
-          :active="route.path === '/study'"
-          active-class="bg-grey-3 text-weight-medium"
-          @click="leftDrawerOpen = false"
-        >
-          <q-item-section avatar>
-            <q-icon name="school" />
-          </q-item-section>
-          <q-item-section>Study</q-item-section>
-        </q-item>
-
-        <q-item
-          v-ripple
-          clickable
-          to="/transcripts"
-          :active="route.path === '/transcripts'"
-          active-class="bg-grey-3 text-weight-medium"
-          @click="leftDrawerOpen = false"
-        >
-          <q-item-section avatar>
-            <q-icon name="forum" />
-          </q-item-section>
-          <q-item-section>Transcripts</q-item-section>
-        </q-item>
-
-        <template v-if="gmMode">
-          <q-separator spaced />
-          <q-item-label header>GM prep</q-item-label>
-          <q-item
-            v-for="lesson in lessons"
-            :key="lesson.href"
-            v-ripple
-            clickable
-            @click="openLessonInNewTab(lesson.href)"
-          >
-            <q-item-section>
-              <q-item-label>{{ lesson.title }}</q-item-label>
-              <q-item-label caption>{{ lesson.caption }}</q-item-label>
-            </q-item-section>
-            <q-item-section side>
-              <q-icon name="open_in_new" />
-            </q-item-section>
-          </q-item>
-        </template>
-      </q-list>
-    </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -178,7 +101,7 @@
 </template>
 
 <script setup>
-import { computed, ref, watch } from 'vue'
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { getGmLessons } from '../domain/gmLessons.js'
 import { isGmMode } from '../domain/mode.js'
@@ -188,18 +111,16 @@ const gmMode = isGmMode()
 const lessons = getGmLessons()
 
 const route = useRoute()
-const leftDrawerOpen = ref(false)
 
-watch(
-  () => route.path,
-  () => {
-    leftDrawerOpen.value = false
-  },
-)
+const mobileNavItems = [
+  { to: '/heroes', icon: 'groups', label: 'Heroes' },
+  { to: '/relationships', icon: 'favorite', label: 'Social' },
+  { to: '/study', icon: 'school', label: 'Study' },
+  { to: '/transcripts', icon: 'forum', label: 'Transcripts' },
+]
 
 function openLessonInNewTab(href) {
   window.open(href, '_blank', 'noopener,noreferrer')
-  leftDrawerOpen.value = false
 }
 
 const activePath = computed(() => route.path)
@@ -221,5 +142,37 @@ const activePath = computed(() => route.path)
   display: block;
   height: 36px;
   width: auto;
+}
+
+.mobile-nav {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 0.35rem 0.25rem 0.5rem;
+  border-top: 1px solid rgba(252, 242, 209, 0.15);
+}
+
+.mobile-nav__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.25rem 0.15rem;
+  color: var(--sot-parchment-light);
+  opacity: 0.55;
+  text-decoration: none;
+  min-width: 0;
+}
+
+.mobile-nav__item--active {
+  opacity: 1;
+}
+
+.mobile-nav__label {
+  font-size: 0.65rem;
+  line-height: 1.1;
+  text-align: center;
+  white-space: nowrap;
 }
 </style>

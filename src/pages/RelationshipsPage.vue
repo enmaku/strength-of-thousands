@@ -1,16 +1,21 @@
 <template>
-  <q-page class="q-pa-lg">
-    <div class="column q-gutter-md">
-
-      <q-banner v-if="error" class="bg-negative text-white" rounded>
+  <q-page
+    class="relationships-page column"
+    :class="{ 'relationships-page--mobile': $q.screen.xs }"
+    :style-fn="pageStyle"
+  >
+    <div v-if="error" class="col-auto relationships-page__banner">
+      <q-banner class="bg-negative text-white" rounded>
         {{ error }}
       </q-banner>
+    </div>
 
-      <div v-if="loading" class="row justify-center q-pa-xl">
-        <q-spinner size="2rem" />
-      </div>
+    <div v-if="loading" class="col row flex-center q-pa-xl">
+      <q-spinner size="2rem" />
+    </div>
 
-      <template v-else-if="tabs.heroes.length === 0">
+    <template v-else-if="tabs.heroes.length === 0">
+      <div class="col relationships-page__empty">
         <q-banner v-if="gmMode" class="sot-callout" rounded>
           No heroes yet.
           <router-link to="/heroes" class="text-primary">Import heroes on the Heroes page</router-link>
@@ -19,25 +24,60 @@
         <q-banner v-else class="bg-grey-2 sot-muted" rounded>
           No heroes published yet. Check back after the GM updates campaign state.
         </q-banner>
-      </template>
+      </div>
+    </template>
 
-      <template v-else>
-        <q-tabs
+    <template v-else>
+      <div v-if="$q.screen.xs" class="col-auto relationships-select">
+        <q-select
           v-model="activeTab"
+          :options="heroSelectOptions"
+          emit-value
+          map-options
           dense
-          align="left"
-          active-color="primary"
-          indicator-color="primary"
+          outlined
+          options-dense
+          :clearable="false"
+          aria-label="Adventurer"
           @update:model-value="onTabChange"
-        >
-          <q-tab
-            v-for="hero in tabs.heroes"
-            :key="hero.slug"
-            :name="hero.slug"
-            :label="hero.displayName"
-          />
-        </q-tabs>
+        />
+      </div>
 
+      <q-tabs
+        v-else
+        v-model="activeTab"
+        class="col-auto"
+        dense
+        align="left"
+        active-color="primary"
+        indicator-color="primary"
+        @update:model-value="onTabChange"
+      >
+        <q-tab
+          v-for="hero in tabs.heroes"
+          :key="hero.slug"
+          :name="hero.slug"
+          :label="hero.displayName"
+        />
+      </q-tabs>
+
+      <q-scroll-area v-if="$q.screen.xs" class="col relationships-scroll">
+        <div class="relationships-scroll__inner">
+          <div class="student-grid">
+            <StudentTile
+              v-for="tile in tilesForHero(activeTab)"
+              :key="tile.slug"
+              :tile="tile"
+              :portrait-url="portraitUrl(tile.thumb)"
+              :portrait-full-url="portraitUrl(tile.portrait)"
+              :editable="gmMode"
+              @set-hearts="(hearts) => onSetHearts(activeTab, tile.slug, hearts)"
+            />
+          </div>
+        </div>
+      </q-scroll-area>
+
+      <div v-else class="col relationships-scroll relationships-scroll--desktop">
         <q-tab-panels v-model="activeTab" class="relationship-panels">
           <q-tab-panel
             v-for="hero in tabs.heroes"
@@ -58,13 +98,13 @@
             </div>
           </q-tab-panel>
         </q-tab-panels>
-      </template>
-    </div>
+      </div>
+    </template>
   </q-page>
 </template>
 
 <script setup>
-import { ref, watch, onMounted } from 'vue'
+import { computed, ref, watch, onMounted } from 'vue'
 import { useQuasar } from 'quasar'
 import StudentTile from 'components/StudentTile.vue'
 import { useHeroRoster } from '../composables/useHeroRoster.js'
@@ -83,6 +123,25 @@ const {
 } = useHeroRoster()
 
 const activeTab = ref(null)
+
+const heroSelectOptions = computed(() =>
+  tabs.value.heroes.map((hero) => ({
+    label: hero.displayName,
+    value: hero.slug,
+  })),
+)
+
+function pageStyle(offset, height) {
+  const filled = `${height - offset}px`
+  if ($q.screen.xs) {
+    return {
+      height: filled,
+      minHeight: filled,
+      maxHeight: filled,
+    }
+  }
+  return { minHeight: filled }
+}
 
 watch(
   () => tabs.value.defaultSlug,
@@ -122,11 +181,38 @@ async function onSetHearts(heroSlug, studentSlug, hearts) {
 </script>
 
 <style scoped>
+.relationships-page {
+  padding: 1.5rem;
+}
+
+.relationships-page--mobile {
+  padding: 0;
+}
+
+.relationships-page__banner,
+.relationships-page__empty {
+  padding: 1rem 1.5rem;
+}
+
+.relationships-select {
+  padding: 0.75rem 1rem;
+  background: var(--sot-parchment-light);
+  border-bottom: 1px solid var(--sot-border);
+}
+
+.relationships-scroll__inner {
+  padding: 1rem 1rem 1.5rem;
+}
+
+.relationships-scroll--desktop {
+  padding-top: 1rem;
+  overflow: visible;
+}
+
 .student-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   gap: 1rem;
-  margin-top: 1rem;
 }
 
 .relationship-panels {

@@ -1,11 +1,31 @@
 <template>
-  <q-page class="transcript-page">
-    <div v-if="catalogLoading" class="row justify-center q-pa-xl">
+  <q-page class="transcript-page column" :style-fn="pageFillStyle">
+    <div v-if="catalogLoading" class="col row flex-center q-pa-xl">
       <q-spinner size="2rem" />
     </div>
 
-    <div v-else class="transcript-layout">
+    <template v-else>
+      <div v-if="$q.screen.xs" class="col-auto transcript-session-select">
+        <q-select
+          :model-value="selectedSessionId"
+          :options="sessionSelectOptions"
+          emit-value
+          map-options
+          dense
+          outlined
+          options-dense
+          :clearable="false"
+          aria-label="Session"
+          @update:model-value="onSessionSelect"
+        />
+      </div>
+
+      <div
+        class="col transcript-body"
+        :class="$q.screen.xs ? 'column' : 'row no-wrap'"
+      >
       <aside
+        v-if="$q.screen.gt.xs"
         class="transcript-sidebar"
         :class="{ 'transcript-sidebar--collapsed': !sidebarOpen }"
       >
@@ -57,6 +77,7 @@
         </q-scroll-area>
       </aside>
 
+      <q-scroll-area class="col">
       <main class="transcript-main column q-gutter-md">
         <q-banner v-if="error" class="bg-negative text-white" rounded>
           {{ error }}
@@ -266,7 +287,9 @@
           No transcript content for {{ selectedSession.label }}.
         </q-banner>
       </main>
-    </div>
+      </q-scroll-area>
+      </div>
+    </template>
 
     <q-dialog v-if="gmMode" v-model="splitDialogOpen" persistent>
       <q-card style="min-width: 24rem; width: min(40rem, 90vw)">
@@ -462,6 +485,15 @@ import {
 } from '../domain/transcriptSpeakers.js'
 const gmMode = isGmMode()
 const $q = useQuasar()
+
+function pageFillStyle(offset, height) {
+  const filled = `${height - offset}px`
+  return {
+    height: filled,
+    minHeight: filled,
+    maxHeight: filled,
+  }
+}
 
 const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -831,6 +863,15 @@ const sortedSessions = computed(() =>
   sortTranscriptSessions(transcriptIndex.value, sortDirection.value),
 )
 
+const sessionSelectOptions = computed(() =>
+  sortTranscriptSessions(transcriptIndex.value, 'desc').map((session) => ({
+    label: session.label,
+    value: session.sessionId,
+  })),
+)
+
+const selectedSessionId = computed(() => selectedSession.value?.sessionId ?? null)
+
 const transcriptRawUrls = computed(() =>
   rawEditedTranscriptUrls(sortTranscriptSessions(transcriptIndex.value, 'asc')),
 )
@@ -1058,6 +1099,13 @@ async function selectSession(session) {
   await Promise.all([loadPlayerMap(session.campaign), loadTranscript()])
 }
 
+async function onSessionSelect(sessionId) {
+  const session = transcriptIndex.value.find((entry) => entry.sessionId === sessionId)
+  if (session) {
+    await selectSession(session)
+  }
+}
+
 async function loadCatalog() {
   catalogLoading.value = true
   error.value = null
@@ -1158,14 +1206,13 @@ onMounted(async () => {
 
 <style scoped>
 .transcript-page {
-  height: calc(100vh - 50px);
   padding: 0;
 }
 
-.transcript-layout {
-  display: flex;
-  height: 100%;
-  min-height: 0;
+.transcript-session-select {
+  padding: 0.75rem 1rem;
+  background: var(--sot-parchment-light);
+  border-bottom: 1px solid var(--sot-border);
 }
 
 .transcript-sidebar {
@@ -1251,9 +1298,7 @@ onMounted(async () => {
 }
 
 .transcript-main {
-  flex: 1;
   min-width: 0;
-  overflow-y: auto;
   padding: 1.5rem 1.5rem 2rem;
   background: transparent;
 }

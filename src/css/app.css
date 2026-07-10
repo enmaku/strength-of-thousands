@@ -13,9 +13,6 @@ body {
     var(--sot-teal-dark) 55%,
     var(--sot-earth) 100%
   ) !important;
-}
-
-.q-toolbar {
   border-bottom: 3px solid var(--sot-gold);
 }
 

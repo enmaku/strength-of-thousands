@@ -17,7 +17,7 @@
 
       <p class="text-body1 sot-muted q-mb-none">
         Use <strong>Heroes</strong> in the top bar for party reference stats,
-        <strong>Relationships</strong> to track Spire Dorm friendships and classroom study bonuses,
+        <strong>Social</strong> to track Spire Dorm friendships and classroom study bonuses,
         or <strong>Study</strong> to see each hero’s Magaambya branch levels and benefits.
       </p>
     </div>
