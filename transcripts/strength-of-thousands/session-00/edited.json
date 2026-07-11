@@ -225,12 +225,12 @@
     "index": 17,
     "sceneId": "character-intros",
     "speaker": "Xander",
-    "character": null,
+    "character": "Lithrei Woeborn",
     "voice": "player",
     "contentType": "ooc",
-    "text": "TBD",
+    "text": "Lithrei Woeborn, samsaran-heritage human oracle with investigator training and a life mystery, haunted background.",
     "mechanics": [],
-    "sourceText": "TBD",
+    "sourceText": "I'm Lithrei Woeborn — human with samsaran heritage, oracle of the life mystery with investigator training, haunted background. Spirits cling to him, and his curse pours life outward whether he wants it or not. He came to the Magaambya to understand the voices and turn the haunt into something useful. On the Welcome Walk you'd notice how he watches people like clues and how the air around him feels a little too alive.",
     "sourceSpeaker": "Xander"
   }
 ]

@@ -474,6 +474,28 @@
       "confidence": 1,
       "flagged": false,
       "category": "gm_edit"
+    },
+    {
+      "segmentId": 18,
+      "op": "replace",
+      "path": "text",
+      "old": "TBD",
+      "new": "Lithrei Woeborn, samsaran-heritage human oracle with investigator training and a life mystery, haunted background.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 18,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Lithrei Woeborn",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
     }
   ]
 }
