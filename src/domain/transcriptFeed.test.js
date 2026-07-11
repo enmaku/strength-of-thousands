@@ -3,6 +3,7 @@ import {
   buildTranscriptFeed,
   deletedItemsLabel,
   extractRemovedSegments,
+  findRestoreInsertIndex,
 } from './transcriptFeed.js'
 
 const segments = [
@@ -154,6 +155,25 @@ describe('buildTranscriptFeed', () => {
     expect(feed[0].type).toBe('segment')
     expect(feed[1].type).toBe('deleted')
     expect(feed[1].items[0].segmentId).toBe(2)
+  })
+})
+
+describe('findRestoreInsertIndex', () => {
+  it('matches deleted-slot placement when split ids break monotonic order', () => {
+    const active = [
+      { id: 5, index: 0 },
+      { id: 351, index: 1 },
+      { id: 6, index: 2 },
+    ]
+    expect(findRestoreInsertIndex(active, 4)).toBe(0)
+    expect(findRestoreInsertIndex(active, 7)).toBe(3)
+
+    const withFour = buildTranscriptFeed(active, [{ segmentId: 4, text: 'x', speaker: 'A' }])
+    expect(withFour[0].type).toBe('deleted')
+
+    const withSeven = buildTranscriptFeed(active, [{ segmentId: 7, text: 'x', speaker: 'A' }])
+    expect(withSeven.at(-1).type).toBe('deleted')
+    expect(withSeven.at(-1).items[0].segmentId).toBe(7)
   })
 })
 

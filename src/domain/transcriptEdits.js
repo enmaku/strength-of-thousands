@@ -1,4 +1,5 @@
 import { speakerFieldsForPlayer } from './transcriptSpeakers.js'
+import { findRestoreInsertIndex } from './transcriptFeedOrder.js'
 
 export class TranscriptEditError extends Error {
   constructor(message, status = 400) {
@@ -297,11 +298,11 @@ export function planSegmentRestore(segments, changelog, segmentId, normalizedByI
     ? { ...normalized, text: removeEntry.old ?? normalized.text }
     : buildMinimalRestoredSegment(segmentId, removeEntry)
 
-  const insertAt = segments.findIndex((entry) => entry.id > segmentId)
+  const insertAt = findRestoreInsertIndex(segments, segmentId)
   const updatedSegments = [
-    ...(insertAt === -1 ? segments : segments.slice(0, insertAt)),
+    ...segments.slice(0, insertAt),
     restored,
-    ...(insertAt === -1 ? [] : segments.slice(insertAt)),
+    ...segments.slice(insertAt),
   ].map((entry, index) => ({ ...entry, index }))
 
   const changeEntry = {

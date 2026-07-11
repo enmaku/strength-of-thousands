@@ -1,4 +1,10 @@
 import { findEffectiveRemoveEntries } from './transcriptEdits.js'
+import {
+  buildMinLaterActiveIds,
+  shouldEmitDeletedBefore,
+} from './transcriptFeedOrder.js'
+
+export { findRestoreInsertIndex } from './transcriptFeedOrder.js'
 
 export function extractRemovedSegments(changelog, segments, segmentMetaById = new Map()) {
   if (!changelog?.changes) return []
@@ -19,14 +25,6 @@ export function extractRemovedSegments(changelog, segments, segmentMetaById = ne
   }
 
   return removed.sort((a, b) => a.segmentId - b.segmentId)
-}
-
-function shouldEmitDeletedBefore(deletedId, activeId, prevActiveId, minLaterActiveId) {
-  return (
-    deletedId > prevActiveId &&
-    deletedId < activeId &&
-    deletedId < minLaterActiveId
-  )
 }
 
 function emitDeletedGroups(feed, removedQueue, shouldEmit) {
@@ -52,13 +50,7 @@ export function buildTranscriptFeed(segments, removedSegments) {
   const orderedSegments = [...segments].sort((a, b) => a.index - b.index)
   const removedQueue = [...removedSegments].sort((a, b) => a.segmentId - b.segmentId)
   const feed = []
-
-  const minLaterActiveId = new Array(orderedSegments.length)
-  let minLater = Number.POSITIVE_INFINITY
-  for (let i = orderedSegments.length - 1; i >= 0; i--) {
-    minLaterActiveId[i] = minLater
-    minLater = Math.min(minLater, orderedSegments[i].id)
-  }
+  const minLaterActiveId = buildMinLaterActiveIds(orderedSegments)
 
   for (let i = 0; i < orderedSegments.length; i++) {
     const segment = orderedSegments[i]

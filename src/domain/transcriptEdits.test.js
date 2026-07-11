@@ -235,6 +235,60 @@ describe('planSegmentRestore', () => {
       TranscriptEditError,
     )
   })
+
+  it('inserts by feed display order when a high split id sits early', () => {
+    const active = [
+      { id: 5, index: 0, text: 'First', speaker: 'Pablo', voice: 'narrator' },
+      { id: 351, index: 1, text: 'Split half', speaker: 'Pablo', voice: 'narrator' },
+      { id: 6, index: 2, text: 'Next', speaker: 'Lisa', voice: 'player' },
+    ]
+    const withDelete = {
+      ...changelog,
+      changes: [
+        {
+          segmentId: 7,
+          op: 'remove',
+          path: 'text',
+          old: 'After next',
+          new: null,
+          speaker: 'Lisa',
+          reason: 'gm_removed',
+          category: 'gm_edit',
+        },
+      ],
+    }
+
+    // Old id-order insert would place 7 before 351. Feed order puts it after 6.
+    const result = planSegmentRestore(active, withDelete, 7)
+    expect(result.segments.map((segment) => segment.id)).toEqual([5, 351, 6, 7])
+    expect(result.segments.map((segment) => segment.index)).toEqual([0, 1, 2, 3])
+  })
+
+  it('inserts between neighbors the way deleted slots are shown', () => {
+    const active = [
+      { id: 10, index: 0, text: 'A', speaker: 'Pablo', voice: 'narrator' },
+      { id: 11, index: 1, text: 'B', speaker: 'Lisa', voice: 'player' },
+      { id: 15, index: 2, text: 'C', speaker: 'Dave', voice: 'narrator' },
+    ]
+    const withDelete = {
+      ...changelog,
+      changes: [
+        {
+          segmentId: 12,
+          op: 'remove',
+          path: 'text',
+          old: 'Middle',
+          new: null,
+          speaker: 'Lisa',
+          reason: 'gm_removed',
+          category: 'gm_edit',
+        },
+      ],
+    }
+
+    const result = planSegmentRestore(active, withDelete, 12)
+    expect(result.segments.map((segment) => segment.id)).toEqual([10, 11, 12, 15])
+  })
 })
 
 describe('applySegmentSave', () => {
