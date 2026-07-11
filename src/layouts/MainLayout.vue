@@ -56,25 +56,34 @@
           >
             <q-list
               dense
-              class="bg-toolbar-menu"
-              style="min-width: 220px"
+              class="bg-toolbar-menu gm-prep-menu"
+              style="min-width: 260px"
             >
-              <q-item
-                v-for="lesson in lessons"
-                :key="lesson.href"
-                v-ripple
-                clickable
-                v-close-popup
-                @click="openLessonInNewTab(lesson.href)"
+              <q-expansion-item
+                v-for="section in lessonSections"
+                :key="section.id"
+                dense
+                group="gm-prep"
+                :label="section.label"
+                header-class="gm-prep-section-header"
               >
-                <q-item-section>
-                  <q-item-label>{{ lesson.title }}</q-item-label>
-                  <q-item-label caption>{{ lesson.caption }}</q-item-label>
-                </q-item-section>
-                <q-item-section side>
-                  <q-icon name="open_in_new" />
-                </q-item-section>
-              </q-item>
+                <q-item
+                  v-for="lesson in section.lessons"
+                  :key="lesson.href"
+                  v-ripple
+                  clickable
+                  v-close-popup
+                  @click="openLessonInNewTab(lesson.href)"
+                >
+                  <q-item-section>
+                    <q-item-label>{{ lesson.title }}</q-item-label>
+                    <q-item-label caption>{{ lesson.caption }}</q-item-label>
+                  </q-item-section>
+                  <q-item-section side>
+                    <q-icon name="open_in_new" />
+                  </q-item-section>
+                </q-item>
+              </q-expansion-item>
             </q-list>
           </q-btn-dropdown>
         </div>
@@ -103,12 +112,12 @@
 <script setup>
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { getGmLessons } from '../domain/gmLessons.js'
+import { getGmLessonSections } from '../domain/gmLessons.js'
 import { isGmMode } from '../domain/mode.js'
 
 const logoUrl = `${import.meta.env.BASE_URL}magaambya-symbol-topbar.png`
 const gmMode = isGmMode()
-const lessons = getGmLessons()
+const lessonSections = getGmLessonSections()
 
 const route = useRoute()
 
@@ -176,3 +185,4 @@ const activePath = computed(() => route.path)
   white-space: nowrap;
 }
 </style>
+
