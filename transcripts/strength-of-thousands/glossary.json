@@ -4,199 +4,329 @@
   "entries": [
     {
       "canonical": "Magaambya",
-      "synonyms": ["Magaambea", "Magaambia", "Magaamvia", "the academy", "the school"],
+      "synonyms": [
+        "Magaambea",
+        "Magaambia",
+        "Magaamvia",
+        "the academy",
+        "the school",
+        "Mogambia",
+        "Magambia",
+        "Megambia",
+        "Mogambia School of Magic"
+      ],
       "type": "place",
       "notes": "World's oldest magic academy; island campus in Nantambu."
     },
     {
       "canonical": "Nantambu",
-      "synonyms": ["Nantambo", "Nantambu city", "Nantambu City"],
+      "synonyms": [
+        "Nantambo",
+        "Nantambu city",
+        "Nantambu City",
+        "Namtambu",
+        "Nomatambu"
+      ],
       "type": "place",
       "notes": "City on the M'wangi coast; home of the Magaambya."
     },
     {
       "canonical": "Old-Mage Jatembe",
-      "synonyms": ["Jatembe", "Old Mage Jatembe", "the Old-Mage"],
+      "synonyms": [
+        "Jatembe",
+        "Old Mage Jatembe",
+        "the Old-Mage",
+        "Shetembe"
+      ],
       "type": "npc",
       "notes": "Legendary founder-figure; disciples founded the Magaambya."
     },
     {
       "canonical": "Perquisite",
-      "synonyms": ["perquisite", "the perquisite", "Perquisites"],
+      "synonyms": [
+        "perquisite",
+        "the perquisite",
+        "Perquisites"
+      ],
       "type": "term",
       "notes": "Mandatory public service before becoming an attendant; Book 1 Ch 1 is five branch tasks over five days."
     },
     {
       "canonical": "spirit mask",
-      "synonyms": ["spirit face", "spirit-mask", "First Masking mask"],
+      "synonyms": [
+        "spirit face",
+        "spirit-mask",
+        "First Masking mask"
+      ],
       "type": "term",
       "notes": "Wooden animal mask holding a fragment of the student's spirit; earned at First Masking."
     },
     {
       "canonical": "First Masking",
-      "synonyms": ["first masking", "the masking ceremony"],
+      "synonyms": [
+        "first masking",
+        "the masking ceremony"
+      ],
       "type": "term",
       "notes": "Ch 2 ceremony in Tireless Hall; initiate becomes attendant."
     },
     {
       "canonical": "Introduction Ceremony",
-      "synonyms": ["introduction ceremony", "intro ceremony"],
+      "synonyms": [
+        "introduction ceremony",
+        "intro ceremony"
+      ],
       "type": "term",
       "notes": "End of Ch 1; formal welcome for new initiates."
     },
     {
       "canonical": "Spire Dormitory",
-      "synonyms": ["Spire Dorm", "the Spire", "Spire dorm"],
+      "synonyms": [
+        "Spire Dorm",
+        "the Spire",
+        "Spire dorm"
+      ],
       "type": "place",
       "notes": "PC and cohort housing."
     },
     {
       "canonical": "Tireless Hall",
-      "synonyms": ["Tireless hall"],
+      "synonyms": [
+        "Tireless hall"
+      ],
       "type": "place",
       "notes": "Introduction Ceremony and First Masking venue."
     },
     {
       "canonical": "Welcome Walk",
-      "synonyms": ["welcome walk"],
+      "synonyms": [
+        "welcome walk"
+      ],
       "type": "place",
       "notes": "Arrival path; Takulu Ot's group interview."
     },
     {
       "canonical": "Archhorn Library",
-      "synonyms": ["Archhorn", "the library"],
+      "synonyms": [
+        "Archhorn",
+        "the library"
+      ],
       "type": "place",
       "notes": "Ch 3 tunnel entry under campus."
     },
     {
       "canonical": "Kafesi Market",
-      "synonyms": ["Kafesi", "the market"],
+      "synonyms": [
+        "Kafesi",
+        "the market",
+        "Kefessi market",
+        "Kefessi Market",
+        "Kefessi"
+      ],
       "type": "place",
       "notes": "Rain-Scribe Perquisite run; Magaambya boycott subplot."
     },
     {
       "canonical": "Powderpile",
-      "synonyms": ["Powder Pile", "Xhokan's shop"],
+      "synonyms": [
+        "Powder Pile",
+        "Xhokan's shop",
+        "powder pile",
+        "the powder pile"
+      ],
       "type": "place",
       "notes": "Campus shop run by kobold accountant Xhokan."
     },
     {
       "canonical": "Cascade Bearers",
-      "synonyms": ["Cascade Bearer", "Cascade branch"],
+      "synonyms": [
+        "Cascade Bearer",
+        "Cascade branch"
+      ],
       "type": "faction",
       "notes": "Branch virtue: Imagination."
     },
     {
       "canonical": "Emerald Boughs",
-      "synonyms": ["Emerald Bough", "Emerald branch"],
+      "synonyms": [
+        "Emerald Bough",
+        "Emerald branch"
+      ],
       "type": "faction",
       "notes": "Branch virtue: Camaraderie."
     },
     {
       "canonical": "Rain-Scribes",
-      "synonyms": ["Rain-Scribe", "Rain Scribes", "Rain branch"],
+      "synonyms": [
+        "Rain-Scribe",
+        "Rain Scribes",
+        "Rain branch",
+        "Reign Scribes",
+        "Reign Scribe"
+      ],
       "type": "faction",
       "notes": "Branch virtue: Adaptability."
     },
     {
       "canonical": "Tempest-Sun Mages",
-      "synonyms": ["Tempest-Sun", "Tempest Sun", "Tempest branch"],
+      "synonyms": [
+        "Tempest-Sun",
+        "Tempest Sun",
+        "Tempest branch"
+      ],
       "type": "faction",
       "notes": "Branch virtue: Valor."
     },
     {
       "canonical": "Uzunjati",
-      "synonyms": ["Uzunjati branch"],
+      "synonyms": [
+        "Uzunjati branch"
+      ],
       "type": "faction",
       "notes": "Branch virtue: Knowledge / story."
     },
     {
       "canonical": "Takulu Ot",
-      "synonyms": ["Takulu", "Professor Takulu", "Takulu Ott"],
+      "synonyms": [
+        "Takulu",
+        "Professor Takulu",
+        "Takulu Ott",
+        "Teacher Up",
+        "Teacher Ott",
+        "Teacher Ot",
+        "Up"
+      ],
       "type": "npc",
       "notes": "Cascade Bearer mentor; group interview; kind mathematician."
     },
     {
       "canonical": "Koride Ulawa",
-      "synonyms": ["Koride", "Professor Koride"],
+      "synonyms": [
+        "Koride",
+        "Professor Koride"
+      ],
       "type": "npc",
       "notes": "Rain-Scribe entomologist; acerbic; AP keystone faculty."
     },
     {
       "canonical": "Janatimo",
-      "synonyms": ["Janatimo the Learned One"],
+      "synonyms": [
+        "Janatimo the Learned One"
+      ],
       "type": "npc",
       "notes": "Uzunjati Learned One; storyteller."
     },
     {
       "canonical": "Stone Ghost",
-      "synonyms": ["the Stone Ghost", "Uduak"],
+      "synonyms": [
+        "the Stone Ghost",
+        "Uduak"
+      ],
       "type": "npc",
       "notes": "Book 1 BBEG; expelled oread merged with campus stone."
     },
     {
       "canonical": "Kurshkin",
-      "synonyms": ["Kurskin"],
+      "synonyms": [
+        "Kurskin"
+      ],
       "type": "npc",
       "notes": "Ancient pugwampi; unluck aura; allies with Stone Ghost."
     },
     {
       "canonical": "Cy'An Copperbottom",
-      "synonyms": ["Cy-An", "Cyan", "Cy An", "Kiri's character"],
+      "synonyms": [
+        "Cy-An",
+        "Cyan",
+        "Cy An",
+        "Kiri's character",
+        "Cyan Copperbottom",
+        "Cy",
+        "Scy",
+        "Scy's"
+      ],
       "type": "pc",
       "notes": "Kiri's PC; goblin inventor."
     },
     {
       "canonical": "Solanum Calabash",
-      "synonyms": ["Solanum", "Drew's character"],
+      "synonyms": [
+        "Solanum",
+        "Drew's character"
+      ],
       "type": "pc",
       "notes": "Drew's PC; fruit leshy magus."
     },
     {
       "canonical": "Taraan Skyseeker",
-      "synonyms": ["Taraan", "Tarann", "Lisa's character"],
+      "synonyms": [
+        "Taraan",
+        "Tarann",
+        "Lisa's character"
+      ],
       "type": "pc",
       "notes": "Lisa's PC; skyborn tengu cleric/witch."
     },
     {
       "canonical": "Soralyon",
-      "synonyms": ["Soralion", "Soralyan"],
+      "synonyms": [
+        "Soralion",
+        "Soralyan"
+      ],
       "type": "npc",
       "notes": "Taraan's deity; guardian of monuments."
     },
     {
       "canonical": "Anchor Root",
-      "synonyms": ["Anchor"],
+      "synonyms": [
+        "Anchor"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Rain-Scribe."
     },
     {
       "canonical": "Chizire",
-      "synonyms": ["Chiziri"],
+      "synonyms": [
+        "Chiziri",
+        "Cesare",
+        "Chezire"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Cascade Bearer catfolk."
     },
     {
       "canonical": "Esi Djana",
-      "synonyms": ["Esi"],
+      "synonyms": [
+        "Esi",
+        "Essie",
+        "Essy"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Tempest-Sun star pupil."
     },
     {
       "canonical": "Haibram Thodja",
-      "synonyms": ["Haibram"],
+      "synonyms": [
+        "Haibram",
+        "Hybrum",
+        "Haibrum"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Tempest-Sun dwarf daredevil."
     },
     {
       "canonical": "Ignaci Canterells",
-      "synonyms": ["Ignaci"],
+      "synonyms": [
+        "Ignaci"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Emerald Bough Chelaxian thaumaturge."
     },
     {
       "canonical": "Mariama Keitana",
-      "synonyms": ["Mariama"],
+      "synonyms": [
+        "Mariama"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Cascade Bearer occultist."
     },
@@ -208,57 +338,136 @@
     },
     {
       "canonical": "Okoro Obiyo",
-      "synonyms": ["Okoro"],
+      "synonyms": [
+        "Okoro"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Uzunjati game master."
     },
     {
       "canonical": "Tzeniwe",
-      "synonyms": ["Tzenewe"],
+      "synonyms": [
+        "Tzenewe"
+      ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Emerald Bough anadi dreamweaver."
     },
     {
       "canonical": "Anadi",
-      "synonyms": ["anadi", "Anady"],
+      "synonyms": [
+        "anadi",
+        "Anady"
+      ],
       "type": "culture",
       "notes": "Shapeshifting spider-folk; human, spider, and hybrid forms."
     },
     {
       "canonical": "Mwangi",
-      "synonyms": ["Mon die", "Mwangi language", "Common"],
+      "synonyms": [
+        "Mon die",
+        "Mwangi language",
+        "Common"
+      ],
       "type": "term",
       "notes": "Common language in this AP, not Taldane."
     },
     {
       "canonical": "Kindled Magic",
-      "synonyms": ["Book 1", "book one"],
+      "synonyms": [
+        "Book 1",
+        "book one"
+      ],
       "type": "term",
-      "notes": "AP #169; levels 1–4; initiate to attendant."
+      "notes": "AP #169; levels 1\u20134; initiate to attendant."
     },
     {
       "canonical": "Strength of Thousands",
-      "synonyms": ["SoT", "Strength of thousands"],
+      "synonyms": [
+        "SoT",
+        "Strength of thousands"
+      ],
       "type": "term",
-      "notes": "Pathfinder 2e Adventure Path #169–174."
+      "notes": "Pathfinder 2e Adventure Path #169\u2013174."
     },
     {
       "canonical": "Word and Way",
-      "synonyms": ["word and way"],
+      "synonyms": [
+        "word and way"
+      ],
       "type": "term",
       "notes": "Magaambya motto; knowledge obligates service."
     },
     {
       "canonical": "initiate",
-      "synonyms": ["Initiate", "initiates"],
+      "synonyms": [
+        "Initiate",
+        "initiates"
+      ],
       "type": "term",
       "notes": "Starting student rank; PCs begin here."
     },
     {
       "canonical": "attendant",
-      "synonyms": ["Attendant", "attendants"],
+      "synonyms": [
+        "Attendant",
+        "attendants"
+      ],
       "type": "term",
       "notes": "Rank after First Masking; spirit mask holder."
+    },
+    {
+      "canonical": "Ojofiri",
+      "synonyms": [
+        "Ojifiri",
+        "Zojafiri",
+        "Ojo Fairy",
+        "Oja Furiag",
+        "Ojofiris",
+        "Ojifiris",
+        "Fury Chicks"
+      ],
+      "type": "creature",
+      "notes": "Endangered chickens sought in Rain-Scribe Perquisite; blue feathers, white underbelly on chicks."
+    },
+    {
+      "canonical": "Bisola",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Farmer outside Nantambu requesting Ojofiri chicks."
+    },
+    {
+      "canonical": "Yggostrus",
+      "synonyms": [
+        "Ego",
+        "Yggo",
+        "Elgo"
+      ],
+      "type": "pc",
+      "notes": "Matt's PC; forest dragonet summoner."
+    },
+    {
+      "canonical": "Lithrei Woeborn",
+      "synonyms": [
+        "Lithrean",
+        "Lithrei",
+        "Lithrian"
+      ],
+      "type": "pc",
+      "notes": "Xander's PC; haunted light oracle / investigator."
+    },
+    {
+      "canonical": "Anya",
+      "synonyms": [],
+      "type": "pc",
+      "notes": "Julia's PC; mostly-peril summoner with large domestic-cat eidolon."
+    },
+    {
+      "canonical": "Abednego",
+      "synonyms": [
+        "the Abednego"
+      ],
+      "type": "place",
+      "notes": "Ship where Solanum Calabash came into being."
     }
   ],
   "flagOnly": []
