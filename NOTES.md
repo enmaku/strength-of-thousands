@@ -29,6 +29,7 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 ## Lessons
 
 0. Party Character Analysis (Book 1) — `lessons/0008-party-character-analysis-gm-prep.html`
+0. Player Tie-Ins (campaign-wide) — `lessons/0009-player-tie-ins-gm-prep.html`
 0. Academia Downtime (campaign-wide) — `lessons/0007-academia-downtime-gm-prep.html`
 1. Kindled Magic (Book 1) — `lessons/0001-kindled-magic-gm-prep.html`
 2. Spoken on the Song Wind (Book 2) — `lessons/0002-spoken-on-the-song-wind-gm-prep.html`

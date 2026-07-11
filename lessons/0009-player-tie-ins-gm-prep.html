@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson — Player Tie-Ins GM Prep</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler: #6d3711;
+      --spoiler-bg: #f5ebe0;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, #6d3711 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    nav.toc {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.88rem;
+    }
+    nav.toc a { color: var(--green); margin-right: 1rem; white-space: nowrap; }
+    main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    h4 {
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 1rem 0 0.35rem;
+    }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    blockquote {
+      margin: 1.25rem 0;
+      padding: 0.85rem 1.15rem;
+      border-left: 4px solid var(--gold);
+      background: #fff;
+      font-style: italic;
+      color: var(--ink);
+    }
+    blockquote .attrib {
+      display: block;
+      margin-top: 0.5rem;
+      font-style: normal;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .spoiler-box {
+      background: var(--spoiler-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      border-radius: 2px;
+    }
+    .spoiler-box strong { color: var(--spoiler); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .hero-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-top: 4px solid var(--green);
+      border-radius: 2px;
+      padding: 0.25rem 1.25rem 1rem;
+      margin: 1.5rem 0;
+    }
+    .hero-card .heroline {
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      color: var(--muted);
+      letter-spacing: 0.03em;
+    }
+    .tag {
+      display: inline-block;
+      font-family: var(--sans);
+      font-size: 0.66rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.fore { background: #efe2ef; color: #5a2a5a; }
+    .tag.warn { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .placeholder {
+      border: 1px dashed var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1rem 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--green); }
+    code { font-size: 0.88em; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">GM prep · campaign-wide · player secrets</p>
+    <h1>Player Tie-Ins</h1>
+    <p>Homebrew PC arcs that sit beside the AP. Start with Taraan and Ird — add other heroes as ideas land.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#how">How to use</a>
+  <a href="#taraan">Taraan / Ird</a>
+  <a href="#others">Other PCs</a>
+  <a href="#canon">Canon fit</a>
+</nav>
+
+<main>
+
+<section id="how">
+  <h2>How to use this doc</h2>
+  <p>Each entry is a <strong>GM-owned truth</strong> plus drip-feed beats. These plots should never steal the AP’s spotlight — they flavor downtime, faculty asides, dreams, and late conversations with figures the AP already puts on stage (especially Jatembe).</p>
+  <ul>
+    <li>Foreshadow lightly in Books 1–4; pay off when the AP already hands you emotional room (Book 5 rescue / Book 6 Magic Warrior aftermath).</li>
+    <li>If a player invents a conflicting backstory at the table, prefer their version and revise here.</li>
+    <li>Cross-link: <a href="0008-party-character-analysis-gm-prep.html">Party analysis</a> · <a href="../reference/sot-magaambya-history.html">Jatembe history</a> · <a href="0006-doorway-to-the-red-star-gm-prep.html">Book 5</a>.</li>
+  </ul>
+</section>
+
+<!-- ============ TARAAN ============ -->
+<section id="taraan">
+  <h2>Taraan Skyseeker — The living city of Ird</h2>
+  <div class="hero-card">
+    <p class="heroline">Skyborn Tengu · Cleric of Soralyon / Witch (The Inscribed One) · Archaeologist · familiar: Erudite (“Eru”) · he/him</p>
+
+    <h3>The truth <span class="tag warn">GM only</span></h3>
+    <p><strong>Ird was never a city of stone that happened to be ruled by monsters.</strong> Ird <em>is</em> a sapient magical entity — a living library-city, a knowledge-being whose body is architecture, glyph, and memory. The immortal ruling caste of legend were parasites: they bound Ird, harvested its power, and trafficked in the souls of those who lived within its streets.</p>
+    <p>Old-Mage Jatembe and the Ten Magic Warriors <strong>defeated those masters</strong> and <strong>freed Ird</strong>. Jatembe could not bring himself to destroy a living, thinking thing that had been enslaved. He also could not leave it findable. So he helped Ird hide itself with powerful magics and <strong>seeded the public story that he destroyed the city</strong> — a false trail meant to keep every treasure-hunter, soul-trader, and would-be master from ever looking in the right place.</p>
+    <p>That living city is Taraan’s witch patron: the force he knows as <strong>The Inscribed One</strong>. When they met, no words were spoken — glyphs moved across a presence that was street and scripture at once. The meeting was sealed behind amnesia so that Taraan cannot lead anyone (including himself, consciously) back to Ird. Erudite is a fragment of that contact: a burrowing earth wisp written over in an unknown script that shifts when hexes flow.</p>
+
+    <div class="spoiler-box">
+      <strong>One-line pitch</strong>
+      <p>Jatembe freed a living city and lied that he destroyed it; that city is Taraan’s patron, and neither of them is allowed to say so — until, perhaps, he is strong enough to remember and still keep the secret.</p>
+    </div>
+
+    <h3>What the world believes <span class="tag canon">published lore</span></h3>
+    <ul>
+      <li>Ird’s location is unknown; the subject is <strong>taboo</strong>. Native guides mislead seekers and abandon them in the jungle.</li>
+      <li>Surviving artifacts paint a culture of slavery, decadence, and immortal nobles who traded in lives and souls.</li>
+      <li>Some credit Jatembe with destroying Ird; others (loudly censured at the Magaambya) claim it was his birthplace.</li>
+      <li>Some say Ird originated the magic that created the Harvestmen (Umasi).</li>
+      <li>No firsthand accounts; knowledge filters through later cultures and Nantambu’s sages.</li>
+    </ul>
+    <p>Your truth <em>explains</em> all of that. It does not contradict a confirmed ruin map — there isn’t one.</p>
+
+    <h3>The Inscribed One = Ird</h3>
+    <p>Patron text already fits: silent meeting; words and glyphs instead of speech; possible archmage <em>or abandoned artifact seeking a successor</em>. Treat Ird as the latter taken literally — not a dead object, but a liberated city-mind looking for a careful steward, not a new master.</p>
+    <table>
+      <thead><tr><th>Surface (PC knows)</th><th>Underneath (GM)</th></tr></thead>
+      <tbody>
+        <tr><td>Patron theme: The Inscribed One</td><td>Ird’s face toward a witch</td></tr>
+        <tr><td>Amnesia about the meeting</td><td>Hide-ward; Jatembe-aligned secrecy</td></tr>
+        <tr><td>Erudite’s flowing script</td><td>A living scrap of Ird’s skin/street-glyphs</td></tr>
+        <tr><td>Discern Secrets / runic weapon</td><td>Ird teaching through writing that does more than it seems</td></tr>
+        <tr><td>Soralyon: guard monuments, never defile sites</td><td>Tension with the “Jatembe destroyed Ird” myth</td></tr>
+      </tbody>
+    </table>
+
+    <h3>The moral fracture (play this)</h3>
+    <p>Taraan can cheer the destruction of tyrants and still be furious at the idea of razing a city. As a Soralyon cleric and archaeologist, <strong>destroying the site itself</strong> is the wound. Early on, that reads as scholarly distaste for a Magaambya-approved legend. Late, when the truth lands, it becomes: Jatembe did the right thing and then lied about it — and the lie is what Taraan’s faith would have demanded all along.</p>
+    <p>That is the contention, not “was Jatembe evil?” Frame the argument as <em>preservation vs. the story told to protect the preserved thing</em>.</p>
+
+    <h3>Amnesia rules <span class="tag">table handling</span></h3>
+    <ul>
+      <li>Taraan may know he has a patron and that the meeting is blank. Dreams, glyphs, and Eru’s behavior can leak mood without coordinates.</li>
+      <li>Recall Knowledge about Ird can return the public legend. Critical successes might feel <em>wrong</em> in his gut (“destroyed” sticks in his throat) without explaining why.</li>
+      <li>Do not let divination casually pinpoint Ird. Magaambya faculty shut down Ird talk; treat that as both culture and residual ward.</li>
+      <li>Erudite may refuse to write certain names, or rewrite “Ird” into shifting nonsense, if the player pushes too hard too early.</li>
+    </ul>
+
+    <h3>Foreshadowing by book</h3>
+    <table>
+      <thead><tr><th>When</th><th>Beat</th><th>Tone</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>Book 1</td>
+          <td>Uzunjati / Heron Archives aside: Ird is taboo; Magaambya does not indulge birthplace theories. Taraan’s archaeologist ear perks up.</td>
+          <td><span class="tag fore">seed</span></td>
+        </tr>
+        <tr>
+          <td>Books 2–3</td>
+          <td>Ruins work: a fragment with seven-fingered handprint motifs, soul-trade iconography, or script that matches Eru’s pattern for one heartbeat. Never a map.</td>
+          <td><span class="tag fore">echo</span></td>
+        </tr>
+        <tr>
+          <td>Book 4 (Osibu / Dimari-Diji)</td>
+          <td>Another lost city kept safe by secrecy and guardianship — thematic rhyme without naming Ird. Dimari-Diji might recognize “a debt of silence” in Taraan’s magic and decline to explain.</td>
+          <td><span class="tag fore">rhyme</span></td>
+        </tr>
+        <tr>
+          <td>Book 5</td>
+          <td>After Jatembe is free: private conversation. Memory begins to unlock only if Taraan has shown he protects rather than claims.</td>
+          <td><span class="tag warn">payoff start</span></td>
+        </tr>
+        <tr>
+          <td>Book 6</td>
+          <td>Post–Magic Warrior renaming: shared secret between people who know what it costs to set a name aside. Optional further remembering; still no telling.</td>
+          <td><span class="tag warn">payoff</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>The Jatembe conversation <span class="tag warn">target scene</span></h3>
+    <p>Ideal timing: quiet moment after the Akiton rescue (Book 5) or after the Magic Warrior ceremony (Book 6), when Jatembe is present but deferring spotlight. Taraan presses the destruction story. Jatembe does not confess in open court.</p>
+    <blockquote>
+      “As your power grows, you may be allowed to remember.”
+      <br><br>
+      “But…” — a sly wink — “you will still not be allowed to tell.”
+      <span class="attrib">Old-Mage Jatembe → Taraan</span>
+    </blockquote>
+    <p>Implication: Jatembe recognizes the patron’s mark. He is not the patron. He is the city’s co-conspirator in the lie. He can only help unveil what Ird itself is ready to return.</p>
+
+    <div class="callout">
+      <strong>Do not make this the campaign climax.</strong> The King of Biting Ants / Vesicant Egg remain the AP spine. Ird is a personal chord — a reason Taraan’s witch half matters when Jatembe is finally on stage.
+    </div>
+
+    <h3>Optional complications (pick later)</h3>
+    <ul>
+      <li><strong>Pathfinder / Aspis hunters</strong> still search for Ird (DiGomphrey, Pendergrast, Conference Z’s Domiana Lix). A rumor that a Magaambya student “smells of Ird” could draw heat without revealing the truth.</li>
+      <li><strong>A surviving master’s echo</strong> — not the patron, but a hungry remnant that wants the city bound again. Useful if you want a side antagonist who makes the destruction lie look tempting.</li>
+      <li><strong>Harvestmen lore</strong> — Ird-as-origin of Umasi grafting magic was the masters’ craft, not the city’s will. Keeps the city sympathetic.</li>
+    </ul>
+
+    <h3>Open questions</h3>
+    <ul>
+      <li>Does Taraan ever visit Ird, or only remember / correspond through Eru?</li>
+      <li>Is Erudite a permanent loan, a larva of the city, or a person who once lived in Ird?</li>
+      <li>When memory returns, does Soralyon already know — or is this the first time the Mystic Angel’s cleric can pray the truth?</li>
+    </ul>
+  </div>
+</section>
+
+<section id="others">
+  <h2>Other player characters</h2>
+  <p>Slots for future tie-ins. Keep the same shape: truth → public face → foreshadow → payoff beat that uses an AP stage already provided.</p>
+
+  <div class="placeholder">
+    <strong>Anya</strong> — <em>not yet defined.</em> Possible veins: Feral Child / belonging; beast eidolon’s origin; Rain-Scribe wild vs. campus.
+  </div>
+  <div class="placeholder">
+    <strong>Cy’An Copperbottom</strong> — <em>not yet defined.</em> Possible veins: Cook / Bonding Meal; invention lineage; Cascade Bearers practical magic.
+  </div>
+  <div class="placeholder">
+    <strong>Solanum Calabash</strong> — <em>not yet defined.</em> Possible veins: Astrologer → Red Star foreshadow; Twisting Tree; leshy and Magaambya’s primal half.
+  </div>
+  <div class="placeholder">
+    <strong>Yggostrus</strong> — <em>not yet defined.</em> Possible veins: eidolon contact; Apsu; faculty fascination mirroring Koride’s curiosity.
+  </div>
+</section>
+
+<section id="canon">
+  <h2>Canon fit — why this is safe</h2>
+  <p>Checked against published Ird / Jatembe material outside Strength of Thousands (especially <em>Heart of the Jungle</em> p.53 and <em>The Mwangi Expanse</em> p.157). Nothing hard-locks “the stones were pulverized and the site is empty.”</p>
+  <table>
+    <thead><tr><th>Canon fact</th><th>How this plot uses it</th></tr></thead>
+    <tbody>
+      <tr><td>Location unknown; taboo; guides sabotage seekers</td><td>Ird is actively hidden, with Jatembe’s help</td></tr>
+      <tr><td>“Destroyed by Jatembe” is a belief / legend</td><td>The cover story he planted</td></tr>
+      <tr><td>Masters punished for wickedness</td><td>Still true — he freed the city from them</td></tr>
+      <tr><td>Birthplace theory censured at Magaambya</td><td>Institutional silence protects the lie</td></tr>
+      <tr><td>Artifacts without a found city</td><td>Scraps from before the hiding, or bait</td></tr>
+      <tr><td>No firsthand accounts</td><td>Anyone who found it couldn’t tell — or didn’t survive knowing</td></tr>
+      <tr><td>Rumored gold-statue totenmaskes still “home”</td><td>Supports “something of Ird still exists”</td></tr>
+      <tr><td>Inscribed One may be an artifact seeking a successor</td><td>Living city as the ultimate inscribed successor-seeker</td></tr>
+      <tr><td>SoT never uses Ird</td><td>Zero collision with AP set pieces</td></tr>
+    </tbody>
+  </table>
+  <div class="callout">
+    Soft edges only: Magaambya materials call the birthplace rumor “false” (still fine — he wasn’t born there). Keep public lore speaking of “masters” (plural), not a single named dark god, unless you invent one as a parasite-lord later.
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0009 · GM-only player secrets · does not replace Book lessons.</p>
+  <p>Sources: <a href="https://pathfinderwiki.com/wiki/Ird">PathfinderWiki — Ird</a> · <a href="https://pathfinderwiki.com/wiki/Jatembe">Jatembe</a> · <a href="https://2e.aonprd.com/Patrons.aspx?ID=13">AoN — The Inscribed One</a> · <a href="https://2e.aonprd.com/Deities.aspx?ID=128">AoN — Soralyon</a> · <em>Heart of the Jungle</em> · <em>The Mwangi Expanse</em>.</p>
+</footer>
+</body>
+</html>
