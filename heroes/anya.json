@@ -11,14 +11,16 @@
     "heritage": "Versatile Human",
     "background": "Feral Child",
     "alignment": "N",
-    "gender": "Not set",
+    "gender": "Female",
     "age": "Not set",
     "deity": "Not set",
     "size": 2,
     "sizeName": "Medium",
     "keyability": "cha",
     "languages": [
-      "None selected"
+      "Common",
+      "Fey",
+      "Jotun"
     ],
     "rituals": [],
     "resistances": [],
@@ -86,7 +88,7 @@
       "deception": 2,
       "diplomacy": 0,
       "intimidation": 2,
-      "medicine": 0,
+      "medicine": 2,
       "nature": 2,
       "occultism": 0,
       "performance": 0,
@@ -154,27 +156,197 @@
       "Low-Light Vision",
       "Imprecise Scent",
       "Acrobatics",
-      "Not Selected",
+      "Medicine",
       "Low-Light Vision",
       "Versatile Human"
     ],
     "lores": [],
-    "equipmentContainers": {},
-    "equipment": [],
+    "equipmentContainers": {
+      "03aca6f9-f86c-4066-bc9a-e433a6e68cd2": {
+        "containerName": "Backpack",
+        "bagOfHolding": false,
+        "backpack": true,
+        "augmentations": false
+      }
+    },
+    "equipment": [
+      [
+        "Backpack",
+        1,
+        "Invested"
+      ],
+      [
+        "Bedroll",
+        1,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Chalk",
+        10,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Flint and Steel",
+        1,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Rope",
+        1,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Rations",
+        2,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Torch",
+        5,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Waterskin",
+        1,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Soap",
+        1,
+        "03aca6f9-f86c-4066-bc9a-e433a6e68cd2",
+        "Invested"
+      ],
+      [
+        "Crowbar",
+        1,
+        "Invested"
+      ]
+    ],
     "specificProficiencies": {
       "trained": [],
       "expert": [],
       "master": [],
       "legendary": []
     },
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Dagger",
+        "qty": 1,
+        "prof": "simple",
+        "die": "d4",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Dagger",
+        "runes": [],
+        "damageType": "P",
+        "attack": 4,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Blowgun",
+        "qty": 1,
+        "prof": "simple",
+        "die": "d1",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Blowgun",
+        "runes": [],
+        "damageType": "P",
+        "attack": 4,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Bola",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Bola",
+        "runes": [],
+        "damageType": "B",
+        "attack": 1,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Hatchet",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Hatchet",
+        "runes": [],
+        "damageType": "S",
+        "attack": 0,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Sling",
+        "qty": 1,
+        "prof": "simple",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Sling",
+        "runes": [],
+        "damageType": "B",
+        "attack": 4,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      }
+    ],
     "money": {
       "cp": 0,
       "sp": 0,
       "gp": 15,
       "pp": 0
     },
-    "armor": [],
+    "armor": [
+      {
+        "name": "Explorer's Clothing",
+        "qty": 1,
+        "prof": "unarmored",
+        "pot": 0,
+        "res": "",
+        "mat": null,
+        "display": "Explorer's Clothing",
+        "worn": true,
+        "runes": [],
+        "grade": ""
+      }
+    ],
     "spellCasters": [
       {
         "name": "Summoner",
@@ -200,11 +372,20 @@
         "spells": [
           {
             "spellLevel": 0,
-            "list": []
+            "list": [
+              "Needle Darts",
+              "Glass Shield",
+              "Take Root",
+              "Tremor Signs",
+              "Protect Companion"
+            ]
           },
           {
             "spellLevel": 1,
-            "list": []
+            "list": [
+              "Animal Allies",
+              "Interposing Earth"
+            ]
           }
         ],
         "prepared": [],
