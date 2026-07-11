@@ -620,7 +620,7 @@
   },
   "relationships": {
     "anchor-root": 1,
-    "chizire": 1,
+    "chizire": 2,
     "esi-djana": 1,
     "haibram-thodja": 1,
     "ignaci-canterells": 1,
