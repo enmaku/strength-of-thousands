@@ -7,8 +7,6 @@
       header-class="transcript-deleted-header"
       class="transcript-deleted-expansion"
       :label="deletedItemsLabel(item.items.length)"
-      @after-show="emit('resize')"
-      @after-hide="emit('resize')"
     >
       <div class="transcript-deleted-body">
         <div
@@ -159,7 +157,7 @@
         </div>
       </div>
 
-      <q-slide-transition @show="emit('resize')" @hide="emit('resize')">
+      <q-slide-transition>
         <div v-show="originalExpanded" class="transcript-original">
           <q-chat-message
             :sent="isGm(item.segment.speaker)"
@@ -203,7 +201,6 @@ const emit = defineEmits([
   'split',
   'toggle-original',
   'restore',
-  'resize',
 ])
 
 const SPEAKER_COLORS = {

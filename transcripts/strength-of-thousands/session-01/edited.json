@@ -7,7 +7,7 @@
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "All of you are from somewhere. Maybe some of you come from Nantambu itself or the directly surrounding regions. Maybe some of you are from very far away. Maybe some of you don't really know where you came from originally, but you had to have been somewhere before you arrived at Nantambu. And more specifically, you have to have been somewhere when you received the letter telling you that you were admitted to the Magaambya — the 8,000-plus-year-old, oldest, and most prestigious magic school in all of Golarion. I would like first a description — just a little narration from each of you — of where you were when you received the letter and how you reacted to it. And then I want you to fast-forward to your arrival at the Nantambu docks where you have been told to gather, awaiting admission. Let's do it one step at a time. When you receive your letter: where is everyone? How does it feel? Who do you tell?",
+    "text": "All of you are from somewhere. Maybe some of you come from Nantambu itself or the directly surrounding regions. Maybe some of you are from very far away. Maybe some of you don't really know where you came from originally, but you had to have been somewhere before you arrived at Nantambu. And more specifically, you have to have been somewhere when you received the letter telling you that you were admitted to the Magaambya — the 8,000-plus-year-old, oldest, and most prestigious magic school in all of Golarion. I would like first a description — just a little narration from each of you — of where you were when you received the letter and how you reacted to it. Where are you? How does it feel? Who do you tell?",
     "mechanics": [],
     "sourceText": "All of you are from somewhere. Maybe some of you come from Nantambu itself or the directly surrounding regions. Maybe some of you are from very far away. Maybe some of you don't really know where you came from originally, but you had to have been somewhere before you arrived at Nam Tambu. And more specifically, you have to have been somewhere when you received the letter telling you that you were admitted to Magambia, the 8,000-plus-year-old, oldest, and most prestigious magic school in all of Galarian. I would like first a description, just a little narration from each of you of where you were when you received the letter and how you reacted to it. And then I want you to fast forward to your arrival at the Nantambu Docks where you have been told to gather. awaiting admission. And we can go on what... Let's do it one step at a time. When you receive your letter, where is everyone when they receive their letter? How does it feel? Who do you tell?",
     "sourceSpeaker": "Dave"
@@ -33,7 +33,7 @@
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "Typically, there are places where they have their own entire cities. There are places where they live rough in the woods, mostly in the standard D&D style. There are places where cities kill them on sight. Nantambu is not one of these — Nantambu is basically the single most accepting place in the entire Pathfinder setting. It's a democratically ruled, peaceful, highly educated city-state with an elected council that runs things. Multiple council members are non-human ancestries, and at least one of them is explicitly written in canon to be non-binary. So it's the most accepting place you could ever be. Where did you come from, and how accepting was it?",
+    "text": "Typically. There are places where they have their own entire cities. There are places where they live rough in the woods, mostly in the standard D&D style. There are places where cities kill them on sight. Nantambu is not one of these — Nantambu is basically the single most accepting place in the entire Pathfinder setting. It's a democratically ruled, peaceful, highly educated city-state with an elected council that runs things. Multiple council members are non-human ancestries, and at least one of them is explicitly written in canon to be non-binary. So it's the most accepting place you could ever be. Where did you come from, and how accepting was it?",
     "mechanics": [],
     "sourceText": "Typically, there are places where they have their own entire cities and things. There are places where they exist living rough in the woods, mostly in the standard D&D style. There are places where, you know, cities kill them on sight. Nantambu is not one of these. Nantambu is basically the single most accepting place in the entire universe of Pathfinder. it's a it's a democratically ruled uh peaceful educate highly educated city state with like elected uh count an elected council that runs things and like multiple council members are non-human uh ancestries and at least one of them is explicitly written in canon to be non-binary So like, it's the most accepting place you could ever be. Where did you come from and how accepting was it?",
     "sourceSpeaker": "Dave"
@@ -250,8 +250,8 @@
     "id": 225,
     "index": 19,
     "sceneId": "character-intros",
-    "speaker": "Drew",
-    "character": "Solanum Calabash",
+    "speaker": "Xander",
+    "character": "Lithrei Woeborn",
     "voice": "player",
     "contentType": "game",
     "text": "Drew or Matt? Oh — Drew.",

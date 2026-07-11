@@ -78,9 +78,9 @@
         </q-scroll-area>
       </aside>
 
-      <div ref="scrollerRef" class="col transcript-scroller">
-        <main class="transcript-main column">
-          <q-banner v-if="error" class="bg-negative text-white q-mb-md" rounded>
+      <div class="col transcript-pane column">
+        <div class="transcript-pane__chrome">
+          <q-banner v-if="error" class="bg-negative text-white" rounded>
             {{ error }}
           </q-banner>
 
@@ -88,56 +88,59 @@
             <q-spinner size="2rem" />
           </div>
 
-          <template v-else-if="segments.length > 0">
-            <div
-              class="transcript-feed"
-              :style="{ height: `${feedTotalSize}px`, position: 'relative' }"
-            >
-              <div
-                v-for="virtualRow in feedVirtualRows"
-                :key="virtualRow.key"
-                :data-index="virtualRow.index"
-                :ref="measureFeedRow"
-                class="transcript-feed-row"
-                :style="{
-                  position: 'absolute',
-                  top: 0,
-                  left: 0,
-                  width: '100%',
-                  transform: `translateY(${virtualRow.start}px)`,
-                }"
-              >
-                <TranscriptFeedItem
-                  v-if="feedItems[virtualRow.index]"
-                  :item="feedItems[virtualRow.index]"
-                  :gm-mode="gmMode"
-                  :player-map="playerMap"
-                  :has-changelog="
-                    feedItems[virtualRow.index].type === 'segment' &&
-                    hasChangelogChange(feedItems[virtualRow.index].segment.id)
-                  "
-                  :original-expanded="
-                    feedItems[virtualRow.index].type === 'segment' &&
-                    isOriginalExpanded(feedItems[virtualRow.index].segment.id)
-                  "
-                  :deleting-segment-id="deletingSegmentId"
-                  :splitting-segment-id="splittingSegmentId"
-                  :restoring-segment-id="restoringSegmentId"
-                  @edit="openEditDialog"
-                  @delete="confirmDeleteSegment"
-                  @split="openSplitDialog"
-                  @toggle-original="toggleOriginal"
-                  @restore="restoreSegment"
-                  @resize="remeasureFeed"
-                />
-              </div>
-            </div>
-          </template>
-
-          <q-banner v-else-if="selectedSession" class="bg-grey-2" rounded>
+          <q-banner v-else-if="!transcriptLoading && segments.length === 0 && selectedSession" class="bg-grey-2" rounded>
             No transcript content for {{ selectedSession.label }}.
           </q-banner>
-        </main>
+        </div>
+
+        <div
+          v-if="!transcriptLoading && segments.length > 0"
+          ref="scrollerRef"
+          class="col transcript-scroller"
+        >
+          <div
+            class="transcript-feed"
+            :style="{ height: `${feedTotalSize}px`, position: 'relative' }"
+          >
+            <div
+              v-for="virtualRow in feedVirtualRows"
+              :key="virtualRow.key"
+              :data-index="virtualRow.index"
+              :ref="measureFeedRow"
+              class="transcript-feed-row"
+              :style="{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                width: '100%',
+                transform: `translateY(${virtualRow.start}px)`,
+              }"
+            >
+              <TranscriptFeedItem
+                v-if="feedItems[virtualRow.index]"
+                :item="feedItems[virtualRow.index]"
+                :gm-mode="gmMode"
+                :player-map="playerMap"
+                :has-changelog="
+                  feedItems[virtualRow.index].type === 'segment' &&
+                  hasChangelogChange(feedItems[virtualRow.index].segment.id)
+                "
+                :original-expanded="
+                  feedItems[virtualRow.index].type === 'segment' &&
+                  isOriginalExpanded(feedItems[virtualRow.index].segment.id)
+                "
+                :deleting-segment-id="deletingSegmentId"
+                :splitting-segment-id="splittingSegmentId"
+                :restoring-segment-id="restoringSegmentId"
+                @edit="openEditDialog"
+                @delete="confirmDeleteSegment"
+                @split="openSplitDialog"
+                @toggle-original="toggleOriginal"
+                @restore="restoreSegment"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       </div>
     </template>
@@ -430,7 +433,6 @@ function toggleOriginal(segmentId) {
     next.add(segmentId)
   }
   expandedOriginalIds.value = next
-  nextTick(() => remeasureFeed())
 }
 
 function openEditDialog(segment) {
@@ -814,7 +816,17 @@ const feedVirtualizerOptions = computed(() => ({
     return item.type === 'deleted' ? 36 : 88
   },
   overscan: 10,
+  paddingStart: 8,
+  paddingEnd: 32,
   getItemKey: (index) => feedItems.value[index]?.key ?? index,
+  useAnimationFrameWithResizeObserver: true,
+  // First measure (estimate→actual): correct scroll for above-viewport rows.
+  // Later remasures (expand deleted / original): keep scrollTop put so the
+  // row the user clicked does not jump away.
+  shouldAdjustScrollPositionOnItemSizeChange: (item, _delta, instance) => {
+    if (instance.itemSizeCache.has(item.key)) return false
+    return item.start < instance.getScrollOffset() + instance.scrollAdjustments
+  },
 }))
 
 const feedVirtualizer = useVirtualizer(feedVirtualizerOptions)
@@ -827,20 +839,13 @@ function measureFeedRow(el) {
   }
 }
 
-function remeasureFeed() {
+function resetFeedMeasurements() {
+  if (scrollerRef.value) {
+    scrollerRef.value.scrollTop = 0
+  }
+  // Safe only after scroll reset: clears size cache so the next session remounts cleanly.
   feedVirtualizer.value.measure()
 }
-
-watch(
-  () => segments.value.length,
-  async () => {
-    await nextTick()
-    if (scrollerRef.value) {
-      scrollerRef.value.scrollTop = 0
-    }
-    remeasureFeed()
-  },
-)
 
 function toggleSortDirection() {
   sortDirection.value = sortDirection.value === 'desc' ? 'asc' : 'desc'
@@ -910,12 +915,9 @@ async function selectSession(session) {
   closeEditDialog()
   closeSplitDialog()
   expandedOriginalIds.value = new Set()
-  if (scrollerRef.value) {
-    scrollerRef.value.scrollTop = 0
-  }
   await Promise.all([loadPlayerMap(session.campaign), loadTranscript()])
   await nextTick()
-  remeasureFeed()
+  resetFeedMeasurements()
 }
 
 async function onSessionSelect(sessionId) {
@@ -1121,10 +1123,18 @@ onMounted(async () => {
   color: inherit;
 }
 
-.transcript-main {
+.transcript-pane {
   min-width: 0;
-  padding: 1.5rem 1.5rem 2rem;
-  background: transparent;
+  min-height: 0;
+}
+
+.transcript-pane__chrome {
+  flex-shrink: 0;
+  padding: 1.5rem 1.5rem 0;
+}
+
+.transcript-pane__chrome:empty {
+  display: none;
 }
 
 .transcript-scroller {
@@ -1132,6 +1142,8 @@ onMounted(async () => {
   min-height: 0;
   overflow: auto;
   overscroll-behavior: contain;
+  overflow-anchor: none;
+  padding-inline: 1.5rem;
 }
 
 .transcript-feed {
