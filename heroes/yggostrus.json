@@ -11,14 +11,15 @@
     "heritage": "Homing Drake",
     "background": "Eidolon Contact",
     "alignment": "N",
-    "gender": "Not set",
-    "age": "Not set",
-    "deity": "Not set",
+    "gender": "Male",
+    "age": "451",
+    "deity": "Apsu",
     "size": 0,
     "sizeName": "Tiny",
     "keyability": "cha",
     "languages": [
-      "None selected"
+      "Common",
+      "Draconic"
     ],
     "rituals": [],
     "resistances": [],
@@ -141,6 +142,7 @@
     ],
     "specials": [
       "Dragon Eidolon",
+      "Breath Weapon",
       "Manifest Eidolon",
       "Act Together",
       "Share Senses",
@@ -150,7 +152,6 @@
       "Big Sharp Teeth",
       "Wings (Dragonet)",
       "Dragon Eidolon",
-      "Breath Weapon",
       "acid",
       "Homing Drake"
     ],
@@ -290,5 +291,15 @@
     "noxolo": 1,
     "okoro-obiyo": 1,
     "tzeniwe": 1
+  },
+  "study": {
+    "primaryBranch": null,
+    "secondaryBranch": null,
+    "primaryLevel": 0,
+    "secondaryLevel": 0,
+    "primaryStarred": false,
+    "secondaryStarred": false,
+    "primaryUncapped": false,
+    "secondaryUncapped": false
   }
 }
