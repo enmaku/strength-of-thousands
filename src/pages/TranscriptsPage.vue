@@ -78,217 +78,67 @@
         </q-scroll-area>
       </aside>
 
-      <q-scroll-area class="col">
-      <main class="transcript-main column q-gutter-md">
-        <q-banner v-if="error" class="bg-negative text-white" rounded>
-          {{ error }}
-        </q-banner>
+      <div ref="scrollerRef" class="col transcript-scroller">
+        <main class="transcript-main column">
+          <q-banner v-if="error" class="bg-negative text-white q-mb-md" rounded>
+            {{ error }}
+          </q-banner>
 
-        <div v-if="transcriptLoading" class="row justify-center q-pa-xl">
-          <q-spinner size="2rem" />
-        </div>
-
-        <template v-else-if="segments.length > 0">
-          <div class="transcript-feed">
-          <template v-for="item in feedItems" :key="item.key">
-            <div v-if="item.type === 'deleted'" class="transcript-deleted-slot">
-              <q-expansion-item
-                dense
-                switch-toggle-side
-                expand-icon-class="transcript-deleted-expand-icon"
-                header-class="transcript-deleted-header"
-                class="transcript-deleted-expansion"
-                :label="deletedItemsLabel(item.items.length)"
-              >
-                <div class="transcript-deleted-body">
-                  <div
-                    v-for="deleted in item.items"
-                    :key="deleted.segmentId"
-                    class="transcript-row"
-                    :class="
-                      isGm(deleted.speaker)
-                        ? 'transcript-row--sent'
-                        : 'transcript-row--received'
-                    "
-                  >
-                    <div class="transcript-row__content">
-                      <div class="transcript-row__message">
-                        <div
-                          v-if="isGm(deleted.speaker)"
-                          class="transcript-message-actions"
-                        >
-                          <button
-                            type="button"
-                            class="transcript-restore-btn"
-                            aria-label="Restore message"
-                            :disabled="restoringSegmentId === deleted.segmentId"
-                            @click.stop="restoreSegment(deleted)"
-                          >
-                            <q-icon name="restore" size="xs" color="positive" />
-                          </button>
-                        </div>
-                        <q-chat-message
-                          :sent="isGm(deleted.speaker)"
-                          :text="[deleted.text]"
-                          :bg-color="deletedBubbleColor(deleted.speaker)"
-                          :text-color="deletedBubbleTextColor(deleted.speaker)"
-                        >
-                          <template #name>
-                            <span :style="{ color: deletedSpeakerColor(deleted.speaker) }">
-                              {{ speakerLabel(deleted) }}
-                            </span>
-                          </template>
-                        </q-chat-message>
-                        <div
-                          v-if="!isGm(deleted.speaker)"
-                          class="transcript-message-actions"
-                        >
-                          <button
-                            type="button"
-                            class="transcript-restore-btn"
-                            aria-label="Restore message"
-                            :disabled="restoringSegmentId === deleted.segmentId"
-                            @click.stop="restoreSegment(deleted)"
-                          >
-                            <q-icon name="restore" size="xs" color="positive" />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </q-expansion-item>
-            </div>
-
-            <div
-              v-else
-              class="transcript-row"
-              :class="
-                isGm(item.segment.speaker)
-                  ? 'transcript-row--sent'
-                  : 'transcript-row--received'
-              "
-            >
-            <div class="transcript-row__content">
-              <div class="transcript-row__message">
-                <div
-                  v-if="gmMode && isGm(item.segment.speaker)"
-                  class="transcript-message-actions"
-                >
-                  <button
-                    type="button"
-                    class="transcript-delete-btn"
-                    aria-label="Delete message"
-                    :disabled="deletingSegmentId === item.segment.id"
-                    @click.stop="confirmDeleteSegment(item.segment)"
-                  >
-                    <q-icon name="delete" size="xs" color="negative" />
-                  </button>
-                  <button
-                    type="button"
-                    class="transcript-split-btn"
-                    aria-label="Split message"
-                    :disabled="splittingSegmentId === item.segment.id"
-                    @click.stop="openSplitDialog(item.segment)"
-                  >
-                    <q-icon name="call_split" size="xs" color="grey-8" />
-                  </button>
-                  <button
-                    v-if="hasChangelogChange(item.segment.id)"
-                    type="button"
-                    class="transcript-changelog-btn"
-                    :aria-expanded="isOriginalExpanded(item.segment.id)"
-                    aria-label="Show original transcript"
-                    @click.stop="toggleOriginal(item.segment.id)"
-                  >
-                    <q-icon name="edit_note" size="xs" color="grey-7" />
-                  </button>
-                </div>
-                <div
-                  class="transcript-editable-message"
-                  :class="{ 'transcript-editable-message--gm': gmMode }"
-                  @click="gmMode && openEditDialog(item.segment)"
-                >
-                  <q-chat-message
-                    :sent="isGm(item.segment.speaker)"
-                    :text="[item.segment.text]"
-                    :bg-color="bubbleColor(item.segment.speaker)"
-                    :text-color="bubbleTextColor(item.segment.speaker)"
-                  >
-                    <template #name>
-                      <span :style="{ color: speakerColor(item.segment.speaker) }">
-                        {{ speakerLabel(item.segment) }}
-                      </span>
-                    </template>
-                  </q-chat-message>
-                </div>
-                <div
-                  v-if="gmMode && !isGm(item.segment.speaker)"
-                  class="transcript-message-actions"
-                >
-                  <button
-                    type="button"
-                    class="transcript-delete-btn"
-                    aria-label="Delete message"
-                    :disabled="deletingSegmentId === item.segment.id"
-                    @click.stop="confirmDeleteSegment(item.segment)"
-                  >
-                    <q-icon name="delete" size="xs" color="negative" />
-                  </button>
-                  <button
-                    type="button"
-                    class="transcript-split-btn"
-                    aria-label="Split message"
-                    :disabled="splittingSegmentId === item.segment.id"
-                    @click.stop="openSplitDialog(item.segment)"
-                  >
-                    <q-icon name="call_split" size="xs" color="grey-8" />
-                  </button>
-                  <button
-                    v-if="hasChangelogChange(item.segment.id)"
-                    type="button"
-                    class="transcript-changelog-btn"
-                    :aria-expanded="isOriginalExpanded(item.segment.id)"
-                    aria-label="Show original transcript"
-                    @click.stop="toggleOriginal(item.segment.id)"
-                  >
-                    <q-icon name="edit_note" size="xs" color="grey-7" />
-                  </button>
-                </div>
-              </div>
-
-              <q-slide-transition>
-                <div
-                  v-show="isOriginalExpanded(item.segment.id)"
-                  class="transcript-original"
-                >
-                  <q-chat-message
-                    :sent="isGm(item.segment.speaker)"
-                    bg-color="grey-4"
-                    text-color="grey-10"
-                  >
-                    <template #name>
-                      <span class="text-grey-8">{{ speakerLabel(item.segment) }}</span>
-                    </template>
-                    <!-- eslint-disable-next-line vue/no-v-html -->
-                    <div
-                      class="transcript-diff-body"
-                      v-html="diffToHtml(item.segment.sourceText, item.segment.text)"
-                    />
-                  </q-chat-message>
-                </div>
-              </q-slide-transition>
-            </div>
+          <div v-if="transcriptLoading" class="row justify-center q-pa-xl">
+            <q-spinner size="2rem" />
           </div>
-          </template>
-        </div>
-        </template>
 
-        <q-banner v-else-if="selectedSession" class="bg-grey-2" rounded>
-          No transcript content for {{ selectedSession.label }}.
-        </q-banner>
-      </main>
-      </q-scroll-area>
+          <template v-else-if="segments.length > 0">
+            <div
+              class="transcript-feed"
+              :style="{ height: `${feedTotalSize}px`, position: 'relative' }"
+            >
+              <div
+                v-for="virtualRow in feedVirtualRows"
+                :key="virtualRow.key"
+                :data-index="virtualRow.index"
+                :ref="measureFeedRow"
+                class="transcript-feed-row"
+                :style="{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  width: '100%',
+                  transform: `translateY(${virtualRow.start}px)`,
+                }"
+              >
+                <TranscriptFeedItem
+                  v-if="feedItems[virtualRow.index]"
+                  :item="feedItems[virtualRow.index]"
+                  :gm-mode="gmMode"
+                  :player-map="playerMap"
+                  :has-changelog="
+                    feedItems[virtualRow.index].type === 'segment' &&
+                    hasChangelogChange(feedItems[virtualRow.index].segment.id)
+                  "
+                  :original-expanded="
+                    feedItems[virtualRow.index].type === 'segment' &&
+                    isOriginalExpanded(feedItems[virtualRow.index].segment.id)
+                  "
+                  :deleting-segment-id="deletingSegmentId"
+                  :splitting-segment-id="splittingSegmentId"
+                  :restoring-segment-id="restoringSegmentId"
+                  @edit="openEditDialog"
+                  @delete="confirmDeleteSegment"
+                  @split="openSplitDialog"
+                  @toggle-original="toggleOriginal"
+                  @restore="restoreSegment"
+                  @resize="remeasureFeed"
+                />
+              </div>
+            </div>
+          </template>
+
+          <q-banner v-else-if="selectedSession" class="bg-grey-2" rounded>
+            No transcript content for {{ selectedSession.label }}.
+          </q-banner>
+        </main>
+      </div>
       </div>
     </template>
 
@@ -457,13 +307,13 @@
 </template>
 
 <script setup>
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import { useQuasar } from 'quasar'
+import { useVirtualizer } from '@tanstack/vue-virtual'
+import TranscriptFeedItem from '../components/TranscriptFeedItem.vue'
 import { isGmMode } from '../domain/mode.js'
-import { diffToHtml } from '../domain/transcriptDiff.js'
 import {
   buildTranscriptFeed,
-  deletedItemsLabel,
   extractRemovedSegments,
 } from '../domain/transcriptFeed.js'
 import {
@@ -482,7 +332,6 @@ import {
   formatSpeakerLabel,
   listSpeakerOptions,
   listVoiceOptions,
-  isGmSpeaker,
 } from '../domain/transcriptSpeakers.js'
 const gmMode = isGmMode()
 const $q = useQuasar()
@@ -503,81 +352,6 @@ function staticUrl(path) {
   return `${base}/${path}`.replace(/\/+/g, '/')
 }
 
-const SPEAKER_COLORS = {
-  Kiri: '#6A1B9A',
-  Drew: '#00838F',
-  Lisa: '#2E7D32',
-  Julia: '#AD1457',
-  Matt: '#EF6C00',
-  Xander: '#4527A0',
-  Dave: '#C62828',
-}
-
-const BUBBLE_COLORS = {
-  Kiri: { bg: 'purple-2', text: 'purple-10' },
-  Drew: { bg: 'cyan-2', text: 'cyan-10' },
-  Lisa: { bg: 'green-2', text: 'green-10' },
-  Julia: { bg: 'pink-2', text: 'pink-10' },
-  Matt: { bg: 'orange-2', text: 'orange-10' },
-  Xander: { bg: 'deep-purple-2', text: 'deep-purple-10' },
-  Dave: { bg: 'red-2', text: 'red-10' },
-}
-
-const DELETED_BUBBLE_COLORS = {
-  Kiri: { bg: 'purple-5', text: 'purple-10' },
-  Drew: { bg: 'cyan-5', text: 'cyan-10' },
-  Lisa: { bg: 'green-5', text: 'green-10' },
-  Julia: { bg: 'pink-5', text: 'pink-10' },
-  Matt: { bg: 'orange-5', text: 'orange-10' },
-  Xander: { bg: 'deep-purple-5', text: 'deep-purple-10' },
-  Dave: { bg: 'red-5', text: 'red-10' },
-}
-
-const DELETED_SPEAKER_COLORS = {
-  Kiri: '#4A148C',
-  Drew: '#006064',
-  Lisa: '#1B5E20',
-  Julia: '#880E4F',
-  Matt: '#E65100',
-  Xander: '#311B92',
-  Dave: '#B71C1C',
-}
-
-function isGm(speaker) {
-  return isGmSpeaker(speaker, playerMap.value)
-}
-
-function speakerColor(name) {
-  if (SPEAKER_COLORS[name]) return SPEAKER_COLORS[name]
-  let hash = 0
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash)
-  }
-  const hue = Math.abs(hash) % 360
-  return `hsl(${hue}, 55%, 38%)`
-}
-
-function bubbleColor(speaker) {
-  return BUBBLE_COLORS[speaker]?.bg ?? 'grey-3'
-}
-
-function bubbleTextColor(speaker) {
-  return BUBBLE_COLORS[speaker]?.text ?? 'grey-10'
-}
-
-function deletedBubbleColor(speaker) {
-  return DELETED_BUBBLE_COLORS[speaker]?.bg ?? 'grey-5'
-}
-
-function deletedBubbleTextColor(speaker) {
-  return DELETED_BUBBLE_COLORS[speaker]?.text ?? 'grey-10'
-}
-
-function deletedSpeakerColor(name) {
-  if (DELETED_SPEAKER_COLORS[name]) return DELETED_SPEAKER_COLORS[name]
-  return speakerColor(name)
-}
-
 const catalogLoading = ref(true)
 const transcriptLoading = ref(false)
 const error = ref(null)
@@ -592,6 +366,7 @@ const playerMap = ref(null)
 const segmentMetaById = ref(new Map())
 const changedSegmentIds = ref(new Set())
 const expandedOriginalIds = ref(new Set())
+const scrollerRef = ref(null)
 const editDialogOpen = ref(false)
 const editingSegment = ref(null)
 const editText = ref('')
@@ -643,6 +418,10 @@ function isOriginalExpanded(segmentId) {
   return expandedOriginalIds.value.has(segmentId)
 }
 
+function speakerLabel(segment) {
+  return formatSpeakerLabel(segment.speaker, segment.voice)
+}
+
 function toggleOriginal(segmentId) {
   const next = new Set(expandedOriginalIds.value)
   if (next.has(segmentId)) {
@@ -651,10 +430,7 @@ function toggleOriginal(segmentId) {
     next.add(segmentId)
   }
   expandedOriginalIds.value = next
-}
-
-function speakerLabel(segment) {
-  return formatSpeakerLabel(segment.speaker, segment.voice)
+  nextTick(() => remeasureFeed())
 }
 
 function openEditDialog(segment) {
@@ -1029,6 +805,43 @@ const feedItems = computed(() => {
   return buildTranscriptFeed(segments.value, removed)
 })
 
+const feedVirtualizerOptions = computed(() => ({
+  count: feedItems.value.length,
+  getScrollElement: () => scrollerRef.value,
+  estimateSize: (index) => {
+    const item = feedItems.value[index]
+    if (!item) return 80
+    return item.type === 'deleted' ? 36 : 88
+  },
+  overscan: 10,
+  getItemKey: (index) => feedItems.value[index]?.key ?? index,
+}))
+
+const feedVirtualizer = useVirtualizer(feedVirtualizerOptions)
+const feedVirtualRows = computed(() => feedVirtualizer.value.getVirtualItems())
+const feedTotalSize = computed(() => feedVirtualizer.value.getTotalSize())
+
+function measureFeedRow(el) {
+  if (el) {
+    feedVirtualizer.value.measureElement(el)
+  }
+}
+
+function remeasureFeed() {
+  feedVirtualizer.value.measure()
+}
+
+watch(
+  () => segments.value.length,
+  async () => {
+    await nextTick()
+    if (scrollerRef.value) {
+      scrollerRef.value.scrollTop = 0
+    }
+    remeasureFeed()
+  },
+)
+
 function toggleSortDirection() {
   sortDirection.value = sortDirection.value === 'desc' ? 'asc' : 'desc'
 }
@@ -1097,7 +910,12 @@ async function selectSession(session) {
   closeEditDialog()
   closeSplitDialog()
   expandedOriginalIds.value = new Set()
+  if (scrollerRef.value) {
+    scrollerRef.value.scrollTop = 0
+  }
   await Promise.all([loadPlayerMap(session.campaign), loadTranscript()])
+  await nextTick()
+  remeasureFeed()
 }
 
 async function onSessionSelect(sessionId) {
@@ -1210,6 +1028,11 @@ onMounted(async () => {
   padding: 0;
 }
 
+.transcript-body {
+  min-height: 0;
+  min-width: 0;
+}
+
 .transcript-session-select {
   padding: 0.75rem 1rem;
   background: var(--sot-parchment-light);
@@ -1304,137 +1127,21 @@ onMounted(async () => {
   background: transparent;
 }
 
+.transcript-scroller {
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
 .transcript-feed {
   max-width: 48rem;
   width: 100%;
   margin-inline: auto;
 }
 
-.transcript-row {
-  display: flex;
-}
-
-.transcript-row--sent {
-  justify-content: flex-end;
-}
-
-.transcript-row__content {
-  display: flex;
-  flex-direction: column;
-  max-width: 85%;
-}
-
-.transcript-row--received .transcript-row__content {
-  align-items: flex-start;
-}
-
-.transcript-row--sent .transcript-row__content {
-  align-items: flex-end;
-}
-
-.transcript-row__message {
-  display: inline-flex;
-  align-items: stretch;
-  gap: 0.35rem;
-}
-
-.transcript-message-actions {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-shrink: 0;
-  padding-top: 1.35rem;
-  padding-bottom: 0.35rem;
-}
-
-.transcript-changelog-btn,
-.transcript-delete-btn,
-.transcript-split-btn,
-.transcript-restore-btn {
-  flex-shrink: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-  opacity: 0.75;
-  line-height: 0;
-}
-
-.transcript-changelog-btn:hover,
-.transcript-changelog-btn[aria-expanded='true'],
-.transcript-delete-btn:hover,
-.transcript-split-btn:hover,
-.transcript-restore-btn:hover {
-  opacity: 1;
-}
-
-.transcript-delete-btn:disabled,
-.transcript-split-btn:disabled,
-.transcript-restore-btn:disabled {
-  cursor: not-allowed;
-  opacity: 0.4;
-}
-
-.transcript-editable-message--gm {
-  cursor: pointer;
-}
-
-.transcript-original {
-  width: 100%;
-}
-
-.transcript-diff-body {
-  line-height: 1.55;
-  word-break: break-word;
-}
-
-.transcript-original :deep(.transcript-diff) {
-  border-radius: 0.15rem;
-  padding: 0 0.1rem;
-}
-
-.transcript-original :deep(.transcript-diff--changed) {
-  background: #fff59d;
-}
-
-.transcript-original :deep(.transcript-diff--removed) {
-  background: #ef9a9a;
-}
-
-.transcript-original :deep(.transcript-diff--added) {
-  background: #a5d6a7;
-}
-
-.transcript-deleted-slot {
-  width: 100%;
-  margin: 0.15rem 0;
-}
-
-.transcript-deleted-expansion {
-  border-radius: 0.25rem;
-  background: transparent;
-}
-
-.transcript-deleted-expansion :deep(.transcript-deleted-header) {
-  min-height: 1.25rem;
-  padding: 0.1rem 0.35rem;
-  font-size: 0.72rem;
-  letter-spacing: 0.01em;
-  color: rgba(0, 0, 0, 0.45);
-}
-
-.transcript-deleted-expansion :deep(.transcript-deleted-expand-icon) {
-  font-size: 1rem;
-  min-width: 1rem;
-}
-
-.transcript-deleted-body {
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 0.35rem 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
+.transcript-feed-row {
+  will-change: transform;
 }
 
 .transcript-assistant-fab {

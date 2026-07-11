@@ -135,6 +135,26 @@ describe('buildTranscriptFeed', () => {
     expect(feed[4].items.map((item) => item.segmentId)).toEqual([7, 8])
     expect(feed[5].items.map((item) => item.segmentId)).toEqual([20])
   })
+
+  it('scales linearly for large active lists without changing placement', () => {
+    const many = Array.from({ length: 200 }, (_, i) => ({
+      id: i * 2 + 1,
+      index: i,
+      text: `S${i}`,
+      speaker: 'Dave',
+    }))
+    const removed = Array.from({ length: 100 }, (_, i) => ({
+      segmentId: i * 2 + 2,
+      text: `R${i}`,
+      speaker: 'Lisa',
+    }))
+    const feed = buildTranscriptFeed(many, removed)
+    expect(feed.filter((item) => item.type === 'segment')).toHaveLength(200)
+    expect(feed.filter((item) => item.type === 'deleted')).toHaveLength(100)
+    expect(feed[0].type).toBe('segment')
+    expect(feed[1].type).toBe('deleted')
+    expect(feed[1].items[0].segmentId).toBe(2)
+  })
 })
 
 describe('deletedItemsLabel', () => {

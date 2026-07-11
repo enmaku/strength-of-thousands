@@ -53,15 +53,19 @@ export function buildTranscriptFeed(segments, removedSegments) {
   const removedQueue = [...removedSegments].sort((a, b) => a.segmentId - b.segmentId)
   const feed = []
 
+  const minLaterActiveId = new Array(orderedSegments.length)
+  let minLater = Number.POSITIVE_INFINITY
+  for (let i = orderedSegments.length - 1; i >= 0; i--) {
+    minLaterActiveId[i] = minLater
+    minLater = Math.min(minLater, orderedSegments[i].id)
+  }
+
   for (let i = 0; i < orderedSegments.length; i++) {
     const segment = orderedSegments[i]
     const prevActiveId = i > 0 ? orderedSegments[i - 1].id : 0
-    const laterActiveIds = orderedSegments.slice(i + 1).map((entry) => entry.id)
-    const minLaterActiveId =
-      laterActiveIds.length > 0 ? Math.min(...laterActiveIds) : Number.POSITIVE_INFINITY
 
     emitDeletedGroups(feed, removedQueue, (deletedId) =>
-      shouldEmitDeletedBefore(deletedId, segment.id, prevActiveId, minLaterActiveId),
+      shouldEmitDeletedBefore(deletedId, segment.id, prevActiveId, minLaterActiveId[i]),
     )
 
     feed.push({ type: 'segment', key: `segment-${segment.id}`, segment })
