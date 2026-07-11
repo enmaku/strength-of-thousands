@@ -1,0 +1,358 @@
+{
+  "pathbuilderId": 456485,
+  "displayName": "Xander's PC",
+  "build": {
+    "name": "Xander's PC",
+    "class": "Oracle",
+    "dualClass": "Investigator",
+    "level": 1,
+    "xp": 0,
+    "ancestry": "Human",
+    "heritage": "Custom Mixed Heritage",
+    "background": "Haunted",
+    "alignment": "N",
+    "gender": "Not set",
+    "age": "Not set",
+    "deity": "Not set",
+    "size": 2,
+    "sizeName": "Medium",
+    "keyability": "cha",
+    "languages": [
+      "Common",
+      "Empyrean",
+      "Samsaran"
+    ],
+    "rituals": [],
+    "resistances": [],
+    "inventorMods": [],
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 12,
+      "int": 16,
+      "wis": 16,
+      "cha": 16,
+      "breakdown": {
+        "ancestryFree": [
+          "Int",
+          "Wis"
+        ],
+        "ancestryBoosts": [],
+        "ancestryFlaws": [],
+        "backgroundBoosts": [
+          "Wis",
+          "Cha"
+        ],
+        "classBoosts": [
+          "Cha",
+          "Int"
+        ],
+        "mapLevelledBoosts": {
+          "1": [
+            "Wis",
+            "Cha",
+            "Int",
+            "Con"
+          ]
+        }
+      }
+    },
+    "attributes": {
+      "ancestryhp": 8,
+      "classhp": 8,
+      "bonushp": 0,
+      "bonushpPerLevel": 0,
+      "speed": 25,
+      "speedBonus": 0
+    },
+    "proficiencies": {
+      "classDC": 2,
+      "perception": 4,
+      "fortitude": 2,
+      "reflex": 4,
+      "will": 4,
+      "heavy": 0,
+      "medium": 0,
+      "light": 2,
+      "unarmored": 2,
+      "advanced": 0,
+      "martial": 2,
+      "simple": 2,
+      "unarmed": 2,
+      "castingArcane": 0,
+      "castingDivine": 2,
+      "castingOccult": 0,
+      "castingPrimal": 0,
+      "acrobatics": 0,
+      "arcana": 2,
+      "athletics": 0,
+      "crafting": 0,
+      "deception": 2,
+      "diplomacy": 2,
+      "intimidation": 2,
+      "medicine": 2,
+      "nature": 2,
+      "occultism": 2,
+      "performance": 2,
+      "religion": 2,
+      "society": 2,
+      "stealth": 2,
+      "survival": 2,
+      "thievery": 0,
+      "piloting": 0,
+      "computers": 0
+    },
+    "mods": {},
+    "feats": [
+      [
+        "Nudge the Scales",
+        null,
+        "Awarded Feat",
+        1
+      ],
+      [
+        "No Cause for Alarm",
+        null,
+        "Awarded Feat",
+        1
+      ],
+      [
+        "Oracle Dedication",
+        null,
+        "Awarded Feat",
+        1
+      ],
+      [
+        "Custom Mixed Heritage",
+        null,
+        "Heritage",
+        1,
+        "Heritage Feat",
+        "standardChoice",
+        null
+      ],
+      [
+        "That's Odd",
+        null,
+        "Class Feat",
+        1,
+        "Investigator Feat 1",
+        "standardChoice",
+        null
+      ],
+      [
+        "Know Oneself",
+        null,
+        "Ancestry Feat",
+        1,
+        "Human Feat 1",
+        "standardChoice",
+        null
+      ]
+    ],
+    "specials": [
+      "Life Mystery",
+      "Curse of Outpouring Life",
+      "Revelation Spells",
+      "Oracular Curse",
+      "Pursue a Lead",
+      "Clue In",
+      "Devise a Stratagem",
+      "Strategic Strike",
+      "Interrogation Methodology",
+      "Pointed Question",
+      "Samsaran",
+      "No special vision",
+      "Custom Mixed Heritage"
+    ],
+    "lores": [],
+    "equipmentContainers": {
+      "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d": {
+        "containerName": "Backpack",
+        "bagOfHolding": false,
+        "backpack": true,
+        "augmentations": false
+      }
+    },
+    "equipment": [
+      [
+        "Backpack",
+        1,
+        "Invested"
+      ],
+      [
+        "Bedroll",
+        1,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Chalk",
+        10,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Flint and Steel",
+        1,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Rope",
+        1,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Rations",
+        2,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Torch",
+        5,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Waterskin",
+        1,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ],
+      [
+        "Soap",
+        1,
+        "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
+        "Invested"
+      ]
+    ],
+    "specificProficiencies": {
+      "trained": [],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "weapons": [],
+    "money": {
+      "cp": 0,
+      "sp": 5,
+      "gp": 13,
+      "pp": 0
+    },
+    "armor": [],
+    "spellCasters": [
+      {
+        "name": "Oracle",
+        "magicTradition": "divine",
+        "spellcastingType": "spontaneous",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "innate": false,
+        "perDay": [
+          5,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": [
+              "Bullhorn",
+              "Wash Your Luck",
+              "Message",
+              "Glamorize",
+              "Read the Air"
+            ]
+          },
+          {
+            "spellLevel": 1,
+            "list": [
+              "Spirit Ward",
+              "Defended by Spirits",
+              "Command"
+            ]
+          }
+        ],
+        "prepared": [],
+        "blendedSpells": []
+      },
+      {
+        "name": "Archetype Oracle",
+        "magicTradition": "divine",
+        "spellcastingType": "spontaneous",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "innate": false,
+        "perDay": [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": []
+          }
+        ],
+        "prepared": [],
+        "blendedSpells": []
+      }
+    ],
+    "focusPoints": 1,
+    "focus": {
+      "divine": {
+        "cha": {
+          "abilityBonus": 3,
+          "proficiency": 2,
+          "itemBonus": 0,
+          "focusCantrips": [],
+          "focusSpells": [
+            "Life Link"
+          ]
+        }
+      }
+    },
+    "formula": [],
+    "acTotal": {
+      "acProfBonus": 3,
+      "acAbilityBonus": 0,
+      "acItemBonus": 0,
+      "acTotal": 13,
+      "shieldBonus": null
+    },
+    "pets": [],
+    "familiars": []
+  },
+  "relationships": {
+    "anchor-root": 1,
+    "chizire": 1,
+    "esi-djana": 1,
+    "haibram-thodja": 1,
+    "ignaci-canterells": 1,
+    "mariama-keitana": 1,
+    "noxolo": 1,
+    "okoro-obiyo": 1,
+    "tzeniwe": 1
+  }
+}
