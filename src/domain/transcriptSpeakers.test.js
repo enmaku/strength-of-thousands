@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  canAddCustomVoice,
   defaultVoiceForSpeaker,
   formatSpeakerLabel,
   isKnownSpeaker,
@@ -20,6 +21,15 @@ const playerMap = {
   },
 }
 
+const segments = [
+  { voice: 'player' },
+  { voice: 'narrator' },
+  { voice: 'Aliciet' },
+  { voice: 'Fister' },
+  { voice: 'Kadira' },
+  { voice: 'Neo' },
+]
+
 describe('formatSpeakerLabel', () => {
   it('includes npc voices', () => {
     expect(formatSpeakerLabel('Pablo', 'Aliciet')).toBe('Pablo (as Aliciet)')
@@ -36,15 +46,36 @@ describe('formatSpeakerLabel', () => {
 })
 
 describe('listVoiceOptions', () => {
-  it('includes standard voices plus any used in the transcript', () => {
-    const segments = [
-      { voice: 'player' },
-      { voice: 'narrator' },
-      { voice: 'Aliciet' },
-      { voice: 'Fister' },
-    ]
+  it('includes standard voices plus any used in the transcript when speaker is unknown', () => {
+    expect(listVoiceOptions(segments)).toEqual([
+      'narrator',
+      'player',
+      'Aliciet',
+      'Fister',
+      'Kadira',
+      'Neo',
+    ])
+  })
 
-    expect(listVoiceOptions(segments)).toEqual(['narrator', 'player', 'Aliciet', 'Fister'])
+  it('limits players to themselves and their adventurer', () => {
+    expect(listVoiceOptions(segments, 'Lisa', playerMap)).toEqual(['player', 'Kadira'])
+    expect(listVoiceOptions(segments, 'Brian', playerMap)).toEqual(['player'])
+  })
+
+  it('limits the gm to narrator and npc voices', () => {
+    expect(listVoiceOptions(segments, 'Pablo', playerMap)).toEqual([
+      'narrator',
+      'Aliciet',
+      'Fister',
+    ])
+  })
+})
+
+describe('canAddCustomVoice', () => {
+  it('allows custom voices for the gm and unknown speakers only', () => {
+    expect(canAddCustomVoice('Pablo', playerMap)).toBe(true)
+    expect(canAddCustomVoice('Guest', playerMap)).toBe(true)
+    expect(canAddCustomVoice('Lisa', playerMap)).toBe(false)
   })
 })
 

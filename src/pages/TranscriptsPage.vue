@@ -223,15 +223,19 @@
             hide-selected
             fill-input
             input-debounce="0"
-            new-value-mode="add-unique"
-            hint="Type a new voice and press Enter, or pick from the list"
+            :new-value-mode="voiceSelectAllowsCustom ? 'add-unique' : undefined"
+            :hint="
+              voiceSelectAllowsCustom
+                ? 'Type a new voice and press Enter, or pick from the list'
+                : 'Players can speak as themselves or their adventurer'
+            "
             :rules="[(value) => !!value?.trim() || 'Voice is required']"
             @filter="filterVoiceOptions"
             @new-value="addVoiceOption"
           >
             <template #no-option>
               <q-item
-                v-if="voiceFilterInput.trim()"
+                v-if="voiceSelectAllowsCustom && voiceFilterInput.trim()"
                 v-close-popup
                 clickable
                 @click="addVoiceFromFilter"
@@ -331,6 +335,7 @@ import {
   sortTranscriptSessions,
 } from '../domain/transcriptSessions.js'
 import {
+  canAddCustomVoice,
   defaultVoiceForSpeaker,
   formatSpeakerLabel,
   listSpeakerOptions,
@@ -682,10 +687,18 @@ const speakerOptions = computed(() =>
   listSpeakerOptions(segments.value, playerMap.value, extraSpeakerOptions.value),
 )
 const voiceOptions = computed(() =>
-  listVoiceOptions([
-    ...segments.value,
-    ...extraVoiceOptions.value.map((voice) => ({ voice })),
-  ]),
+  listVoiceOptions(
+    [
+      ...segments.value,
+      ...extraVoiceOptions.value.map((voice) => ({ voice })),
+    ],
+    editSpeaker.value,
+    playerMap.value,
+  ),
+)
+
+const voiceSelectAllowsCustom = computed(() =>
+  canAddCustomVoice(editSpeaker.value, playerMap.value),
 )
 
 function resetSpeakerFilter() {
@@ -742,7 +755,7 @@ function resetVoiceFilter() {
 
 function registerCustomVoice(voice) {
   const trimmed = voice?.trim()
-  if (!trimmed) return null
+  if (!trimmed || !voiceSelectAllowsCustom.value) return null
 
   if (!voiceOptions.value.includes(trimmed)) {
     extraVoiceOptions.value = [...extraVoiceOptions.value, trimmed]
