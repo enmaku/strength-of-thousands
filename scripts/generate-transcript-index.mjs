@@ -49,6 +49,7 @@ export async function generateTranscriptIndex(options = {}) {
       const metaPath = path.join(campaignPath, session.name, 'meta.json')
       try {
         const meta = JSON.parse(await readFile(metaPath, 'utf8'))
+        if (meta.published === false) continue
         entries.push({
           campaign: campaign.name,
           sessionDir: session.name,

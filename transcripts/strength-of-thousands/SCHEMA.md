@@ -10,9 +10,9 @@ Schema version 1. Layered artifacts per session live under `session-NN/`.
 | `normalized.json` | IDs + provenance; no semantic edits |
 | `edited.json` | Clean session archive (game content only) |
 | `changelog.json` | Structured edit log + flags |
-| `meta.json` | Session metadata |
+| `meta.json` | Session metadata (`published: false` omits the session from `transcripts/index.json`) |
 
-Future: `approved.json` after GM sign-off.
+Set `"published": false` in `meta.json` to keep session files in the repo without listing them in the viewer index. Omit the field (or set `true`) to publish.
 
 ## Segment
 
