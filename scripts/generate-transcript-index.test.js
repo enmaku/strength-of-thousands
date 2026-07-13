@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   DEFAULT_PUBLISH_BASE,
-  generateTranscriptIndex,
+  isPublishedSession,
   publishedTranscriptFileUrl,
   resolvePublishBase,
 } from './generate-transcript-index.mjs'
@@ -31,10 +31,16 @@ describe('publishedTranscriptFileUrl', () => {
   })
 })
 
-describe('generateTranscriptIndex', () => {
-  it('omits sessions with published: false', async () => {
-    const entries = await generateTranscriptIndex()
-    expect(entries.some((e) => e.sessionDir === 'session-00')).toBe(true)
-    expect(entries.some((e) => e.sessionDir === 'session-01')).toBe(false)
+describe('isPublishedSession', () => {
+  it('treats missing published as true', () => {
+    expect(isPublishedSession({})).toBe(true)
+  })
+
+  it('respects published: false', () => {
+    expect(isPublishedSession({ published: false })).toBe(false)
+  })
+
+  it('respects published: true', () => {
+    expect(isPublishedSession({ published: true })).toBe(true)
   })
 })

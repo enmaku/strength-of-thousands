@@ -28,26 +28,26 @@
       <aside
         v-if="$q.screen.gt.xs"
         class="transcript-sidebar"
-        :class="{ 'transcript-sidebar--collapsed': !sidebarOpen }"
+        :class="{ 'transcript-sidebar--collapsed': !ui.sidebarOpen }"
       >
         <div class="transcript-sidebar__header">
-          <div v-if="sidebarOpen" class="transcript-sidebar__title">Sessions</div>
+          <div v-if="ui.sidebarOpen" class="transcript-sidebar__title">Sessions</div>
           <div class="transcript-sidebar__header-actions">
             <q-btn
-              v-if="sidebarOpen"
+              v-if="ui.sidebarOpen"
               flat
               dense
               round
               size="sm"
               color="primary"
               class="transcript-sidebar__sort-btn"
-              :icon="sortDirection === 'desc' ? 'arrow_downward' : 'arrow_upward'"
+              :icon="ui.sortDirection === 'desc' ? 'arrow_downward' : 'arrow_upward'"
               :aria-label="
-                sortDirection === 'desc'
+                ui.sortDirection === 'desc'
                   ? 'Sort sessions oldest first'
                   : 'Sort sessions newest first'
               "
-              @click="toggleSortDirection"
+              @click="ui.toggleSortDirection()"
             />
             <q-btn
               flat
@@ -55,13 +55,13 @@
               round
               size="sm"
               color="primary"
-              :icon="sidebarOpen ? 'chevron_left' : 'chevron_right'"
-              :aria-label="sidebarOpen ? 'Hide sessions' : 'Show sessions'"
-              @click="sidebarOpen = !sidebarOpen"
+              :icon="ui.sidebarOpen ? 'chevron_left' : 'chevron_right'"
+              :aria-label="ui.sidebarOpen ? 'Hide sessions' : 'Show sessions'"
+              @click="ui.toggleSidebar()"
             />
           </div>
         </div>
-        <q-scroll-area v-show="sidebarOpen" class="transcript-sidebar__scroll">
+        <q-scroll-area v-show="ui.sidebarOpen" class="transcript-sidebar__scroll">
           <q-list dense padding class="transcript-sidebar__list">
             <q-item
               v-for="session in sortedSessions"
@@ -97,6 +97,7 @@
           v-if="!transcriptLoading && segments.length > 0"
           ref="scrollerRef"
           class="col transcript-scroller"
+          @scroll="onScrollerScroll"
         >
           <div
             class="transcript-feed"
@@ -314,10 +315,11 @@
 </template>
 
 <script setup>
-import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue'
 import { useQuasar } from 'quasar'
 import { useVirtualizer } from '@tanstack/vue-virtual'
 import TranscriptFeedItem from '../components/TranscriptFeedItem.vue'
+import { useTranscriptsUiStore } from '../stores/transcripts-ui.js'
 import { isGmMode } from '../domain/mode.js'
 import {
   buildTranscriptFeed,
@@ -343,6 +345,7 @@ import {
 } from '../domain/transcriptSpeakers.js'
 const gmMode = isGmMode()
 const $q = useQuasar()
+const ui = useTranscriptsUiStore()
 
 function pageFillStyle(offset, height) {
   const filled = `${height - offset}px`
@@ -365,8 +368,6 @@ const transcriptLoading = ref(false)
 const error = ref(null)
 const transcriptIndex = ref([])
 const selectedSession = ref(null)
-const sortDirection = ref('desc')
-const sidebarOpen = ref(true)
 const meta = ref(null)
 const segments = ref([])
 const changelog = ref(null)
@@ -644,7 +645,7 @@ async function restoreSegment(deleted) {
 }
 
 const sortedSessions = computed(() =>
-  sortTranscriptSessions(transcriptIndex.value, sortDirection.value),
+  sortTranscriptSessions(transcriptIndex.value, ui.sortDirection),
 )
 
 const sessionSelectOptions = computed(() =>
@@ -852,16 +853,93 @@ function measureFeedRow(el) {
   }
 }
 
-function resetFeedMeasurements() {
-  if (scrollerRef.value) {
-    scrollerRef.value.scrollTop = 0
+let scrollPersistTimer = null
+let restoringScroll = false
+
+function viewportAnchor(scrollTop) {
+  const items = feedVirtualizer.value.getVirtualItems()
+  if (items.length === 0) return { index: 0, offset: 0 }
+  // Skip overscan rows fully above the viewport; pin to the first intersecting row.
+  const anchor = items.find((item) => item.start + item.size > scrollTop) ?? items[0]
+  return {
+    index: anchor.index,
+    offset: Math.max(0, scrollTop - anchor.start),
   }
-  // Safe only after scroll reset: clears size cache so the next session remounts cleanly.
-  feedVirtualizer.value.measure()
 }
 
-function toggleSortDirection() {
-  sortDirection.value = sortDirection.value === 'desc' ? 'asc' : 'desc'
+function flushScrollPosition() {
+  if (restoringScroll) return
+  clearTimeout(scrollPersistTimer)
+  scrollPersistTimer = null
+  const sessionId = selectedSession.value?.sessionId
+  const el = scrollerRef.value
+  if (!sessionId || !el) return
+  const anchor = viewportAnchor(el.scrollTop)
+  ui.setScrollPlace(sessionId, {
+    scrollTop: el.scrollTop,
+    index: anchor.index,
+    offset: anchor.offset,
+  })
+}
+
+function onScrollerScroll() {
+  if (restoringScroll) return
+  clearTimeout(scrollPersistTimer)
+  scrollPersistTimer = setTimeout(flushScrollPosition, 150)
+}
+
+function onPageHidden() {
+  if (document.visibilityState === 'hidden') {
+    flushScrollPosition()
+  }
+}
+
+function waitAnimationFrame() {
+  return new Promise((resolve) => requestAnimationFrame(resolve))
+}
+
+function applyAnchoredScroll(index, offset, fallbackScrollTop) {
+  const el = scrollerRef.value
+  if (!el) return
+  const anchor = feedVirtualizer.value.getVirtualItems().find((item) => item.index === index)
+  if (anchor) {
+    el.scrollTop = anchor.start + offset
+    return
+  }
+  if (fallbackScrollTop > 0) {
+    el.scrollTop = fallbackScrollTop
+  }
+}
+
+async function restoreFeedScroll() {
+  await nextTick()
+  const el = scrollerRef.value
+  const sessionId = selectedSession.value?.sessionId
+  if (!el || !sessionId) return
+
+  const place = ui.scrollPlaceFor(sessionId)
+  if (place.scrollTop <= 0 && place.index <= 0 && place.offset <= 0) return
+
+  restoringScroll = true
+  try {
+    // Clear prior session size cache while scroll is still at 0 on the fresh scroller.
+    feedVirtualizer.value.measure()
+
+    const maxIndex = Math.max(0, feedItems.value.length - 1)
+    const index = Math.min(place.index, maxIndex)
+
+    feedVirtualizer.value.scrollToIndex(index, { align: 'start' })
+    await nextTick()
+    applyAnchoredScroll(index, place.offset, place.scrollTop)
+
+    // Re-apply after the target row measures so offset is against real height/start.
+    for (let i = 0; i < 6; i += 1) {
+      await waitAnimationFrame()
+      applyAnchoredScroll(index, place.offset, place.scrollTop)
+    }
+  } finally {
+    restoringScroll = false
+  }
 }
 
 async function loadPlayerMap(campaign) {
@@ -924,13 +1002,15 @@ async function loadAssistantSourceData() {
 async function selectSession(session) {
   if (isSameTranscriptSession(selectedSession.value, session)) return
 
+  flushScrollPosition()
+
   selectedSession.value = session
+  ui.setSelectedSessionId(session.sessionId)
   closeEditDialog()
   closeSplitDialog()
   expandedOriginalIds.value = new Set()
   await Promise.all([loadPlayerMap(session.campaign), loadTranscript()])
-  await nextTick()
-  resetFeedMeasurements()
+  await restoreFeedScroll()
 }
 
 async function onSessionSelect(sessionId) {
@@ -951,7 +1031,13 @@ async function loadCatalog() {
     }
 
     transcriptIndex.value = await res.json()
-    selectedSession.value = defaultTranscriptSession(transcriptIndex.value)
+    const savedSession = ui.selectedSessionId
+      ? transcriptIndex.value.find((entry) => entry.sessionId === ui.selectedSessionId)
+      : null
+    selectedSession.value = savedSession ?? defaultTranscriptSession(transcriptIndex.value)
+    if (selectedSession.value) {
+      ui.setSelectedSessionId(selectedSession.value.sessionId)
+    }
     await loadAssistantSourceData()
   } catch (err) {
     error.value = err.message || 'Failed to load transcript list'
@@ -1030,11 +1116,21 @@ async function loadTranscript() {
 }
 
 onMounted(async () => {
+  document.addEventListener('visibilitychange', onPageHidden)
+  window.addEventListener('pagehide', flushScrollPosition)
+
   await loadCatalog()
   if (selectedSession.value) {
     await loadPlayerMap(selectedSession.value.campaign)
     await loadTranscript()
+    await restoreFeedScroll()
   }
+})
+
+onUnmounted(() => {
+  document.removeEventListener('visibilitychange', onPageHidden)
+  window.removeEventListener('pagehide', flushScrollPosition)
+  flushScrollPosition()
 })
 </script>
 

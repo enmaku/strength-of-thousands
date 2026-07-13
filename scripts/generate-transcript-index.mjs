@@ -15,6 +15,10 @@ export function resolvePublishBase(publishBase) {
   )
 }
 
+export function isPublishedSession(meta) {
+  return meta?.published !== false
+}
+
 export function publishedTranscriptFileUrl(
   campaign,
   sessionDir,
@@ -49,7 +53,7 @@ export async function generateTranscriptIndex(options = {}) {
       const metaPath = path.join(campaignPath, session.name, 'meta.json')
       try {
         const meta = JSON.parse(await readFile(metaPath, 'utf8'))
-        if (meta.published === false) continue
+        if (!isPublishedSession(meta)) continue
         entries.push({
           campaign: campaign.name,
           sessionDir: session.name,
