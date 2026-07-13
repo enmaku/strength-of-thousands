@@ -28,6 +28,14 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ## Lessons
 
+### Sessions (per-table prep — Quasar GM prep → Sessions)
+
+- Session 2 Prep — `lessons/0010-session-2-prep.html`
+- Progress bookmark: `reference/sot-session-log.md`
+- How to write the next one: `reference/sot-session-prep-guide.md`
+
+### Standing prep
+
 0. Party Character Analysis (Book 1) — `lessons/0008-party-character-analysis-gm-prep.html`
 0. Player Tie-Ins (campaign-wide) — `lessons/0009-player-tie-ins-gm-prep.html`
 0. Academia Downtime (campaign-wide) — `lessons/0007-academia-downtime-gm-prep.html`
@@ -38,6 +46,10 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 5. Doorway to the Red Star (Book 5) — `lessons/0006-doorway-to-the-red-star-gm-prep.html`
 6. Shadows of the Ancients (Book 6) — `lessons/0003-shadows-of-the-ancients-gm-prep.html`
 
-(File numbers 0003/0004–0006 reflect creation order; Quasar index lists books 1–6.)
+(File numbers 0003/0004–0006 reflect creation order; Quasar index lists books 1–6 under Books, session preps under Sessions.)
 
 Text extracts: `reference/sot-extracts/` (all 6 books + Player's Guide)
+
+## Session prep workflow
+
+After each session: update `reference/sot-session-log.md`, then ask for Session N+1 prep. Do not invent pace from memory — use transcript + session log + extract.

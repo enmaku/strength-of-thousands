@@ -86,13 +86,15 @@ XP comes from mysteries, service, friendships — not only combat.
 
 ## Perquisite tasks (Ch 1, one per branch)
 
-1. **Rain-Scribes** — Ojofiri chicks from Kafesi Market (Esi/Haibram)
-2. **Tempest-Sun** — (see book ~p. 17+)
-3. **Cascade Bearers** — gremlin storeroom
-4. **Emerald Boughs** — ritual/components
-5. **Uzunjati** — mail delivery & recount
+Book order (Esi’s plan). Living checklist: `reference/sot-session-log.md`.
 
-Senior Spire Dorm initiates assign tasks; day 6 = meet teachers; then classes.
+1. **Rain-Scribes** — Ojofiri chicks from Kafesi Market (Esi/Haibram)
+2. **Tempest-Sun** — Nonlethal pugwampi clear, storage barn (Esi); Uduak seed
+3. **Cascade Bearers** — Scarlet cap / bone / caterpillar oils + fey ritual (Mariama/Anchor Root/Chizire); Umbo
+4. **Emerald Boughs** — Mail run on elephant birds (Ignaci/Tzeniwe)
+5. **Uzunjati** — Tell the week’s story + moral (Okoro/Noxolo); cue Introduction Ceremony
+
+Senior Spire Dorm initiates assign tasks; then Introduction Ceremony → rest → meet teachers → classes.
 
 ## Book 2 advancement (Spoken on the Song Wind)
 

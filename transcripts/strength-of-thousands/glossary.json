@@ -424,7 +424,9 @@
         "Oja Furiag",
         "Ojofiris",
         "Ojifiris",
-        "Fury Chicks"
+        "Fury Chicks",
+        "Ojofiri chickens",
+        "Ojofiri chicks"
       ],
       "type": "creature",
       "notes": "Endangered chickens sought in Rain-Scribe Perquisite; blue feathers, white underbelly on chicks."
@@ -468,6 +470,46 @@
       ],
       "type": "place",
       "notes": "Ship where Solanum Calabash came into being."
+    },
+    {
+      "canonical": "Seydou",
+      "synonyms": [
+        "Seidu",
+        "Saydou"
+      ],
+      "type": "npc",
+      "notes": "Kafesi Market poultry vendor; Ojofiri chicks (session 1)."
+    },
+    {
+      "canonical": "Makena",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Kafesi Market vendor; cooking-related stall (session 1)."
+    },
+    {
+      "canonical": "Lumusi Yao",
+      "synonyms": [
+        "Lumousie",
+        "Lumusi",
+        "Lumousi"
+      ],
+      "type": "npc",
+      "notes": "Market NPC (session 1 STT often Lumousie)."
+    },
+    {
+      "canonical": "Elle",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Oracular fortune-teller in the market (session 1); not giving real divinations."
+    },
+    {
+      "canonical": "Xanmba",
+      "synonyms": [
+        "Zamba",
+        "Xamba"
+      ],
+      "type": "language",
+      "notes": "Predecessor tongue to Common spoken by Taraan's familiar (session 1)."
     }
   ],
   "flagOnly": []

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 2 Prep — Strength of Thousands</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler: #6d3711;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, #6d3711 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    nav.toc {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.82rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a { color: var(--green); }
+    main { max-width: 46rem; margin: 0 auto; padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .spoiler-box {
+      background: var(--spoiler-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      border-radius: 2px;
+    }
+    .spoiler-box strong { color: var(--spoiler); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .tag {
+      display: inline-block;
+      font-family: var(--sans);
+      font-size: 0.66rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.stretch { background: #efe2ef; color: #5a2a5a; }
+    .tag.cut { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    .nav-lessons { font-family: var(--sans); font-size: 0.88rem; margin: 0 0 1.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 2 · Book 1 Ch 1</p>
+    <h1>Session 2 Prep</h1>
+    <p>Study guide for Perquisite days 2–3 — gremlins, Uduak’s shadow, Cascade oils &amp; Umbo — plus the PC story drips that belong in that window.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#left-off">Left off</a>
+  <a href="#pace">Pace</a>
+  <a href="#tempest">Tempest-Sun</a>
+  <a href="#cascade">Cascade</a>
+  <a href="#stretch">Stretch</a>
+  <a href="#npcs">NPCs</a>
+  <a href="#stories">PC stories</a>
+  <a href="#risks">Risks</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<main>
+
+<p class="nav-lessons">
+  <a href="../reference/sot-session-log.md">Session log</a> ·
+  <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+  <a href="0009-player-tie-ins-gm-prep.html">Player tie-ins</a> ·
+  <a href="../reference/sot-campus-npcs.html">Campus NPCs</a> ·
+  <a href="../reference/sot-session-prep-guide.md">How to write Session N+1</a>
+</p>
+
+<section id="left-off">
+  <h2>Where Session 1 left you</h2>
+  <p><span class="tag canon">Table canon</span> Open cold with breakfast / Esi at the usual meeting spot — they already know the rhythm.</p>
+  <ul>
+    <li>Welcome Walk + <strong>Takulu Ot</strong> interview done; beads on wrists.</li>
+    <li>Spire Dorm: <strong>Esi</strong>, <strong>Chizire</strong>; campus stops: <strong>Xhokan</strong>, stipend, dining / <strong>Lumusi</strong>.</li>
+    <li><strong>Rain-Scribe Perquisite done</strong> — Ojofiri chicks from Kafesi; honest change returned; one Perquisite bead awarded.</li>
+    <li><strong>Haibram</strong> met; <strong>Anchor Root</strong> named only (Esi swapped for day 1).</li>
+    <li>Still level 1 initiates. Four Perquisite days + Introduction Ceremony remain before level 2.</li>
+  </ul>
+  <p class="cite">Sources: <a href="../transcripts/strength-of-thousands/session-01/edited.json">session-01 edited transcript</a>; <a href="../reference/sot-session-log.md">session log</a>.</p>
+</section>
+
+<section id="pace">
+  <h2>Pace estimate for Session 2</h2>
+  <p>Session 1 burned most of an evening on orientation + <em>one</em> social-heavy Perquisite day (six players, market deep-dive). Book density ahead jumps: day 2 is a Severe-adjacent skill/combat puzzle; day 3 is a timed three-fetch + Creature 3 ambush + ritual.</p>
+
+  <table>
+    <thead><tr><th>Band</th><th>Plan</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Expected</strong></td>
+        <td><strong>Tempest-Sun</strong> (storage barn pugwampis) <em>and</em> <strong>Cascade Bearers</strong> (oils + Umbo + ritual) — full days 2–3.</td>
+      </tr>
+      <tr>
+        <td><span class="tag stretch">Stretch</span></td>
+        <td>Open <strong>Emerald Boughs</strong> mail (Ignaci + Tzeniwe) if Cascade finishes with ≥45 minutes left. Do not force completion.</td>
+      </tr>
+      <tr>
+        <td><span class="tag cut">Cut early</span></td>
+        <td>If Tempest runs long (Uduak research, bells, Anchor diplomacy, hatch talk): end after day 2 + a dorm beat. Cascade becomes Session 3 open.</td>
+      </tr>
+      <tr>
+        <td><span class="tag cut">Do not bank on</span></td>
+        <td>Uzunjati storytelling or <strong>Introduction Ceremony</strong> tonight. Ceremony is a Severe 1 climax — deserves oxygen, not a rush after two full days.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <strong>Matching book pace:</strong> The module budgets ~1 week for all five Perquisite days + ceremony. Your table is slower and richer — that is fine. Keep <em>emotional</em> pace (service → nonlethal ethic → Uduak seed → cohort bonds) even if calendar days spill across more sessions. Do not skip NPC faces to “catch up.”
+  </div>
+  <p class="cite">Book text: <code>reference/sot-extracts/kindled-magic.txt</code> Service Projects (~pp. 17–28). Author pacing notes: <a href="https://paizo.com/threads/rzs43fo2?1-Kindled-Magic=">Paizo GM Reference — Kindled Magic</a>.</p>
+</section>
+
+<section id="tempest">
+  <h2>Day 2 — Tempest-Sun (pugwampi barn)</h2>
+  <h3>Framing</h3>
+  <ul>
+    <li><strong>Esi alone</strong> at the meeting spot. Branch: defend Nantambu from threats big and small; today’s threat is small.</li>
+    <li>Mandate: get pugwampis <em>out</em> of a storage room <strong>without killing them</strong> (whack-to-head OK; lethal → they fight to kill).</li>
+    <li>Release off Magaambya grounds — ideally outside Nantambu.</li>
+  </ul>
+
+  <h3>Uduak seed <span class="tag">load-bearing</span></h3>
+  <p>Esi: a student was expelled for killing gremlins “because of who they are.” She knows broad strokes only; points curious PCs to teachers or records <em>after</em> the job. Library research on pugwampis also surfaces <strong>Uduak Basni</strong>’s story up to his presumed death.</p>
+  <div class="spoiler-box">
+    <strong>GM only — do not say tonight</strong>
+    <p>Uduak is the future <strong>Stone Ghost</strong>. This scene is the moral mirror for Cy’An’s Explode habit and the whole party’s lethal toolkit. Reward clever nonlethal / scare / Anchor Root paths with full combat XP.</p>
+  </div>
+
+  <h3>Tools the book gives them</h3>
+  <table>
+    <thead><tr><th>Path</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Recall Knowledge</td><td>DC 14 Nature (DC 12 Gremlin Lore): misfortune aura; love of gnolls. Crit: aversion to small semiprecious bells.</td></tr>
+      <tr><td>Library hour</td><td>+2 circ. on RK; also finds Uduak story.</td></tr>
+      <tr><td>Bells</td><td>Xhokan sells silver bells 5 sp; <strong>loans free</strong> if told it’s for the assignment. Holding bells: gremlins avoid attacking that PC; +2 Intimidate; Demoralized stays while bells visible.</td></tr>
+      <tr><td>Anchor Root</td><td>Speaks Gnoll; pugwampis defer. DC 16 Diplomacy to bring her — success: she leads them out, no fight help, retreats after. Fail / Intimidate: anxiety attack, can’t help. <strong>Anya hitch debut.</strong></td></tr>
+      <tr><td>Fight</td><td>4 pugwampis (Creature 0), shelves, thrown bottles (nonlethal). &lt;6 HP → flee via floor hatch.</td></tr>
+      <tr><td>Fail forward</td><td>Return to Esi; she sends a stronger initiate group. No expulsion for honest defeat.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Secret hatch</h3>
+  <p>DC 15 Perception (sunrod angle helps). Leads to campus tunnels — gremlin ingress. Closest surface hatch: Star Dorm exterior; also connects toward Spire. Let curious PCs note it; do <em>not</em> open Ch 3 dungeon tonight.</p>
+
+  <h3>Interrogation payoff</h3>
+  <p>If they communicate with a captive: works for tougher gremlin <strong>Kurshkin</strong>, who works for a “scary ghost.” +30 XP. Kurshkin resurfaces at Introduction Ceremony.</p>
+  <p class="cite">Stat block: <em>Bestiary</em> pugwampi. Encounter: Severe 1 storage barn.</p>
+</section>
+
+<section id="cascade">
+  <h2>Day 3 — Cascade Bearers (oils + ritual)</h2>
+  <h3>Framing</h3>
+  <ul>
+    <li>Waiting: <strong>Mariama</strong>, <strong>Anchor Root</strong>, sleeping <strong>Chizire</strong>.</li>
+    <li>Need oils for a ritual to help with gremlins: <strong>scarlet cap</strong>, <strong>bone</strong>, <strong>caterpillar</strong>. Eight hours or miss dinner. “Try to have fun!”</li>
+    <li>Anchor Root is the brief — fidgety; pep-talks make her shrink. Soft Anya / Rain-Scribe belonging beat.</li>
+  </ul>
+
+  <h3>Three fetches (parallelize)</h3>
+  <table>
+    <thead><tr><th>Oil</th><th>How</th><th>Watch-outs</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Bone</strong></td>
+        <td>Butcher free after 1 hour wait (1 gp to skip queue). Gather Info DC 10 → garbage heaps; crit → “lucky” talking-cow carcass (+2 craft). Carbonize + craft DC 17 Crafting/Nature (1 hour). Fail: retry; crit fail: ruin bones. Chizire auto-succeeds in 2 hours if Mariama wakes him with slugs.</td>
+        <td>Grave-robbing = Magaambya accountability — shut it down.</td>
+      </tr>
+      <tr>
+        <td><strong>Scarlet cap</strong></td>
+        <td>~1 hour into jungle; climb DC 10. <strong>Umbo</strong> (weak myceloid, Creature 3) ambushes — Emit Spores / purple pox. Fleeces if &lt;10 HP. No negotiation.</td>
+        <td>Party’s weak Reflex + disease Fort DC 18. Split the tree-climber from the spore cloud.</td>
+      </tr>
+      <tr>
+        <td><strong>Caterpillar</strong></td>
+        <td>Fuzzy jungle caterpillars → oil (book details in extract). Time sink; keep moving.</td>
+        <td>Don’t let perfect-three-oils perfectionism eat Emerald stretch.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Ritual &amp; aftermath</h3>
+  <p>Mariama directs the ritual whether it succeeds or fails. She notes it may harm <em>any</em> fey, not just gremlins — Cascade caution theme. XP: up to 90 for oils + 80/120 for ritual attempt/success.</p>
+  <div class="spoiler-box">
+    <strong>Ceremony foreshadow</strong>
+    <p>Later, Kurshkin mistakes the barn clear + fey-abeyance ritual as the start of another purge — motivation for the Introduction Ceremony ambush. You don’t need to telegraph that tonight.</p>
+  </div>
+</section>
+
+<section id="stretch">
+  <h2>Stretch — Emerald mail (only if time)</h2>
+  <ul>
+    <li><strong>Ignaci</strong> + <strong>Tzeniwe</strong> (elephant birds, overpacked snacks, sticky web toy from Zanvi).</li>
+    <li>Easy deliveries = city color + Word and Way. Hard set: illegible / descriptive addresses, lamp dispute, deific missives — each can eat real clock.</li>
+    <li>If you only open the day: establish faces, hand the basket, resolve 2–3 easy + one hard, then hard-cut to “dusk and ginger beer tomorrow.”</li>
+  </ul>
+  <p>Full mail sandbox + Uzunjati + ceremony = Session 3+ material. See session log.</p>
+</section>
+
+<section id="npcs">
+  <h2>NPC introductions &amp; relationships tonight</h2>
+  <p>Primary hitches from <a href="0009-player-tie-ins-gm-prep.html#roster">Player Tie-Ins roster</a>. Session 2 is when several dorm faces finally get dialogue.</p>
+
+  <table>
+    <thead><tr><th>NPC</th><th>Debut / deepen</th><th>PC relationship to play</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Esi Djana</strong></td>
+        <td>Deepen (Tempest brief)</td>
+        <td><strong>Yggostrus</strong> primary — competence, roles, “contribute.” Reward useful help without pretending friendship yet. File accidental care if he protects the cohort.</td>
+      </tr>
+      <tr>
+        <td><strong>Anchor Root</strong></td>
+        <td><strong>First real scene</strong> (gnoll/gremlin and/or Cascade brief)</td>
+        <td><strong>Anya</strong> primary — quiet belonging; eidolon may warm first. Soft, never force pep-talks. Optional light hitch for Lithrei (bones/spirit texture) — don’t steal Anya’s lane.</td>
+      </tr>
+      <tr>
+        <td><strong>Mariama Keitana</strong></td>
+        <td>Debut (Cascade)</td>
+        <td><strong>Solanum</strong> light — occult chaos peer. Fun, unsafe energy; not a plot dump.</td>
+      </tr>
+      <tr>
+        <td><strong>Chizire</strong></td>
+        <td>Deepen (sleeping / brew backup)</td>
+        <td><strong>Cy’An</strong> light Cascade grease — shared invention culture. Already warm potential.</td>
+      </tr>
+      <tr>
+        <td><strong>Xhokan</strong></td>
+        <td>Optional revisit (bells)</td>
+        <td>Comic quartermaster; free loan if they name the assignment.</td>
+      </tr>
+      <tr>
+        <td><strong>Haibram</strong></td>
+        <td>Optional dorm touch</td>
+        <td><strong>Solanum</strong> primary — sky/daredevil rhyme. One beat (“how was the market?” / glider boast) is enough.</td>
+      </tr>
+      <tr>
+        <td><strong>Tzeniwe / Ignaci / Okoro / Noxolo</strong></td>
+        <td>Stretch or Session 3+</td>
+        <td>Cy’An↔Tzeniwe, Lithrei↔Noxolo, Taraan↔Okoro — don’t rush if Emerald doesn’t open.</td>
+      </tr>
+      <tr>
+        <td><strong>Umbo</strong></td>
+        <td>Combat debut</td>
+        <td>No PC hitch — selfish myceloid. Contrast later with Magaambya community ethic.</td>
+      </tr>
+      <tr>
+        <td>Faculty (Koride, Lesedi, Izem, Ahassunu…)</td>
+        <td><span class="tag cut">Not tonight</span></td>
+        <td>Save for Meet the Teachers / Ch 2 unless a PC seeks Uduak records and you want a 30-second librarian redirect.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="stories">
+  <h2>Moving PC stories at AP pace</h2>
+  <p>Book 1 early = <strong>seeds and relationships</strong>, not revelations. One small move per PC is enough; skip anyone who already got spotlight this session.</p>
+
+  <table>
+    <thead><tr><th>PC</th><th>Tonight’s move (pick ≤1 spotlight beat each)</th><th>Not yet</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Anya</strong></td>
+        <td>Anchor Root scene; eidolon at ease on campus grounds / in the barn or jungle.</td>
+        <td>Koride diagnosis; egg magnetism; “wild enrolled itself” reveal.</td>
+      </tr>
+      <tr>
+        <td><strong>Cy’An</strong></td>
+        <td>Nonlethal / tools-for-people choice on pugwampis (or craft help on oils). Optional Lumusi “how was service?” between days.</td>
+        <td>Explode-as-identity sermon; traveler-town scarcity letter.</td>
+      </tr>
+      <tr>
+        <td><strong>Solanum</strong></td>
+        <td>One sky image <em>or</em> Haibram touch — not both if time is tight. Portent: mood/shape only (no Akiton names).</td>
+        <td>Lesedi planetarium; Archibald payoff; Red Star plot.</td>
+      </tr>
+      <tr>
+        <td><strong>Yggostrus</strong></td>
+        <td>Transactional → useful: Esi assigns him a role; reward cooperation; notice if he protects others “for advantage.”</td>
+        <td>Koride specimen interest; curse research arc; Path A/B unbinding.</td>
+      </tr>
+      <tr>
+        <td><strong>Lithrei</strong></td>
+        <td>Passenger flavor under stress (barn unluck / Umbo spores) — a flinch, a wrong pronoun, a hummed hymn. That’s it.</td>
+        <td>Noxolo dual-presence notice (better on Uzunjati day); Uduak = passenger; Jatembe wink.</td>
+      </tr>
+      <tr>
+        <td><strong>Taraan</strong></td>
+        <td>If they hit library for Uduak/pugwampis: institutional records tone; Erudite uneasy at “destroyed / expelled” language optional. Monument-guardian ethic on nonlethal brief.</td>
+        <td>Ird named deep-dive; Okoro story night (day 5); Izem; Jatembe.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <strong>Steady pace rule:</strong> PC chords flavor the Perquisite; the Perquisite does not become six side quests. If a personal beat would need a scene break away from the cohort task, defer it to dorm evening or the free afternoon after Uzunjati.
+  </div>
+</section>
+
+<section id="risks">
+  <h2>Table risks &amp; GM moves</h2>
+  <ul>
+    <li><strong>Lethal AoE</strong> (Cy’An Explode, Yggostrus breath) vs nonlethal mandate — let Esi’s line land; Magaambya holds students accountable (<em>That’s Going on Your Permanent Record</em> sidebar).</li>
+    <li><strong>Umbo</strong> is Creature 3 vs level 1 — Moderate/Severe feel. Spores punish clustered melee. Allow flee to campus for help without shame.</li>
+    <li><strong>Weak party Reflex</strong> — pugwampi chaos and spore clouds both lean here; telegraph misfortune aura.</li>
+    <li><strong>Time sink:</strong> perfect Kafesi-style investigation on Cascade fetches. Time-box: “dinner bell in X hours” diegetically.</li>
+    <li><strong>Hatch curiosity:</strong> note + defer. “Smells wrong / goes deep” is enough.</li>
+  </ul>
+</section>
+
+<section id="quiz" class="quiz">
+  <h2>Self-check — ready for Session 2?</h2>
+
+  <h3>1. What is Esi’s hard rule for the Tempest-Sun task?</h3>
+  <button onclick="check(this,'a')">A. Kill the gremlins quickly before they curse the dorm</button>
+  <button onclick="check(this,'b')">B. Remove them without killing them; Magaambya doesn’t kill for species alone</button>
+  <button onclick="check(this,'c')">C. Capture them for Koride’s entomology lab</button>
+  <div class="feedback" data-answer="b"></div>
+
+  <h3>2. Which Perquisite day introduces Umbo?</h3>
+  <button onclick="check(this,'a')">A. Rain-Scribes (Kafesi)</button>
+  <button onclick="check(this,'b')">B. Tempest-Sun (barn)</button>
+  <button onclick="check(this,'c')">C. Cascade Bearers (scarlet cap mushrooms)</button>
+  <div class="feedback" data-answer="c"></div>
+
+  <h3>3. Which PC’s primary dorm hitch should debut on the Anchor Root / gnoll beat?</h3>
+  <button onclick="check(this,'a')">A. Lithrei (Noxolo is primary; Anchor is light only)</button>
+  <button onclick="check(this,'b')">B. Anya</button>
+  <button onclick="check(this,'c')">C. Taraan</button>
+  <div class="feedback" data-answer="b"></div>
+
+  <h3>4. Should Session 2 plan to finish the Introduction Ceremony?</h3>
+  <button onclick="check(this,'a')">A. Yes — Ch 1 must complete in two sessions</button>
+  <button onclick="check(this,'b')">B. No — expected is days 2–3; ceremony is a later climax</button>
+  <button onclick="check(this,'c')">C. Only if they skip Cascade entirely</button>
+  <div class="feedback" data-answer="b"></div>
+</section>
+
+<section id="after">
+  <h2>After you run Session 2</h2>
+  <ol>
+    <li>Update <a href="../reference/sot-session-log.md">sot-session-log.md</a> — covered / not covered / relationship seeds.</li>
+    <li>Revise the pace model with actuals.</li>
+    <li>Ask your teacher to draft Session 3 prep from the new bookmark (<a href="../reference/sot-session-prep-guide.md">prep guide</a>).</li>
+  </ol>
+  <p>Anything unclear — Uduak timing, Anchor Root anxiety, Umbo fairness, or which PC beat to cut — ask your teacher in chat.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0010 · Session prep · grounded in Session 1 transcript + <em>Kindled Magic</em> Ch 1 extract.</p>
+  <p>Open: <code>open lessons/0010-session-2-prep.html</code></p>
+</footer>
+
+<script>
+function check(btn, choice) {
+  const box = btn.parentElement.querySelector('.feedback');
+  const ans = box.getAttribute('data-answer');
+  const ok = choice === ans;
+  box.textContent = ok ? 'Correct.' : 'Not quite — re-read the matching section above.';
+  box.className = 'feedback ' + (ok ? 'correct' : 'wrong');
+}
+</script>
+</body>
+</html>

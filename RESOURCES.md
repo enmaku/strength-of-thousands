@@ -31,12 +31,15 @@
 - Dropbox PDFs: `~/Dropbox/Gaming Books/Pathfinder/Strength of Thousands/`
 - Extracted text: `reference/sot-extracts/` in this workspace
 - `reference/sot-campaign-overview.md` — condensed Campaign Overview + Book 1 beats
+- `reference/sot-session-log.md` — **living campaign bookmark** (what session covered; Perquisite checklist; pace model)
+- `reference/sot-session-prep-guide.md` — recipe for writing Session N prep lessons
 - `reference/sot-thematic-guide.html` — **thematic emphasis** per book, NPC, arc; push moments & player engagement
 - `reference/sot-nantambu.html` — **Song-Wind City** gazetteer (government, culture, Book 1–2 sites, Chime-Ringers)
 - `reference/sot-magaambya-history.html` — **Jatembe, Ten Magic Warriors, timeline**, Word and Way, hidden AP war
 - `reference/sot-campus-npcs.html` — **faculty, staff, Spire Dorm cohort** (portraits + Study bonuses + voice hooks)
 - `reference/sot-glossary-and-npcs.html` — session lookup sheet
 - `reference/images/spire-dorm/` — Spire Dorm student portraits extracted from *Kindled Magic* pp. 67–71 (`manifest.json` maps names → files)
+- Transcripts: `transcripts/strength-of-thousands/session-NN/` — table truth for session prep pace
 
 ## Gaps
 

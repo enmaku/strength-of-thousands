@@ -11,6 +11,7 @@ Run the prefab Strength of Thousands campaign for Pathfinder 2e without reading 
 - Know the Magaambya's culture, ranks, branches, and recurring NPCs well enough to improvise school life.
 - Have quick-reference materials to open before each session instead of re-reading the module.
 - **Emphasize human themes** (service, succession, cohort, curiosity's shadow) using the thematic guide — not just plot beats.
+- Before each table session: a **Sessions** prep lesson scoped to likely coverage, player tie-in drips, and NPC relationship moves — tracked in `reference/sot-session-log.md`.
 
 ## Constraints
 

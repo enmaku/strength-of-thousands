@@ -3,6 +3,17 @@ export function getGmLessonSections() {
 
   return [
     {
+      id: 'sessions',
+      label: 'Sessions',
+      lessons: [
+        {
+          title: 'Session 2 Prep',
+          caption: 'GM prep · Perquisite days 2–3',
+          href: `${pagesBase}/lessons/0010-session-2-prep.html`,
+        },
+      ],
+    },
+    {
       id: 'background',
       label: 'Background',
       lessons: [

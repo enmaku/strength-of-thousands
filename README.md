@@ -12,6 +12,8 @@ GM prep workspace and Quasar SPA for the Pathfinder 2e *Strength of Thousands* a
 | `lessons/` | Self-contained HTML GM prep lessons (open in browser) |
 | `learning-records/` | What you already know; drives future lessons |
 | `reference/` | Campaign overviews, glossaries, thematic guides |
+| `reference/sot-session-log.md` | Living bookmark after each table session |
+| `reference/sot-session-prep-guide.md` | Recipe for Session N prep lessons (GM prep → Sessions) |
 | `RESOURCES.md` | External links and local resource index |
 | `NOTES.md` | Learner preferences and working notes |
 

@@ -1,12 +1,13 @@
 # Party composition — Book 1 roster
 
-Five imported heroes (all level 1) drive future GM teaching. Recorded from PathBuilder hero files so later lessons stay grounded in the actual table.
+Six heroes at the table (level 1). PathBuilder imports + Session 1 cast; later lessons stay grounded in the actual table.
 
 - **Anya** — Versatile Human Summoner (Beast eidolon), Feral Child. Cha-key. Primal melee eidolon (Beast's Charge, Glider Form); Forager/Survival wilderness toolkit; AC 14 shared-HP summoner. Spell list still empty in PathBuilder.
 - **Cy'An Copperbottom** — Irongut Goblin Inventor (Construct Innovation) / Wizard Dedication (School of Unified Magical Theory), Cook. Int-key. they/them. Area attack: Explode. Cook/Bonding Meal → Lumusi Yao + cohort theme.
 - **Solanum Calabash** — Fruit Leshy Magus (Twisting Tree), Astrologer. Str-key front-liner + Healing Plaster + Occultism/Oddity ID. she/her. Astrologer = Red Star (Book 5) foreshadow.
 - **Taraan Skyseeker** — Skyborn Tengu **dual-class** Cleric (Warpriest of Soralyon) / Witch (The Inscribed One), Archaeologist. Wis/Int. Primary healer (Healing Font), party investigation/lore/social engine, burrowing Elemental Wisp familiar.
 - **Yggostrus** — Dragonet (Homing Drake) Summoner, Dragon eidolon (acid), Apsu. Cha-key. he/him. Best anti-swarm (acid breath + Caustic Blast) and Diplomacy face; fragile Tiny summoner sharing HP with eidolon.
+- **Lithrei Woeborn** — Samsaran-heritage Human Oracle (Life) / Investigator, Haunted. Xander. Haunt/passenger chord — see player tie-ins; not Uduak.
 
 **Key cross-cutting facts (verified against AoN):**
 
