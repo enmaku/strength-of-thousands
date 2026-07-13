@@ -90,7 +90,7 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
 | Anya | Eidolon fluent on campus; quiet belonging | **Anchor Root** |
-| Cy’An | Kitchen / provision; nonlethal knife-edge on gremlins | **Tzeniwe**, deepen **Lumusi** |
+| Cy’An | Provider-as-identity: empty hands / can’t fix alone / receive care; deepen **Lumusi** | **Tzeniwe** (Emerald stretch+), deepen **Lumusi** |
 | Solanum | 1 sky omen; ship/Archibald touch; Haibram sky buddy | **Lesedi** (Ch 2+) |
 | Yggostrus | Reward useful cooperation; file accidental care; Esi competence pressure | Druid mentor cameo optional; **Koride** later |
 | Lithrei | Passenger flavor only; Noxolo notice later | **Noxolo** (Uzunjati day) |
