@@ -282,7 +282,7 @@
     "familiars": []
   },
   "relationships": {
-    "anchor-root": 1,
+    "anchor-root": 0,
     "chizire": 1,
     "esi-djana": 2,
     "haibram-thodja": 1,

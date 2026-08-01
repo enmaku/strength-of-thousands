@@ -2,7 +2,7 @@
 
 Six heroes at the table (level 1). PathBuilder imports + Session 1 cast; later lessons stay grounded in the actual table.
 
-- **Anya** — Versatile Human Summoner (Beast eidolon), Feral Child. Cha-key. Primal melee eidolon (Beast's Charge, Glider Form); Forager/Survival wilderness toolkit; AC 14 shared-HP summoner. Spell list still empty in PathBuilder.
+- **Anya** — Versatile Human Summoner (Beast eidolon), Feral Child. Cha-key. Eidolon = **domestic cat at wild-beast size/stats** (society push). Beast's Charge, Glider Form; Forager/Survival; AC 14 shared-HP summoner.
 - **Cy'An Copperbottom** — Irongut Goblin Inventor (Construct Innovation) / Wizard Dedication (School of Unified Magical Theory), Cook. Int-key. they/them. Area attack: Explode. Cook/Bonding Meal → Lumusi Yao + cohort theme.
 - **Solanum Calabash** — Fruit Leshy Magus (Twisting Tree), Astrologer. Str-key front-liner + Healing Plaster + Occultism/Oddity ID. she/her. Astrologer = Red Star (Book 5) foreshadow.
 - **Taraan Skyseeker** — Skyborn Tengu **dual-class** Cleric (Warpriest of Soralyon) / Witch (The Inscribed One), Archaeologist. Wis/Int. Primary healer (Healing Font), party investigation/lore/social engine, burrowing Elemental Wisp familiar. **Obsessed with learning to fly** (Haibram gliders early; Izem wings later rhyme).

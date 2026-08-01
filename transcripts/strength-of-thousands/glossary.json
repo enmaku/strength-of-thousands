@@ -282,7 +282,7 @@
         "Anchor"
       ],
       "type": "npc",
-      "notes": "Spire Dorm cohort; Rain-Scribe."
+      "notes": "Spire Dorm; ant gnoll Rain-Scribe; Redridge bonekeeper-in-training. Dossier: reference/sot-campus-npcs.html#anchor-root"
     },
     {
       "canonical": "Chizire",
@@ -461,7 +461,7 @@
       "canonical": "Anya",
       "synonyms": [],
       "type": "pc",
-      "notes": "Julia's PC; mostly-peril summoner with large domestic-cat eidolon."
+      "notes": "Julia's PC; summoner; eidolon is a domestic cat at wild-beast size (society push)."
     },
     {
       "canonical": "Abednego",

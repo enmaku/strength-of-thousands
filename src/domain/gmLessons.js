@@ -8,7 +8,7 @@ export function getGmLessonSections() {
       lessons: [
         {
           title: 'Session 2 Prep',
-          caption: 'GM prep · Spire dorm + Perquisite days 2–3',
+          caption: 'GM prep · dorm, Ot aside, days 2–3',
           href: `${pagesBase}/lessons/0010-session-2-prep.html`,
         },
       ],

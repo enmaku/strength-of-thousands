@@ -69,7 +69,7 @@ Then: rest day → **Meet the Teachers** → classes (Ch 2).
 | Haibram | Rain-Scribe day | Solanum sky hitch — **deepen** on Session 2 dorm open |
 | Lumusi | Dining / Cy’An cook lane | Kitchen mentorship still thin |
 | Xhokan | Supply stop | Comic quartermaster |
-| Anchor Root | Name only | Anya primary — **first real scene** on Session 2 dorm open (before Tempest) |
+| Anchor Root | Name only → Session 2 debut | Anya primary — dossier: `sot-campus-npcs.html#anchor-root` (kholo rites / bonekeeper) |
 
 ## Pace model (revisable)
 
@@ -77,7 +77,7 @@ Derived from Session 1 + book density:
 
 | Session estimate | Likely content |
 |------------------|----------------|
-| **Session 2 (prep target)** | Spire dorm (Anchor + Haibram, capped) → Tempest-Sun (full) → Cascade Bearers (full or most). Stretch: open Emerald mail. Do **not** bank on Intro Ceremony. |
+| **Session 2 (prep target)** | Spire dorm (Anchor + Haibram) → Welcome Walk aside (Ot × Cy’An + Noxolo teaser) → Tempest-Sun → Cascade if time. Stretch: Emerald mail. Do **not** bank on Intro Ceremony. |
 | Session 3 (rough) | Finish Cascade if needed; Emerald mail; Uzunjati story; possibly Intro Ceremony if pace jumps. |
 | Session 4 (rough) | Ceremony (if not done) → Meet Teachers / Ch 2 on-ramp. |
 
@@ -89,11 +89,11 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
-| Anya | Eidolon fluent on campus; quiet belonging | **Anchor Root** (Session 2 dorm open) |
-| Cy’An | Provider-as-identity: empty hands / can’t fix alone / receive care; deepen **Lumusi** | **Tzeniwe** (Emerald stretch+), deepen **Lumusi** |
-| Solanum | 1 sky omen; ship/Archibald touch; **Haibram** sky buddy (Session 2 dorm deepen) | **Lesedi** (Ch 2+) |
+| Anya | Eidolon (giant domestic cat) fluent on campus; quiet belonging | **Anchor Root** (Session 2 dorm open) |
+| Cy’An | Provider-as-identity; **Ot “tests do not eat” aside** (Session 2); deepen **Lumusi** | **Tzeniwe** (Emerald stretch+), deepen **Lumusi** |
+| Solanum | 1 sky omen; ship/Archibald touch; **Haibram** sky buddy (Session 2 dorm deepen) | **Lesedi** (Ch 2+; card now fleshed) |
 | Yggostrus | Reward useful cooperation; file accidental care; Esi competence pressure | Druid mentor cameo optional; **Koride** later |
-| Lithrei | Passenger flavor only; Noxolo notice later | **Noxolo** (Uzunjati day) |
+| Lithrei | Passenger flavor; **Noxolo teaser** (Session 2 Welcome Walk exam) | **Noxolo** deepen (Uzunjati day) |
 | Taraan | Flight hunger with **Haibram** (gliders); Ird taboo seed only if archives come up; Okoro story night | **Okoro**, **Izem** (Ch 2+) |
 
 ## Sources
