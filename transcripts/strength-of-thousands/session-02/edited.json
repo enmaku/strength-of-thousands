@@ -2585,7 +2585,7 @@
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "Julia does not make her society roll, but seems to have picked up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway. Damn her.",
+    "text": "Julia does not make her society roll, but seems to pick up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway in defiance of all my devious planning. Damn her.",
     "mechanics": [],
     "sourceText": "Julia does not make her society roll, but seems to have picked up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway. Damn her.",
     "sourceSpeaker": "Dave"
@@ -3298,8 +3298,21 @@
     "sourceSpeaker": "Xander"
   },
   {
-    "id": 840,
+    "id": 5610,
     "index": 240,
+    "sceneId": "gremlin-task",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "That would require opening the door.",
+    "mechanics": [],
+    "sourceText": "That would require opening the door.",
+    "sourceSpeaker": "Xander"
+  },
+  {
+    "id": 840,
+    "index": 241,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3312,7 +3325,7 @@
   },
   {
     "id": 841,
-    "index": 241,
+    "index": 242,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3325,7 +3338,7 @@
   },
   {
     "id": 842,
-    "index": 242,
+    "index": 243,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3337,8 +3350,21 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 5612,
+    "index": 244,
+    "sceneId": "gremlin-task",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Be careful on the other side of the door",
+    "mechanics": [],
+    "sourceText": "Be careful on the other side of the door",
+    "sourceSpeaker": "Xander"
+  },
+  {
     "id": 843,
-    "index": 243,
+    "index": 245,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3351,7 +3377,7 @@
   },
   {
     "id": 845,
-    "index": 244,
+    "index": 246,
     "sceneId": "gremlin-task",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3364,7 +3390,7 @@
   },
   {
     "id": 5570,
-    "index": 245,
+    "index": 247,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
@@ -3377,7 +3403,7 @@
   },
   {
     "id": 847,
-    "index": 246,
+    "index": 248,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3390,7 +3416,7 @@
   },
   {
     "id": 5571,
-    "index": 247,
+    "index": 249,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
@@ -3403,7 +3429,7 @@
   },
   {
     "id": 848,
-    "index": 248,
+    "index": 250,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3415,8 +3441,21 @@
     "sourceSpeaker": "Lisa"
   },
   {
+    "id": 5611,
+    "index": 251,
+    "sceneId": "gremlin-task",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Please?",
+    "mechanics": [],
+    "sourceText": "Please?",
+    "sourceSpeaker": "Lisa"
+  },
+  {
     "id": 849,
-    "index": 249,
+    "index": 252,
     "sceneId": "gremlin-task",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3429,33 +3468,20 @@
   },
   {
     "id": 5572,
-    "index": 250,
+    "index": 253,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "Oh thank god",
+    "text": "Now they're just teasing me",
     "mechanics": [],
     "sourceText": "Oh thank god",
     "sourceSpeaker": "Drew"
   },
   {
-    "id": 852,
-    "index": 251,
-    "sceneId": "gremlin-task",
-    "speaker": "Lisa",
-    "character": "Taraan Skyseeker",
-    "voice": "player",
-    "contentType": "game",
-    "text": "If I'm going in with a group first, I'll do the opening.",
-    "mechanics": [],
-    "sourceText": "If I'm going in with a group first, I'll do the opening.",
-    "sourceSpeaker": "Lisa"
-  },
-  {
     "id": 853,
-    "index": 252,
+    "index": 254,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3468,7 +3494,7 @@
   },
   {
     "id": 5573,
-    "index": 253,
+    "index": 255,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
@@ -3481,7 +3507,7 @@
   },
   {
     "id": 855,
-    "index": 254,
+    "index": 256,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3494,7 +3520,7 @@
   },
   {
     "id": 5552,
-    "index": 255,
+    "index": 257,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3507,7 +3533,7 @@
   },
   {
     "id": 857,
-    "index": 256,
+    "index": 258,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3520,7 +3546,7 @@
   },
   {
     "id": 859,
-    "index": 257,
+    "index": 259,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3533,7 +3559,7 @@
   },
   {
     "id": 870,
-    "index": 258,
+    "index": 260,
     "sceneId": "gremlin-task",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3546,7 +3572,7 @@
   },
   {
     "id": 877,
-    "index": 259,
+    "index": 261,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3558,8 +3584,21 @@
     "sourceSpeaker": "Dave"
   },
   {
+    "id": 5613,
+    "index": 262,
+    "sceneId": "gremlin-task",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "The AP actually wanted me to attack the players directly but at this point I was afraid of Pavloving them into never opening a door again.",
+    "mechanics": [],
+    "sourceText": "The AP actually wanted me to attack the players directly but I was afraid of Pavloving them into never opening a door again.",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 3851,
-    "index": 260,
+    "index": 263,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3572,7 +3611,7 @@
   },
   {
     "id": 886,
-    "index": 261,
+    "index": 264,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3585,7 +3624,7 @@
   },
   {
     "id": 3850,
-    "index": 262,
+    "index": 265,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3603,7 +3642,7 @@
   },
   {
     "id": 887,
-    "index": 263,
+    "index": 266,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3627,7 +3666,7 @@
   },
   {
     "id": 889,
-    "index": 264,
+    "index": 267,
     "sceneId": "gremlin-task",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3640,7 +3679,7 @@
   },
   {
     "id": 890,
-    "index": 265,
+    "index": 268,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3653,7 +3692,7 @@
   },
   {
     "id": 891,
-    "index": 266,
+    "index": 269,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3666,7 +3705,7 @@
   },
   {
     "id": 892,
-    "index": 267,
+    "index": 270,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3679,7 +3718,7 @@
   },
   {
     "id": 893,
-    "index": 268,
+    "index": 271,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3692,7 +3731,7 @@
   },
   {
     "id": 895,
-    "index": 269,
+    "index": 272,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3705,7 +3744,7 @@
   },
   {
     "id": 897,
-    "index": 270,
+    "index": 273,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3718,7 +3757,7 @@
   },
   {
     "id": 898,
-    "index": 271,
+    "index": 274,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3736,7 +3775,7 @@
   },
   {
     "id": 899,
-    "index": 272,
+    "index": 275,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3749,7 +3788,7 @@
   },
   {
     "id": 901,
-    "index": 273,
+    "index": 276,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3762,7 +3801,7 @@
   },
   {
     "id": 903,
-    "index": 274,
+    "index": 277,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3775,7 +3814,7 @@
   },
   {
     "id": 913,
-    "index": 275,
+    "index": 278,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3788,7 +3827,7 @@
   },
   {
     "id": 917,
-    "index": 276,
+    "index": 279,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3812,7 +3851,7 @@
   },
   {
     "id": 926,
-    "index": 277,
+    "index": 280,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3825,7 +3864,7 @@
   },
   {
     "id": 5553,
-    "index": 278,
+    "index": 281,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3838,7 +3877,7 @@
   },
   {
     "id": 928,
-    "index": 279,
+    "index": 282,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3851,7 +3890,7 @@
   },
   {
     "id": 930,
-    "index": 280,
+    "index": 283,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3864,7 +3903,7 @@
   },
   {
     "id": 931,
-    "index": 281,
+    "index": 284,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3877,7 +3916,7 @@
   },
   {
     "id": 933,
-    "index": 282,
+    "index": 285,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3890,7 +3929,7 @@
   },
   {
     "id": 938,
-    "index": 283,
+    "index": 286,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3903,7 +3942,7 @@
   },
   {
     "id": 939,
-    "index": 284,
+    "index": 287,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3916,7 +3955,7 @@
   },
   {
     "id": 942,
-    "index": 285,
+    "index": 288,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3929,7 +3968,7 @@
   },
   {
     "id": 943,
-    "index": 286,
+    "index": 289,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3942,7 +3981,7 @@
   },
   {
     "id": 944,
-    "index": 287,
+    "index": 290,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3955,7 +3994,7 @@
   },
   {
     "id": 945,
-    "index": 288,
+    "index": 291,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3968,7 +4007,7 @@
   },
   {
     "id": 948,
-    "index": 289,
+    "index": 292,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3981,7 +4020,7 @@
   },
   {
     "id": 950,
-    "index": 290,
+    "index": 293,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -3994,7 +4033,7 @@
   },
   {
     "id": 953,
-    "index": 291,
+    "index": 294,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4007,7 +4046,7 @@
   },
   {
     "id": 954,
-    "index": 292,
+    "index": 295,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4020,7 +4059,7 @@
   },
   {
     "id": 955,
-    "index": 293,
+    "index": 296,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4033,7 +4072,7 @@
   },
   {
     "id": 956,
-    "index": 294,
+    "index": 297,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4046,7 +4085,7 @@
   },
   {
     "id": 957,
-    "index": 295,
+    "index": 298,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4059,7 +4098,7 @@
   },
   {
     "id": 959,
-    "index": 296,
+    "index": 299,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4072,7 +4111,7 @@
   },
   {
     "id": 960,
-    "index": 297,
+    "index": 300,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4085,7 +4124,7 @@
   },
   {
     "id": 961,
-    "index": 298,
+    "index": 301,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4098,7 +4137,7 @@
   },
   {
     "id": 962,
-    "index": 299,
+    "index": 302,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4111,7 +4150,7 @@
   },
   {
     "id": 964,
-    "index": 300,
+    "index": 303,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4124,7 +4163,7 @@
   },
   {
     "id": 965,
-    "index": 301,
+    "index": 304,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4137,7 +4176,7 @@
   },
   {
     "id": 966,
-    "index": 302,
+    "index": 305,
     "sceneId": "gremlin-task",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4150,7 +4189,7 @@
   },
   {
     "id": 967,
-    "index": 303,
+    "index": 306,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4163,7 +4202,7 @@
   },
   {
     "id": 969,
-    "index": 304,
+    "index": 307,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4176,7 +4215,7 @@
   },
   {
     "id": 970,
-    "index": 305,
+    "index": 308,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4189,7 +4228,7 @@
   },
   {
     "id": 971,
-    "index": 306,
+    "index": 309,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4202,7 +4241,7 @@
   },
   {
     "id": 973,
-    "index": 307,
+    "index": 310,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4215,7 +4254,7 @@
   },
   {
     "id": 975,
-    "index": 308,
+    "index": 311,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4228,7 +4267,7 @@
   },
   {
     "id": 976,
-    "index": 309,
+    "index": 312,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4246,7 +4285,7 @@
   },
   {
     "id": 979,
-    "index": 310,
+    "index": 313,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4259,7 +4298,7 @@
   },
   {
     "id": 981,
-    "index": 311,
+    "index": 314,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4272,7 +4311,7 @@
   },
   {
     "id": 982,
-    "index": 312,
+    "index": 315,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4285,7 +4324,7 @@
   },
   {
     "id": 1030,
-    "index": 313,
+    "index": 316,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4309,7 +4348,7 @@
   },
   {
     "id": 1031,
-    "index": 314,
+    "index": 317,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4322,7 +4361,7 @@
   },
   {
     "id": 1033,
-    "index": 315,
+    "index": 318,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4335,7 +4374,7 @@
   },
   {
     "id": 1036,
-    "index": 316,
+    "index": 319,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4348,7 +4387,7 @@
   },
   {
     "id": 1039,
-    "index": 317,
+    "index": 320,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4361,7 +4400,7 @@
   },
   {
     "id": 1042,
-    "index": 318,
+    "index": 321,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4374,7 +4413,7 @@
   },
   {
     "id": 1047,
-    "index": 319,
+    "index": 322,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4387,7 +4426,7 @@
   },
   {
     "id": 1049,
-    "index": 320,
+    "index": 323,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4400,7 +4439,7 @@
   },
   {
     "id": 1050,
-    "index": 321,
+    "index": 324,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4413,7 +4452,7 @@
   },
   {
     "id": 1051,
-    "index": 322,
+    "index": 325,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4426,7 +4465,7 @@
   },
   {
     "id": 1054,
-    "index": 323,
+    "index": 326,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4445,7 +4484,7 @@
   },
   {
     "id": 1055,
-    "index": 324,
+    "index": 327,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4463,7 +4502,7 @@
   },
   {
     "id": 1056,
-    "index": 325,
+    "index": 328,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4476,7 +4515,7 @@
   },
   {
     "id": 1057,
-    "index": 326,
+    "index": 329,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4489,7 +4528,7 @@
   },
   {
     "id": 1059,
-    "index": 327,
+    "index": 330,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4512,7 +4551,7 @@
   },
   {
     "id": 1068,
-    "index": 328,
+    "index": 331,
     "sceneId": "gremlin-task",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4536,7 +4575,7 @@
   },
   {
     "id": 1071,
-    "index": 329,
+    "index": 332,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4549,7 +4588,7 @@
   },
   {
     "id": 1073,
-    "index": 330,
+    "index": 333,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4562,7 +4601,7 @@
   },
   {
     "id": 1075,
-    "index": 331,
+    "index": 334,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4575,7 +4614,7 @@
   },
   {
     "id": 1076,
-    "index": 332,
+    "index": 335,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4588,7 +4627,7 @@
   },
   {
     "id": 1088,
-    "index": 333,
+    "index": 336,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
@@ -4613,7 +4652,7 @@
   },
   {
     "id": 5576,
-    "index": 334,
+    "index": 337,
     "sceneId": "gremlin-task",
     "speaker": "GM Note",
     "character": null,
@@ -4626,7 +4665,7 @@
   },
   {
     "id": 5575,
-    "index": 335,
+    "index": 338,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4639,7 +4678,7 @@
   },
   {
     "id": 1092,
-    "index": 336,
+    "index": 339,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4652,7 +4691,7 @@
   },
   {
     "id": 1095,
-    "index": 337,
+    "index": 340,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4665,7 +4704,7 @@
   },
   {
     "id": 1097,
-    "index": 338,
+    "index": 341,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4678,7 +4717,7 @@
   },
   {
     "id": 1098,
-    "index": 339,
+    "index": 342,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4691,7 +4730,7 @@
   },
   {
     "id": 1100,
-    "index": 340,
+    "index": 343,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4704,7 +4743,7 @@
   },
   {
     "id": 1101,
-    "index": 341,
+    "index": 344,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4717,7 +4756,7 @@
   },
   {
     "id": 1102,
-    "index": 342,
+    "index": 345,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4730,7 +4769,7 @@
   },
   {
     "id": 1103,
-    "index": 343,
+    "index": 346,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4743,7 +4782,7 @@
   },
   {
     "id": 1104,
-    "index": 344,
+    "index": 347,
     "sceneId": "gremlin-task",
     "speaker": "Julia",
     "character": "Anya",
@@ -4756,7 +4795,7 @@
   },
   {
     "id": 1105,
-    "index": 345,
+    "index": 348,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4769,7 +4808,7 @@
   },
   {
     "id": 4100,
-    "index": 346,
+    "index": 349,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4782,7 +4821,7 @@
   },
   {
     "id": 4101,
-    "index": 347,
+    "index": 350,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4795,7 +4834,7 @@
   },
   {
     "id": 1106,
-    "index": 348,
+    "index": 351,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4808,7 +4847,7 @@
   },
   {
     "id": 1108,
-    "index": 349,
+    "index": 352,
     "sceneId": "gremlin-task",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4821,7 +4860,7 @@
   },
   {
     "id": 1109,
-    "index": 350,
+    "index": 353,
     "sceneId": "gremlin-task",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4834,7 +4873,7 @@
   },
   {
     "id": 1110,
-    "index": 351,
+    "index": 354,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4847,7 +4886,7 @@
   },
   {
     "id": 1111,
-    "index": 352,
+    "index": 355,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4860,7 +4899,7 @@
   },
   {
     "id": 1112,
-    "index": 353,
+    "index": 356,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4873,7 +4912,7 @@
   },
   {
     "id": 1113,
-    "index": 354,
+    "index": 357,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4886,7 +4925,7 @@
   },
   {
     "id": 1115,
-    "index": 355,
+    "index": 358,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4899,7 +4938,7 @@
   },
   {
     "id": 1116,
-    "index": 356,
+    "index": 359,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4912,7 +4951,7 @@
   },
   {
     "id": 1137,
-    "index": 357,
+    "index": 360,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4925,7 +4964,7 @@
   },
   {
     "id": 1138,
-    "index": 358,
+    "index": 361,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4938,7 +4977,7 @@
   },
   {
     "id": 1139,
-    "index": 359,
+    "index": 362,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4951,7 +4990,7 @@
   },
   {
     "id": 1140,
-    "index": 360,
+    "index": 363,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4964,7 +5003,7 @@
   },
   {
     "id": 1141,
-    "index": 361,
+    "index": 364,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4977,7 +5016,7 @@
   },
   {
     "id": 1142,
-    "index": 362,
+    "index": 365,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -4990,7 +5029,7 @@
   },
   {
     "id": 1144,
-    "index": 363,
+    "index": 366,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5003,7 +5042,7 @@
   },
   {
     "id": 1145,
-    "index": 364,
+    "index": 367,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5016,7 +5055,7 @@
   },
   {
     "id": 1146,
-    "index": 365,
+    "index": 368,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5029,7 +5068,7 @@
   },
   {
     "id": 1147,
-    "index": 366,
+    "index": 369,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5042,7 +5081,7 @@
   },
   {
     "id": 1148,
-    "index": 367,
+    "index": 370,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5055,7 +5094,7 @@
   },
   {
     "id": 1149,
-    "index": 368,
+    "index": 371,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5068,7 +5107,7 @@
   },
   {
     "id": 1150,
-    "index": 369,
+    "index": 372,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5081,7 +5120,7 @@
   },
   {
     "id": 1151,
-    "index": 370,
+    "index": 373,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5094,7 +5133,7 @@
   },
   {
     "id": 1155,
-    "index": 371,
+    "index": 374,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5107,7 +5146,7 @@
   },
   {
     "id": 1157,
-    "index": 372,
+    "index": 375,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5120,7 +5159,7 @@
   },
   {
     "id": 1158,
-    "index": 373,
+    "index": 376,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5133,7 +5172,7 @@
   },
   {
     "id": 1159,
-    "index": 374,
+    "index": 377,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5146,7 +5185,7 @@
   },
   {
     "id": 1160,
-    "index": 375,
+    "index": 378,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5159,7 +5198,7 @@
   },
   {
     "id": 1161,
-    "index": 376,
+    "index": 379,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5172,7 +5211,7 @@
   },
   {
     "id": 1164,
-    "index": 377,
+    "index": 380,
     "sceneId": "gremlin-task",
     "speaker": "Dave",
     "character": null,
@@ -5185,7 +5224,7 @@
   },
   {
     "id": 1165,
-    "index": 378,
+    "index": 381,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5198,7 +5237,7 @@
   },
   {
     "id": 1166,
-    "index": 379,
+    "index": 382,
     "sceneId": "gremlin-task",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5211,7 +5250,7 @@
   },
   {
     "id": 1168,
-    "index": 380,
+    "index": 383,
     "sceneId": "gremlin-task",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5224,7 +5263,7 @@
   },
   {
     "id": 1169,
-    "index": 381,
+    "index": 384,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5237,7 +5276,7 @@
   },
   {
     "id": 1173,
-    "index": 382,
+    "index": 385,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5250,7 +5289,7 @@
   },
   {
     "id": 1174,
-    "index": 383,
+    "index": 386,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5263,7 +5302,7 @@
   },
   {
     "id": 1176,
-    "index": 384,
+    "index": 387,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5276,7 +5315,7 @@
   },
   {
     "id": 1177,
-    "index": 385,
+    "index": 388,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5289,7 +5328,7 @@
   },
   {
     "id": 1179,
-    "index": 386,
+    "index": 389,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5302,7 +5341,7 @@
   },
   {
     "id": 1182,
-    "index": 387,
+    "index": 390,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5315,7 +5354,7 @@
   },
   {
     "id": 1183,
-    "index": 388,
+    "index": 391,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5328,7 +5367,7 @@
   },
   {
     "id": 1184,
-    "index": 389,
+    "index": 392,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5341,7 +5380,7 @@
   },
   {
     "id": 1185,
-    "index": 390,
+    "index": 393,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5354,7 +5393,7 @@
   },
   {
     "id": 1186,
-    "index": 391,
+    "index": 394,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5367,7 +5406,7 @@
   },
   {
     "id": 1187,
-    "index": 392,
+    "index": 395,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5380,7 +5419,7 @@
   },
   {
     "id": 4150,
-    "index": 393,
+    "index": 396,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5393,7 +5432,7 @@
   },
   {
     "id": 1188,
-    "index": 394,
+    "index": 397,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5406,7 +5445,7 @@
   },
   {
     "id": 1189,
-    "index": 395,
+    "index": 398,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5419,7 +5458,7 @@
   },
   {
     "id": 4151,
-    "index": 396,
+    "index": 399,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5432,7 +5471,7 @@
   },
   {
     "id": 1191,
-    "index": 397,
+    "index": 400,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5445,7 +5484,7 @@
   },
   {
     "id": 1196,
-    "index": 398,
+    "index": 401,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5458,7 +5497,7 @@
   },
   {
     "id": 1197,
-    "index": 399,
+    "index": 402,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5471,7 +5510,7 @@
   },
   {
     "id": 1198,
-    "index": 400,
+    "index": 403,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5484,7 +5523,7 @@
   },
   {
     "id": 1199,
-    "index": 401,
+    "index": 404,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5497,7 +5536,7 @@
   },
   {
     "id": 1200,
-    "index": 402,
+    "index": 405,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5510,7 +5549,7 @@
   },
   {
     "id": 1201,
-    "index": 403,
+    "index": 406,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5523,7 +5562,7 @@
   },
   {
     "id": 1202,
-    "index": 404,
+    "index": 407,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5536,7 +5575,7 @@
   },
   {
     "id": 1204,
-    "index": 405,
+    "index": 408,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5549,7 +5588,7 @@
   },
   {
     "id": 1206,
-    "index": 406,
+    "index": 409,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5562,7 +5601,7 @@
   },
   {
     "id": 1209,
-    "index": 407,
+    "index": 410,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5575,7 +5614,7 @@
   },
   {
     "id": 1210,
-    "index": 408,
+    "index": 411,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5588,7 +5627,7 @@
   },
   {
     "id": 1211,
-    "index": 409,
+    "index": 412,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5601,7 +5640,7 @@
   },
   {
     "id": 1212,
-    "index": 410,
+    "index": 413,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5614,7 +5653,7 @@
   },
   {
     "id": 1213,
-    "index": 411,
+    "index": 414,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5627,7 +5666,7 @@
   },
   {
     "id": 1216,
-    "index": 412,
+    "index": 415,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5640,7 +5679,7 @@
   },
   {
     "id": 1219,
-    "index": 413,
+    "index": 416,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5653,7 +5692,7 @@
   },
   {
     "id": 1220,
-    "index": 414,
+    "index": 417,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5666,7 +5705,7 @@
   },
   {
     "id": 1221,
-    "index": 415,
+    "index": 418,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5679,7 +5718,7 @@
   },
   {
     "id": 1222,
-    "index": 416,
+    "index": 419,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5692,7 +5731,7 @@
   },
   {
     "id": 1229,
-    "index": 417,
+    "index": 420,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5705,7 +5744,7 @@
   },
   {
     "id": 1231,
-    "index": 418,
+    "index": 421,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5718,7 +5757,7 @@
   },
   {
     "id": 1233,
-    "index": 419,
+    "index": 422,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5731,7 +5770,7 @@
   },
   {
     "id": 1236,
-    "index": 420,
+    "index": 423,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5744,7 +5783,7 @@
   },
   {
     "id": 1238,
-    "index": 421,
+    "index": 424,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5762,7 +5801,7 @@
   },
   {
     "id": 1240,
-    "index": 422,
+    "index": 425,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5785,7 +5824,7 @@
   },
   {
     "id": 1242,
-    "index": 423,
+    "index": 426,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5798,7 +5837,7 @@
   },
   {
     "id": 1243,
-    "index": 424,
+    "index": 427,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5816,7 +5855,7 @@
   },
   {
     "id": 1251,
-    "index": 425,
+    "index": 428,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5835,7 +5874,7 @@
   },
   {
     "id": 1254,
-    "index": 426,
+    "index": 429,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5853,7 +5892,7 @@
   },
   {
     "id": 1255,
-    "index": 427,
+    "index": 430,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -5877,7 +5916,7 @@
   },
   {
     "id": 1260,
-    "index": 428,
+    "index": 431,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5902,7 +5941,7 @@
   },
   {
     "id": 1273,
-    "index": 429,
+    "index": 432,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5915,7 +5954,7 @@
   },
   {
     "id": 1275,
-    "index": 430,
+    "index": 433,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5928,7 +5967,7 @@
   },
   {
     "id": 1277,
-    "index": 431,
+    "index": 434,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5941,7 +5980,7 @@
   },
   {
     "id": 1278,
-    "index": 432,
+    "index": 435,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5954,7 +5993,7 @@
   },
   {
     "id": 1279,
-    "index": 433,
+    "index": 436,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5967,7 +6006,7 @@
   },
   {
     "id": 1280,
-    "index": 434,
+    "index": 437,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5980,7 +6019,7 @@
   },
   {
     "id": 1281,
-    "index": 435,
+    "index": 438,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -5993,7 +6032,7 @@
   },
   {
     "id": 1284,
-    "index": 436,
+    "index": 439,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6006,7 +6045,7 @@
   },
   {
     "id": 1286,
-    "index": 437,
+    "index": 440,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6019,7 +6058,7 @@
   },
   {
     "id": 1287,
-    "index": 438,
+    "index": 441,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6032,7 +6071,7 @@
   },
   {
     "id": 4250,
-    "index": 439,
+    "index": 442,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6045,7 +6084,7 @@
   },
   {
     "id": 1288,
-    "index": 440,
+    "index": 443,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6058,7 +6097,7 @@
   },
   {
     "id": 1294,
-    "index": 441,
+    "index": 444,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6071,7 +6110,7 @@
   },
   {
     "id": 1297,
-    "index": 442,
+    "index": 445,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6084,7 +6123,7 @@
   },
   {
     "id": 4251,
-    "index": 443,
+    "index": 446,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6097,7 +6136,7 @@
   },
   {
     "id": 1299,
-    "index": 444,
+    "index": 447,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6110,7 +6149,7 @@
   },
   {
     "id": 1300,
-    "index": 445,
+    "index": 448,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6123,7 +6162,7 @@
   },
   {
     "id": 1310,
-    "index": 446,
+    "index": 449,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6136,7 +6175,7 @@
   },
   {
     "id": 1311,
-    "index": 447,
+    "index": 450,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6149,7 +6188,7 @@
   },
   {
     "id": 1312,
-    "index": 448,
+    "index": 451,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6162,7 +6201,7 @@
   },
   {
     "id": 1313,
-    "index": 449,
+    "index": 452,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6175,7 +6214,7 @@
   },
   {
     "id": 1314,
-    "index": 450,
+    "index": 453,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6188,7 +6227,7 @@
   },
   {
     "id": 1315,
-    "index": 451,
+    "index": 454,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6201,7 +6240,7 @@
   },
   {
     "id": 1316,
-    "index": 452,
+    "index": 455,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6214,7 +6253,7 @@
   },
   {
     "id": 1322,
-    "index": 453,
+    "index": 456,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6227,7 +6266,7 @@
   },
   {
     "id": 4300,
-    "index": 454,
+    "index": 457,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6240,7 +6279,7 @@
   },
   {
     "id": 1326,
-    "index": 455,
+    "index": 458,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6253,7 +6292,7 @@
   },
   {
     "id": 5577,
-    "index": 456,
+    "index": 459,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6266,7 +6305,7 @@
   },
   {
     "id": 1328,
-    "index": 457,
+    "index": 460,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6279,7 +6318,7 @@
   },
   {
     "id": 5578,
-    "index": 458,
+    "index": 461,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6292,7 +6331,7 @@
   },
   {
     "id": 1332,
-    "index": 459,
+    "index": 462,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6305,7 +6344,7 @@
   },
   {
     "id": 1334,
-    "index": 460,
+    "index": 463,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6318,7 +6357,7 @@
   },
   {
     "id": 1335,
-    "index": 461,
+    "index": 464,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6331,7 +6370,7 @@
   },
   {
     "id": 5579,
-    "index": 462,
+    "index": 465,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6344,7 +6383,7 @@
   },
   {
     "id": 1337,
-    "index": 463,
+    "index": 466,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6357,7 +6396,7 @@
   },
   {
     "id": 1338,
-    "index": 464,
+    "index": 467,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6370,7 +6409,7 @@
   },
   {
     "id": 1340,
-    "index": 465,
+    "index": 468,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6383,7 +6422,7 @@
   },
   {
     "id": 1341,
-    "index": 466,
+    "index": 469,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6396,7 +6435,7 @@
   },
   {
     "id": 1342,
-    "index": 467,
+    "index": 470,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6409,7 +6448,7 @@
   },
   {
     "id": 1343,
-    "index": 468,
+    "index": 471,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6422,7 +6461,7 @@
   },
   {
     "id": 1344,
-    "index": 469,
+    "index": 472,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6435,7 +6474,7 @@
   },
   {
     "id": 5580,
-    "index": 470,
+    "index": 473,
     "sceneId": "split-investigation",
     "speaker": "GM Note",
     "character": null,
@@ -6448,7 +6487,7 @@
   },
   {
     "id": 1345,
-    "index": 471,
+    "index": 474,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6461,7 +6500,7 @@
   },
   {
     "id": 1346,
-    "index": 472,
+    "index": 475,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6474,7 +6513,7 @@
   },
   {
     "id": 1347,
-    "index": 473,
+    "index": 476,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6487,7 +6526,7 @@
   },
   {
     "id": 1348,
-    "index": 474,
+    "index": 477,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6500,7 +6539,7 @@
   },
   {
     "id": 1349,
-    "index": 475,
+    "index": 478,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6513,7 +6552,7 @@
   },
   {
     "id": 1350,
-    "index": 476,
+    "index": 479,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6526,7 +6565,7 @@
   },
   {
     "id": 1351,
-    "index": 477,
+    "index": 480,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6539,7 +6578,7 @@
   },
   {
     "id": 1353,
-    "index": 478,
+    "index": 481,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6552,7 +6591,7 @@
   },
   {
     "id": 1354,
-    "index": 479,
+    "index": 482,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6565,7 +6604,7 @@
   },
   {
     "id": 1355,
-    "index": 480,
+    "index": 483,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6578,7 +6617,7 @@
   },
   {
     "id": 4350,
-    "index": 481,
+    "index": 484,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6591,7 +6630,7 @@
   },
   {
     "id": 1356,
-    "index": 482,
+    "index": 485,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6604,7 +6643,7 @@
   },
   {
     "id": 1357,
-    "index": 483,
+    "index": 486,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6617,7 +6656,7 @@
   },
   {
     "id": 1359,
-    "index": 484,
+    "index": 487,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6630,7 +6669,7 @@
   },
   {
     "id": 1379,
-    "index": 485,
+    "index": 488,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -6643,7 +6682,7 @@
   },
   {
     "id": 1384,
-    "index": 486,
+    "index": 489,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6656,7 +6695,7 @@
   },
   {
     "id": 1385,
-    "index": 487,
+    "index": 490,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6669,7 +6708,7 @@
   },
   {
     "id": 1386,
-    "index": 488,
+    "index": 491,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6682,7 +6721,7 @@
   },
   {
     "id": 1387,
-    "index": 489,
+    "index": 492,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6695,7 +6734,7 @@
   },
   {
     "id": 1388,
-    "index": 490,
+    "index": 493,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6708,7 +6747,7 @@
   },
   {
     "id": 1390,
-    "index": 491,
+    "index": 494,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6721,7 +6760,7 @@
   },
   {
     "id": 1391,
-    "index": 492,
+    "index": 495,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6734,7 +6773,7 @@
   },
   {
     "id": 1395,
-    "index": 493,
+    "index": 496,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6747,7 +6786,7 @@
   },
   {
     "id": 1396,
-    "index": 494,
+    "index": 497,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6760,7 +6799,7 @@
   },
   {
     "id": 1397,
-    "index": 495,
+    "index": 498,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6773,7 +6812,7 @@
   },
   {
     "id": 1399,
-    "index": 496,
+    "index": 499,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6786,7 +6825,7 @@
   },
   {
     "id": 1400,
-    "index": 497,
+    "index": 500,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6799,7 +6838,7 @@
   },
   {
     "id": 1401,
-    "index": 498,
+    "index": 501,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6812,7 +6851,7 @@
   },
   {
     "id": 1402,
-    "index": 499,
+    "index": 502,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6825,7 +6864,7 @@
   },
   {
     "id": 1403,
-    "index": 500,
+    "index": 503,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6838,7 +6877,7 @@
   },
   {
     "id": 5581,
-    "index": 501,
+    "index": 504,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6851,7 +6890,7 @@
   },
   {
     "id": 1404,
-    "index": 502,
+    "index": 505,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6864,7 +6903,7 @@
   },
   {
     "id": 1405,
-    "index": 503,
+    "index": 506,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6877,7 +6916,7 @@
   },
   {
     "id": 1406,
-    "index": 504,
+    "index": 507,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6890,7 +6929,7 @@
   },
   {
     "id": 1407,
-    "index": 505,
+    "index": 508,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6903,7 +6942,7 @@
   },
   {
     "id": 1411,
-    "index": 506,
+    "index": 509,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6916,7 +6955,7 @@
   },
   {
     "id": 1412,
-    "index": 507,
+    "index": 510,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6929,7 +6968,7 @@
   },
   {
     "id": 1413,
-    "index": 508,
+    "index": 511,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6942,7 +6981,7 @@
   },
   {
     "id": 1414,
-    "index": 509,
+    "index": 512,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6960,7 +6999,7 @@
   },
   {
     "id": 1416,
-    "index": 510,
+    "index": 513,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -6973,7 +7012,7 @@
   },
   {
     "id": 1417,
-    "index": 511,
+    "index": 514,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6986,7 +7025,7 @@
   },
   {
     "id": 1419,
-    "index": 512,
+    "index": 515,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6999,7 +7038,7 @@
   },
   {
     "id": 1421,
-    "index": 513,
+    "index": 516,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -7012,7 +7051,7 @@
   },
   {
     "id": 1422,
-    "index": 514,
+    "index": 517,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7036,7 +7075,7 @@
   },
   {
     "id": 1424,
-    "index": 515,
+    "index": 518,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7060,7 +7099,7 @@
   },
   {
     "id": 1425,
-    "index": 516,
+    "index": 519,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7073,7 +7112,7 @@
   },
   {
     "id": 1427,
-    "index": 517,
+    "index": 520,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7086,7 +7125,7 @@
   },
   {
     "id": 1428,
-    "index": 518,
+    "index": 521,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7099,7 +7138,7 @@
   },
   {
     "id": 1429,
-    "index": 519,
+    "index": 522,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7112,7 +7151,7 @@
   },
   {
     "id": 1430,
-    "index": 520,
+    "index": 523,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -7136,7 +7175,7 @@
   },
   {
     "id": 1433,
-    "index": 521,
+    "index": 524,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7160,7 +7199,7 @@
   },
   {
     "id": 1435,
-    "index": 522,
+    "index": 525,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7184,7 +7223,7 @@
   },
   {
     "id": 1436,
-    "index": 523,
+    "index": 526,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7208,7 +7247,7 @@
   },
   {
     "id": 1437,
-    "index": 524,
+    "index": 527,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7221,7 +7260,7 @@
   },
   {
     "id": 1440,
-    "index": 525,
+    "index": 528,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7234,7 +7273,7 @@
   },
   {
     "id": 1442,
-    "index": 526,
+    "index": 529,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7247,7 +7286,7 @@
   },
   {
     "id": 4400,
-    "index": 527,
+    "index": 530,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7260,7 +7299,7 @@
   },
   {
     "id": 1445,
-    "index": 528,
+    "index": 531,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7273,7 +7312,7 @@
   },
   {
     "id": 1449,
-    "index": 529,
+    "index": 532,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7286,7 +7325,7 @@
   },
   {
     "id": 1451,
-    "index": 530,
+    "index": 533,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7299,7 +7338,7 @@
   },
   {
     "id": 1457,
-    "index": 531,
+    "index": 534,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -7312,7 +7351,7 @@
   },
   {
     "id": 1458,
-    "index": 532,
+    "index": 535,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7325,7 +7364,7 @@
   },
   {
     "id": 1460,
-    "index": 533,
+    "index": 536,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7338,7 +7377,7 @@
   },
   {
     "id": 1461,
-    "index": 534,
+    "index": 537,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7351,7 +7390,7 @@
   },
   {
     "id": 1464,
-    "index": 535,
+    "index": 538,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7364,7 +7403,7 @@
   },
   {
     "id": 1465,
-    "index": 536,
+    "index": 539,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7377,7 +7416,7 @@
   },
   {
     "id": 1466,
-    "index": 537,
+    "index": 540,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7390,7 +7429,7 @@
   },
   {
     "id": 1467,
-    "index": 538,
+    "index": 541,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7403,7 +7442,7 @@
   },
   {
     "id": 1468,
-    "index": 539,
+    "index": 542,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7416,7 +7455,7 @@
   },
   {
     "id": 1469,
-    "index": 540,
+    "index": 543,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7429,7 +7468,7 @@
   },
   {
     "id": 1470,
-    "index": 541,
+    "index": 544,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7442,7 +7481,7 @@
   },
   {
     "id": 1471,
-    "index": 542,
+    "index": 545,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7455,7 +7494,7 @@
   },
   {
     "id": 1472,
-    "index": 543,
+    "index": 546,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7468,7 +7507,7 @@
   },
   {
     "id": 1473,
-    "index": 544,
+    "index": 547,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7481,7 +7520,7 @@
   },
   {
     "id": 1474,
-    "index": 545,
+    "index": 548,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7494,7 +7533,7 @@
   },
   {
     "id": 1476,
-    "index": 546,
+    "index": 549,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7507,7 +7546,7 @@
   },
   {
     "id": 1477,
-    "index": 547,
+    "index": 550,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7520,7 +7559,7 @@
   },
   {
     "id": 1478,
-    "index": 548,
+    "index": 551,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7533,7 +7572,7 @@
   },
   {
     "id": 1479,
-    "index": 549,
+    "index": 552,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7546,7 +7585,7 @@
   },
   {
     "id": 1480,
-    "index": 550,
+    "index": 553,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7559,7 +7598,7 @@
   },
   {
     "id": 1481,
-    "index": 551,
+    "index": 554,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7572,7 +7611,7 @@
   },
   {
     "id": 1482,
-    "index": 552,
+    "index": 555,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7585,7 +7624,7 @@
   },
   {
     "id": 1483,
-    "index": 553,
+    "index": 556,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7598,7 +7637,7 @@
   },
   {
     "id": 1484,
-    "index": 554,
+    "index": 557,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7611,7 +7650,7 @@
   },
   {
     "id": 1485,
-    "index": 555,
+    "index": 558,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7624,7 +7663,7 @@
   },
   {
     "id": 4450,
-    "index": 556,
+    "index": 559,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7637,7 +7676,7 @@
   },
   {
     "id": 1486,
-    "index": 557,
+    "index": 560,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7650,7 +7689,7 @@
   },
   {
     "id": 1487,
-    "index": 558,
+    "index": 561,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7663,7 +7702,7 @@
   },
   {
     "id": 1488,
-    "index": 559,
+    "index": 562,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7676,7 +7715,7 @@
   },
   {
     "id": 1489,
-    "index": 560,
+    "index": 563,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7689,7 +7728,7 @@
   },
   {
     "id": 1490,
-    "index": 561,
+    "index": 564,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -7702,7 +7741,7 @@
   },
   {
     "id": 1491,
-    "index": 562,
+    "index": 565,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7715,7 +7754,7 @@
   },
   {
     "id": 1492,
-    "index": 563,
+    "index": 566,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7728,7 +7767,7 @@
   },
   {
     "id": 1493,
-    "index": 564,
+    "index": 567,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7741,7 +7780,7 @@
   },
   {
     "id": 1494,
-    "index": 565,
+    "index": 568,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7754,7 +7793,7 @@
   },
   {
     "id": 1495,
-    "index": 566,
+    "index": 569,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7767,7 +7806,7 @@
   },
   {
     "id": 1496,
-    "index": 567,
+    "index": 570,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7780,7 +7819,7 @@
   },
   {
     "id": 1497,
-    "index": 568,
+    "index": 571,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7793,7 +7832,7 @@
   },
   {
     "id": 1499,
-    "index": 569,
+    "index": 572,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7806,7 +7845,7 @@
   },
   {
     "id": 1500,
-    "index": 570,
+    "index": 573,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7819,7 +7858,7 @@
   },
   {
     "id": 1501,
-    "index": 571,
+    "index": 574,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7832,7 +7871,7 @@
   },
   {
     "id": 1503,
-    "index": 572,
+    "index": 575,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7845,7 +7884,7 @@
   },
   {
     "id": 1504,
-    "index": 573,
+    "index": 576,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7858,7 +7897,7 @@
   },
   {
     "id": 1505,
-    "index": 574,
+    "index": 577,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7871,7 +7910,7 @@
   },
   {
     "id": 1508,
-    "index": 575,
+    "index": 578,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7884,7 +7923,7 @@
   },
   {
     "id": 1510,
-    "index": 576,
+    "index": 579,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7897,7 +7936,7 @@
   },
   {
     "id": 1511,
-    "index": 577,
+    "index": 580,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7910,7 +7949,7 @@
   },
   {
     "id": 1512,
-    "index": 578,
+    "index": 581,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7923,7 +7962,7 @@
   },
   {
     "id": 1514,
-    "index": 579,
+    "index": 582,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -7936,7 +7975,7 @@
   },
   {
     "id": 1517,
-    "index": 580,
+    "index": 583,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -7954,7 +7993,7 @@
   },
   {
     "id": 1519,
-    "index": 581,
+    "index": 584,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7967,7 +8006,7 @@
   },
   {
     "id": 1523,
-    "index": 582,
+    "index": 585,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7980,7 +8019,7 @@
   },
   {
     "id": 1524,
-    "index": 583,
+    "index": 586,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -7993,7 +8032,7 @@
   },
   {
     "id": 1525,
-    "index": 584,
+    "index": 587,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8006,7 +8045,7 @@
   },
   {
     "id": 1529,
-    "index": 585,
+    "index": 588,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8019,7 +8058,7 @@
   },
   {
     "id": 1530,
-    "index": 586,
+    "index": 589,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8032,7 +8071,7 @@
   },
   {
     "id": 1531,
-    "index": 587,
+    "index": 590,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8045,7 +8084,7 @@
   },
   {
     "id": 1534,
-    "index": 588,
+    "index": 591,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -8058,7 +8097,7 @@
   },
   {
     "id": 1535,
-    "index": 589,
+    "index": 592,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -8071,7 +8110,7 @@
   },
   {
     "id": 1537,
-    "index": 590,
+    "index": 593,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8084,7 +8123,7 @@
   },
   {
     "id": 1539,
-    "index": 591,
+    "index": 594,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8097,7 +8136,7 @@
   },
   {
     "id": 1543,
-    "index": 592,
+    "index": 595,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8110,7 +8149,7 @@
   },
   {
     "id": 1544,
-    "index": 593,
+    "index": 596,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8123,7 +8162,7 @@
   },
   {
     "id": 1545,
-    "index": 594,
+    "index": 597,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8136,7 +8175,7 @@
   },
   {
     "id": 1546,
-    "index": 595,
+    "index": 598,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8149,7 +8188,7 @@
   },
   {
     "id": 1548,
-    "index": 596,
+    "index": 599,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8162,7 +8201,7 @@
   },
   {
     "id": 1549,
-    "index": 597,
+    "index": 600,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8175,7 +8214,7 @@
   },
   {
     "id": 1550,
-    "index": 598,
+    "index": 601,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8188,7 +8227,7 @@
   },
   {
     "id": 1551,
-    "index": 599,
+    "index": 602,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8201,7 +8240,7 @@
   },
   {
     "id": 1552,
-    "index": 600,
+    "index": 603,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8214,7 +8253,7 @@
   },
   {
     "id": 1553,
-    "index": 601,
+    "index": 604,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8227,7 +8266,7 @@
   },
   {
     "id": 1554,
-    "index": 602,
+    "index": 605,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8240,7 +8279,7 @@
   },
   {
     "id": 1558,
-    "index": 603,
+    "index": 606,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8253,7 +8292,7 @@
   },
   {
     "id": 1559,
-    "index": 604,
+    "index": 607,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8266,7 +8305,7 @@
   },
   {
     "id": 1560,
-    "index": 605,
+    "index": 608,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8279,7 +8318,7 @@
   },
   {
     "id": 1561,
-    "index": 606,
+    "index": 609,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8292,7 +8331,7 @@
   },
   {
     "id": 1562,
-    "index": 607,
+    "index": 610,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8305,7 +8344,7 @@
   },
   {
     "id": 4550,
-    "index": 608,
+    "index": 611,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8318,7 +8357,7 @@
   },
   {
     "id": 1563,
-    "index": 609,
+    "index": 612,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8331,7 +8370,7 @@
   },
   {
     "id": 1564,
-    "index": 610,
+    "index": 613,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8344,7 +8383,7 @@
   },
   {
     "id": 1565,
-    "index": 611,
+    "index": 614,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8357,7 +8396,7 @@
   },
   {
     "id": 1566,
-    "index": 612,
+    "index": 615,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8370,7 +8409,7 @@
   },
   {
     "id": 1567,
-    "index": 613,
+    "index": 616,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8383,7 +8422,7 @@
   },
   {
     "id": 1568,
-    "index": 614,
+    "index": 617,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8396,7 +8435,7 @@
   },
   {
     "id": 1570,
-    "index": 615,
+    "index": 618,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8409,7 +8448,7 @@
   },
   {
     "id": 1571,
-    "index": 616,
+    "index": 619,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8422,7 +8461,7 @@
   },
   {
     "id": 1573,
-    "index": 617,
+    "index": 620,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8435,7 +8474,7 @@
   },
   {
     "id": 1574,
-    "index": 618,
+    "index": 621,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8448,7 +8487,7 @@
   },
   {
     "id": 1575,
-    "index": 619,
+    "index": 622,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8461,7 +8500,7 @@
   },
   {
     "id": 1581,
-    "index": 620,
+    "index": 623,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8474,7 +8513,7 @@
   },
   {
     "id": 1582,
-    "index": 621,
+    "index": 624,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8487,7 +8526,7 @@
   },
   {
     "id": 1583,
-    "index": 622,
+    "index": 625,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8500,7 +8539,7 @@
   },
   {
     "id": 1585,
-    "index": 623,
+    "index": 626,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8513,7 +8552,7 @@
   },
   {
     "id": 1586,
-    "index": 624,
+    "index": 627,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8526,7 +8565,7 @@
   },
   {
     "id": 1587,
-    "index": 625,
+    "index": 628,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8539,7 +8578,7 @@
   },
   {
     "id": 1588,
-    "index": 626,
+    "index": 629,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8552,7 +8591,7 @@
   },
   {
     "id": 1589,
-    "index": 627,
+    "index": 630,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8565,7 +8604,7 @@
   },
   {
     "id": 1590,
-    "index": 628,
+    "index": 631,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8578,7 +8617,7 @@
   },
   {
     "id": 1592,
-    "index": 629,
+    "index": 632,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8591,7 +8630,7 @@
   },
   {
     "id": 1593,
-    "index": 630,
+    "index": 633,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8604,7 +8643,7 @@
   },
   {
     "id": 1594,
-    "index": 631,
+    "index": 634,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8622,7 +8661,7 @@
   },
   {
     "id": 1595,
-    "index": 632,
+    "index": 635,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8635,7 +8674,7 @@
   },
   {
     "id": 1598,
-    "index": 633,
+    "index": 636,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8653,7 +8692,7 @@
   },
   {
     "id": 1600,
-    "index": 634,
+    "index": 637,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8676,7 +8715,7 @@
   },
   {
     "id": 1610,
-    "index": 635,
+    "index": 638,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8700,7 +8739,7 @@
   },
   {
     "id": 1612,
-    "index": 636,
+    "index": 639,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8724,7 +8763,7 @@
   },
   {
     "id": 1617,
-    "index": 637,
+    "index": 640,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8737,7 +8776,7 @@
   },
   {
     "id": 1618,
-    "index": 638,
+    "index": 641,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8750,7 +8789,7 @@
   },
   {
     "id": 1622,
-    "index": 639,
+    "index": 642,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8763,7 +8802,7 @@
   },
   {
     "id": 1626,
-    "index": 640,
+    "index": 643,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8776,7 +8815,7 @@
   },
   {
     "id": 1628,
-    "index": 641,
+    "index": 644,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -8789,7 +8828,7 @@
   },
   {
     "id": 1629,
-    "index": 642,
+    "index": 645,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8802,7 +8841,7 @@
   },
   {
     "id": 1636,
-    "index": 643,
+    "index": 646,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8815,7 +8854,7 @@
   },
   {
     "id": 1638,
-    "index": 644,
+    "index": 647,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8828,7 +8867,7 @@
   },
   {
     "id": 1639,
-    "index": 645,
+    "index": 648,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8841,7 +8880,7 @@
   },
   {
     "id": 1640,
-    "index": 646,
+    "index": 649,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8854,7 +8893,7 @@
   },
   {
     "id": 1642,
-    "index": 647,
+    "index": 650,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8867,7 +8906,7 @@
   },
   {
     "id": 1646,
-    "index": 648,
+    "index": 651,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8880,7 +8919,7 @@
   },
   {
     "id": 1651,
-    "index": 649,
+    "index": 652,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8893,7 +8932,7 @@
   },
   {
     "id": 1655,
-    "index": 650,
+    "index": 653,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8906,7 +8945,7 @@
   },
   {
     "id": 1658,
-    "index": 651,
+    "index": 654,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8919,7 +8958,7 @@
   },
   {
     "id": 1660,
-    "index": 652,
+    "index": 655,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8932,7 +8971,7 @@
   },
   {
     "id": 1661,
-    "index": 653,
+    "index": 656,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8945,7 +8984,7 @@
   },
   {
     "id": 1663,
-    "index": 654,
+    "index": 657,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8958,7 +8997,7 @@
   },
   {
     "id": 1664,
-    "index": 655,
+    "index": 658,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -8971,7 +9010,7 @@
   },
   {
     "id": 1665,
-    "index": 656,
+    "index": 659,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8984,7 +9023,7 @@
   },
   {
     "id": 1666,
-    "index": 657,
+    "index": 660,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8997,7 +9036,7 @@
   },
   {
     "id": 1667,
-    "index": 658,
+    "index": 661,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9010,7 +9049,7 @@
   },
   {
     "id": 1668,
-    "index": 659,
+    "index": 662,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9028,7 +9067,7 @@
   },
   {
     "id": 1669,
-    "index": 660,
+    "index": 663,
     "sceneId": null,
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9041,7 +9080,7 @@
   },
   {
     "id": 1670,
-    "index": 661,
+    "index": 664,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9054,7 +9093,7 @@
   },
   {
     "id": 1671,
-    "index": 662,
+    "index": 665,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9067,7 +9106,7 @@
   },
   {
     "id": 1675,
-    "index": 663,
+    "index": 666,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9080,7 +9119,7 @@
   },
   {
     "id": 1676,
-    "index": 664,
+    "index": 667,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9093,7 +9132,7 @@
   },
   {
     "id": 1677,
-    "index": 665,
+    "index": 668,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9106,7 +9145,7 @@
   },
   {
     "id": 1678,
-    "index": 666,
+    "index": 669,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9119,7 +9158,7 @@
   },
   {
     "id": 1679,
-    "index": 667,
+    "index": 670,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9132,7 +9171,7 @@
   },
   {
     "id": 4650,
-    "index": 668,
+    "index": 671,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9145,7 +9184,7 @@
   },
   {
     "id": 1680,
-    "index": 669,
+    "index": 672,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9158,7 +9197,7 @@
   },
   {
     "id": 4651,
-    "index": 670,
+    "index": 673,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9171,7 +9210,7 @@
   },
   {
     "id": 4652,
-    "index": 671,
+    "index": 674,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9184,7 +9223,7 @@
   },
   {
     "id": 1681,
-    "index": 672,
+    "index": 675,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9197,7 +9236,7 @@
   },
   {
     "id": 1682,
-    "index": 673,
+    "index": 676,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9210,7 +9249,7 @@
   },
   {
     "id": 1683,
-    "index": 674,
+    "index": 677,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -9223,7 +9262,7 @@
   },
   {
     "id": 1684,
-    "index": 675,
+    "index": 678,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9236,7 +9275,7 @@
   },
   {
     "id": 1685,
-    "index": 676,
+    "index": 679,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9249,7 +9288,7 @@
   },
   {
     "id": 1686,
-    "index": 677,
+    "index": 680,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9262,7 +9301,7 @@
   },
   {
     "id": 4653,
-    "index": 678,
+    "index": 681,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9275,7 +9314,7 @@
   },
   {
     "id": 1687,
-    "index": 679,
+    "index": 682,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9288,7 +9327,7 @@
   },
   {
     "id": 1688,
-    "index": 680,
+    "index": 683,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9301,7 +9340,7 @@
   },
   {
     "id": 4654,
-    "index": 681,
+    "index": 684,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9314,7 +9353,7 @@
   },
   {
     "id": 1689,
-    "index": 682,
+    "index": 685,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9327,7 +9366,7 @@
   },
   {
     "id": 4655,
-    "index": 683,
+    "index": 686,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9340,7 +9379,7 @@
   },
   {
     "id": 1690,
-    "index": 684,
+    "index": 687,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9353,7 +9392,7 @@
   },
   {
     "id": 1691,
-    "index": 685,
+    "index": 688,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9366,7 +9405,7 @@
   },
   {
     "id": 1695,
-    "index": 686,
+    "index": 689,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9379,7 +9418,7 @@
   },
   {
     "id": 1696,
-    "index": 687,
+    "index": 690,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9392,7 +9431,7 @@
   },
   {
     "id": 1698,
-    "index": 688,
+    "index": 691,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9405,7 +9444,7 @@
   },
   {
     "id": 1699,
-    "index": 689,
+    "index": 692,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9418,7 +9457,7 @@
   },
   {
     "id": 1700,
-    "index": 690,
+    "index": 693,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9431,7 +9470,7 @@
   },
   {
     "id": 1701,
-    "index": 691,
+    "index": 694,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9444,7 +9483,7 @@
   },
   {
     "id": 1702,
-    "index": 692,
+    "index": 695,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9457,7 +9496,7 @@
   },
   {
     "id": 1704,
-    "index": 693,
+    "index": 696,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9470,7 +9509,7 @@
   },
   {
     "id": 1705,
-    "index": 694,
+    "index": 697,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9483,7 +9522,7 @@
   },
   {
     "id": 1706,
-    "index": 695,
+    "index": 698,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9496,7 +9535,7 @@
   },
   {
     "id": 1710,
-    "index": 696,
+    "index": 699,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9509,7 +9548,7 @@
   },
   {
     "id": 1711,
-    "index": 697,
+    "index": 700,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9522,7 +9561,7 @@
   },
   {
     "id": 1713,
-    "index": 698,
+    "index": 701,
     "sceneId": null,
     "speaker": "Julia",
     "character": "Anya",
@@ -9535,7 +9574,7 @@
   },
   {
     "id": 1716,
-    "index": 699,
+    "index": 702,
     "sceneId": null,
     "speaker": "Julia",
     "character": "Anya",
@@ -9548,7 +9587,7 @@
   },
   {
     "id": 1717,
-    "index": 700,
+    "index": 703,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -9561,7 +9600,7 @@
   },
   {
     "id": 1718,
-    "index": 701,
+    "index": 704,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9574,7 +9613,7 @@
   },
   {
     "id": 1719,
-    "index": 702,
+    "index": 705,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9587,7 +9626,7 @@
   },
   {
     "id": 1720,
-    "index": 703,
+    "index": 706,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9600,7 +9639,7 @@
   },
   {
     "id": 1721,
-    "index": 704,
+    "index": 707,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9613,7 +9652,7 @@
   },
   {
     "id": 1722,
-    "index": 705,
+    "index": 708,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9626,7 +9665,7 @@
   },
   {
     "id": 1724,
-    "index": 706,
+    "index": 709,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9639,7 +9678,7 @@
   },
   {
     "id": 1725,
-    "index": 707,
+    "index": 710,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9652,7 +9691,7 @@
   },
   {
     "id": 1727,
-    "index": 708,
+    "index": 711,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9665,7 +9704,7 @@
   },
   {
     "id": 1728,
-    "index": 709,
+    "index": 712,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9678,7 +9717,7 @@
   },
   {
     "id": 5584,
-    "index": 710,
+    "index": 713,
     "sceneId": "split-investigation",
     "speaker": "GM Note",
     "character": null,
@@ -9691,7 +9730,7 @@
   },
   {
     "id": 1735,
-    "index": 711,
+    "index": 714,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9704,7 +9743,7 @@
   },
   {
     "id": 1736,
-    "index": 712,
+    "index": 715,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9717,7 +9756,7 @@
   },
   {
     "id": 1737,
-    "index": 713,
+    "index": 716,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9730,7 +9769,7 @@
   },
   {
     "id": 1740,
-    "index": 714,
+    "index": 717,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9743,7 +9782,7 @@
   },
   {
     "id": 1741,
-    "index": 715,
+    "index": 718,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9756,7 +9795,7 @@
   },
   {
     "id": 5582,
-    "index": 716,
+    "index": 719,
     "sceneId": "split-investigation",
     "speaker": "GM Note",
     "character": null,
@@ -9769,7 +9808,7 @@
   },
   {
     "id": 1744,
-    "index": 717,
+    "index": 720,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -9782,7 +9821,7 @@
   },
   {
     "id": 5583,
-    "index": 718,
+    "index": 721,
     "sceneId": "split-investigation",
     "speaker": "GM Note",
     "character": null,
@@ -9795,7 +9834,7 @@
   },
   {
     "id": 1747,
-    "index": 719,
+    "index": 722,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -9808,7 +9847,7 @@
   },
   {
     "id": 1748,
-    "index": 720,
+    "index": 723,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9821,7 +9860,7 @@
   },
   {
     "id": 1749,
-    "index": 721,
+    "index": 724,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9834,7 +9873,7 @@
   },
   {
     "id": 1750,
-    "index": 722,
+    "index": 725,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9847,7 +9886,7 @@
   },
   {
     "id": 1751,
-    "index": 723,
+    "index": 726,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9860,7 +9899,7 @@
   },
   {
     "id": 1752,
-    "index": 724,
+    "index": 727,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9873,7 +9912,7 @@
   },
   {
     "id": 1753,
-    "index": 725,
+    "index": 728,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9886,7 +9925,7 @@
   },
   {
     "id": 1754,
-    "index": 726,
+    "index": 729,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9899,7 +9938,7 @@
   },
   {
     "id": 1756,
-    "index": 727,
+    "index": 730,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9912,7 +9951,7 @@
   },
   {
     "id": 1759,
-    "index": 728,
+    "index": 731,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9925,7 +9964,7 @@
   },
   {
     "id": 1760,
-    "index": 729,
+    "index": 732,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -9938,7 +9977,7 @@
   },
   {
     "id": 1761,
-    "index": 730,
+    "index": 733,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9951,7 +9990,7 @@
   },
   {
     "id": 1763,
-    "index": 731,
+    "index": 734,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9964,7 +10003,7 @@
   },
   {
     "id": 1764,
-    "index": 732,
+    "index": 735,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9977,7 +10016,7 @@
   },
   {
     "id": 1765,
-    "index": 733,
+    "index": 736,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -9990,7 +10029,7 @@
   },
   {
     "id": 1766,
-    "index": 734,
+    "index": 737,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10003,7 +10042,7 @@
   },
   {
     "id": 1767,
-    "index": 735,
+    "index": 738,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10016,7 +10055,7 @@
   },
   {
     "id": 1772,
-    "index": 736,
+    "index": 739,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10029,7 +10068,7 @@
   },
   {
     "id": 1775,
-    "index": 737,
+    "index": 740,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10042,7 +10081,7 @@
   },
   {
     "id": 1776,
-    "index": 738,
+    "index": 741,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10055,7 +10094,7 @@
   },
   {
     "id": 1778,
-    "index": 739,
+    "index": 742,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10068,7 +10107,7 @@
   },
   {
     "id": 1780,
-    "index": 740,
+    "index": 743,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10081,7 +10120,7 @@
   },
   {
     "id": 1781,
-    "index": 741,
+    "index": 744,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10094,7 +10133,7 @@
   },
   {
     "id": 1784,
-    "index": 742,
+    "index": 745,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10107,7 +10146,7 @@
   },
   {
     "id": 4753,
-    "index": 743,
+    "index": 746,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10120,7 +10159,7 @@
   },
   {
     "id": 1786,
-    "index": 744,
+    "index": 747,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10133,7 +10172,7 @@
   },
   {
     "id": 1787,
-    "index": 745,
+    "index": 748,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10146,7 +10185,7 @@
   },
   {
     "id": 1788,
-    "index": 746,
+    "index": 749,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10159,7 +10198,7 @@
   },
   {
     "id": 4751,
-    "index": 747,
+    "index": 750,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10172,7 +10211,7 @@
   },
   {
     "id": 1789,
-    "index": 748,
+    "index": 751,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10185,7 +10224,7 @@
   },
   {
     "id": 1790,
-    "index": 749,
+    "index": 752,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10198,7 +10237,7 @@
   },
   {
     "id": 1791,
-    "index": 750,
+    "index": 753,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10211,7 +10250,7 @@
   },
   {
     "id": 1793,
-    "index": 751,
+    "index": 754,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10224,7 +10263,7 @@
   },
   {
     "id": 1795,
-    "index": 752,
+    "index": 755,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10237,7 +10276,7 @@
   },
   {
     "id": 1796,
-    "index": 753,
+    "index": 756,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10250,7 +10289,7 @@
   },
   {
     "id": 4752,
-    "index": 754,
+    "index": 757,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10263,7 +10302,7 @@
   },
   {
     "id": 1799,
-    "index": 755,
+    "index": 758,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10276,7 +10315,7 @@
   },
   {
     "id": 1800,
-    "index": 756,
+    "index": 759,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10289,7 +10328,7 @@
   },
   {
     "id": 1801,
-    "index": 757,
+    "index": 760,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10302,7 +10341,7 @@
   },
   {
     "id": 1803,
-    "index": 758,
+    "index": 761,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10315,7 +10354,7 @@
   },
   {
     "id": 1805,
-    "index": 759,
+    "index": 762,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10328,7 +10367,7 @@
   },
   {
     "id": 1806,
-    "index": 760,
+    "index": 763,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10341,7 +10380,7 @@
   },
   {
     "id": 1807,
-    "index": 761,
+    "index": 764,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10354,7 +10393,7 @@
   },
   {
     "id": 1808,
-    "index": 762,
+    "index": 765,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10367,7 +10406,7 @@
   },
   {
     "id": 1809,
-    "index": 763,
+    "index": 766,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10380,7 +10419,7 @@
   },
   {
     "id": 1811,
-    "index": 764,
+    "index": 767,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10393,7 +10432,7 @@
   },
   {
     "id": 1812,
-    "index": 765,
+    "index": 768,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10406,7 +10445,7 @@
   },
   {
     "id": 1813,
-    "index": 766,
+    "index": 769,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10419,7 +10458,7 @@
   },
   {
     "id": 4800,
-    "index": 767,
+    "index": 770,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10432,7 +10471,7 @@
   },
   {
     "id": 1819,
-    "index": 768,
+    "index": 771,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10445,7 +10484,7 @@
   },
   {
     "id": 4801,
-    "index": 769,
+    "index": 772,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10458,7 +10497,7 @@
   },
   {
     "id": 1829,
-    "index": 770,
+    "index": 773,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10471,7 +10510,7 @@
   },
   {
     "id": 1831,
-    "index": 771,
+    "index": 774,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10484,7 +10523,7 @@
   },
   {
     "id": 1832,
-    "index": 772,
+    "index": 775,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10497,7 +10536,7 @@
   },
   {
     "id": 4802,
-    "index": 773,
+    "index": 776,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10510,7 +10549,7 @@
   },
   {
     "id": 4803,
-    "index": 774,
+    "index": 777,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10523,7 +10562,7 @@
   },
   {
     "id": 1836,
-    "index": 775,
+    "index": 778,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10536,7 +10575,7 @@
   },
   {
     "id": 1837,
-    "index": 776,
+    "index": 779,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10549,7 +10588,7 @@
   },
   {
     "id": 1838,
-    "index": 777,
+    "index": 780,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10562,7 +10601,7 @@
   },
   {
     "id": 1840,
-    "index": 778,
+    "index": 781,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10575,7 +10614,7 @@
   },
   {
     "id": 1841,
-    "index": 779,
+    "index": 782,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10588,7 +10627,7 @@
   },
   {
     "id": 1845,
-    "index": 780,
+    "index": 783,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10601,7 +10640,7 @@
   },
   {
     "id": 1846,
-    "index": 781,
+    "index": 784,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10614,7 +10653,7 @@
   },
   {
     "id": 1847,
-    "index": 782,
+    "index": 785,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10627,7 +10666,7 @@
   },
   {
     "id": 1850,
-    "index": 783,
+    "index": 786,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10640,7 +10679,7 @@
   },
   {
     "id": 1851,
-    "index": 784,
+    "index": 787,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10653,7 +10692,7 @@
   },
   {
     "id": 1852,
-    "index": 785,
+    "index": 788,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10666,7 +10705,7 @@
   },
   {
     "id": 1853,
-    "index": 786,
+    "index": 789,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10679,7 +10718,7 @@
   },
   {
     "id": 1854,
-    "index": 787,
+    "index": 790,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10692,7 +10731,7 @@
   },
   {
     "id": 1855,
-    "index": 788,
+    "index": 791,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10705,7 +10744,7 @@
   },
   {
     "id": 1856,
-    "index": 789,
+    "index": 792,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -10718,7 +10757,7 @@
   },
   {
     "id": 1858,
-    "index": 790,
+    "index": 793,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10731,7 +10770,7 @@
   },
   {
     "id": 1859,
-    "index": 791,
+    "index": 794,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10744,7 +10783,7 @@
   },
   {
     "id": 1860,
-    "index": 792,
+    "index": 795,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -10757,7 +10796,7 @@
   },
   {
     "id": 1864,
-    "index": 793,
+    "index": 796,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10770,7 +10809,7 @@
   },
   {
     "id": 1865,
-    "index": 794,
+    "index": 797,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -10783,7 +10822,7 @@
   },
   {
     "id": 1867,
-    "index": 795,
+    "index": 798,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -10796,7 +10835,7 @@
   },
   {
     "id": 1868,
-    "index": 796,
+    "index": 799,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10809,7 +10848,7 @@
   },
   {
     "id": 1869,
-    "index": 797,
+    "index": 800,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -10822,7 +10861,7 @@
   },
   {
     "id": 1870,
-    "index": 798,
+    "index": 801,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -10835,7 +10874,7 @@
   },
   {
     "id": 1874,
-    "index": 799,
+    "index": 802,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10848,7 +10887,7 @@
   },
   {
     "id": 1881,
-    "index": 800,
+    "index": 803,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10861,7 +10900,7 @@
   },
   {
     "id": 1882,
-    "index": 801,
+    "index": 804,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -10874,7 +10913,7 @@
   },
   {
     "id": 1884,
-    "index": 802,
+    "index": 805,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10887,7 +10926,7 @@
   },
   {
     "id": 1885,
-    "index": 803,
+    "index": 806,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10900,7 +10939,7 @@
   },
   {
     "id": 1886,
-    "index": 804,
+    "index": 807,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10913,7 +10952,7 @@
   },
   {
     "id": 1887,
-    "index": 805,
+    "index": 808,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10926,7 +10965,7 @@
   },
   {
     "id": 1888,
-    "index": 806,
+    "index": 809,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10939,7 +10978,7 @@
   },
   {
     "id": 1889,
-    "index": 807,
+    "index": 810,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -10952,7 +10991,7 @@
   },
   {
     "id": 1891,
-    "index": 808,
+    "index": 811,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -10965,7 +11004,7 @@
   },
   {
     "id": 1892,
-    "index": 809,
+    "index": 812,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -10978,7 +11017,7 @@
   },
   {
     "id": 1893,
-    "index": 810,
+    "index": 813,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -10991,7 +11030,7 @@
   },
   {
     "id": 1895,
-    "index": 811,
+    "index": 814,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11004,7 +11043,7 @@
   },
   {
     "id": 1896,
-    "index": 812,
+    "index": 815,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11017,7 +11056,7 @@
   },
   {
     "id": 1900,
-    "index": 813,
+    "index": 816,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11030,7 +11069,7 @@
   },
   {
     "id": 1901,
-    "index": 814,
+    "index": 817,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11043,7 +11082,7 @@
   },
   {
     "id": 5554,
-    "index": 815,
+    "index": 818,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11056,7 +11095,7 @@
   },
   {
     "id": 1909,
-    "index": 816,
+    "index": 819,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11069,7 +11108,7 @@
   },
   {
     "id": 1914,
-    "index": 817,
+    "index": 820,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -11082,7 +11121,7 @@
   },
   {
     "id": 1920,
-    "index": 818,
+    "index": 821,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11095,7 +11134,7 @@
   },
   {
     "id": 1921,
-    "index": 819,
+    "index": 822,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11108,7 +11147,7 @@
   },
   {
     "id": 1924,
-    "index": 820,
+    "index": 823,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11121,7 +11160,7 @@
   },
   {
     "id": 1926,
-    "index": 821,
+    "index": 824,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11134,7 +11173,7 @@
   },
   {
     "id": 1927,
-    "index": 822,
+    "index": 825,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11147,7 +11186,7 @@
   },
   {
     "id": 1929,
-    "index": 823,
+    "index": 826,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -11160,7 +11199,7 @@
   },
   {
     "id": 1930,
-    "index": 824,
+    "index": 827,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -11173,7 +11212,7 @@
   },
   {
     "id": 1933,
-    "index": 825,
+    "index": 828,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11186,7 +11225,7 @@
   },
   {
     "id": 1934,
-    "index": 826,
+    "index": 829,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11199,7 +11238,7 @@
   },
   {
     "id": 1935,
-    "index": 827,
+    "index": 830,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11212,7 +11251,7 @@
   },
   {
     "id": 1939,
-    "index": 828,
+    "index": 831,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11225,7 +11264,7 @@
   },
   {
     "id": 1940,
-    "index": 829,
+    "index": 832,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11238,7 +11277,7 @@
   },
   {
     "id": 1941,
-    "index": 830,
+    "index": 833,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11251,7 +11290,7 @@
   },
   {
     "id": 1943,
-    "index": 831,
+    "index": 834,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11264,7 +11303,7 @@
   },
   {
     "id": 1944,
-    "index": 832,
+    "index": 835,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11277,7 +11316,7 @@
   },
   {
     "id": 1947,
-    "index": 833,
+    "index": 836,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11290,7 +11329,7 @@
   },
   {
     "id": 5585,
-    "index": 834,
+    "index": 837,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11303,7 +11342,7 @@
   },
   {
     "id": 1951,
-    "index": 835,
+    "index": 838,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11322,7 +11361,7 @@
   },
   {
     "id": 1952,
-    "index": 836,
+    "index": 839,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11335,7 +11374,7 @@
   },
   {
     "id": 1954,
-    "index": 837,
+    "index": 840,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11354,7 +11393,7 @@
   },
   {
     "id": 1955,
-    "index": 838,
+    "index": 841,
     "sceneId": "split-investigation",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -11367,7 +11406,7 @@
   },
   {
     "id": 1960,
-    "index": 839,
+    "index": 842,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11386,7 +11425,7 @@
   },
   {
     "id": 1961,
-    "index": 840,
+    "index": 843,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11399,7 +11438,7 @@
   },
   {
     "id": 1963,
-    "index": 841,
+    "index": 844,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11412,7 +11451,7 @@
   },
   {
     "id": 1964,
-    "index": 842,
+    "index": 845,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11430,7 +11469,7 @@
   },
   {
     "id": 1965,
-    "index": 843,
+    "index": 846,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11448,7 +11487,7 @@
   },
   {
     "id": 1967,
-    "index": 844,
+    "index": 847,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11466,7 +11505,7 @@
   },
   {
     "id": 1968,
-    "index": 845,
+    "index": 848,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11479,7 +11518,7 @@
   },
   {
     "id": 1969,
-    "index": 846,
+    "index": 849,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11492,7 +11531,7 @@
   },
   {
     "id": 1970,
-    "index": 847,
+    "index": 850,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11505,7 +11544,7 @@
   },
   {
     "id": 1971,
-    "index": 848,
+    "index": 851,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11518,7 +11557,7 @@
   },
   {
     "id": 1975,
-    "index": 849,
+    "index": 852,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11531,7 +11570,7 @@
   },
   {
     "id": 1979,
-    "index": 850,
+    "index": 853,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11544,7 +11583,7 @@
   },
   {
     "id": 1986,
-    "index": 851,
+    "index": 854,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11557,7 +11596,7 @@
   },
   {
     "id": 1987,
-    "index": 852,
+    "index": 855,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11570,7 +11609,7 @@
   },
   {
     "id": 1988,
-    "index": 853,
+    "index": 856,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11583,7 +11622,7 @@
   },
   {
     "id": 1990,
-    "index": 854,
+    "index": 857,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -11596,7 +11635,7 @@
   },
   {
     "id": 1991,
-    "index": 855,
+    "index": 858,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11609,7 +11648,7 @@
   },
   {
     "id": 1994,
-    "index": 856,
+    "index": 859,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11622,7 +11661,7 @@
   },
   {
     "id": 2000,
-    "index": 857,
+    "index": 860,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11635,7 +11674,7 @@
   },
   {
     "id": 2003,
-    "index": 858,
+    "index": 861,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11648,7 +11687,7 @@
   },
   {
     "id": 2009,
-    "index": 859,
+    "index": 862,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11661,7 +11700,7 @@
   },
   {
     "id": 2010,
-    "index": 860,
+    "index": 863,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11674,7 +11713,7 @@
   },
   {
     "id": 2011,
-    "index": 861,
+    "index": 864,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11687,7 +11726,7 @@
   },
   {
     "id": 5586,
-    "index": 862,
+    "index": 865,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11700,7 +11739,7 @@
   },
   {
     "id": 2012,
-    "index": 863,
+    "index": 866,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11713,7 +11752,7 @@
   },
   {
     "id": 2013,
-    "index": 864,
+    "index": 867,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11726,7 +11765,7 @@
   },
   {
     "id": 2014,
-    "index": 865,
+    "index": 868,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11739,7 +11778,7 @@
   },
   {
     "id": 2015,
-    "index": 866,
+    "index": 869,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11752,7 +11791,7 @@
   },
   {
     "id": 2018,
-    "index": 867,
+    "index": 870,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11765,7 +11804,7 @@
   },
   {
     "id": 2019,
-    "index": 868,
+    "index": 871,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11778,7 +11817,7 @@
   },
   {
     "id": 2020,
-    "index": 869,
+    "index": 872,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11791,7 +11830,7 @@
   },
   {
     "id": 2021,
-    "index": 870,
+    "index": 873,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11804,7 +11843,7 @@
   },
   {
     "id": 2022,
-    "index": 871,
+    "index": 874,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -11817,7 +11856,7 @@
   },
   {
     "id": 2023,
-    "index": 872,
+    "index": 875,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11830,7 +11869,7 @@
   },
   {
     "id": 2024,
-    "index": 873,
+    "index": 876,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11843,7 +11882,7 @@
   },
   {
     "id": 2025,
-    "index": 874,
+    "index": 877,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11856,7 +11895,7 @@
   },
   {
     "id": 2027,
-    "index": 875,
+    "index": 878,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11869,7 +11908,7 @@
   },
   {
     "id": 2028,
-    "index": 876,
+    "index": 879,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11882,7 +11921,7 @@
   },
   {
     "id": 2029,
-    "index": 877,
+    "index": 880,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11895,7 +11934,7 @@
   },
   {
     "id": 2030,
-    "index": 878,
+    "index": 881,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11908,7 +11947,7 @@
   },
   {
     "id": 2031,
-    "index": 879,
+    "index": 882,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11921,7 +11960,7 @@
   },
   {
     "id": 2032,
-    "index": 880,
+    "index": 883,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11934,7 +11973,7 @@
   },
   {
     "id": 2033,
-    "index": 881,
+    "index": 884,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11947,7 +11986,7 @@
   },
   {
     "id": 2034,
-    "index": 882,
+    "index": 885,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11960,7 +11999,7 @@
   },
   {
     "id": 2035,
-    "index": 883,
+    "index": 886,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -11973,7 +12012,7 @@
   },
   {
     "id": 2039,
-    "index": 884,
+    "index": 887,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11986,7 +12025,7 @@
   },
   {
     "id": 2041,
-    "index": 885,
+    "index": 888,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -11999,7 +12038,7 @@
   },
   {
     "id": 2043,
-    "index": 886,
+    "index": 889,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12012,7 +12051,7 @@
   },
   {
     "id": 2044,
-    "index": 887,
+    "index": 890,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12025,7 +12064,7 @@
   },
   {
     "id": 2045,
-    "index": 888,
+    "index": 891,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12038,7 +12077,7 @@
   },
   {
     "id": 2046,
-    "index": 889,
+    "index": 892,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12051,7 +12090,7 @@
   },
   {
     "id": 2048,
-    "index": 890,
+    "index": 893,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12064,7 +12103,7 @@
   },
   {
     "id": 2049,
-    "index": 891,
+    "index": 894,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12077,7 +12116,7 @@
   },
   {
     "id": 2050,
-    "index": 892,
+    "index": 895,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12090,7 +12129,7 @@
   },
   {
     "id": 2051,
-    "index": 893,
+    "index": 896,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12103,7 +12142,7 @@
   },
   {
     "id": 2053,
-    "index": 894,
+    "index": 897,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12116,7 +12155,7 @@
   },
   {
     "id": 2054,
-    "index": 895,
+    "index": 898,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12129,7 +12168,7 @@
   },
   {
     "id": 2055,
-    "index": 896,
+    "index": 899,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12147,7 +12186,7 @@
   },
   {
     "id": 2058,
-    "index": 897,
+    "index": 900,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12165,7 +12204,7 @@
   },
   {
     "id": 2060,
-    "index": 898,
+    "index": 901,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12189,7 +12228,7 @@
   },
   {
     "id": 2063,
-    "index": 899,
+    "index": 902,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12214,7 +12253,7 @@
   },
   {
     "id": 2066,
-    "index": 900,
+    "index": 903,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12227,7 +12266,7 @@
   },
   {
     "id": 2067,
-    "index": 901,
+    "index": 904,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12240,7 +12279,7 @@
   },
   {
     "id": 2069,
-    "index": 902,
+    "index": 905,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12253,7 +12292,7 @@
   },
   {
     "id": 2071,
-    "index": 903,
+    "index": 906,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12266,7 +12305,7 @@
   },
   {
     "id": 2072,
-    "index": 904,
+    "index": 907,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12279,7 +12318,7 @@
   },
   {
     "id": 2073,
-    "index": 905,
+    "index": 908,
     "sceneId": "split-investigation",
     "speaker": "Julia",
     "character": "Anya",
@@ -12292,7 +12331,7 @@
   },
   {
     "id": 2074,
-    "index": 906,
+    "index": 909,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12305,7 +12344,7 @@
   },
   {
     "id": 2075,
-    "index": 907,
+    "index": 910,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12318,7 +12357,7 @@
   },
   {
     "id": 2076,
-    "index": 908,
+    "index": 911,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12331,7 +12370,7 @@
   },
   {
     "id": 2077,
-    "index": 909,
+    "index": 912,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12344,7 +12383,7 @@
   },
   {
     "id": 2078,
-    "index": 910,
+    "index": 913,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12357,7 +12396,7 @@
   },
   {
     "id": 2079,
-    "index": 911,
+    "index": 914,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12370,7 +12409,7 @@
   },
   {
     "id": 2080,
-    "index": 912,
+    "index": 915,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12383,7 +12422,7 @@
   },
   {
     "id": 2081,
-    "index": 913,
+    "index": 916,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12396,7 +12435,7 @@
   },
   {
     "id": 2082,
-    "index": 914,
+    "index": 917,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12409,7 +12448,7 @@
   },
   {
     "id": 2084,
-    "index": 915,
+    "index": 918,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12422,7 +12461,7 @@
   },
   {
     "id": 2085,
-    "index": 916,
+    "index": 919,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12435,7 +12474,7 @@
   },
   {
     "id": 2086,
-    "index": 917,
+    "index": 920,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12448,7 +12487,7 @@
   },
   {
     "id": 2088,
-    "index": 918,
+    "index": 921,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12461,7 +12500,7 @@
   },
   {
     "id": 2089,
-    "index": 919,
+    "index": 922,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12474,7 +12513,7 @@
   },
   {
     "id": 2091,
-    "index": 920,
+    "index": 923,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12487,7 +12526,7 @@
   },
   {
     "id": 2092,
-    "index": 921,
+    "index": 924,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12500,7 +12539,7 @@
   },
   {
     "id": 2093,
-    "index": 922,
+    "index": 925,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12513,7 +12552,7 @@
   },
   {
     "id": 2095,
-    "index": 923,
+    "index": 926,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12526,7 +12565,7 @@
   },
   {
     "id": 2096,
-    "index": 924,
+    "index": 927,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12539,7 +12578,7 @@
   },
   {
     "id": 2097,
-    "index": 925,
+    "index": 928,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12552,7 +12591,7 @@
   },
   {
     "id": 2098,
-    "index": 926,
+    "index": 929,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12565,7 +12604,7 @@
   },
   {
     "id": 2099,
-    "index": 927,
+    "index": 930,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12578,7 +12617,7 @@
   },
   {
     "id": 2103,
-    "index": 928,
+    "index": 931,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12591,7 +12630,7 @@
   },
   {
     "id": 2105,
-    "index": 929,
+    "index": 932,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12604,7 +12643,7 @@
   },
   {
     "id": 5100,
-    "index": 930,
+    "index": 933,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12617,7 +12656,7 @@
   },
   {
     "id": 2107,
-    "index": 931,
+    "index": 934,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12630,7 +12669,7 @@
   },
   {
     "id": 2109,
-    "index": 932,
+    "index": 935,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12643,7 +12682,7 @@
   },
   {
     "id": 2115,
-    "index": 933,
+    "index": 936,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12656,7 +12695,7 @@
   },
   {
     "id": 5587,
-    "index": 934,
+    "index": 937,
     "sceneId": "split-investigation",
     "speaker": "GM Note",
     "character": null,
@@ -12669,7 +12708,7 @@
   },
   {
     "id": 2116,
-    "index": 935,
+    "index": 938,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12682,7 +12721,7 @@
   },
   {
     "id": 2117,
-    "index": 936,
+    "index": 939,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12695,7 +12734,7 @@
   },
   {
     "id": 2118,
-    "index": 937,
+    "index": 940,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12708,7 +12747,7 @@
   },
   {
     "id": 2119,
-    "index": 938,
+    "index": 941,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12721,7 +12760,7 @@
   },
   {
     "id": 2120,
-    "index": 939,
+    "index": 942,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12734,7 +12773,7 @@
   },
   {
     "id": 2121,
-    "index": 940,
+    "index": 943,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12747,7 +12786,7 @@
   },
   {
     "id": 2122,
-    "index": 941,
+    "index": 944,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12760,7 +12799,7 @@
   },
   {
     "id": 2123,
-    "index": 942,
+    "index": 945,
     "sceneId": "split-investigation",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -12773,7 +12812,7 @@
   },
   {
     "id": 2124,
-    "index": 943,
+    "index": 946,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12786,7 +12825,7 @@
   },
   {
     "id": 2125,
-    "index": 944,
+    "index": 947,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -12799,7 +12838,7 @@
   },
   {
     "id": 2126,
-    "index": 945,
+    "index": 948,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -12812,7 +12851,7 @@
   },
   {
     "id": 2127,
-    "index": 946,
+    "index": 949,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12825,7 +12864,7 @@
   },
   {
     "id": 2128,
-    "index": 947,
+    "index": 950,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -12838,7 +12877,7 @@
   },
   {
     "id": 2129,
-    "index": 948,
+    "index": 951,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12851,7 +12890,7 @@
   },
   {
     "id": 2130,
-    "index": 949,
+    "index": 952,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12864,7 +12903,7 @@
   },
   {
     "id": 2131,
-    "index": 950,
+    "index": 953,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -12877,7 +12916,7 @@
   },
   {
     "id": 5101,
-    "index": 951,
+    "index": 954,
     "sceneId": "split-investigation",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -12890,7 +12929,7 @@
   },
   {
     "id": 2133,
-    "index": 952,
+    "index": 955,
     "sceneId": "split-investigation",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -12903,7 +12942,7 @@
   },
   {
     "id": 2134,
-    "index": 953,
+    "index": 956,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12916,7 +12955,7 @@
   },
   {
     "id": 2135,
-    "index": 954,
+    "index": 957,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12929,7 +12968,7 @@
   },
   {
     "id": 2138,
-    "index": 955,
+    "index": 958,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12942,7 +12981,7 @@
   },
   {
     "id": 2139,
-    "index": 956,
+    "index": 959,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12955,7 +12994,7 @@
   },
   {
     "id": 2140,
-    "index": 957,
+    "index": 960,
     "sceneId": "split-investigation",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -12968,7 +13007,7 @@
   },
   {
     "id": 2142,
-    "index": 958,
+    "index": 961,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12981,7 +13020,7 @@
   },
   {
     "id": 2144,
-    "index": 959,
+    "index": 962,
     "sceneId": "split-investigation",
     "speaker": "Dave",
     "character": null,
@@ -12994,7 +13033,7 @@
   },
   {
     "id": 2145,
-    "index": 960,
+    "index": 963,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13007,7 +13046,7 @@
   },
   {
     "id": 2146,
-    "index": 961,
+    "index": 964,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13020,7 +13059,7 @@
   },
   {
     "id": 2148,
-    "index": 962,
+    "index": 965,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13033,7 +13072,7 @@
   },
   {
     "id": 2150,
-    "index": 963,
+    "index": 966,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13046,7 +13085,7 @@
   },
   {
     "id": 2151,
-    "index": 964,
+    "index": 967,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13059,7 +13098,7 @@
   },
   {
     "id": 2153,
-    "index": 965,
+    "index": 968,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13072,7 +13111,7 @@
   },
   {
     "id": 2155,
-    "index": 966,
+    "index": 969,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13085,7 +13124,7 @@
   },
   {
     "id": 5150,
-    "index": 967,
+    "index": 970,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13098,7 +13137,7 @@
   },
   {
     "id": 5151,
-    "index": 968,
+    "index": 971,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13111,7 +13150,7 @@
   },
   {
     "id": 2158,
-    "index": 969,
+    "index": 972,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13124,7 +13163,7 @@
   },
   {
     "id": 2160,
-    "index": 970,
+    "index": 973,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13137,7 +13176,7 @@
   },
   {
     "id": 2161,
-    "index": 971,
+    "index": 974,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13150,7 +13189,7 @@
   },
   {
     "id": 2163,
-    "index": 972,
+    "index": 975,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13163,7 +13202,7 @@
   },
   {
     "id": 2164,
-    "index": 973,
+    "index": 976,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13176,7 +13215,7 @@
   },
   {
     "id": 2165,
-    "index": 974,
+    "index": 977,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13189,7 +13228,7 @@
   },
   {
     "id": 2166,
-    "index": 975,
+    "index": 978,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13202,7 +13241,7 @@
   },
   {
     "id": 2167,
-    "index": 976,
+    "index": 979,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13215,7 +13254,7 @@
   },
   {
     "id": 2169,
-    "index": 977,
+    "index": 980,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13228,7 +13267,7 @@
   },
   {
     "id": 2170,
-    "index": 978,
+    "index": 981,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13241,7 +13280,7 @@
   },
   {
     "id": 2171,
-    "index": 979,
+    "index": 982,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13254,7 +13293,7 @@
   },
   {
     "id": 5152,
-    "index": 980,
+    "index": 983,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13267,7 +13306,7 @@
   },
   {
     "id": 2173,
-    "index": 981,
+    "index": 984,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13280,7 +13319,7 @@
   },
   {
     "id": 2180,
-    "index": 982,
+    "index": 985,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13293,7 +13332,7 @@
   },
   {
     "id": 2183,
-    "index": 983,
+    "index": 986,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13306,7 +13345,7 @@
   },
   {
     "id": 2184,
-    "index": 984,
+    "index": 987,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13319,7 +13358,7 @@
   },
   {
     "id": 5153,
-    "index": 985,
+    "index": 988,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13332,7 +13371,7 @@
   },
   {
     "id": 5154,
-    "index": 986,
+    "index": 989,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13345,7 +13384,7 @@
   },
   {
     "id": 5155,
-    "index": 987,
+    "index": 990,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13358,7 +13397,7 @@
   },
   {
     "id": 2186,
-    "index": 988,
+    "index": 991,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13371,7 +13410,7 @@
   },
   {
     "id": 5156,
-    "index": 989,
+    "index": 992,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13384,7 +13423,7 @@
   },
   {
     "id": 2187,
-    "index": 990,
+    "index": 993,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13397,7 +13436,7 @@
   },
   {
     "id": 2188,
-    "index": 991,
+    "index": 994,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13410,7 +13449,7 @@
   },
   {
     "id": 2189,
-    "index": 992,
+    "index": 995,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13423,7 +13462,7 @@
   },
   {
     "id": 2190,
-    "index": 993,
+    "index": 996,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13436,7 +13475,7 @@
   },
   {
     "id": 5157,
-    "index": 994,
+    "index": 997,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13449,7 +13488,7 @@
   },
   {
     "id": 2191,
-    "index": 995,
+    "index": 998,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13462,7 +13501,7 @@
   },
   {
     "id": 2192,
-    "index": 996,
+    "index": 999,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13475,7 +13514,7 @@
   },
   {
     "id": 2193,
-    "index": 997,
+    "index": 1000,
     "sceneId": "next-morning",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -13488,7 +13527,7 @@
   },
   {
     "id": 5588,
-    "index": 998,
+    "index": 1001,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13501,7 +13540,7 @@
   },
   {
     "id": 2195,
-    "index": 999,
+    "index": 1002,
     "sceneId": "next-morning",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -13525,7 +13564,7 @@
   },
   {
     "id": 2196,
-    "index": 1000,
+    "index": 1003,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13549,7 +13588,7 @@
   },
   {
     "id": 2198,
-    "index": 1001,
+    "index": 1004,
     "sceneId": "next-morning",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -13573,7 +13612,7 @@
   },
   {
     "id": 2203,
-    "index": 1002,
+    "index": 1005,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -13586,7 +13625,7 @@
   },
   {
     "id": 2204,
-    "index": 1003,
+    "index": 1006,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -13599,7 +13638,7 @@
   },
   {
     "id": 2205,
-    "index": 1004,
+    "index": 1007,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13612,7 +13651,7 @@
   },
   {
     "id": 5555,
-    "index": 1005,
+    "index": 1008,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13625,7 +13664,7 @@
   },
   {
     "id": 2210,
-    "index": 1006,
+    "index": 1009,
     "sceneId": "next-morning",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -13638,7 +13677,7 @@
   },
   {
     "id": 2211,
-    "index": 1007,
+    "index": 1010,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13651,7 +13690,7 @@
   },
   {
     "id": 5556,
-    "index": 1008,
+    "index": 1011,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13664,7 +13703,7 @@
   },
   {
     "id": 2220,
-    "index": 1009,
+    "index": 1012,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13677,7 +13716,7 @@
   },
   {
     "id": 2221,
-    "index": 1010,
+    "index": 1013,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13690,7 +13729,7 @@
   },
   {
     "id": 2222,
-    "index": 1011,
+    "index": 1014,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13703,7 +13742,7 @@
   },
   {
     "id": 2223,
-    "index": 1012,
+    "index": 1015,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13716,7 +13755,7 @@
   },
   {
     "id": 2224,
-    "index": 1013,
+    "index": 1016,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13729,7 +13768,7 @@
   },
   {
     "id": 2225,
-    "index": 1014,
+    "index": 1017,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13742,7 +13781,7 @@
   },
   {
     "id": 2226,
-    "index": 1015,
+    "index": 1018,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13755,7 +13794,7 @@
   },
   {
     "id": 2228,
-    "index": 1016,
+    "index": 1019,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13768,7 +13807,7 @@
   },
   {
     "id": 2229,
-    "index": 1017,
+    "index": 1020,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13781,7 +13820,7 @@
   },
   {
     "id": 2230,
-    "index": 1018,
+    "index": 1021,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13794,7 +13833,7 @@
   },
   {
     "id": 2232,
-    "index": 1019,
+    "index": 1022,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13807,7 +13846,7 @@
   },
   {
     "id": 2233,
-    "index": 1020,
+    "index": 1023,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13820,7 +13859,7 @@
   },
   {
     "id": 2234,
-    "index": 1021,
+    "index": 1024,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13833,7 +13872,7 @@
   },
   {
     "id": 2235,
-    "index": 1022,
+    "index": 1025,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13846,7 +13885,7 @@
   },
   {
     "id": 2236,
-    "index": 1023,
+    "index": 1026,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13859,7 +13898,7 @@
   },
   {
     "id": 2237,
-    "index": 1024,
+    "index": 1027,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -13872,7 +13911,7 @@
   },
   {
     "id": 2238,
-    "index": 1025,
+    "index": 1028,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13885,7 +13924,7 @@
   },
   {
     "id": 2239,
-    "index": 1026,
+    "index": 1029,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13898,7 +13937,7 @@
   },
   {
     "id": 2240,
-    "index": 1027,
+    "index": 1030,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13911,7 +13950,7 @@
   },
   {
     "id": 2242,
-    "index": 1028,
+    "index": 1031,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13924,7 +13963,7 @@
   },
   {
     "id": 2243,
-    "index": 1029,
+    "index": 1032,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13937,7 +13976,7 @@
   },
   {
     "id": 2245,
-    "index": 1030,
+    "index": 1033,
     "sceneId": "next-morning",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -13950,7 +13989,7 @@
   },
   {
     "id": 2246,
-    "index": 1031,
+    "index": 1034,
     "sceneId": "next-morning",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -13963,7 +14002,7 @@
   },
   {
     "id": 2247,
-    "index": 1032,
+    "index": 1035,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13976,7 +14015,7 @@
   },
   {
     "id": 2248,
-    "index": 1033,
+    "index": 1036,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -13989,7 +14028,7 @@
   },
   {
     "id": 2250,
-    "index": 1034,
+    "index": 1037,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14002,7 +14041,7 @@
   },
   {
     "id": 2252,
-    "index": 1035,
+    "index": 1038,
     "sceneId": "next-morning",
     "speaker": "Julia",
     "character": "Anya",
@@ -14015,7 +14054,7 @@
   },
   {
     "id": 2253,
-    "index": 1036,
+    "index": 1039,
     "sceneId": "next-morning",
     "speaker": "Julia",
     "character": "Anya",
@@ -14028,7 +14067,7 @@
   },
   {
     "id": 2254,
-    "index": 1037,
+    "index": 1040,
     "sceneId": "next-morning",
     "speaker": "Julia",
     "character": "Anya",
@@ -14041,7 +14080,7 @@
   },
   {
     "id": 2255,
-    "index": 1038,
+    "index": 1041,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14054,7 +14093,7 @@
   },
   {
     "id": 5557,
-    "index": 1039,
+    "index": 1042,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14067,7 +14106,7 @@
   },
   {
     "id": 2256,
-    "index": 1040,
+    "index": 1043,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14080,7 +14119,7 @@
   },
   {
     "id": 5558,
-    "index": 1041,
+    "index": 1044,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14093,7 +14132,7 @@
   },
   {
     "id": 2257,
-    "index": 1042,
+    "index": 1045,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -14106,7 +14145,7 @@
   },
   {
     "id": 2259,
-    "index": 1043,
+    "index": 1046,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -14119,7 +14158,7 @@
   },
   {
     "id": 2261,
-    "index": 1044,
+    "index": 1047,
     "sceneId": "next-morning",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -14132,7 +14171,7 @@
   },
   {
     "id": 2262,
-    "index": 1045,
+    "index": 1048,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14145,7 +14184,7 @@
   },
   {
     "id": 2263,
-    "index": 1046,
+    "index": 1049,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14158,7 +14197,7 @@
   },
   {
     "id": 2264,
-    "index": 1047,
+    "index": 1050,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14171,7 +14210,7 @@
   },
   {
     "id": 2265,
-    "index": 1048,
+    "index": 1051,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14184,7 +14223,7 @@
   },
   {
     "id": 2266,
-    "index": 1049,
+    "index": 1052,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14197,7 +14236,7 @@
   },
   {
     "id": 2267,
-    "index": 1050,
+    "index": 1053,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14210,7 +14249,7 @@
   },
   {
     "id": 2268,
-    "index": 1051,
+    "index": 1054,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14223,7 +14262,7 @@
   },
   {
     "id": 2269,
-    "index": 1052,
+    "index": 1055,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14236,7 +14275,7 @@
   },
   {
     "id": 2270,
-    "index": 1053,
+    "index": 1056,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14249,7 +14288,7 @@
   },
   {
     "id": 2271,
-    "index": 1054,
+    "index": 1057,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14262,7 +14301,7 @@
   },
   {
     "id": 2272,
-    "index": 1055,
+    "index": 1058,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14275,7 +14314,7 @@
   },
   {
     "id": 2273,
-    "index": 1056,
+    "index": 1059,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14288,7 +14327,7 @@
   },
   {
     "id": 2274,
-    "index": 1057,
+    "index": 1060,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14301,7 +14340,7 @@
   },
   {
     "id": 2276,
-    "index": 1058,
+    "index": 1061,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14314,7 +14353,7 @@
   },
   {
     "id": 2277,
-    "index": 1059,
+    "index": 1062,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14327,7 +14366,7 @@
   },
   {
     "id": 2278,
-    "index": 1060,
+    "index": 1063,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14340,7 +14379,7 @@
   },
   {
     "id": 2279,
-    "index": 1061,
+    "index": 1064,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14353,7 +14392,7 @@
   },
   {
     "id": 2280,
-    "index": 1062,
+    "index": 1065,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14366,7 +14405,7 @@
   },
   {
     "id": 2281,
-    "index": 1063,
+    "index": 1066,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14379,7 +14418,7 @@
   },
   {
     "id": 2282,
-    "index": 1064,
+    "index": 1067,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14392,7 +14431,7 @@
   },
   {
     "id": 2283,
-    "index": 1065,
+    "index": 1068,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14405,7 +14444,7 @@
   },
   {
     "id": 5559,
-    "index": 1066,
+    "index": 1069,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14418,7 +14457,7 @@
   },
   {
     "id": 2284,
-    "index": 1067,
+    "index": 1070,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14431,7 +14470,7 @@
   },
   {
     "id": 2285,
-    "index": 1068,
+    "index": 1071,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14444,7 +14483,7 @@
   },
   {
     "id": 2286,
-    "index": 1069,
+    "index": 1072,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14457,7 +14496,7 @@
   },
   {
     "id": 2287,
-    "index": 1070,
+    "index": 1073,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14470,7 +14509,7 @@
   },
   {
     "id": 2288,
-    "index": 1071,
+    "index": 1074,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14483,7 +14522,7 @@
   },
   {
     "id": 2289,
-    "index": 1072,
+    "index": 1075,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14496,7 +14535,7 @@
   },
   {
     "id": 2291,
-    "index": 1073,
+    "index": 1076,
     "sceneId": "next-morning",
     "speaker": "Julia",
     "character": "Anya",
@@ -14509,7 +14548,7 @@
   },
   {
     "id": 2294,
-    "index": 1074,
+    "index": 1077,
     "sceneId": "next-morning",
     "speaker": "Julia",
     "character": "Anya",
@@ -14522,7 +14561,7 @@
   },
   {
     "id": 2296,
-    "index": 1075,
+    "index": 1078,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14535,7 +14574,7 @@
   },
   {
     "id": 2298,
-    "index": 1076,
+    "index": 1079,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14548,7 +14587,7 @@
   },
   {
     "id": 2299,
-    "index": 1077,
+    "index": 1080,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14561,7 +14600,7 @@
   },
   {
     "id": 2301,
-    "index": 1078,
+    "index": 1081,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14574,7 +14613,7 @@
   },
   {
     "id": 2303,
-    "index": 1079,
+    "index": 1082,
     "sceneId": "next-morning",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -14587,7 +14626,7 @@
   },
   {
     "id": 2304,
-    "index": 1080,
+    "index": 1083,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14600,7 +14639,7 @@
   },
   {
     "id": 5589,
-    "index": 1081,
+    "index": 1084,
     "sceneId": "next-morning",
     "speaker": "GM Note",
     "character": null,
@@ -14613,7 +14652,7 @@
   },
   {
     "id": 2305,
-    "index": 1082,
+    "index": 1085,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14626,7 +14665,7 @@
   },
   {
     "id": 2306,
-    "index": 1083,
+    "index": 1086,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14639,7 +14678,7 @@
   },
   {
     "id": 2307,
-    "index": 1084,
+    "index": 1087,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14652,7 +14691,7 @@
   },
   {
     "id": 2309,
-    "index": 1085,
+    "index": 1088,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14665,7 +14704,7 @@
   },
   {
     "id": 2310,
-    "index": 1086,
+    "index": 1089,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14678,7 +14717,7 @@
   },
   {
     "id": 5590,
-    "index": 1087,
+    "index": 1090,
     "sceneId": "next-morning",
     "speaker": "GM Note",
     "character": null,
@@ -14691,7 +14730,7 @@
   },
   {
     "id": 2313,
-    "index": 1088,
+    "index": 1091,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14704,7 +14743,7 @@
   },
   {
     "id": 2314,
-    "index": 1089,
+    "index": 1092,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14717,7 +14756,7 @@
   },
   {
     "id": 2315,
-    "index": 1090,
+    "index": 1093,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14730,7 +14769,7 @@
   },
   {
     "id": 2316,
-    "index": 1091,
+    "index": 1094,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14743,7 +14782,7 @@
   },
   {
     "id": 5300,
-    "index": 1092,
+    "index": 1095,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14756,7 +14795,7 @@
   },
   {
     "id": 2318,
-    "index": 1093,
+    "index": 1096,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14769,7 +14808,7 @@
   },
   {
     "id": 2319,
-    "index": 1094,
+    "index": 1097,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14782,7 +14821,7 @@
   },
   {
     "id": 2320,
-    "index": 1095,
+    "index": 1098,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14795,7 +14834,7 @@
   },
   {
     "id": 2321,
-    "index": 1096,
+    "index": 1099,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14808,7 +14847,7 @@
   },
   {
     "id": 2322,
-    "index": 1097,
+    "index": 1100,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14821,7 +14860,7 @@
   },
   {
     "id": 5301,
-    "index": 1098,
+    "index": 1101,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14834,7 +14873,7 @@
   },
   {
     "id": 2323,
-    "index": 1099,
+    "index": 1102,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14847,7 +14886,7 @@
   },
   {
     "id": 2324,
-    "index": 1100,
+    "index": 1103,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14860,7 +14899,7 @@
   },
   {
     "id": 2325,
-    "index": 1101,
+    "index": 1104,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14873,7 +14912,7 @@
   },
   {
     "id": 2327,
-    "index": 1102,
+    "index": 1105,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14886,7 +14925,7 @@
   },
   {
     "id": 2328,
-    "index": 1103,
+    "index": 1106,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14899,7 +14938,7 @@
   },
   {
     "id": 2329,
-    "index": 1104,
+    "index": 1107,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -14912,7 +14951,7 @@
   },
   {
     "id": 2330,
-    "index": 1105,
+    "index": 1108,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14925,7 +14964,7 @@
   },
   {
     "id": 2331,
-    "index": 1106,
+    "index": 1109,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14938,7 +14977,7 @@
   },
   {
     "id": 2333,
-    "index": 1107,
+    "index": 1110,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14951,7 +14990,7 @@
   },
   {
     "id": 2334,
-    "index": 1108,
+    "index": 1111,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14964,7 +15003,7 @@
   },
   {
     "id": 2336,
-    "index": 1109,
+    "index": 1112,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14977,7 +15016,7 @@
   },
   {
     "id": 2337,
-    "index": 1110,
+    "index": 1113,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -14990,7 +15029,7 @@
   },
   {
     "id": 2338,
-    "index": 1111,
+    "index": 1114,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15003,7 +15042,7 @@
   },
   {
     "id": 2339,
-    "index": 1112,
+    "index": 1115,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15016,7 +15055,7 @@
   },
   {
     "id": 2340,
-    "index": 1113,
+    "index": 1116,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15029,7 +15068,7 @@
   },
   {
     "id": 2341,
-    "index": 1114,
+    "index": 1117,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15042,7 +15081,7 @@
   },
   {
     "id": 2342,
-    "index": 1115,
+    "index": 1118,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15055,7 +15094,7 @@
   },
   {
     "id": 2343,
-    "index": 1116,
+    "index": 1119,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15068,7 +15107,7 @@
   },
   {
     "id": 2344,
-    "index": 1117,
+    "index": 1120,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15081,7 +15120,7 @@
   },
   {
     "id": 2345,
-    "index": 1118,
+    "index": 1121,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15094,7 +15133,7 @@
   },
   {
     "id": 2346,
-    "index": 1119,
+    "index": 1122,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15107,7 +15146,7 @@
   },
   {
     "id": 2347,
-    "index": 1120,
+    "index": 1123,
     "sceneId": "next-morning",
     "speaker": "Dave",
     "character": null,
@@ -15120,7 +15159,7 @@
   },
   {
     "id": 2348,
-    "index": 1121,
+    "index": 1124,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15133,7 +15172,7 @@
   },
   {
     "id": 2349,
-    "index": 1122,
+    "index": 1125,
     "sceneId": "next-morning",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15146,7 +15185,7 @@
   },
   {
     "id": 2354,
-    "index": 1123,
+    "index": 1126,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15159,7 +15198,7 @@
   },
   {
     "id": 2355,
-    "index": 1124,
+    "index": 1127,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15172,7 +15211,7 @@
   },
   {
     "id": 2356,
-    "index": 1125,
+    "index": 1128,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -15185,7 +15224,7 @@
   },
   {
     "id": 2357,
-    "index": 1126,
+    "index": 1129,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15198,7 +15237,7 @@
   },
   {
     "id": 2358,
-    "index": 1127,
+    "index": 1130,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15211,7 +15250,7 @@
   },
   {
     "id": 2360,
-    "index": 1128,
+    "index": 1131,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15224,7 +15263,7 @@
   },
   {
     "id": 2361,
-    "index": 1129,
+    "index": 1132,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -15237,7 +15276,7 @@
   },
   {
     "id": 2362,
-    "index": 1130,
+    "index": 1133,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15250,7 +15289,7 @@
   },
   {
     "id": 2363,
-    "index": 1131,
+    "index": 1134,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15263,7 +15302,7 @@
   },
   {
     "id": 2372,
-    "index": 1132,
+    "index": 1135,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15276,7 +15315,7 @@
   },
   {
     "id": 2374,
-    "index": 1133,
+    "index": 1136,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -15289,7 +15328,7 @@
   },
   {
     "id": 2376,
-    "index": 1134,
+    "index": 1137,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -15302,7 +15341,7 @@
   },
   {
     "id": 2382,
-    "index": 1135,
+    "index": 1138,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15315,7 +15354,7 @@
   },
   {
     "id": 2383,
-    "index": 1136,
+    "index": 1139,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15328,7 +15367,7 @@
   },
   {
     "id": 2385,
-    "index": 1137,
+    "index": 1140,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15341,7 +15380,7 @@
   },
   {
     "id": 2386,
-    "index": 1138,
+    "index": 1141,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15354,7 +15393,7 @@
   },
   {
     "id": 2388,
-    "index": 1139,
+    "index": 1142,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15367,7 +15406,7 @@
   },
   {
     "id": 2389,
-    "index": 1140,
+    "index": 1143,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15380,7 +15419,7 @@
   },
   {
     "id": 2390,
-    "index": 1141,
+    "index": 1144,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15393,7 +15432,7 @@
   },
   {
     "id": 2391,
-    "index": 1142,
+    "index": 1145,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15406,7 +15445,7 @@
   },
   {
     "id": 2392,
-    "index": 1143,
+    "index": 1146,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15419,7 +15458,7 @@
   },
   {
     "id": 5350,
-    "index": 1144,
+    "index": 1147,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -15432,7 +15471,7 @@
   },
   {
     "id": 2401,
-    "index": 1145,
+    "index": 1148,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15445,7 +15484,7 @@
   },
   {
     "id": 2410,
-    "index": 1146,
+    "index": 1149,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15458,7 +15497,7 @@
   },
   {
     "id": 2411,
-    "index": 1147,
+    "index": 1150,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15471,7 +15510,7 @@
   },
   {
     "id": 2413,
-    "index": 1148,
+    "index": 1151,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15484,7 +15523,7 @@
   },
   {
     "id": 2414,
-    "index": 1149,
+    "index": 1152,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15497,7 +15536,7 @@
   },
   {
     "id": 2415,
-    "index": 1150,
+    "index": 1153,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15510,7 +15549,7 @@
   },
   {
     "id": 2416,
-    "index": 1151,
+    "index": 1154,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15523,7 +15562,7 @@
   },
   {
     "id": 2418,
-    "index": 1152,
+    "index": 1155,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15536,7 +15575,7 @@
   },
   {
     "id": 2419,
-    "index": 1153,
+    "index": 1156,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15549,7 +15588,7 @@
   },
   {
     "id": 2421,
-    "index": 1154,
+    "index": 1157,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -15562,7 +15601,7 @@
   },
   {
     "id": 2422,
-    "index": 1155,
+    "index": 1158,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15575,7 +15614,7 @@
   },
   {
     "id": 2424,
-    "index": 1156,
+    "index": 1159,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -15588,7 +15627,7 @@
   },
   {
     "id": 5591,
-    "index": 1157,
+    "index": 1160,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15601,7 +15640,7 @@
   },
   {
     "id": 2427,
-    "index": 1158,
+    "index": 1161,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -15614,7 +15653,7 @@
   },
   {
     "id": 2428,
-    "index": 1159,
+    "index": 1162,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15627,7 +15666,7 @@
   },
   {
     "id": 2429,
-    "index": 1160,
+    "index": 1163,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15640,7 +15679,7 @@
   },
   {
     "id": 2430,
-    "index": 1161,
+    "index": 1164,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15653,7 +15692,7 @@
   },
   {
     "id": 2433,
-    "index": 1162,
+    "index": 1165,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15666,7 +15705,7 @@
   },
   {
     "id": 2438,
-    "index": 1163,
+    "index": 1166,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15684,7 +15723,7 @@
   },
   {
     "id": 2439,
-    "index": 1164,
+    "index": 1167,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15702,7 +15741,7 @@
   },
   {
     "id": 2441,
-    "index": 1165,
+    "index": 1168,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15725,7 +15764,7 @@
   },
   {
     "id": 2443,
-    "index": 1166,
+    "index": 1169,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15738,7 +15777,7 @@
   },
   {
     "id": 2444,
-    "index": 1167,
+    "index": 1170,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15751,7 +15790,7 @@
   },
   {
     "id": 2445,
-    "index": 1168,
+    "index": 1171,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15764,7 +15803,7 @@
   },
   {
     "id": 2446,
-    "index": 1169,
+    "index": 1172,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15777,7 +15816,7 @@
   },
   {
     "id": 2447,
-    "index": 1170,
+    "index": 1173,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15790,7 +15829,7 @@
   },
   {
     "id": 2448,
-    "index": 1171,
+    "index": 1174,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15803,7 +15842,7 @@
   },
   {
     "id": 2449,
-    "index": 1172,
+    "index": 1175,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15816,7 +15855,7 @@
   },
   {
     "id": 2450,
-    "index": 1173,
+    "index": 1176,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15829,7 +15868,7 @@
   },
   {
     "id": 2451,
-    "index": 1174,
+    "index": 1177,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15842,7 +15881,7 @@
   },
   {
     "id": 2452,
-    "index": 1175,
+    "index": 1178,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15855,7 +15894,7 @@
   },
   {
     "id": 2453,
-    "index": 1176,
+    "index": 1179,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15868,7 +15907,7 @@
   },
   {
     "id": 2455,
-    "index": 1177,
+    "index": 1180,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15881,7 +15920,7 @@
   },
   {
     "id": 2457,
-    "index": 1178,
+    "index": 1181,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15894,7 +15933,7 @@
   },
   {
     "id": 2458,
-    "index": 1179,
+    "index": 1182,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15907,7 +15946,7 @@
   },
   {
     "id": 2460,
-    "index": 1180,
+    "index": 1183,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15920,7 +15959,7 @@
   },
   {
     "id": 2462,
-    "index": 1181,
+    "index": 1184,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15933,7 +15972,7 @@
   },
   {
     "id": 2464,
-    "index": 1182,
+    "index": 1185,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15946,7 +15985,7 @@
   },
   {
     "id": 2467,
-    "index": 1183,
+    "index": 1186,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15959,7 +15998,7 @@
   },
   {
     "id": 2468,
-    "index": 1184,
+    "index": 1187,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15972,7 +16011,7 @@
   },
   {
     "id": 2469,
-    "index": 1185,
+    "index": 1188,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -15985,7 +16024,7 @@
   },
   {
     "id": 2470,
-    "index": 1186,
+    "index": 1189,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -15998,7 +16037,7 @@
   },
   {
     "id": 2471,
-    "index": 1187,
+    "index": 1190,
     "sceneId": "research",
     "speaker": "Julia",
     "character": "Anya",
@@ -16011,7 +16050,7 @@
   },
   {
     "id": 2473,
-    "index": 1188,
+    "index": 1191,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16024,7 +16063,7 @@
   },
   {
     "id": 2474,
-    "index": 1189,
+    "index": 1192,
     "sceneId": "research",
     "speaker": "Julia",
     "character": "Anya",
@@ -16037,7 +16076,7 @@
   },
   {
     "id": 2476,
-    "index": 1190,
+    "index": 1193,
     "sceneId": "research",
     "speaker": "Julia",
     "character": "Anya",
@@ -16050,7 +16089,7 @@
   },
   {
     "id": 2480,
-    "index": 1191,
+    "index": 1194,
     "sceneId": null,
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -16063,7 +16102,7 @@
   },
   {
     "id": 2491,
-    "index": 1192,
+    "index": 1195,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16076,7 +16115,7 @@
   },
   {
     "id": 2492,
-    "index": 1193,
+    "index": 1196,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16089,7 +16128,7 @@
   },
   {
     "id": 2493,
-    "index": 1194,
+    "index": 1197,
     "sceneId": "research",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -16102,7 +16141,7 @@
   },
   {
     "id": 2494,
-    "index": 1195,
+    "index": 1198,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16115,7 +16154,7 @@
   },
   {
     "id": 2497,
-    "index": 1196,
+    "index": 1199,
     "sceneId": "research",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -16128,7 +16167,7 @@
   },
   {
     "id": 2498,
-    "index": 1197,
+    "index": 1200,
     "sceneId": "research",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -16141,7 +16180,7 @@
   },
   {
     "id": 2499,
-    "index": 1198,
+    "index": 1201,
     "sceneId": "research",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -16154,7 +16193,7 @@
   },
   {
     "id": 2501,
-    "index": 1199,
+    "index": 1202,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16167,7 +16206,7 @@
   },
   {
     "id": 2502,
-    "index": 1200,
+    "index": 1203,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16180,7 +16219,7 @@
   },
   {
     "id": 5500,
-    "index": 1201,
+    "index": 1204,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16193,7 +16232,7 @@
   },
   {
     "id": 2506,
-    "index": 1202,
+    "index": 1205,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16206,7 +16245,7 @@
   },
   {
     "id": 2507,
-    "index": 1203,
+    "index": 1206,
     "sceneId": null,
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16219,7 +16258,7 @@
   },
   {
     "id": 2509,
-    "index": 1204,
+    "index": 1207,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16232,7 +16271,7 @@
   },
   {
     "id": 2511,
-    "index": 1205,
+    "index": 1208,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16245,7 +16284,7 @@
   },
   {
     "id": 2514,
-    "index": 1206,
+    "index": 1209,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16258,7 +16297,7 @@
   },
   {
     "id": 2518,
-    "index": 1207,
+    "index": 1210,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16271,7 +16310,7 @@
   },
   {
     "id": 2519,
-    "index": 1208,
+    "index": 1211,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16284,7 +16323,7 @@
   },
   {
     "id": 2523,
-    "index": 1209,
+    "index": 1212,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16297,7 +16336,7 @@
   },
   {
     "id": 2527,
-    "index": 1210,
+    "index": 1213,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16310,7 +16349,7 @@
   },
   {
     "id": 2530,
-    "index": 1211,
+    "index": 1214,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16323,7 +16362,7 @@
   },
   {
     "id": 2537,
-    "index": 1212,
+    "index": 1215,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16336,7 +16375,7 @@
   },
   {
     "id": 2538,
-    "index": 1213,
+    "index": 1216,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16349,7 +16388,7 @@
   },
   {
     "id": 2541,
-    "index": 1214,
+    "index": 1217,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16362,7 +16401,7 @@
   },
   {
     "id": 2543,
-    "index": 1215,
+    "index": 1218,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16375,7 +16414,7 @@
   },
   {
     "id": 5501,
-    "index": 1216,
+    "index": 1219,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16388,7 +16427,7 @@
   },
   {
     "id": 2545,
-    "index": 1217,
+    "index": 1220,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16401,7 +16440,7 @@
   },
   {
     "id": 2546,
-    "index": 1218,
+    "index": 1221,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16414,7 +16453,7 @@
   },
   {
     "id": 5592,
-    "index": 1219,
+    "index": 1222,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -16427,7 +16466,7 @@
   },
   {
     "id": 2548,
-    "index": 1220,
+    "index": 1223,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16440,7 +16479,7 @@
   },
   {
     "id": 2549,
-    "index": 1221,
+    "index": 1224,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16453,7 +16492,7 @@
   },
   {
     "id": 2550,
-    "index": 1222,
+    "index": 1225,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16471,7 +16510,7 @@
   },
   {
     "id": 2553,
-    "index": 1223,
+    "index": 1226,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16495,7 +16534,7 @@
   },
   {
     "id": 2556,
-    "index": 1224,
+    "index": 1227,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16513,7 +16552,7 @@
   },
   {
     "id": 2558,
-    "index": 1225,
+    "index": 1228,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16537,7 +16576,7 @@
   },
   {
     "id": 2560,
-    "index": 1226,
+    "index": 1229,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16555,7 +16594,7 @@
   },
   {
     "id": 2561,
-    "index": 1227,
+    "index": 1230,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16568,7 +16607,7 @@
   },
   {
     "id": 5593,
-    "index": 1228,
+    "index": 1231,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -16581,7 +16620,7 @@
   },
   {
     "id": 2562,
-    "index": 1229,
+    "index": 1232,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16594,7 +16633,7 @@
   },
   {
     "id": 2564,
-    "index": 1230,
+    "index": 1233,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16618,7 +16657,7 @@
   },
   {
     "id": 5594,
-    "index": 1231,
+    "index": 1234,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -16631,7 +16670,7 @@
   },
   {
     "id": 2565,
-    "index": 1232,
+    "index": 1235,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16644,7 +16683,7 @@
   },
   {
     "id": 2566,
-    "index": 1233,
+    "index": 1236,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16657,7 +16696,7 @@
   },
   {
     "id": 2567,
-    "index": 1234,
+    "index": 1237,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16675,7 +16714,7 @@
   },
   {
     "id": 2572,
-    "index": 1235,
+    "index": 1238,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16688,7 +16727,7 @@
   },
   {
     "id": 2573,
-    "index": 1236,
+    "index": 1239,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16701,7 +16740,7 @@
   },
   {
     "id": 2574,
-    "index": 1237,
+    "index": 1240,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16714,45 +16753,6 @@
   },
   {
     "id": 5595,
-    "index": 1238,
-    "sceneId": "research",
-    "speaker": "GM Note",
-    "character": null,
-    "voice": "narrator",
-    "contentType": "game",
-    "text": "Kholo",
-    "mechanics": [],
-    "sourceText": "Kholo",
-    "sourceSpeaker": "Dave"
-  },
-  {
-    "id": 2575,
-    "index": 1239,
-    "sceneId": "research",
-    "speaker": "Dave",
-    "character": null,
-    "voice": "narrator",
-    "contentType": "game",
-    "text": "You were not familiar with those before now.",
-    "mechanics": [],
-    "sourceText": "that you were not familiar with prior to now.",
-    "sourceSpeaker": "Dave"
-  },
-  {
-    "id": 2576,
-    "index": 1240,
-    "sceneId": "research",
-    "speaker": "Dave",
-    "character": null,
-    "voice": "narrator",
-    "contentType": "game",
-    "text": "You knew a fair bit about the Kholo.",
-    "mechanics": [],
-    "sourceText": "You knew a fair bit amount about them,",
-    "sourceSpeaker": "Dave"
-  },
-  {
-    "id": 5596,
     "index": 1241,
     "sceneId": "research",
     "speaker": "GM Note",
@@ -16765,8 +16765,47 @@
     "sourceSpeaker": "Dave"
   },
   {
-    "id": 2577,
+    "id": 2575,
     "index": 1242,
+    "sceneId": "research",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "You were not familiar with those before now.",
+    "mechanics": [],
+    "sourceText": "that you were not familiar with prior to now.",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 2576,
+    "index": 1243,
+    "sceneId": "research",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "You knew a fair bit about the Kholo.",
+    "mechanics": [],
+    "sourceText": "You knew a fair bit amount about them,",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 5596,
+    "index": 1244,
+    "sceneId": "research",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Kholo",
+    "mechanics": [],
+    "sourceText": "Kholo",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 2577,
+    "index": 1245,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16779,7 +16818,7 @@
   },
   {
     "id": 2578,
-    "index": 1243,
+    "index": 1246,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16797,7 +16836,7 @@
   },
   {
     "id": 2582,
-    "index": 1244,
+    "index": 1247,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16810,7 +16849,7 @@
   },
   {
     "id": 2583,
-    "index": 1245,
+    "index": 1248,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16823,7 +16862,7 @@
   },
   {
     "id": 2584,
-    "index": 1246,
+    "index": 1249,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16836,7 +16875,7 @@
   },
   {
     "id": 5550,
-    "index": 1247,
+    "index": 1250,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16849,7 +16888,7 @@
   },
   {
     "id": 2591,
-    "index": 1248,
+    "index": 1251,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16862,7 +16901,7 @@
   },
   {
     "id": 2593,
-    "index": 1249,
+    "index": 1252,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16875,7 +16914,7 @@
   },
   {
     "id": 2596,
-    "index": 1250,
+    "index": 1253,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16888,7 +16927,7 @@
   },
   {
     "id": 5597,
-    "index": 1251,
+    "index": 1254,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -16901,7 +16940,7 @@
   },
   {
     "id": 2610,
-    "index": 1252,
+    "index": 1255,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16914,7 +16953,7 @@
   },
   {
     "id": 2615,
-    "index": 1253,
+    "index": 1256,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16927,7 +16966,7 @@
   },
   {
     "id": 5599,
-    "index": 1254,
+    "index": 1257,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -16940,7 +16979,7 @@
   },
   {
     "id": 5600,
-    "index": 1255,
+    "index": 1258,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -16953,7 +16992,7 @@
   },
   {
     "id": 2634,
-    "index": 1256,
+    "index": 1259,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16966,7 +17005,7 @@
   },
   {
     "id": 2636,
-    "index": 1257,
+    "index": 1260,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16979,7 +17018,7 @@
   },
   {
     "id": 2637,
-    "index": 1258,
+    "index": 1261,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -16992,7 +17031,7 @@
   },
   {
     "id": 2639,
-    "index": 1259,
+    "index": 1262,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17005,7 +17044,7 @@
   },
   {
     "id": 2651,
-    "index": 1260,
+    "index": 1263,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17018,7 +17057,7 @@
   },
   {
     "id": 2652,
-    "index": 1261,
+    "index": 1264,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17031,7 +17070,7 @@
   },
   {
     "id": 2653,
-    "index": 1262,
+    "index": 1265,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17044,7 +17083,7 @@
   },
   {
     "id": 2654,
-    "index": 1263,
+    "index": 1266,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17057,7 +17096,7 @@
   },
   {
     "id": 2655,
-    "index": 1264,
+    "index": 1267,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17070,7 +17109,7 @@
   },
   {
     "id": 2656,
-    "index": 1265,
+    "index": 1268,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17083,7 +17122,7 @@
   },
   {
     "id": 2657,
-    "index": 1266,
+    "index": 1269,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17096,7 +17135,7 @@
   },
   {
     "id": 2658,
-    "index": 1267,
+    "index": 1270,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17109,7 +17148,7 @@
   },
   {
     "id": 2659,
-    "index": 1268,
+    "index": 1271,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17122,7 +17161,7 @@
   },
   {
     "id": 2660,
-    "index": 1269,
+    "index": 1272,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17135,7 +17174,7 @@
   },
   {
     "id": 2662,
-    "index": 1270,
+    "index": 1273,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17148,7 +17187,7 @@
   },
   {
     "id": 2663,
-    "index": 1271,
+    "index": 1274,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17161,7 +17200,7 @@
   },
   {
     "id": 2665,
-    "index": 1272,
+    "index": 1275,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17174,7 +17213,7 @@
   },
   {
     "id": 2667,
-    "index": 1273,
+    "index": 1276,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17187,7 +17226,7 @@
   },
   {
     "id": 2672,
-    "index": 1274,
+    "index": 1277,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17200,7 +17239,7 @@
   },
   {
     "id": 2676,
-    "index": 1275,
+    "index": 1278,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17213,7 +17252,7 @@
   },
   {
     "id": 2680,
-    "index": 1276,
+    "index": 1279,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17226,7 +17265,7 @@
   },
   {
     "id": 5601,
-    "index": 1277,
+    "index": 1280,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -17239,7 +17278,7 @@
   },
   {
     "id": 2684,
-    "index": 1278,
+    "index": 1281,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17252,7 +17291,7 @@
   },
   {
     "id": 5602,
-    "index": 1279,
+    "index": 1282,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -17265,7 +17304,7 @@
   },
   {
     "id": 2692,
-    "index": 1280,
+    "index": 1283,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17278,7 +17317,7 @@
   },
   {
     "id": 2693,
-    "index": 1281,
+    "index": 1284,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17291,7 +17330,7 @@
   },
   {
     "id": 2694,
-    "index": 1282,
+    "index": 1285,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17304,7 +17343,7 @@
   },
   {
     "id": 2708,
-    "index": 1283,
+    "index": 1286,
     "sceneId": "research",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -17317,7 +17356,7 @@
   },
   {
     "id": 2711,
-    "index": 1284,
+    "index": 1287,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -17330,7 +17369,7 @@
   },
   {
     "id": 2713,
-    "index": 1285,
+    "index": 1288,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17343,7 +17382,7 @@
   },
   {
     "id": 2719,
-    "index": 1286,
+    "index": 1289,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17356,7 +17395,7 @@
   },
   {
     "id": 2727,
-    "index": 1287,
+    "index": 1290,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17369,7 +17408,7 @@
   },
   {
     "id": 2728,
-    "index": 1288,
+    "index": 1291,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17382,7 +17421,7 @@
   },
   {
     "id": 2729,
-    "index": 1289,
+    "index": 1292,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17395,7 +17434,7 @@
   },
   {
     "id": 2730,
-    "index": 1290,
+    "index": 1293,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17408,7 +17447,7 @@
   },
   {
     "id": 2731,
-    "index": 1291,
+    "index": 1294,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17421,7 +17460,7 @@
   },
   {
     "id": 2732,
-    "index": 1292,
+    "index": 1295,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17434,7 +17473,7 @@
   },
   {
     "id": 2733,
-    "index": 1293,
+    "index": 1296,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17447,7 +17486,7 @@
   },
   {
     "id": 2734,
-    "index": 1294,
+    "index": 1297,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17460,7 +17499,7 @@
   },
   {
     "id": 2735,
-    "index": 1295,
+    "index": 1298,
     "sceneId": null,
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17473,7 +17512,7 @@
   },
   {
     "id": 2736,
-    "index": 1296,
+    "index": 1299,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17486,7 +17525,7 @@
   },
   {
     "id": 2738,
-    "index": 1297,
+    "index": 1300,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17499,7 +17538,7 @@
   },
   {
     "id": 2739,
-    "index": 1298,
+    "index": 1301,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17512,7 +17551,7 @@
   },
   {
     "id": 2740,
-    "index": 1299,
+    "index": 1302,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17525,7 +17564,7 @@
   },
   {
     "id": 2741,
-    "index": 1300,
+    "index": 1303,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17538,7 +17577,7 @@
   },
   {
     "id": 2742,
-    "index": 1301,
+    "index": 1304,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17551,7 +17590,7 @@
   },
   {
     "id": 2743,
-    "index": 1302,
+    "index": 1305,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17564,7 +17603,7 @@
   },
   {
     "id": 2744,
-    "index": 1303,
+    "index": 1306,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17577,7 +17616,7 @@
   },
   {
     "id": 2745,
-    "index": 1304,
+    "index": 1307,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17590,7 +17629,7 @@
   },
   {
     "id": 2747,
-    "index": 1305,
+    "index": 1308,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17603,7 +17642,7 @@
   },
   {
     "id": 2748,
-    "index": 1306,
+    "index": 1309,
     "sceneId": "research",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17616,7 +17655,7 @@
   },
   {
     "id": 5603,
-    "index": 1307,
+    "index": 1310,
     "sceneId": "research",
     "speaker": "GM Note",
     "character": null,
@@ -17629,7 +17668,7 @@
   },
   {
     "id": 2750,
-    "index": 1308,
+    "index": 1311,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17642,7 +17681,7 @@
   },
   {
     "id": 2751,
-    "index": 1309,
+    "index": 1312,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17655,7 +17694,7 @@
   },
   {
     "id": 2753,
-    "index": 1310,
+    "index": 1313,
     "sceneId": "research",
     "speaker": "Julia",
     "character": "Anya",
@@ -17668,7 +17707,7 @@
   },
   {
     "id": 2754,
-    "index": 1311,
+    "index": 1314,
     "sceneId": "research",
     "speaker": "Dave",
     "character": null,
@@ -17681,7 +17720,7 @@
   },
   {
     "id": 2756,
-    "index": 1312,
+    "index": 1315,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17694,7 +17733,7 @@
   },
   {
     "id": 2758,
-    "index": 1313,
+    "index": 1316,
     "sceneId": "research",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -17707,7 +17746,7 @@
   },
   {
     "id": 2759,
-    "index": 1314,
+    "index": 1317,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17720,7 +17759,7 @@
   },
   {
     "id": 2760,
-    "index": 1315,
+    "index": 1318,
     "sceneId": "research",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -17733,7 +17772,7 @@
   },
   {
     "id": 2761,
-    "index": 1316,
+    "index": 1319,
     "sceneId": "research",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17746,7 +17785,7 @@
   },
   {
     "id": 2762,
-    "index": 1317,
+    "index": 1320,
     "sceneId": null,
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -17759,7 +17798,7 @@
   },
   {
     "id": 5604,
-    "index": 1318,
+    "index": 1321,
     "sceneId": null,
     "speaker": "GM Note",
     "character": null,

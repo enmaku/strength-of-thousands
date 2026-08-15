@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-02",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T08:48:15.371Z",
+  "generatedAt": "2026-08-15T08:56:02.976Z",
   "changes": [
     {
       "segmentId": 1,
@@ -70349,6 +70349,243 @@
       "path": "voice",
       "old": "player",
       "new": "narrator",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5564,
+      "op": "replace",
+      "path": "text",
+      "old": "Julia does not make her society roll, but seems to have picked up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway. Damn her.",
+      "new": "Julia does not make her society roll, but seems to have picked up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway in defiance of all my devious planning. Damn her.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5564,
+      "op": "replace",
+      "path": "text",
+      "old": "Julia does not make her society roll, but seems to have picked up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway in defiance of all my devious planning. Damn her.",
+      "new": "Julia does not make her society roll, but seems to pick up on the fact that I keep saying \"Kholo\" instead of \"Gnoll\" anyway in defiance of all my devious planning. Damn her.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 839,
+      "op": "replace",
+      "path": "text",
+      "old": "We need to know what's behind the door before we alert them.",
+      "new": "We need to know what's behind the door before we alert them.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 839,
+      "op": "split",
+      "path": "text",
+      "old": "We need to know what's behind the door before we alert them.",
+      "new": [
+        "We need to know what's behind the door before we alert them.",
+        "That would require opening the door."
+      ],
+      "newSegmentId": 5610,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5610,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "GM Note",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5610,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 852,
+      "op": "remove",
+      "path": "text",
+      "old": "If I'm going in with a group first, I'll do the opening.",
+      "new": null,
+      "speaker": "Lisa",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5572,
+      "op": "replace",
+      "path": "text",
+      "old": "Oh thank god",
+      "new": "Now they're just teasing me",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 848,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm for opening the door. I'll go in.",
+      "new": "I'm for opening the door. I'll go in.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 848,
+      "op": "split",
+      "path": "text",
+      "old": "I'm for opening the door. I'll go in.",
+      "new": [
+        "I'm for opening the door. I'll go in.",
+        "Please?"
+      ],
+      "newSegmentId": 5611,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5611,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Lisa",
+      "new": "GM Note",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5611,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 842,
+      "op": "replace",
+      "path": "text",
+      "old": "Let's be careful.",
+      "new": "Let's be careful.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 842,
+      "op": "split",
+      "path": "text",
+      "old": "Let's be careful.",
+      "new": [
+        "Let's be careful.",
+        "Be careful on the other side of the door"
+      ],
+      "newSegmentId": 5612,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5612,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "GM Note",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5612,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 877,
+      "op": "replace",
+      "path": "text",
+      "old": "As you crack the door open, a glass jar flies off of one of the shelves and shatters on the ground next to the cracked door.",
+      "new": "As you crack the door open, a glass jar flies off of one of the shelves and shatters on the ground next to the cracked door.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 877,
+      "op": "split",
+      "path": "text",
+      "old": "As you crack the door open, a glass jar flies off of one of the shelves and shatters on the ground next to the cracked door.",
+      "new": [
+        "As you crack the door open, a glass jar flies off of one of the shelves and shatters on the ground next to the cracked door.",
+        "The AP actually wanted me to attack the players directly but I was afraid of Pavloving them into never opening a door again."
+      ],
+      "newSegmentId": 5613,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5613,
+      "op": "replace",
+      "path": "text",
+      "old": "The AP actually wanted me to attack the players directly but I was afraid of Pavloving them into never opening a door again.",
+      "new": "The AP actually wanted me to attack the players directly but at this point I was afraid of Pavloving them into never opening a door again.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5613,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "GM Note",
       "reason": "gm_edit",
       "confidence": 1,
       "flagged": false,
