@@ -25,7 +25,9 @@
         "Nantambu city",
         "Nantambu City",
         "Namtambu",
-        "Nomatambu"
+        "Nomatambu",
+        "Nantamu",
+        "Nam Tambu"
       ],
       "type": "place",
       "notes": "City on the M'wangi coast; home of the Magaambya."
@@ -194,6 +196,8 @@
         "Teacher Up",
         "Teacher Ott",
         "Teacher Ot",
+        "Oat",
+        "Ott",
         "Up"
       ],
       "type": "npc",
@@ -211,7 +215,8 @@
     {
       "canonical": "Janatimo",
       "synonyms": [
-        "Janatimo the Learned One"
+        "Janatimo the Learned One",
+        "Janna"
       ],
       "type": "npc",
       "notes": "Uzunjati Learned One; storyteller."
@@ -220,10 +225,11 @@
       "canonical": "Stone Ghost",
       "synonyms": [
         "the Stone Ghost",
-        "Uduak"
+        "Uduak",
+        "Uduak Basni"
       ],
       "type": "npc",
-      "notes": "Book 1 BBEG; expelled oread merged with campus stone."
+      "notes": "Book 1 BBEG; expelled oread earth mage who murdered gremlins during his Perquisite; merged with campus stone."
     },
     {
       "canonical": "Kurshkin",
@@ -243,7 +249,8 @@
         "Cyan Copperbottom",
         "Cy",
         "Scy",
-        "Scy's"
+        "Scy's",
+        "Sion"
       ],
       "type": "pc",
       "notes": "Kiri's PC; goblin inventor."
@@ -252,6 +259,7 @@
       "canonical": "Solanum Calabash",
       "synonyms": [
         "Solanum",
+        "Solana",
         "Drew's character"
       ],
       "type": "pc",
@@ -262,6 +270,8 @@
       "synonyms": [
         "Taraan",
         "Tarann",
+        "Taryn",
+        "Terran",
         "Lisa's character"
       ],
       "type": "pc",
@@ -289,7 +299,10 @@
       "synonyms": [
         "Chiziri",
         "Cesare",
-        "Chezire"
+        "Chezire",
+        "Chesare",
+        "Chesaree",
+        "Chesaree's"
       ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Cascade Bearer catfolk."
@@ -309,7 +322,10 @@
       "synonyms": [
         "Haibram",
         "Hybrum",
-        "Haibrum"
+        "Haibrum",
+        "Hybram",
+        "Halber",
+        "Hallburn"
       ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Tempest-Sun dwarf daredevil."
@@ -332,9 +348,11 @@
     },
     {
       "canonical": "Noxolo",
-      "synonyms": [],
+      "synonyms": [
+        "Nuxolo"
+      ],
       "type": "npc",
-      "notes": "Spire Dorm cohort; Uzunjati fugitive noble."
+      "notes": "Spire Dorm cohort; Uzunjati fugitive noble. Session 2: fear-effect on Ot's bird exam."
     },
     {
       "canonical": "Okoro Obiyo",
@@ -366,7 +384,10 @@
       "synonyms": [
         "Mon die",
         "Mwangi language",
-        "Common"
+        "Common",
+        "Muwangi",
+        "Molongi Basin",
+        "Mwangi Basin"
       ],
       "type": "term",
       "notes": "Common language in this AP, not Taldane."
@@ -426,7 +447,9 @@
         "Ojifiris",
         "Fury Chicks",
         "Ojofiri chickens",
-        "Ojofiri chicks"
+        "Ojofiri chicks",
+        "Ojaferi",
+        "Oja-firi"
       ],
       "type": "creature",
       "notes": "Endangered chickens sought in Rain-Scribe Perquisite; blue feathers, white underbelly on chicks."
@@ -452,7 +475,8 @@
       "synonyms": [
         "Lithrean",
         "Lithrei",
-        "Lithrian"
+        "Lithrian",
+        "Lithery"
       ],
       "type": "pc",
       "notes": "Xander's PC; haunted light oracle / investigator."
@@ -491,7 +515,8 @@
       "synonyms": [
         "Lumousie",
         "Lumusi",
-        "Lumousi"
+        "Lumousi",
+        "Lou Moosey"
       ],
       "type": "npc",
       "notes": "Market NPC (session 1 STT often Lumousie)."
@@ -510,6 +535,117 @@
       ],
       "type": "language",
       "notes": "Predecessor tongue to Common spoken by Taraan's familiar (session 1)."
+    },
+    {
+      "canonical": "pugwampi",
+      "synonyms": [
+        "Pugwampi",
+        "Pogwampi",
+        "pugwampis"
+      ],
+      "type": "creature",
+      "notes": "Gremlin fey; misfortune aura; revere kholo; Tempest-Sun Perquisite in the storage barn (session 2)."
+    },
+    {
+      "canonical": "Kholo",
+      "synonyms": [
+        "Kolo",
+        "gnoll",
+        "gnolls"
+      ],
+      "type": "culture",
+      "notes": "Remaster name for gnolls. Do not auto-replace isolated STT 'null'/'Noel' — contextual only."
+    },
+    {
+      "canonical": "High Sun-Mage Oyamba",
+      "synonyms": [
+        "Oyamba",
+        "High Sun Mage",
+        "the High Sun Mage"
+      ],
+      "type": "npc",
+      "notes": "Head of the Magaambya; Tempest-Sun."
+    },
+    {
+      "canonical": "Mafika Ayuwari",
+      "synonyms": [
+        "Mafika"
+      ],
+      "type": "npc",
+      "notes": "Tempest-Sun faculty; Ruby Phoenix celebrity; passed the pugwampi assignment down the line (session 2)."
+    },
+    {
+      "canonical": "spellskin",
+      "synonyms": [
+        "spell scheme",
+        "spell schemes",
+        "Spell Scheme"
+      ],
+      "type": "creature",
+      "notes": "Session 2: animated cloth/paper origami (frogs) from overcharged Magaambya crafting; relocated to the frog pond. Table STT was 'spell scheme'."
+    },
+    {
+      "canonical": "storage barn",
+      "synonyms": [
+        "the storage barn",
+        "storage shed"
+      ],
+      "type": "place",
+      "notes": "Campus storehouse; pugwampi infestation; hatch into tunnels (session 2)."
+    },
+    {
+      "canonical": "Undercommon",
+      "synonyms": [],
+      "type": "language",
+      "notes": "Language GM used at the table for gremlin speech (session 2)."
+    },
+    {
+      "canonical": "fey",
+      "synonyms": [
+        "Fae",
+        "Fey"
+      ],
+      "type": "term",
+      "notes": "Creature type; dislike bells, silver, cold iron."
+    },
+    {
+      "canonical": "Taldane",
+      "synonyms": [
+        "Talden"
+      ],
+      "type": "language",
+      "notes": "Inner Sea Common; not the Common of this AP (Mwangi is)."
+    },
+    {
+      "canonical": "Plane of Wood",
+      "synonyms": [
+        "plane of wood"
+      ],
+      "type": "place",
+      "notes": "Mentioned in session 2 Rain-Scribe / nature research."
+    },
+    {
+      "canonical": "bonekeeper",
+      "synonyms": [
+        "Bonekeeper"
+      ],
+      "type": "term",
+      "notes": "Kholo ancestral office; Anchor Root is in training."
+    },
+    {
+      "canonical": "Erudite",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Taraan Skyseeker's familiar; little gargoyle with words flowing across his body; burrower (session 1–2)."
+    },
+    {
+      "canonical": "eidolon",
+      "synonyms": [
+        "Eidolon",
+        "Eidolons"
+      ],
+      "type": "term",
+      "notes": "Summoner companion; Anya's is a domestic cat at wild-beast size."
     }
   ],
   "flagOnly": []

@@ -30,6 +30,7 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
+- Session 3 Prep — `lessons/0011-session-3-prep.html`
 - Session 2 Prep — `lessons/0010-session-2-prep.html`
 - Progress bookmark: `reference/sot-session-log.md`
 - How to write the next one: `reference/sot-session-prep-guide.md`

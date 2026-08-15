@@ -37,7 +37,7 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 - **id** — Stable 1-based integer; assigned at normalize, never reused.
 - **index** — 0-based display order in `edited.json`.
 - **sceneId** — Session scene slug (see Scenes below).
-- **speaker** — Player name at the table, or GM name when `player-map.json` marks `role: "gm"`.
+- **speaker** — Player name at the table, GM name when `player-map.json` marks `role: "gm"`, or `GM Note` for archival annotations (neutral gray in the viewer).
 - **character** — PC name when speaker is a player; `null` for GM.
 - **voice** — Archive display voice: PC name for in-fiction player speech; `player` for table talk; `narrator` or NPC name for GM.
 - **contentType** — `game`, `recap`, or `ooc`.
@@ -53,6 +53,11 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 | `character-intros` | Session zero — player character introductions |
 | `welcome-walk` | Arrival; interview with Takulu Ot |
 | `perquisite` | Five-day branch service tasks |
+| `recap` | Session 2 — recap of arrival and first Perquisite |
+| `gremlin-task` | Session 2 — Tempest-Sun pugwampi barn (Esi, Anchor Root) |
+| `split-investigation` | Session 2 — tunnels, dorm search, spellskins, Chizire |
+| `next-morning` | Session 2 — Ot's next exam, Noxolo, Cy'An counsel |
+| `research` | Session 2 — tunnel map, library, downtime, kholo rites |
 | `introduction-ceremony` | End of Ch 1; gremlin attack |
 | `campus-semester` | Classes, teacher missions, dorm life |
 | `first-masking` | Ch 2 ceremony; giant insect attack |

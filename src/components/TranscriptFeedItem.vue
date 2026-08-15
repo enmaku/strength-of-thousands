@@ -13,7 +13,7 @@
           v-for="deleted in item.items"
           :key="deleted.segmentId"
           class="transcript-row"
-          :class="isGm(deleted.speaker) ? 'transcript-row--sent' : 'transcript-row--received'"
+          :class="rowClass(deleted.speaker)"
         >
           <div class="transcript-row__content">
             <div class="transcript-row__message">
@@ -36,6 +36,7 @@
                 :text="[deleted.text]"
                 :bg-color="deletedBubbleColor(deleted.speaker)"
                 :text-color="deletedBubbleTextColor(deleted.speaker)"
+                :class="{ 'transcript-chat--note': isGmNote(deleted.speaker) }"
               >
                 <template #name>
                   <span :style="{ color: deletedSpeakerColor(deleted.speaker) }">
@@ -67,7 +68,7 @@
   <div
     v-else
     class="transcript-row"
-    :class="isGm(item.segment.speaker) ? 'transcript-row--sent' : 'transcript-row--received'"
+    :class="rowClass(item.segment.speaker)"
   >
     <div class="transcript-row__content">
       <div class="transcript-row__message">
@@ -114,6 +115,7 @@
             :text="[item.segment.text]"
             :bg-color="bubbleColor(item.segment.speaker)"
             :text-color="bubbleTextColor(item.segment.speaker)"
+            :class="{ 'transcript-chat--note': isGmNote(item.segment.speaker) }"
           >
             <template #name>
               <span :style="{ color: speakerColor(item.segment.speaker) }">
@@ -163,6 +165,7 @@
             :sent="isGm(item.segment.speaker)"
             bg-color="grey-4"
             text-color="grey-10"
+            :class="{ 'transcript-chat--note': isGmNote(item.segment.speaker) }"
           >
             <template #name>
               <span class="text-grey-8">{{ speakerLabel(item.segment) }}</span>
@@ -182,7 +185,11 @@
 <script setup>
 import { deletedItemsLabel } from '../domain/transcriptFeed.js'
 import { diffToHtml } from '../domain/transcriptDiff.js'
-import { formatSpeakerLabel, isGmSpeaker } from '../domain/transcriptSpeakers.js'
+import {
+  formatSpeakerLabel,
+  GM_NOTE_SPEAKER,
+  isGmSpeaker,
+} from '../domain/transcriptSpeakers.js'
 
 const props = defineProps({
   item: { type: Object, required: true },
@@ -211,6 +218,7 @@ const SPEAKER_COLORS = {
   Matt: '#EF6C00',
   Xander: '#4527A0',
   Dave: '#C62828',
+  'GM Note': '#616161',
 }
 
 const BUBBLE_COLORS = {
@@ -221,6 +229,7 @@ const BUBBLE_COLORS = {
   Matt: { bg: 'orange-2', text: 'orange-10' },
   Xander: { bg: 'deep-purple-2', text: 'deep-purple-10' },
   Dave: { bg: 'red-2', text: 'red-10' },
+  'GM Note': { bg: 'grey-5', text: 'grey-10' },
 }
 
 const DELETED_BUBBLE_COLORS = {
@@ -231,6 +240,7 @@ const DELETED_BUBBLE_COLORS = {
   Matt: { bg: 'orange-5', text: 'orange-10' },
   Xander: { bg: 'deep-purple-5', text: 'deep-purple-10' },
   Dave: { bg: 'red-5', text: 'red-10' },
+  'GM Note': { bg: 'grey-6', text: 'grey-10' },
 }
 
 const DELETED_SPEAKER_COLORS = {
@@ -241,10 +251,21 @@ const DELETED_SPEAKER_COLORS = {
   Matt: '#E65100',
   Xander: '#311B92',
   Dave: '#B71C1C',
+  'GM Note': '#424242',
 }
 
 function isGm(speaker) {
   return isGmSpeaker(speaker, props.playerMap)
+}
+
+function isGmNote(speaker) {
+  return speaker === GM_NOTE_SPEAKER
+}
+
+function rowClass(speaker) {
+  if (isGmNote(speaker)) return 'transcript-row--note'
+  if (isGm(speaker)) return 'transcript-row--sent'
+  return 'transcript-row--received'
 }
 
 function speakerColor(name) {
@@ -293,6 +314,11 @@ function speakerLabel(segment) {
   justify-content: flex-end;
 }
 
+.transcript-row--note {
+  justify-content: center;
+  --transcript-note-flourish: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 20' fill='none' stroke='%23000' stroke-width='1.5' stroke-linecap='round'%3E%3Cpath d='M1 10 H29'/%3E%3Cpath d='M44 3.5 Q44 10 50.5 10 Q44 10 44 16.5 Q44 10 37.5 10 Q44 10 44 3.5 Z' fill='%23000' stroke='none'/%3E%3Cpath d='M34 11.5 Q34 14.5 37 14.5 Q34 14.5 34 17.5 Q34 14.5 31 14.5 Q34 14.5 34 11.5 Z' fill='%23000' stroke='none'/%3E%3C/svg%3E");
+}
+
 .transcript-row__content {
   display: flex;
   flex-direction: column;
@@ -307,10 +333,69 @@ function speakerLabel(segment) {
   align-items: flex-end;
 }
 
+.transcript-row--note .transcript-row__content {
+  align-items: center;
+}
+
 .transcript-row__message {
   display: inline-flex;
   align-items: stretch;
   gap: 0.35rem;
+}
+
+/* Flourishes anchor to the bubble, not the row: the GM action column is
+   taller than a one-line note and would otherwise drag them off center. */
+.transcript-chat--note {
+  margin-inline: 3.85rem;
+}
+
+.transcript-chat--note :deep(.q-message-name) {
+  text-align: center;
+}
+
+.transcript-chat--note :deep(.q-message-text) {
+  border-radius: 0.5rem;
+  text-align: center;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transcript-chat--note :deep(.q-message-text:last-child) {
+  min-height: 0;
+}
+
+.transcript-chat--note :deep(.q-message-text:last-child)::before,
+.transcript-chat--note :deep(.q-message-text)::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  width: 3.5rem;
+  height: 1.25rem;
+  border: 0;
+  background-color: #757575;
+  -webkit-mask-image: var(--transcript-note-flourish);
+  mask-image: var(--transcript-note-flourish);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.transcript-chat--note :deep(.q-message-text:last-child)::before {
+  right: calc(100% + 0.35rem);
+  left: auto;
+  transform: translateY(-50%);
+}
+
+.transcript-chat--note :deep(.q-message-text)::after {
+  left: calc(100% + 0.35rem);
+  right: auto;
+  transform: translateY(-50%) scaleX(-1);
 }
 
 .transcript-message-actions {

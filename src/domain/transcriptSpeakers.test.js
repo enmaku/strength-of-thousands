@@ -98,6 +98,7 @@ describe('listSpeakerOptions', () => {
     expect(listSpeakerOptions(segments, playerMap, ['Guest'])).toEqual([
       'Brian',
       'Dave',
+      'GM Note',
       'Guest',
       'Lisa',
       'Morley',
@@ -119,6 +120,14 @@ describe('speakerFieldsForPlayer', () => {
   it('maps the gm to narrator voice', () => {
     expect(speakerFieldsForPlayer('Pablo', playerMap)).toEqual({
       speaker: 'Pablo',
+      character: null,
+      voice: 'narrator',
+    })
+  })
+
+  it('maps GM Note to narrator with no character', () => {
+    expect(speakerFieldsForPlayer('GM Note', playerMap)).toEqual({
+      speaker: 'GM Note',
       character: null,
       voice: 'narrator',
     })

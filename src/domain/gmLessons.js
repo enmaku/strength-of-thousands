@@ -7,6 +7,11 @@ export function getGmLessonSections() {
       label: 'Sessions',
       lessons: [
         {
+          title: 'Session 3 Prep',
+          caption: 'GM prep · Cascade oils, Umbo, ritual',
+          href: `${pagesBase}/lessons/0011-session-3-prep.html`,
+        },
+        {
           title: 'Session 2 Prep',
           caption: 'GM prep · dorm, Ot aside, days 2–3',
           href: `${pagesBase}/lessons/0010-session-2-prep.html`,

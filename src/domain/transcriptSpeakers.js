@@ -1,5 +1,9 @@
 const GM_SPEAKER = 'Pablo'
 
+export const GM_NOTE_SPEAKER = 'GM Note'
+
+const BUILTIN_SPEAKERS = [GM_NOTE_SPEAKER]
+
 const DEFAULT_VOICES = new Set(['player', 'narrator'])
 
 export function formatSpeakerLabel(speaker, voice) {
@@ -16,7 +20,11 @@ export function listPlayerNames(playerMap) {
 }
 
 export function listSpeakerOptions(segments, playerMap, extraSpeakers = []) {
-  const names = new Set([...listPlayerNames(playerMap), ...extraSpeakers])
+  const names = new Set([
+    ...BUILTIN_SPEAKERS,
+    ...listPlayerNames(playerMap),
+    ...extraSpeakers,
+  ])
 
   for (const segment of segments) {
     if (segment.speaker) names.add(segment.speaker)
@@ -97,6 +105,10 @@ export function canAddCustomVoice(speaker, playerMap) {
 }
 
 export function speakerFieldsForPlayer(speaker, playerMap) {
+  if (speaker === GM_NOTE_SPEAKER) {
+    return { speaker, character: null, voice: 'narrator' }
+  }
+
   const player = playerMap?.players?.[speaker]
 
   if (!player) {

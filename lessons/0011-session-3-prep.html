@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 3 Prep — Strength of Thousands</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #6f7068;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner, main, nav.toc, footer { max-width: 48rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    nav.toc {
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a, a { color: var(--green); }
+    main { padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      color: var(--green);
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { color: var(--red-earth); font-size: 1.08rem; margin: 1.5rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.91rem; margin: 1rem 0; }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font: 700 0.76rem var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .callout, .spoiler-box {
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.97rem;
+    }
+    .callout { background: var(--green-soft); border-left: 4px solid var(--green); }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); }
+    .spoiler-box strong { color: var(--red-earth); }
+    .tag {
+      display: inline-block;
+      font: 700 0.64rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.stretch { background: #efe2ef; color: #5a2a5a; }
+    .tag.cut { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .clock {
+      display: grid;
+      grid-template-columns: 5.2rem 1fr;
+      gap: 0;
+      border: 1px solid var(--border);
+      margin: 1rem 0;
+    }
+    .clock div { padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--border); }
+    .clock div:nth-last-child(-n+2) { border-bottom: 0; }
+    .clock .time { background: var(--gold-soft); font: 700 0.78rem var(--sans); }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .quiz h2 { margin-top: 0; }
+    .quiz button {
+      font: 0.83rem var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: 0;
+      padding: 0.48rem 0.85rem;
+      margin: 0.3rem 0.3rem 0.3rem 0;
+      cursor: pointer;
+    }
+    .feedback { min-height: 1.4em; margin: 0.5rem 0 1.25rem; font-weight: 600; }
+    .feedback.correct { color: var(--correct); }
+    .feedback.wrong { color: var(--wrong); }
+    .cite { color: var(--muted); font-size: 0.8rem; }
+    .nav-lessons { font: 0.85rem var(--sans); }
+    footer {
+      padding: 1.5rem 1.5rem 3rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font: 0.83rem var(--sans);
+    }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      table { display: block; overflow-x: auto; }
+      .clock { grid-template-columns: 4.5rem 1fr; }
+    }
+    @media print {
+      nav.toc, .quiz button { display: none; }
+      body { background: #fff; font-size: 10.5pt; }
+      header { padding: 1rem; }
+      main { padding-bottom: 1rem; }
+      h2 { break-after: avoid; }
+      table, .callout, .spoiler-box { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 3 · Book 1 Ch 1</p>
+    <h1>Session 3 Prep</h1>
+    <p>Run Cascade Bearers cold: three oils, Umbo, and the fey-abeyance ritual. Emerald mail is the stretch.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#left-off">Left off</a>
+  <a href="#pace">Pace</a>
+  <a href="#open">Open cold</a>
+  <a href="#oils">Three oils</a>
+  <a href="#umbo">Umbo</a>
+  <a href="#ritual">Ritual</a>
+  <a href="#stretch">Stretch</a>
+  <a href="#threads">Live threads</a>
+  <a href="#npcs">NPCs</a>
+  <a href="#stories">PC moves</a>
+  <a href="#risks">Risks</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<main>
+  <p class="nav-lessons">
+    <a href="../reference/sot-session-log.md">Session log</a> ·
+    <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+    <a href="0009-player-tie-ins-gm-prep.html">Player tie-ins</a> ·
+    <a href="../reference/sot-campus-npcs.html">Campus NPCs</a>
+  </p>
+
+  <section id="left-off">
+    <h2>Where Session 2 left you</h2>
+    <p><span class="tag canon">Table canon</span> Start at <strong>midday on the morning after the barn</strong>. The group has used its free morning; the Cascade assignment has not begun.</p>
+    <ul>
+      <li><strong>Tempest-Sun complete:</strong> six pugwampis left through the floor hatch without a fight. They admitted someone sent them to break things, but named no master.</li>
+      <li><strong>Tunnels are live:</strong> Taraan’s familiar mapped a tangled network between the barn and Spire Dorm. The party knows two entrances; Chizire has a hidden card room nearby.</li>
+      <li><strong>Uduak identified:</strong> earth mage, expelled two or three years ago after murdering gremlins during his Perquisite. The party does not know he became Stone Ghost.</li>
+      <li><strong>Anchor Root is the cohort favorite.</strong> She translated, berated the pugwampis into leaving, shared her beetles and bonekeeper duties, and helped relocate two spellskein frogs to the pond.</li>
+      <li><strong>Yggostrus damaged Anchor’s trust</strong> by calling Kholo funerary rites uncivilized and using the rejected name “gnoll.” He later researched the history and understood why it was harmful.</li>
+      <li><strong>Noxolo’s fear magic surfaced</strong> during Ot’s feather test; she fled crying. Lithrei is curious. Ot said she needs friends, not judgment.</li>
+      <li><strong>Cy’An heard “tests do not eat.”</strong> They accepted Ot’s distinction between helping friends and taking away their chance to learn.</li>
+      <li><strong>Solanum flew Haibram’s glider</strong> (~80 ft, safe landing) and is owed a formula. The dorm search also recovered unsettled <strong>handwraps of mighty blows</strong>.</li>
+    </ul>
+    <p class="cite">Table truth: <a href="../transcripts/strength-of-thousands/session-02/edited.json">Session 2 edited transcript</a>. Bookmark: <a href="../reference/sot-session-log.md">session log</a>.</p>
+  </section>
+
+  <section id="pace">
+    <h2>Pace estimate</h2>
+    <table>
+      <thead><tr><th>Band</th><th>Plan</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Expected</strong></td><td><strong>Cascade only:</strong> briefing → acquire three oils → Umbo → prepare oils → fey-abeyance ritual → aftermath.</td></tr>
+        <tr><td><span class="tag stretch">Stretch</span></td><td>If Cascade ends with at least 30–45 minutes left, open the next morning with Ignaci and Tzeniwe, elephant birds, and the mail basket. Stop after the briefing or a few easy deliveries.</td></tr>
+        <tr><td><span class="tag cut">Cut early</span></td><td>If planning or Umbo runs long, end on the ritual result. Do not squeeze in Emerald merely to mark a day complete.</td></tr>
+        <tr><td><span class="tag cut">Do not bank on</span></td><td>Uzunjati storytelling or the Introduction Ceremony. Session 2 proved this table can spend a full evening on one task and its consequences.</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <strong>Session thesis:</strong> imagination needs responsibility. The players choose how to source living and dead ingredients, survive an ambush, and help cast a ward—then Mariama asks what else that ward might hurt.
+    </div>
+  </section>
+
+  <section id="open">
+    <h2>Open cold — Cascade briefing at midday</h2>
+    <p>At the usual meeting place: <strong>Mariama Keitana</strong>, <strong>Anchor Root</strong>, and a sleeping <strong>Chizire</strong>. Preserve the book’s scene, but move it to midday to match Session 2 canon.</p>
+    <ol>
+      <li>Mariama admires Chizire’s ability to sleep anywhere.</li>
+      <li>She frames Cascade Bearers as advancing magical theory and making new magic safe to use. Mention the “exploding nose incident”; refuse details.</li>
+      <li>The barn proved gremlins are active, so the group will test a magical defense.</li>
+      <li>Anchor lists <strong>scarlet cap, bone, and caterpillar oils</strong>. Attention makes her shrink; let her become confident when discussing ingredients.</li>
+      <li>Mariama gives them <strong>eight hours</strong>: “Be done in eight hours, or you’ll miss dinner. And try to have fun!”</li>
+    </ol>
+    <div class="spoiler-box">
+      <strong>Anchor continuity</strong>
+      <p>She is not back to zero. She likes most of the cohort and has already shown courage and expertise. With Yggostrus, she is polite but guarded. Do not force her to explain the insult again; a respectful task interaction is the better repair opportunity.</p>
+    </div>
+    <p class="cite">Published scene and rules: <code>reference/sot-extracts/kindled-magic.txt</code>, Cascade Bearer Assignment, printed pp. 20–24.</p>
+  </section>
+
+  <section id="oils">
+    <h2>The three oils — run as a visible clock</h2>
+    <p>Ask for a plan before resolving checks. They can split up, but the scarlet-cap expedition carries the encounter; make sure enough of the party goes into the jungle.</p>
+    <table>
+      <thead><tr><th>Oil</th><th>Acquisition</th><th>Preparation</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Bone</strong></td>
+          <td>Butcher gives bones free after a 1-hour wait; 1 gp skips it. Gather Information DC 10 finds garbage heaps; critical success finds the “talking cow” carcass, whose fresh bones grant +2 to preparation. Grave robbing invites serious school consequences.</td>
+          <td>Carbonize, then DC 17 Crafting or Nature; 1 hour. Failure can retry; critical failure ruins the bones. Chizire auto-succeeds in 2 hours if Mariama wakes him with slugs.</td>
+        </tr>
+        <tr>
+          <td><strong>Scarlet cap</strong></td>
+          <td>One hour outside Nantambu. The sun-and-moon-fed mushrooms grow up a tree; DC 10 Athletics to climb. Umbo attacks when someone climbs.</td>
+          <td>No check. Press gradually for 1 hour; it can happen during the walk home.</td>
+        </tr>
+        <tr>
+          <td><strong>Caterpillar</strong></td>
+          <td>One hour searching; DC 15 Nature or Survival, or DC 20 Perception. Careful capture avoids their painful hairs; complicated handling can use DC 15 Thievery. Touch: DC 13 Fortitude or sickened 1.</td>
+          <td>Squashing them takes only minutes. Anchor cannot bear to watch. Do not turn her distress into a debate she must defend.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="clock" aria-label="Suggested eight-hour clock">
+      <div class="time">0:00</div><div>Brief, assign jobs, depart.</div>
+      <div class="time">1:00</div><div>Scarlet-cap group reaches the clearing; other groups find sources.</div>
+      <div class="time">2:00</div><div>Umbo aftermath; begin return and press mushrooms.</div>
+      <div class="time">3:00</div><div>Regroup; finish gathering and begin bone oil.</div>
+      <div class="time">4–6</div><div>Retries, Chizire backup, and travel buffer.</div>
+      <div class="time">7:00</div><div>Begin the one-hour ritual.</div>
+      <div class="time">8:00</div><div>Ritual result and Mariama’s ethical debrief.</div>
+    </div>
+    <p class="cite">Rules and DCs: <code>kindled-magic.txt</code>, Bone Oil, Scarlet Cap Oil, Caterpillar Oil, printed pp. 21–23.</p>
+  </section>
+
+  <section id="umbo">
+    <h2>Umbo — dangerous, selfish, and uninterested in talk</h2>
+    <ul>
+      <li><strong>Creature 3</strong>, weak myceloid; AC 18, 50 HP, slashing weakness 5.</li>
+      <li>Hidden in leaves above the mushrooms. When a PC climbs, he rides a broad leaf down and uses <strong>Emit Spores</strong> across as many targets as possible.</li>
+      <li><strong>Purple pox:</strong> DC 18 Fortitude, 1-minute onset. Stage 1 deals 1d6 poison and stupefied 1 for a day. The later stages are lethal—make treatment urgency legible if anyone fails.</li>
+      <li>He wants humanoid flesh and will not negotiate. He flees into the jungle below 10 HP.</li>
+      <li>A climber automatically spots his cache: holly bush feather token, wolf fang, and hand of the mage.</li>
+    </ul>
+    <div class="callout">
+      <strong>Fair telegraph:</strong> the leaves move under weight before he drops; fungal growth pulses; the first spore cloud is visibly noxious. The group is healing-rich, but Umbo can still punish a clustered level-1 party.
+    </div>
+    <div class="spoiler-box">
+      <strong>Character use</strong>
+      <p>Give Solanum an obvious slashing lane and let Esi’s battle-magic conversation echo through competence, not a flashback. If Lithrei’s passenger reacts to spores or domination, use one sensory flicker only. The fight belongs to the present task.</p>
+    </div>
+  </section>
+
+  <section id="ritual">
+    <h2>Fey abeyance — success is not the end of the lesson</h2>
+    <p>Mariama adds cold-iron bells and explains that normal gremlin bells mostly work through superstition. This ritual creates a genuine ward in the barn.</p>
+    <table>
+      <thead><tr><th>Role</th><th>Check</th></tr></thead>
+      <tbody>
+        <tr><td>Primary caster</td><td>Trained Nature, DC 21. Anchor takes the role if no PC qualifies.</td></tr>
+        <tr><td>Secondary caster</td><td>DC 16 Crafting, Intimidation, Occultism, or Performance.</td></tr>
+        <tr><td>Cast</td><td>1 hour. Ward lasts 1 week.</td></tr>
+        <tr><td>Critical failure</td><td>No effect; attracts troublesome fey at GM discretion. Keep any consequence short enough not to eclipse the session ending.</td></tr>
+      </tbody>
+    </table>
+    <p>The ward makes fey uncomfortable, treats physical attacks against them as cold iron, and causes nonlethal mental damage in bell squares. After any result, Mariama notices the problem: <strong>it affects all fey, not only malicious gremlins.</strong></p>
+    <div class="spoiler-box">
+      <strong>GM-only consequence</strong>
+      <p>Kurshkin later mistakes the barn clear and ward as the start of another anti-gremlin purge. Do not reveal that interpretation yet. Let the players leave believing they solved a real problem while understanding that protective systems can harm bystanders.</p>
+    </div>
+    <p class="cite">Ritual: <code>kindled-magic.txt</code>, The Ritual / Fey Abeyance, printed pp. 23–24.</p>
+  </section>
+
+  <section id="stretch">
+    <h2>Stretch — open Emerald mail</h2>
+    <p><span class="tag stretch">Only with time</span> Move to the following morning. Introduce <strong>Ignaci</strong> and <strong>Tzeniwe</strong>, give every PC a docile elephant bird, reveal Tzeniwe’s overpacked supplies and Zanvi’s web-covered toy, then hand over two dozen jumbled letters.</p>
+    <ul>
+      <li>Easy deliveries take two hours and supply city color: wedding dress, bird rehabilitation, tree-rescued puppy, too much jam.</li>
+      <li>Hard mail includes five illegible addresses, four descriptive rural addresses, a disputed stained-glass lamp, and three letters to gods.</li>
+      <li>If there is under 30 minutes left, stop on the basket reveal. Do not summarize away the social day.</li>
+    </ul>
+    <p class="cite">Next assignment: <code>kindled-magic.txt</code>, Emerald Boughs Assignment, printed pp. 24–26.</p>
+  </section>
+
+  <section id="threads">
+    <h2>Live threads — acknowledge, do not detour</h2>
+    <table>
+      <thead><tr><th>Thread</th><th>Session 3 handling</th></tr></thead>
+      <tbody>
+        <tr><td>Tunnel map and card room</td><td>Taraan’s Alarm and Chizire’s password remain active. No alarm means no new event. The partial map is real but not an invitation to start Chapter 3.</td></tr>
+        <tr><td>Organized gremlins</td><td>Mariama’s ward is the school’s immediate response. No new organizer clue is required tonight.</td></tr>
+        <tr><td>Uduak</td><td>The group knows enough for now. If asked, records end after his dramatic expulsion and presumed later death. Do not name Stone Ghost.</td></tr>
+        <tr><td>Noxolo</td><td>She is recovering with another student. If encountered, she is embarrassed and wants ordinary treatment. Save a substantial scene for Uzunjati day.</td></tr>
+        <tr><td>Red star / gateway</td><td>Lithrei found conflicting possibilities and a likely-dangerous impression, not a solution. Let the uncertainty stand.</td></tr>
+        <tr><td>Spellskein frogs</td><td>Two now live in the pond and get along with natural frogs. Pure campus texture unless a player checks on them.</td></tr>
+        <tr><td>Handwraps of mighty blows</td><td>Found in abandoned Spire laundry; ownership unsettled. If asked, keep them as loot pending a table decision—do not invent a claimant tonight.</td></tr>
+        <tr><td>Uduak’s former room</td><td>Near or possibly now Yggostrus’s. Interesting for later; not tonight’s dungeon door.</td></tr>
+        <tr><td>Haibram’s glider formula</td><td>Owed to Solanum. Mention only if she seeks him; do not schedule a crafting scene.</td></tr>
+        <tr><td>Esi’s catfolk book / Chizire’s mold</td><td>Unread joke-book and illness-faking mold remain optional leads. Acknowledge if pursued; do not expand into Cascade time.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="npcs">
+    <h2>NPC relationships tonight</h2>
+    <table>
+      <thead><tr><th>NPC</th><th>Play</th><th>Relationship move</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Anchor Root</strong></td><td>Established expert, not merely shy exposition. Confident on ingredients and nature; discomfort returns under social focus.</td><td>Whole cohort: let affection be ordinary. Yggostrus: cautious courtesy; trust repair only through listening and respectful action.</td></tr>
+        <tr><td><strong>Mariama Keitana</strong></td><td>Debut. Cheerful occult chaos, intellectually serious about consequences, amused by Chizire.</td><td>Solanum gets a light experimental-magic peer beat. Do not turn Mariama into another investigation source.</td></tr>
+        <tr><td><strong>Chizire</strong></td><td>Sleeping backup brewer; his card room is now known to the party.</td><td>Taraan shared the Alarm password. Let him appreciate discretion. Wake him only if the oil plan needs help.</td></tr>
+        <tr><td><strong>Ignaci / Tzeniwe</strong></td><td>Stretch only.</td><td>Ignaci lightly mirrors Yggostrus’s cynicism. Tzeniwe is Cy’An’s next major relationship, but give it room rather than squeezing it into an epilogue.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="stories">
+    <h2>Player story moves — one each at most</h2>
+    <table>
+      <thead><tr><th>PC</th><th>Available move</th><th>Not yet</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Anya</strong></td><td>Let her practical instincts protect the party or capture caterpillars safely. A quiet ingredient-side conversation with Anchor is enough.</td><td>Koride diagnosis; eidolon-origin reveal.</td></tr>
+        <tr><td><strong>Cy’An</strong></td><td>Offer Crafting, food, or logistics lanes, then let others own their checks. The growth beat is noticing when help supports rather than replaces.</td><td>Repeat Ot’s lesson; force immediate transformation.</td></tr>
+        <tr><td><strong>Solanum</strong></td><td>Use her magus competence against Umbo and give Mariama one “interesting technique” exchange. Haibram’s glider formula is already owed—do not force a delivery scene.</td><td>More red-star answers; Lesedi payoff; scheduled glider crafting.</td></tr>
+        <tr><td><strong>Yggostrus</strong></td><td>Anchor gives him factual instructions without warmth. The win is following them respectfully, perhaps protecting her ritual role without claiming credit.</td><td>Demand forgiveness; make Anchor teach him again; curse research.</td></tr>
+        <tr><td><strong>Lithrei</strong></td><td>A single passenger reaction to pox, domination, or the ritual can rhyme with uncontrolled influence.</td><td>Identify passenger; fold Noxolo or Uduak into the same spirit.</td></tr>
+        <tr><td><strong>Taraan</strong></td><td>Strong ritual lane: Nature primary if trained, or Occultism secondary. His investigator habits can optimize the eight-hour clock.</td><td>Ird reveal; tunnel dungeon expedition.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="risks">
+    <h2>Table risks and GM moves</h2>
+    <ul>
+      <li><strong>Analysis paralysis:</strong> put the eight-hour clock on the table. Advance it when plans consume meaningful time.</li>
+      <li><strong>Party split:</strong> allow parallel sourcing, but keep most PCs on scarlet caps so Umbo remains playable and fair.</li>
+      <li><strong>Umbo lethality:</strong> telegraph spores, remember his flight threshold, and surface disease treatment immediately after exposure.</li>
+      <li><strong>Caterpillar ethics:</strong> the task requires killing them. Let discomfort exist; do not demand a philosophical defense from Anchor.</li>
+      <li><strong>Yggostrus/Anchor repair:</strong> avoid an apology checkpoint. Trust should move through several respectful interactions.</li>
+      <li><strong>Tunnel fixation:</strong> the school is responding. The Cascade ward is today’s work; tunnel exploration can wait.</li>
+      <li><strong>Over-scheduling:</strong> Emerald is a new social sandbox. A clean ritual ending is better than rushing it.</li>
+    </ul>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <h2>Self-check — ready for Session 3?</h2>
+
+    <h3>1. What is the expected scope?</h3>
+    <button onclick="check(this,'a')">A. Cascade oils, Umbo, and ritual</button>
+    <button onclick="check(this,'b')">B. Cascade through Introduction Ceremony</button>
+    <button onclick="check(this,'c')">C. Emerald mail only</button>
+    <div class="feedback" data-answer="a"></div>
+
+    <h3>2. When does Umbo attack?</h3>
+    <button onclick="check(this,'a')">A. During bone preparation</button>
+    <button onclick="check(this,'b')">B. When someone climbs for scarlet caps</button>
+    <button onclick="check(this,'c')">C. On a ritual failure</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>3. What is the ritual’s thematic catch?</h3>
+    <button onclick="check(this,'a')">A. It only lasts one hour</button>
+    <button onclick="check(this,'b')">B. It requires killing a gremlin</button>
+    <button onclick="check(this,'c')">C. It can harm benevolent fey too</button>
+    <div class="feedback" data-answer="c"></div>
+
+    <h3>4. How should Yggostrus repair trust with Anchor?</h3>
+    <button onclick="check(this,'a')">A. Ask her to explain Kholo history again</button>
+    <button onclick="check(this,'b')">B. Respect her instructions and boundaries over time</button>
+    <button onclick="check(this,'c')">C. Avoid her permanently</button>
+    <div class="feedback" data-answer="b"></div>
+  </section>
+
+  <section id="after">
+    <h2>After Session 3</h2>
+    <ol>
+      <li>Update <a href="../reference/sot-session-log.md">the session log</a>: oils acquired, ritual result, relationship changes, and whether Emerald opened.</li>
+      <li>Record disease state, treasure, or unfinished time-clock consequences.</li>
+      <li>Draft Session 4 from actual coverage, not the chapter outline.</li>
+    </ol>
+    <p>Ask your teacher about anything unclear: the eight-hour clock, Umbo tactics, ritual roles, or keeping Anchor’s trust thread understated.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0011 · Session prep · grounded in Session 2 table canon and <em>Kindled Magic</em> Chapter 1.</p>
+  <p>Open: <code>open lessons/0011-session-3-prep.html</code></p>
+</footer>
+
+<script>
+function check(button, choice) {
+  let feedback = button.nextElementSibling;
+  while (feedback && !feedback.classList.contains('feedback')) {
+    feedback = feedback.nextElementSibling;
+  }
+  const answer = feedback.getAttribute('data-answer');
+  const correct = choice === answer;
+  feedback.textContent = correct ? 'Correct.' : 'Not quite — re-read the matching section above.';
+  feedback.className = 'feedback answered ' + (correct ? 'correct' : 'wrong');
+}
+</script>
+</body>
+</html>

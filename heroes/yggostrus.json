@@ -283,8 +283,8 @@
   },
   "relationships": {
     "anchor-root": 0,
-    "chizire": 1,
-    "esi-djana": 2,
+    "chizire": 2,
+    "esi-djana": 0,
     "haibram-thodja": 1,
     "ignaci-canterells": 1,
     "mariama-keitana": 1,
