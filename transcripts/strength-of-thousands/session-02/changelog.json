@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-02",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T07:26:02.973Z",
+  "generatedAt": "2026-08-15T08:48:15.371Z",
   "changes": [
     {
       "segmentId": 1,
@@ -70257,6 +70257,98 @@
       "path": "text",
       "old": "New tool everyone - GM Notes! Same story now with 38% more post-facto sass!",
       "new": "New tool - GM Notes! Same story now with 38% more post-facto sass!",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5561,
+      "op": "replace",
+      "path": "text",
+      "old": "Cyan was not one of those who rolled 15 or higher.",
+      "new": "Cyan/Kiri was not one of those who rolled 15 or higher.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5561,
+      "op": "replace",
+      "path": "text",
+      "old": "Cyan/Kiri was not one of those who rolled 15 or higher.",
+      "new": "Kiri was not one of those who rolled 15 or higher.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 644,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Drew",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 644,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 644,
+      "op": "replace",
+      "path": "text",
+      "old": "We have to be real careful here. We don't really have a Kholo friend. We have a Kholo associate.",
+      "new": "We have to be real careful here. We don't really have a Kholo friend. We have a Kholo associate.",
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 644,
+      "op": "split",
+      "path": "text",
+      "old": "We have to be real careful here. We don't really have a Kholo friend. We have a Kholo associate.",
+      "new": [
+        "We have to be real careful here. We don't really have a Kholo friend. We have a Kholo associate.",
+        "Nor was Drew"
+      ],
+      "newSegmentId": 5609,
+      "reason": "gm_split",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5609,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Drew",
+      "new": "GM Note",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 5609,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
       "reason": "gm_edit",
       "confidence": 1,
       "flagged": false,

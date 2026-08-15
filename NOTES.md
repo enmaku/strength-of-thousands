@@ -54,3 +54,5 @@ Text extracts: `reference/sot-extracts/` (all 6 books + Player's Guide)
 ## Session prep workflow
 
 After each session: update `reference/sot-session-log.md`, then ask for Session N+1 prep. Do not invent pace from memory — use transcript + session log + extract.
+
+**Thesis callout (required):** every new GM-facing prep (session, book, or campaign slice) gets a short moral/philosophical thesis for that chunk — claim + how play enacts it; optionally which PCs need it most. Pattern exemplar: Session 3 prep. Rule: `.cursor/rules/gm-prep-thesis.mdc`. Recipe: `reference/sot-session-prep-guide.md`. Do not bake this into the global `/teach` skill.

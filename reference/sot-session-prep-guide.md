@@ -25,13 +25,14 @@ Copy structure/CSS from the latest session prep or from Book 1 lesson styles (pa
 1. **Header** — Session N · Book/Chapter · one-line scope.
 2. **Left off / start cold** — 3–6 bullets from session log + transcript.
 3. **Pace estimate** — expected / stretch / cut-early. Cite why (prior session density + encounter weight).
-4. **Tonight’s book content** — beat-by-beat for estimated material only; cite extract pages or Book lesson anchors. Stat-block pointers, not full bestiary reprint.
-5. **NPC introductions** — who debuts; planned PC relationships from `0009-player-tie-ins-gm-prep.html` + any Session 1 canon.
-6. **Player story moves** — one small advance per PC that matches AP chapter; explicit “don’t do yet” list.
-7. **Table risks** — nonlethal mandate, party weaknesses, Magaambya accountability sidebar, time sinks.
-8. **Self-check quiz** — 3–4 questions.
-9. **Ask the teacher** + links (session log, Book lesson, tie-ins, campus NPCs).
-10. **After you run it** — reminder to update `sot-session-log.md` before Session N+1 prep.
+4. **Session thesis** — short `.callout`: the moral / ethical / philosophical pressure of tonight’s slice (1–3 sentences). One crisp claim + how play enacts it; optionally who most needs the lesson and how it ties to `reference/sot-thematic-guide.html`. Repo rule: `.cursor/rules/gm-prep-thesis.mdc`.
+5. **Tonight’s book content** — beat-by-beat for estimated material only; cite extract pages or Book lesson anchors. Stat-block pointers, not full bestiary reprint.
+6. **NPC introductions** — who debuts; planned PC relationships from `0009-player-tie-ins-gm-prep.html` + any Session 1 canon.
+7. **Player story moves** — one small advance per PC that matches AP chapter; explicit “don’t do yet” list.
+8. **Table risks** — nonlethal mandate, party weaknesses, Magaambya accountability sidebar, time sinks.
+9. **Self-check quiz** — 3–4 questions.
+10. **Ask the teacher** + links (session log, Book lesson, tie-ins, campus NPCs).
+11. **After you run it** — reminder to update `sot-session-log.md` before Session N+1 prep.
 
 ## Estimating pace
 
