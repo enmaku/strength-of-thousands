@@ -196,6 +196,7 @@
         "Teacher Up",
         "Teacher Ott",
         "Teacher Ot",
+        "Teacher Alt",
         "Oat",
         "Ott",
         "Up"
@@ -207,7 +208,9 @@
       "canonical": "Koride Ulawa",
       "synonyms": [
         "Koride",
-        "Professor Koride"
+        "Professor Koride",
+        "Karida",
+        "Karide"
       ],
       "type": "npc",
       "notes": "Rain-Scribe entomologist; acerbic; AP keystone faculty."
@@ -289,7 +292,13 @@
     {
       "canonical": "Anchor Root",
       "synonyms": [
-        "Anchor"
+        "Anchor",
+        "Anchoroot",
+        "Angaroot",
+        "Ankaroot",
+        "Inkerroot",
+        "Anka",
+        "Angaroo"
       ],
       "type": "npc",
       "notes": "Spire Dorm; ant gnoll Rain-Scribe; Redridge bonekeeper-in-training. Dossier: reference/sot-campus-npcs.html#anchor-root"
@@ -341,7 +350,8 @@
     {
       "canonical": "Mariama Keitana",
       "synonyms": [
-        "Mariama"
+        "Mariama",
+        "Mariyama"
       ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Cascade Bearer occultist."
@@ -476,7 +486,9 @@
         "Lithrean",
         "Lithrei",
         "Lithrian",
-        "Lithery"
+        "Lithery",
+        "Lythry",
+        "Lithu"
       ],
       "type": "pc",
       "notes": "Xander's PC; haunted light oracle / investigator."
@@ -646,6 +658,55 @@
       ],
       "type": "term",
       "notes": "Summoner companion; Anya's is a domestic cat at wild-beast size."
+    },
+    {
+      "canonical": "Umbo",
+      "synonyms": [
+        "Ambo"
+      ],
+      "type": "npc",
+      "notes": "Session 3: predatory myceloid guarding scarlet-cap mushrooms; first party combat."
+    },
+    {
+      "canonical": "Scarlet Cap Oil",
+      "synonyms": [
+        "Scarlet Cap",
+        "scarlet cap oil",
+        "Scarlet Cat Oil",
+        "Scarlet Cat Mushrooms",
+        "scarlet cap mushrooms"
+      ],
+      "type": "term",
+      "notes": "Cascade Perquisite ingredient; sun-and-moon-fed red cup mushrooms high on trees."
+    },
+    {
+      "canonical": "Bone Oil",
+      "synonyms": [
+        "bone oil",
+        "lucky bones"
+      ],
+      "type": "term",
+      "notes": "Cascade Perquisite ingredient; rendered from lucky bones Anchor Root identifies."
+    },
+    {
+      "canonical": "Caterpillar Oil",
+      "synonyms": [
+        "caterpillar oil",
+        "Caterpillies"
+      ],
+      "type": "term",
+      "notes": "Cascade Perquisite ingredient; fuzzy caterpillars from jungle edge plants."
+    },
+    {
+      "canonical": "fey-abeyance ritual",
+      "synonyms": [
+        "Fey Obeyance Ritual",
+        "Fey Abeyance Ritual",
+        "fey abeyance",
+        "fey obeyance"
+      ],
+      "type": "term",
+      "notes": "Session 3: Cascade ritual enchanting cold-iron bells to ward the storage barn against pugwampi (affects all fey)."
     }
   ],
   "flagOnly": []

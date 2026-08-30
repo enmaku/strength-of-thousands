@@ -1096,7 +1096,12 @@ async function loadTranscript() {
         segmentMetaById.value = new Map(
           normalized.map((segment) => [
             segment.id,
-            { speaker: segment.speaker, voice: segment.voice },
+            {
+              speaker: segment.speaker,
+              voice: segment.voice,
+              text: segment.text,
+              sourceText: segment.sourceText,
+            },
           ]),
         )
       }

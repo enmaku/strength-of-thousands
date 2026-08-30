@@ -16,9 +16,14 @@ export function extractRemovedSegments(changelog, segments, segmentMetaById = ne
     if (visibleIds.has(segmentId)) continue
 
     const meta = segmentMetaById.get(segmentId)
+    const text = (change.old ?? meta?.text ?? meta?.sourceText ?? '').trim()
+    // Skip hollow removes (changelog missing `old` and no normalized text) —
+    // they render as empty chat bubbles in the deleted slots.
+    if (!text) continue
+
     removed.push({
       segmentId,
-      text: change.old ?? '',
+      text,
       speaker: change.speaker ?? meta?.speaker ?? 'Unknown',
       voice: meta?.voice ?? null,
     })

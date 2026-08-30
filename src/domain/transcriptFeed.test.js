@@ -46,6 +46,30 @@ describe('extractRemovedSegments', () => {
     ])
   })
 
+  it('falls back to normalized text when remove.old is empty', () => {
+    const hollow = {
+      changes: [{ op: 'remove', segmentId: 4, reason: 'ooc_removed' }],
+    }
+
+    expect(
+      extractRemovedSegments(
+        hollow,
+        segments,
+        new Map([[4, { speaker: 'Dave', voice: 'narrator', sourceText: 'Food aside' }]]),
+      ),
+    ).toEqual([
+      { segmentId: 4, text: 'Food aside', speaker: 'Dave', voice: 'narrator' },
+    ])
+  })
+
+  it('skips hollow removes with no recoverable text', () => {
+    const hollow = {
+      changes: [{ op: 'remove', segmentId: 4, old: '', reason: 'ooc_removed' }],
+    }
+
+    expect(extractRemovedSegments(hollow, segments)).toEqual([])
+  })
+
   it('ignores segments that were restored after deletion', () => {
     const withRestore = {
       changes: [

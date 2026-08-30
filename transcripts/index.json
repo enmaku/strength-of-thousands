@@ -22,5 +22,13 @@
     "sessionId": "strength-of-thousands-session-02",
     "label": "Session 2",
     "editedUrl": "https://enmaku.github.io/strength-of-thousands/transcripts/strength-of-thousands/session-02/edited.json"
+  },
+  {
+    "campaign": "strength-of-thousands",
+    "sessionDir": "session-03",
+    "sessionNumber": 3,
+    "sessionId": "strength-of-thousands-session-03",
+    "label": "Session 3",
+    "editedUrl": "https://enmaku.github.io/strength-of-thousands/transcripts/strength-of-thousands/session-03/edited.json"
   }
 ]

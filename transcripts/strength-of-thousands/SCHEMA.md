@@ -58,6 +58,12 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 | `split-investigation` | Session 2 — tunnels, dorm search, spellskins, Chizire |
 | `next-morning` | Session 2 — Ot's next exam, Noxolo, Cy'An counsel |
 | `research` | Session 2 — tunnel map, library, downtime, kholo rites |
+| `oils-briefing` | Session 3 — Mariama / Anchor Root Cascade oils task |
+| `scarlet-cap` | Session 3 — jungle trek and scarlet-cap harvest |
+| `umbo-combat` | Session 3 — first combat vs Umbo |
+| `oils-gathering` | Session 3 — caterpillars, bones, finish ingredients |
+| `fey-abeyance` | Session 3 — process oils; fey-abeyance ritual on bells |
+| `aftermath` | Session 3 — Mariama ethics, dorm, Rain-Scribe downtime |
 | `introduction-ceremony` | End of Ch 1; gremlin attack |
 | `campus-semester` | Classes, teacher missions, dorm life |
 | `first-masking` | Ch 2 ceremony; giant insect attack |
