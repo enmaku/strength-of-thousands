@@ -107,8 +107,14 @@
         </div>
         <div
           class="transcript-editable-message"
-          :class="{ 'transcript-editable-message--gm': gmMode }"
-          @click="gmMode && emit('edit', item.segment)"
+          :class="{
+            'transcript-editable-message--gm': gmMode,
+            'transcript-editable-message--dragging': isDragSource,
+            'transcript-editable-message--drop-target': isDropTarget,
+          }"
+          :data-segment-id="gmMode ? item.segment.id : undefined"
+          v-touch-pan.mouse="gmMode ? onBubblePan : undefined"
+          @click="onBubbleClick"
         >
           <q-chat-message
             :sent="isGm(item.segment.speaker)"
@@ -183,6 +189,7 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
 import { deletedItemsLabel } from '../domain/transcriptFeed.js'
 import { diffToHtml } from '../domain/transcriptDiff.js'
 import {
@@ -200,6 +207,9 @@ const props = defineProps({
   deletingSegmentId: { type: Number, default: null },
   splittingSegmentId: { type: Number, default: null },
   restoringSegmentId: { type: Number, default: null },
+  mergingSegmentId: { type: Number, default: null },
+  dragSourceId: { type: Number, default: null },
+  dropTargetId: { type: Number, default: null },
 })
 
 const emit = defineEmits([
@@ -208,7 +218,32 @@ const emit = defineEmits([
   'split',
   'toggle-original',
   'restore',
+  'bubble-pan',
 ])
+
+const isDragSource = computed(
+  () =>
+    props.gmMode &&
+    props.item.type !== 'deleted' &&
+    props.dragSourceId === props.item.segment.id,
+)
+
+const isDropTarget = computed(
+  () =>
+    props.gmMode &&
+    props.item.type !== 'deleted' &&
+    props.dropTargetId === props.item.segment.id,
+)
+
+function onBubblePan(details) {
+  if (!props.gmMode || props.item.type === 'deleted') return
+  emit('bubble-pan', { segment: props.item.segment, details })
+}
+
+function onBubbleClick() {
+  if (!props.gmMode || props.item.type === 'deleted') return
+  emit('edit', props.item.segment)
+}
 
 const SPEAKER_COLORS = {
   Kiri: '#6A1B9A',
@@ -436,7 +471,17 @@ function speakerLabel(segment) {
 }
 
 .transcript-editable-message--gm {
-  cursor: pointer;
+  cursor: grab;
+  touch-action: none;
+}
+
+.transcript-editable-message--dragging {
+  opacity: 0.45;
+}
+
+.transcript-editable-message--drop-target :deep(.q-message-text) {
+  outline: 2px solid var(--q-primary);
+  outline-offset: 2px;
 }
 
 .transcript-original {

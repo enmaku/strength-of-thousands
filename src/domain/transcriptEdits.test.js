@@ -3,6 +3,7 @@ import {
   applySegmentSave,
   nextSegmentId,
   planSegmentDelete,
+  planSegmentMerge,
   planSegmentRestore,
   planSegmentSplit,
   planSegmentTextUpdate,
@@ -376,5 +377,88 @@ describe('planSegmentSplit', () => {
     expect(() =>
       planSegmentSplit(richSegments, changelog, 99, { firstText: 'A', secondText: 'B' }),
     ).toThrow(TranscriptEditError)
+  })
+})
+
+describe('planSegmentMerge', () => {
+  const mergeSegments = [
+    {
+      id: 10,
+      index: 0,
+      text: 'You see a woman,',
+      sourceText: 'you see a woman',
+      speaker: 'Pablo',
+      voice: 'narrator',
+      character: null,
+      mechanics: [{ kind: 'a' }],
+    },
+    {
+      id: 11,
+      index: 1,
+      text: 'wearing vibrant robes.',
+      sourceText: 'wearing vibrant robes',
+      speaker: 'Pablo',
+      voice: 'narrator',
+      character: null,
+      mechanics: [{ kind: 'b' }],
+    },
+    {
+      id: 12,
+      index: 2,
+      text: 'I nod.',
+      sourceText: 'I nod',
+      speaker: 'Lisa',
+      voice: 'Kadira',
+      character: 'Kadira',
+      mechanics: [],
+    },
+  ]
+
+  it('merges in transcript order regardless of which id is passed first', () => {
+    const result = planSegmentMerge(mergeSegments, changelog, 11, 10)
+
+    expect(result.keptSegment.id).toBe(10)
+    expect(result.keptSegment.text).toBe('You see a woman, wearing vibrant robes.')
+    expect(result.keptSegment.mechanics).toEqual([{ kind: 'a' }, { kind: 'b' }])
+    expect(result.removedSegmentId).toBe(11)
+    expect(result.segments.map((segment) => segment.id)).toEqual([10, 12])
+    expect(result.segments.map((segment) => segment.index)).toEqual([0, 1])
+    expect(result.changelog.changes).toHaveLength(2)
+    expect(result.changelog.changes[0]).toMatchObject({
+      segmentId: 10,
+      op: 'merge',
+      old: ['You see a woman,', 'wearing vibrant robes.'],
+      new: 'You see a woman, wearing vibrant robes.',
+      reason: 'gm_merge',
+      category: 'gm_edit',
+      sourceSegmentIds: [10, 11],
+    })
+    expect(result.changelog.changes[1]).toMatchObject({
+      segmentId: 11,
+      op: 'remove',
+      old: 'wearing vibrant robes.',
+      reason: 'gm_merged',
+      speaker: 'Pablo',
+      category: 'gm_edit',
+    })
+  })
+
+  it('keeps earlier segment metadata when speakers differ', () => {
+    const result = planSegmentMerge(mergeSegments, changelog, 10, 12)
+
+    expect(result.keptSegment.id).toBe(10)
+    expect(result.keptSegment.speaker).toBe('Pablo')
+    expect(result.keptSegment.voice).toBe('narrator')
+    expect(result.keptSegment.text).toBe('You see a woman, I nod.')
+    expect(result.removedSegmentId).toBe(12)
+  })
+
+  it('rejects merging a segment with itself', () => {
+    expect(() => planSegmentMerge(mergeSegments, changelog, 10, 10)).toThrow(TranscriptEditError)
+  })
+
+  it('throws when either segment is missing', () => {
+    expect(() => planSegmentMerge(mergeSegments, changelog, 10, 99)).toThrow(TranscriptEditError)
+    expect(() => planSegmentMerge(mergeSegments, changelog, 99, 10)).toThrow(TranscriptEditError)
   })
 })

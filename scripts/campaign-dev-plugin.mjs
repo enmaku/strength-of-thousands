@@ -3,7 +3,14 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { HeroImportError, planHeroImportWithCatalog, planHeroRefresh } from '../src/domain/heroesApi.js'
 import { applyStudyAfterRefresh, applyStudyPatch, StudyValidationError } from '../src/domain/studyApi.js'
-import { TranscriptEditError, planSegmentDelete, planSegmentRestore, planSegmentSplit, planSegmentUpdate } from '../src/domain/transcriptEdits.js'
+import {
+  TranscriptEditError,
+  planSegmentDelete,
+  planSegmentMerge,
+  planSegmentRestore,
+  planSegmentSplit,
+  planSegmentUpdate,
+} from '../src/domain/transcriptEdits.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const heroesDir = path.join(root, 'heroes')
@@ -300,6 +307,7 @@ async function handleTranscriptsApi(req, res) {
   const segmentMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)$/)
   const restoreMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)\/restore$/)
   const splitMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)\/split$/)
+  const mergeMatch = subPath.match(/^\/([^/]+)\/(session-\d+)\/segments\/(\d+)\/merge$/)
 
   if (req.method === 'PUT' && segmentMatch) {
     const [, campaign, session, segmentIdRaw] = segmentMatch
@@ -445,6 +453,48 @@ async function handleTranscriptsApi(req, res) {
       sendJson(res, 200, {
         originalSegment: result.originalSegment,
         newSegment: result.newSegment,
+        segments: result.segments,
+        changelog: result.changelog,
+      })
+    } catch (err) {
+      if (err instanceof TranscriptEditError) {
+        sendJson(res, err.status, { error: err.message })
+        return
+      }
+      if (err.code === 'ENOENT') {
+        sendJson(res, 404, { error: 'Session not found' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  if (req.method === 'POST' && mergeMatch) {
+    const [, campaign, session, segmentIdRaw] = mergeMatch
+    const segmentId = Number(segmentIdRaw)
+    const sessionDir = path.join(transcriptsDir, campaign, session)
+    const editedPath = path.join(sessionDir, 'edited.json')
+    const changelogPath = path.join(sessionDir, 'changelog.json')
+
+    try {
+      const body = await readBody(req)
+      const otherSegmentId = Number(body.otherSegmentId)
+      if (!Number.isFinite(otherSegmentId)) {
+        sendJson(res, 400, { error: 'otherSegmentId is required' })
+        return
+      }
+
+      const segments = await readJsonFile(editedPath)
+      const changelog = await readJsonFile(changelogPath)
+      const result = planSegmentMerge(segments, changelog, segmentId, otherSegmentId)
+
+      await writeJsonFile(editedPath, result.segments)
+      await writeJsonFile(changelogPath, result.changelog)
+
+      sendJson(res, 200, {
+        keptSegment: result.keptSegment,
+        removedSegmentId: result.removedSegmentId,
         segments: result.segments,
         changelog: result.changelog,
       })

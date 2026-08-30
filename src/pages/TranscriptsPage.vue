@@ -133,11 +133,15 @@
                 :deleting-segment-id="deletingSegmentId"
                 :splitting-segment-id="splittingSegmentId"
                 :restoring-segment-id="restoringSegmentId"
+                :merging-segment-id="mergingSegmentId"
+                :drag-source-id="mergeDrag?.active ? mergeDrag.sourceId : null"
+                :drop-target-id="dropTargetId"
                 @edit="openEditDialog"
                 @delete="confirmDeleteSegment"
                 @split="openSplitDialog"
                 @toggle-original="toggleOriginal"
                 @restore="restoreSegment"
+                @bubble-pan="onBubblePan"
               />
             </div>
           </div>
@@ -145,6 +149,19 @@
       </div>
       </div>
     </template>
+
+    <Teleport to="body">
+      <div
+        v-if="mergeDrag?.active"
+        class="transcript-merge-ghost"
+        :style="{
+          transform: `translate(${mergeDrag.x}px, ${mergeDrag.y}px)`,
+        }"
+      >
+        <div class="transcript-merge-ghost__label">{{ mergeDrag.speakerLabel }}</div>
+        <div class="transcript-merge-ghost__text">{{ mergeDrag.preview }}</div>
+      </div>
+    </Teleport>
 
     <q-dialog v-if="gmMode" v-model="splitDialogOpen" persistent>
       <q-card style="min-width: 24rem; width: min(40rem, 90vw)">
@@ -396,6 +413,11 @@ const splitFirstText = ref('')
 const splitSecondText = ref('')
 const savingSplit = ref(false)
 const splittingSegmentId = ref(null)
+const mergingSegmentId = ref(null)
+const MERGE_DRAG_THRESHOLD_PX = 10
+const mergeDrag = ref(null)
+const dropTargetId = ref(null)
+const suppressEditClick = ref(false)
 const assistantDialogOpen = ref(false)
 const assistantContextLoading = ref(false)
 const assistantSessionMetas = ref([])
@@ -442,6 +464,8 @@ function toggleOriginal(segmentId) {
 }
 
 function openEditDialog(segment) {
+  if (suppressEditClick.value || mergeDrag.value?.active) return
+
   editingSegment.value = segment
   editText.value = segment.text
   editSpeaker.value = segment.speaker
@@ -641,6 +665,128 @@ async function restoreSegment(deleted) {
     $q.notify({ type: 'negative', message: err.message })
   } finally {
     restoringSegmentId.value = null
+  }
+}
+
+function segmentById(segmentId) {
+  return segments.value.find((entry) => entry.id === segmentId) ?? null
+}
+
+function updateDropTarget(clientX, clientY, sourceId) {
+  const el = document.elementFromPoint(clientX, clientY)
+  const host = el?.closest?.('[data-segment-id]')
+  const id = host ? Number(host.getAttribute('data-segment-id')) : NaN
+  dropTargetId.value = Number.isFinite(id) && id !== sourceId ? id : null
+}
+
+function clearMergeDrag() {
+  mergeDrag.value = null
+  dropTargetId.value = null
+}
+
+function onBubblePan({ segment, details }) {
+  if (!gmMode) return
+
+  if (details.isFirst) {
+    mergeDrag.value = {
+      sourceId: segment.id,
+      active: false,
+      x: details.position.left,
+      y: details.position.top,
+      preview: segmentPreview(segment.text, 80),
+      speakerLabel: speakerLabel(segment),
+    }
+    dropTargetId.value = null
+    return
+  }
+
+  const drag = mergeDrag.value
+  if (!drag || drag.sourceId !== segment.id) return
+
+  const distance = Math.hypot(details.distance.x, details.distance.y)
+  if (!drag.active && distance >= MERGE_DRAG_THRESHOLD_PX) {
+    drag.active = true
+    suppressEditClick.value = true
+  }
+
+  if (drag.active) {
+    drag.x = details.position.left
+    drag.y = details.position.top
+    updateDropTarget(details.position.left, details.position.top, segment.id)
+  }
+
+  if (!details.isFinal) return
+
+  const targetId = dropTargetId.value
+  const sourceId = drag.sourceId
+  const wasActive = drag.active
+  clearMergeDrag()
+
+  if (wasActive && targetId != null) {
+    confirmMergeSegments(sourceId, targetId)
+  }
+
+  if (wasActive) {
+    requestAnimationFrame(() => {
+      suppressEditClick.value = false
+    })
+  }
+}
+
+function confirmMergeSegments(sourceId, targetId) {
+  const source = segmentById(sourceId)
+  const target = segmentById(targetId)
+  if (!source || !target) return
+
+  const earlier = source.index <= target.index ? source : target
+  const later = source.index <= target.index ? target : source
+  const mergedPreview = `${earlier.text.trim()} ${later.text.trim()}`.trim()
+
+  $q.dialog({
+    title: 'Merge messages?',
+    message: `Combine into one bubble in transcript order (keeping ${speakerLabel(earlier)}’s attribution):\n\n“${segmentPreview(mergedPreview, 200)}”`,
+    cancel: true,
+    persistent: true,
+    ok: {
+      label: 'Merge',
+      color: 'primary',
+      flat: true,
+    },
+  }).onOk(() => mergeSegments(sourceId, targetId))
+}
+
+async function mergeSegments(sourceId, targetId) {
+  mergingSegmentId.value = sourceId
+  try {
+    const res = await fetch(
+      `/api/transcripts/${sessionApi.value}/segments/${sourceId}/merge`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ otherSegmentId: targetId }),
+      },
+    )
+
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}))
+      throw new Error(body.error ?? 'Failed to merge messages')
+    }
+
+    const payload = await res.json()
+    syncTranscriptMutation(payload)
+
+    const removedSegmentId = payload.removedSegmentId
+    if (removedSegmentId != null) {
+      const nextExpanded = new Set(expandedOriginalIds.value)
+      nextExpanded.delete(removedSegmentId)
+      expandedOriginalIds.value = nextExpanded
+    }
+
+    $q.notify({ type: 'positive', message: 'Messages merged' })
+  } catch (err) {
+    $q.notify({ type: 'negative', message: err.message })
+  } finally {
+    mergingSegmentId.value = null
   }
 }
 
@@ -1288,5 +1434,34 @@ onUnmounted(() => {
   max-height: min(16rem, 45vh);
   overflow-y: auto !important;
   resize: none;
+}
+</style>
+
+<style>
+.transcript-merge-ghost {
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 6000;
+  pointer-events: none;
+  max-width: min(22rem, 70vw);
+  padding: 0.55rem 0.75rem;
+  border-radius: 0.75rem;
+  background: rgba(32, 64, 80, 0.92);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  opacity: 0.92;
+}
+
+.transcript-merge-ghost__label {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-bottom: 0.2rem;
+}
+
+.transcript-merge-ghost__text {
+  font-size: 0.85rem;
+  line-height: 1.35;
+  word-break: break-word;
 }
 </style>

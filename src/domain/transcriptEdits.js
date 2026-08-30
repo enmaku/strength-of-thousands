@@ -192,6 +192,88 @@ export function nextSegmentId(segments, changelog, normalizedIds = []) {
   return Math.max(...ids) + 1
 }
 
+function joinSegmentTexts(firstText, secondText) {
+  const first = firstText?.trim() ?? ''
+  const second = secondText?.trim() ?? ''
+  if (!first) return second
+  if (!second) return first
+  return `${first} ${second}`
+}
+
+export function planSegmentMerge(segments, changelog, segmentId, otherSegmentId) {
+  if (segmentId === otherSegmentId) {
+    throw new TranscriptEditError('Cannot merge a segment with itself')
+  }
+
+  const firstIndex = segments.findIndex((entry) => entry.id === segmentId)
+  const secondIndex = segments.findIndex((entry) => entry.id === otherSegmentId)
+
+  if (firstIndex === -1 || secondIndex === -1) {
+    throw new TranscriptEditError('Segment not found', 404)
+  }
+
+  const earlierIndex = Math.min(firstIndex, secondIndex)
+  const laterIndex = Math.max(firstIndex, secondIndex)
+  const earlier = segments[earlierIndex]
+  const later = segments[laterIndex]
+  const mergedText = joinSegmentTexts(earlier.text, later.text)
+
+  if (!mergedText) {
+    throw new TranscriptEditError('Merged text is empty')
+  }
+
+  const keptSegment = {
+    ...earlier,
+    text: mergedText,
+    mechanics: [...(earlier.mechanics ?? []), ...(later.mechanics ?? [])],
+  }
+
+  const updatedSegments = segments
+    .filter((entry) => entry.id !== later.id)
+    .map((entry) => (entry.id === earlier.id ? keptSegment : entry))
+    .map((entry, index) => ({ ...entry, index }))
+
+  const changeEntries = [
+    {
+      segmentId: earlier.id,
+      op: 'merge',
+      path: 'text',
+      old: [earlier.text, later.text],
+      new: mergedText,
+      reason: 'gm_merge',
+      confidence: 1,
+      flagged: false,
+      category: 'gm_edit',
+      sourceSegmentIds: [earlier.id, later.id],
+    },
+    {
+      segmentId: later.id,
+      op: 'remove',
+      path: 'text',
+      old: later.text,
+      new: null,
+      speaker: later.speaker,
+      reason: 'gm_merged',
+      confidence: 1,
+      flagged: false,
+      category: 'gm_edit',
+    },
+  ]
+
+  const updatedChangelog = {
+    ...changelog,
+    generatedAt: new Date().toISOString(),
+    changes: [...changelog.changes, ...changeEntries],
+  }
+
+  return {
+    segments: updatedSegments,
+    changelog: updatedChangelog,
+    keptSegment,
+    removedSegmentId: later.id,
+  }
+}
+
 export function planSegmentSplit(segments, changelog, segmentId, parts, normalizedIds = []) {
   const first = parts.firstText?.trim()
   const second = parts.secondText?.trim()
