@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-03",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T04:01:11.926Z",
+  "generatedAt": "2026-08-30T04:18:36.568228+00:00",
   "changes": [
     {
       "segmentId": 1,
@@ -48591,6 +48591,3500 @@
       "confidence": 1,
       "flagged": false,
       "category": "gm_edit"
+    },
+    {
+      "segmentId": 4,
+      "op": "replace",
+      "path": "text",
+      "old": "Last session…",
+      "new": "Okay, so last session...",
+      "reason": "restore_natural_recap_opening",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 6,
+      "op": "replace",
+      "path": "text",
+      "old": "There were pugwampi in a barn.",
+      "new": "There were some gremlins—some pugwampis—in a barn.",
+      "reason": "naturalize_recap_wording",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 13,
+      "op": "replace",
+      "path": "text",
+      "old": "Takulu Ot had a nice little side chat with Cy'An.",
+      "new": "Teacher Ot had a nice little side chat with Cy'An.",
+      "reason": "campaign_address_and_source_fidelity",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 27,
+      "op": "merge",
+      "path": "text",
+      "old": "I believe we wrapped up the evening. | The next day… | You all wake up and head to the usual meeting spot for the assignments to be handed out.",
+      "new": "I believe we wrapped up the evening. So, the next day, you all wake up and head to the usual meeting spot for the assignments to be handed out.",
+      "reason": "reassemble_continuous_recap_transition",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        27,
+        31,
+        32
+      ]
+    },
+    {
+      "segmentId": 31,
+      "op": "remove",
+      "path": "text",
+      "old": "The next day…",
+      "new": null,
+      "reason": "merged_into_27",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 32,
+      "op": "remove",
+      "path": "text",
+      "old": "You all wake up and head to the usual meeting spot for the assignments to be handed out.",
+      "new": null,
+      "reason": "merged_into_27",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 33,
+      "op": "replace",
+      "path": "text",
+      "old": "You see Anchor Root there, and Chizire sleeping on a blanket he's laid out under a spot in the forest that's miraculously dry.",
+      "new": "You see Anchor Root there, and Chizire sleeping on a blanket he's laid out in a spot in the forest that's miraculously dry.",
+      "reason": "naturalize_scene_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 52,
+      "op": "replace",
+      "path": "text",
+      "old": "We need Scarlet Cap Oil and Bone Oil.",
+      "new": "We need Scarlet Cap Oil and Bone Oil...",
+      "reason": "preserve_anchor_hesitation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 54,
+      "op": "merge",
+      "path": "text",
+      "old": "But they need to be the right kind. | I'll just show you.",
+      "new": "But they need to be the right kind. I'll just show you.",
+      "reason": "reassemble_anchor_speech_act",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        54,
+        55
+      ]
+    },
+    {
+      "segmentId": 55,
+      "op": "remove",
+      "path": "text",
+      "old": "I'll just show you.",
+      "new": null,
+      "reason": "merged_into_54",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 59,
+      "op": "replace",
+      "path": "text",
+      "old": "Hang on — I was trying to write it down.",
+      "new": "Hang on, hang on—I was trying to write it down. Shit.",
+      "reason": "restore_natural_table_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 62,
+      "op": "merge",
+      "path": "text",
+      "old": "Anchor Root explains that she needs you to get bones to render into Bone Oil. | She needs a specific kind of red mushroom that grows outside the city. | And several fuzzy caterpillars found in the nearby jungle.",
+      "new": "Anchor Root explains that she needs bones to render into Bone Oil, a specific kind of red mushroom that grows outside the city, and several fuzzy caterpillars found in the nearby jungle.",
+      "reason": "consolidate_single_explanation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "segmentId": 63,
+      "op": "remove",
+      "path": "text",
+      "old": "She needs a specific kind of red mushroom that grows outside the city.",
+      "new": null,
+      "reason": "merged_into_62",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 64,
+      "op": "remove",
+      "path": "text",
+      "old": "And several fuzzy caterpillars found in the nearby jungle.",
+      "new": null,
+      "reason": "merged_into_62",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 76,
+      "op": "merge",
+      "path": "text",
+      "old": "And she also tells you that for the most potency, she needs mushrooms that have received a lot of sunlight and moonlight, which means… | harvesting them from as high up the trees as you can get.",
+      "new": "She also tells you that, for the most potency, she needs mushrooms that have received a lot of sunlight and moonlight—which means harvesting them from as high up the trees as you can get.",
+      "reason": "reassemble_mid_sentence_source",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        76,
+        77
+      ]
+    },
+    {
+      "segmentId": 77,
+      "op": "remove",
+      "path": "text",
+      "old": "harvesting them from as high up the trees as you can get.",
+      "new": null,
+      "reason": "merged_into_76",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 78,
+      "op": "set",
+      "path": "voice",
+      "old": "Cy'An Copperbottom",
+      "new": "player",
+      "reason": "comment_on_gm_drawing_is_table_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 79,
+      "op": "remove",
+      "path": "text",
+      "old": "For the Caterpillar Oil, she shows you an example of the kind of caterpillar you should look for.",
+      "new": null,
+      "reason": "duplicate_explanation_restarted_after_ooc",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 104,
+      "op": "remove",
+      "path": "text",
+      "old": "I know the feeling.",
+      "new": null,
+      "reason": "immediate_repetition",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 107,
+      "op": "replace",
+      "path": "text",
+      "old": "You need lucky bones, Scarlet Cap mushrooms from a treetop, and caterpillars that Anchor Root thinks of as cats.",
+      "new": "You need lucky bones, Scarlet Cap mushrooms from a treetop, and caterpillars that Anchor Root thinks of as pets.",
+      "reason": "resolve_stt_from_published_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 113,
+      "op": "replace",
+      "path": "text",
+      "old": "I would generally recommend that.",
+      "new": "Yeah, I would generally recommend that.",
+      "reason": "restore_natural_gm_response",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 118,
+      "op": "replace",
+      "path": "text",
+      "old": "Mushrooms ahoy!",
+      "new": "Mushers ahoy!",
+      "reason": "prefer_source_wording_over_unfounded_rewrite",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 122,
+      "op": "merge",
+      "path": "text",
+      "old": "Do we have a specific location for these mushrooms, or are we just going to look in a generalized area? | Do we have enough, and who is going to look now?",
+      "new": "Do we have a specific location for these mushrooms, or are we just going to look in a general area? Do we have a map?",
+      "reason": "reassemble_question_and_resolve_stt_from_answer_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        122,
+        123
+      ]
+    },
+    {
+      "segmentId": 123,
+      "op": "remove",
+      "path": "text",
+      "old": "Do we have enough, and who is going to look now?",
+      "new": null,
+      "reason": "merged_into_122",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 204,
+      "op": "merge",
+      "path": "text",
+      "old": "You make your hour trudge through the forest and arrive at a clearing marked on your map. | with a very large tree — a huge tree — right in the middle of the clearing.",
+      "new": "You make the hour-long trudge through the forest and arrive at a clearing marked on your map, with a huge tree in the middle.",
+      "reason": "reassemble_continuous_scene_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        204,
+        205
+      ]
+    },
+    {
+      "segmentId": 205,
+      "op": "remove",
+      "path": "text",
+      "old": "with a very large tree — a huge tree — right in the middle of the clearing.",
+      "new": null,
+      "reason": "merged_into_204",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 206,
+      "op": "merge",
+      "path": "text",
+      "old": "And as Anchor Root pointed out, there are… | red mushrooms. | There are little red mushrooms growing all the way up the trunk.",
+      "new": "As Anchor Root pointed out, there are little red mushrooms growing all the way up the trunk.",
+      "reason": "reassemble_description_interrupted_by_ooc_food_talk",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        206,
+        208,
+        212
+      ]
+    },
+    {
+      "segmentId": 208,
+      "op": "remove",
+      "path": "text",
+      "old": "red mushrooms.",
+      "new": null,
+      "reason": "merged_into_206",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 212,
+      "op": "remove",
+      "path": "text",
+      "old": "There are little red mushrooms growing all the way up the trunk.",
+      "new": null,
+      "reason": "merged_into_206",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 250,
+      "op": "replace",
+      "path": "text",
+      "old": "I don't see anything.",
+      "new": "I don't see shit.",
+      "reason": "restore_unsanitized_player_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 257,
+      "op": "remove",
+      "path": "text",
+      "old": "One less. Let's see…",
+      "new": null,
+      "reason": "dead_end_roll_preamble",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 266,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Drew",
+      "new": "Matt",
+      "reason": "callout_follows_matts_declared_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 266,
+      "op": "set",
+      "path": "voice",
+      "old": "Solanum Calabash",
+      "new": "Yggostrus",
+      "reason": "callout_follows_matts_declared_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 266,
+      "op": "set",
+      "path": "character",
+      "old": "Solanum Calabash",
+      "new": "Yggostrus",
+      "reason": "callout_follows_matts_declared_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 269,
+      "op": "replace",
+      "path": "text",
+      "old": "It says \"hi\" with her one eye.",
+      "new": "Cy'An says hi with her one eye.",
+      "reason": "clarify_character_action_without_changing_joke",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 271,
+      "op": "replace",
+      "path": "text",
+      "old": "And I have one less eye than you. I logically should have a…",
+      "new": "And I have one less eye than you.",
+      "reason": "remove_abandoned_false_start",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 272,
+      "op": "replace",
+      "path": "text",
+      "old": "Anya is still sending her eidolon up the tree.",
+      "new": "Anya is still sending her eidolon up the tree?",
+      "reason": "restore_question_answer_shape",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 273,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Matt",
+      "reason": "response_to_gm_about_action_matt_initiated",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 273,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "response_to_gm_about_action_matt_initiated",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 273,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Yggostrus",
+      "reason": "response_to_gm_about_action_matt_initiated",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 303,
+      "op": "replace",
+      "path": "text",
+      "old": "Your cat starts climbing the tree, and as it gets about twenty feet up, the rustling in the branches increases and becomes a tearing sound — and a myceloid, a mushroom-leshy kind of thing, drops down from the treetop right there.",
+      "new": "Your cat starts climbing the tree. As it gets about twenty feet up, the rustling in the branches increases and becomes evident to everybody. A myceloid—a sort of mushroom-leshy creature—drops down from the treetop.",
+      "reason": "remove_invented_sound_and_restore_source_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 320,
+      "op": "replace",
+      "path": "text",
+      "old": "There's a mushroom person directly in front of Anya, and it emits a cloud of spores that hits everyone within ten feet.",
+      "new": "There's a mushroom person directly in front of Anya.",
+      "reason": "undo_cross_speaker_merge",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 321,
+      "op": "restore",
+      "path": "text",
+      "old": "And emits a cloud of spores that hits everyone within ten feet.",
+      "new": "It emits a cloud of spores that hits everyone within ten feet.",
+      "reason": "restore_gm_narration_split_from_player_line",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 347,
+      "op": "set",
+      "path": "voice",
+      "old": "Solanum Calabash",
+      "new": "player",
+      "reason": "table_comment_not_character_dialogue",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 365,
+      "op": "merge",
+      "path": "text",
+      "old": "Starting a minute from now, we're going to start making some additional rolls, but that minute is going to be a long way away in gameplay time. | because I need everyone to roll initiative.",
+      "new": "Starting a minute from now, we're going to make some additional rolls—but that minute is a long way away in gameplay time, because I need everyone to roll initiative.",
+      "reason": "reassemble_gm_sentence_across_scene_boundary",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        365,
+        367
+      ]
+    },
+    {
+      "segmentId": 367,
+      "op": "remove",
+      "path": "text",
+      "old": "because I need everyone to roll initiative.",
+      "new": null,
+      "reason": "merged_into_365",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 365,
+      "op": "set",
+      "path": "sceneId",
+      "old": "scarlet-cap",
+      "new": "umbo-combat",
+      "reason": "initiative_begins_combat_scene",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "scene"
+    },
+    {
+      "segmentId": 373,
+      "op": "restore",
+      "path": "text",
+      "old": "Yes, perception.",
+      "new": "Yes, Perception.",
+      "reason": "restore_answer_to_rules_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 391,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Xander",
+      "reason": "roll_follows_xander_prompt_and_lithrei_leads_initiative",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 391,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Lithrei Woeborn",
+      "reason": "roll_follows_xander_prompt_and_lithrei_leads_initiative",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 406,
+      "op": "restore",
+      "path": "text",
+      "old": "Okay, first combat for Pathfinder, let's do it.",
+      "new": "Okay, first Pathfinder combat. Let's do it.",
+      "reason": "restore_first_combat_table_milestone",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 407,
+      "op": "restore",
+      "path": "text",
+      "old": "And I have questions for the DM.",
+      "new": "And I have questions for the GM.",
+      "reason": "restore_natural_followup",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 420,
+      "op": "replace",
+      "path": "text",
+      "old": "Slightly different things happen if you get hit, get down to zero, and start dying,",
+      "new": "Slightly different things happen when you get hit, go down to zero, and start dying.",
+      "reason": "complete_abandoned_rules_sentence",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 422,
+      "op": "replace",
+      "path": "text",
+      "old": "Have I been needing to state that my prototype construct is walking around with me, or is that something that…",
+      "new": "Have I needed to state that my prototype construct is walking around with me, or is that assumed?",
+      "reason": "repair_stt_question_without_changing_intent",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 424,
+      "op": "restore",
+      "path": "text",
+      "old": "Probably assumed.",
+      "new": "That's probably assumed.",
+      "reason": "restore_answer_to_player_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 437,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm not naming him Nectar — if you want, grab a stand-in mini from the rack of minis.",
+      "new": "I'm not naming him NEPTR. If you want, grab a stand-in mini from the rack.",
+      "reason": "restore_referenced_name_and_natural_punctuation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 439,
+      "op": "replace",
+      "path": "text",
+      "old": "little penguin-looking thing.",
+      "new": "So we're gonna call that a little penguin-looking thing.",
+      "reason": "complete_mid_sentence_stt_fragment",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 443,
+      "op": "merge",
+      "path": "text",
+      "old": "My construct is bigger than me. | It's a Medium creature. | That's hilarious.",
+      "new": "My construct is bigger than me. It's a Medium creature. That's hilarious.",
+      "reason": "consolidate_single_reaction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        443,
+        444,
+        445
+      ]
+    },
+    {
+      "segmentId": 444,
+      "op": "remove",
+      "path": "text",
+      "old": "It's a Medium creature.",
+      "new": null,
+      "reason": "merged_into_443",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 445,
+      "op": "remove",
+      "path": "text",
+      "old": "That's hilarious.",
+      "new": null,
+      "reason": "merged_into_443",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 450,
+      "op": "remove",
+      "path": "text",
+      "old": "That is too small.",
+      "new": null,
+      "reason": "physical_mini_size_chatter",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "ooc_removed",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 457,
+      "op": "replace",
+      "path": "text",
+      "old": "Sweet. Time to cure with impunity.",
+      "new": "Sweet. Time for murder with impunity.",
+      "reason": "resolve_stt_from_immediate_context_and_idiom",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 501,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay — I've dragged a spider back to its lair.",
+      "new": "Okay, like dragging a spider back to its lair.",
+      "reason": "resolve_stt_in_parasitic_wasp_analogy",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 510,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Xander",
+      "reason": "pc_save_response_not_gm_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 510,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "pc_save_response_not_gm_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 510,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Lithrei Woeborn",
+      "reason": "pc_save_response_not_gm_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 551,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "Dave",
+      "reason": "gm_answers_grid_scale_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 551,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_answers_grid_scale_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 551,
+      "op": "set",
+      "path": "character",
+      "old": "Lithrei Woeborn",
+      "new": null,
+      "reason": "gm_answers_grid_scale_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 577,
+      "op": "replace",
+      "path": "text",
+      "old": "I have its own little chart.",
+      "new": "It has its own little chart.",
+      "reason": "repair_pronoun_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 580,
+      "op": "replace",
+      "path": "text",
+      "old": "So: Command — size-and-a-half Toaster moves and attacks.",
+      "new": "So I have Toaster move and attack.",
+      "reason": "remove_garbled_phrase_preserve_declared_actions",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 601,
+      "op": "replace",
+      "path": "text",
+      "old": "Oh — do those two actions not eat two of my actions?",
+      "new": "Oh, do those two actions not eat up two of my actions?",
+      "reason": "repair_stt_phrasal_verb",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 616,
+      "op": "replace",
+      "path": "text",
+      "old": "My spells are pretty simple — Prestidigitation, Eat Fire, and Guidance.",
+      "new": "My spells are pretty simple: Prestidigitation, Eat Fire, and fucking Guidance.",
+      "reason": "restore_distinct_player_voice_and_verified_spell_names",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 622,
+      "op": "replace",
+      "path": "text",
+      "old": "Normal speech is fine in very short words, but for game-mechanics reasons certain kinds of speech become actions. Like if a creature is stealthed and you're the only one that sees it, it is an action to point out where the creature is.",
+      "new": "Just a few words of normal speech is fine, but for game-mechanics reasons, certain kinds of speech become actions. For example, if a creature is hidden and you're the only one who sees it, pointing out where it is takes an action.",
+      "reason": "naturalize_rules_explanation_without_changing_content",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 638,
+      "op": "replace",
+      "path": "text",
+      "old": "So I moved, and now I'm going to stab. 18 to hit.",
+      "new": "So I moved, and now I'm going to stabby-stab. Eighteen to hit.",
+      "reason": "restore_player_wording_and_natural_number_style",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 646,
+      "op": "replace",
+      "path": "text",
+      "old": "Your attack hits. It sinks in. It does good-looking damage — doesn't look like he has any specific resistance to piercing or slashing.",
+      "new": "Your attack hits. It sinks in and looks like it does good damage. He doesn't seem to have any specific resistance to piercing or slashing.",
+      "reason": "repair_awkward_low_end_recast",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 667,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "gm_answers_reaction_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 667,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_answers_reaction_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 667,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": null,
+      "reason": "gm_answers_reaction_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 670,
+      "op": "remove",
+      "path": "text",
+      "old": "I'm just going to put the cat into the tree for our sanity.",
+      "new": null,
+      "reason": "physical_token_placement_not_game_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "ooc_removed",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 697,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "gm_recognizes_critical_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 697,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_recognizes_critical_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 697,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": null,
+      "reason": "gm_recognizes_critical_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 722,
+      "op": "replace",
+      "path": "text",
+      "old": "Off-guard, yeah — which is a −2 to AC.",
+      "new": "Off-guard, yeah.",
+      "reason": "remove_explanation_spoken_by_next_player",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 723,
+      "op": "replace",
+      "path": "text",
+      "old": "Which is a −2 to AC — so yes, if you already were going to hit, anything 18 at least hits.",
+      "new": "Which is a −2 to AC, so yes—anything 18 or higher hits.",
+      "reason": "repair_stt_rules_response",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 777,
+      "op": "replace",
+      "path": "text",
+      "old": "I name my car — all my things.",
+      "new": "I name my car. I name all my things.",
+      "reason": "repair_chopped_player_sentence",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 790,
+      "op": "replace",
+      "path": "text",
+      "old": "Wait — does being raised on a ship kitchen by a cat guy change your understanding of leshy stuff?",
+      "new": "Wait—does being raised in a ship's kitchen by a cat guy change your understanding of leshy shit?",
+      "reason": "restore_natural_player_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 792,
+      "op": "replace",
+      "path": "text",
+      "old": "No — leshies with no other leshies.",
+      "new": "No. I was a leshy with no other leshies around.",
+      "reason": "resolve_stt_from_character_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 796,
+      "op": "replace",
+      "path": "text",
+      "old": "If hypothetically my leshy's form dies, Solanum is still around — like the soul, the culmination of magic.",
+      "new": "If, hypothetically, my leshy form dies, Solanum is still around—like the soul, or the culmination of magic.",
+      "reason": "repair_worm_form_stt_and_preserve_lore",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 801,
+      "op": "restore",
+      "path": "text",
+      "old": "Are you saying that you have the last name for the Gord",
+      "new": "Are you saying you have the last name Calabash",
+      "reason": "restore_character_lore_joke_misclassified_as_ooc",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 802,
+      "op": "restore",
+      "path": "text",
+      "old": "because you were a Gord once?",
+      "new": "because you were a gourd once?",
+      "reason": "restore_character_lore_joke_misclassified_as_ooc",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 801,
+      "op": "merge",
+      "path": "text",
+      "old": "Are you saying you have the last name Calabash | because you were a gourd once?",
+      "new": "Are you saying you have the last name Calabash because you were a gourd once?",
+      "reason": "reassemble_stt_split_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        801,
+        802
+      ]
+    },
+    {
+      "segmentId": 802,
+      "op": "remove",
+      "path": "text",
+      "old": "because you were a gourd once?",
+      "new": null,
+      "reason": "merged_into_801",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 803,
+      "op": "restore",
+      "path": "text",
+      "old": "Maybe.",
+      "new": "Maybe.",
+      "reason": "restore_answer_to_character_lore_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 810,
+      "op": "replace",
+      "path": "text",
+      "old": "And is going to use Spore Domination.",
+      "new": "Umbo is going to use Spore Domination.",
+      "reason": "complete_gm_action_after_interruption",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 829,
+      "op": "replace",
+      "path": "text",
+      "old": "You'd have to give it instructions to do so.",
+      "new": "I'd have to give it instructions to do so.",
+      "reason": "restore_speaker_pronoun",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 829,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Matt",
+      "reason": "summoner_answers_about_own_eidolon",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 829,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "summoner_answers_about_own_eidolon",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 829,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Yggostrus",
+      "reason": "summoner_answers_about_own_eidolon",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 861,
+      "op": "replace",
+      "path": "text",
+      "old": "So my first action is going to be: wait — this is a leshy. Guys, wait.",
+      "new": "My first action is to say, \"Wait. This is a leshy. Guys, wait.\"",
+      "reason": "clarify_declared_in_character_speech",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 878,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Drew",
+      "reason": "solanum_affirms_own_ancestry",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 878,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Solanum Calabash",
+      "reason": "solanum_affirms_own_ancestry",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 900,
+      "op": "replace",
+      "path": "text",
+      "old": "So I would know that this does not…",
+      "new": "So I would know that this isn't defending its home?",
+      "reason": "complete_question_from_gm_answer",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 903,
+      "op": "replace",
+      "path": "text",
+      "old": "This is an asshat. Okay — so this is actually an asshat.",
+      "new": "Okay, so this is actually an asshat.",
+      "reason": "remove_immediate_duplicate_phrase",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 912,
+      "op": "replace",
+      "path": "text",
+      "old": "Using another action, I'm going to tell everybody: this isn't normal. It should have just left us alone. I don't think this is its home — it's attacking us. They have camouflage — and there's no camouflage.",
+      "new": "Using another action, I'm going to tell everybody: this isn't normal. It should have just left us alone. I don't think this is its home; it's attacking us. These things have camouflage.",
+      "reason": "remove_contradictory_stt_fragment_and_preserve_recall_knowledge",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 918,
+      "op": "remove",
+      "path": "text",
+      "old": "And then the last action I'm going to do is I'm going to actually create a…",
+      "new": null,
+      "reason": "abandoned_action_superseded_by_healing_plaster",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 940,
+      "op": "replace",
+      "path": "text",
+      "old": "Also, an 18 is quite good, and myceloid leshies are not super uncommon, so I will also allow you to ask — and then retroactively communicate to the group — a single mechanical question about Umbo. Things like: what's his lowest save? What is his armor class? What kind of attacks does he have?",
+      "new": "Also, an 18 is quite good, and myceloid leshies are not super uncommon, so I'll let you ask—and retroactively communicate to the group—a single mechanical question about Umbo. For example: what's his lowest save, what's his Armor Class, or what kind of attacks does he have?",
+      "reason": "restore_full_gm_offer_and_naturalize_explanation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 975,
+      "op": "replace",
+      "path": "text",
+      "old": "If I want to do as little damage as possible…",
+      "new": "I want to do as little damage as possible.",
+      "reason": "complete_abandoned_conditional",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 986,
+      "op": "replace",
+      "path": "text",
+      "old": "I was just curious — because he's still flanked by me and the eidolon, does Anya get…",
+      "new": "I was just curious: because he's still flanked by me and the eidolon, does Anya get the flanking bonus?",
+      "reason": "complete_question_from_gm_answer",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1022,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "Dave",
+      "reason": "gm_answers_whether_attack_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1022,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_answers_whether_attack_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1022,
+      "op": "set",
+      "path": "character",
+      "old": "Lithrei Woeborn",
+      "new": null,
+      "reason": "gm_answers_whether_attack_hit",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1034,
+      "op": "replace",
+      "path": "text",
+      "old": "I think so.",
+      "new": "I think so?",
+      "reason": "preserve_gm_uncertainty",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1041,
+      "op": "restore",
+      "path": "text",
+      "old": "completely understandable because this is our first combat pathfinder is crazy complicated",
+      "new": "Completely understandable—this is our first Pathfinder combat, and Pathfinder is crazy complicated.",
+      "reason": "restore_relevant_first_combat_reassurance",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1044,
+      "op": "merge",
+      "path": "text",
+      "old": "First combat — don't stress it. | Everyone's level 1 — do your things. | But know what's on your sheet, because I won't.",
+      "new": "So again, it's our first combat. I don't give a shit. Everyone's level one—do your things. But know what's on your sheet, because I won't.",
+      "reason": "consolidate_gm_expectation_and_restore_natural_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1044,
+        1045,
+        1046
+      ]
+    },
+    {
+      "segmentId": 1045,
+      "op": "remove",
+      "path": "text",
+      "old": "Everyone's level 1 — do your things.",
+      "new": null,
+      "reason": "merged_into_1044",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1046,
+      "op": "remove",
+      "path": "text",
+      "old": "But know what's on your sheet, because I won't.",
+      "new": null,
+      "reason": "merged_into_1044",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1048,
+      "op": "restore",
+      "path": "text",
+      "old": "That's fine.",
+      "new": "That's fine.",
+      "reason": "restore_answer_to_player_request",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1056,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "Dave",
+      "reason": "gm_corrects_spell_assessment",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1056,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_corrects_spell_assessment",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1056,
+      "op": "set",
+      "path": "character",
+      "old": "Lithrei Woeborn",
+      "new": null,
+      "reason": "gm_corrects_spell_assessment",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1077,
+      "op": "replace",
+      "path": "text",
+      "old": "I have Bullhorn, Figment, Message, Read the Air, Wash Your Luck, and Dancing Lights.",
+      "new": "I have Bullhorn, Glamorize, Message, Read the Air, Wash Your Luck, and Dancing Lights.",
+      "reason": "use_cantrip_name_from_local_character_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1093,
+      "op": "replace",
+      "path": "text",
+      "old": "Does it have to run away from me? It looks like it has to be from me.",
+      "new": "Does it have to run away from me? It looks like it does.",
+      "reason": "naturalize_rules_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1115,
+      "op": "replace",
+      "path": "text",
+      "old": "There's lower branches.",
+      "new": "There are lower branches.",
+      "reason": "grammar_repair",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1148,
+      "op": "replace",
+      "path": "text",
+      "old": "Toaster, get in position — we're going to punch it.",
+      "new": "MODU, get in position—we're going to punch it.",
+      "reason": "restore_construct_name_and_absorbed_source_phrase",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1150,
+      "op": "merge",
+      "path": "text",
+      "old": "Toaster's gonna punch it. | Gonna go for a grappling shot.",
+      "new": "MODU's gonna punch it—gonna go for a ranged shot.",
+      "reason": "resolve_stt_from_construct_name_and_projectile_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1150,
+        1151
+      ]
+    },
+    {
+      "segmentId": 1151,
+      "op": "remove",
+      "path": "text",
+      "old": "Gonna go for a grappling shot.",
+      "new": null,
+      "reason": "merged_into_1150",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 1153,
+      "op": "remove",
+      "path": "text",
+      "old": "17.",
+      "new": null,
+      "reason": "attack_total_repeated_after_alexa_interruption",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 1164,
+      "op": "replace",
+      "path": "text",
+      "old": "He can't get another action — that was his entire attack.",
+      "new": "He can't get out of position. He's done—that was his entire fucking attack.",
+      "reason": "restore_player_voice_and_source_meaning",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1186,
+      "op": "replace",
+      "path": "text",
+      "old": "Wait — that 17 was with the minus 2 to hit for flanking?",
+      "new": "Wait—wouldn't that 17 hit because he's at −2 AC from flanking?",
+      "reason": "repair_stt_and_rules_intent",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1204,
+      "op": "replace",
+      "path": "text",
+      "old": "Can I give Guidance to Ego for a saving throw?",
+      "new": "Can I give Guidance to Yggostrus for a saving throw?",
+      "reason": "canonicalize_pc_name",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1212,
+      "op": "replace",
+      "path": "text",
+      "old": "Well, that'll help you next turn — but this turn, which is now, you are friendly to mykeloids.",
+      "new": "Well, that'll help you next turn—but this turn, which is now, you are friendly to myceloids.",
+      "reason": "fix_unresolved_stt_proper_noun",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1269,
+      "op": "replace",
+      "path": "text",
+      "old": "He's deeply unhappy with this little goblin that just tore into him.",
+      "new": "He's deeply unhappy with this little goblin that just critted on him.",
+      "reason": "resolve_crated_stt_from_combat_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1307,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Kiri",
+      "reason": "player_asks_gm_rules_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1307,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "player_asks_gm_rules_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1307,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Cy'An Copperbottom",
+      "reason": "player_asks_gm_rules_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1319,
+      "op": "replace",
+      "path": "text",
+      "old": "Do it. Commence the whooping.",
+      "new": "Do it. Commence the whoopening.",
+      "reason": "preserve_playful_source_wording",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1368,
+      "op": "replace",
+      "path": "text",
+      "old": "What you're going to see is Solanum facing this giant creature coming at her — big to her; she's a little tomato.",
+      "new": "You see this giant creature coming at Solanum. Well, it's not giant—it's just big to her. She's a little tomato.",
+      "reason": "restore_natural_self_correction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1413,
+      "op": "merge",
+      "path": "text",
+      "old": "And she takes her bo staff off him — man, tomato. | I fucked up.",
+      "new": "She takes her bo staff off him and says, \"Man, tomato—I fucked up.\"",
+      "reason": "reassemble_character_reaction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1413,
+        1414
+      ]
+    },
+    {
+      "segmentId": 1414,
+      "op": "remove",
+      "path": "text",
+      "old": "I fucked up.",
+      "new": null,
+      "reason": "merged_into_1413",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 1428,
+      "op": "replace",
+      "path": "text",
+      "old": "Spinning Staff — it's a focus spell as a response, and it only costs one action.",
+      "new": "Can I actually use Spinning Staff? It's a focus spell, and it only costs one action.",
+      "reason": "restore_question_lost_at_speaker_boundary",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1438,
+      "op": "remove",
+      "path": "text",
+      "old": "Okay — I think what I'm going to do is...",
+      "new": null,
+      "reason": "planning_false_start_completed_by_next_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 1442,
+      "op": "remove",
+      "path": "text",
+      "old": "Yeah.",
+      "new": null,
+      "reason": "redundant_ack_before_same_answer",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 1448,
+      "op": "remove",
+      "path": "text",
+      "old": "On his turn.",
+      "new": null,
+      "reason": "orphaned_turn_fragment",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1459,
+      "op": "merge",
+      "path": "text",
+      "old": "So your spell attack is... | I need your spell attack modifier.",
+      "new": "So, I need your spell attack modifier.",
+      "reason": "reassemble_gm_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1459,
+        1460
+      ]
+    },
+    {
+      "segmentId": 1460,
+      "op": "remove",
+      "path": "text",
+      "old": "I need your spell attack modifier.",
+      "new": null,
+      "reason": "merged_into_1459",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1529,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Xander",
+      "reason": "moving_player_asks_followup_about_friendly_spaces",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1529,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Lithrei Woeborn",
+      "reason": "moving_player_asks_followup_about_friendly_spaces",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1545,
+      "op": "replace",
+      "path": "text",
+      "old": "Six.",
+      "new": "My Intimidation is +6.",
+      "reason": "distinguish_modifier_from_later_total",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1545,
+      "op": "set",
+      "path": "mechanics",
+      "old": [
+        {
+          "kind": "check",
+          "skill": "Intimidation",
+          "rolls": [
+            {
+              "character": "Lithrei Woeborn",
+              "total": 6
+            }
+          ]
+        }
+      ],
+      "new": [
+        {
+          "kind": "note",
+          "note": "Lithrei Intimidation +6"
+        }
+      ],
+      "reason": "correct_misread_roll_structure",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 1551,
+      "op": "restore",
+      "path": "text",
+      "old": "15",
+      "new": "Fifteen.",
+      "reason": "restore_actual_demoralize_total",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Xander"
+    },
+    {
+      "segmentId": 1552,
+      "op": "restore",
+      "path": "text",
+      "old": "that will actually does it",
+      "new": "That will actually do it.",
+      "reason": "restore_gm_check_resolution",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1559,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "Dave",
+      "reason": "gm_answers_action_cost_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1559,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_answers_action_cost_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1559,
+      "op": "set",
+      "path": "character",
+      "old": "Lithrei Woeborn",
+      "new": null,
+      "reason": "gm_answers_action_cost_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1563,
+      "op": "replace",
+      "path": "text",
+      "old": "Oh right — you don't really have any Attack cantrips.",
+      "new": "Oh right—you don't really have any attack spells.",
+      "reason": "resolve_attack_balls_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1582,
+      "op": "replace",
+      "path": "text",
+      "old": "I'm going to move right here — and you get over here.",
+      "new": "I'm going to move my ass right here—and you get over here.",
+      "reason": "restore_natural_player_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1586,
+      "op": "replace",
+      "path": "text",
+      "old": "That's an 11.",
+      "new": "Babe, that's an 11.",
+      "reason": "restore_die_reaction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1605,
+      "op": "replace",
+      "path": "text",
+      "old": "That's it. Okay — go off, Ego.",
+      "new": "That's it. Okay—go off, Ego. Pop off.",
+      "reason": "restore_distinct_player_encouragement",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1634,
+      "op": "replace",
+      "path": "text",
+      "old": "Jaws has finesse, and I've chosen Dex — primary, so plus four to Dex.",
+      "new": "Jaws has finesse, and I chose Dex as its primary attribute, so it has +4 Dex.",
+      "reason": "naturalize_character_build_explanation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1639,
+      "op": "merge",
+      "path": "text",
+      "old": "Plus four — that would be nine. | Nine acid.",
+      "new": "Plus four—that's nine acid damage.",
+      "reason": "consolidate_damage_total_and_type",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1639,
+        1640
+      ]
+    },
+    {
+      "segmentId": 1640,
+      "op": "remove",
+      "path": "text",
+      "old": "Nine acid.",
+      "new": null,
+      "reason": "merged_into_1639",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 1648,
+      "op": "merge",
+      "path": "text",
+      "old": "On its last action, as he goes down… | My eidolon instead begins to make its way back to me.",
+      "new": "Then, with its last action, as Umbo goes down, my eidolon begins making its way back to me.",
+      "reason": "reassemble_action_declaration",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        1648,
+        1649
+      ]
+    },
+    {
+      "segmentId": 1649,
+      "op": "remove",
+      "path": "text",
+      "old": "My eidolon instead begins to make its way back to me.",
+      "new": null,
+      "reason": "merged_into_1648",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 1662,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Matt",
+      "reason": "player_whose_eidolon_dropped_umbo_answers",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1662,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "player_whose_eidolon_dropped_umbo_answers",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1662,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Yggostrus",
+      "reason": "player_whose_eidolon_dropped_umbo_answers",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1664,
+      "op": "replace",
+      "path": "text",
+      "old": "Solanum is going to go over to the myceloid — and she still has those little patties.",
+      "new": "Solanum is going to go over to the leshy—and she still has those little patties of healing plaster.",
+      "reason": "restore_character_perspective_and_clarify_local_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1685,
+      "op": "replace",
+      "path": "text",
+      "old": "I hope this works.",
+      "new": "Oh my god, I hope this works.",
+      "reason": "restore_natural_character_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1686,
+      "op": "restore",
+      "path": "text",
+      "old": "Fuck.",
+      "new": "Fuck.",
+      "reason": "restore_roll_reaction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 1693,
+      "op": "replace",
+      "path": "text",
+      "old": "Is anyone else interested in…",
+      "new": "Is anyone else interested in—",
+      "reason": "mark_interrupted_gm_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1709,
+      "op": "replace",
+      "path": "text",
+      "old": "He's a dying creature — it loses the Dying condition, though it remains unconscious at zero hit points.",
+      "new": "He's a dying creature. Stabilize removes the Dying condition, though he remains unconscious at zero Hit Points.",
+      "reason": "naturalize_rules_reading_and_fix_pronouns",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1743,
+      "op": "replace",
+      "path": "text",
+      "old": "You scamper up the tree. There's mushrooms everywhere — it's a pretty easy task to just slice some off.",
+      "new": "You scamper up the tree. There are mushrooms everywhere, and it's pretty easy to slice some off.",
+      "reason": "naturalize_gm_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1762,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Xander",
+      "new": "Matt",
+      "reason": "plus_five_matches_yggostrus_perception_from_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1762,
+      "op": "set",
+      "path": "character",
+      "old": "Lithrei Woeborn",
+      "new": "Yggostrus",
+      "reason": "plus_five_matches_yggostrus_perception_from_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1762,
+      "op": "set",
+      "path": "mechanics",
+      "old": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Lithrei Woeborn",
+              "modifier": 5
+            }
+          ]
+        }
+      ],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Yggostrus",
+              "modifier": 5
+            }
+          ]
+        }
+      ],
+      "reason": "align_modifier_with_local_character_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 1763,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Drew",
+      "reason": "separate_failed_roll_from_matts_following_total",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1763,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": "Solanum Calabash",
+      "reason": "separate_failed_roll_from_matts_following_total",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1778,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Xander",
+      "reason": "five_plus_eight_matches_lithrei_perception_from_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1778,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "five_plus_eight_matches_lithrei_perception_from_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1778,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Lithrei Woeborn",
+      "reason": "five_plus_eight_matches_lithrei_perception_from_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1778,
+      "op": "replace",
+      "path": "text",
+      "old": "5 + 8.",
+      "new": "Five plus eight—thirteen.",
+      "reason": "state_complete_roll_total",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1843,
+      "op": "restore",
+      "path": "text",
+      "old": "Little ketchup tears.",
+      "new": "Little ketchup tears.",
+      "reason": "restore_character_related_table_joke",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 1845,
+      "op": "restore",
+      "path": "text",
+      "old": "Little acidic tomato juice tears.",
+      "new": "Little acidic tomato-juice tears.",
+      "reason": "restore_character_related_table_joke",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 1848,
+      "op": "set",
+      "path": "voice",
+      "old": "Cy'An Copperbottom",
+      "new": "player",
+      "reason": "healing_suggestion_is_table_tactics",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 1877,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Drew",
+      "reason": "line_continues_solanums_offer_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1877,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "Solanum Calabash",
+      "reason": "line_continues_solanums_offer_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1877,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": "Solanum Calabash",
+      "reason": "line_continues_solanums_offer_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1885,
+      "op": "replace",
+      "path": "text",
+      "old": "You find a holly bush feather token — a consumable. You activate it and it becomes a holly bush that takes up one square. That bush has 2d4 berries; Interact to pick and eat one for 1 Hit Point.",
+      "new": "You find a holly bush feather token—a consumable. Activate it and it becomes a holly bush filling one square, which can give you cover. It has 2d4 berries; you can Interact to pick and eat one to regain 1 Hit Point.",
+      "reason": "resolve_comfort_cover_stt_from_published_item",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1895,
+      "op": "remove",
+      "path": "text",
+      "old": "So if you plant it on concrete or something…",
+      "new": null,
+      "reason": "incomplete_repetition_of_item_duration",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "filler_removed",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 1896,
+      "op": "restore",
+      "path": "text",
+      "old": "uh by our dormitories",
+      "new": "We should plant it by our dormitory.",
+      "reason": "restore_party_plan_split_from_gm_rules_blob",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 1948,
+      "op": "replace",
+      "path": "text",
+      "old": "Okay — so Anya. I'm targeting Medicine.",
+      "new": "Okay, Anya. I'm treating her.",
+      "reason": "repair_stt_medicine_target_statement",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 1977,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Xander",
+      "reason": "medicine_roll_belongs_to_lithrei_not_kiri",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1977,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Lithrei Woeborn",
+      "reason": "medicine_roll_belongs_to_lithrei_not_kiri",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1978,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Xander",
+      "reason": "guidance_calculation_continues_lithrei_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1978,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Lithrei Woeborn",
+      "reason": "guidance_calculation_continues_lithrei_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 1988,
+      "op": "set",
+      "path": "voice",
+      "old": "Solanum Calabash",
+      "new": "player",
+      "reason": "drew_is_jokingly_imitating_yggostrus_at_table",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2011,
+      "op": "replace",
+      "path": "text",
+      "old": "Once everyone is outside his 20-to-30-foot range, I'm going to command my eidolon to go in for a coup de grace.",
+      "new": "Once everyone is outside his twenty-to-thirty-foot range, I'm going to command my eidolon to go in for a coup de grâce.",
+      "reason": "naturalize_reconstructed_plan",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2030,
+      "op": "replace",
+      "path": "text",
+      "old": "So it can be those badasses walking away from the explosion — except you guys don't know the explosion happened.",
+      "new": "So it can be those badasses walking away from the explosion—except you guys won't know the explosion happened.",
+      "reason": "fix_future_tense_in_planned_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2093,
+      "op": "merge",
+      "path": "text",
+      "old": "The next stage of the disease would be very bad for you. | But you have an entire day before you have to worry about that. | If you would like to take care of other tasks.",
+      "new": "The next stage of the disease would be very bad, but you have an entire day before you need to worry about it if you'd like to take care of the other tasks first.",
+      "reason": "consolidate_gm_warning_and_complete_conditional",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        2093,
+        2094,
+        2096
+      ]
+    },
+    {
+      "segmentId": 2094,
+      "op": "remove",
+      "path": "text",
+      "old": "But you have an entire day before you have to worry about that.",
+      "new": null,
+      "reason": "merged_into_2093",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2096,
+      "op": "remove",
+      "path": "text",
+      "old": "If you would like to take care of other tasks.",
+      "new": null,
+      "reason": "merged_into_2093",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2097,
+      "op": "replace",
+      "path": "text",
+      "old": "Let's go get the caterpillars and bang friggin' bones.",
+      "new": "Let's go get the caterpillars and bag some friggin' bones.",
+      "reason": "resolve_bang_bag_stt_from_task_context",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2106,
+      "op": "replace",
+      "path": "text",
+      "old": "Yes — time to get the caterpillars, but they're in the forest much closer to the city than the mushrooms were. So bones should be next: do whatever's closest to us presently, then the caterpillars, then back.",
+      "new": "Yeah—time to get the caterpillars. They're in the forest, but much closer to the city than the mushrooms were, so we should get them next, then head back for the bones.",
+      "reason": "resolve_contradictory_reconstruction_using_final_party_route",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2159,
+      "op": "replace",
+      "path": "text",
+      "old": "Yes — my Survival is actually trained.",
+      "new": "Yes—my Survival is actually trained. Dang it.",
+      "reason": "preserve_natural_roll_reaction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2165,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Matt",
+      "reason": "continues_matts_hero_point_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2165,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Yggostrus",
+      "reason": "continues_matts_hero_point_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2185,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Drew",
+      "new": "Julia",
+      "reason": "gm_directly_addresses_julia_for_anyas_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2185,
+      "op": "set",
+      "path": "character",
+      "old": "Solanum Calabash",
+      "new": "Anya",
+      "reason": "gm_directly_addresses_julia_for_anyas_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2226,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Xander",
+      "reason": "nat_twenty_is_lithreis_roll_after_cyans_fifteen",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2226,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Lithrei Woeborn",
+      "reason": "nat_twenty_is_lithreis_roll_after_cyans_fifteen",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2251,
+      "op": "replace",
+      "path": "text",
+      "old": "So you know how mage hand is a cantrip, functionally, as long as you're wearing that thing.",
+      "new": "So Mage Hand is functionally a cantrip as long as you're wearing that thing.",
+      "reason": "canonicalize_spell_and_naturalize_explanation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2254,
+      "op": "replace",
+      "path": "text",
+      "old": "Is it a forever mage hand, or does it expend?",
+      "new": "Is it a forever Mage Hand, or does it expend?",
+      "reason": "canonicalize_spell_name",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2290,
+      "op": "replace",
+      "path": "text",
+      "old": "Actually, you could give me either Society or Cooking — cooking tools, I think.",
+      "new": "Actually, give me either Society or Cooking Lore.",
+      "reason": "use_canonical_local_sheet_skill",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2311,
+      "op": "replace",
+      "path": "text",
+      "old": "You take the caterpillars and get Ego to curse removal or whatever we're taking him for — I'll get the bones.",
+      "new": "You take the caterpillars and get Ego to curse removal—or whatever the hell we're taking him for. I'll get the bones.",
+      "reason": "restore_natural_wording_and_complete_party_plan",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2328,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Dave",
+      "reason": "gm_is_proxying_absent_anya",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2328,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Anya",
+      "reason": "gm_is_proxying_absent_anya",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2331,
+      "op": "replace",
+      "path": "text",
+      "old": "We three suggested that we take some cuttings of the plant the caterpillars really like to bring Anchor Root.",
+      "new": "Lithrei suggested that we take some cuttings of the plant the caterpillars really like to bring Anchor Root.",
+      "reason": "resolve_we_three_lithrei_stt_from_prior_proposal",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2348,
+      "op": "merge",
+      "path": "text",
+      "old": "I have Occultism, and I guess I just want to vaguely… | …feel if there's any energy coming from the bones — negative or positive.",
+      "new": "I have Occultism. I guess I just want to vaguely feel if there's any energy coming from the bones—negative or positive.",
+      "reason": "reassemble_mid_sentence_stt_chop",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        2348,
+        2351
+      ]
+    },
+    {
+      "segmentId": 2351,
+      "op": "remove",
+      "path": "text",
+      "old": "…feel if there's any energy coming from the bones — negative or positive.",
+      "new": null,
+      "reason": "merged_into_2348",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Xander"
+    },
+    {
+      "segmentId": 2361,
+      "op": "set",
+      "path": "mechanics",
+      "old": [
+        {
+          "kind": "check",
+          "skill": "Occultism",
+          "rolls": [
+            {
+              "character": "Lithrei Woeborn",
+              "total": 1
+            }
+          ]
+        }
+      ],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Occultism",
+          "rolls": [
+            {
+              "character": "Lithrei Woeborn",
+              "raw": 1,
+              "modifier": 6,
+              "total": 7
+            }
+          ]
+        }
+      ],
+      "reason": "natural_one_is_raw_roll_and_modifier_matches_local_sheet",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 2379,
+      "op": "merge",
+      "path": "text",
+      "old": "You get back just about in time for Yggostrus to have been fully treated by the Magaambya's first aid office. | Who has successfully cleansed him of the purple pox.",
+      "new": "You get back just about in time for Yggostrus to have been fully treated by the Magaambya's first-aid office and cleansed of the purple pox.",
+      "reason": "complete_gm_narration_and_remove_dangling_relative_clause",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "sourceSegmentIds": [
+        2379,
+        2382
+      ]
+    },
+    {
+      "segmentId": 2382,
+      "op": "remove",
+      "path": "text",
+      "old": "Who has successfully cleansed him of the purple pox.",
+      "new": null,
+      "reason": "merged_into_2379",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2388,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Dave",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2388,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Chizire",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2390,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Dave",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2390,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Chizire",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2392,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Kiri",
+      "new": "Dave",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2392,
+      "op": "set",
+      "path": "character",
+      "old": "Cy'An Copperbottom",
+      "new": "Chizire",
+      "reason": "gm_voices_chizire_reply",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2403,
+      "op": "replace",
+      "path": "text",
+      "old": "I have a three in Crafting.",
+      "new": "I have a five in Crafting.",
+      "reason": "correct_modifier_from_local_sheet_and_later_confirmation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2450,
+      "op": "set",
+      "path": "voice",
+      "old": "Solanum Calabash",
+      "new": "player",
+      "reason": "table_reminder_not_in_character_dialogue",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2462,
+      "op": "replace",
+      "path": "text",
+      "old": "Well, in case you want to start a caterpillar farm — they brought back some of their favorite plant that you could turn into a…",
+      "new": "Well, in case you want to start a caterpillar farm, we brought back some of their favorite plant for you.",
+      "reason": "repair_pronouns_and_remove_hallucinated_incomplete_phrase",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2466,
+      "op": "replace",
+      "path": "text",
+      "old": "Your relationship with Anchor Root has increased — you have classroom advantage with a character before you actually have classes. You treat critical failures when you study for Rain-Scribe classes as failures instead; you cannot crit-fail Rain-Scribe classes. Nice — write that down.",
+      "new": "Your relationship with Anchor Root has increased, so you've earned your first classroom advantage before you've even started classes: when you Study for Rain-Scribe classes, treat a critical failure as a failure instead. You can't critically fail. Nice—write that down.",
+      "reason": "align_relationship_reward_with_local_rules_data",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2472,
+      "op": "replace",
+      "path": "text",
+      "old": "Yeah, so you've returned to the Spire Dormitory with all of your oil.",
+      "new": "Yeah, so you've returned to the Spire Dormitory with all three oils.",
+      "reason": "clarify_completed_deliverables",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2494,
+      "op": "set",
+      "path": "voice",
+      "old": "Cy'An Copperbottom",
+      "new": "player",
+      "reason": "ritual_role_assignment_is_table_planning",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2498,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Kiri",
+      "reason": "player_responds_to_gm_ritual_ruling",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2498,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Cy'An Copperbottom",
+      "reason": "player_responds_to_gm_ritual_ruling",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2499,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Kiri",
+      "reason": "continues_player_response_to_ritual_ruling",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2499,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Cy'An Copperbottom",
+      "reason": "continues_player_response_to_ritual_ruling",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2503,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Xander",
+      "reason": "first_secondary_result_matches_lithrei_before_other_players_report",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2503,
+      "op": "set",
+      "path": "voice",
+      "old": "narrator",
+      "new": "player",
+      "reason": "first_secondary_result_matches_lithrei_before_other_players_report",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2503,
+      "op": "set",
+      "path": "character",
+      "old": null,
+      "new": "Lithrei Woeborn",
+      "reason": "first_secondary_result_matches_lithrei_before_other_players_report",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2508,
+      "op": "replace",
+      "path": "text",
+      "old": "Well, it's getting done however we dice this.",
+      "new": "Well, shit's getting done any way we dice this.",
+      "reason": "restore_natural_wordplay_and_player_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2509,
+      "op": "restore",
+      "path": "text",
+      "old": "Pun intended?",
+      "new": "Pun intended?",
+      "reason": "restore_immediate_wordplay_tag",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 2516,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "reported_intimidation_result_belongs_to_gm_proxy_roll_for_anya",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2516,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "reported_intimidation_result_belongs_to_gm_proxy_roll_for_anya",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2516,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": "Anya",
+      "reason": "reported_intimidation_result_belongs_to_gm_proxy_roll_for_anya",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2516,
+      "op": "set",
+      "path": "mechanics",
+      "old": [
+        {
+          "type": "check",
+          "skill": "Intimidation",
+          "total": 14
+        }
+      ],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Intimidation",
+          "rolls": [
+            {
+              "character": "Anya",
+              "total": 14
+            }
+          ]
+        }
+      ],
+      "reason": "attach_result_to_contextually_identified_anya_proxy_roll",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 2518,
+      "op": "replace",
+      "path": "text",
+      "old": "From Yggostrus, I need a DC 13 Nature check.",
+      "new": "From Yggostrus, I need a DC 13 Nature check for a successful ritual.",
+      "reason": "complete_primary_ritual_check_instruction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2519,
+      "op": "restore",
+      "path": "text",
+      "old": "All right, nothing.",
+      "new": "All right—19.",
+      "reason": "resolve_nothing_as_nineteen_from_dc_and_following_success",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 2520,
+      "op": "remove",
+      "path": "text",
+      "old": "For a successful ritual.",
+      "new": null,
+      "reason": "merged_into_complete_ritual_check_instruction",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2570,
+      "op": "restore",
+      "path": "text",
+      "old": "Sure. And would I be able to ask about the bead that randomly showed up on my thing?",
+      "new": "Could I ask about the bead that randomly showed up?",
+      "reason": "restore_game_canon_clarification",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 2571,
+      "op": "restore",
+      "path": "text",
+      "old": "That was on Ego's thing.",
+      "new": "That was on Ego's bracelet.",
+      "reason": "restore_game_canon_clarification",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2572,
+      "op": "restore",
+      "path": "text",
+      "old": "Oh, it was just Ego's?",
+      "new": "Oh, it was just Ego's? I thought everyone got one.",
+      "reason": "restore_game_canon_clarification",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 2576,
+      "op": "restore",
+      "path": "text",
+      "old": "Are we aware that it happened?",
+      "new": "Are we aware that it happened?",
+      "reason": "restore_character_knowledge_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Xander"
+    },
+    {
+      "segmentId": 2577,
+      "op": "restore",
+      "path": "text",
+      "old": "I don't know. Are they aware that it happened?",
+      "new": "Would you have said anything or pointed it out?",
+      "reason": "restore_character_knowledge_ruling",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2580,
+      "op": "restore",
+      "path": "text",
+      "old": "No. Absolutely not.",
+      "new": "No. Absolutely not.",
+      "reason": "restore_yggostrus_concealment_decision",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 2582,
+      "op": "restore",
+      "path": "text",
+      "old": "Nope. Just ego. Just the one of you that murdered.",
+      "new": "Then no. Just Ego—the one of you who murdered him.",
+      "reason": "restore_skull_bead_and_character_knowledge_canon",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 2584,
+      "op": "restore",
+      "path": "text",
+      "old": "Murderer.",
+      "new": "Murderer.",
+      "reason": "restore_immediate_character_related_banter",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit",
+      "speaker": "Xander"
+    },
+    {
+      "segmentId": 2610,
+      "op": "replace",
+      "path": "text",
+      "old": "I think she's taking it a little hard because she's a leshy — and she knows leshys aren't just one form. She's like, \"Well, I don't know what happened.\"",
+      "new": "I think she's taking it a little hard because she's a leshy, and he's a leshy. She knows leshies aren't limited to one form—they kind of move around—and she's thinking, ‘Well, I don't know what happened.’",
+      "reason": "restore_player_reasoning_about_leshy_identity",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2627,
+      "op": "replace",
+      "path": "text",
+      "old": "Last time there was a new student who had that emotional outburst and darkened. They're staying in our dorm, I think, but I don't remember.",
+      "new": "Last time there was a new student who had that emotional outburst, and everything darkened. They're staying in our dorm, I think, but I don't remember.",
+      "reason": "repair_grammar_using_prior_session_event",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2631,
+      "op": "replace",
+      "path": "text",
+      "old": "At least, he wants to talk to Noxolo.",
+      "new": "Lithrei wants to talk to Noxolo.",
+      "reason": "resolve_at_least_as_lithrei_stt_from_character_action",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2632,
+      "op": "replace",
+      "path": "text",
+      "old": "Also — I'm not sure how many things I can do — he wants to carefully explore those little underground caverns. Just not going in deep; just far enough to get a little familiarity before coming back.",
+      "new": "Also—I'm not sure how many things I can do—he wants to carefully explore those little underground caverns. Not deep, just far enough to get a little familiarity before coming back.",
+      "reason": "maintain_character_perspective_and_naturalize_plan",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2697,
+      "op": "replace",
+      "path": "text",
+      "old": "The Rain-Scribes very frequently leave the school. They go out to investigate magical phenomena, handle diplomacy, and visit distant callers.",
+      "new": "The Rain-Scribes very frequently leave the school to investigate magical phenomena, conduct diplomacy, and visit distant scholars.",
+      "reason": "resolve_callers_as_scholars_from_published_rain_scribe_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2732,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": "Anya",
+      "reason": "response_is_explicitly_anyas_activity_with_anchor_root",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2762,
+      "op": "replace",
+      "path": "text",
+      "old": "This is the girl who kind of freaked out the bird during the initiation.",
+      "new": "This is the girl who kind of freaked out the bird during the initiation ritual?",
+      "reason": "combine_natural_clarification_as_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2764,
+      "op": "remove",
+      "path": "text",
+      "old": "During the initiation ritual.",
+      "new": null,
+      "reason": "clarification_merged_into_question",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 2782,
+      "op": "set",
+      "path": "mechanics",
+      "old": [
+        {
+          "type": "check",
+          "skill": "Perception",
+          "total": 17
+        }
+      ],
+      "new": [
+        {
+          "kind": "check",
+          "skill": "Perception",
+          "rolls": [
+            {
+              "character": "Yggostrus",
+              "total": 17
+            }
+          ]
+        }
+      ],
+      "reason": "attach_perception_result_to_current_actor",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "mechanics"
+    },
+    {
+      "segmentId": 2783,
+      "op": "replace",
+      "path": "text",
+      "old": "You visited her in her lab.",
+      "new": "You visit her in her lab.",
+      "reason": "maintain_immediate_narrative_tense",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2786,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "table_reaction_to_npc_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2789,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "table_reaction_to_npc_description",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2791,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "player_states_character_interest",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2822,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "gm_follows_up_on_anchor_root_scene",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2822,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_follows_up_on_anchor_root_scene",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2822,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": null,
+      "reason": "gm_follows_up_on_anchor_root_scene",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2823,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "gm_offers_session_pacing_choice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2823,
+      "op": "set",
+      "path": "voice",
+      "old": "player",
+      "new": "narrator",
+      "reason": "gm_offers_session_pacing_choice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2823,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": null,
+      "reason": "gm_offers_session_pacing_choice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2824,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "player_answers_gm_pacing_choice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2827,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "player_describes_intended_conversation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2831,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "player_describes_approach_to_npc_room",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2862,
+      "op": "remove",
+      "path": "text",
+      "old": "Maybe start fresh.",
+      "new": null,
+      "reason": "duplicate_completion_already_reassembled_into_2859",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Matt"
+    },
+    {
+      "segmentId": 2914,
+      "op": "replace",
+      "path": "text",
+      "old": "I admit the… sentimentalities mortals tend to have on things still elude me. But from what I have been advised, perhaps parts of my current situation are due to my inability to understand those empathies.",
+      "new": "I admit the… sentimentalities mortals tend to have about things still elude me. But from what I've been advised, perhaps parts of my current situation are due to my inability to understand those empathies.",
+      "reason": "repair_grammar_while_preserving_yggostrus_voice",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2920,
+      "op": "replace",
+      "path": "text",
+      "old": "Can you be killed?",
+      "new": "Hey, you know—one more thing. Can you be killed?",
+      "reason": "restore_anchor_root_interjection_in_correct_sequence",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2929,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Matt",
+      "new": "Dave",
+      "reason": "anchor_root_checks_in_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2929,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "Anchor Root",
+      "reason": "anchor_root_checks_in_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2929,
+      "op": "set",
+      "path": "character",
+      "old": "Yggostrus",
+      "new": "Anchor Root",
+      "reason": "anchor_root_checks_in_before_yggostrus_replies",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "diarization"
+    },
+    {
+      "segmentId": 2931,
+      "op": "set",
+      "path": "voice",
+      "old": "Yggostrus",
+      "new": "player",
+      "reason": "player_narrates_followup_conversation",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "voice"
+    },
+    {
+      "segmentId": 2959,
+      "op": "replace",
+      "path": "text",
+      "old": "And I feel like we all worked really hard to understand our sheet as best we could for our first combat.",
+      "new": "And I feel like we all worked really hard to understand our sheets as best we could for our first combat.",
+      "reason": "repair_sheet_plural_in_group_reflection",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "clarity_edit"
+    },
+    {
+      "segmentId": 2961,
+      "op": "remove",
+      "path": "text",
+      "old": "I'm trying to understand as a magus.",
+      "new": null,
+      "reason": "session_ends_before_incomplete_magus_thought_is_expressed",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "incomplete",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 3001,
+      "op": "remove",
+      "path": "text",
+      "old": "From an objective standpoint, it's really impressive how he can sleep anywhere.",
+      "new": null,
+      "reason": "duplicate_of_gm_edited_mariama_split_5503",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
+    },
+    {
+      "segmentId": 4001,
+      "op": "remove",
+      "path": "text",
+      "old": "Can I actually use Spinning Staff?",
+      "new": null,
+      "reason": "duplicate_question_already_restored_to_1428",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Drew"
+    },
+    {
+      "segmentId": 4501,
+      "op": "remove",
+      "path": "text",
+      "old": "We should plant it by our dormitories.",
+      "new": null,
+      "reason": "duplicate_party_plan_restored_in_sequence_at_1896",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 5001,
+      "op": "remove",
+      "path": "text",
+      "old": "Actually, I can do it.",
+      "new": null,
+      "reason": "orphaned_synthetic_split_redundant_with_crafting_response",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Kiri"
+    },
+    {
+      "segmentId": 5501,
+      "op": "remove",
+      "path": "text",
+      "old": "Hey, you know — one more thing.",
+      "new": null,
+      "reason": "anchor_root_interjection_merged_in_sequence_at_2920",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "merge",
+      "speaker": "Dave"
     }
   ]
 }
