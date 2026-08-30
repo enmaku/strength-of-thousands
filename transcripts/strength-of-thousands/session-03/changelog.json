@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-03",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T04:18:36.568228+00:00",
+  "generatedAt": "2026-08-30T06:50:25.648Z",
   "changes": [
     {
       "segmentId": 1,
@@ -52085,6 +52085,296 @@
       "flagged": false,
       "category": "merge",
       "speaker": "Dave"
+    },
+    {
+      "segmentId": 58,
+      "op": "remove",
+      "path": "text",
+      "old": "What?",
+      "new": null,
+      "speaker": "Drew",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 60,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Drew",
+      "new": "Kiri",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2957,
+      "op": "remove",
+      "path": "text",
+      "old": "A little rough on that first combat, but that was always going to be the case.",
+      "new": null,
+      "speaker": "Dave",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2958,
+      "op": "remove",
+      "path": "text",
+      "old": "I feel like that combat could have gone far worse.",
+      "new": null,
+      "speaker": "Kiri",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2959,
+      "op": "remove",
+      "path": "text",
+      "old": "And I feel like we all worked really hard to understand our sheets as best we could for our first combat.",
+      "new": null,
+      "speaker": "Kiri",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2934,
+      "op": "replace",
+      "path": "speaker",
+      "old": "Dave",
+      "new": "Drew",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 1605,
+      "op": "replace",
+      "path": "text",
+      "old": "That's it. Okay—go off, Ego. Pop off.",
+      "new": "That's it. Okay—go off, Yggo. Pop off.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 1606,
+      "op": "replace",
+      "path": "text",
+      "old": "We'll put Guidance on Ego.",
+      "new": "We'll put Guidance on Yggo.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 1970,
+      "op": "replace",
+      "path": "text",
+      "old": "And you want to make another one for Ego?",
+      "new": "And you want to make another one for Yggo?",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 1986,
+      "op": "replace",
+      "path": "text",
+      "old": "I thought it was Ego that does.",
+      "new": "I thought it was Yggo that does.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 1987,
+      "op": "replace",
+      "path": "text",
+      "old": "Yeah — Ego still needs to get back.",
+      "new": "Yeah — Yggo still needs to get back.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 1988,
+      "op": "replace",
+      "path": "text",
+      "old": "Ego's sitting there like, \"Oh no — all right guys, I really like mushrooms, what?\"",
+      "new": "Yggo's sitting there like, \"Oh no — all right guys, I really like mushrooms, what?\"",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2059,
+      "op": "replace",
+      "path": "text",
+      "old": "Ego, I don't think that was a Widowmaker branch.",
+      "new": "Yggo, I don't think that was a Widowmaker branch.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2311,
+      "op": "replace",
+      "path": "text",
+      "old": "You take the caterpillars and get Ego to curse removal—or whatever the hell we're taking him for. I'll get the bones.",
+      "new": "You take the caterpillars and get Yggo to curse removal—or whatever the hell we're taking him for. I'll get the bones.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2320,
+      "op": "replace",
+      "path": "text",
+      "old": "You could take the caterpillars and Ego back to school.",
+      "new": "You could take the caterpillars and Yggo back to school.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2329,
+      "op": "replace",
+      "path": "text",
+      "old": "I will follow Ego then and bring the caterpillars and the mushrooms home.",
+      "new": "I will follow Yggo then and bring the caterpillars and the mushrooms home.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2494,
+      "op": "replace",
+      "path": "text",
+      "old": "So, Ego's going to lead…",
+      "new": "So, Yggo's going to lead…",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2571,
+      "op": "replace",
+      "path": "text",
+      "old": "That was on Ego's bracelet.",
+      "new": "That was on Yggo's bracelet.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2572,
+      "op": "replace",
+      "path": "text",
+      "old": "Oh, it was just Ego's? I thought everyone got one.",
+      "new": "Oh, it was just Yggo's? I thought everyone got one.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2582,
+      "op": "replace",
+      "path": "text",
+      "old": "Then no. Just Ego—the one of you who murdered him.",
+      "new": "Then no. Just Yggo—the one of you who murdered him.",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2865,
+      "op": "replace",
+      "path": "text",
+      "old": "Look, Ego, there's two parts of this, all right?",
+      "new": "Look, Yggo, there's two parts of this, all right?",
+      "reason": "yggo_nickname_not_ego_stt",
+      "confidence": 0.98,
+      "flagged": false,
+      "category": "proper_noun"
+    },
+    {
+      "segmentId": 2866,
+      "op": "replace",
+      "path": "text",
+      "old": "There's the personal side, and we're fine.",
+      "new": "There's the personal side, and on that front, we're fine.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2909,
+      "op": "replace",
+      "path": "text",
+      "old": "But if you want to feel better about yourself, you just gotta do the right things to feel better about yourself.",
+      "new": "But if you want to feel better about yourself, I can't give that to you. We can't give that to you. Words won't give that to you. You've just gotta do the right things.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2920,
+      "op": "replace",
+      "path": "text",
+      "old": "Hey, you know—one more thing. Can you be killed?",
+      "new": "Hey, Yggo, one more thing. Can you be killed?",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2922,
+      "op": "replace",
+      "path": "text",
+      "old": "Then you're a fucking mortal, buddy.",
+      "new": "Then you're a fucking mortal, buddy. Long enough time scale, you're still gonna die, same as everyone.",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 2929,
+      "op": "replace",
+      "path": "text",
+      "old": "You good?",
+      "new": "We good?",
+      "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
     }
   ]
 }
