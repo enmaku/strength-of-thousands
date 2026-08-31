@@ -1,7 +1,7 @@
 {
   "sessionId": "strength-of-thousands-session-03",
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T23:45:12.881Z",
+  "generatedAt": "2026-08-31T03:23:30.367Z",
   "changes": [
     {
       "segmentId": 1,
@@ -57133,6 +57133,30 @@
       "old": "Anchor Root",
       "new": "Yggostrus",
       "reason": "gm_edit",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 275,
+      "op": "remove",
+      "path": "text",
+      "old": "I'm gonna stand by the broken branch that I set up.",
+      "new": null,
+      "speaker": "Kiri",
+      "reason": "gm_removed",
+      "confidence": 1,
+      "flagged": false,
+      "category": "gm_edit"
+    },
+    {
+      "segmentId": 301,
+      "op": "restore",
+      "path": "text",
+      "old": "Throw the cat on the branch right there.",
+      "new": "Throw the cat on the branch right there.",
+      "speaker": "Kiri",
+      "reason": "gm_restored",
       "confidence": 1,
       "flagged": false,
       "category": "gm_edit"

@@ -1141,21 +1141,8 @@
     "sourceSpeaker": "Dave"
   },
   {
-    "id": 275,
-    "index": 85,
-    "sceneId": "scarlet-cap",
-    "speaker": "Kiri",
-    "character": "Cy'An Copperbottom",
-    "voice": "Cy'An Copperbottom",
-    "contentType": "game",
-    "text": "I'm gonna stand by the broken branch that I set up.",
-    "mechanics": [],
-    "sourceText": "I'm gonna stand by the broken branch that I set up.",
-    "sourceSpeaker": "Kiri"
-  },
-  {
     "id": 276,
-    "index": 86,
+    "index": 85,
     "sceneId": "scarlet-cap",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1168,7 +1155,7 @@
   },
   {
     "id": 277,
-    "index": 87,
+    "index": 86,
     "sceneId": "scarlet-cap",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -1178,6 +1165,19 @@
     "mechanics": [],
     "sourceText": "I will stand here with my Eidolon.",
     "sourceSpeaker": "Matt"
+  },
+  {
+    "id": 301,
+    "index": 87,
+    "sceneId": null,
+    "speaker": "Kiri",
+    "character": "Cy'An Copperbottom",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Throw the cat on the branch right there.",
+    "mechanics": [],
+    "sourceText": "Throw the cat on the branch right there.",
+    "sourceSpeaker": "Kiri"
   },
   {
     "id": 303,
