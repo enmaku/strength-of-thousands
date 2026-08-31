@@ -17754,14 +17754,27 @@
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "Takes a deep breath, centers herself. She's clearly prepared for this.",
+    "text": "Takes a deep breath, centers herself. She's clearly prepared herself for this conversation.",
     "mechanics": [],
     "sourceText": "Takes a deep breath, centers herself. She's clearly prepared for this.",
     "sourceSpeaker": "Dave"
   },
   {
-    "id": 2865,
+    "id": 5538,
     "index": 1287,
+    "sceneId": "aftermath",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "I also did a fair amount of preparation for this.",
+    "mechanics": [],
+    "sourceText": "I also did a fair amount of preparation for this.",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 2865,
+    "index": 1288,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17774,7 +17787,7 @@
   },
   {
     "id": 2866,
-    "index": 1288,
+    "index": 1289,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17787,7 +17800,7 @@
   },
   {
     "id": 2868,
-    "index": 1289,
+    "index": 1290,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17800,7 +17813,7 @@
   },
   {
     "id": 2870,
-    "index": 1290,
+    "index": 1291,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17813,7 +17826,7 @@
   },
   {
     "id": 2871,
-    "index": 1291,
+    "index": 1292,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17826,7 +17839,7 @@
   },
   {
     "id": 2874,
-    "index": 1292,
+    "index": 1293,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17839,7 +17852,7 @@
   },
   {
     "id": 2876,
-    "index": 1293,
+    "index": 1294,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17852,7 +17865,7 @@
   },
   {
     "id": 2877,
-    "index": 1294,
+    "index": 1295,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17865,7 +17878,7 @@
   },
   {
     "id": 2883,
-    "index": 1295,
+    "index": 1296,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17878,7 +17891,7 @@
   },
   {
     "id": 2889,
-    "index": 1296,
+    "index": 1297,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17891,7 +17904,7 @@
   },
   {
     "id": 2897,
-    "index": 1297,
+    "index": 1298,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17904,7 +17917,7 @@
   },
   {
     "id": 2901,
-    "index": 1298,
+    "index": 1299,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17917,7 +17930,7 @@
   },
   {
     "id": 2906,
-    "index": 1299,
+    "index": 1300,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17930,7 +17943,7 @@
   },
   {
     "id": 2909,
-    "index": 1300,
+    "index": 1301,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -17943,7 +17956,7 @@
   },
   {
     "id": 2911,
-    "index": 1301,
+    "index": 1302,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17956,7 +17969,7 @@
   },
   {
     "id": 2912,
-    "index": 1302,
+    "index": 1303,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17969,7 +17982,7 @@
   },
   {
     "id": 2914,
-    "index": 1303,
+    "index": 1304,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17982,7 +17995,7 @@
   },
   {
     "id": 2919,
-    "index": 1304,
+    "index": 1305,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -17995,7 +18008,7 @@
   },
   {
     "id": 2920,
-    "index": 1305,
+    "index": 1306,
     "sceneId": "aftermath",
     "speaker": "GM Note",
     "character": null,
@@ -18008,7 +18021,7 @@
   },
   {
     "id": 5537,
-    "index": 1306,
+    "index": 1307,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18021,7 +18034,7 @@
   },
   {
     "id": 5534,
-    "index": 1307,
+    "index": 1308,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18034,7 +18047,7 @@
   },
   {
     "id": 5535,
-    "index": 1308,
+    "index": 1309,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18047,7 +18060,7 @@
   },
   {
     "id": 2921,
-    "index": 1309,
+    "index": 1310,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18060,7 +18073,7 @@
   },
   {
     "id": 2922,
-    "index": 1310,
+    "index": 1311,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18073,7 +18086,7 @@
   },
   {
     "id": 2925,
-    "index": 1311,
+    "index": 1312,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18086,7 +18099,7 @@
   },
   {
     "id": 2926,
-    "index": 1312,
+    "index": 1313,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18099,7 +18112,7 @@
   },
   {
     "id": 2927,
-    "index": 1313,
+    "index": 1314,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18112,7 +18125,7 @@
   },
   {
     "id": 2928,
-    "index": 1314,
+    "index": 1315,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18125,7 +18138,7 @@
   },
   {
     "id": 2929,
-    "index": 1315,
+    "index": 1316,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": "Anchor Root",
@@ -18138,7 +18151,7 @@
   },
   {
     "id": 2930,
-    "index": 1316,
+    "index": 1317,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18151,7 +18164,7 @@
   },
   {
     "id": 2931,
-    "index": 1317,
+    "index": 1318,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18164,7 +18177,7 @@
   },
   {
     "id": 2932,
-    "index": 1318,
+    "index": 1319,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18177,7 +18190,7 @@
   },
   {
     "id": 2934,
-    "index": 1319,
+    "index": 1320,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -18190,7 +18203,7 @@
   },
   {
     "id": 2935,
-    "index": 1320,
+    "index": 1321,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -18203,7 +18216,7 @@
   },
   {
     "id": 2936,
-    "index": 1321,
+    "index": 1322,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
