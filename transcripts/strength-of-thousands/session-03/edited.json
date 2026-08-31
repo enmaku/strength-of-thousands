@@ -17997,18 +17997,31 @@
     "id": 2920,
     "index": 1305,
     "sceneId": "aftermath",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "This, however, was 100% improv.",
+    "mechanics": [],
+    "sourceText": "Can you be killed?",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 5537,
+    "index": 1306,
+    "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
     "voice": "Anchor Root",
     "contentType": "game",
     "text": "Hey, Yggo, one more thing.",
     "mechanics": [],
-    "sourceText": "Can you be killed?",
+    "sourceText": "Hey, Yggo, one more thing.",
     "sourceSpeaker": "Dave"
   },
   {
     "id": 5534,
-    "index": 1306,
+    "index": 1307,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18021,7 +18034,7 @@
   },
   {
     "id": 5535,
-    "index": 1307,
+    "index": 1308,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18034,7 +18047,7 @@
   },
   {
     "id": 2921,
-    "index": 1308,
+    "index": 1309,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18047,7 +18060,7 @@
   },
   {
     "id": 2922,
-    "index": 1309,
+    "index": 1310,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18060,7 +18073,7 @@
   },
   {
     "id": 2925,
-    "index": 1310,
+    "index": 1311,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18073,7 +18086,7 @@
   },
   {
     "id": 2926,
-    "index": 1311,
+    "index": 1312,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18086,7 +18099,7 @@
   },
   {
     "id": 2927,
-    "index": 1312,
+    "index": 1313,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18099,7 +18112,7 @@
   },
   {
     "id": 2928,
-    "index": 1313,
+    "index": 1314,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18112,7 +18125,7 @@
   },
   {
     "id": 2929,
-    "index": 1314,
+    "index": 1315,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": "Anchor Root",
@@ -18125,7 +18138,7 @@
   },
   {
     "id": 2930,
-    "index": 1315,
+    "index": 1316,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18138,7 +18151,7 @@
   },
   {
     "id": 2931,
-    "index": 1316,
+    "index": 1317,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -18151,7 +18164,7 @@
   },
   {
     "id": 2932,
-    "index": 1317,
+    "index": 1318,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -18164,7 +18177,7 @@
   },
   {
     "id": 2934,
-    "index": 1318,
+    "index": 1319,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -18177,7 +18190,7 @@
   },
   {
     "id": 2935,
-    "index": 1319,
+    "index": 1320,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -18190,7 +18203,7 @@
   },
   {
     "id": 2936,
-    "index": 1320,
+    "index": 1321,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
