@@ -18226,5 +18226,18 @@
     "mechanics": [],
     "sourceText": "We love her so much.",
     "sourceSpeaker": "Kiri"
+  },
+  {
+    "id": 5539,
+    "index": 1323,
+    "sceneId": "aftermath",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Yeah, me too.",
+    "mechanics": [],
+    "sourceText": "Yeah, me too.",
+    "sourceSpeaker": "Kiri"
   }
 ]
