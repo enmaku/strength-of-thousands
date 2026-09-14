@@ -6,6 +6,7 @@
 - **Thematic emphasis:** service, succession, cohort friendship, curiosity's shadow — see `reference/sot-thematic-guide.html`.
 - PDFs: `~/Dropbox/Gaming Books/Pathfinder/Strength of Thousands/`
 - Text extracts: `reference/sot-extracts/` (all 6 books + Player's Guide)
+- **Table fashion:** Lithrei is the most stylish PC — Ignaci/Noxolo/Chinasa fashion beats land on him, not Cy’An (craft ≠ couture).
 
 ## GM context — Anadi (shapeshifters)
 
@@ -30,10 +31,12 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
-- Session 3 Prep — `lessons/0011-session-3-prep.html`
+- Session 4 Prep — `lessons/0012-session-4-prep.html` (Emerald mail; Uzunjati stretch)
+- Session 3 Prep — `lessons/0011-session-3-prep.html` (**played** — see session log)
 - Session 2 Prep — `lessons/0010-session-2-prep.html`
-- Progress bookmark: `reference/sot-session-log.md`
+- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 3 logged)
 - How to write the next one: `reference/sot-session-prep-guide.md`
+- **Next after Session 4 runs:** update session log, then Session 5 (Uzunjati leftovers → Introduction Ceremony)
 
 ### Standing prep
 

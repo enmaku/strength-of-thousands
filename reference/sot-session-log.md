@@ -16,9 +16,9 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | **Book** | 1 — *Kindled Magic* |
 | **Chapter** | 1 — Orientation |
 | **Level** | 1 (level 2 after Introduction Ceremony) |
-| **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 2 |
-| **Last played** | Session 2 |
-| **Next prep** | Session 3 (`lessons/0011-session-3-prep.html`) |
+| **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 3 |
+| **Last played** | Session 3 |
+| **Next prep** | Session 4 — `lessons/0012-session-4-prep.html` (Emerald mail → Uzunjati stretch) |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -28,7 +28,7 @@ Book order (Esi’s plan). Tasks may be reordered at table, but NPCs and foresha
 |---|--------|------|--------------|
 | 1 | Rain-Scribes | Ojofiri chicks @ Kafesi (Esi + Haibram) | **Session 1** |
 | 2 | Tempest-Sun | Nonlethal pugwampi clear — storage barn (Esi alone); Uduak seed | **Session 2** |
-| 3 | Cascade Bearers | Three oils + fey-abeyance ritual (Mariama + Anchor Root + Chizire); Umbo | — |
+| 3 | Cascade Bearers | Three oils + fey-abeyance ritual (Mariama + Anchor Root + Chizire); Umbo | **Session 3** |
 | 4 | Emerald Boughs | Mail run on elephant birds (Ignaci + Tzeniwe) | — |
 | 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | — |
 | 6 | — | **Introduction Ceremony** — Kurshkin + Havvix (Severe 1); **level 2** | — |
@@ -105,17 +105,47 @@ Then: rest day → **Meet the Teachers** → classes (Ch 2).
 | Chizire | Lithrei/Yggostrus/Taraan | Secret tunnel card room confirmed; Taraan placed an Alarm and shared the password. Mold he used to fake illness remains a loose thread. |
 | Haibram | Solanum | Glider flight beat landed; he owes her a glider formula. |
 
+### Session 3
+
+**Covered**
+
+- Recap of Session 2 (tunnels, Uduak, pugwampis, Ot/Cy’An).
+- Perquisite day 3 — **Cascade Bearers**: **Mariama Keitana** briefing (**Chizire** still asleep in the forest; **Anchor Root** filling in); eight-hour clock for three oils (lucky bones, scarlet-cap mushrooms, caterpillars).
+- **Scarlet-cap trek**: Anya’s cat climbs for mushrooms; **Umbo** (myceloid) appears. Fortitude DC 18 — Yggostrus (17), Anya (15), and Yggostrus’s eidolon (12) fail → **purple pox**; Cy’An passes (20).
+- **First PF2e combat** vs Umbo. Initiative: Lithrei 24, Cy’An 23, Yggostrus 19, Solanum 15, Anya 6. Lithrei used Intimidation; Cy’An named **MODU** (Mobile Oven Defense Unit); Solanum tried Administer First Aid on dying Umbo (failed). Umbo killed by coup de grâce (spore-burst concern); **skull-shaped Perquisite bead** on Yggostrus’s bracelet. Solanum distressed about myceloid death (leshy solidarity).
+- **Oils gathering**: caterpillars (gloves); lucky bones from butcher (Anya Intimidation); purple pox treated at campus first aid (Anya and Yggostrus cured). Wolf fang talisman loot.
+- **Fey-abeyance**: all three oils crafted with group Aid; Chizire never needed. Lithrei gave Anchor a caterpillar-plant cutting → **Rain-Scribe classroom advantage** (crit fail → fail on Rain-Scribe Study). **Fey-abeyance ritual** on cold-iron bells succeeded (Yggostrus primary Nature). Mariama: ward affects **any fey**, not just gremlins — party will tell **Teacher Ot**. Mariama lives in Spire Dorm (revealed).
+- **Aftermath free time**: Lithrei Occultism on **Noxolo** — sense of ambient darkness; **Koride Ulawa** named as Rain-Scribe teacher. Yggostrus apologized to Anchor: personal forgiveness (“we’re fine”) but **“on behalf of my people, apology not accepted”** — repair through action (“pick up a shovel”). Cy’An keeping wolf fang for Anya gift. Taraan continued tunnel mapping (confusing network).
+
+**Not covered (still ahead)**
+
+- Perquisite tasks 4–5; Introduction Ceremony; Meet the Teachers; any Ch 2 Study.
+
+**Table pace note**
+
+- Full Cascade day (briefing + three fetches + first combat + ritual) plus substantial aftermath = one session. Confirms Session 2 estimate. Emerald mail + Uzunjati likely Session 4; Introduction Ceremony stretch.
+
+**NPC relationship seeds planted**
+
+| NPC | Who connected | Note |
+|-----|---------------|------|
+| Anchor Root | Yggostrus apology; whole cohort | Personal forgiveness but collective apology not accepted; Rain-Scribe classroom advantage earned; caterpillar plant gift. Still cohort favorite. |
+| Mariama Keitana | Whole cohort; fey ward ethics | Led Cascade task; ritual success; fey-abeyance affects all fey — Ot follow-up pending. Spire Dorm resident. |
+| Koride Ulawa | Lithrei (Occultism research) | Named on campus; Lithrei path toward Rain-Scribe faculty contact. |
+| Noxolo | Lithrei | Darkness/spirits reading; peer contact still gentle — don’t replay Session 2 breakdown. |
+| Chizire | Brief kick attempt | Slept through entire task; oils done without him. |
+
 ## Pace model (revisable)
 
-Derived from Session 1 + book density:
+Derived from Sessions 1–3 + book density:
 
 | Session estimate | Likely content |
 |------------------|----------------|
-| **Session 3 (prep target)** | Cascade oils + Umbo + fey-abeyance ritual. Stretch: open Emerald mail. |
-| Session 4 (rough) | Emerald mail → Uzunjati story. Stretch: Introduction Ceremony. |
-| Session 5 (rough) | Ceremony (if not done) → Meet Teachers / Ch 2 on-ramp. |
+| **Session 4 (prep target)** | Emerald mail on elephant birds. Stretch: open Uzunjati story day. |
+| Session 5 (rough) | Uzunjati story → Introduction Ceremony. |
+| Session 6 (rough) | Ceremony (if not done) → Meet Teachers / Ch 2 on-ramp. |
 
-Revise this table after Session 3 actuals.
+Revise this table after Session 4 actuals.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -123,16 +153,17 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
-| Anya | Quiet belonging through Anchor; let her protect caterpillars without making it a moral speech | Anchor established; deepen gently |
-| Cy’An | Let “tests do not eat” breathe; craft/food help without taking over | **Tzeniwe** (Emerald), deepen **Lumusi** |
-| Solanum | Esi battle-magic + Haibram glider (formula owed); practical Umbo / Mariama spotlight | **Lesedi** (Ch 2+) |
-| Yggostrus | Repair Anchor trust through restraint and respectful action; no forced apology scene | Druid mentor cameo optional; **Koride** later |
-| Lithrei | Noxolo curiosity established; passenger flavor only if Umbo’s spores or ritual create pressure | **Noxolo** deepen (Uzunjati day) |
-| Taraan | Tunnel map and Chizire Alarm are live; ritual leadership fits his strengths | **Okoro**, **Izem** (Ch 2+) |
+| Anya | Caterpillar care landed; Cy’An’s wolf-fang gift pending — quiet belonging through Anchor without moral speech | **Tzeniwe** (Emerald mail day) |
+| Cy’An | MODU named; fey-ward ethics beat with Mariama; craft/food help without taking over | **Tzeniwe** (Emerald), deepen **Lumusi** |
+| Solanum | Umbo death grief; wants real healing magic (classes ahead); Haibram glider formula still owed | **Lesedi** (Ch 2+) |
+| Yggostrus | Anchor repair through action not words (apology scene done — don’t replay); skull bead; Koride on horizon | **Koride** deepen when ready |
+| Lithrei | Noxolo darkness reading + Koride named — deepen gently on Uzunjati day | **Noxolo** peer contact |
+| Taraan | Tunnel map continues (confusing network); Chizire Alarm live | **Okoro**, **Izem** (Ch 2+) |
 
 ## Sources
 
 - `reference/sot-extracts/kindled-magic.txt` (Ch 1 Service Projects)
 - `transcripts/strength-of-thousands/session-01/edited.json`
 - `transcripts/strength-of-thousands/session-02/edited.json`
+- `transcripts/strength-of-thousands/session-03/edited.json`
 - `lessons/0001-kindled-magic-gm-prep.html`, `0009-player-tie-ins-gm-prep.html`

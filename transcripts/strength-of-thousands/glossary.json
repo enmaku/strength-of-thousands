@@ -198,11 +198,10 @@
         "Teacher Ot",
         "Teacher Alt",
         "Oat",
-        "Ott",
-        "Up"
+        "Ott"
       ],
       "type": "npc",
-      "notes": "Cascade Bearer mentor; group interview; kind mathematician."
+      "notes": "Cascade Bearer mentor; group interview; kind mathematician. Do not add short synonym \"Up\" — corrupts common words (e.g. right side up)."
     },
     {
       "canonical": "Koride Ulawa",
@@ -256,7 +255,7 @@
         "Sion"
       ],
       "type": "pc",
-      "notes": "Kiri's PC; goblin inventor."
+      "notes": "Kiri's PC; goblin inventor. Short synonym \"Cy\" needs word-boundary matching — avoid corrupting \"decency\", \"fancy\", etc."
     },
     {
       "canonical": "Solanum Calabash",
@@ -409,7 +408,7 @@
         "book one"
       ],
       "type": "term",
-      "notes": "AP #169; levels 1\u20134; initiate to attendant."
+      "notes": "AP #169; levels 1–4; initiate to attendant."
     },
     {
       "canonical": "Strength of Thousands",
@@ -418,7 +417,7 @@
         "Strength of thousands"
       ],
       "type": "term",
-      "notes": "Pathfinder 2e Adventure Path #169\u2013174."
+      "notes": "Pathfinder 2e Adventure Path #169–174."
     },
     {
       "canonical": "Word and Way",
@@ -707,6 +706,195 @@
       ],
       "type": "term",
       "notes": "Session 3: Cascade ritual enchanting cold-iron bells to ward the storage barn against pugwampi (affects all fey)."
+    },
+    {
+      "canonical": "Ignaci Canterells",
+      "synonyms": [
+        "Ignatians",
+        "Ignatian",
+        "Ignasi"
+      ],
+      "type": "npc",
+      "notes": "Session 4: Emerald Bough cohort; mail-day briefing with Tzeniwe."
+    },
+    {
+      "canonical": "Tzeniwe",
+      "synonyms": [
+        "Senuai",
+        "Strands of glowing dawn",
+        "Strands-of-Glowing-Dawn",
+        "Strands of Glowing Dawn"
+      ],
+      "type": "npc",
+      "notes": "Session 4: Emerald Bough anadi; elephant-bird mail run; overpacked supplies and ginger-beer close."
+    },
+    {
+      "canonical": "Chinasa",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 easy mail: tailor excited for niece's wedding; gold embroidery."
+    },
+    {
+      "canonical": "Ige",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 easy mail: rehabilitates injured jungle birds."
+    },
+    {
+      "canonical": "Musubu",
+      "synonyms": [
+        "Musumu"
+      ],
+      "type": "npc",
+      "notes": "Session 4 easy mail: puppy rescued from a tree."
+    },
+    {
+      "canonical": "Jatau",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 easy mail: cook with too much jam."
+    },
+    {
+      "canonical": "Ndidi",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 lamp dispute: true recipient of Mauxi stained-glass lamp."
+    },
+    {
+      "canonical": "Jatia",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 lamp dispute: neighbor who kept wrong-house lamp."
+    },
+    {
+      "canonical": "Mauxi stained-glass lamp",
+      "synonyms": [
+        "Mauxi lamp",
+        "Timu lamp",
+        "stained glass lamp",
+        "lovely stained glass lamp"
+      ],
+      "type": "term",
+      "notes": "Session 4 hard mail: expensive lamp delivered to wrong house."
+    },
+    {
+      "canonical": "Chukwu",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 hard parcel: lives up the road from the creek."
+    },
+    {
+      "canonical": "Mubasu",
+      "synonyms": [
+        "Mubusu"
+      ],
+      "type": "npc",
+      "notes": "Session 4 hard parcel: long rant address; menagerie yard."
+    },
+    {
+      "canonical": "Bassey",
+      "synonyms": [
+        "Bassey the Ink Cellar",
+        "Bassey the ink-seller",
+        "Ink Cellar"
+      ],
+      "type": "npc",
+      "notes": "Session 4 unclear-address delivery after Decipher Writing."
+    },
+    {
+      "canonical": "Adanna",
+      "synonyms": [
+        "Adana",
+        "Adanna of the Red Bridge kiln"
+      ],
+      "type": "npc",
+      "notes": "Session 4 fill-in hard parcel: potter at red-brick kiln."
+    },
+    {
+      "canonical": "Ekwueme",
+      "synonyms": [
+        "Old Ekwueme"
+      ],
+      "type": "npc",
+      "notes": "Session 4 fill-in hard parcel: stilt house past ferry poles."
+    },
+    {
+      "canonical": "elephant bird",
+      "synonyms": [
+        "elephant birds",
+        "elephant-bird"
+      ],
+      "type": "creature",
+      "notes": "Session 4 Emerald mail mounts; Large docile birds with reins."
+    },
+    {
+      "canonical": "Nneka",
+      "synonyms": [
+        "Neneca"
+      ],
+      "type": "npc",
+      "notes": "Session 4 unclear-address delivery; pregnant letter recipient in a small rundown apartment."
+    },
+    {
+      "canonical": "Mazludeh",
+      "synonyms": [
+        "Maslode",
+        "Maslode temple",
+        "Masludeh",
+        "Musliday"
+      ],
+      "type": "deity",
+      "notes": "Session 4 deity (Empyreal Lord); temple egg-and-snake prayer ritual."
+    },
+    {
+      "canonical": "Tunde",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 4 unclear-address delivery; Broken Shutters."
+    },
+    {
+      "canonical": "Broken Shutters",
+      "synonyms": [
+        "the Broken Shutters"
+      ],
+      "type": "place",
+      "notes": "Session 4 address landmark for Tunde's delivery."
+    },
+    {
+      "canonical": "Gozreh",
+      "synonyms": [
+        "Gazre",
+        "god of wind and storms"
+      ],
+      "type": "npc",
+      "notes": "Session 4 easy mail: kite letter delivery; shrine at Mubasu's yard; Sister Folami at Temple of Gozreh."
+    },
+    {
+      "canonical": "Sister Folami",
+      "synonyms": [
+        "Folami"
+      ],
+      "type": "npc",
+      "notes": "Session 4 hard mail: Temple of Gozreh laundress."
+    },
+    {
+      "canonical": "Kofi Two-Hats",
+      "synonyms": [
+        "Kofi",
+        "Kofi Two Hats",
+        "Two Hats"
+      ],
+      "type": "npc",
+      "notes": "Session 4 hard mail: illegible-address recipient; \"For balance.\""
+    },
+    {
+      "canonical": "Mazludeh priest",
+      "synonyms": [
+        "Temple cleric",
+        "Mazludeh priests"
+      ],
+      "type": "npc",
+      "notes": "Session 4 Mazludeh temple cleric(s); egg-to-snake prayer ritual."
     }
   ],
   "flagOnly": []

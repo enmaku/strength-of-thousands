@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 4 Prep — Strength of Thousands</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #6f7068;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner, main, nav.toc, footer { max-width: 48rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    nav.toc {
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a, a { color: var(--green); }
+    main { padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      color: var(--green);
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { color: var(--red-earth); font-size: 1.08rem; margin: 1.5rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.91rem; margin: 1rem 0; }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font: 700 0.76rem var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .callout, .spoiler-box {
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.97rem;
+    }
+    .callout { background: var(--green-soft); border-left: 4px solid var(--green); }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); }
+    .spoiler-box strong { color: var(--red-earth); }
+    .tag {
+      display: inline-block;
+      font: 700 0.64rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.stretch { background: #efe2ef; color: #5a2a5a; }
+    .tag.cut { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .quiz h2 { margin-top: 0; }
+    .quiz button {
+      font: 0.83rem var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: 0;
+      padding: 0.48rem 0.85rem;
+      margin: 0.3rem 0.3rem 0.3rem 0;
+      cursor: pointer;
+    }
+    .feedback { min-height: 1.4em; margin: 0.5rem 0 1.25rem; font-weight: 600; }
+    .feedback.correct { color: var(--correct); }
+    .feedback.wrong { color: var(--wrong); }
+    .cite { color: var(--muted); font-size: 0.8rem; }
+    .nav-lessons { font: 0.85rem var(--sans); }
+    footer {
+      padding: 1.5rem 1.5rem 3rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font: 0.83rem var(--sans);
+    }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      table { display: block; overflow-x: auto; }
+    }
+    @media print {
+      nav.toc, .quiz button { display: none; }
+      body { background: #fff; font-size: 10.5pt; }
+      header { padding: 1rem; }
+      main { padding-bottom: 1rem; }
+      h2 { break-after: avoid; }
+      table, .callout, .spoiler-box { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 4 · Book 1 Ch 1</p>
+    <h1>Session 4 Prep</h1>
+    <p>Run Emerald Boughs cold: elephant birds, city mail, and Tzeniwe. Uzunjati storytelling is the stretch.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#left-off">Left off</a>
+  <a href="#pace">Pace</a>
+  <a href="#open">Open cold</a>
+  <a href="#mail">Mail day</a>
+  <a href="#faces">City faces</a>
+  <a href="#hard">Hard deliveries</a>
+  <a href="#stretch">Stretch</a>
+  <a href="#threads">Live threads</a>
+  <a href="#npcs">NPCs</a>
+  <a href="#stories">PC moves</a>
+  <a href="#risks">Risks</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<main>
+  <p class="nav-lessons">
+    <a href="../reference/sot-session-log.md">Session log</a> ·
+    <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+    <a href="0009-player-tie-ins-gm-prep.html">Player tie-ins</a> ·
+    <a href="../reference/sot-campus-npcs.html">Campus NPCs</a> ·
+    <a href="../reference/sot-nantambu.html">Nantambu</a>
+  </p>
+
+  <section id="left-off">
+    <h2>Where Session 3 left you</h2>
+    <p><span class="tag canon">Table canon</span> Start the <strong>morning after Cascade day</strong>. Ritual succeeded; Mariama’s ward hits <em>any</em> fey. Party plans to tell Teacher Ot.</p>
+    <ul>
+      <li><strong>Cascade complete:</strong> three oils crafted (group Aid), fey-abeyance on cold-iron bells succeeded (Yggostrus Nature primary). Chizire slept through the whole task.</li>
+      <li><strong>Umbo dead:</strong> first PF2e combat. Purple pox cured at campus first aid. Skull-shaped Perquisite bead on Yggostrus’s bracelet. Wolf fang kept by Cy’An for Anya. Solanum distressed about myceloid death.</li>
+      <li><strong>Anchor Root:</strong> personal forgiveness for Yggostrus (“we’re fine”) but collective apology not accepted — repair through action (“pick up a shovel”). Lithrei’s caterpillar-plant gift → Rain-Scribe classroom advantage.</li>
+      <li><strong>Mariama</strong> revealed as Spire Dorm resident; ethics beat on the ward is live.</li>
+      <li><strong>Lithrei</strong> Occultism on Noxolo (ambient darkness); <strong>Koride Ulawa</strong> named as Rain-Scribe teacher.</li>
+      <li><strong>Taraan</strong> still mapping tunnels (confusing network). Open loops: Ot follow-up on fey ward, Haibram’s glider formula, handwraps ownership, Uduak room curiosity.</li>
+    </ul>
+    <p class="cite">Table truth: <a href="../transcripts/strength-of-thousands/session-03/edited.json">Session 3 edited transcript</a>. Bookmark: <a href="../reference/sot-session-log.md">session log</a>. Pace note: <a href="../learning-records/0006-session-3-cascade-combat-pace.md">0006</a>.</p>
+  </section>
+
+  <section id="pace">
+    <h2>Pace estimate</h2>
+    <table>
+      <thead><tr><th>Band</th><th>Plan</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Expected</strong></td><td><strong>Emerald mail only:</strong> Ignaci + Tzeniwe briefing → elephant birds → easy color deliveries → hard mail sandbox → ginger-beer close.</td></tr>
+        <tr><td><span class="tag stretch">Stretch</span></td><td>If mail wraps with ≥45 minutes left, open the next morning with Okoro + Noxolo: tell the week’s story + moral. Stop after the moral (or mid-story if time dies).</td></tr>
+        <tr><td><span class="tag cut">Cut early</span></td><td>If hard mail + city RP run long, end on Tzeniwe’s ginger beer. Incomplete deliveries are fine — book awards XP per hard letter resolved.</td></tr>
+        <tr><td><span class="tag cut">Do not bank on</span></td><td>Introduction Ceremony (Severe 1: Kurshkin + Havvix). That is Session 5 climax territory.</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <strong>Session thesis:</strong> camaraderie is service that leaves campus — Magaambya earns trust by showing up for ordinary people, not by flashy magic. Tonight the cohort rides elephant birds through rain to deliver mail, listens to strangers’ lives, and chooses whether to settle a neighborhood quarrel without becoming the academy’s bullies; then Tzeniwe offers ginger beer and care they did not earn by productivity alone.
+      <p style="margin:0.65rem 0 0;font-size:0.92rem">Who needs it most tonight: <strong>Cy’An</strong> (Tzeniwe is the peer over-provider — let them receive snacks/tea without “fixing” her), <strong>Anya</strong> (belonging as pack/family texture with Tzeniwe and the twins, light not a speech), <strong>Lithrei</strong> (if stretch: ordinary peer contact with Noxolo — curiosity without replaying Session 2 shame). Emerald’s branch question from the thematic guide: <em>Who outside Magaambya needs to trust us?</em></p>
+    </div>
+  </section>
+
+  <section id="open">
+    <h2>Open cold — Emerald briefing</h2>
+    <p>Usual meeting place, morning after Cascade. <strong>Ignaci Canterells</strong> and <strong>Strands-of-Glowing-Dawn Tzeniwe</strong> wait with a basket of mail and silk sacks of overpacked supplies.</p>
+    <ol>
+      <li>Ignaci compliments any particularly well-dressed or good-looking heroes (at this table, that lands cleanest on <strong>Lithrei</strong>), then frames Emerald Boughs: study of communities and the present day — not “spies,” despite the rumor.</li>
+      <li>Task: deliver the mail. “Not flashy, but vitally important.” Listening to recipients is part of the work.</li>
+      <li>Tzeniwe: many stops are outside Nantambu → she rented <strong>elephant birds</strong> (one Large docile mount per PC; reins, no check).</li>
+      <li>She unpacks snacks, coffee, umbrellas, towels, socks, muscle balm — then finds Zanvi’s web-covered toy elephant. Embarrassed mom beat; do not turn it into anadi lecture.</li>
+      <li>Basket: <strong>two dozen</strong> letters and parcels, jumbled. Sorting and delivering is the day — for as long as it takes.</li>
+    </ol>
+    <div class="spoiler-box">
+      <strong>Anadi continuity (player-facing)</strong>
+      <p>Tzeniwe’s portrait and presentation are <em>human form</em>. Twins Zachva &amp; Zanvi shift freely. If spider stigma comes up, she is more forgiving of discomfort than her friends think she should be — do not punish PCs for surprise; reward courtesy. Hybrid-form newcomers (Goss/Mazta/Savana) are still chapters away.</p>
+    </div>
+    <p class="cite">Published scene: <code>reference/sot-extracts/kindled-magic.txt</code>, Emerald Boughs Assignment, printed pp. 24–26. City texture: <a href="../reference/sot-nantambu.html">sot-nantambu.html</a>.</p>
+  </section>
+
+  <section id="mail">
+    <h2>Easy mail — two hours of city color</h2>
+    <p>Most letters have clear addresses in or near Nantambu. Recipients are happy to talk. Play each as a <strong>90-second vignette</strong>, not a skill gate — then move on. Dinner-hour drops sometimes get free meals; rainy season makes Tzeniwe’s towels diegetic, not fluff.</p>
+    <p>Named easy faces + hard-mail stand-ins: <a href="#faces">City faces</a>.</p>
+  </section>
+
+  <section id="faces">
+    <h2>City faces — throwaway RP cards</h2>
+    <p>One-time NPCs still need a voice. Column <strong>Delivery</strong> is what the stop is about (book fact first); voice/beat is how to play the doorstep. Steal a mannerism, land one beat, exit. Do not invent side quests.</p>
+
+    <h3>Easy deliveries (book-named)</h3>
+    <table>
+      <thead><tr><th>NPC</th><th>Delivery</th><th>Voice / look</th><th>Play the beat</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Chinasa</strong></td>
+          <td>Clear-address letter. She’s excited for her <strong>niece’s wedding</strong> and plans to sew the bride a <strong>gold-embroidered dress</strong>.</td>
+          <td>Middle-aged tailor; gold thread on her lap; talks over the rain.</td>
+          <td>Snatches the letter, shows embroidery, asks which vine pattern looks more expensive. Soft hook for <strong>Lithrei</strong> — no sewing montage.</td>
+        </tr>
+        <tr>
+          <td><strong>Ige</strong></td>
+          <td>Clear-address letter. She <strong>rehabilitates injured jungle birds</strong> and releases them when ready.</td>
+          <td>Quiet, raincloak, bird-lime under nails; splinted hornbill in a covered cage.</td>
+          <td>Thanks them softly and talks about the work. Keep it to talk — no release scene.</td>
+        </tr>
+        <tr>
+          <td><strong>Musubu</strong></td>
+          <td>Clear-address letter. He introduces his <strong>newest puppy</strong>, found <strong>stuck up a tree</strong>.</td>
+          <td>Big laugh, muddy knees; puppy on a rope who still climbs chair legs.</td>
+          <td>Retells the tree rescue with gestures. Optional: one-block leash handoff, then reclaim it.</td>
+        </tr>
+        <tr>
+          <td><strong>Jatau</strong></td>
+          <td>Clear-address letter. He offers a <strong>jar of jam</strong> because he made too much.</td>
+          <td>Proud cook; sticky fingers; too many jars, same handwriting.</td>
+          <td>Forces the jar on them. If they refuse, wounded look, then shrug. Soft Cy’An beat: accept without turning it into a kitchen project.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="cite">Easy bundle ≈ 2 hours total. Dinner-hour drops may add free meals.</p>
+
+    <h3>Delivery devilry (1 letter)</h3>
+    <p><strong>What’s in the basket:</strong> a letter addressed to “Magaambyan Parcel Deliverers.” An angry grandmother writes that prior initiates left a parcel on the <strong>correct street, wrong house</strong>. Object: expensive <strong>Mauxi stained-glass lamp</strong>. Intended for <strong>Ndidi</strong>; currently kept by neighbor <strong>Jatia</strong>, who claims Magaambya gifted it. Neighborhood already gossiping.</p>
+    <table>
+      <thead><tr><th>NPC</th><th>Role in the delivery</th><th>Voice / look</th><th>Play the beat</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Angry grandmother</strong><br><span class="tag">letter only</span></td>
+          <td>Wrote the complaint; never on stage. Her letter is why the PCs know about the mistake.</td>
+          <td>Furious handwriting; ink blots like stomps.</td>
+          <td>Read one venomous line aloud. Emerald thesis in a sentence: if Magaambya can’t deliver a lamp, why trust its magic?</td>
+        </tr>
+        <tr>
+          <td><strong>Ndidi</strong></td>
+          <td>True recipient. Wants the lamp back (grandmother’s blessing / family gift).</td>
+          <td>Young adult, tired eyes, arms crossed; has rehearsed this all week.</td>
+          <td>Wants the lamp, not a fight — escalates if PCs side with Jatia. Listening reward: she names the prior cohort as “the ones who smiled and left.”</td>
+        </tr>
+        <tr>
+          <td><strong>Jatia</strong></td>
+          <td>Wrong-house keeper. Won’t give it up; no shame. Stats: barkeep if needed.</td>
+          <td>Older neighbor; lamp already lit in her window.</td>
+          <td>Treats it as a gift. Diplomacy fairness DC 26; Deception Lie DC 18; Intimidation Coerce DC 16 (neighbor backlash angers Ignaci/Tzeniwe); Stealth steal DC 16 (crit fail = legal trouble, mail day ends).</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Descriptive parcels (4) — book seeds + fill-ins</h3>
+    <p><strong>What’s hard:</strong> rural parcels with landmark-style addresses instead of streets. Resolve with Survival DC 15 or Gather Info Diplomacy DC 18 (no retry for that hero). Book samples two addresses; fill the other two the same way. Book does not name parcel contents — keep contents trivial so the address is the joke.</p>
+    <table>
+      <thead><tr><th>Recipient</th><th>Delivery (address / contents)</th><th>Voice / look</th><th>Play the beat</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Chukwu</strong></td>
+          <td><strong>Address (book):</strong> “Chukwu who lives up the road from the creek.” <strong>Contents (fill):</strong> fishhooks or oilcloth — whatever fits a creek-side house.</td>
+          <td>Lean fisher; mends nets under a lean-to; creek audible.</td>
+          <td>Points at the creek like everyone should know it. Weighs the parcel, nods once; smoked fish if near dinner.</td>
+        </tr>
+        <tr>
+          <td><strong>Mubasu</strong></td>
+          <td><strong>Address (book):</strong> long rant — mother’s Inyene from Abwele, grew up Ejosa, lives with in-laws, many children, seven dogs, ostrich, four cats, broken Gozreh wave-shrine that looks like a lump. <strong>Contents (fill):</strong> family package / aunt’s goods.</td>
+          <td>Exhausted parent; yard is a menagerie; shrine really looks like a lump.</td>
+          <td>Kids cling to elephant-bird stirrups. Apologizes for the address (“My aunt writes like that”). Optional 10-second sock-steal by a dog — then end.</td>
+        </tr>
+        <tr>
+          <td><strong>Adanna of the Red Bridge kiln</strong><br><span class="tag">fill-in</span></td>
+          <td><strong>Address (fill):</strong> “Adanna at the red-brick kiln past the second canal bridge, where the clay smells like wet iron.” <strong>Contents (fill):</strong> glaze samples or kiln tools.</td>
+          <td>Potter; clay to the elbows; bridge bricks drying under tarps.</td>
+          <td>Tests a glaze against rainwater while talking — “Canal work never ends.”</td>
+        </tr>
+        <tr>
+          <td><strong>Old Ekwueme</strong><br><span class="tag">fill-in</span></td>
+          <td><strong>Address (fill):</strong> “Ekwueme in the stilt house past the ferry poles, third from the mangroves.” <strong>Contents (fill):</strong> letter from a grandchild at sea.</td>
+          <td>Retired boat-poler; stilts; complains about young people’s canals.</td>
+          <td>Finds spectacles, weeps once, laughs once, waves them into the rain.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Unclear addresses (5) — after Decipher / Gather Info</h3>
+    <p><strong>What’s hard:</strong> five letters with <strong>illegible handwriting</strong>. Resolve each with Society DC 18 Decipher Writing (trained) or Diplomacy DC 15 Gather Information (no retry for that hero). Book does not name recipients — cards below are doorstep fill-ins once the check succeeds. Each is just “deliver this letter to X.”</p>
+    <div class="callout">
+      <strong>Taraan lane:</strong> Society trained + Int 18 makes him the natural Decipher Writing lead (+6 before item/status). Spotlight the Inscribed One / flowing-script familiar for <em>flavor</em> while he studies the page — but <strong>Familiar of Flowing Script</strong> is a combat flanking trick on Cast/Sustain hex, and <strong>Discern Secrets</strong> only boosts Recall Knowledge / Seek / Sense Motive, not Decipher Writing. Don’t invent a free success; do let him own the attempt.
+    </div>
+    <table>
+      <thead><tr><th>#</th><th>Recipient</th><th>Delivery</th><th>Voice / look</th><th>Play the beat</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><strong>Bassey the ink-seller</strong></td>
+          <td>Letter to Bassey; his own writing may have been the problem.</td>
+          <td>Smudged apron; squints at the envelope.</td>
+          <td>Mortified: “I wrote that?” Cheap charcoal stick as apology.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><strong>Sister Folami</strong></td>
+          <td>Letter to Folami (cousin news / family note).</td>
+          <td>Temple laundress; steam and soap; sings while she works.</td>
+          <td>Blesses elephant birds “against slick mud,” then shoos them before rain soaks clean linen.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><strong>Kofi Two-Hats</strong></td>
+          <td>Letter to Kofi (gossip-worthy personal news).</td>
+          <td>Two hats in the rain “for balance”; market fixture.</td>
+          <td>Opens it immediately and narrates to bystanders. Exit when he starts a third story.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><strong>Nneka</strong></td>
+          <td>Letter confirming medicine money / family support.</td>
+          <td>Pregnant, barefoot on a covered porch; sharp and kind.</td>
+          <td>Offers leftover pepper stew — good dinner-hour free-meal beat.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><strong>Tunde of the broken shutters</strong></td>
+          <td>Letter to Tunde (work / family; nothing plot-critical).</td>
+          <td>Carpenter; one shutter hangs; nails in his teeth.</td>
+          <td>Grunts thanks. One line only if it rhymes with Anchor repair — no sermon.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Deific missives (3) — what’s in each letter</h3>
+    <p>Three letters are addressed to gods and include delivery instructions. Helpers below are optional faces while resolving them.</p>
+    <table>
+      <thead><tr><th>Missive</th><th>Delivery instructions (book)</th><th>Helper face</th><th>Voice / beat</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Gozreh</strong></td>
+          <td>Attach letter to a <strong>kite</strong>, fly it high, cut free. Buy kite 1 sp or Craft DC 14. Rain: Athletics or Sleight of Hand DC 17; crit fail destroys the kite.</td>
+          <td><strong>Ama</strong> (kite stall); optional river-worker writer</td>
+          <td>Ama under leaky awning: “Rain hates kites.” Cheers success / theatrical wail on destruction. Writer (if used): windburned, wants a calm week.</td>
+        </tr>
+        <tr>
+          <td><strong>Nethys</strong></td>
+          <td>Cast <strong>five different spells</strong> on the letter in the <strong>same round</strong>. Destruction expected and fine.</td>
+          <td>Optional amateur arcanist writer</td>
+          <td>Ink on teeth; claps when it burns. Suggests cantrips if the party stalls.</td>
+        </tr>
+        <tr>
+          <td><strong>Mazludeh</strong></td>
+          <td>Transcribe enclosed prayer (new canal wall strong/reliable) onto an <strong>egg</strong>, feed to a <strong>snake</strong>. Refusal = bad omen. Shrine has eggs + snakes (not hungry after recent community prayers). Nature DC 15 willing snake; Thievery DC 19 slip egg (crit fail = ejected); jungle Survival DC 23 for a hungrier snake.</td>
+          <td><strong>Mazludeh priests</strong></td>
+          <td>Friendly, practical, tired from canal-blessing rush. Stewardship theater, not a trick. Name a willing snake (“Old Coil”) on Nature success.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <strong>Improv rule:</strong> each throwaway gets <em>one</em> want, <em>one</em> sensory detail, and an exit. If a PC latches on, promise a Book 2 callback (“they’ll remember your face”) and keep the mail clock moving.
+    </div>
+  </section>
+
+  <section id="hard">
+    <h2>Hard deliveries — thirteen problems</h2>
+    <p>Book: no retries on a failed check for that hero — another PC can try. Track time so the day feels long without becoming a spreadsheet. For who answers the door, use <a href="#faces">City faces</a>.</p>
+    <table>
+      <thead><tr><th>Bundle</th><th>Count</th><th>How to resolve</th><th>Time</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Unclear directions</strong></td>
+          <td>5</td>
+          <td>DC 18 Society (Decipher Writing, trained) <em>or</em> DC 15 Diplomacy Gather Information. Fail = that letter’s address eludes that hero.</td>
+          <td>30 min each</td>
+        </tr>
+        <tr>
+          <td><strong>Descriptive addresses</strong></td>
+          <td>4</td>
+          <td>Rural landmarks: DC 15 Survival, or Gather Info DC 18 Diplomacy. Same no-retry rule.</td>
+          <td>1 hour each</td>
+        </tr>
+        <tr>
+          <td><strong>Delivery devilry</strong></td>
+          <td>1</td>
+          <td>Letter to “Magaambyan Parcel Deliverers”: initiates misdelivered a Mauxi stained-glass lamp. <strong>Ndidi</strong> wants it back; <strong>Jatia</strong> keeps it as Magaambya gift. See below.</td>
+          <td>~1 hour+</td>
+        </tr>
+        <tr>
+          <td><strong>Deific missives</strong></td>
+          <td>3</td>
+          <td>Letters to gods with delivery instructions (Gozreh kite, Nethys five spells same round, Mazludeh egg-to-snake). See below.</td>
+          <td>~1 hour each</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Delivery devilry — do not be the academy’s thugs</h3>
+    <ul>
+      <li>Tzeniwe (if asked): fixing postal mistakes is part of today’s duty.</li>
+      <li>Correct street, wrong house. Neighborhood gossip already hot.</li>
+      <li><strong>Diplomacy</strong> to fairness: DC <strong>26</strong> (Jatia feels no shame).</li>
+      <li><strong>Deception</strong> Lie DC 18 (e.g. lamp cursed) works.</li>
+      <li><strong>Intimidation</strong> Coerce DC 16 works — but neighbors complain; backlash <strong>infuriates Ignaci and Tzeniwe</strong> and hurts befriending them.</li>
+      <li>Steal: Stealth DC 16. Fail = flee empty-handed; crit fail = legal trouble for the rest of the day (Ignaci shrugs; Tzeniwe angry; <strong>no more deliveries</strong>).</li>
+      <li>Unresolved: Ignaci/Tzeniwe disappointed, not mad.</li>
+    </ul>
+
+    <h3>Deific missives — playful, not puzzle hell</h3>
+    <table>
+      <thead><tr><th>God</th><th>Instructions</th><th>Checks / notes</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Gozreh</strong></td>
+          <td>Attach to kite, fly high, cut free.</td>
+          <td>Buy kite 1 sp or Craft DC 14. Rain: Athletics or Sleight of Hand DC 17 to launch. Crit fail destroys the kite dramatically.</td>
+        </tr>
+        <tr>
+          <td><strong>Nethys</strong></td>
+          <td>Five different spells on the letter in the same round.</td>
+          <td>Destruction expected. Let casters and cantrips collaborate; don’t invent a “correct” five.</td>
+        </tr>
+        <tr>
+          <td><strong>Mazludeh</strong></td>
+          <td>Transcribe message onto an egg; feed to a snake.</td>
+          <td>Shrine has eggs + snakes (not hungry). Nature DC 15 for a willing snake; Thievery DC 19 to slip egg (crit fail = ejected); jungle Survival DC 23 for a hungrier snake.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      <strong>Close the day:</strong> when they’ve delivered all they can, Tzeniwe offers hot ginger beer against the rain; Ignaci thanks them and points them to tomorrow’s meeting for the next assignment. XP: 10 per unclear/descriptive (max 90); 30 for lamp; 30 per deity letter (max 120 for those).
+    </div>
+    <p class="cite">Rules: <code>kindled-magic.txt</code>, Neither Rain Nor Heat… through XP Award, printed pp. 24–26.</p>
+  </section>
+
+  <section id="stretch">
+    <h2>Stretch — Uzunjati story day</h2>
+    <p><span class="tag stretch">Only with time</span> Next morning: <strong>Okoro Obiyo</strong> (enthusiastic wave) and <strong>Noxolo</strong> (dashiki, finger-snaps, pet “snabble” — crocodile/bear cub mash — at her ankles).</p>
+    <ul>
+      <li>They want a <em>story</em> of the week, not a checklist. Solo tales or collaborative.</li>
+      <li>Optional DC 15 Performance — or skip the check if the table is engaged. Other skills OK.</li>
+      <li>If more than half fail / refuse to take it seriously → cohort looks like fools; friendship with Noxolo (and somewhat Okoro) cools.</li>
+      <li><strong>Noxolo’s follow-up:</strong> what is the moral? Assignment incomplete without one.</li>
+      <li>After: free afternoon; Noxolo cues Teacher Ot at dawn tomorrow for Introduction Ceremony; wear beaded bracelets; dress nicely.</li>
+    </ul>
+    <div class="spoiler-box">
+      <strong>Noxolo handling</strong>
+      <p>Do not replay Session 2’s feather-test breakdown. Lithrei’s darkness reading already happened — deepen with ordinary peer warmth (fashion, dancing, listening), not another occult probe. If Uzunjati doesn’t open tonight, this scene waits for Session 5.</p>
+    </div>
+    <p class="cite">Uzunjati Assignment: <code>kindled-magic.txt</code>, printed pp. 26–27. Ceremony itself: pp. 27+ — <span class="tag cut">not tonight</span>.</p>
+  </section>
+
+  <section id="threads">
+    <h2>Live threads — acknowledge, do not detour</h2>
+    <table>
+      <thead><tr><th>Thread</th><th>Session 4 handling</th></tr></thead>
+      <tbody>
+        <tr><td>Tell Ot about fey ward</td><td>If they seek him before mail, give 2–3 minutes: he listens, files concern, does not derail Emerald. Full ceremony beat later.</td></tr>
+        <tr><td>Tunnel map / card room</td><td>Still confusing. No new event unless Alarm trips. Not a dungeon night.</td></tr>
+        <tr><td>Uduak / Stone Ghost</td><td>No new revelation. Records end at expulsion.</td></tr>
+        <tr><td>Wolf fang → Anya</td><td>Quiet gift beat if Cy’An wants it during downtime between deliveries — don’t schedule a ceremony.</td></tr>
+        <tr><td>Haibram glider formula</td><td>Only if Solanum seeks him; no crafting montage.</td></tr>
+        <tr><td>Koride Ulawa</td><td>Named only. Do not debut faculty Mid-mail-run.</td></tr>
+        <tr><td>Handwraps / Chizire mold / catfolk book</td><td>Optional dorm color after ginger beer if energy remains — not instead of hard mail.</td></tr>
+        <tr><td>Kurshkin / ceremony</td><td>GM-only: ward + barn clear already look like a purge to her. Do not foreshadow the ambush in player-facing terms tonight.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="npcs">
+    <h2>NPC relationships tonight</h2>
+    <table>
+      <thead><tr><th>NPC</th><th>Play</th><th>Relationship move</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Tzeniwe</strong></td>
+          <td>Debut. Human-form anadi; stress-baker; overpacker; mom to Zachva &amp; Zanvi. Generous, shy, forgiving of spider fright.</td>
+          <td><strong>Cy’An primary hitch:</strong> kitchen ↔ kitchen mirror. Let her feed them (snacks, ginger beer). <strong>Anya light:</strong> pack/family warmth without stealing Cy’An’s lane. Intimidation/theft on Jatia damages her friendship.</td>
+        </tr>
+        <tr>
+          <td><strong>Ignaci</strong></td>
+          <td>Debut. Charming, fashionable, paranoid under the polish (“trust no one”). Light cynicism can rhyme with Yggostrus without becoming a lecture.</td>
+          <td>Compliment <strong>Lithrei’s</strong> look if anyone’s; shrug at legal mess; still disappointed if lamp unresolved. Do not dump Cryptic Circle lore yet.</td>
+        </tr>
+        <tr>
+          <td><strong>Okoro / Noxolo</strong></td>
+          <td>Stretch only.</td>
+          <td>Okoro → Taraan social glue later. Noxolo → Lithrei ordinary peer contact. Moral question is the thematic landing.</td>
+        </tr>
+        <tr>
+          <td><strong>City recipients</strong></td>
+          <td>See <a href="#faces">City faces</a> — one want, one sensory detail, exit.</td>
+          <td>One memorable face each — Book 2 city service will echo “people who remember you.”</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="stories">
+    <h2>Player story moves — one each at most</h2>
+    <table>
+      <thead><tr><th>PC</th><th>Available move</th><th>Not yet</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Anya</strong></td><td>Quiet belonging with Tzeniwe/twins or animal-adjacent city beats (Ige’s birds, Musubu’s puppy). Receive Cy’An’s wolf fang if offered.</td><td>Eidolon-origin reveal; Koride diagnosis.</td></tr>
+        <tr><td><strong>Cy’An</strong></td><td>Receive Tzeniwe’s care without converting it into a job. Craft/food help on kite or snacks only if asked — growth is not running the postal service.</td><td>Repeat Ot’s “tests do not eat”; force Lumusi empty-shift tonight.</td></tr>
+        <tr><td><strong>Solanum</strong></td><td>City sky/weather texture; healing hunger stays a want, not a class scene. Haibram only if she seeks him.</td><td>Lesedi; red-star answers; scheduled glider crafting.</td></tr>
+        <tr><td><strong>Yggostrus</strong></td><td>Ignaci’s cynicism as peer texture; Society/Decipher lane on illegible addresses. Anchor repair = later shovel, not tonight’s monologue.</td><td>Replay apology; Koride debut.</td></tr>
+        <tr><td><strong>Lithrei</strong></td><td>Fashion lane with Ignaci/Chinasa (and Noxolo on stretch); listen to city stories. Peer warmth, not occult probe.</td><td>Identify passenger; fold Noxolo into haunt plot.</td></tr>
+        <tr><td><strong>Taraan</strong></td><td>Optimize delivery routing; Society/Decipher lane on illegible addresses (Int 18 — flowing-script familiar is flavor, not a free success). Okoro stretch = game-night friendship seed.</td><td>Ird reveal; tunnel dungeon; Izem.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="risks">
+    <h2>Table risks and GM moves</h2>
+    <ul>
+      <li><strong>Sandbox sprawl:</strong> thirteen hard items can eat three hours. Batch easy color, then let the table pick which hard bundles to chase. Incomplete is OK.</li>
+      <li><strong>Intimidation shortcut:</strong> telegraph that bullying Jatia makes Ignaci/Tzeniwe cold — Magaambya face in the neighborhood matters.</li>
+      <li><strong>Steal / legal mess:</strong> crit fail ends the mail day. Have the consequence ready so you don’t soft-pedal.</li>
+      <li><strong>Anadi reveal urge:</strong> do not force spider-form education. Zanvi’s web toy is enough texture.</li>
+      <li><strong>Investigation detour:</strong> tunnels, Uduak, Koride wait. Emerald is the community day.</li>
+      <li><strong>Over-scheduling:</strong> Uzunjati + ceremony after a full mail sandbox is how relationship beats die. Under-schedule.</li>
+    </ul>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <h2>Self-check — ready for Session 4?</h2>
+
+    <h3>1. What is the expected scope?</h3>
+    <button onclick="check(this,'a')">A. Emerald mail on elephant birds</button>
+    <button onclick="check(this,'b')">B. Emerald through Introduction Ceremony</button>
+    <button onclick="check(this,'c')">C. Uzunjati story only</button>
+    <div class="feedback" data-answer="a"></div>
+
+    <h3>2. What makes Intimidation a bad lamp solution?</h3>
+    <button onclick="check(this,'a')">A. It cannot succeed against Jatia</button>
+    <button onclick="check(this,'b')">B. Neighbor backlash angers Ignaci and Tzeniwe</button>
+    <button onclick="check(this,'c')">C. It instantly summons Kurshkin</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>3. What is Emerald’s thematic pressure tonight?</h3>
+    <button onclick="check(this,'a')">A. Camaraderie as service that earns outside trust</button>
+    <button onclick="check(this,'b')">B. Imagination needs responsibility (Cascade thesis)</button>
+    <button onclick="check(this,'c')">C. Prove combat mastery before the ceremony</button>
+    <div class="feedback" data-answer="a"></div>
+
+    <h3>4. How should Cy’An meet Tzeniwe?</h3>
+    <button onclick="check(this,'a')">A. Take over packing and run her logistics</button>
+    <button onclick="check(this,'b')">B. Mirror provider-to-provider — practice receiving her care</button>
+    <button onclick="check(this,'c')">C. Avoid her so Lumusi stays primary</button>
+    <div class="feedback" data-answer="b"></div>
+  </section>
+
+  <section id="after">
+    <h2>After Session 4</h2>
+    <ol>
+      <li>Update <a href="../reference/sot-session-log.md">the session log</a>: deliveries resolved, Ignaci/Tzeniwe warmth, whether Uzunjati opened, relationship changes.</li>
+      <li>Note incomplete hard mail — Session 5 can finish leftovers only if the table cares; otherwise move on.</li>
+      <li>Draft Session 5 from actuals: likely Uzunjati (if unfinished) → Introduction Ceremony.</li>
+    </ol>
+    <p>Ask your teacher about anything unclear: mail timeboxing, Jatia’s DCs, Tzeniwe’s anadi presentation, or keeping Noxolo’s stretch gentle.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0012 · Session prep · grounded in Session 3 table canon and <em>Kindled Magic</em> Chapter 1.</p>
+  <p>Open: <code>open lessons/0012-session-4-prep.html</code></p>
+</footer>
+
+<script>
+function check(button, choice) {
+  let feedback = button.nextElementSibling;
+  while (feedback && !feedback.classList.contains('feedback')) {
+    feedback = feedback.nextElementSibling;
+  }
+  const answer = feedback.getAttribute('data-answer');
+  const correct = choice === answer;
+  feedback.textContent = correct ? 'Correct.' : 'Not quite — re-read the matching section above.';
+  feedback.className = 'feedback answered ' + (correct ? 'correct' : 'wrong');
+}
+</script>
+</body>
+</html>

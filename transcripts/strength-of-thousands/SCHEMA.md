@@ -64,6 +64,13 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 | `oils-gathering` | Session 3 — caterpillars, bones, finish ingredients |
 | `fey-abeyance` | Session 3 — process oils; fey-abeyance ritual on bells |
 | `aftermath` | Session 3 — Mariama ethics, dorm, Rain-Scribe downtime |
+| `morning-downtime` | Session 4 — bonding meal; Cy'An backstory; pre-mail morning |
+| `emerald-briefing` | Session 4 — Ignaci + Tzeniwe mail task; elephant birds |
+| `mail-sort` | Session 4 — sort basket; easy vs hard letters |
+| `easy-deliveries` | Session 4 — city vignettes (Chinasa, Ige, Musubu, Jatau) |
+| `lamp-dispute` | Session 4 — Mauxi lamp; Ndidi vs Jatia |
+| `hard-deliveries` | Session 4 — rural parcels, unclear addresses |
+| `mail-return` | Session 4 — ginger beer close |
 | `introduction-ceremony` | End of Ch 1; gremlin attack |
 | `campus-semester` | Classes, teacher missions, dorm life |
 | `first-masking` | Ch 2 ceremony; giant insect attack |
