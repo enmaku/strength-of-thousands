@@ -22,3 +22,6 @@ yarn-error.log*
 .env.local*
 
 reference/sot-extracts/*.txt
+
+.agents/
+skills-lock.json
