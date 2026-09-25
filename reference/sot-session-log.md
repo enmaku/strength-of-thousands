@@ -16,9 +16,9 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | **Book** | 1 — *Kindled Magic* |
 | **Chapter** | 1 — Orientation |
 | **Level** | 1 (level 2 after Introduction Ceremony) |
-| **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 3 |
-| **Last played** | Session 3 |
-| **Next prep** | Session 4 — `lessons/0012-session-4-prep.html` (Emerald mail → Uzunjati stretch) |
+| **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 4 (Emerald mail) |
+| **Last played** | Session 4 |
+| **Next prep** | Session 5 — Uzunjati story day → Introduction Ceremony |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -29,7 +29,7 @@ Book order (Esi’s plan). Tasks may be reordered at table, but NPCs and foresha
 | 1 | Rain-Scribes | Ojofiri chicks @ Kafesi (Esi + Haibram) | **Session 1** |
 | 2 | Tempest-Sun | Nonlethal pugwampi clear — storage barn (Esi alone); Uduak seed | **Session 2** |
 | 3 | Cascade Bearers | Three oils + fey-abeyance ritual (Mariama + Anchor Root + Chizire); Umbo | **Session 3** |
-| 4 | Emerald Boughs | Mail run on elephant birds (Ignaci + Tzeniwe) | — |
+| 4 | Emerald Boughs | Mail run on elephant birds (Ignaci + Tzeniwe) | **Session 4** |
 | 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | — |
 | 6 | — | **Introduction Ceremony** — Kurshkin + Havvix (Severe 1); **level 2** | — |
 
@@ -135,17 +135,47 @@ Then: rest day → **Meet the Teachers** → classes (Ch 2).
 | Noxolo | Lithrei | Darkness/spirits reading; peer contact still gentle — don’t replay Session 2 breakdown. |
 | Chizire | Brief kick attempt | Slept through entire task; oils done without him. |
 
+### Session 4
+
+**Covered**
+
+- Morning: Cy’An’s **Bonding Meal** with the cohort plus invited Spire peers (**Anchor Root**, **Esi**, **Chizire**, **Haibram**) — goblin-kitchen memory of mother Caron and thirteen siblings; table shared origin talk.
+- Perquisite day 4 — **Emerald Boughs**: **Ignaci Canterells** + **Strands-of-Glowing-Dawn Tzeniwe** briefing; elephant birds (Yggostrus absent — Matt out; bird-train note for later).
+- Easy / color deliveries: Chinasa (embroidery), Mubasu (dogs), Ige (bird rehab + fruit), Musubu (tree puppy — Charm Animal), Jatau (mango jam kitchen nerd with Cy’An).
+- God letters: Gozreh via Haibram kite (storm-zapped); Nethys vaporized at shrine; Mazludeh egg-fed to temple snake with **Anchor Root** help.
+- **Lamp dispute:** Ndidi vs Jatia over misdelivered Mauxi stained-glass lamp. Near-fail Diplomacy recovered; Lithrei’s “cursed lamp” bluff + Cy’An handover → Ndidi receives lamp.
+- Hard / unclear addresses cleared: Bassey (ink), Sister Folami (Gozreh laundress), Kofi Two-Hats (cabbages, not hats), Nneka (family support / pregnancy medicine news), Tunde with Broken Shutters, Chukwu (fishing kit + corrected address for Tzeniwe’s ledger), Adanna (kiln / clay nerd), Ekwueme (stilt house — laughs/cries reading letter).
+- Close: ginger-beer picnic; Zachva & Zanvi briefly shift to spider form mid-tag; Society checks — Taraan nat 20 knows Anadi true form; Solanum/Cy’An know rare spider-shifters; others fail.
+
+**Not covered (still ahead)**
+
+- Uzunjati story + moral (Okoro + Noxolo); Introduction Ceremony; Meet the Teachers; any Ch 2 Study.
+
+**Table pace note**
+
+- Full Emerald mail sandbox (morning bond + briefing + easy + lamp + hard + Anadi close) = one session. Uzunjati never opened. Matches Session 4 prep’s “expected = mail only.”
+
+**NPC relationship seeds planted**
+
+| NPC | Who connected | Note |
+|-----|---------------|------|
+| Tzeniwe | Whole cohort; Cy’An kitchen mirror; Anya animal/pack texture available | Debut. Overpacker mom; kids revealed as Anadi spiderlings at picnic. Warm close. |
+| Ignaci | Whole cohort; fashion aside to Cy’An’s stitching | Debut. Emerald framing; lamp not escalated to him mid-dispute. |
+| Haibram | Taraan (Gozreh kite) | Helped craft storm kite; still owes Solanum glider formula. |
+| Anchor Root | Taraan (Mazludeh snakes) | Came to temple; egg-snake expertise. |
+| City faces | Split party | Chinasa, Ige, Musubu, Jatau, Ndidi, Nneka, Kofi, etc. — Book 2 “people who remember you” seeds. |
+
 ## Pace model (revisable)
 
-Derived from Sessions 1–3 + book density:
+Derived from Sessions 1–4 + book density:
 
 | Session estimate | Likely content |
 |------------------|----------------|
-| **Session 4 (prep target)** | Emerald mail on elephant birds. Stretch: open Uzunjati story day. |
-| Session 5 (rough) | Uzunjati story → Introduction Ceremony. |
-| Session 6 (rough) | Ceremony (if not done) → Meet Teachers / Ch 2 on-ramp. |
+| Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
+| **Session 5 (prep target)** | Uzunjati story + moral (short) → **Introduction Ceremony** (Severe 1 climax). |
+| Session 6 (rough) | Ceremony leftovers if needed → Meet Teachers / Ch 2 on-ramp. |
 
-Revise this table after Session 4 actuals.
+Revise after Session 5 actuals.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -153,12 +183,12 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
-| Anya | Caterpillar care landed; Cy’An’s wolf-fang gift pending — quiet belonging through Anchor without moral speech | **Tzeniwe** (Emerald mail day) |
-| Cy’An | MODU named; fey-ward ethics beat with Mariama; craft/food help without taking over | **Tzeniwe** (Emerald), deepen **Lumusi** |
-| Solanum | Umbo death grief; wants real healing magic (classes ahead); Haibram glider formula still owed | **Lesedi** (Ch 2+) |
-| Yggostrus | Anchor repair through action not words (apology scene done — don’t replay); skull bead; Koride on horizon | **Koride** deepen when ready |
-| Lithrei | Noxolo darkness reading + Koride named — deepen gently on Uzunjati day | **Noxolo** peer contact |
-| Taraan | Tunnel map continues (confusing network); Chizire Alarm live | **Okoro**, **Izem** (Ch 2+) |
+| Anya | Quiet belonging with Tzeniwe/twins still thin; Cy’An’s wolf-fang gift pending | Deepen **Tzeniwe**; eidolon origin later |
+| Cy’An | Bonding Meal landed; received Tzeniwe care / jam peer texture | Deepen **Lumusi**; don’t re-run provider takeover |
+| Solanum | Haibram kite assist (not her formula); healing hunger; Umbo grief | **Lesedi** (Ch 2+); collect glider formula |
+| Yggostrus | **Absent Session 4** — pick which bird-train events he witnessed; Anchor shovel-repair still open | **Koride** deepen when ready |
+| Lithrei | Lamp occult bluff landed; Noxolo peer contact still pending | **Noxolo** ordinary warmth on Uzunjati day |
+| Taraan | Anadi expert (nat 20); Mazludeh + Gozreh deliveries; Okoro still unused | **Okoro** on Uzunjati day; **Izem** (Ch 2+) |
 
 ## Sources
 
@@ -166,4 +196,5 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 - `transcripts/strength-of-thousands/session-01/edited.json`
 - `transcripts/strength-of-thousands/session-02/edited.json`
 - `transcripts/strength-of-thousands/session-03/edited.json`
+- `transcripts/strength-of-thousands/session-04/edited.json`
 - `lessons/0001-kindled-magic-gm-prep.html`, `0009-player-tie-ins-gm-prep.html`

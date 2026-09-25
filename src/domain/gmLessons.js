@@ -69,6 +69,11 @@ export function getGmLessonSections() {
           caption: 'GM prep · Study, Cram & Practical Research',
           href: `${pagesBase}/lessons/0007-academia-downtime-gm-prep.html`,
         },
+        {
+          title: 'Branch Implements',
+          caption: 'Player rules · Magaambyan staves (draft)',
+          href: `${pagesBase}/lessons/0013-branch-implements-gm-prep.html`,
+        },
       ],
     },
     {

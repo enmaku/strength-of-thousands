@@ -31,12 +31,12 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
-- Session 4 Prep — `lessons/0012-session-4-prep.html` (Emerald mail; Uzunjati stretch)
-- Session 3 Prep — `lessons/0011-session-3-prep.html` (**played** — see session log)
+- Session 4 Prep — `lessons/0012-session-4-prep.html` (**played** — Emerald mail done; see session log + `session-04/edited.json`)
+- Session 3 Prep — `lessons/0011-session-3-prep.html` (**played**)
 - Session 2 Prep — `lessons/0010-session-2-prep.html`
-- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 3 logged)
+- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 4 logged)
 - How to write the next one: `reference/sot-session-prep-guide.md`
-- **Next after Session 4 runs:** update session log, then Session 5 (Uzunjati leftovers → Introduction Ceremony)
+- **Next:** Session 5 prep — Uzunjati story (short) → Introduction Ceremony
 
 ### Standing prep
 

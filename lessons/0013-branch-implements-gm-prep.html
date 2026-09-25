@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branch Implements — Magaambyan Staves</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #3a2850 0%, var(--green) 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    h4 {
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 1.25rem 0 0.4rem;
+    }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    .branch-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 0.85rem 0;
+      border-radius: 2px;
+    }
+    .branch-card h3 { margin-top: 0; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    .quiz .feedback.wrong a { color: var(--wrong); text-decoration: underline; }
+    .quiz-summary {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--green-soft);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      text-align: center;
+    }
+    .quiz-summary p { margin: 0 0 1rem; font-weight: 600; font-size: 1.05rem; }
+    .quiz-summary p.quiz-score-pass { color: var(--correct); }
+    .quiz-summary p.quiz-score-fail { color: var(--wrong); }
+    .quiz-reset {
+      font-family: var(--sans);
+      background: var(--red-earth);
+      color: #fcf2d1;
+      border: none;
+      padding: 0.5rem 1.1rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.9rem;
+    }
+    .quiz-reset:hover { background: #4a2810; }
+    .quiz-summary.quiz-summary-pass .quiz-reset {
+      background: var(--correct);
+    }
+    .quiz-summary.quiz-summary-pass .quiz-reset:hover {
+      background: #305008;
+    }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    .nav-lessons { font-family: var(--sans); font-size: 0.88rem; margin-bottom: 1.5rem; }
+    code { font-family: ui-monospace, monospace; font-size: 0.9em; }
+    nav.toc {
+      background: var(--spoiler-bg);
+      padding: 0.75rem 1rem;
+      margin: 0 0 1.5rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+    }
+    nav.toc a { margin-right: 0.75rem; white-space: nowrap; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Player Rules · Magaambya</p>
+    <h1>Branch implements</h1>
+    <p>Your Magaambya focus: a personal staff (or staff-like object) that grows with your primary branch, lets you practice blending traditions, and stays yours as you advance.</p>
+  </div>
+</header>
+
+<main>
+
+<p class="nav-lessons">
+  <a href="https://2e.aonprd.com/Rules.aspx?ID=1467">Life in the Academy</a> ·
+  <a href="https://2e.aonprd.com/Rules.aspx?ID=1499">Personal Staves</a> ·
+  <a href="https://2e.aonprd.com/Rules.aspx?ID=3214">Preparing a Staff</a> ·
+  <a href="https://2e.aonprd.com/Rules.aspx?ID=748">Staves</a>
+</p>
+
+<nav class="toc">
+  <a href="#overview">Overview</a>
+  <a href="#timing">When you receive it</a>
+  <a href="#creation">Creating yours</a>
+  <a href="#form">Form</a>
+  <a href="#traits">Binding traits</a>
+  <a href="#casting">Casting</a>
+  <a href="#ladder">Upgrades</a>
+  <a href="#passives">Held benefits</a>
+  <a href="#halcyon">Halcyon magic</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<section id="overview">
+  <h2>What a branch implement is</h2>
+  <div class="callout">
+    Magaambya magic is bigger than any one tradition — but blending other traditions has a cost until you truly master it.
+    Your branch implement is a held focus that uses staff rules, grows with your primary branch, and lets you cast spells outside your usual lists at a higher charge cost.
+  </div>
+  <p>A <strong>branch implement</strong> is a Magaambya-bonded magic item. It follows <strong>staff</strong> rules: you prepare it during daily preparations, spend charges to cast the spells inscribed on it, and use your own spell attack roll and spell DC.</p>
+  <p>The default form is a staff. You may choose another obvious held object within the limits below — the rules still treat it as your staff for the day.</p>
+  <p>It uses the <a href="https://2e.aonprd.com/Rules.aspx?ID=1499">Personal Staves</a> idea that every custom staff is bound to a <strong>single trait</strong>, with Magaambya house rules for early capacity, off-list casting, an extra prepare charge, branch-tied upgrades, and a benefit while you hold it.</p>
+
+  <h3>What this means at the Magaambya</h3>
+  <ul>
+    <li>The school studies and blends <strong>all four</strong> traditions — arcane, divine, occult, and primal. Branches emphasize different <em>kinds</em> of magic (traits and methods), not a single locked tradition.</li>
+    <li>Your Magaambyan Attendant and Halcyon Speaker feats still work as published. The implement is how you practice blending early; it does not replace those feats.</li>
+  </ul>
+</section>
+
+<section id="timing">
+  <h2>When you receive it</h2>
+  <p>After your <strong>First Masking</strong> (when you become an attendant and receive your spirit mask), you choose your <strong>primary</strong> and <strong>secondary</strong> branches. Your <strong>first Study</strong> downtime then grants your branch implement for your primary branch, on top of the usual branch-level results of that Study.</p>
+  <ul>
+    <li>Your secondary branch does not grant an implement.</li>
+    <li>You must already be able to cast spells. If you cannot cast spells yet, you receive the implement when you gain spellcasting.</li>
+  </ul>
+</section>
+
+<section id="creation">
+  <h2>Creating your implement</h2>
+  <ol>
+    <li>State your <strong>primary branch</strong> and confirm that you can cast spells.</li>
+    <li>Choose your <strong>form</strong> (default staff, or another legal held shape — see Form).</li>
+    <li>Choose a <strong>binding trait</strong> from your branch’s allowed list (see Binding traits). This choice is permanent.</li>
+    <li>Fill the <strong>Apprentice</strong> slots: 1 cantrip and 1 first-rank spell. Both must have your binding trait. They may come from any tradition. Prefer common spells; ask before taking uncommon ones.</li>
+    <li><strong>Name</strong> your implement. Magaambyans believe naming helps attunement.</li>
+  </ol>
+  <p>The Magaambya supplies the spell castings to awaken the implement. There is no Craft cost and no gp cost. It is a school gift — not something you sell.</p>
+</section>
+
+<section id="form">
+  <h2>Form — staff rules, not only staff shape</h2>
+  <ul>
+    <li><strong>Usage:</strong> held in 1 hand; Bulk 1; an <em>obvious</em> focus — not worn, not pocketable, not easily concealed.</li>
+    <li><strong>Examples:</strong> wooden staff (default), orb, small statue, instrument, book, frying pan, a holy symbol large enough to occupy a hand, and similar.</li>
+    <li><strong>As a weapon:</strong> it may use <strong>staff</strong> weapon statistics, or another agreed 1-hand simple weapon of Bulk 1 (such as a club). Weapon runes may be applied to the implement.</li>
+    <li><strong>Disarmed or thrown:</strong> you cannot cast from it until you recover it.</li>
+    <li><strong>Cosmetic restyle:</strong> free when the implement gains a tier. Changing its weapon die or weapon traits needs GM approval.</li>
+  </ul>
+</section>
+
+<section id="traits">
+  <h2>Binding traits by branch</h2>
+  <p>Every spell on your implement must share one binding trait. Tradition traits (arcane, divine, occult, primal) and school traits are too broad — you cannot use those as the binding trait. Pick <strong>one</strong> allowed trait for your branch.</p>
+
+  <div class="branch-card">
+    <h3>Cascade Bearers — Imagination</h3>
+    <p><strong>Suggested binding traits:</strong> Any trait (subject to GM approval). Cascade Bearers' versatility makes them a good fit for many traits — for example <code>illusion</code>, <code>polymorph</code>, <code>light</code>, <code>force</code>, an energy trait, or another narrow trait that fits your experimental style.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Emerald Boughs — Camaraderie</h3>
+    <p><strong>Suggested:</strong> <code>mental</code>, <code>emotion</code>.</p>
+    <p>People-magic, bonds, and community.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Rain-Scribes — Adaptability</h3>
+    <p><strong>Suggested:</strong> <code>animal</code>, <code>plant</code>, <code>healing</code>. If your concept is weather or terrain, you may also ask for <code>water</code> or <code>air</code>.</p>
+    <p>Wilderness, sustenance, and moving with the land.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Tempest-Sun Mages — Valor</h3>
+    <p><strong>Suggested:</strong> <code>fire</code>, <code>electricity</code>, <code>air</code>, <code>force</code>.</p>
+    <p>Offensive pressure and battlefield courage. (Many damaging spells are save-based and do not have the <code>attack</code> trait — that trait alone is a poor binder.)</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Uzunjati — Knowledge</h3>
+    <p><strong>Suggested:</strong> <code>mental</code>, <code>revelation</code>, or <code>detection</code> (pick one).</p>
+    <p>Story, memory, and knowing. Linguistic or auditory spells can appear if they also have your binding trait.</p>
+  </div>
+</section>
+
+<section id="casting">
+  <h2>Casting and charges</h2>
+  <p>Unless noted here, use the published <a href="https://2e.aonprd.com/Rules.aspx?ID=748">staff</a> rules. Under the Remaster, preparing a staff gives free charges equal to your highest spell rank; prepared casters may also expend one spell slot to add more charges.</p>
+
+  <h3>House rules for branch implements</h3>
+  <table>
+    <thead><tr><th>Rule</th><th>Detail</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Always preparable</strong></td>
+        <td>You can prepare your branch implement even if none of its spells are on your spell list.</td>
+      </tr>
+      <tr>
+        <td><strong>One staff per day</strong></td>
+        <td>Preparing the implement counts as preparing your staff for the day — even if it looks like a pan or orb. You cannot also prepare a second staff that day.</td>
+      </tr>
+      <tr>
+        <td><strong>+1 Magaambya charge</strong></td>
+        <td>When you prepare the implement, it gains charges equal to your highest spell rank <strong>+ 1</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>On-list cost</strong></td>
+        <td>If the spell appears on any list you cast from (your class, a dedication, your Halcyon spells, and so on), charges equal the spell’s rank (cantrips cost 0).</td>
+      </tr>
+      <tr>
+        <td><strong>Off-list cost</strong></td>
+        <td>Otherwise, charges equal the spell’s rank <strong>+ 1</strong> (cantrips cost 1). That extra charge is the cost of borrowing another tradition.</td>
+      </tr>
+      <tr>
+        <td><strong>Spell rank</strong></td>
+        <td>You must still be able to cast spells of that rank. Higher ranks on the implement do nothing until your own spellcasting reaches them.</td>
+      </tr>
+      <tr>
+        <td><strong>Attack and DC</strong></td>
+        <td>Use yours. As with other staves, the spell gains the trait for your magical tradition when you cast it.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Examples (daily prepare, no extra slot spent)</h4>
+  <ul>
+    <li><strong>Levels 1–2</strong> (highest rank 1 → 2 charges): one off-list cantrip (1 charge), or one on-list 1st-rank spell (1). An off-list 1st costs 2 — you can cast it once, with nothing left.</li>
+    <li><strong>Levels 3–4</strong> (highest rank 2 → 3 charges): for example one off-list 1st (2) and one off-list cantrip (1), or several cheaper on-list options.</li>
+    <li><strong>Prepared casters</strong> can expend a spell slot while preparing to add more charges (as normal for staves). Spending a 1st-rank slot at level 1 can raise you to 2 charges and unlock a single off-list 1st — a real trade for that day.</li>
+  </ul>
+</section>
+
+<section id="ladder">
+  <h2>Upgrades (primary branch level)</h2>
+  <p>Your implement grows when your <strong>primary</strong> branch level reaches the thresholds below (after Study, Cram, or Practical Research finishes resolving, including when a ★ is spent because your character level caught up). Your secondary branch does not upgrade it.</p>
+  <p>You must still be able to cast a given rank to use those spells from the implement.</p>
+  <p>At <strong>Attuned</strong> (primary branch 3) you gain a <strong>second cantrip</strong> slot. Apprentice keeps one cantrip; every later tier keeps two. (Published Personal Staves stay at one cantrip forever — this is a Magaambya exception.)</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Primary branch</th>
+        <th>Tier</th>
+        <th>Cantrip</th>
+        <th>1st</th>
+        <th>2nd</th>
+        <th>3rd</th>
+        <th>4th</th>
+        <th>5th</th>
+        <th>6th</th>
+        <th>7th</th>
+        <th>8th</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Gift</strong> (first Study)</td><td>Apprentice</td><td>1</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>3</strong></td><td>Attuned</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>5</strong></td><td>Adept</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>7</strong></td><td>Scholar</td><td>2</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>9</strong></td><td>Master</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>12</strong></td><td>Grandmaster</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>15</strong></td><td>Exalted</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td></tr>
+      <tr><td><strong>18</strong></td><td>Paragon-bound</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>—</td></tr>
+      <tr><td><strong>20</strong></td><td>Paragon</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
+    </tbody>
+  </table>
+
+  <h3>When your implement gains a tier</h3>
+  <ul>
+    <li>You unlock the new rank slots (and at Attuned, a second cantrip). Spells you already chose stay.</li>
+    <li>You choose new spells for empty slots (same binding trait). The Magaambya supplies the castings — no Craft cost or gp.</li>
+    <li><strong>Retrain:</strong> you may swap <strong>one</strong> existing spell for another legal spell of the <strong>same rank</strong>.</li>
+    <li>Your binding trait never changes.</li>
+  </ul>
+
+  <h3>If it is lost or destroyed</h3>
+  <p>The Magaambya replaces it at your <strong>current</strong> tier after appropriate downtime or recovery. Only you can prepare it.</p>
+</section>
+
+<section id="passives">
+  <h2>Benefits while holding</h2>
+  <p>These apply while you hold the implement in hand (including the hand you use to cast from it).</p>
+  <p>Unless noted otherwise, the circumstance bonuses below use your <strong>primary branch level</strong>: <strong>+1</strong> at levels 0–10, <strong>+2</strong> at 11–16, and <strong>+3</strong> at 17 or higher.</p>
+
+  <div class="branch-card">
+    <h3>Cascade Bearers</h3>
+    <p>You gain this circumstance bonus to checks to Identify Magic or Recall Knowledge about magical phenomena.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Emerald Boughs</h3>
+    <p>You gain this circumstance bonus to Diplomacy checks to Make an Impression or Request, and to Society checks to Recall Knowledge about settlements and cultures you have visited.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Rain-Scribes</h3>
+    <p>You gain this circumstance bonus to Survival checks to Sense Direction, Subsist, or Track. You also ignore the first square of <strong>non-magical</strong> difficult terrain you enter each time you Stride (this does not scale).</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Tempest-Sun Mages</h3>
+    <p>You gain this circumstance bonus to your Fortitude and Will DCs against attempts to Disarm you of the implement or Shove you, and to Intimidation checks to Demoralize.</p>
+  </div>
+
+  <div class="branch-card">
+    <h3>Uzunjati</h3>
+    <p>You gain this circumstance bonus to Recall Knowledge checks, and to Performance checks when telling a story or orating (including Uzunjati Storytelling, once you have that feat).</p>
+  </div>
+</section>
+
+<section id="halcyon">
+  <h2>Branch implements and Halcyon magic</h2>
+  <p>As you rise in the Magaambya you may take Magaambyan Attendant and later Halcyon Speaker feats. Those feats are separate from your implement and work as published.</p>
+  <ul>
+    <li>The implement is an early way to practice spells from other traditions (with the off-list charge tax).</li>
+    <li>Halcyon Speaker and related feats are how you claim deeper, lasting Halcyon spellcasting.</li>
+    <li>If a spell on your implement later appears on your lists (from your class, a dedication, Halcyon spells, and so on), casting it from the implement drops to the normal on-list charge cost.</li>
+  </ul>
+</section>
+
+<section id="quiz">
+  <h2>Self-check</h2>
+
+  <div class="quiz" data-q="1" data-answer="b" data-section="casting">
+    <h3>1. Compared to a normal Personal Staff, a branch implement…</h3>
+    <button type="button" onclick="check(this,'a')">A. Cannot be prepared unless at least one inscribed spell is on your spell list</button>
+    <button type="button" onclick="check(this,'b')">B. Can always be prepared by you, even if none of its spells are on your list</button>
+    <button type="button" onclick="check(this,'c')">C. Does not count as your staff for the one-staff-per-day limit</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="c" data-section="traits">
+    <h3>2. Every spell on your implement must…</h3>
+    <button type="button" onclick="check(this,'a')">A. Come from the arcane or primal spell list</button>
+    <button type="button" onclick="check(this,'b')">B. Match your class’s magical tradition</button>
+    <button type="button" onclick="check(this,'c')">C. Have your implement’s binding trait (any tradition is fine)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="c" data-section="traits">
+    <h3>3. Which cannot be your binding trait?</h3>
+    <button type="button" onclick="check(this,'a')">A. <code>mental</code></button>
+    <button type="button" onclick="check(this,'b')">B. <code>fire</code></button>
+    <button type="button" onclick="check(this,'c')">C. <code>arcane</code> (or divine, occult, primal)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b" data-section="casting">
+    <h3>4. When you prepare your branch implement, it gains free charges equal to…</h3>
+    <button type="button" onclick="check(this,'a')">A. Your highest spell rank only (same as most staves)</button>
+    <button type="button" onclick="check(this,'b')">B. Your highest spell rank + 1</button>
+    <button type="button" onclick="check(this,'c')">C. Double your highest spell rank</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="5" data-answer="a" data-section="casting">
+    <h3>5. An on-list cantrip from your implement costs…</h3>
+    <button type="button" onclick="check(this,'a')">A. 0 charges</button>
+    <button type="button" onclick="check(this,'b')">B. 1 charge</button>
+    <button type="button" onclick="check(this,'c')">C. 2 charges</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="6" data-answer="b" data-section="casting">
+    <h3>6. An off-list cantrip from your implement costs…</h3>
+    <button type="button" onclick="check(this,'a')">A. 0 charges</button>
+    <button type="button" onclick="check(this,'b')">B. 1 charge</button>
+    <button type="button" onclick="check(this,'c')">C. 2 charges</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="7" data-answer="b" data-section="ladder">
+    <h3>7. Your implement’s spell capacity and tiers increase when…</h3>
+    <button type="button" onclick="check(this,'a')">A. Your secondary branch level increases</button>
+    <button type="button" onclick="check(this,'b')">B. Your primary branch level reaches the listed thresholds</button>
+    <button type="button" onclick="check(this,'c')">C. You Craft or pay gp to upgrade it like a Personal Staff</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="8" data-answer="b" data-section="ladder">
+    <h3>8. When your implement gains a tier, you may…</h3>
+    <button type="button" onclick="check(this,'a')">A. Change your binding trait</button>
+    <button type="button" onclick="check(this,'b')">B. Swap one inscribed spell for another of the same rank</button>
+    <button type="button" onclick="check(this,'c')">C. Prepare a looted staff in addition to your implement</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="9" data-answer="c" data-section="form">
+    <h3>9. Legal form for your implement includes…</h3>
+    <button type="button" onclick="check(this,'a')">A. A worn amulet that counts as your focus</button>
+    <button type="button" onclick="check(this,'b')">B. A pocket wand case with no Bulk</button>
+    <button type="button" onclick="check(this,'c')">C. A Bulk-1 object held in one hand (staff, orb, pan, etc.)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="10" data-answer="b" data-section="casting">
+    <h3>10. If you prepare your branch implement during daily preparations, you…</h3>
+    <button type="button" onclick="check(this,'a')">A. Can still prepare a different magical staff the same day</button>
+    <button type="button" onclick="check(this,'b')">B. Cannot prepare any other staff until your next daily preparations</button>
+    <button type="button" onclick="check(this,'c')">C. Must have at least one of its spells on your spell list</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div id="quiz-summary" class="quiz-summary" hidden>
+    <p id="quiz-score"></p>
+    <button type="button" id="quiz-reset" class="quiz-reset">Reset quiz</button>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Strength of Thousands table rules · Personal Staves &amp; Remaster staff charging with Magaambya house rules
+</footer>
+
+<script>
+  var quizSectionLabels = {
+    overview: 'What a branch implement is',
+    casting: 'Casting and charges',
+    traits: 'Binding traits by branch',
+    ladder: 'Upgrades',
+    form: 'Form',
+    creation: 'Creating your implement',
+    passives: 'Benefits while holding',
+    halcyon: 'Branch implements and Halcyon magic'
+  };
+
+  var QUIZ_TOTAL = 10;
+
+  function check(btn, choice) {
+    var quiz = btn.closest('.quiz');
+    if (quiz.getAttribute('data-result')) return;
+    var answer = quiz.getAttribute('data-answer');
+    var section = quiz.getAttribute('data-section');
+    var feedback = quiz.querySelector('.feedback');
+    var correct = choice === answer;
+    quiz.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    if (correct) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else {
+      feedback.className = 'feedback wrong';
+      var label = quizSectionLabels[section] || section;
+      feedback.innerHTML =
+        'Not quite — see <a href="#' + section + '">' + label + '</a>.';
+    }
+    quiz.setAttribute('data-result', correct ? 'correct' : 'wrong');
+    updateQuizSummary();
+  }
+
+  function updateQuizSummary() {
+    var answered = document.querySelectorAll('#quiz .quiz[data-result]');
+    if (answered.length < QUIZ_TOTAL) return;
+    var correct = document.querySelectorAll('#quiz .quiz[data-result="correct"]').length;
+    var scoreEl = document.getElementById('quiz-score');
+    scoreEl.textContent = correct + ' / ' + QUIZ_TOTAL + ' correct.';
+    scoreEl.className = correct >= 8 ? 'quiz-score-pass' : 'quiz-score-fail';
+    document.getElementById('quiz-summary').className =
+      'quiz-summary' + (correct >= 8 ? ' quiz-summary-pass' : '');
+    document.getElementById('quiz-summary').hidden = false;
+  }
+
+  function resetQuiz() {
+    document.querySelectorAll('#quiz .quiz').forEach(function (quiz) {
+      quiz.removeAttribute('data-result');
+      var feedback = quiz.querySelector('.feedback');
+      feedback.textContent = '';
+      feedback.className = 'feedback';
+      quiz.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
+    });
+    document.getElementById('quiz-summary').hidden = true;
+    document.getElementById('quiz-summary').className = 'quiz-summary';
+    document.getElementById('quiz-score').className = '';
+  }
+
+  document.getElementById('quiz-reset').addEventListener('click', resetQuiz);
+</script>
+
+</body>
+</html>
