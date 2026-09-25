@@ -18,7 +18,7 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | **Level** | 1 (level 2 after Introduction Ceremony) |
 | **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 4 (Emerald mail) |
 | **Last played** | Session 4 |
-| **Next prep** | Session 5 — Uzunjati story day → Introduction Ceremony |
+| **Next prep** | Session 5 — `lessons/0016-session-5-prep.html` (Uzunjati → Intro Ceremony) |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -172,8 +172,8 @@ Derived from Sessions 1–4 + book density:
 | Session estimate | Likely content |
 |------------------|----------------|
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
-| **Session 5 (prep target)** | Uzunjati story + moral (short) → **Introduction Ceremony** (Severe 1 climax). |
-| Session 6 (rough) | Ceremony leftovers if needed → Meet Teachers / Ch 2 on-ramp. |
+| **Session 5 (prep target)** | Uzunjati story + moral (short) → **Introduction Ceremony** (Severe 1 climax) → level 2 + **first Study homework** (between sessions). |
+| Session 6 (rough) | Resolve first Study + branch implements → start interleaving Meet Teachers / insect vignettes / student scenes. First Masking still later. |
 
 Revise after Session 5 actuals.
 
