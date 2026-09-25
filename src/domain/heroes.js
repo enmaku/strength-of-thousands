@@ -33,3 +33,15 @@ export function buildHeroTabs(heroes) {
     defaultSlug: sorted[0]?.slug ?? null,
   }
 }
+
+export function deriveHeroBioTile(hero) {
+  if (!hero) return null
+  const name = hero.displayName?.trim()
+  const bio = hero.bio?.trim()
+  if (!name || !bio) return null
+  return {
+    name,
+    tagline: hero.tagline?.trim() || '',
+    bio,
+  }
+}

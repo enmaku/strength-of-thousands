@@ -3,6 +3,7 @@ import {
   buildHeroTabs,
   createHeroState,
   defaultHearts,
+  deriveHeroBioTile,
   slugify,
   sortHeroes,
 } from './heroes.js'
@@ -63,5 +64,33 @@ describe('buildHeroTabs', () => {
 
   it('returns null default slug for empty roster', () => {
     expect(buildHeroTabs([]).defaultSlug).toBeNull()
+  })
+})
+
+describe('deriveHeroBioTile', () => {
+  it('returns name, tagline, and bio', () => {
+    expect(
+      deriveHeroBioTile({
+        displayName: 'Anya',
+        tagline: 'Human summoner · she/her',
+        bio: 'Grew up in the wild with her eidolon.',
+      }),
+    ).toEqual({
+      name: 'Anya',
+      tagline: 'Human summoner · she/her',
+      bio: 'Grew up in the wild with her eidolon.',
+    })
+  })
+
+  it('returns null without a bio', () => {
+    expect(deriveHeroBioTile({ displayName: 'Anya', tagline: 'x' })).toBeNull()
+  })
+
+  it('defaults missing tagline to empty string', () => {
+    expect(deriveHeroBioTile({ displayName: 'Anya', bio: 'A brief bio.' })).toEqual({
+      name: 'Anya',
+      tagline: '',
+      bio: 'A brief bio.',
+    })
   })
 })

@@ -1,6 +1,8 @@
 {
   "pathbuilderId": 450903,
   "displayName": "Taraan Skyseeker",
+  "tagline": "Skyborn tengu · Cleric of Soralyon / Witch · Archaeologist · he/him",
+  "bio": "Taraan Skyseeker is a skyborn tengu cleric of Soralyon with witch training, raised by clergy after escaping the pirate coast. He treats the preservation of ruins as an act of worship, carries the scripture-etched blade Wordreaper, and works with an earth-wisp familiar that burrows through notes and stone alike. Obsessed with learning to fly, he has thrown himself into mapping the tunnels beneath the Spire and already recognized Anadi true form when Zachva and Zanvi shifted mid-play.",
   "build": {
     "name": "Taraan Skyseeker",
     "class": "Cleric",

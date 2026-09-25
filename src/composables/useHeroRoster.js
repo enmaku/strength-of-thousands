@@ -2,8 +2,8 @@ import { ref, computed } from 'vue'
 import catalog from '../../data/spire-students.json'
 import branchCatalog from '../../data/magaambya-branches.json'
 import { isGmMode } from '../domain/mode.js'
-import { buildHeroTabs, defaultHearts, sortHeroes } from '../domain/heroes.js'
-import { deriveHeroTile, fetchPathbuilderBuild, parsePathbuilderId } from '../domain/pathbuilder.js'
+import { buildHeroTabs, defaultHearts, deriveHeroBioTile, sortHeroes } from '../domain/heroes.js'
+import { fetchPathbuilderBuild, parsePathbuilderId } from '../domain/pathbuilder.js'
 import {
   deriveStudyCard,
   normalizeStudy,
@@ -78,9 +78,7 @@ export function useHeroRoster() {
   }
 
   function heroTileFor(slug) {
-    const hero = heroes.value[slug]
-    if (!hero?.build) return null
-    return deriveHeroTile(hero.build)
+    return deriveHeroBioTile(heroes.value[slug])
   }
 
   async function setDisposition(heroSlug, studentSlug, hearts) {

@@ -1,6 +1,8 @@
 {
   "pathbuilderId": 451577,
   "displayName": "Cy’An Copperbottom",
+  "tagline": "Irongut goblin inventor · construct companion · Cook · they/them",
+  "bio": "Cy'An Copperbottom is an irongut goblin inventor and cook who learned craft by scavenging city scrap and working a tavern kitchen among thirteen siblings. At the Magaambya they jury-rig gadgets and a construct companion they call MODU, dabbling in wizard magic on the side. Food is how they show belonging: after being reminded by Takulu Ot that \"tests do not eat\", a reminder to consider whether their \"help\" is actually helpful, they bound the cohort with a Bonding Meal recreating their mother's goblin breakfast.",
   "build": {
     "name": "Cy’An Copperbottom",
     "class": "Inventor",
