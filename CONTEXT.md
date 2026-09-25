@@ -96,5 +96,17 @@ One hero's compact card on the Heroes page — display name, **hero tagline**, a
 _Avoid_: Full character sheet, portrait, combat snapshot stats, PathBuilder-derived vitals
 
 **Campaign tool**:
-A feature in the campaign app for table use during play (e.g. relationship tracker, Heroes page). Player-facing unless noted otherwise — published state is read-only for players; GM mode on localhost adds edit controls where applicable. Each tool has its own route; the index page links to them under a campaign tools section.
+A feature in the campaign app for table use during play (e.g. relationship tracker, Heroes page, Rules tab). Player-facing unless noted otherwise — published state is read-only for players; GM mode on localhost adds edit controls where applicable. Each tool has its own route; the index page links to them under a campaign tools section.
 _Avoid_: Module, widget, GM-only page
+
+**Player rules handout**:
+A standalone HTML document under `lessons/` that teaches a Magaambya / table subsystem to players (e.g. academia downtime, branch implements, campus crafting). Spoiler-free and mechanics-first. Loaded in an iframe on the **Rules** tab when listed in the published catalog. Recipe: `reference/sot-player-rules-guide.md`. Exemplars: `lessons/0007-academia-downtime-gm-prep.html`, `lessons/0013-branch-implements-gm-prep.html`, `lessons/0014-campus-crafting.html`.
+_Avoid_: GM prep lesson, session prep, treating `-gm-prep` in the filename as audience
+
+**Rules tab**:
+Campaign tool at `/rules` listing **published** player rules handouts (sidebar on desktop, dropdown on mobile). Selecting an entry loads that HTML in the main panel. Catalog: `src/domain/playerRules.js`.
+_Avoid_: GM prep menu, Study page
+
+**Published player rules**:
+The explicit allow-list of handouts shown on the Rules tab (`getPublishedPlayerRules()`). Adding a file under `lessons/` does not publish it until it is registered here (and optionally mirrored under GM prep → Rules in `gmLessons.js`).
+_Avoid_: “All HTML in lessons/”

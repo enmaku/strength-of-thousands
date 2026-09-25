@@ -43,6 +43,12 @@
               icon="forum"
               label="Transcripts"
             />
+            <q-route-tab
+              to="/rules"
+              name="/rules"
+              icon="menu_book"
+              label="Rules"
+            />
           </q-tabs>
           <q-btn-dropdown
             v-if="gmMode"
@@ -126,6 +132,7 @@ const mobileNavItems = [
   { to: '/relationships', icon: 'favorite', label: 'Social' },
   { to: '/study', icon: 'school', label: 'Study' },
   { to: '/transcripts', icon: 'forum', label: 'Transcripts' },
+  { to: '/rules', icon: 'menu_book', label: 'Rules' },
 ]
 
 function openLessonInNewTab(href) {

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Crafting — Magaambya Downtime</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #3a2850 0%, var(--green) 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    h4 {
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 1.25rem 0 0.4rem;
+    }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    .quiz .feedback.wrong a { color: var(--wrong); text-decoration: underline; }
+    .quiz-summary {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--green-soft);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      text-align: center;
+    }
+    .quiz-summary p { margin: 0 0 1rem; font-weight: 600; font-size: 1.05rem; }
+    .quiz-summary p.quiz-score-pass { color: var(--correct); }
+    .quiz-summary p.quiz-score-fail { color: var(--wrong); }
+    .quiz-reset {
+      font-family: var(--sans);
+      background: var(--red-earth);
+      color: #fcf2d1;
+      border: none;
+      padding: 0.5rem 1.1rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.9rem;
+    }
+    .quiz-reset:hover { background: #4a2810; }
+    .quiz-summary.quiz-summary-pass .quiz-reset {
+      background: var(--correct);
+    }
+    .quiz-summary.quiz-summary-pass .quiz-reset:hover {
+      background: #305008;
+    }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    code { font-family: ui-monospace, monospace; font-size: 0.9em; }
+    nav.toc {
+      background: var(--spoiler-bg);
+      padding: 0.75rem 1rem;
+      margin: 0 0 1.5rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+    }
+    nav.toc a { margin-right: 0.75rem; white-space: nowrap; }
+    details.pathbuilder {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      margin: 2.25rem 0 0;
+      padding: 0;
+    }
+    details.pathbuilder > summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--green);
+      padding: 1rem 1.15rem;
+      user-select: none;
+    }
+    details.pathbuilder > summary::-webkit-details-marker { display: none; }
+    details.pathbuilder > summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.5rem;
+      transition: transform 0.15s ease;
+    }
+    details.pathbuilder[open] > summary::before {
+      transform: rotate(90deg);
+    }
+    details.pathbuilder > summary:hover {
+      background: var(--green-soft);
+    }
+    details.pathbuilder .pathbuilder-body {
+      padding: 0 1.15rem 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+    details.pathbuilder .pathbuilder-body > :first-child {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>Campus Crafting</h1>
+    <p>How Magaambya students make gear between classes: faster than published Craft, cheaper on a good check, and built for a handful of useful items in one short downtime.</p>
+  </div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <a href="#overview">Overview</a>
+  <a href="#when">When to use it</a>
+  <a href="#requirements">Requirements</a>
+  <a href="#procedure">Procedure</a>
+  <a href="#dc">Crafting DC</a>
+  <a href="#materials">Materials</a>
+  <a href="#time">Time</a>
+  <a href="#school">School supplies</a>
+  <a href="#limits">Limits</a>
+  <a href="#pathbuilder">Pathbuilder</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<section id="overview">
+  <h2>What Campus Crafting is</h2>
+  <div class="callout">
+    Crafting at this table is about <strong>making things you will use</strong> during short Magaambya downtimes — not grinding the Earn Income table for weeks to shave a few gold off an item.
+    Time scales with how simple the job is relative to you; the Crafting check sets how much of the Price you keep paying.
+  </div>
+  <p><strong>Campus Crafting</strong> replaces the published <a href="https://2e.aonprd.com/Actions.aspx?ID=2385" target="_blank" rel="noopener noreferrer">Craft</a> activity whenever you create an item for yourself or your allies. It keeps Remaster requirements (level, feats, tools, access) but changes setup time, material cost, and how a check resolves.</p>
+  <p>Want pocket money instead of gear? Use <a href="https://2e.aonprd.com/Actions.aspx?ID=2362" target="_blank" rel="noopener noreferrer">Earn Income</a> with Crafting (or another skill). That is a different activity.</p>
+  <p class="cite">Baseline: <a href="https://2e.aonprd.com/Actions.aspx?ID=2385" target="_blank" rel="noopener noreferrer">AoN — Craft</a> · <a href="https://2e.aonprd.com/Rules.aspx?ID=2452" target="_blank" rel="noopener noreferrer">AoN — Item Crafting</a>. This page is the Magaambya house rule.</p>
+</section>
+
+<section id="when">
+  <h2>When to use it</h2>
+  <ul>
+    <li><strong>Use Campus Crafting</strong> to make or upgrade gear, consumables, or tools your party will use.</li>
+    <li><strong>Use Earn Income</strong> (Crafting) to sell labor or finished goods for gold.</li>
+    <li>Campus Crafting is <strong>downtime only</strong> — hours or days between adventures, not during combat or rushed exploration. Repair and other exploration Craft uses stay as published.</li>
+  </ul>
+</section>
+
+<section id="requirements">
+  <h2>Requirements</h2>
+  <p>Same gates as published Craft unless noted:</p>
+  <ul>
+    <li>The item’s level is your level or lower. Items with no listed level are level 0. Items of 9th level or higher require master Crafting; 17th or higher require legendary.</li>
+    <li>The item is common, or you otherwise have access (including a formula for uncommon or rarer items).</li>
+    <li>You have appropriate tools and, when needed, a workshop.</li>
+    <li><a href="https://2e.aonprd.com/Feats.aspx?ID=752" target="_blank" rel="noopener noreferrer">Alchemical Crafting</a> for alchemical items; <a href="https://2e.aonprd.com/Feats.aspx?ID=812" target="_blank" rel="noopener noreferrer">Magical Crafting</a> for magic items.</li>
+  </ul>
+  <p>A formula is not required for common items. Having a formula still speeds crafting when the time table says so.</p>
+</section>
+
+<section id="procedure">
+  <h2>Procedure</h2>
+  <ol>
+    <li>Confirm you meet the requirements and have a legal formula or access if needed.</li>
+    <li>Spend materials equal to <strong>25% of the item’s Price</strong> (see Materials). School supplies may cover some or all of this (see School supplies).</li>
+    <li>Spend the craft time from the Time table. A working day is <strong>8 hours</strong>; you may sequence several shorter jobs in one downtime.</li>
+    <li>Attempt a Crafting check against the DC in <a href="#dc">Crafting DC</a>.</li>
+    <li>Apply the check result: finish the item or not, and settle materials.</li>
+  </ol>
+  <p>Consumables still craft in batches of up to four of the same item with one check (pay materials for the whole batch). Non-magical ammunition still uses the batch size on the weapons table.</p>
+</section>
+
+<section id="dc">
+  <h2>Crafting DC</h2>
+  <p>Your Crafting DC is the <strong>level-based DC for the item’s level</strong>, plus a rarity adjustment if the item is not common. Items with no listed level use level 0.</p>
+  <p><strong>DC = level-based DC (item level) + rarity adjustment</strong></p>
+
+  <h3>Level-based DCs</h3>
+  <table>
+    <thead><tr><th>Item level</th><th>DC</th><th>Item level</th><th>DC</th></tr></thead>
+    <tbody>
+      <tr><td>0</td><td>14</td><td>10</td><td>27</td></tr>
+      <tr><td>1</td><td>15</td><td>11</td><td>28</td></tr>
+      <tr><td>2</td><td>16</td><td>12</td><td>30</td></tr>
+      <tr><td>3</td><td>18</td><td>13</td><td>31</td></tr>
+      <tr><td>4</td><td>19</td><td>14</td><td>32</td></tr>
+      <tr><td>5</td><td>20</td><td>15</td><td>34</td></tr>
+      <tr><td>6</td><td>22</td><td>16</td><td>35</td></tr>
+      <tr><td>7</td><td>23</td><td>17</td><td>36</td></tr>
+      <tr><td>8</td><td>24</td><td>18</td><td>38</td></tr>
+      <tr><td>9</td><td>26</td><td>19</td><td>39</td></tr>
+      <tr><td></td><td></td><td>20</td><td>40</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Rarity adjustments</h3>
+  <table>
+    <thead><tr><th>Rarity</th><th>Adjustment</th></tr></thead>
+    <tbody>
+      <tr><td>Common</td><td>+0</td></tr>
+      <tr><td>Uncommon</td><td>+2</td></tr>
+      <tr><td>Rare</td><td>+5</td></tr>
+      <tr><td>Unique</td><td>+10</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Other adjustments</h3>
+  <ul>
+    <li>If you have successfully Campus Crafted this exact item before, the GM may apply the <strong>easy</strong> adjustment (−2).</li>
+    <li>Other circumstance adjustments are rare; the GM will say when one applies.</li>
+  </ul>
+  <p><strong>Example:</strong> a common 3rd-level item is DC 18. An uncommon 3rd-level item is DC 20 (18 + 2).</p>
+  <p class="cite">Published rule: use the item’s level for the DC, then apply rarity (and optional easy if you’ve made it before). <a href="https://2e.aonprd.com/Rules.aspx?ID=2629" target="_blank" rel="noopener noreferrer">AoN — Level-Based DCs</a> · <a href="https://2e.aonprd.com/Rules.aspx?ID=2634" target="_blank" rel="noopener noreferrer">AoN — Craft (DCs)</a>.</p>
+</section>
+
+<section id="materials">
+  <h2>Materials</h2>
+  <p>Front materials worth <strong>25% of the Price</strong> (for a batch, 25% of the batch’s total Price). After the check:</p>
+  <table>
+    <thead><tr><th>Check</th><th>Result</th><th>Net materials cost</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Critical success</strong></td>
+        <td>Item complete. Refund materials down to 10% of Price.</td>
+        <td><strong>10%</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Success</strong></td>
+        <td>Item complete.</td>
+        <td><strong>25%</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Failure</strong></td>
+        <td>No item. Full refund of materials. Time is spent.</td>
+        <td><strong>0%</strong></td>
+      </tr>
+      <tr>
+        <td><strong>Critical failure</strong></td>
+        <td>No item. Lose materials equal to 10% of Price; refund the rest. Time is spent.</td>
+        <td><strong>10%</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="callout">
+    There is <strong>no</strong> second half of the Price to grind down with Earn Income days. When the check succeeds, you are done — you already paid the net cost above.
+  </div>
+</section>
+
+<section id="time">
+  <h2>Craft time</h2>
+  <p>Compare the item’s level to yours. Use the first row that applies. “Permanent” means any non-consumable item (including permanent magic).</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Item vs your level</th>
+        <th>Consumable or mundane</th>
+        <th>Permanent</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mundane only, Price 1 gp or less</td>
+        <td><strong>1 hour</strong></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Your level − 5 or lower</td>
+        <td><strong>1 hour</strong></td>
+        <td><strong>1 day</strong></td>
+      </tr>
+      <tr>
+        <td>Your level − 3 or − 4</td>
+        <td><strong>4 hours</strong> (half day)</td>
+        <td><strong>1 day</strong></td>
+      </tr>
+      <tr>
+        <td>Your level − 1 or − 2</td>
+        <td><strong>1 day</strong></td>
+        <td><strong>2 days</strong></td>
+      </tr>
+      <tr>
+        <td>Equal to your level</td>
+        <td><strong>1 day</strong> with formula, else <strong>2 days</strong></td>
+        <td><strong>2 days</strong> with formula, else <strong>3 days</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <ul>
+    <li>Minimum craft time is still <strong>1 hour</strong> (no in-combat crafting).</li>
+    <li>Interrupted work can resume later from where you left off if the project is safely stored.</li>
+    <li>One downtime stretch can cover several items if the hours add up — a handful of simple tools or kits in a free week is expected.</li>
+  </ul>
+</section>
+
+<section id="school">
+  <h2>School supplies</h2>
+  <p>During a Magaambya <strong>Study</strong> or <strong>Practical Research</strong> downtime (in addition to that activity’s usual results), the school will cover Campus Crafting materials for <strong>common</strong> items of your level or lower, up to a budget of <strong>your level × 2 gp</strong> for that downtime.</p>
+  <ul>
+    <li>Unused budget does not roll over.</li>
+    <li>Uncommon or rarer items, and anything above the budget, come from your own coin or materials.</li>
+    <li>This stipend is for Campus Crafting only — it is not free shopping credit.</li>
+  </ul>
+</section>
+
+<section id="limits">
+  <h2>Limits</h2>
+  <ul>
+    <li><strong>Party use:</strong> Campus Crafting makes gear for you and your allies. It is not a market engine. Selling what you made uses normal sell rules (typically half Price) and should not outpace Earn Income as a reason to Craft.</li>
+    <li><strong>Branch implements:</strong> your Magaambya staff-like focus is a school gift with its own rules — it has no Craft cost and does not use this activity.</li>
+    <li><strong>Treasure:</strong> Campus Crafting does not raise the party’s expected magic-item wealth above what the adventure already allows. At-level permanent magic still takes days and Magical Crafting; it is not free loot.</li>
+  </ul>
+</section>
+
+<section id="pathbuilder">
+  <details class="pathbuilder">
+    <summary>Pathbuilder — tracking crafted gear</summary>
+    <div class="pathbuilder-body">
+      <p>Pathbuilder does not simulate Campus Crafting. Add finished items to your sheet the same way you would add purchased gear.</p>
+      <ol>
+        <li>When an item is complete, add it under <strong>Gear</strong>, <strong>Weapons</strong>, <strong>Armor</strong>, or consumables as appropriate.</li>
+        <li>Subtract the <strong>net materials cost</strong> (10% or 25% of Price, or school stipend) from your tracked money — Pathbuilder will not do the house-rule math for you.</li>
+        <li>For a work-in-progress across sessions, keep a short note on the character (or a custom item named “WIP: …”) with hours already spent and materials already fronted.</li>
+      </ol>
+    </div>
+  </details>
+</section>
+
+<section id="quiz">
+  <h2>Self-check</h2>
+
+  <div class="quiz" data-q="1" data-answer="b" data-section="when">
+    <h3>1. Campus Crafting is for…</h3>
+    <button type="button" onclick="check(this,'a')">A. Turning Crafting into a better Earn Income loop for selling goods</button>
+    <button type="button" onclick="check(this,'b')">B. Making gear you and your allies will use during downtime</button>
+    <button type="button" onclick="check(this,'c')">C. Crafting items as a free action during combat</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="a" data-section="materials">
+    <h3>2. Before you roll the Crafting check, you front materials equal to…</h3>
+    <button type="button" onclick="check(this,'a')">A. 25% of the item’s Price</button>
+    <button type="button" onclick="check(this,'b')">B. 50% of the item’s Price (published Craft)</button>
+    <button type="button" onclick="check(this,'c')">C. 100% of the item’s Price</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="c" data-section="materials">
+    <h3>3. On a success, the item is complete and your net materials cost is…</h3>
+    <button type="button" onclick="check(this,'a')">A. 50%, then you may grind the rest with Earn Income days</button>
+    <button type="button" onclick="check(this,'b')">B. 10% of Price</button>
+    <button type="button" onclick="check(this,'c')">C. 25% of Price — you are done; no Earn Income grind</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b" data-section="materials">
+    <h3>4. On a critical success, your net materials cost is…</h3>
+    <button type="button" onclick="check(this,'a')">A. 0%</button>
+    <button type="button" onclick="check(this,'b')">B. 10% of Price</button>
+    <button type="button" onclick="check(this,'c')">C. 25% of Price (same as a normal success)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="5" data-answer="a" data-section="materials">
+    <h3>5. On a critical failure…</h3>
+    <button type="button" onclick="check(this,'a')">A. You lose materials equal to 10% of Price and get no item</button>
+    <button type="button" onclick="check(this,'b')">B. You lose half the item’s Price</button>
+    <button type="button" onclick="check(this,'c')">C. You still finish the item but pay full Price</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="6" data-answer="c" data-section="time">
+    <h3>6. Compared with published Craft, Campus Crafting time…</h3>
+    <button type="button" onclick="check(this,'a')">A. Is always exactly 2 days, regardless of the item</button>
+    <button type="button" onclick="check(this,'b')">B. Uses the Earn Income table to decide how many weeks you work</button>
+    <button type="button" onclick="check(this,'c')">C. Scales with how far the item’s level is below yours (simple jobs can take an hour)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="7" data-answer="b" data-section="time">
+    <h3>7. During one downtime, you…</h3>
+    <button type="button" onclick="check(this,'a')">A. May craft only one item, ever</button>
+    <button type="button" onclick="check(this,'b')">B. May sequence several jobs if the hours fit an 8-hour working day</button>
+    <button type="button" onclick="check(this,'c')">C. Must finish every project in a single uninterrupted hour</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="8" data-answer="a" data-section="school">
+    <h3>8. School supplies during Study or Practical Research…</h3>
+    <button type="button" onclick="check(this,'a')">A. Can cover Campus Crafting materials for common items up to level × 2 gp</button>
+    <button type="button" onclick="check(this,'b')">B. Let you buy any magic item in Nantambu for free</button>
+    <button type="button" onclick="check(this,'c')">C. Replace the need for Alchemical or Magical Crafting feats</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="9" data-answer="c" data-section="requirements">
+    <h3>9. To craft a magic item with Campus Crafting you still need…</h3>
+    <button type="button" onclick="check(this,'a')">A. Nothing special — Campus Crafting waives Magical Crafting</button>
+    <button type="button" onclick="check(this,'b')">B. Only a formula; feats are optional</button>
+    <button type="button" onclick="check(this,'c')">C. Magical Crafting (and the usual level / proficiency gates)</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="10" data-answer="b" data-section="overview">
+    <h3>10. If you want gold rather than gear, you should…</h3>
+    <button type="button" onclick="check(this,'a')">A. Campus Craft dozens of items and sell them above half Price</button>
+    <button type="button" onclick="check(this,'b')">B. Use Earn Income (often with Crafting) instead of Campus Crafting</button>
+    <button type="button" onclick="check(this,'c')">C. Always use published Craft’s multi-week discount grind</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div id="quiz-summary" class="quiz-summary" hidden>
+    <p id="quiz-score"></p>
+    <button type="button" id="quiz-reset" class="quiz-reset">Reset quiz</button>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Strength of Thousands table rules · Campus Crafting (replaces published Craft for party gear)
+</footer>
+
+<script>
+  var quizSectionLabels = {
+    overview: 'What Campus Crafting is',
+    when: 'When to use it',
+    requirements: 'Requirements',
+    procedure: 'Procedure',
+    dc: 'Crafting DC',
+    materials: 'Materials',
+    time: 'Craft time',
+    school: 'School supplies',
+    limits: 'Limits'
+  };
+
+  var QUIZ_TOTAL = 10;
+
+  function check(btn, choice) {
+    var quiz = btn.closest('.quiz');
+    if (quiz.getAttribute('data-result')) return;
+    var answer = quiz.getAttribute('data-answer');
+    var section = quiz.getAttribute('data-section');
+    var feedback = quiz.querySelector('.feedback');
+    var correct = choice === answer;
+    quiz.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    if (correct) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else {
+      feedback.className = 'feedback wrong';
+      var label = quizSectionLabels[section] || section;
+      feedback.innerHTML =
+        'Not quite — see <a href="#' + section + '">' + label + '</a>.';
+    }
+    quiz.setAttribute('data-result', correct ? 'correct' : 'wrong');
+    updateQuizSummary();
+  }
+
+  function updateQuizSummary() {
+    var answered = document.querySelectorAll('#quiz .quiz[data-result]');
+    if (answered.length < QUIZ_TOTAL) return;
+    var correct = document.querySelectorAll('#quiz .quiz[data-result="correct"]').length;
+    var scoreEl = document.getElementById('quiz-score');
+    scoreEl.textContent = correct + ' / ' + QUIZ_TOTAL + ' correct.';
+    scoreEl.className = correct >= 8 ? 'quiz-score-pass' : 'quiz-score-fail';
+    document.getElementById('quiz-summary').className =
+      'quiz-summary' + (correct >= 8 ? ' quiz-summary-pass' : '');
+    document.getElementById('quiz-summary').hidden = false;
+  }
+
+  function resetQuiz() {
+    document.querySelectorAll('#quiz .quiz').forEach(function (quiz) {
+      quiz.removeAttribute('data-result');
+      var feedback = quiz.querySelector('.feedback');
+      feedback.textContent = '';
+      feedback.className = 'feedback';
+      quiz.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
+    });
+    document.getElementById('quiz-summary').hidden = true;
+    document.getElementById('quiz-summary').className = 'quiz-summary';
+    document.getElementById('quiz-score').className = '';
+  }
+
+  document.getElementById('quiz-reset').addEventListener('click', resetQuiz);
+</script>
+
+</body>
+</html>

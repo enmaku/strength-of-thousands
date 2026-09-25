@@ -181,26 +181,55 @@
       border-radius: 2px;
     }
     nav.toc a { margin-right: 0.75rem; white-space: nowrap; }
+    details.pathbuilder {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      margin: 2.25rem 0 0;
+      padding: 0;
+    }
+    details.pathbuilder > summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--green);
+      padding: 1rem 1.15rem;
+      user-select: none;
+    }
+    details.pathbuilder > summary::-webkit-details-marker { display: none; }
+    details.pathbuilder > summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.5rem;
+      transition: transform 0.15s ease;
+    }
+    details.pathbuilder[open] > summary::before {
+      transform: rotate(90deg);
+    }
+    details.pathbuilder > summary:hover {
+      background: var(--green-soft);
+    }
+    details.pathbuilder .pathbuilder-body {
+      padding: 0 1.15rem 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+    details.pathbuilder .pathbuilder-body > :first-child {
+      margin-top: 1rem;
+    }
   </style>
 </head>
 <body>
 
 <header>
   <div class="inner">
-    <p class="kicker">Strength of Thousands · Player Rules · Magaambya</p>
     <h1>Branch implements</h1>
     <p>Your Magaambya focus: a personal staff (or staff-like object) that grows with your primary branch, lets you practice blending traditions, and stays yours as you advance.</p>
   </div>
 </header>
 
 <main>
-
-<p class="nav-lessons">
-  <a href="https://2e.aonprd.com/Rules.aspx?ID=1467">Life in the Academy</a> ·
-  <a href="https://2e.aonprd.com/Rules.aspx?ID=1499">Personal Staves</a> ·
-  <a href="https://2e.aonprd.com/Rules.aspx?ID=3214">Preparing a Staff</a> ·
-  <a href="https://2e.aonprd.com/Rules.aspx?ID=748">Staves</a>
-</p>
 
 <nav class="toc">
   <a href="#overview">Overview</a>
@@ -212,6 +241,7 @@
   <a href="#ladder">Upgrades</a>
   <a href="#passives">Held benefits</a>
   <a href="#halcyon">Halcyon magic</a>
+  <a href="#pathbuilder">Pathbuilder</a>
   <a href="#quiz">Self-check</a>
 </nav>
 
@@ -223,7 +253,7 @@
   </div>
   <p>A <strong>branch implement</strong> is a Magaambya-bonded magic item. It follows <strong>staff</strong> rules: you prepare it during daily preparations, spend charges to cast the spells inscribed on it, and use your own spell attack roll and spell DC.</p>
   <p>The default form is a staff. You may choose another obvious held object within the limits below — the rules still treat it as your staff for the day.</p>
-  <p>It uses the <a href="https://2e.aonprd.com/Rules.aspx?ID=1499">Personal Staves</a> idea that every custom staff is bound to a <strong>single trait</strong>, with Magaambya house rules for early capacity, off-list casting, an extra prepare charge, branch-tied upgrades, and a benefit while you hold it.</p>
+  <p>It uses the <a href="https://2e.aonprd.com/Rules.aspx?ID=1499" target="_blank" rel="noopener noreferrer">Personal Staves</a> idea that every custom staff is bound to a <strong>single trait</strong>, with Magaambya house rules for early capacity, off-list casting, an extra prepare charge, branch-tied upgrades, and a benefit while you hold it.</p>
 
   <h3>What this means at the Magaambya</h3>
   <ul>
@@ -300,7 +330,7 @@
 
 <section id="casting">
   <h2>Casting and charges</h2>
-  <p>Unless noted here, use the published <a href="https://2e.aonprd.com/Rules.aspx?ID=748">staff</a> rules. Under the Remaster, preparing a staff gives free charges equal to your highest spell rank; prepared casters may also expend one spell slot to add more charges.</p>
+  <p>Unless noted here, use the published <a href="https://2e.aonprd.com/Rules.aspx?ID=748" target="_blank" rel="noopener noreferrer">staff</a> rules. Under the Remaster, preparing a staff gives free charges equal to your highest spell rank; prepared casters may also expend one spell slot to add more charges.</p>
 
   <h3>House rules for branch implements</h3>
   <table>
@@ -433,6 +463,46 @@
   </ul>
 </section>
 
+<section id="pathbuilder">
+  <details class="pathbuilder">
+    <summary>Pathbuilder — tracking your branch implement</summary>
+    <div class="pathbuilder-body">
+      <p>Pathbuilder does not have a first-class “custom Magaambya staff” type. The usual workaround is three pieces: a <strong>generic caster</strong> for the inscribed spells, a <strong>custom buff</strong> to count charges, and a <strong>custom gear item</strong> for the physical implement. Pathbuilder’s UI moves around between versions — look for the same labels if a menu sits somewhere slightly different.</p>
+
+      <h3>1. Enable staff spells (generic caster)</h3>
+      <ol>
+        <li>Open your character and go to <strong>Character Options</strong>.</li>
+        <li>Enable <strong>Add generic caster for staves etc.</strong> (sometimes labeled <strong>Add generic caster</strong>).</li>
+        <li>That adds an extra spell tab on your sheet for staff / wand spells.</li>
+        <li>On that tab, add each spell inscribed on your implement and set how many times it appears at each rank (match your current tier from the upgrade table above).</li>
+      </ol>
+      <div class="callout">
+        Pathbuilder will not enforce Magaambya house rules for you. Remember: you can prepare the implement even if none of its spells are on your list; free charges are <strong>highest spell rank + 1</strong>; off-list casts cost <strong>rank + 1</strong> (cantrips cost 1).
+      </div>
+
+      <h3>2. Track charges with a custom buff</h3>
+      <ol>
+        <li>Open <strong>Buffs</strong> (custom effects).</li>
+        <li>Create a new custom buff named something simple like <strong>Staff Charges</strong> or your implement’s name.</li>
+        <li>Leave mechanical bonuses blank — this is only a counter.</li>
+        <li>During play, use the buff’s <strong>+</strong> / <strong>−</strong> controls at the top of your sheet to spend and restore charges after daily preparations.</li>
+      </ol>
+
+      <h3>3. Held benefits that are flat bonuses</h3>
+      <p>Some <a href="#passives">benefits while holding</a> are unconditional circumstance bonuses (they apply whenever the implement is in hand, not only on a named action). Those can be separate <strong>custom buffs</strong> with the bonus filled in — turn the buff on when you hold the implement and off when you don’t. Leave fiddlier riders (specific actions only, ignore one square of terrain, and so on) as notes on the gear item instead.</p>
+
+      <h3>4. Add the physical item</h3>
+      <ol>
+        <li>On the <strong>Gear</strong>, <strong>Weapons</strong>, or <strong>Offense</strong> tab, create a <strong>custom item</strong> for the implement.</li>
+        <li>Write in its name, Bulk 1, held in 1 hand, binding trait, and a short note of Magaambya house rules (or paste a link to this page).</li>
+        <li>If you use it as a weapon, set staff (or your agreed simple weapon) statistics and any weapon runes there.</li>
+      </ol>
+
+      <p>If Pathbuilder’s menus don’t match these labels exactly, search Character Options for “generic caster” / “staves” — the feature name has varied slightly between versions.</p>
+    </div>
+  </details>
+</section>
+
 <section id="quiz">
   <h2>Self-check</h2>
 
@@ -521,6 +591,7 @@
     <button type="button" id="quiz-reset" class="quiz-reset">Reset quiz</button>
   </div>
 </section>
+
 
 </main>
 

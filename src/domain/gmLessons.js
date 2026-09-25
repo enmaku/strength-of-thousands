@@ -66,13 +66,18 @@ export function getGmLessonSections() {
       lessons: [
         {
           title: 'Academia Downtime',
-          caption: 'GM prep · Study, Cram & Practical Research',
+          caption: 'Player rules · Study, Cram & Practical Research',
           href: `${pagesBase}/lessons/0007-academia-downtime-gm-prep.html`,
         },
         {
           title: 'Branch Implements',
           caption: 'Player rules · Magaambyan staves (draft)',
           href: `${pagesBase}/lessons/0013-branch-implements-gm-prep.html`,
+        },
+        {
+          title: 'Campus Crafting',
+          caption: 'Player rules · Downtime item crafting',
+          href: `${pagesBase}/lessons/0014-campus-crafting.html`,
         },
       ],
     },

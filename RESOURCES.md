@@ -33,6 +33,7 @@
 - `reference/sot-campaign-overview.md` — condensed Campaign Overview + Book 1 beats
 - `reference/sot-session-log.md` — **living campaign bookmark** (what session covered; Perquisite checklist; pace model)
 - `reference/sot-session-prep-guide.md` — recipe for writing Session N prep lessons
+- `reference/sot-player-rules-guide.md` — recipe for player-facing rules handouts (Rules tab)
 - `reference/sot-thematic-guide.html` — **thematic emphasis** per book, NPC, arc; push moments & player engagement
 - `reference/sot-nantambu.html` — **Song-Wind City** gazetteer (government, culture, Book 1–2 sites, Chime-Ringers)
 - `reference/sot-magaambya-history.html` — **Jatembe, Ten Magic Warriors, timeline**, Word and Way, hidden AP war
