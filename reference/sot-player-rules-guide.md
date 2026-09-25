@@ -1,6 +1,6 @@
 # Player rules handouts — how to write the next one
 
-Repeatable recipe for **player-facing rules HTML** under `lessons/`. Exemplars: `0007-academia-downtime-gm-prep.html`, `0013-branch-implements-gm-prep.html`, `0014-campus-crafting.html`.
+Repeatable recipe for **player-facing rules HTML** under `lessons/`. Exemplars: `0007-academia-downtime-gm-prep.html`, `0013-branch-implements-gm-prep.html`, `0014-campus-crafting.html`, `0015-spirit-masks.html`.
 
 These are **not** GM prep. They ship to players on the app’s **Rules** tab. Spoiler-free, mechanics-first, and safe to open mid-session.
 

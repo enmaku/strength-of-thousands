@@ -79,6 +79,11 @@ export function getGmLessonSections() {
           caption: 'Player rules · Downtime item crafting',
           href: `${pagesBase}/lessons/0014-campus-crafting.html`,
         },
+        {
+          title: 'Spirit Masks',
+          caption: 'Player rules · First Masking & mask powers',
+          href: `${pagesBase}/lessons/0015-spirit-masks.html`,
+        },
       ],
     },
     {

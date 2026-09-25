@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spirit Masks — Magaambya</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #3a2850 0%, var(--green) 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    .quiz .feedback.wrong a { color: var(--wrong); text-decoration: underline; }
+    .quiz-summary {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--green-soft);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      text-align: center;
+    }
+    .quiz-summary p { margin: 0 0 1rem; font-weight: 600; font-size: 1.05rem; }
+    .quiz-summary p.quiz-score-pass { color: var(--correct); }
+    .quiz-summary p.quiz-score-fail { color: var(--wrong); }
+    .quiz-reset {
+      font-family: var(--sans);
+      background: var(--red-earth);
+      color: #fcf2d1;
+      border: none;
+      padding: 0.5rem 1.1rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.9rem;
+    }
+    .quiz-reset:hover { background: #4a2810; }
+    .quiz-summary.quiz-summary-pass .quiz-reset {
+      background: var(--correct);
+    }
+    .quiz-summary.quiz-summary-pass .quiz-reset:hover {
+      background: #305008;
+    }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    code { font-family: ui-monospace, monospace; font-size: 0.9em; }
+    nav.toc {
+      background: var(--spoiler-bg);
+      padding: 0.75rem 1rem;
+      margin: 0 0 1.5rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+    }
+    nav.toc a { margin-right: 0.75rem; white-space: nowrap; }
+    details.pathbuilder {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      margin: 2.25rem 0 0;
+      padding: 0;
+    }
+    details.pathbuilder > summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--green);
+      padding: 1rem 1.15rem;
+      user-select: none;
+    }
+    details.pathbuilder > summary::-webkit-details-marker { display: none; }
+    details.pathbuilder > summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.5rem;
+      transition: transform 0.15s ease;
+    }
+    details.pathbuilder[open] > summary::before {
+      transform: rotate(90deg);
+    }
+    details.pathbuilder > summary:hover {
+      background: var(--green-soft);
+    }
+    details.pathbuilder .pathbuilder-body {
+      padding: 0 1.15rem 1.25rem;
+      border-top: 1px solid var(--border);
+    }
+    details.pathbuilder .pathbuilder-body > :first-child {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>Spirit Masks</h1>
+    <p>Your Magaambyan animal mask: how you make it, what it does at first, and the three as-written paths that give it real sheet powers later.</p>
+  </div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <a href="#overview">Overview</a>
+  <a href="#making">Making yours</a>
+  <a href="#baseline">Baseline</a>
+  <a href="#powers">Gaining powers</a>
+  <a href="#familiar">Familiar</a>
+  <a href="#transfer">Transfer</a>
+  <a href="#craft">Craft</a>
+  <a href="#later">Later options</a>
+  <a href="#pathbuilder">Pathbuilder</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<section id="overview">
+  <h2>What a spirit mask is</h2>
+  <div class="callout">
+    Your spirit mask is a <strong>personal wooden animal face</strong> that holds a fragment of your spirit and shows your spirit face to the Magaambya.
+    At First Masking it is identity and belonging — not an automatic magic item. Powers come later through familiar feats, transferring found mask enchantments, or crafting.
+  </div>
+  <p>Attendants earn the right to wear a Magaambyan mask (or to have a personal mask acknowledged by the school). Tradition carves it as an animal. Continued wear gradually imprints your true spiritual face into the wood.</p>
+  <p>Wearing it is traditional and meaningful; it is <strong>not</strong> mandatory every hour of every day. Some students find moving or speaking masks unsettling and leave theirs off outside ceremony.</p>
+  <p class="cite">Sources: Strength of Thousands Player’s Guide · <em>Kindled Magic</em> Magical Masks (p. 73) · <a href="https://2e.aonprd.com/Feats.aspx?ID=1103" target="_blank" rel="noopener noreferrer">AoN — Mask Familiar</a> · <a href="https://2e.aonprd.com/Archetypes.aspx?ID=29" target="_blank" rel="noopener noreferrer">AoN — Magaambyan Attendant</a> (Pathbuilder: <strong>Collegiate Attendant</strong>).</p>
+</section>
+
+<section id="making">
+  <h2>Making yours</h2>
+  <p>You craft your mask for the <strong>First Masking</strong> ceremony in Tireless Hall — the rite that marks initiate → attendant. Typical process:</p>
+  <ol>
+    <li>Choose an <strong>animal</strong> that reflects your spirit face (how you want the Magaambya to know you). You will be associated with that appearance for the rest of your career here.</li>
+    <li>Carve or finish a <strong>wooden</strong> mask in that form. Materials and tools are available on campus for this ceremony; it is not a full Campus Crafting project unless the GM says otherwise.</li>
+    <li>Wear it for the ceremony. The school acknowledges the mask as yours.</li>
+  </ol>
+  <p>Pick with care: later Magaambya traditions (including very high-level options) lean on the animal you chose. You can reflavor published options to fit an unusual animal if the spirit matches.</p>
+</section>
+
+<section id="baseline">
+  <h2>What it does at first</h2>
+  <ul>
+    <li>It is a <strong>mundane</strong> worn mask (Bulk —, or Bulk 1 if a particular published full-head design says so later).</li>
+    <li>It has <strong>no</strong> invested activations, bonuses, or item level until something from <a href="#powers">Gaining powers</a> applies.</li>
+    <li>It still matters socially and narratively: fellow students and teachers recognize attendants by their masks; your animal is part of how you are known.</li>
+  </ul>
+</section>
+
+<section id="powers">
+  <h2>Three paths to powers</h2>
+  <p>These are separate routes. You can combine some of them over a career, but each has its own gates.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Path</th>
+        <th>What you need</th>
+        <th>What you get</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="#familiar">Familiar</a></td>
+        <td>Magaambyan Attendant dedication, then Mask Familiar</td>
+        <td>Your mask becomes a familiar (wear or detach as colored light)</td>
+      </tr>
+      <tr>
+        <td><a href="#transfer">Transfer</a></td>
+        <td>A found magical mask + teacher help + 1 day + <em>still-mundane</em> personal mask</td>
+        <td>Your spirit mask gains that item’s abilities</td>
+      </tr>
+      <tr>
+        <td><a href="#craft">Craft</a></td>
+        <td>Normal magic-item Crafting (Campus Crafting at this table)</td>
+        <td>You enchant your personal mask (or craft a published mask design as yours)</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="familiar">
+  <h2>Familiar</h2>
+  <p>After you have <a href="https://2e.aonprd.com/Feats.aspx?ID=1102" target="_blank" rel="noopener noreferrer">Magaambyan Attendant Dedication</a> (often as a branch bonus feat once you are an attendant with branch rank 3), you may take <strong>Mask Familiar</strong> (feat 4).</p>
+  <ul>
+    <li>Your mask takes on a personality and serves as your <strong>familiar</strong>.</li>
+    <li>You can still wear it. Detaching or reattaching it to transform between mask and bodily form is a <strong>two-action</strong> activity. Detached, it is usually a miniature of the animal in colored light.</li>
+    <li>Even while worn, it can move on your face and speak in its own voice (if it can talk). Unless an attempt to hide the mask's true nature is made, it is obviously more than a simple mask.</li>
+    <li>It gains the special familiar ability <strong>Mask Freeze</strong>: in mask form it can pass as an ordinary mask at a glance, and gains a +4 circumstance bonus to its Deception DC against someone actively Seeking or studying it.</li>
+    <li>Otherwise it follows normal familiar rules.</li>
+  </ul>
+  <p><strong>Adaptive Mask Familiar</strong> (requires Mask Familiar) lets you select <strong>four</strong> master and familiar abilities each day instead of two.</p>
+  <p class="cite"><a href="https://2e.aonprd.com/Feats.aspx?ID=1103" target="_blank" rel="noopener noreferrer">AoN — Mask Familiar</a> · <a href="https://2e.aonprd.com/Feats.aspx?ID=1104" target="_blank" rel="noopener noreferrer">AoN — Adaptive Mask Familiar</a></p>
+</section>
+
+<section id="transfer">
+  <h2>Transfer</h2>
+  <p>During the adventure you may find <strong>magical masks</strong> as treasure (the Magical Masks toolbox lists designs such as goz, herd, mercy, rhinoceros, shapespeak, skittering, and others).</p>
+  <p>For certain finds, a Magaambya teacher (often Takulu Ot) can help <strong>transfer that mask’s abilities onto a non-magical mask you already own</strong> — including the mask from your First Masking. This takes <strong>1 day of downtime</strong>.</p>
+  <div class="callout">
+    As written, the destination must be <strong>non-magical</strong>. Transfer is “put these abilities onto my blank spirit mask,” not “stack another enchantment onto an already-magic mask.”
+  </div>
+  <ul>
+    <li>After a successful transfer, your personal mask <strong>is</strong> that magic item (same activations, investiture, Bulk, and so on), still looking like your animal.</li>
+    <li>You may instead <strong>wear the found mask as-is</strong> and leave your spirit mask mundane. That is legal; you just are not combining faces.</li>
+    <li>If your spirit mask is already magical, ask the GM before assuming a second transfer or upgrade — the published transfer note does not cover that case.</li>
+  </ul>
+</section>
+
+<section id="craft">
+  <h2>Craft / enchant</h2>
+  <p>Magaambyans often place useful enchantments on their masks for dangerous work. As written, that uses normal <strong>magic-item crafting</strong>:</p>
+  <ul>
+    <li>Meet the usual gates (item level, access/formula, tools, <a href="https://2e.aonprd.com/Feats.aspx?ID=812" target="_blank" rel="noopener noreferrer">Magical Crafting</a> for magic items).</li>
+    <li>At this table, use <strong>Campus Crafting</strong> for time and materials when you are making or enchanting gear for the party.</li>
+    <li>You can craft a published mask item (e.g. a goz mask) and treat it as your personal Magaambyan mask, or enchant your existing wooden mask into one of those designs when the GM agrees the formula fits.</li>
+  </ul>
+  <p>Crafting after a transfer, or transferring onto a still-mundane mask before you craft, are both finer than the books spell out in detail — agree on the end state with the GM so Pathbuilder and treasure stay honest.</p>
+  <p class="cite">Published mask examples: <a href="https://2e.aonprd.com/Equipment.aspx?ID=2355" target="_blank" rel="noopener noreferrer">Skittering Mask</a> · <a href="https://2e.aonprd.com/Equipment.aspx?ID=2349" target="_blank" rel="noopener noreferrer">Herd Mask</a> · Magical Masks in <em>Kindled Magic</em> / Treasure Vault. Party craft procedure: Campus Crafting on the Rules tab.</p>
+</section>
+
+<section id="later">
+  <h2>Later options (pointer only)</h2>
+  <p>Much later in Magaambya careers, high-level options themed to the Magic Warriors may unlock further mask-based feats keyed to the animal you chose at First Masking. Treat those as future unlocks when the campaign reaches them — they are not part of First Masking or early attendant play.</p>
+</section>
+
+<section id="pathbuilder">
+  <details class="pathbuilder">
+    <summary>Pathbuilder — tracking your spirit mask</summary>
+    <div class="pathbuilder-body">
+      <p>Pathbuilder has no “Magaambya spirit mask” type. Track the physical mask as gear, then wire feats and familiars through the same menus used for other Magaambya bonus options. Labels drift by platform and version — if a name below is missing, search the ☰ menu for the closest match.</p>
+
+      <h3>1. Mundane spirit mask (custom gear)</h3>
+      <ol>
+        <li>Open your character and go to the <strong>Inventory</strong> / <strong>Gear</strong> tab (sometimes labeled <strong>Equipment</strong>).</li>
+        <li>Tap <strong>Add Item</strong> (or the <strong>+</strong> control), then choose <strong>Custom Item</strong> / <strong>Create Custom Item</strong> — not a published catalog entry yet.</li>
+        <li>Set <strong>Name</strong> to something clear, e.g. <code>Spirit Mask — buffalo</code>.</li>
+        <li>Set <strong>Usage</strong> / worn slot to <strong>worn mask</strong> (or “worn” + a note that it is a mask). <strong>Bulk</strong> <code>—</code> unless a later magic version says otherwise.</li>
+        <li>In the item’s <strong>description / notes</strong>, write the animal, that it is your First Masking spirit mask, and that it is still mundane.</li>
+        <li>Leave attack, AC, and bonus fields empty. Do not mark it invested until it becomes a magic item.</li>
+      </ol>
+
+      <h3>2. After transfer or craft (magic item)</h3>
+      <p><strong>If the powers match a published mask Pathbuilder knows</strong> (goz, skittering, herd, mercy, rhinoceros, shapespeak, and so on):</p>
+      <ol>
+        <li>On <strong>Inventory</strong> / <strong>Gear</strong>, tap <strong>Add Item</strong> → search the equipment catalog for the published mask name.</li>
+        <li>Add that item. Open it and edit the <strong>name</strong> or <strong>notes</strong> so it is clear this <em>is</em> your spirit mask (same animal face) — e.g. rename to <code>Spirit Mask — buffalo (Mask of Mercy)</code>.</li>
+        <li>Mark it <strong>invested</strong> if the item is Invested (Pathbuilder usually has an Invest toggle on worn magic items).</li>
+        <li>Delete or unequip your old mundane custom mask entry so you do not track two masks.</li>
+        <li>If you previously listed the <em>found</em> loot mask separately, remove that entry too — its powers now live on your spirit mask.</li>
+      </ol>
+      <p><strong>If Pathbuilder has no matching item</strong> (or the GM gave a custom activation):</p>
+      <ol>
+        <li>Open your existing custom spirit-mask item on <strong>Inventory</strong> / <strong>Gear</strong> and edit it.</li>
+        <li>Paste the full activation text into <strong>description / notes</strong>. Set level, Price, Bulk, and Invested to match the item.</li>
+        <li>If the item grants a flat bonus Pathbuilder can model, add it on the item or as a <strong>custom buff</strong> (☰ → <strong>Buffs</strong> / custom effects) that you toggle when the mask is worn. Leave triggers and once-per-day riders in the notes.</li>
+      </ol>
+      <div class="callout">
+        Pathbuilder will not enforce “destination must be non-magical” for transfer. Confirm with the GM before you replace the mundane entry.
+      </div>
+
+      <h3>3. Collegiate Attendant Dedication (Magaambyan Attendant)</h3>
+      <p>Pathbuilder cannot ship “Magaambya” product-identity names. Search for <strong>Collegiate Attendant Dedication</strong> — same feat, licensing rename — then choose your branch when prompted.</p>
+      <p><strong>If the dedication is a branch bonus feat</strong> (Dedicated Attendant at branch rank 3 — does not spend a class feat):</p>
+      <ol>
+        <li>Open the menu (<strong>☰</strong>) and choose <strong>Custom Feat Choices</strong> (sometimes near Custom Pack / optional rules; wording may be “Custom Feat” / “Feat Choices”).</li>
+        <li>Add a new choice of type <strong>archetype feat</strong> / <strong>dedication</strong> (whatever label Pathbuilder offers for dedications).</li>
+        <li>Search for and select <strong>Collegiate Attendant Dedication</strong>.</li>
+        <li>When Pathbuilder asks for branch affiliation, pick your <strong>primary</strong> Magaambya branch.</li>
+        <li>If it warns that you have not finished another archetype yet, ignore it for this campaign: Dedicated Attendant grants the dedication even without two prior archetype feats.</li>
+      </ol>
+      <p><strong>If you are taking the dedication with a normal class / archetype feat slot</strong> instead:</p>
+      <ol>
+        <li>Open the <strong>Feats</strong> tab (or level-up flow for the level that grants the class feat).</li>
+        <li>Choose an archetype / dedication feat slot, search <strong>Collegiate Attendant Dedication</strong>, select it, and set branch affiliation.</li>
+      </ol>
+      <p>Either way, do <strong>not</strong> also spend a level-up feat on it if it already came free from your branch.</p>
+
+      <h3>4. Mask Familiar (and Adaptive Mask Familiar)</h3>
+      <p><strong>Bonus / free archetype feat</strong> (rare for Mask Familiar, but use this if the GM grants it outside a level-up):</p>
+      <ol>
+        <li>☰ → <strong>Custom Feat Choices</strong>.</li>
+        <li>Add an <strong>archetype feat</strong> choice.</li>
+        <li>Search for <strong>Mask Familiar</strong> (under Collegiate / Magaambyan Attendant). Select it.</li>
+        <li>For <strong>Adaptive Mask Familiar</strong> later, repeat with that feat name.</li>
+      </ol>
+      <p><strong>Normal archetype feat at a level-up</strong> (usual case):</p>
+      <ol>
+        <li>On the <strong>Feats</strong> tab (or when leveling), open the class / archetype feat picker for that level.</li>
+        <li>Filter or search archetype feats for <strong>Mask Familiar</strong>. You need Collegiate Attendant Dedication on the sheet first or Pathbuilder may hide the feat.</li>
+        <li>Select <strong>Mask Familiar</strong>. Later, take <strong>Adaptive Mask Familiar</strong> the same way when you qualify.</li>
+      </ol>
+
+      <h3>5. Configure the familiar on the sheet</h3>
+      <ol>
+        <li>Open the menu (<strong>☰</strong>) and look for <strong>Familiars &amp; Pets</strong>, <strong>Familiar</strong>, or a <strong>Pets</strong> tab (exact label varies; some builds put this under Character Options).</li>
+        <li>Add / enable a <strong>familiar</strong>. Name it after your mask animal if you like.</li>
+        <li>In the familiar’s notes or description, write that it <em>is</em> your spirit mask: wear form vs colored-light form, and that detach / reattach is a <strong>two-action</strong> activity (Pathbuilder will not enforce that).</li>
+        <li>Pick your daily familiar and master abilities as usual on that screen.</li>
+        <li><strong>Mask Freeze</strong> is not always a catalog familiar ability. If it is not in the picker, add a line in the familiar notes: Mask Freeze — passes as a simple mask at a glance; +4 circumstance to Deception DC when someone actively Seeks / studies it. You can also put the same reminder on the gear item notes.</li>
+        <li>If you take Adaptive Mask Familiar, remember you select <strong>four</strong> abilities per day — Pathbuilder may still show a two-ability UI; track the extras in notes or ask the GM how your table marks them.</li>
+      </ol>
+
+      <p>If a menu label does not match exactly, search ☰ for “Custom Feat,” “Familiar,” or “Inventory” — Pathbuilder’s wording varies slightly by platform and version. Academia Downtime on the Rules tab has the same Custom Feat Choices walkthrough for other branch bonus feats.</p>
+    </div>
+  </details>
+</section>
+
+<section id="quiz">
+  <h2>Self-check</h2>
+
+  <div class="quiz" data-q="1" data-answer="b" data-section="baseline">
+    <h3>1. Right after First Masking, your spirit mask…</h3>
+    <button type="button" onclick="check(this,'a')">A. Is automatically a level 2 invested magic item of your choice</button>
+    <button type="button" onclick="check(this,'b')">B. Is a personal wooden animal mask with no automatic item powers</button>
+    <button type="button" onclick="check(this,'c')">C. Must be invested every day or you lose attendant rank</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="a" data-section="making">
+    <h3>2. Your mask’s animal form…</h3>
+    <button type="button" onclick="check(this,'a')">A. Reflects your spirit face and is how you are known at the Magaambya</button>
+    <button type="button" onclick="check(this,'b')">B. Must match your primary branch’s founder exactly</button>
+    <button type="button" onclick="check(this,'c')">C. Is assigned randomly by Tireless Hall</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="c" data-section="overview">
+    <h3>3. Wearing your mask at all times is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Required by Magaambya law or you are expelled</button>
+    <button type="button" onclick="check(this,'b')">B. Required only while casting spells</button>
+    <button type="button" onclick="check(this,'c')">C. Traditional and meaningful, but not mandatory every moment</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b" data-section="familiar">
+    <h3>4. Mask Familiar turns your mask into…</h3>
+    <button type="button" onclick="check(this,'a')">A. A +1 striking weapon</button>
+    <button type="button" onclick="check(this,'b')">B. A familiar you can wear or detach as colored light</button>
+    <button type="button" onclick="check(this,'c')">C. A staff with free charges equal to your level</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="5" data-answer="a" data-section="familiar">
+    <h3>5. Detaching or reattaching a mask familiar is…</h3>
+    <button type="button" onclick="check(this,'a')">A. A two-action activity</button>
+    <button type="button" onclick="check(this,'b')">B. A free action once per day</button>
+    <button type="button" onclick="check(this,'c')">C. Impossible — familiars cannot be worn</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="6" data-answer="c" data-section="transfer">
+    <h3>6. Transferring a found magical mask’s abilities onto your spirit mask requires…</h3>
+    <button type="button" onclick="check(this,'a')">A. Only spending gold equal to the item’s Price</button>
+    <button type="button" onclick="check(this,'b')">B. That your spirit mask already be a magic item</button>
+    <button type="button" onclick="check(this,'c')">C. Teacher help, 1 day of downtime, and a still-non-magical personal mask</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="7" data-answer="b" data-section="transfer">
+    <h3>7. If you find a magical mask and do not transfer it, you may…</h3>
+    <button type="button" onclick="check(this,'a')">A. Never use it — only spirit masks function for attendants</button>
+    <button type="button" onclick="check(this,'b')">B. Wear the found mask as a normal magic item and leave your spirit mask mundane</button>
+    <button type="button" onclick="check(this,'c')">C. Immediately stack its powers onto an already-enchanted spirit mask for free</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="8" data-answer="a" data-section="craft">
+    <h3>8. Enchanting your personal mask through crafting…</h3>
+    <button type="button" onclick="check(this,'a')">A. Uses normal magic-item Crafting gates (and Campus Crafting at this table)</button>
+    <button type="button" onclick="check(this,'b')">B. Happens automatically after one Study downtime</button>
+    <button type="button" onclick="check(this,'c')">C. Is forbidden — only Mask Familiar is allowed</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="9" data-answer="c" data-section="powers">
+    <h3>9. Mask Familiar and a magic-item mask are…</h3>
+    <button type="button" onclick="check(this,'a')">A. The same path — picking the feat crafts a Goz mask</button>
+    <button type="button" onclick="check(this,'b')">B. Mutually exclusive forever</button>
+    <button type="button" onclick="check(this,'c')">C. Separate paths: familiar is a feat; item powers come from transfer or craft</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="10" data-answer="b" data-section="familiar">
+    <h3>10. Adaptive Mask Familiar lets you…</h3>
+    <button type="button" onclick="check(this,'a')">A. Ignore the non-magical requirement for transfer</button>
+    <button type="button" onclick="check(this,'b')">B. Select four master and familiar abilities each day instead of two</button>
+    <button type="button" onclick="check(this,'c')">C. Wear two spirit masks at once</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div id="quiz-summary" class="quiz-summary" hidden>
+    <p id="quiz-score"></p>
+    <button type="button" id="quiz-reset" class="quiz-reset">Reset quiz</button>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Strength of Thousands table rules · Spirit masks as written (mundane baseline; familiar / transfer / craft)
+</footer>
+
+<script>
+  var quizSectionLabels = {
+    overview: 'What a spirit mask is',
+    making: 'Making yours',
+    baseline: 'What it does at first',
+    powers: 'Three paths to powers',
+    familiar: 'Familiar',
+    transfer: 'Transfer',
+    craft: 'Craft / enchant',
+    later: 'Later options'
+  };
+
+  var QUIZ_TOTAL = 10;
+
+  function check(btn, choice) {
+    var quiz = btn.closest('.quiz');
+    if (quiz.getAttribute('data-result')) return;
+    var answer = quiz.getAttribute('data-answer');
+    var section = quiz.getAttribute('data-section');
+    var feedback = quiz.querySelector('.feedback');
+    var correct = choice === answer;
+    quiz.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    if (correct) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else {
+      feedback.className = 'feedback wrong';
+      var label = quizSectionLabels[section] || section;
+      feedback.innerHTML =
+        'Not quite — see <a href="#' + section + '">' + label + '</a>.';
+    }
+    quiz.setAttribute('data-result', correct ? 'correct' : 'wrong');
+    updateQuizSummary();
+  }
+
+  function updateQuizSummary() {
+    var answered = document.querySelectorAll('#quiz .quiz[data-result]');
+    if (answered.length < QUIZ_TOTAL) return;
+    var correct = document.querySelectorAll('#quiz .quiz[data-result="correct"]').length;
+    var scoreEl = document.getElementById('quiz-score');
+    scoreEl.textContent = correct + ' / ' + QUIZ_TOTAL + ' correct.';
+    scoreEl.className = correct >= 8 ? 'quiz-score-pass' : 'quiz-score-fail';
+    document.getElementById('quiz-summary').className =
+      'quiz-summary' + (correct >= 8 ? ' quiz-summary-pass' : '');
+    document.getElementById('quiz-summary').hidden = false;
+  }
+
+  function resetQuiz() {
+    document.querySelectorAll('#quiz .quiz').forEach(function (quiz) {
+      quiz.removeAttribute('data-result');
+      var feedback = quiz.querySelector('.feedback');
+      feedback.textContent = '';
+      feedback.className = 'feedback';
+      quiz.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
+    });
+    document.getElementById('quiz-summary').hidden = true;
+    document.getElementById('quiz-summary').className = 'quiz-summary';
+    document.getElementById('quiz-score').className = '';
+  }
+
+  document.getElementById('quiz-reset').addEventListener('click', resetQuiz);
+</script>
+
+</body>
+</html>

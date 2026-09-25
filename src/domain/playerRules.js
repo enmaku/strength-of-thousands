@@ -25,5 +25,11 @@ export function getPublishedPlayerRules() {
       caption: 'Downtime item crafting',
       href: `${pagesBase}/lessons/0014-campus-crafting.html`,
     },
+    {
+      id: 'spirit-masks',
+      title: 'Spirit Masks',
+      caption: 'First Masking, familiar, transfer & craft',
+      href: `${pagesBase}/lessons/0015-spirit-masks.html`,
+    },
   ]
 }

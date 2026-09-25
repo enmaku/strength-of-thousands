@@ -45,6 +45,7 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 0. Academia Downtime (campaign-wide, player rules) — `lessons/0007-academia-downtime-gm-prep.html`
 0. Branch Implements (campaign-wide, player rules) — `lessons/0013-branch-implements-gm-prep.html`
 0. Campus Crafting (campaign-wide, player rules) — `lessons/0014-campus-crafting.html`
+0. Spirit Masks (campaign-wide, player rules) — `lessons/0015-spirit-masks.html`
 0. How to write player rules handouts: `reference/sot-player-rules-guide.md`
 1. Kindled Magic (Book 1) — `lessons/0001-kindled-magic-gm-prep.html`
 2. Spoken on the Song Wind (Book 2) — `lessons/0002-spoken-on-the-song-wind-gm-prep.html`
