@@ -16,6 +16,8 @@
       --red-earth: #6d3711;
       --border: #c7aa82;
       --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
       --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
       --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
@@ -140,6 +142,61 @@
       border-top: 1px solid var(--border);
     }
     details.fold .fold-body > :first-child { margin-top: 1rem; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 2px;
+    }
+    .quiz h3 { margin-top: 0; color: var(--green); }
+    .quiz button {
+      font-family: var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: none;
+      padding: 0.45rem 0.9rem;
+      margin: 0.35rem 0.35rem 0.35rem 0;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .quiz button:hover { background: #103040; }
+    .quiz .feedback { margin-top: 0.75rem; font-weight: 600; min-height: 1.4em; }
+    .quiz .feedback.correct { color: var(--correct); }
+    .quiz .feedback.wrong { color: var(--wrong); }
+    .quiz .feedback.wrong a { color: var(--wrong); text-decoration: underline; }
+    .quiz-summary {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      background: var(--green-soft);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      text-align: center;
+    }
+    .quiz-summary p { margin: 0 0 1rem; font-weight: 600; font-size: 1.05rem; }
+    .quiz-summary p.quiz-score-pass { color: var(--correct); }
+    .quiz-summary p.quiz-score-fail { color: var(--wrong); }
+    .quiz-reset {
+      font-family: var(--sans);
+      background: var(--red-earth);
+      color: #fcf2d1;
+      border: none;
+      padding: 0.5rem 1.1rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.9rem;
+    }
+    .quiz-reset:hover { background: #4a2810; }
+    .quiz-summary.quiz-summary-pass .quiz-reset {
+      background: var(--correct);
+    }
+    .quiz-summary.quiz-summary-pass .quiz-reset:hover {
+      background: #305008;
+    }
   </style>
 </head>
 <body>
@@ -162,6 +219,7 @@
   <a href="#rain-scribes">Rain-Scribes</a>
   <a href="#tempest-sun-mages">Tempest-Sun Mages</a>
   <a href="#uzunjati">Uzunjati</a>
+  <a href="#quiz">Self-check</a>
 </nav>
 
 <section id="overview">
@@ -327,7 +385,7 @@
       <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=5150" target="_blank" rel="noopener noreferrer">Fleet</a>.</p>
       <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1107" target="_blank" rel="noopener noreferrer">Rain-Scribe Sustenance</a>.</strong> You do not need to eat or drink, and 6 hours of rest leaves you well rested. You still need 8 hours and an hour of preparation to regain limited-use resources such as spell slots. You can stay awake and alert through that rest and still gain its benefits; if you do, the other benefits of this feat are suspended for a week.</p>
       <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1112" target="_blank" rel="noopener noreferrer">Rain-Scribe Mobility</a>.</strong> Stride twice. Difficult terrain does not reduce your Speed, even when magic created it. Until your next turn, each square you entered is no longer difficult terrain, or is only ordinary difficult terrain if it had been greater difficult terrain.</p>
-      <p><strong>Branch 20 — Magical Paragon.</strong> You take no damage from severe or extreme cold or heat. You move at full Speed through difficult and greater difficult terrain and take no damage from hazardous terrain. When you use Rain-Scribe Mobility, you also clear hazardous terrain from the squares you enter for 1 round.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> You take no damage from severe or extreme cold or heat. You move at full Speed through difficult and greater difficult terrain and take no damage from hazardous terrain. When you use Rain-Scribe Mobility, you clear difficult terrain, greater difficult terrain, and hazardous terrain from the squares you enter for 1 round.</p>
       <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
       <h4>Classroom advantages</h4>
       <p>Liked (3 hearts) on the Social page:</p>
@@ -367,7 +425,7 @@
   <details class="fold">
     <summary>Suggested binding traits</summary>
     <div class="fold-body">
-      <p><strong>Suggested:</strong> <code>fire</code>, <code>electricity</code>, <code>air</code>, <code>force</code>. Offensive pressure and battlefield courage. Many damaging spells are save-based and do not have the <code>attack</code> trait, so that trait alone is a poor binder, but may still be viable depending on your build. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+      <p><strong>Suggested:</strong> <code>fire</code>, <code>electricity</code>, <code>air</code>, <code>force</code>. Offensive pressure and battlefield courage. Many damaging spells are save-based and do not have the <code>attack</code> trait, so that trait is a poor default. It is a reasonable binding trait only when the build actually casts attack spells. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
     </div>
   </details>
 
@@ -417,14 +475,15 @@
   <details class="fold">
     <summary>Suggested binding traits</summary>
     <div class="fold-body">
-      <p><strong>Suggested:</strong> <code>mental</code>, <code>revelation</code>, or <code>detection</code> are often found on spells pertaining to story, memory, and knowing. Linguistic or auditory spells may also be a good consideration when choosing your binding trait. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+      <p><strong>Suggested:</strong> <code>mental</code>, <code>revelation</code>, or <code>detection</code>. These often appear on spells of story, memory, and knowing. If you want linguistic or auditory spells, look at which of those traits the spells actually have. They can be inscribed only when they also have your binding trait. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
     </div>
   </details>
 
   <details class="fold">
     <summary>Branch levels and classroom advantages</summary>
     <div class="fold-body">
-      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=794" target="_blank" rel="noopener noreferrer">Incredible Initiative</a>. A skill increase spent on Lore grants Additional Lore instead of one rank in a single Lore.</p>
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=794" target="_blank" rel="noopener noreferrer">Incredible Initiative</a>.</p>
+      <p><strong>Skill increases (branch 6, 10, 14, and 18):</strong> a Lore increase grants Additional Lore instead of one rank in a single Lore.</p>
       <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1109" target="_blank" rel="noopener noreferrer">Uzunjati Storytelling</a>.</strong> Prerequisite: master proficiency in a skill that can Recall Knowledge. You tell a quick story, rolling a Recall Knowledge skill in which you are at least an expert and using the result entries for Perform. It is not the Performance action. On its own it rarely changes the scene; a strong telling can shift later Diplomacy DCs or attitudes if the GM agrees. If you are not yet a master in any Recall Knowledge skill when you reach branch 7, you do not qualify yet — the published feat requires it, and the only listed substitute is for when you already have the feat.</p>
       <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1114" target="_blank" rel="noopener noreferrer">Uzunjati Recollection</a>.</strong> Prerequisite: Uzunjati Storytelling, and master proficiency in a Recall Knowledge skill. Recall Knowledge with a skill in which you are a master, then use Uzunjati Storytelling with that same skill. You gain a +1 circumstance bonus to the storytelling check from the added detail.</p>
       <p><strong>Branch 20 — Magical Paragon.</strong> When you use Uzunjati Recollection, you Recall Knowledge three times instead of once, each with a +2 circumstance bonus. You also gain a +2 circumstance bonus to the Uzunjati Storytelling check from the combined narrative.</p>
@@ -439,11 +498,160 @@
   </details>
 </section>
 
+<section id="quiz">
+  <h2>Self-check</h2>
+
+  <div class="quiz" data-q="1" data-answer="b" data-section="cascade-bearers">
+    <h3>1. The Cascade Bearers’ virtue is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Valor</button>
+    <button type="button" onclick="check(this,'b')">B. Imagination</button>
+    <button type="button" onclick="check(this,'c')">C. Knowledge</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="2" data-answer="a" data-section="cascade-bearers">
+    <h3>2. You bring the Cascade Bearers a problem about…</h3>
+    <button type="button" onclick="check(this,'a')">A. New or unfinished magic</button>
+    <button type="button" onclick="check(this,'b')">B. Communities and how people live now</button>
+    <button type="button" onclick="check(this,'c')">C. The land, the weather, and travel</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="3" data-answer="c" data-section="emerald-boughs">
+    <h3>3. The Emerald Boughs’ virtue is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Imagination</button>
+    <button type="button" onclick="check(this,'b')">B. Adaptability</button>
+    <button type="button" onclick="check(this,'c')">C. Camaraderie</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="4" data-answer="b" data-section="emerald-boughs">
+    <h3>4. You bring the Emerald Boughs a problem about…</h3>
+    <button type="button" onclick="check(this,'a')">A. Stories and what they mean</button>
+    <button type="button" onclick="check(this,'b')">B. Communities and how people live now</button>
+    <button type="button" onclick="check(this,'c')">C. Threats to the school and the city</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="5" data-answer="a" data-section="rain-scribes">
+    <h3>5. The Rain-Scribes’ virtue is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Adaptability</button>
+    <button type="button" onclick="check(this,'b')">B. Camaraderie</button>
+    <button type="button" onclick="check(this,'c')">C. Valor</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="6" data-answer="c" data-section="rain-scribes">
+    <h3>6. You bring the Rain-Scribes a problem about…</h3>
+    <button type="button" onclick="check(this,'a')">A. New or unfinished magic</button>
+    <button type="button" onclick="check(this,'b')">B. Stories and what they mean</button>
+    <button type="button" onclick="check(this,'c')">C. The land, the weather, and travel</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="7" data-answer="b" data-section="tempest-sun-mages">
+    <h3>7. The Tempest-Sun Mages’ virtue is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Knowledge</button>
+    <button type="button" onclick="check(this,'b')">B. Valor</button>
+    <button type="button" onclick="check(this,'c')">C. Imagination</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="8" data-answer="a" data-section="tempest-sun-mages">
+    <h3>8. You bring the Tempest-Sun Mages a problem about…</h3>
+    <button type="button" onclick="check(this,'a')">A. Threats to the school and the city</button>
+    <button type="button" onclick="check(this,'b')">B. Communities and how people live now</button>
+    <button type="button" onclick="check(this,'c')">C. The land, the weather, and travel</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="9" data-answer="c" data-section="uzunjati">
+    <h3>9. The Uzunjati’s virtue is…</h3>
+    <button type="button" onclick="check(this,'a')">A. Adaptability</button>
+    <button type="button" onclick="check(this,'b')">B. Camaraderie</button>
+    <button type="button" onclick="check(this,'c')">C. Knowledge</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div class="quiz" data-q="10" data-answer="b" data-section="uzunjati">
+    <h3>10. You bring the Uzunjati a problem about…</h3>
+    <button type="button" onclick="check(this,'a')">A. New or unfinished magic</button>
+    <button type="button" onclick="check(this,'b')">B. Stories and what they mean</button>
+    <button type="button" onclick="check(this,'c')">C. Communities and how people live now</button>
+    <div class="feedback"></div>
+  </div>
+
+  <div id="quiz-summary" class="quiz-summary" hidden>
+    <p id="quiz-score"></p>
+    <button type="button" id="quiz-reset" class="quiz-reset">Reset quiz</button>
+  </div>
+</section>
+
 </main>
 
 <footer>
   Strength of Thousands table rules · The five branches of the Magaambya
 </footer>
+
+<script>
+  var quizSectionLabels = {
+    'cascade-bearers': 'Cascade Bearers',
+    'emerald-boughs': 'Emerald Boughs',
+    'rain-scribes': 'Rain-Scribes',
+    'tempest-sun-mages': 'Tempest-Sun Mages',
+    'uzunjati': 'Uzunjati'
+  };
+
+  var QUIZ_TOTAL = 10;
+
+  function check(btn, choice) {
+    var quiz = btn.closest('.quiz');
+    if (quiz.getAttribute('data-result')) return;
+    var answer = quiz.getAttribute('data-answer');
+    var section = quiz.getAttribute('data-section');
+    var feedback = quiz.querySelector('.feedback');
+    var correct = choice === answer;
+    quiz.querySelectorAll('button').forEach(function (b) { b.disabled = true; });
+    if (correct) {
+      feedback.textContent = 'Correct.';
+      feedback.className = 'feedback correct';
+    } else {
+      feedback.className = 'feedback wrong';
+      var label = quizSectionLabels[section] || section;
+      feedback.innerHTML =
+        'Not quite — see <a href="#' + section + '">' + label + '</a>.';
+    }
+    quiz.setAttribute('data-result', correct ? 'correct' : 'wrong');
+    updateQuizSummary();
+  }
+
+  function updateQuizSummary() {
+    var answered = document.querySelectorAll('#quiz .quiz[data-result]');
+    if (answered.length < QUIZ_TOTAL) return;
+    var correct = document.querySelectorAll('#quiz .quiz[data-result="correct"]').length;
+    var scoreEl = document.getElementById('quiz-score');
+    scoreEl.textContent = correct + ' / ' + QUIZ_TOTAL + ' correct.';
+    scoreEl.className = correct >= 8 ? 'quiz-score-pass' : 'quiz-score-fail';
+    document.getElementById('quiz-summary').className =
+      'quiz-summary' + (correct >= 8 ? ' quiz-summary-pass' : '');
+    document.getElementById('quiz-summary').hidden = false;
+  }
+
+  function resetQuiz() {
+    document.querySelectorAll('#quiz .quiz').forEach(function (quiz) {
+      quiz.removeAttribute('data-result');
+      var feedback = quiz.querySelector('.feedback');
+      feedback.textContent = '';
+      feedback.className = 'feedback';
+      quiz.querySelectorAll('button').forEach(function (b) { b.disabled = false; });
+    });
+    document.getElementById('quiz-summary').hidden = true;
+    document.getElementById('quiz-summary').className = 'quiz-summary';
+    document.getElementById('quiz-score').className = '';
+  }
+
+  document.getElementById('quiz-reset').addEventListener('click', resetQuiz);
+</script>
 
 </body>
 </html>
