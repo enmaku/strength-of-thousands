@@ -58,7 +58,7 @@ Copy styles from an exemplar — do not invent a new palette. Shared conventions
 6. **Self-check** — conceptual quiz (see below).
 7. **Footer** — one muted line naming the table rules topic. No link farms.
 
-Baseline PF2e that the subsystem sits on top of: **short paragraph + AoN cite**, not an encyclopedia of Earn Income / Craft / etc. Point out that academia (or similar) is story-scheduled while normal downtime stays available.
+Baseline PF2e that the subsystem sits on top of: **short paragraph + AoN cite**, not an encyclopedia of Earn Income / Craft / etc. An academia block is downtime and may be spent on ordinary downtime at any time. That spends the Study or Practical Research opportunity. Being at both branch caps is when the trade is cheapest, since a check would only bank a ★.
 
 ## Voice and content rules
 
