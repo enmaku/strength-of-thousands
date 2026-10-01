@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 5 Combat Guide — Introduction Ceremony</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #6f7068;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --stat-bg: #fffdf8;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner, main, nav.toc, footer { max-width: 52rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    nav.toc {
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a, a { color: var(--green); }
+    main { padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      color: var(--green);
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { color: var(--red-earth); font-size: 1.08rem; margin: 1.5rem 0 0.5rem; }
+    h4 {
+      font: 700 0.78rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 1.1rem 0 0.35rem;
+    }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin: 1rem 0; }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.45rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font: 700 0.74rem var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .callout, .spoiler-box, .strategy {
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.97rem;
+    }
+    .callout { background: var(--green-soft); border-left: 4px solid var(--green); }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); }
+    .spoiler-box strong { color: var(--red-earth); }
+    .strategy {
+      background: #f3ebe0;
+      border-left: 4px solid var(--red-earth);
+    }
+    .tag {
+      display: inline-block;
+      font: 700 0.64rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.warn { background: #f6e0d8; color: #8a3a22; }
+    .tag.action {
+      background: var(--green);
+      color: #fcf2d1;
+      border-color: var(--green);
+      margin-right: 0.25rem;
+    }
+    .cite { color: var(--muted); font-size: 0.8rem; }
+    .nav-lessons { font: 0.85rem var(--sans); }
+    .stat {
+      background: var(--stat-bg);
+      border: 1px solid var(--border);
+      padding: 1rem 1.15rem;
+      margin: 1rem 0 1.5rem;
+      font-size: 0.95rem;
+    }
+    .stat .name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--green);
+      margin: 0 0 0.15rem;
+    }
+    .stat .meta {
+      font: 700 0.72rem var(--sans);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--red-earth);
+      margin: 0 0 0.75rem;
+    }
+    .stat .line { margin: 0.2rem 0; }
+    .stat .ability {
+      margin: 0.85rem 0 0;
+      padding-top: 0.65rem;
+      border-top: 1px solid var(--border);
+    }
+    .stat .ability:first-of-type { border-top: 0; padding-top: 0; }
+    .stat .ability strong.title { color: var(--red-earth); }
+    .hp-track {
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0.35rem 0 0;
+    }
+    .quick {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+      gap: 0.65rem;
+      margin: 1rem 0;
+    }
+    .quick div {
+      background: var(--stat-bg);
+      border: 1px solid var(--border);
+      padding: 0.65rem 0.75rem;
+      font-size: 0.88rem;
+    }
+    .quick strong {
+      display: block;
+      font: 700 0.7rem var(--sans);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--red-earth);
+      margin-bottom: 0.2rem;
+    }
+    details.expand {
+      background: var(--stat-bg);
+      border: 1px solid var(--border);
+      margin: 1rem 0 1.5rem;
+    }
+    details.expand > summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--green);
+      padding: 0.85rem 1.15rem;
+      user-select: none;
+    }
+    details.expand > summary::-webkit-details-marker { display: none; }
+    details.expand > summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.5rem;
+      transition: transform 0.15s ease;
+    }
+    details.expand[open] > summary::before { transform: rotate(90deg); }
+    details.expand > summary:hover { background: var(--green-soft); }
+    details.expand .expand-body {
+      padding: 0 1.15rem 1.15rem;
+      border-top: 1px solid var(--border);
+    }
+    details.expand .expand-body > :first-child { margin-top: 1rem; }
+    footer {
+      padding: 1.5rem 1.5rem 3rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font: 0.83rem var(--sans);
+    }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      table { display: block; overflow-x: auto; }
+    }
+    @media print {
+      nav.toc { display: none; }
+      body { background: #fff; font-size: 10pt; }
+      header { padding: 1rem; }
+      main { padding-bottom: 1rem; }
+      h2, .stat { break-after: avoid; }
+      .stat, .callout, .strategy, .spoiler-box { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 5 · GM combat pad</p>
+    <h1>Introduction Ceremony — Combat Guide</h1>
+    <p>Kurshkin, Havvix, and pugwampi adds — full blocks, spells, and how to run them against this table.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#setup">Setup</a>
+  <a href="#plan">Battle plan</a>
+  <a href="#kurshkin">Kurshkin</a>
+  <a href="#havvix">Havvix</a>
+  <a href="#pugwampi">Pugwampis</a>
+  <a href="#snare">Snare</a>
+  <a href="#track">HP track</a>
+  <a href="#escape">Escape / aftermath</a>
+</nav>
+
+<main>
+  <p class="nav-lessons">
+    <a href="0016-session-5-prep.html">Session 5 Prep</a> ·
+    <a href="0008-party-character-analysis-gm-prep.html">Party analysis</a> ·
+    <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+    <a href="../reference/sot-session-log.md">Session log</a>
+  </p>
+
+  <div class="callout">
+    <strong>Combat thesis:</strong> misfortune is a choice of target, not weather.
+    Unluck, the snare, and fake surrender ask whether the cohort answers fear with slaughter or with the care they practiced when Anchor talked pugwampis down — and whether Kurshkin’s “purge” story survives contact with how they fight.
+  </div>
+
+  <section id="setup">
+    <h2>Encounter setup</h2>
+    <p><span class="tag warn">Severe 1 printed · padded for 6</span> Dawn outdoor stage. Ot late. Gremlins under the platform; they scramble onto the stage when heroes close.</p>
+    <table>
+      <thead><tr><th>Fact</th><th>Rule</th></tr></thead>
+      <tbody>
+        <tr><td>Platform</td><td>~3 ft up on wooden supports; ramp south between two 8-ft pillars; low curved stone wall north (audience seating).</td></tr>
+        <tr><td>Grass</td><td>Slick from rains = <strong>difficult terrain</strong>.</td></tr>
+        <tr><td>Hampering snare</td><td>Dotted lines on map. DC 18 Perception to spot. Tiny gremlins do not trigger. Full text <a href="#snare">below</a>.</td></tr>
+        <tr><td>Printed foes</td><td>Kurshkin (C3) + Havvix (C1 vexgit) = 120 XP Severe-for-4.</td></tr>
+        <tr><td>Table pad</td><td><strong>3 pugwampis</strong> (C0) default (~180 XP Severe-for-6). Use 2 if 1–2 PCs absent. Prefer bodies over Elite Kurshkin.</td></tr>
+      </tbody>
+    </table>
+    <p class="cite">Scene: <code>kindled-magic.txt</code> printed pp. 27–29. Kurshkin block: toolbox p. 86. Havvix: <em>Bestiary 2</em> vexgit. Pugwampi: <em>Bestiary</em> (legacy — match the AP).</p>
+  </section>
+
+  <section id="plan">
+    <h2>Battle plan — who does what</h2>
+    <div class="quick">
+      <div><strong>Kurshkin</strong>Stay in Unluck Aura range, out of melee. Shortbow the summoner / backline. Escape script below 16 / 10 HP.</div>
+      <div><strong>Havvix</strong>Rush melee. Break bones. Fearful of small metal bells (frightened 1 within 30 ft). Retreat &lt;6 HP.</div>
+      <div><strong>Pugwampis</strong>Clutter melee, force aura saves, skirmish with bows. Flee &lt;6 HP (barn habit). Recognition optional.</div>
+    </div>
+    <div class="strategy">
+      <strong>Aura order matters.</strong> Succeeding vs any pugwampi Unluck Aura (even DC 16) grants 24-hour immunity to <em>all</em> pugwampi unluck auras — including Kurshkin’s DC 20.
+      Do <em>not</em> let a lone add rush ahead and gift easy saves. Open with Kurshkin’s aura overlapping the party, or keep adds stacked with her so the first save is against DC 20.
+    </div>
+    <ul>
+      <li><strong>Round 0:</strong> Heroes approach slick grass / snare zone. Perception DC 18 for the snare. Gremlins on or under stage.</li>
+      <li><strong>Round 1:</strong> Kurshkin bows from ~15–20 ft of as many PCs as possible. Havvix closes. Pugwampis spread so auras cover eidolons + MODU + PCs without giving free DC 16 saves first.</li>
+      <li><strong>Priority targets:</strong> Tiny/backline summoners (drop summoner → lose eidolon). Cy’An / MODU if clustered. Do not waste all shots on the beefiest eidolon.</li>
+      <li><strong>Bells:</strong> Cascade cold-iron / small metal bells → Havvix frightened 1 within 30 ft. Kurshkin ignores superstition. Telegraph the jangle.</li>
+      <li><strong>Do not</strong> Elite Kurshkin mid-fight unless the pad still melts after two full rounds of adds. Action count &gt; HP bumps.</li>
+    </ul>
+  </section>
+
+  <section id="kurshkin">
+    <h2>Kurshkin</h2>
+    <p>Ancient pugwampi jinxer. Comedy-menace voice; genuine grudge. Mistook barn clear + fey ward as another purge. Prefers living victims to corpses — cowardice dressed as cruelty.</p>
+
+    <div class="stat">
+      <p class="name">Kurshkin</p>
+      <p class="meta">Creature 3 · Unique · NE · Tiny · Fey · Gremlin · Female pugwampi jinxer</p>
+      <p class="line"><strong>Perception</strong> +10 (+2 to hear things); darkvision</p>
+      <p class="line"><strong>Languages</strong> Common, Gnoll, Undercommon</p>
+      <p class="line"><strong>Skills</strong> Arcana +8, Crafting +8, Deception +8, Nature +8, Stealth +11, Thievery +9 (+11 to Steal)</p>
+      <p class="line"><strong>Str</strong> −2, <strong>Dex</strong> +4, <strong>Con</strong> +1, <strong>Int</strong> +1, <strong>Wis</strong> −1, <strong>Cha</strong> +3</p>
+      <p class="line"><strong>Items</strong> shortbow (60 arrows), shortsword</p>
+      <p class="line"><strong>AC</strong> 19; <strong>Fort</strong> +8, <strong>Ref</strong> +11, <strong>Will</strong> +8</p>
+      <p class="line"><strong>HP</strong> 50; <strong>Weaknesses</strong> cold iron 5</p>
+      <p class="hp-track">HP ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢</p>
+
+      <div class="ability">
+        <strong class="title">Collateral Damage</strong>
+        <span class="tag action">Reaction</span>
+        <strong>Trigger</strong> A Strike critically misses Kurshkin;
+        <strong>Effect</strong> Kurshkin redirects the strike to an adjacent creature. The attacker rerolls the Strike against that creature.
+      </div>
+
+      <div class="ability">
+        <strong class="title">Unluck Aura</strong>
+        (aura, divination, mental, misfortune, primal) 20 feet.
+        Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky
+        (DC 20 Will save; a creature must roll this Will save twice and take the worse result).
+        On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours.
+        On a failure, the creature must roll twice and take the worse result on all checks as long as it remains within the aura’s emanation.
+      </div>
+
+      <p class="line" style="margin-top:0.85rem"><strong>Speed</strong> 25 feet</p>
+      <p class="line"><strong>Melee</strong> <span class="tag action">1</span> shortsword +12 (agile, finesse, magical, versatile S), <strong>Damage</strong> 1d6+4 piercing</p>
+      <p class="line"><strong>Ranged</strong> <span class="tag action">1</span> shortbow +12 (deadly d10, magical, range increment 60 feet, reload 0), <strong>Damage</strong> 1d6 piercing</p>
+      <p class="line"><strong>Primal Innate Spells</strong> DC 20, attack +10;
+        <strong>2nd</strong> <em>speak with animals</em> (at will);
+        <strong>1st</strong> <em>gust of wind</em>, <em>spider sting</em> (each once per day);
+        <strong>Cantrips (2nd)</strong> <em>prestidigitation</em></p>
+
+      <div class="ability">
+        <strong class="title">Lucky Stabs</strong>
+        Kurshkin deals an additional 1d6 damage with her melee Strikes against creatures affected by her unluck aura.
+      </div>
+      <div class="ability">
+        <strong class="title">Natural Thief</strong>
+        When attacking with a finesse melee weapon, Kurshkin adds her Dexterity modifier to damage rolls instead of her Strength modifier (already included in shortsword damage).
+      </div>
+    </div>
+
+    <div class="strategy">
+      <strong>How to run her</strong>
+      <ul style="margin:0.5rem 0 0;padding-left:1.25rem">
+        <li>Open Stealth +11 if surprise fits; otherwise bow from aura range. Stay adjacent to cover / stage edge, not in a PC’s face.</li>
+        <li>If pressed into melee: drop bow, shortsword, lean on Lucky Stabs vs anyone who failed Unluck.</li>
+        <li><strong>&lt;16 HP:</strong> tactical retreat — Stride toward tunnels / understage / grass, Shoot or Raise a Shield fictionally as she goes.</li>
+        <li><strong>&lt;10 HP:</strong> fake surrender (Deception +8). When they drop guard, <em>spider sting</em> (touch) then run. Ch 3 wants the escape option — do not force a coup de grâce.</li>
+        <li><em>Gust of wind</em>: clear a flee lane, knock a blocker prone, or punish a clustered melee. Save it for the escape round if possible.</li>
+        <li>Collateral Damage: keep a pugwampi or Havvix adjacent when heroes Swing wild — crit misses become friendly fire comedy.</li>
+      </ul>
+    </div>
+
+    <details class="expand" id="spells">
+      <summary>Spell sheet — cast at the table</summary>
+      <div class="expand-body">
+        <p>Kurshkin innate values: <strong>DC 20</strong>, spell attack +10. (Havvix innate DC 17 / +9 if you need them.)</p>
+
+        <div class="stat">
+          <p class="name">Spider Sting <span class="tag">Spell 1</span></p>
+          <p class="meta">Once · 2 actions · touch · Fortitude</p>
+          <p>You magically duplicate a spider’s venomous sting. You deal 1d4 piercing damage to the touched creature and afflict it with spider venom. The target must attempt a Fortitude save.</p>
+          <ul>
+            <li><strong>Critical Success</strong> The target is unaffected.</li>
+            <li><strong>Success</strong> The target takes 1d4 poison damage.</li>
+            <li><strong>Failure</strong> The target is afflicted with spider venom at stage 1.</li>
+            <li><strong>Critical Failure</strong> The target is afflicted with spider venom at stage 2.</li>
+          </ul>
+          <p><strong>Spider Venom</strong> (poison); Level 1; Maximum Duration 4 rounds.
+            Stage 1: 1d4 poison damage and enfeebled 1 (1 round);
+            Stage 2: 1d4 poison damage and enfeebled 2 (1 round).</p>
+          <p class="cite">Escape trick: fake surrender → touch sting → run. Needs adjacency.</p>
+        </div>
+
+        <div class="stat">
+          <p class="name">Gust of Wind <span class="tag">Spell 1</span></p>
+          <p class="meta">Once · 2 actions · 60-foot line · Fortitude · duration until start of her next turn</p>
+          <p>A violent wind issues forth from your palm, blowing from the point where you cast to the line’s opposite end.
+            Extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less, and pushes larger objects.
+            Large or smaller creatures in the area must attempt a Fortitude save. Creatures that later move into the gust must attempt the save on entering.</p>
+          <ul>
+            <li><strong>Critical Success</strong> Unaffected.</li>
+            <li><strong>Success</strong> Can’t move against the wind.</li>
+            <li><strong>Failure</strong> Knocked prone. If flying, take critical failure instead.</li>
+            <li><strong>Critical Failure</strong> Pushed 30 feet in the wind’s direction, knocked prone, and take 2d6 bludgeoning damage.</li>
+          </ul>
+        </div>
+
+        <div class="stat">
+          <p class="name">Speak with Animals <span class="tag">Spell 2</span></p>
+          <p class="meta">At will · usually out of combat</p>
+          <p>Allows conversation with animals. Irrelevant unless an animal companion / wild animal is present; eidolons are not animals for Unluck exclusion either — they still save vs aura. Pugwampi adds also have this at will.</p>
+        </div>
+
+        <div class="stat">
+          <p class="name">Prestidigitation <span class="tag">Cantrip</span></p>
+          <p class="meta">Flavor / sabotage garnish</p>
+          <p>Minor sensory tricks, soil/clean, move 1 Bulk of material, etc. Use for mean comedy (mud in eyes fictionally with GM fiat only if the cantrip covers it) — do not invent damage. Havvix and pugwampis have this too.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="havvix">
+    <h2>Havvix</h2>
+    <p>Male vexgit. Not loyal — itching for broken bones. Speaks <strong>Undercommon only</strong>. Disposable unless someone wants Undercommon interrogation flavor.</p>
+
+    <div class="stat">
+      <p class="name">Havvix</p>
+      <p class="meta">Creature 1 · LE · Tiny · Fey · Gremlin · Male vexgit (<em>Bestiary 2</em> 134)</p>
+      <p class="line"><strong>Perception</strong> +6; darkvision</p>
+      <p class="line"><strong>Languages</strong> Undercommon</p>
+      <p class="line"><strong>Skills</strong> Acrobatics +7, Athletics +6, Crafting +6 (+8 traps), Nature +6, Stealth +5 (see Clacking Exoskeleton), Thievery +7</p>
+      <p class="line"><strong>Str</strong> +1, <strong>Dex</strong> +4, <strong>Con</strong> +2, <strong>Int</strong> +1, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>
+      <p class="line"><strong>Items</strong> maul</p>
+      <p class="line"><strong>AC</strong> 16; <strong>Fort</strong> +5, <strong>Ref</strong> +9, <strong>Will</strong> +6</p>
+      <p class="line"><strong>HP</strong> 24; <strong>Weaknesses</strong> cold iron 2</p>
+      <p class="hp-track">HP ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢</p>
+
+      <div class="ability">
+        <strong class="title">Clacking Exoskeleton</strong>
+        A creature that can hear gains a +2 circumstance bonus to its Perception DC against a vexgit’s attempts to Sneak.
+      </div>
+
+      <p class="line" style="margin-top:0.85rem"><strong>Speed</strong> 20 feet, climb 20 feet</p>
+      <p class="line"><strong>Melee</strong> <span class="tag action">1</span> maul +8 (shove), <strong>Damage</strong> 1d12+1 bludgeoning plus Destructive Smash</p>
+      <p class="line"><strong>Melee</strong> <span class="tag action">1</span> bite +11 (agile, finesse), <strong>Damage</strong> 1d6+1 piercing</p>
+      <p class="line"><strong>Primal Innate Spells</strong> DC 17, attack +9; <strong>1st</strong> <em>alarm</em>; <strong>Cantrips (1st)</strong> <em>prestidigitation</em></p>
+
+      <div class="ability">
+        <strong class="title">Destructive Smash</strong>
+        A vexgit’s maul Strike against an object ignores up to 5 of the object’s Hardness.
+      </div>
+      <div class="ability">
+        <strong class="title">Gremlin Snare</strong>
+        <span class="tag action">3</span>
+        (conjuration, primal) <strong>Frequency</strong> once per hour;
+        <strong>Effect</strong> The vexgit creates a snare of their level or lower that normally takes 1 minute to craft at no cost.
+        A single vexgit can maintain one gremlin snare at a time — if they create a new snare, the previously created one vanishes.
+        <em>(Already used before the fight for the hampering snare on the map.)</em>
+      </div>
+      <div class="ability">
+        <strong class="title">Rusting Grasp</strong>
+        <span class="tag action">2</span>
+        (primal, transmutation) <strong>Frequency</strong> once per hour;
+        <strong>Effect</strong> The vexgit makes a +9 spell attack against a creature or unattended object.
+        On a hit, deals 1d6 damage (doubled on a critical hit) to a metal item the target is wearing or holding, ignoring Hardness.
+        An unattended metal item takes this damage automatically.
+        If a creature uses Shield Block with a metal shield against this attack, the shield is automatically broken, but no other item is rusted on that attack.
+      </div>
+      <div class="ability">
+        <strong class="title">Speedy Sabotage</strong>
+        When a vexgit succeeds or critically succeeds at a check to Disable a Device, they gain an additional success toward disabling a complex device.
+      </div>
+
+      <div class="ability">
+        <strong class="title">Bell superstition</strong>
+        <span class="tag warn">AP overlay</span>
+        Havvix is <strong>frightened 1</strong> while within 30 feet of anyone displaying small metal bells. Kurshkin is immune to this fear.
+      </div>
+    </div>
+
+    <div class="strategy">
+      <strong>How to run him</strong>
+      <ul style="margin:0.5rem 0 0;padding-left:1.25rem">
+        <li>Charge the densest melee. Maul for big swings; bite when MAP bites or for agile follow-ups.</li>
+        <li>Rusting Grasp once: metal shield, weapon, or shiny implement — punish Shield Block especially.</li>
+        <li>Do not spend the fight re-crafting snares; the map snare is his contribution.</li>
+        <li><strong>&lt;6 HP:</strong> retreat. He is not loyal enough to die for Kurshkin’s grudge.</li>
+        <li>If bells are out: play the rattled crustacean — still vicious, but rattled and easier to Demoralize fictionally.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="pugwampi">
+    <h2>Pugwampi gremlins ×3</h2>
+    <p><span class="tag">Table pad</span> Barn-crew / tunnel kin Kurshkin dragged for her “purge” fight. Optional recognition of Session 2 faces — angrier now. Use legacy <em>Bestiary</em> block to match Kindled Magic.</p>
+
+    <div class="stat">
+      <p class="name">Pugwampi</p>
+      <p class="meta">Creature 0 · NE · Tiny · Fey · Gremlin · <em>Bestiary</em> 193</p>
+      <p class="line"><strong>Perception</strong> +6 (−2 to hear things); darkvision</p>
+      <p class="line"><strong>Languages</strong> Gnoll, Undercommon</p>
+      <p class="line"><strong>Skills</strong> Crafting +2, Deception +2, Nature +4, Stealth +5, Thievery +5</p>
+      <p class="line"><strong>Str</strong> −3, <strong>Dex</strong> +3, <strong>Con</strong> +0, <strong>Int</strong> +0, <strong>Wis</strong> +2, <strong>Cha</strong> −2</p>
+      <p class="line"><strong>Items</strong> shortbow (60 arrows), shortsword</p>
+      <p class="line"><strong>AC</strong> 16; <strong>Fort</strong> +5, <strong>Ref</strong> +8, <strong>Will</strong> +6</p>
+      <p class="line"><strong>HP</strong> 17; <strong>Weaknesses</strong> cold iron 2</p>
+
+      <div class="ability">
+        <strong class="title">Unluck Aura</strong>
+        (aura, divination, mental, misfortune, primal) 20 feet.
+        Creatures other than animals, gremlins, and gnolls in the aura become extremely unlucky
+        (DC 16 Will save; creature must roll this Will save twice and take the worse result).
+        On a successful save, the creature is temporarily immune to pugwampi unluck auras for 24 hours.
+        On a failure, the creature must roll twice and take the worse result on all checks as long as it is within the aura.
+      </div>
+
+      <p class="line" style="margin-top:0.85rem"><strong>Speed</strong> 25 feet</p>
+      <p class="line"><strong>Melee</strong> <span class="tag action">1</span> shortsword +8 (agile, finesse, magical, versatile S), <strong>Damage</strong> 1d6−3 slashing</p>
+      <p class="line"><strong>Ranged</strong> <span class="tag action">1</span> shortbow +8 (deadly 1d10, magical, range increment 60 feet, reload 0), <strong>Damage</strong> 1d6 piercing</p>
+      <p class="line"><strong>Primal Innate Spells</strong> DC 16; <strong>2nd</strong> <em>speak with animals</em> (at will); <strong>Cantrips (1st)</strong> <em>prestidigitation</em></p>
+    </div>
+
+    <div class="strategy">
+      <strong>How to run the adds</strong>
+      <ul style="margin:0.5rem 0 0;padding-left:1.25rem">
+        <li>Job is action clutter + aura coverage, not damage. Shortbow from flanks; shortsword only if cornered.</li>
+        <li>Stay near Kurshkin so Collateral Damage has a redirect target and auras overlap hers.</li>
+        <li>Somewhat deaf — yell to each other; Stealth is fine until they open mouths.</li>
+        <li><strong>&lt;6 HP:</strong> flee toward hatch / understage (barn habit). Lethal on fleeing gremlins is a thematic hangover, not Ot’s fury tonight.</li>
+        <li>If fight melts round 1: drop a <strong>fourth</strong> pugwampi from under the stage as late reinforce before Eliting Kurshkin.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="snare">
+    <h2>Hampering Snare</h2>
+    <div class="stat">
+      <p class="name">Hampering Snare</p>
+      <p class="meta">Item 1 · Consumable · Mechanical · Snare · Trap · Core Rulebook 590</p>
+      <p>You arrange brambles, wires, sticky goo, or other materials to interfere with a creature’s movement.
+        The square with this snare, as well as three adjacent squares (to form a 10-foot-by-10-foot area), become difficult terrain when the first creature enters the snare’s square.
+        The difficult terrain affects the creature’s movement right away, including its movement into the triggering square, and it lasts for 1d4 rounds after the snare is triggered.
+        A creature can use an Interact action to clear the difficult terrain out of a single square early.</p>
+      <p><strong>Spot before trigger:</strong> DC 18 Perception. <strong>Tiny:</strong> gremlins do not trigger. Grass is already difficult — snare stacks as more difficult-terrain squares in the 10-ft patch (still difficult, not greater, unless something else says so).</p>
+    </div>
+  </section>
+
+  <section id="track">
+    <h2>HP track — print this</h2>
+    <table>
+      <thead><tr><th>Creature</th><th>HP</th><th>Flee / script</th><th>Ticks</th></tr></thead>
+      <tbody>
+        <tr><td>Kurshkin</td><td>50</td><td>&lt;16 retreat · &lt;10 fake surrender → spider sting → run</td><td class="hp-track">▢×50</td></tr>
+        <tr><td>Havvix</td><td>24</td><td>&lt;6 retreat</td><td class="hp-track">▢×24</td></tr>
+        <tr><td>Pugwampi A</td><td>17</td><td>&lt;6 flee</td><td class="hp-track">▢×17</td></tr>
+        <tr><td>Pugwampi B</td><td>17</td><td>&lt;6 flee</td><td class="hp-track">▢×17</td></tr>
+        <tr><td>Pugwampi C</td><td>17</td><td>&lt;6 flee</td><td class="hp-track">▢×17</td></tr>
+      </tbody>
+    </table>
+    <div class="spoiler-box">
+      <strong>Party AE reminder</strong>
+      <p>Six level-1 PCs + two eidolons + MODU. Constructs ignore nonlethal. Unluck hits anyone who isn’t an animal / gremlin / gnoll — including constructs and eidolons. Cold iron weakness is real if anyone still carries Cascade bells or cold-iron gear.</p>
+    </div>
+  </section>
+
+  <section id="escape">
+    <h2>Escape, capture, and combat-adjacent aftermath</h2>
+    <ul>
+      <li><strong>Kurshkin escapes:</strong> Ch 3 return seed. Fine outcome.</li>
+      <li><strong>Captured:</strong> Blames <strong>Stone Ghost</strong>. Knows almost nothing — ghostly, knows grounds, demands obedience; tunnels too small for humans; many more gremlins. +30 XP for the name. Kurshkin is the talker; Havvix is Undercommon-only.</li>
+      <li><strong>Ot arrives</strong> win, lose, or flee. Not angry about lethal self-defense. Ceremony cancelled. Level 2 after the fight resolves.</li>
+      <li>Full session beats (Uzunjati, Study homework, PC moves): <a href="0016-session-5-prep.html">Session 5 Prep</a>.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0017 · GM-only combat pad · Kindled Magic Introduction Ceremony + table pugwampi pad.</p>
+  <p>Sources: AP extract toolbox (Kurshkin), <em>Bestiary 2</em> vexgit (Havvix), legacy <em>Bestiary</em> pugwampi, Core Rulebook spells/snare via Archives of Nethys.</p>
+</footer>
+</body>
+</html>

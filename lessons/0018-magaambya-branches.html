@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magaambya Branches</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #7b796c;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.1rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, #3a2850 0%, var(--green) 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner { max-width: 46rem; margin: 0 auto; }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+    header p { margin: 0; opacity: 0.9; font-size: 1rem; }
+    main { max-width: 46rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      color: var(--green);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; color: var(--red-earth); }
+    h4 {
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 1.25rem 0 0.4rem;
+    }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--green); }
+    .callout {
+      background: var(--green-soft);
+      border-left: 4px solid var(--green);
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.98rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    footer {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 3rem;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+    .cite { font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; }
+    code { font-family: ui-monospace, monospace; font-size: 0.9em; }
+    nav.toc {
+      background: var(--spoiler-bg);
+      padding: 0.75rem 1rem;
+      margin: 0 0 1.5rem;
+      font-family: var(--sans);
+      font-size: 0.78rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+    }
+    nav.toc a { margin-right: 0.75rem; white-space: nowrap; }
+    details.fold {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      margin: 0.85rem 0;
+      padding: 0;
+    }
+    details.fold > summary {
+      list-style: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--green);
+      padding: 0.85rem 1.15rem;
+      user-select: none;
+    }
+    details.fold > summary::-webkit-details-marker { display: none; }
+    details.fold > summary::before {
+      content: "▸";
+      display: inline-block;
+      margin-right: 0.5rem;
+      transition: transform 0.15s ease;
+    }
+    details.fold[open] > summary::before { transform: rotate(90deg); }
+    details.fold > summary:hover { background: var(--green-soft); }
+    details.fold .fold-body {
+      padding: 0 1.15rem 1.15rem;
+      border-top: 1px solid var(--border);
+    }
+    details.fold .fold-body > :first-child { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>Magaambya Branches</h1>
+    <p>The five colleges of the Magaambya: what each one values, who studies there, and what you gain as your branch level rises.</p>
+  </div>
+</header>
+
+<main>
+
+<nav class="toc">
+  <a href="#overview">Overview</a>
+  <a href="#choosing">Choosing</a>
+  <a href="#levels">Leveling</a>
+  <a href="#cascade-bearers">Cascade Bearers</a>
+  <a href="#emerald-boughs">Emerald Boughs</a>
+  <a href="#rain-scribes">Rain-Scribes</a>
+  <a href="#tempest-sun-mages">Tempest-Sun Mages</a>
+  <a href="#uzunjati">Uzunjati</a>
+</nav>
+
+<section id="overview">
+  <h2>Five colleges, one school</h2>
+  <div class="callout">
+    <strong>The Magaambya teaches five virtues as five branches.</strong>
+    You take one as your primary study and one as your secondary. Both rise through academia downtime, and both expect you to use what you learn in service of other people.
+  </div>
+  <p>Magaambyan scholars name those virtues adaptability, camaraderie, imagination, knowledge, and valor. Faculty, classes, and fieldwork are divided along those lines, but the branches are parts of one school. You attend classes from either of yours. People from different branches work together on campus and off it. The shared wizardly root is the School of Rooted Wisdom: Old-Mage Jatembe’s teaching that study matters because you then go and help.</p>
+  <p>The school itself is the oldest academy of magic in the Inner Sea, standing in the canal city of Nantambu. Old-Mage Jatembe and the Ten Magic Warriors rekindled wizardry after Earthfall. Their students built the Magaambya, and eight millennia of scholars have kept it. Ten terraced towers carry mosaic portraits of the Ten. The <em>Elephant’s Chronicles</em> still tell the founding story the branches inherit: the snake who sheds skin to fit the moment, the patient leopard who steps toward danger to cover her friends, the spider who asks whether the people will be safe, the hyena who looks between and still cannot imagine the whole threat, and the elephant who never forgets.</p>
+  <p>A <strong>Learned One</strong> leads each branch. Much of the faculty is abroad at any time; more tenured professors are in the field than in their offices. High Sun-Mage <strong>Oyamba</strong>, a Tempest-Sun mage, is head of the school. Each branch’s virtue, study skills, and lore are listed with that branch.</p>
+  <p class="cite">Published baseline: <a href="https://2e.aonprd.com/Rules.aspx?ID=1468" target="_blank" rel="noopener noreferrer">AoN — The Five Branches of Scholarship</a>. Branch feats: <a href="https://2e.aonprd.com/Archetypes.aspx?ID=29" target="_blank" rel="noopener noreferrer">Magaambyan Attendant</a>.</p>
+</section>
+
+<section id="choosing">
+  <h2>Choosing your branches</h2>
+  <p>After the Perquisite and the Introduction Ceremony, while you are still an initiate, choose a <strong>primary</strong> branch and a <strong>secondary</strong> branch. They must be different. You may change either choice freely until your first Study resolves. That first Study also grants the branch implement for your primary branch — see <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+  <p>The school looks very poorly on swapping branches just to collect power, and it will refuse that kind of exploit. If a choice stops fitting who you are playing, talk with the GM about a swap that keeps you level with the rest of the table.</p>
+</section>
+
+<section id="levels">
+  <h2>Leveling</h2>
+  <p>Both branches start at 0 and rise through Study, Cram, and later Practical Research. Primary cannot pass your character level; secondary cannot pass half your level. Every level grants a shared benefit (lore, skill feats, influence, and so on), plus a few feats that belong to that branch alone. Caps, the shared ladder, and how to record the feats are in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>. The branch-only feats, and which Spire friends unlock Study help, are under each branch below.</p>
+  <p>On the Social page, <strong>Liked</strong> (3 hearts) with a student turns on that student’s Classroom Advantage for their branch. Befriending two students of the same branch gives you both.</p>
+</section>
+
+<section id="cascade-bearers">
+  <h2>Cascade Bearers</h2>
+  <table>
+    <thead><tr><th>Virtue</th><th>Study skills</th><th>Lore</th></tr></thead>
+    <tbody><tr><td>Imagination</td><td>Arcana, Occultism, Religion</td><td>Academia Lore</td></tr></tbody>
+  </table>
+  <p>Cascade Bearers esteem imagination: the dreams of magical theorists and the inventions of people who solve problems sideways. Their work is to push magical theory forward and then make the new magic safe enough for someone else to use. An experiment that only the inventor can survive is unfinished. They are the branch that asks what a working spell might still hurt.</p>
+  <p>On campus they are the people you bring a strange formula, a ritual that does not have a name yet, or a question that sits between arcane, divine, occult, and primal. In the <em>Elephant’s Chronicles</em>, their animal is the hyena who looks between — Carmine Jaws, the Magic Warrior whose memory is why kholo students are welcomed without debate.</p>
+  <p>Their offices cluster with the rest of the theorists. Teacher Ot keeps his on the top floor of the Heron Archives.</p>
+
+  <details class="fold">
+    <summary>Members</summary>
+    <div class="fold-body">
+      <h4>Teachers</h4>
+      <ul>
+        <li><strong>Takulu Ot</strong> — Cascade Bearer teacher, and the one who admitted this cohort. A kindly mathematician from Tunyani who studies how to teach. Students call him Teacher Ot. He plays the mbira, watches birds with his wife Niana (a Nantambu glass artist), and wears an anteater mask. In danger he protects students first. He is not the branch’s Learned One; he is the Cascade Bearer you will actually find in his office.</li>
+      </ul>
+      <h4>Students</h4>
+      <ul>
+        <li><strong>Chizire</strong> — catfolk initiate who sleeps through lectures and still has the answer when called on. He brews, builds, and avoids work with professional skill. He is petitioning the Cascade Bearers.</li>
+        <li><strong>Mariama Keitana</strong> — human occultist whose luck swings hard in both directions. She knows the theory, then tests it, including the part where a working ritual might harm someone who was never the target.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Suggested binding traits</summary>
+    <div class="fold-body">
+      <p>Your branch implement is bound to one trait. Tradition traits and school traits are too broad. Cascade Bearers may take any narrower trait, with GM approval — their versatility is the point. Examples: <code>illusion</code>, <code>polymorph</code>, <code>light</code>, <code>force</code>, an energy trait, or another tight trait that fits an experimental style. Full staff rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Branch levels and classroom advantages</summary>
+    <div class="fold-body">
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=5130" target="_blank" rel="noopener noreferrer">Canny Acumen</a>.</p>
+      <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1105" target="_blank" rel="noopener noreferrer">Cascade Bearer’s Flexibility</a>.</strong> Once per day, before you have acted on your turn, you gain one metamagic feat whose level is no more than half yours, until the end of that turn.</p>
+      <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1110" target="_blank" rel="noopener noreferrer">Cascade Bearer’s Spellcasting</a>.</strong> You gain a halcyon cantrip and a halcyon 1st-rank spell.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> Once per day, cast any common 7th-rank spell without spending a slot, using your halcyon spellcasting proficiency.</p>
+      <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
+      <h4>Classroom advantages</h4>
+      <p>Liked (3 hearts) on the Social page:</p>
+      <ul>
+        <li><strong>Chizire</strong> — you do not become fatigued after you Cram for Cascade Bearer classes.</li>
+        <li><strong>Mariama Keitana</strong> — you may reroll a check to Study for a Cascade Bearer class. This is a fortune effect.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<section id="emerald-boughs">
+  <h2>Emerald Boughs</h2>
+  <table>
+    <thead><tr><th>Virtue</th><th>Study skills</th><th>Lore</th></tr></thead>
+    <tbody><tr><td>Camaraderie</td><td>Deception, Diplomacy, Society</td><td>A specific settlement (such as Nantambu Lore)</td></tr></tbody>
+  </table>
+  <p>Emerald Boughs study the world as it is: communities, people, and the events of the present day. Their virtue is camaraderie — connection among Magaambyans, and the work of carrying the school’s message past the canal. They are how the academy earns trust in Nantambu and the villages that look to it. Mail, mediation, public errands, and knowing how a settlement actually lives are the coursework. Calling them spies misses the point. The work is service people can see.</p>
+  <p>The general feat they teach is Adopted Ancestry, which fits a branch that keeps learning how to belong somewhere new. In the Chronicles, their animal is the spider who asks after comrades, friends, and families — Verdant Spider, Speaker of Needs, the shy baker whose arguments for ordinary people became the school’s habit of service.</p>
+  <p><strong>Six-Faces Nemadu</strong> is the Learned One who leads the branch. Much of the day-to-day teaching you will meet first is Teacher Zuma’s.</p>
+
+  <details class="fold">
+    <summary>Members</summary>
+    <div class="fold-body">
+      <h4>Teachers</h4>
+      <ul>
+        <li><strong>Six-Faces Nemadu</strong> — Learned One of the Emerald Boughs.</li>
+        <li><strong>Zuma</strong> — half-orc teacher, one of the branch’s most colorful members. His defensive magic is excellent and his intellect is sharp. His classes swing from useful rituals to conspiracy in the space of a few minutes. He keeps an office in the Elephant Museum, among the Uzunjati, because he trusts the building named for Jatembe’s chronicler. Tzeniwe has no patience for a web of thought with a weak foundation.</li>
+      </ul>
+      <h4>Students</h4>
+      <ul>
+        <li><strong>Ignaci Canterells</strong> — human thaumaturge from Vidrian. Polite, hardworking, and wary. He keeps his study notes in a private cipher and would rather observe a community than be observed in it. He and Tzeniwe are petitioning the Emerald Boughs.</li>
+        <li><strong>Tzeniwe</strong> (Strands-of-Glowing-Dawn) — anadi dreamweaver and mother of Zachva and Zanvi. She came later in life so she could pass an education on to her children. She bakes when stressed, sews with the dorm’s fashion circle, and leaves small gifts where people will find them.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Suggested binding traits</summary>
+    <div class="fold-body">
+      <p><strong>Suggested:</strong> <code>mental</code>, <code>emotion</code>. People-magic, bonds, and community. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Branch levels and classroom advantages</summary>
+    <div class="fold-body">
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=5115" target="_blank" rel="noopener noreferrer">Adopted Ancestry</a>.</p>
+      <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1106" target="_blank" rel="noopener noreferrer">Emerald Boughs Accustomation</a>.</strong> When you Subsist using Society, a critical failure becomes a failure, a success becomes a critical success, and a critical success also feeds one additional creature. A critical failure to Recall Knowledge about cultural practices with Society becomes a failure instead.</p>
+      <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1111" target="_blank" rel="noopener noreferrer">Emerald Boughs Hideaway</a>.</strong> While you are conscious you keep a personal extradimensional space like a type I bag of holding with no Bulk and no hands. It holds one object of Bulk up to your highest mental ability modifier. Retrieving from it is a free action. Only you can open it, unless you spend an Interact action to hold it open for someone else.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> Spend 1 minute to enter your hideaway and expand it into a magnificent mansion for you and your guests. When you leave, remaining guests are expelled and it is an ordinary hideaway again until you expand it once more.</p>
+      <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
+      <h4>Classroom advantages</h4>
+      <p>Liked (3 hearts) on the Social page:</p>
+      <ul>
+        <li><strong>Ignaci Canterells</strong> — when you Cram for Emerald Boughs classes, treat critical failures as failures.</li>
+        <li><strong>Tzeniwe</strong> — treat successes to Study for Emerald Boughs classes as critical successes. This does not apply when you Cram.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<section id="rain-scribes">
+  <h2>Rain-Scribes</h2>
+  <table>
+    <thead><tr><th>Virtue</th><th>Study skills</th><th>Lore</th></tr></thead>
+    <tbody><tr><td>Adaptability</td><td>Medicine, Nature, Survival</td><td>A specific terrain (such as Forest Lore)</td></tr></tbody>
+  </table>
+  <p>Rain-Scribes value adaptability in thoughts and in deeds, and the willingness to admit an error and update it. They explore the world and help other travelers through uncertain country. That means working with the land and with the people on it: medicine, weather, food, routes, and the humility to say the last theory was wrong. A wrong idea is useful if you revise it.</p>
+  <p>They are the branch that walks the boundary of the physical world — what a body, a forest, or a storm will actually allow. In the Chronicles, their animal is the snake, ever the adaptable guide, ready to shed skin to fit the situation: Golden Snake, the Tireless Guide, for whom Tireless Hall is named.</p>
+  <p>Teacher Ulawa is the Rain-Scribe you will meet first. The branch’s Learned One is often in the field, as much of this faculty is.</p>
+
+  <details class="fold">
+    <summary>Members</summary>
+    <div class="fold-body">
+      <h4>Teachers</h4>
+      <ul>
+        <li><strong>Koride Ulawa</strong> — Rain-Scribe naturalist and the best entomologist the school has had in generations. She loves fungus, decay, and insects, and she talks about them with open charm. She also skips commitments, shrugs off safety rules, and indulges her favorite students. Her office is in the Heron Archives. Anchor Root, Chizire, and Haibram like her teaching; Esi does not.</li>
+      </ul>
+      <h4>Students</h4>
+      <ul>
+        <li><strong>Anchor Root</strong> — ant kholo from the Redridge clan, a bonekeeper-in-training, and a Rain-Scribe aspirant. She is small, anxious, and exact about living things. She keeps rhythm bones and would rather show you a specimen than give a speech.</li>
+        <li><strong>Haibram Thodja</strong> — Mbe’ke dwarf daredevil. He studies with the Rain-Scribes to survive and thrive anywhere, and he fights with wind as much as with a weapon. It is an open secret that he is tempted by the Tempest-Sun Mages and by fire; he has not committed, because that branch’s duty is to stay and defend the school.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Suggested binding traits</summary>
+    <div class="fold-body">
+      <p><strong>Suggested:</strong> <code>animal</code>, <code>plant</code>, <code>healing</code>. If your concept is weather or terrain, you may also ask for <code>water</code> or <code>air</code>. Wilderness, sustenance, and moving with the land. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Branch levels and classroom advantages</summary>
+    <div class="fold-body">
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=5150" target="_blank" rel="noopener noreferrer">Fleet</a>.</p>
+      <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1107" target="_blank" rel="noopener noreferrer">Rain-Scribe Sustenance</a>.</strong> You do not need to eat or drink, and 6 hours of rest leaves you well rested. You still need 8 hours and an hour of preparation to regain limited-use resources such as spell slots. You can stay awake and alert through that rest and still gain its benefits; if you do, the other benefits of this feat are suspended for a week.</p>
+      <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1112" target="_blank" rel="noopener noreferrer">Rain-Scribe Mobility</a>.</strong> Stride twice. Difficult terrain does not reduce your Speed, even when magic created it. Until your next turn, each square you entered is no longer difficult terrain, or is only ordinary difficult terrain if it had been greater difficult terrain.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> You take no damage from severe or extreme cold or heat. You move at full Speed through difficult and greater difficult terrain and take no damage from hazardous terrain. When you use Rain-Scribe Mobility, you also clear hazardous terrain from the squares you enter for 1 round.</p>
+      <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
+      <h4>Classroom advantages</h4>
+      <p>Liked (3 hearts) on the Social page:</p>
+      <ul>
+        <li><strong>Anchor Root</strong> — treat critical failures when you Study for Rain-Scribe classes as failures.</li>
+        <li><strong>Haibram Thodja</strong> — when you Cram for Rain-Scribe classes, you may Study three times rather than twice.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<section id="tempest-sun-mages">
+  <h2>Tempest-Sun Mages</h2>
+  <table>
+    <thead><tr><th>Virtue</th><th>Study skills</th><th>Lore</th></tr></thead>
+    <tbody><tr><td>Valor</td><td>Intimidation, Performance</td><td>Warfare Lore</td></tr></tbody>
+  </table>
+  <p>Tempest-Sun Mages inspire valor. That is the physical courage to stand up for a friend or for the school, and the intellectual courage to hear an opposing view and widen your understanding instead of digging into one paradigm. They defend Nantambu and the people around the city from threats large and small. The Magaambya does not approve of killing someone merely for what they are; this branch’s courage includes knowing when a jar-throwing pest should be escorted off the grounds.</p>
+  <p>They are the mages other powers have learned to watch for. Flying Tempest-Sun Mages keep the jungle from closing on the city. Cultists of Angazhan and Aspis Consortium raiders give Nantambu a wide berth because of them, and they keep a particular eye on the demonic forces of Usaro, the city the Gorilla King once ruled. High Sun-Mage Oyamba took leadership of the school after turning back an ape attack from that quarter. Their influence and their scouting run well beyond the campus, across the Mwangi Expanse.</p>
+  <p>In the Chronicles, their animal is the patient leopard, full of valor, who creeps closer to the threat so her friends are covered: Azure Leopard, the Patient Warden, founder of the Tempest-Sun Mages, who legends say could tame storms.</p>
+
+  <details class="fold">
+    <summary>Members</summary>
+    <div class="fold-body">
+      <h4>Teachers</h4>
+      <ul>
+        <li><strong>High Sun-Mage Oyamba</strong> — head of the Magaambya and a leading Tempest-Sun mage. He is often away from day-to-day classes. His question to students is what story they will leave behind.</li>
+        <li><strong>Mafika Ayuwari</strong> — young Tempest-Sun teacher and a celebrity after his team’s showing at the Ruby Phoenix Tournament in Tian Xia. He believes everyone should be ready for a physical fight, however strong their magic. He runs monthly bouts on the Sparring Field, including jousts on living-wood constructs grown by the campus leshys. He encourages chaos in the ring and steadies anyone who is actually hurt.</li>
+      </ul>
+      <h4>Students</h4>
+      <ul>
+        <li><strong>Esi Djana</strong> — human, Nantambu native, and the cohort’s organizer. She is the only Spire initiate planning to join the Tempest-Sun Mages, following her mother, whom she idolizes. She is kind to anxious classmates, relentless about standards, and willing to argue with a teacher or the administration when she thinks the school can do better.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Suggested binding traits</summary>
+    <div class="fold-body">
+      <p><strong>Suggested:</strong> <code>fire</code>, <code>electricity</code>, <code>air</code>, <code>force</code>. Offensive pressure and battlefield courage. Many damaging spells are save-based and do not have the <code>attack</code> trait, so that trait alone is a poor binder, but may still be viable depending on your build. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Branch levels and classroom advantages</summary>
+    <div class="fold-body">
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=855" target="_blank" rel="noopener noreferrer">Toughness</a>.</p>
+      <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1108" target="_blank" rel="noopener noreferrer">Tempest-Sun Redirection</a>.</strong> If your next action is to Cast a Spell from your spell slots that damages other creatures, choose any number of that spell’s targets and reduce the damage they take by the spell’s rank. Until your next turn, damage those targets deal to you is reduced by twice the spell’s rank.</p>
+      <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1113" target="_blank" rel="noopener noreferrer">Tempest-Sun Shielding</a>.</strong> Reaction when you or an ally within 30 feet takes damage. Expend a spell slot (spontaneous) or a spell prepared in a slot (prepared). Reduce the triggering damage by four times the rank of the spell or slot you expended. You need Tempest-Sun Redirection to take this feat; branch 7 grants that first.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> When you use Tempest-Sun Shielding, you may reduce the triggering damage to you and every ally within 30 feet, instead of to you or a single ally.</p>
+      <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
+      <h4>Classroom advantages</h4>
+      <p>Liked (3 hearts) on the Social page:</p>
+      <ul>
+        <li><strong>Esi Djana</strong> — treat successes to Study for Tempest-Sun Mage classes as critical successes.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+<section id="uzunjati">
+  <h2>Uzunjati</h2>
+  <table>
+    <thead><tr><th>Virtue</th><th>Study skills</th><th>Lore</th></tr></thead>
+    <tbody><tr><td>Knowledge</td><td>Crafting, Lore</td><td>Any Lore</td></tr></tbody>
+  </table>
+  <p>Uzunjati understand that knowledge lives in stories passed down through generations, and that it is also earned every day through personal experience. They tell stories so others can carry them, and they listen so they can learn a story worth passing on. Outside the school they are the best-known branch: the storytellers. Inside it they are historians, diplomats, crafters of record, and the people who ask for the moral, not only the sequence of events.</p>
+  <p>Their famous feats use a Recall Knowledge skill to tell the story; that action is not a Performance check, even though a good telling can shift someone’s attitude afterward. In the Chronicles, their animal is the elephant who never forgot. Elephant, the Conjured Chronicle, founded the Uzunjati and is why the Elephant Museum carries that name. Teacher Ahassunu’s office is on its top floor, and Teacher Zuma of the Emerald Boughs insisted on a room in the same building.</p>
+  <p><strong>Janatimo</strong> is Learned One and head of the Uzunjati. He is often on the road. Students with this branch as primary usually hear first when he returns. He was Teacher Ot’s mentor. He would rather hear a rigorous theory than a tidy answer he already knows is missing pieces.</p>
+
+  <details class="fold">
+    <summary>Members</summary>
+    <div class="fold-body">
+      <h4>Teachers</h4>
+      <ul>
+        <li><strong>Janatimo</strong> — Learned One of the Uzunjati. Half-elf lore-speaker and itinerant storyteller. Kind, sharp, and entertaining. His office on the northeast edge of campus is plain furniture and a crowd of curios, each with a story. People he takes under his wing tend to become prominent in their own right.</li>
+        <li><strong>Ahassunu</strong> — iruxi professor of diplomatic history, and a colorful figure among Uzunjati faculty. Her memory of the deep past is impeccable; the recent past slips. She represents the school in sensitive negotiations when she can be kept on the subject. Lumusi Yao in the kitchen makes sure she has eaten.</li>
+      </ul>
+      <h4>Students</h4>
+      <ul>
+        <li><strong>Noxolo</strong> — human dancer and augur, petitioning the Uzunjati with Okoro. She turns work into a song when she is excited, keeps a small pet like a crocodile crossed with a bear cub, and listens for omens. She wants the moral of a story, not only the plot.</li>
+        <li><strong>Okoro Obiyo</strong> — Bonuwat researcher from Senghor. Relentlessly cheerful, a natural athlete, and host of the dorm’s biweekly game night. Whatever topic has caught him this month is, to him, the most important thing in the school. He is afraid of butterflies.</li>
+      </ul>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Suggested binding traits</summary>
+    <div class="fold-body">
+      <p><strong>Suggested:</strong> <code>mental</code>, <code>revelation</code>, or <code>detection</code> are often found on spells pertaining to story, memory, and knowing. Linguistic or auditory spells may also be a good consideration when choosing your binding trait. Tradition traits and school traits cannot be the binding trait. Full rules are in <a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>.</p>
+    </div>
+  </details>
+
+  <details class="fold">
+    <summary>Branch levels and classroom advantages</summary>
+    <div class="fold-body">
+      <p><strong>General feat at branch 8:</strong> <a href="https://2e.aonprd.com/Feats.aspx?ID=794" target="_blank" rel="noopener noreferrer">Incredible Initiative</a>. A skill increase spent on Lore grants Additional Lore instead of one rank in a single Lore.</p>
+      <p><strong>Branch 7 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1109" target="_blank" rel="noopener noreferrer">Uzunjati Storytelling</a>.</strong> Prerequisite: master proficiency in a skill that can Recall Knowledge. You tell a quick story, rolling a Recall Knowledge skill in which you are at least an expert and using the result entries for Perform. It is not the Performance action. On its own it rarely changes the scene; a strong telling can shift later Diplomacy DCs or attitudes if the GM agrees. If you are not yet a master in any Recall Knowledge skill when you reach branch 7, you do not qualify yet — the published feat requires it, and the only listed substitute is for when you already have the feat.</p>
+      <p><strong>Branch 12 — <a href="https://2e.aonprd.com/Feats.aspx?ID=1114" target="_blank" rel="noopener noreferrer">Uzunjati Recollection</a>.</strong> Prerequisite: Uzunjati Storytelling, and master proficiency in a Recall Knowledge skill. Recall Knowledge with a skill in which you are a master, then use Uzunjati Storytelling with that same skill. You gain a +1 circumstance bonus to the storytelling check from the added detail.</p>
+      <p><strong>Branch 20 — Magical Paragon.</strong> When you use Uzunjati Recollection, you Recall Knowledge three times instead of once, each with a +2 circumstance bonus. You also gain a +2 circumstance bonus to the Uzunjati Storytelling check from the combined narrative.</p>
+      <p>Every other branch level uses the shared ladder in <a href="../#/rules?doc=academia-downtime" target="_blank" rel="noopener noreferrer">Academia Downtime</a>.</p>
+      <h4>Classroom advantages</h4>
+      <p>Liked (3 hearts) on the Social page:</p>
+      <ul>
+        <li><strong>Noxolo</strong> — treat critical failures to Study in Uzunjati classes as failures.</li>
+        <li><strong>Okoro Obiyo</strong> — you do not become fatigued after you Cram for Uzunjati classes.</li>
+      </ul>
+    </div>
+  </details>
+</section>
+
+</main>
+
+<footer>
+  Strength of Thousands table rules · The five branches of the Magaambya
+</footer>
+
+</body>
+</html>

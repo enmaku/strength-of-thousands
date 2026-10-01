@@ -1,3 +1,5 @@
+import { rulesPageHref } from './playerRules.js'
+
 export function getGmLessonSections() {
   const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
 
@@ -10,6 +12,11 @@ export function getGmLessonSections() {
           title: 'Session 5 Prep',
           caption: 'GM prep · Uzunjati, Intro Ceremony',
           href: `${pagesBase}/lessons/0016-session-5-prep.html`,
+        },
+        {
+          title: 'Session 5 Combat Guide',
+          caption: 'GM pad · Kurshkin, Havvix, pugwampis',
+          href: `${pagesBase}/lessons/0017-session-5-combat-guide.html`,
         },
         {
           title: 'Session 4 Prep',
@@ -72,22 +79,27 @@ export function getGmLessonSections() {
         {
           title: 'Academia Downtime',
           caption: 'Player rules · Study, Cram & Practical Research',
-          href: `${pagesBase}/lessons/0007-academia-downtime-gm-prep.html`,
+          href: rulesPageHref('academia-downtime'),
+        },
+        {
+          title: 'Magaambya Branches',
+          caption: 'Player rules · Virtues, members & branch levels',
+          href: rulesPageHref('magaambya-branches'),
         },
         {
           title: 'Branch Implements',
           caption: 'Player rules · Magaambyan staves (draft)',
-          href: `${pagesBase}/lessons/0013-branch-implements-gm-prep.html`,
+          href: rulesPageHref('branch-implements'),
         },
         {
           title: 'Campus Crafting',
           caption: 'Player rules · Downtime item crafting',
-          href: `${pagesBase}/lessons/0014-campus-crafting.html`,
+          href: rulesPageHref('campus-crafting'),
         },
         {
           title: 'Spirit Masks',
           caption: 'Player rules · First Masking & mask powers',
-          href: `${pagesBase}/lessons/0015-spirit-masks.html`,
+          href: rulesPageHref('spirit-masks'),
         },
       ],
     },

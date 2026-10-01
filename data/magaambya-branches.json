@@ -14,15 +14,15 @@
       },
       "branchFeat6": {
         "name": "Cascade Bearer's Flexibility",
-        "description": "Once per day, until the end of your turn, you gain a single druid or wizard metamagic feat with a level requirement of no more than half your level. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
+        "description": "Once per day, until the end of your turn, you gain a single metamagic feat with a level requirement of no more than half your level. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
       },
       "branchFeat10": {
         "name": "Cascade Bearer's Spellcasting",
-        "description": "You can select halcyon spells from the divine or occult spell lists in addition to arcane or primal. You gain a halcyon cantrip and a halcyon 1st-level spell. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
+        "description": "You gain a halcyon cantrip and a halcyon 1st-level spell. Requires Magaambyan Attendant Dedication and Cascade Bearers affiliation."
       },
       "magicalParagon": {
         "name": "Magical Paragon",
-        "description": "Nothing is beyond your imagination. Once per day, you can cast any common 7th-level spell from the arcane, divine, occult, or primal spell lists without expending a spell slot, using your halcyon spellcasting proficiency."
+        "description": "Nothing is beyond your imagination. Once per day, you can cast any common 7th-level spell without expending a spell slot, using your halcyon spellcasting proficiency."
       }
     },
     {
@@ -39,7 +39,7 @@
       },
       "branchFeat6": {
         "name": "Emerald Boughs Accustomation",
-        "description": "Requires expert in Society. When you Subsist in a settlement, a critical success improves your result by one step and a success grants a +2 circumstance bonus to Recall Knowledge about the settlement's culture. Requires Magaambyan Attendant Dedication and Emerald Boughs affiliation."
+        "description": "When you Subsist with Society, a critical failure becomes a failure, a success becomes a critical success, and a critical success also provides for one additional creature. A critical failure on a Society check to Recall Knowledge about cultural practices becomes a failure instead. Requires Magaambyan Attendant Dedication and Emerald Boughs affiliation."
       },
       "branchFeat10": {
         "name": "Emerald Boughs Hideaway",
@@ -64,11 +64,11 @@
       },
       "branchFeat6": {
         "name": "Rain-Scribe Sustenance",
-        "description": "You can sustain yourself with ambient magic instead of food and drink. Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
+        "description": "You do not need to eat or drink, and you need only 6 hours of rest to feel well rested. You can stay awake through an 8-hour rest and still regain limited-use resources; doing so suspends the other benefits of this feat for 1 week. Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
       },
       "branchFeat10": {
         "name": "Rain-Scribe Mobility",
-        "description": "Stride twice; you ignore difficult terrain and greater difficult terrain, and clear those terrain effects from spaces you enter for 1 round. Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
+        "description": "Stride twice. Difficult terrain does not reduce your Speed, even if magic created it. Until your next turn, squares you entered are no longer difficult terrain (or become ordinary difficult terrain if they were greater difficult terrain). Requires Magaambyan Attendant Dedication and Rain-Scribes affiliation."
       },
       "magicalParagon": {
         "name": "Magical Paragon",
@@ -88,8 +88,8 @@
         "description": "At 8th level in this branch, you gain the Toughness general feat. If you already have Toughness, you gain a 1st-level general feat of your choice instead."
       },
       "branchFeat6": {
-        "name": "Tempest-Sun Absorption",
-        "description": "When you would take damage from a spell, you can use a reaction to reduce that damage by your level. Requires Magaambyan Attendant Dedication and Tempest-Sun Mages affiliation."
+        "name": "Tempest-Sun Redirection",
+        "description": "If your next action Casts a Spell from your slots that damages other creatures, reduce that spell’s damage to any number of its targets by the spell’s rank. Until your next turn, damage those targets deal to you is reduced by twice the spell’s rank. Requires Magaambyan Attendant Dedication and Tempest-Sun Mages affiliation."
       },
       "branchFeat10": {
         "name": "Tempest-Sun Shielding",
@@ -106,7 +106,7 @@
       "virtue": "Knowledge",
       "description": "Uzunjati understand that knowledge lives in stories passed down through generations and is earned every day through personal experience.",
       "image": "uzunjati.jpg",
-      "skills": ["Crafting", "Lore", "Performance"],
+      "skills": ["Crafting", "Lore"],
       "lore": "Any Lore",
       "generalFeat": {
         "name": "Incredible Initiative",
@@ -114,11 +114,11 @@
       },
       "branchFeat6": {
         "name": "Uzunjati Storytelling",
-        "description": "You weave stories to captivate listeners and Recall Knowledge through narrative. Requires Magaambyan Attendant Dedication and Uzunjati affiliation."
+        "description": "Tell a story using a Recall Knowledge skill in which you are at least an expert, and use the Perform action’s result entries. It is not a Performance check. Requires Magaambyan Attendant Dedication, Uzunjati affiliation, and master proficiency in a skill that can Recall Knowledge."
       },
       "branchFeat10": {
         "name": "Uzunjati Recollection",
-        "description": "Recall Knowledge using Performance or a branch-associated skill with a +2 circumstance bonus. Requires Magaambyan Attendant Dedication and Uzunjati affiliation."
+        "description": "Recall Knowledge with a skill in which you are a master, then use Uzunjati Storytelling with that same skill and a +1 circumstance bonus from the added detail. Requires Uzunjati Storytelling."
       },
       "magicalParagon": {
         "name": "Magical Paragon",

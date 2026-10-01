@@ -44,6 +44,7 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 0. Party Character Analysis (Book 1) — `lessons/0008-party-character-analysis-gm-prep.html`
 0. Player Tie-Ins (campaign-wide) — `lessons/0009-player-tie-ins-gm-prep.html`
 0. Academia Downtime (campaign-wide, player rules) — `lessons/0007-academia-downtime-gm-prep.html`
+0. Magaambya Branches (campaign-wide, player rules) — `lessons/0018-magaambya-branches.html`
 0. Branch Implements (campaign-wide, player rules) — `lessons/0013-branch-implements-gm-prep.html`
 0. Campus Crafting (campaign-wide, player rules) — `lessons/0014-campus-crafting.html`
 0. Spirit Masks (campaign-wide, player rules) — `lessons/0015-spirit-masks.html`

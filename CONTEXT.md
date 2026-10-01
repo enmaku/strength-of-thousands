@@ -104,7 +104,7 @@ A standalone HTML document under `lessons/` that teaches a Magaambya / table sub
 _Avoid_: GM prep lesson, session prep, treating `-gm-prep` in the filename as audience
 
 **Rules tab**:
-Campaign tool at `/rules` listing **published** player rules handouts (sidebar on desktop, dropdown on mobile). Selecting an entry loads that HTML in the main panel. Catalog: `src/domain/playerRules.js`.
+Campaign tool at `/rules` listing **published** player rules handouts (sidebar on desktop, dropdown on mobile). Selecting an entry loads that HTML in the main panel and sets `?doc=<id>` (`/#/rules?doc=branch-implements`) so a handout can be linked directly. Catalog: `src/domain/playerRules.js`.
 _Avoid_: GM prep menu, Study page
 
 **Published player rules**:

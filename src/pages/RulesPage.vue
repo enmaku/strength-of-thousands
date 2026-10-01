@@ -47,9 +47,9 @@
               :key="doc.id"
               v-ripple
               clickable
+              :to="{ path: '/rules', query: { doc: doc.id } }"
               :active="selectedDocId === doc.id"
               active-class="rules-sidebar__item--active"
-              @click="selectDoc(doc.id)"
             >
               <q-item-section>
                 <q-item-label>{{ doc.title }}</q-item-label>
@@ -79,10 +79,13 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
-import { getPublishedPlayerRules } from '../domain/playerRules.js'
+import { computed, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { getPublishedPlayerRules, rulesDocIdFromQuery } from '../domain/playerRules.js'
 import { useRulesUiStore } from '../stores/rules-ui.js'
 
+const route = useRoute()
+const router = useRouter()
 const ui = useRulesUiStore()
 const docs = getPublishedPlayerRules()
 
@@ -95,7 +98,12 @@ function pageFillStyle(offset, height) {
   }
 }
 
-const selectedDocId = computed(() => ui.selectedDocId)
+const selectedDocId = computed(() => {
+  const fromQuery = rulesDocIdFromQuery(route.query.doc, docs)
+  if (fromQuery) return fromQuery
+  if (docs.some((doc) => doc.id === ui.selectedDocId)) return ui.selectedDocId
+  return docs[0]?.id ?? null
+})
 
 const selectedDoc = computed(
   () => docs.find((doc) => doc.id === selectedDocId.value) ?? null,
@@ -108,24 +116,22 @@ const docSelectOptions = computed(() =>
   })),
 )
 
-function selectDoc(docId) {
-  if (!docId || !docs.some((doc) => doc.id === docId)) return
-  ui.setSelectedDocId(docId)
-}
-
 function onDocSelect(docId) {
-  selectDoc(docId)
+  if (!rulesDocIdFromQuery(docId, docs) || docId === selectedDocId.value) return
+  router.push({ path: '/rules', query: { doc: docId } })
 }
 
-onMounted(() => {
-  if (docs.length === 0) {
-    ui.setSelectedDocId(null)
-    return
-  }
-  if (!docs.some((doc) => doc.id === ui.selectedDocId)) {
-    ui.setSelectedDocId(docs[0].id)
-  }
-})
+watch(
+  selectedDocId,
+  (docId) => {
+    if (ui.selectedDocId !== docId) ui.setSelectedDocId(docId)
+    const current = Array.isArray(route.query.doc) ? route.query.doc[0] : route.query.doc
+    if (docId && current !== docId) {
+      router.replace({ path: '/rules', query: { doc: docId } })
+    }
+  },
+  { immediate: true },
+)
 </script>
 
 <style scoped>

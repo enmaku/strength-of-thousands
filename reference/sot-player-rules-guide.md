@@ -78,7 +78,15 @@ Baseline PF2e that the subsystem sits on top of: **short paragraph + AoN cite**,
 
 **External links** always use `target="_blank" rel="noopener noreferrer"` so the Rules iframe does not navigate away.
 
-Cross-linking **another published player rules handout** is fine if both are in `playerRules.js`; exemplars currently stay self-contained.
+The Rules tab selects a handout with `?doc=<id>` (`/#/rules?doc=branch-implements`). Sidebar, mobile dropdown, and the GM prep Rules list all use that query. A link you send a player is that URL.
+
+Cross-link **another published player rules handout** with that query, in a new tab, so the opened page has the site top bar and the Rules sidebar:
+
+```html
+<a href="../#/rules?doc=branch-implements" target="_blank" rel="noopener noreferrer">Branch Implements</a>
+```
+
+Use the `id` from `playerRules.js`. Do not point at the lesson file.
 
 ## Self-check quiz
 
@@ -86,6 +94,7 @@ Match the implements / downtime quiz machinery (copy the `<script>` block and ad
 
 **Design**
 
+- Omit the self-check only when the request for that handout explicitly says it does not need a quiz. Do not add one later to “complete” the recipe.
 - About **10** multiple-choice questions.
 - Test **concepts and procedures**, not table recall. Bad: “What general feat does Rain-Scribes get at branch 8?” Good: “Cram is available when a branch is…?”
 - Each `.quiz` has `data-answer` and `data-section` (section id for the deep-link on a miss).
@@ -120,5 +129,5 @@ Use when players will need sheet work beyond “tick a published option.”
 2. Add TOC, overview callout, Pathbuilder (if needed) **above** quiz, modern self-check.
 3. Audit every `href`: externals open in a new tab; no GM prep targets.
 4. Register in `src/domain/playerRules.js` (published list) and, if useful for the GM, `gmLessons.js` Rules section.
-5. Skim in the Rules tab iframe (`/#/rules`) on desktop and mobile.
+5. Skim in the Rules tab iframe (`/#/rules?doc=<id>`) on desktop and mobile.
 6. Note the file under Standing prep / player rules in `NOTES.md` if it is campaign-standing content.
