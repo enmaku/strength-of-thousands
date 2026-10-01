@@ -20,27 +20,11 @@
       class="col rules-body"
       :class="$q.screen.xs ? 'column' : 'row no-wrap'"
     >
-      <aside
-        v-if="$q.screen.gt.xs"
-        class="rules-sidebar"
-        :class="{ 'rules-sidebar--collapsed': !ui.sidebarOpen }"
-      >
+      <aside v-if="$q.screen.gt.xs" class="rules-sidebar">
         <div class="rules-sidebar__header">
-          <div v-if="ui.sidebarOpen" class="rules-sidebar__title">Rules</div>
-          <div class="rules-sidebar__header-actions">
-            <q-btn
-              flat
-              dense
-              round
-              size="sm"
-              color="primary"
-              :icon="ui.sidebarOpen ? 'chevron_left' : 'chevron_right'"
-              :aria-label="ui.sidebarOpen ? 'Hide rules list' : 'Show rules list'"
-              @click="ui.toggleSidebar()"
-            />
-          </div>
+          <div class="rules-sidebar__title">Rules</div>
         </div>
-        <q-scroll-area v-show="ui.sidebarOpen" class="rules-sidebar__scroll">
+        <q-scroll-area class="rules-sidebar__scroll">
           <q-list dense padding class="rules-sidebar__list">
             <q-item
               v-for="doc in docs"
@@ -159,11 +143,6 @@ watch(
   border-right: 1px solid var(--sot-border);
   background: var(--sot-parchment-light);
   color: var(--sot-ink);
-  transition: width 0.2s ease;
-}
-
-.rules-sidebar--collapsed {
-  width: 2.75rem;
 }
 
 .rules-sidebar__header {
@@ -175,18 +154,6 @@ watch(
   flex-shrink: 0;
   border-bottom: 1px solid var(--sot-border);
   background: transparent;
-}
-
-.rules-sidebar--collapsed .rules-sidebar__header {
-  justify-content: center;
-  padding-inline: 0.35rem;
-}
-
-.rules-sidebar__header-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.15rem;
-  flex-shrink: 0;
 }
 
 .rules-sidebar__title {
