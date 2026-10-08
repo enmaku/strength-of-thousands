@@ -632,8 +632,8 @@
     "tzeniwe": 1
   },
   "study": {
-    "primaryBranch": null,
-    "secondaryBranch": null,
+    "primaryBranch": "uzunjati",
+    "secondaryBranch": "emerald-boughs",
     "primaryLevel": 0,
     "secondaryLevel": 0,
     "primaryStarred": false,
