@@ -19,6 +19,10 @@
               outlined
               @update:model-value="(v) => onBranchChange('primaryBranch', v)"
             />
+            <p v-if="card.primary.reference?.skills.length" class="branch-skills">
+              <span class="branch-skills__label">Skills</span
+              >{{ card.primary.reference.skills.join(', ') }}
+            </p>
           </div>
           <div class="col-12 col-md-6">
             <q-select
@@ -32,6 +36,10 @@
               outlined
               @update:model-value="(v) => onBranchChange('secondaryBranch', v)"
             />
+            <p v-if="card.secondary.reference?.skills.length" class="branch-skills">
+              <span class="branch-skills__label">Skills</span
+              >{{ card.secondary.reference.skills.join(', ') }}
+            </p>
           </div>
         </div>
       </template>
@@ -150,6 +158,19 @@ function openBenefit(benefit) {
 .study-hero-card {
   background: var(--sot-parchment-light);
   border-color: var(--sot-border);
+}
+
+.branch-skills {
+  margin: 0.35rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  color: var(--sot-muted);
+}
+
+.branch-skills__label {
+  margin-right: 0.35rem;
+  font-weight: 600;
+  color: var(--sot-teal);
 }
 
 .benefit-detail-card {

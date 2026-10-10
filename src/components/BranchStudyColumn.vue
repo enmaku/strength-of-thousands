@@ -43,6 +43,9 @@
             :title="`Cap: ${track.cap}`"
           />
         </div>
+        <p v-if="track.reference?.skills.length" class="branch-skills">
+          <span class="branch-skills__label">Skills</span>{{ track.reference.skills.join(', ') }}
+        </p>
       </div>
       <q-btn
         v-if="editable"
@@ -193,6 +196,19 @@ const branchOpen = ref(false)
 
 .branch-bar-wrap {
   min-width: 0;
+}
+
+.branch-skills {
+  margin: 0.2rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  color: var(--sot-muted);
+}
+
+.branch-skills__label {
+  margin-right: 0.35rem;
+  font-weight: 600;
+  color: var(--sot-teal);
 }
 
 .branch-bar-track {
