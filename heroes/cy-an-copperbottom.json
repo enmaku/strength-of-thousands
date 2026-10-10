@@ -300,9 +300,9 @@
     "primaryBranch": "rain-scribes",
     "secondaryBranch": "cascade-bearers",
     "primaryLevel": 0,
-    "secondaryLevel": 0,
+    "secondaryLevel": 1,
     "primaryStarred": false,
-    "secondaryStarred": false,
+    "secondaryStarred": true,
     "primaryUncapped": true,
     "secondaryUncapped": false
   }
