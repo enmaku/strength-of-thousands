@@ -18,7 +18,7 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | **Level** | 2 (handed out at the end of Session 5; branches still 0) |
 | **Calendar** | Arodus 4721, rainy season; weeks of class about to be rolled as the first Study |
 | **Last played** | Session 5 |
-| **Next prep** | Session 6 — `lessons/0019-session-6-prep.html` (recap Ot, then branches, implements, first Study) |
+| **Next prep** | Session 6 — `lessons/0019-session-6-prep.html` (recap Ot, leftover sheets, two or three student favors) |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -33,7 +33,7 @@ Book order (Esi’s plan). Tasks may be reordered at table, but NPCs and foresha
 | 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | **Session 5** |
 | 6 | — | **Introduction Ceremony** — Kurshkin captured, Havvix fled; **level 2**; Ot walked in as the session ended | **Session 5** (aftermath narrated in the Session 6 recap, not played) |
 
-Then: first Study at the table (Session 6) → **Meet the Teachers** on a later night.
+Then: leftover Study at the table if needed (Session 6) and two or three classmate favors → **Meet the Teachers** on a later night.
 
 ## Session history
 
@@ -205,7 +205,7 @@ Derived from Sessions 1–5 + book density:
 |------------------|----------------|
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
 | Session 5 (**done**) | Uzunjati + ceremony fight + interrogation. Stopped as Ot arrived. Level 2 handed out. Study not rolled. |
-| **Session 6 (prep target)** | Recap settles Ot’s morning (not played) → branches, implements, first Study for every PC (Anya catch-up included). One dorm favor only if time remains. No Koride, no stump library, no First Masking. |
+| **Session 6 (prep target)** | Recap settles Ot (not played). Most branch picks and implements already done early — catch up whoever is left, roll Study if needed, then Lost Chicken + Lofty Leap + one evening favor (Okoro’s game or Tzeniwe’s party). Fourth favor is stretch. No Koride survey, no stump library, no First Masking. |
 
 Revise after Session 6 actuals. The old “interleave Meet the Teachers the same night” estimate does not survive a six-player implement build.
 

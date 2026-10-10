@@ -10,7 +10,7 @@ export function getGmLessonSections() {
       lessons: [
         {
           title: 'Session 6 Prep',
-          caption: 'GM prep · Branches, first Study',
+          caption: 'GM prep · Study, then student favors',
           href: `${pagesBase}/lessons/0019-session-6-prep.html`,
         },
         {

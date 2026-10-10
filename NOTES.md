@@ -31,7 +31,7 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
-- Session 6 Prep — `lessons/0019-session-6-prep.html` (Ot’s morning in the recap; then branches, implements, first Study)
+- Session 6 Prep — `lessons/0019-session-6-prep.html` (Ot in the recap; leftover sheets; two or three student favors)
 - Session 5 Prep — `lessons/0016-session-5-prep.html` (**played** — Uzunjati + Intro Ceremony; see session log + `session-05/edited.json`)
 - Session 4 Prep — `lessons/0012-session-4-prep.html` (**played** — Emerald mail done; see session log + `session-04/edited.json`)
 - Session 3 Prep — `lessons/0011-session-3-prep.html` (**played**)
