@@ -358,8 +358,8 @@
     "tzeniwe": 1
   },
   "study": {
-    "primaryBranch": null,
-    "secondaryBranch": null,
+    "primaryBranch": "cascade-bearers",
+    "secondaryBranch": "uzunjati",
     "primaryLevel": 0,
     "secondaryLevel": 0,
     "primaryStarred": false,
