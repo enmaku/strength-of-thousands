@@ -45,6 +45,7 @@
             <BranchStudyColumn
               :track="card.primary"
               :image-url="branchImageUrl(card.primary.image)"
+              :portrait-url="portraitUrl"
               :editable="editable"
               @increment="$emit('increment', 'primary')"
               @decrement="$emit('decrement', 'primary')"
@@ -56,6 +57,7 @@
             <BranchStudyColumn
               :track="card.secondary"
               :image-url="branchImageUrl(card.secondary.image)"
+              :portrait-url="portraitUrl"
               :editable="editable"
               @increment="$emit('increment', 'secondary')"
               @decrement="$emit('decrement', 'secondary')"
@@ -124,6 +126,7 @@ defineProps({
   primaryOptions: { type: Array, required: true },
   secondaryOptions: { type: Array, required: true },
   branchImageUrl: { type: Function, required: true },
+  portraitUrl: { type: Function, required: true },
 })
 
 const emit = defineEmits(['branch-change', 'increment', 'decrement', 'toggle-uncapped'])

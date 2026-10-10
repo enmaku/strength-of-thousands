@@ -31,13 +31,14 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
-- Session 5 Prep — `lessons/0016-session-5-prep.html` (Uzunjati → Intro Ceremony; combat pad for party AE)
+- Session 6 Prep — `lessons/0019-session-6-prep.html` (Ot’s morning in the recap; then branches, implements, first Study)
+- Session 5 Prep — `lessons/0016-session-5-prep.html` (**played** — Uzunjati + Intro Ceremony; see session log + `session-05/edited.json`)
 - Session 4 Prep — `lessons/0012-session-4-prep.html` (**played** — Emerald mail done; see session log + `session-04/edited.json`)
 - Session 3 Prep — `lessons/0011-session-3-prep.html` (**played**)
 - Session 2 Prep — `lessons/0010-session-2-prep.html`
-- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 4 logged)
+- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 5 logged)
 - How to write the next one: `reference/sot-session-prep-guide.md`
-- **Next after Session 5 runs:** update session log; players do first Study homework (branches + implements); Session 6 opens on results then interleaves Meet Teachers / Ch 2
+- **Next after Session 6 runs:** log branch picks, Study results, and implements; Session 7 can open Koride’s insect errand as its own night
 
 ### Standing prep
 

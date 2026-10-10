@@ -12,7 +12,9 @@
       <template v-else-if="sortedRoster.length === 0">
         <q-banner v-if="gmMode" class="sot-callout" rounded>
           No heroes yet.
-          <router-link to="/heroes" class="text-primary">Import heroes on the Heroes page</router-link>
+          <router-link to="/heroes" class="text-primary"
+            >Import heroes on the Heroes page</router-link
+          >
           to start tracking branch study.
         </q-banner>
         <q-banner v-else class="bg-grey-2 sot-muted" rounded>
@@ -30,6 +32,7 @@
               :primary-options="branchOptions(studyCardFor(hero.slug)?.study.secondaryBranch)"
               :secondary-options="branchOptions(studyCardFor(hero.slug)?.study.primaryBranch)"
               :branch-image-url="branchImageUrl"
+              :portrait-url="portraitUrl"
               @branch-change="(patch) => onBranchChange(hero.slug, patch)"
               @increment="(role) => onIncrement(hero.slug, role)"
               @decrement="(role) => onDecrement(hero.slug, role)"
@@ -59,6 +62,7 @@ const {
   studyCardFor,
   branchOptions,
   branchImageUrl,
+  portraitUrl,
   setStudy,
   incrementBranch,
   decrementBranch,

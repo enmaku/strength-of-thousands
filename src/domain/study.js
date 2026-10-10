@@ -1,12 +1,13 @@
 import branchCatalog from '../../data/magaambya-branches.json'
+import studentCatalog from '../../data/spire-students.json'
+import { deriveUnlocks } from './unlocks.js'
 
 const MAX_BRANCH_LEVEL = 20
 
 const SHARED_MILESTONES = {
   1: {
     name: 'Additional Lore',
-    description:
-      'You gain the Additional Lore feat in a Lore skill associated with the branch.',
+    description: 'You gain the Additional Lore feat in a Lore skill associated with the branch.',
   },
   2: {
     name: 'Steeped in History +1',
@@ -117,6 +118,12 @@ export function parseStudy(raw) {
     primaryUncapped: Boolean(raw.primaryUncapped),
     secondaryUncapped: Boolean(raw.secondaryUncapped),
   }
+}
+
+function clampHearts(value) {
+  const n = Number(value)
+  if (!Number.isFinite(n)) return 1
+  return Math.max(0, Math.min(5, Math.floor(n)))
 }
 
 function clampLevel(value) {
@@ -239,7 +246,28 @@ export function branchReference(branch) {
   }
 }
 
-function branchTrack(study, role, characterLevel, catalog) {
+export function classroomAdvantagesForBranch(
+  branchSlug,
+  relationships = {},
+  students = studentCatalog,
+) {
+  if (!branchSlug) return []
+  return students
+    .filter((student) => student.branchSlug === branchSlug)
+    .map((student) => {
+      const hearts = clampHearts(relationships?.[student.slug] ?? 1)
+      const earned = deriveUnlocks(hearts).classroomAdvantage
+      return {
+        slug: student.slug,
+        displayName: student.displayName,
+        thumb: student.thumb,
+        hearts,
+        text: earned ? student.classroomAdvantage : null,
+      }
+    })
+}
+
+function branchTrack(study, role, characterLevel, catalog, relationships, students) {
   const isPrimary = role === 'primary'
   const branchSlug = isPrimary ? study.primaryBranch : study.secondaryBranch
   const branchLevel = isPrimary ? study.primaryLevel : study.secondaryLevel
@@ -259,22 +287,24 @@ function branchTrack(study, role, characterLevel, catalog) {
     uncapped,
     atCap: branchLevel >= cap,
     benefits: branchSlug ? deriveGainedBenefits(branchSlug, branchLevel, catalog) : [],
+    classroomAdvantages: classroomAdvantagesForBranch(branchSlug, relationships, students),
     reference: branchReference(branch),
   }
 }
 
-export function deriveStudyCard(hero, catalog = branchCatalog) {
+export function deriveStudyCard(hero, catalog = branchCatalog, students = studentCatalog) {
   const { study } = normalizeStudy(hero)
   const characterLevel = hero?.build?.level ?? 0
   const configured = isStudyConfigured(study)
+  const relationships = hero?.relationships
 
   return {
     displayName: hero?.displayName ?? '',
     configured,
     characterLevel,
     study,
-    primary: branchTrack(study, 'primary', characterLevel, catalog),
-    secondary: branchTrack(study, 'secondary', characterLevel, catalog),
+    primary: branchTrack(study, 'primary', characterLevel, catalog, relationships, students),
+    secondary: branchTrack(study, 'secondary', characterLevel, catalog, relationships, students),
   }
 }
 
@@ -331,7 +361,11 @@ export function validateStudyPatch(patch, existingStudy, catalog = branchCatalog
     }
   }
 
-  if (merged.primaryBranch && merged.secondaryBranch && merged.primaryBranch === merged.secondaryBranch) {
+  if (
+    merged.primaryBranch &&
+    merged.secondaryBranch &&
+    merged.primaryBranch === merged.secondaryBranch
+  ) {
     return { ok: false, error: 'Primary and secondary branch must differ' }
   }
 
@@ -344,7 +378,12 @@ export function validateStudyPatch(patch, existingStudy, catalog = branchCatalog
     }
   }
 
-  for (const key of ['primaryStarred', 'secondaryStarred', 'primaryUncapped', 'secondaryUncapped']) {
+  for (const key of [
+    'primaryStarred',
+    'secondaryStarred',
+    'primaryUncapped',
+    'secondaryUncapped',
+  ]) {
     if (patch[key] !== undefined && typeof patch[key] !== 'boolean') {
       return { ok: false, error: `Invalid ${key}` }
     }

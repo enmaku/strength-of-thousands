@@ -65,6 +65,46 @@
       />
     </div>
 
+    <q-expansion-item
+      v-if="track.classroomAdvantages.length"
+      class="classmate-expansion"
+      dense
+      :label="advantageLabel"
+      header-class="classmate-expansion__header"
+    >
+      <ul class="classroom-advantages">
+        <li
+          v-for="advantage in track.classroomAdvantages"
+          :key="advantage.slug"
+          class="classroom-advantage"
+          :class="{ 'classroom-advantage--earned': advantage.text }"
+        >
+          <q-avatar size="28px" class="classroom-advantage__portrait">
+            <img :src="portraitUrl(advantage.thumb)" alt="" />
+          </q-avatar>
+          <div class="classroom-advantage__copy">
+            <div class="classroom-advantage__name-row">
+              <div class="classroom-advantage__name">{{ advantage.displayName }}</div>
+              <div
+                class="classroom-advantage__hearts"
+                :aria-label="`Disposition ${advantage.hearts} of 5`"
+              >
+                <q-icon
+                  v-for="n in 5"
+                  :key="n"
+                  class="classroom-advantage__heart"
+                  :class="n <= advantage.hearts ? 'sot-heart-filled' : 'sot-heart-empty'"
+                  :name="n <= advantage.hearts ? 'favorite' : 'favorite_border'"
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+            <p v-if="advantage.text" class="classroom-advantage__text">{{ advantage.text }}</p>
+          </div>
+        </li>
+      </ul>
+    </q-expansion-item>
+
     <ul v-if="track.benefits.length" class="benefit-list q-mt-sm q-mb-none">
       <li v-for="benefit in track.benefits" :key="`${track.role}-${benefit.level}`">
         <button type="button" class="benefit-trigger" @click="$emit('benefit-click', benefit)">
@@ -106,12 +146,20 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 
-defineProps({
+const props = defineProps({
   track: { type: Object, required: true },
   imageUrl: { type: String, required: true },
+  portraitUrl: { type: Function, required: true },
   editable: { type: Boolean, default: false },
+})
+
+const advantageLabel = computed(() => {
+  const advantages = props.track.classroomAdvantages
+  const earned = advantages.filter((advantage) => advantage.text).length
+  const title = advantages.length === 1 ? 'Classroom Advantage' : 'Classroom Advantages'
+  return `${title} (${earned}/${advantages.length})`
 })
 
 defineEmits(['increment', 'decrement', 'toggle-uncapped', 'benefit-click'])
@@ -163,6 +211,82 @@ const branchOpen = ref(false)
 
 .branch-star {
   color: var(--sot-gold);
+}
+
+.classmate-expansion {
+  margin-top: 0.15rem;
+}
+
+.classmate-expansion :deep(.classmate-expansion__header) {
+  min-height: 2rem;
+  padding: 0.15rem 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--sot-teal);
+}
+
+.classroom-advantages {
+  list-style: none;
+  margin: 0.15rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.classroom-advantage {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 0;
+}
+
+.classroom-advantage--earned {
+  align-items: flex-start;
+}
+
+.classroom-advantage__portrait {
+  flex: none;
+  border: 2px solid var(--sot-border);
+  background: #fff;
+}
+
+.classroom-advantage__copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.classroom-advantage__name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.classroom-advantage__name {
+  min-width: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.classroom-advantage__hearts {
+  display: flex;
+  flex: none;
+  margin-left: auto;
+}
+
+.classroom-advantage__heart {
+  font-size: 0.95rem;
+}
+
+.classroom-advantage__heart.sot-heart-empty {
+  color: var(--sot-muted);
+}
+
+.classroom-advantage__text {
+  margin: 0.15rem 0 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
 }
 
 .benefit-list {

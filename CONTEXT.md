@@ -44,7 +44,7 @@ _Avoid_: AoN (fine in informal notes)
 A campaign tool showing one tab per hero. Each tab displays a tile grid of all Spire students with portrait, name, disposition hearts, and unlock indicators for Classroom Advantage and uncommon rules. Locked indicators appear muted; unlocked indicators are highlighted. Tooltips always show the full benefit text, even when locked. In GM mode the GM can edit dispositions only; in player mode the same view is read-only. Does not add heroes — roster comes from the **hero roster**.
 
 **Study tracker**:
-A campaign tool listing all heroes alphabetically on one screen. Each hero shows primary and secondary **branch** choice, **branch level** progress (0–20 with a **cap marker**), and gained branch benefits. In GM mode the GM sets branches, adjusts levels with +/−, can mark **starred branch** (banked Study success at cap), and toggle **uncapped branch** for Book 6. Players see read-only progress once branches are configured; unconfigured heroes show a muted placeholder. Branch rules text comes from the **branch catalog**; institutional Magaambya rank is out of scope.
+A campaign tool listing all heroes alphabetically on one screen. Each hero shows primary and secondary **branch** choice, **branch level** progress (0–20 with a **cap marker**), and gained branch benefits. Every Spire student who belongs to a shown branch is listed in a closed **Classroom Advantages (m/n)** expansion under that column, between the progress bar and the gained benefits. The title is singular when that branch has one classmate. m is unlocked Classroom Advantages; n is classmates in that branch. Each row shows a small circular portrait, the student's name, and disposition hearts aligned to the right. The **Classroom Advantage** text appears under the name only after it is unlocked. In GM mode the GM sets branches, adjusts levels with +/−, can mark **starred branch** (banked Study success at cap), and toggle **uncapped branch** for Book 6. Players see read-only progress once branches are configured; unconfigured heroes show a muted placeholder. Branch rules text comes from the **branch catalog**; institutional Magaambya rank is out of scope.
 _Avoid_: Academia page, rank tracker (when meaning institutional rank)
 
 **Branch level**:
@@ -68,7 +68,7 @@ GM toggle per branch for Book 6 Endless Table — cap treated as 20 regardless o
 Shared reference data in `data/magaambya-branches.json` — branch names, badge images, branch-specific feats, and benefit tooltip text.
 
 **Spire student catalog**:
-Shared reference data for every Spire student on the roster — slug, display name, portrait, branch, Classroom Advantage description, and uncommon rules description. Hero files reference students by slug only. v1 covers the nine students in the portrait manifest only. Extending the roster (e.g. Goss, Mazta, Savana) and backfilling new students into existing heroes is a separate future effort.
+Shared reference data for every Spire student on the roster — slug, display name, portrait, branch display name, branch slug, Classroom Advantage description, and uncommon rules description. Hero files reference students by slug only. v1 covers the nine students in the portrait manifest only. Extending the roster (e.g. Goss, Mazta, Savana) and backfilling new students into existing heroes is a separate future effort.
 _Avoid_: Student manifest, NPC list
 
 **Hero bio**:

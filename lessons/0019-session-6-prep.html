@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 6 Prep — Strength of Thousands</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #6f7068;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner, main, nav.toc, footer { max-width: 48rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    nav.toc {
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a, a { color: var(--green); }
+    main { padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      color: var(--green);
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { color: var(--red-earth); font-size: 1.08rem; margin: 1.5rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.91rem; margin: 1rem 0; }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font: 700 0.76rem var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .callout, .spoiler-box {
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.97rem;
+    }
+    .callout { background: var(--green-soft); border-left: 4px solid var(--green); }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); }
+    .spoiler-box strong { color: var(--red-earth); }
+    .tag {
+      display: inline-block;
+      font: 700 0.64rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.stretch { background: #efe2ef; color: #5a2a5a; }
+    .tag.cut { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .tag.warn { background: #f6e0d8; color: #8a3a22; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .quiz h2 { margin-top: 0; }
+    .quiz button {
+      font: 0.83rem var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: 0;
+      padding: 0.48rem 0.85rem;
+      margin: 0.3rem 0.3rem 0.3rem 0;
+      cursor: pointer;
+    }
+    .feedback { min-height: 1.4em; margin: 0.5rem 0 1.25rem; font-weight: 600; }
+    .feedback.correct { color: var(--correct); }
+    .feedback.wrong { color: var(--wrong); }
+    .cite { color: var(--muted); font-size: 0.8rem; }
+    .nav-lessons { font: 0.85rem var(--sans); }
+    footer {
+      padding: 1.5rem 1.5rem 3rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font: 0.83rem var(--sans);
+    }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      table { display: block; overflow-x: auto; }
+    }
+    @media print {
+      nav.toc, .quiz button { display: none; }
+      body { background: #fff; font-size: 10.5pt; }
+      header { padding: 1rem; }
+      main { padding-bottom: 1rem; }
+      h2 { break-after: avoid; }
+      table, .callout, .spoiler-box { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 6 · Book 1 Ch 2</p>
+    <h1>Session 6 Prep</h1>
+    <p>Recap settles Ot’s morning. Then branches, implements, and the first Study. Small play only if that finishes early.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#left-off">Left off</a>
+  <a href="#pace">Pace</a>
+  <a href="#thesis">Thesis</a>
+  <a href="#workshop">Workshop</a>
+  <a href="#study">First Study</a>
+  <a href="#recap">Recap</a>
+  <a href="#stretch">Stretch</a>
+  <a href="#threads">Live threads</a>
+  <a href="#npcs">NPCs</a>
+  <a href="#stories">PC moves</a>
+  <a href="#risks">Risks</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<main>
+  <p class="nav-lessons">
+    <a href="../reference/sot-session-log.md">Session log</a> ·
+    <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+    <a href="0018-magaambya-branches.html">Branches</a> ·
+    <a href="0013-branch-implements-gm-prep.html">Implements</a> ·
+    <a href="0007-academia-downtime-gm-prep.html">Academia downtime</a> ·
+    <a href="0009-player-tie-ins-gm-prep.html">Player tie-ins</a> ·
+    <a href="../reference/sot-thematic-guide.html">Thematic guide</a>
+  </p>
+
+  <section id="left-off">
+    <h2>Where Session 5 left you</h2>
+    <p><span class="tag canon">Table canon</span> The transcript cuts as Ot walks up. That morning is already over. Narrate it in the recap, then start Study. Level 2 is handed out. Branches are not chosen.</p>
+    <ul>
+      <li><strong>Uzunjati done.</strong> Okoro and Noxolo debuted in the Spire lobby (snabble at Noxolo’s ankles). Stories landed; Noxolo asked for the moral and accepted the answers. Taraan: companionship through hard change. Yggostrus: non-dragons have redeeming qualities beyond food. Solanum told the week including Umbo — “I hope he is feeling better” — and named Anchor among new friends. Friendship with Noxolo and Okoro did not cool.</li>
+      <li><strong>Free afternoon, then dawn.</strong> Solanum traded a tomato for Haibram’s glider plans and delivered them to Cy’An. Ceremony clothes: Lithrei (ear covers, elevating local style), Taraan (beads sewn onto cleric robes), Yggostrus (doll-sized wet-earth robes). Yggostrus practiced the eidolon in the forest and learned shared damage. Taraan mapped the campus edge and the founders’ statues. Lithrei found a temple of Pharasma; training to speak with restless spirits is ongoing, not finished. Lumusi baked brownies for the cohort and Ot and kept the recipe. Cy’An is reverse-engineering it.</li>
+      <li><strong>Ceremony ambush.</strong> Kurshkin (silk scraps, shortbow, Unluck, <em>gust of wind</em>, fake surrender, then <em>spider sting</em>) plus Havvix plus extra gremlins. Ended with Kurshkin disarmed and surrendered, one gremlin stabilized by Taraan, Havvix fled, another gremlin gone under the stage. Taraan pushed nonlethal; Solanum dropped one hard. Cold iron mattered.</li>
+      <li><strong>Interrogation, then the cut.</strong> Stone Ghost named: steps out of stone, commands gremlins, sent them because he said the ceremony was about them. Kurshkin’s friends were slaughtered while she was sacked and carried off. Yggostrus asked if “Uduak” meant anything; she never answered — Cy’An’s condolences landed instead. Taraan’s crit on the ledger: timeline lines up (pranks → sack → slaughter → expulsion → Stone Ghost) and the school’s records say Uduak was vaporized by the wards. Strong link, not proof. Party offered protection, relocation, a prank war on the lamp lady, and even enrollment. Ot arrived, saw the wrecked stage, asked what happened. Kurshkin: “Oh, fucking optimist asshole.” Session called.</li>
+      <li><strong>Level 2 + two beads</strong> (Uzunjati story, and the fight). Homework assigned out loud: primary and secondary branches, first Study next session, implement built with that Study. Cy’An already declared a rolling pin. Spirit masks were mentioned as a later document. <strong>Anya was absent</strong> (Julia out) — she has none of this scene.</li>
+    </ul>
+    <p class="cite">Table truth: <a href="../transcripts/strength-of-thousands/session-05/edited.json">Session 5 edited transcript</a>. Bookmark: <a href="../reference/sot-session-log.md">session log</a>.</p>
+  </section>
+
+  <section id="pace">
+    <h2>Pace estimate</h2>
+    <p>Session 5 already spent the night on one story, one Severe fight, and a long interrogation. Ot’s answer is a recap, not a scene. Six players choosing spells will not also clear a teacher mission. The workshop <em>is</em> the session.</p>
+    <table>
+      <thead><tr><th>Band</th><th>Plan</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Expected</strong></td>
+          <td><strong>Recap the settled morning</strong> (a few minutes; do not open the floor) → <strong>workshop</strong> for every PC: primary + secondary, implement, first Study → stop when the results are written down.</td>
+        </tr>
+        <tr>
+          <td><span class="tag stretch">Stretch</span></td>
+          <td>One dorm favor only if the workshop finished with half an hour left. <strong>Lost Chicken</strong> if Anya is back; otherwise <strong>Okoro’s new board game</strong>. One scene. Not both.</td>
+        </tr>
+        <tr>
+          <td><span class="tag cut">Cut early</span></td>
+          <td>If implements eat the clock, end when every name, trait, spell pair, and Study result is written down. The morning is already settled. Do not start a favor “just to play.”</td>
+        </tr>
+        <tr>
+          <td><span class="tag cut">Do not bank on</span></td>
+          <td>Koride’s insect list, the kitchen centipede swarm, Takulu’s stump library, Zuma’s tattoo ritual, the Starday tournament, or First Masking. Those are later Chapter 2 nights. Chapter 2 wants several Study opportunities across the whole chapter — this is only the first.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="cite">Chapter frame: <code>kindled-magic.txt</code> printed pp. 30–31 (classes open; first Study; teacher services are interleaved, not a same-night checklist). Pace lesson from Sessions 1–5: one dense block fills the evening.</p>
+  </section>
+
+  <section id="thesis">
+    <h2>Session thesis</h2>
+    <div class="callout">
+      <strong>Session thesis:</strong> a branch is a promise about how you will serve, not a line on the character sheet.
+      They name a primary and a secondary in front of each other, bind that virtue into an implement they have to hold, and sit a first class that can fail.
+      <p style="margin:0.65rem 0 0;font-size:0.92rem">Who needs it most: <strong>Anya</strong> (she missed the briefing and still has to choose in public), <strong>Cy’An</strong> (the rolling pin has to be a Magaambya vow, not only a joke), <strong>Yggostrus</strong> (a branch is stewardship, not another private power). Thematic guide: Word and Way — study unused is incomplete — opening Book 1’s semester arc, becoming someone the school recognizes.</p>
+    </div>
+  </section>
+
+  <section id="workshop">
+    <h2>Open on the workshop</h2>
+    <p>Say this before anyone opens a book: the fight is over, Ot already handled the morning, you are level 2 initiates, masks come later, and tonight we choose branches, build the implement, and roll the first Study.</p>
+    <p>Have the three handouts open: <a href="0018-magaambya-branches.html">Branches</a>, <a href="0013-branch-implements-gm-prep.html">Branch Implements</a>, <a href="0007-academia-downtime-gm-prep.html">Academia Downtime</a>. Run the table in rounds so six people are not spell-shopping at once while one person waits.</p>
+    <ol>
+      <li><strong>Branches, one pass.</strong> Each PC names a primary and a secondary. They must differ. Both start at 0. They may still change until the Study roll. Ask which virtue they are willing to be answerable for — imagination, camaraderie, adaptability, valor, knowledge — not which feat is strongest. Anya’s reliable Study skills are Nature, Survival, and Intimidation; if she stalls, offer Rain-Scribes or Tempest-Sun as the rolls she can actually make. Do not assign anyone a branch.</li>
+      <li><strong>Form, trait, name.</strong> Default form is a staff: one hand, Bulk 1, obvious, not worn or pocketed. Other legal shapes (orb, book, pan, holy symbol that fills a hand) use staff rules, or an agreed one-hand simple weapon of Bulk 1. Cy’An’s rolling pin is already declared and legal. Binding trait comes from the primary branch’s list and is permanent — say that before they lock it. Then they name it.</li>
+      <li><strong>Apprentice spells.</strong> One cantrip and one 1st-rank spell. Both must have the binding trait. Any tradition. Common by default; uncommon needs a yes from you. Timebox this round. Sheet debugging (Solanum’s missing Force Fang, Pathbuilder tabs) waits for a break.</li>
+      <li><strong>Then the Study roll</strong> in the next section. The implement is the school’s gift when that roll resolves. No Craft check and no gp.</li>
+    </ol>
+    <div class="spoiler-box">
+      <strong>Keep separate</strong>
+      <p>Branch implement = this Study. Spirit mask = First Masking, still later. If someone reaches for <a href="0015-spirit-masks.html">the mask handout</a>, point them back at the implement page.</p>
+    </div>
+    <p class="cite">Implements: first Study grants Apprentice (1 cantrip + 1 rank-1). Holding benefit is already +1 at primary branch 0–10. At level 2, preparing it gives charges equal to highest spell rank + 1, so <strong>2 charges</strong>. On-list cantrips cost 0; off-list cantrips cost 1; an off-list 1st costs 2 (one cast, then empty).</p>
+  </section>
+
+  <section id="study">
+    <h2>First Study — roll it here</h2>
+    <p>One downtime block, about a semester, resolved in one check. Each PC picks <em>either</em> primary or secondary and rolls one associated skill against the <strong>standard DC of the branch’s current level</strong>. Everyone is at branch 0, so the DC is <strong>14</strong>.</p>
+    <table>
+      <thead><tr><th>Result</th><th>Branch</th><th>Also</th></tr></thead>
+      <tbody>
+        <tr><td>Critical success</td><td>+2 levels</td><td>Implement still granted</td></tr>
+        <tr><td>Success</td><td>+1 level</td><td>Implement still granted</td></tr>
+        <tr><td>Failure</td><td>No change</td><td>Implement still granted. The gift is for sitting the class, not for acing it.</td></tr>
+        <tr><td>Critical failure</td><td>No change</td><td>Implement still granted. They skip the <em>next</em> Study (remedial work).</td></tr>
+      </tbody>
+    </table>
+    <h3>Caps at character level 2</h3>
+    <ul>
+      <li><strong>Primary</strong> cannot pass character level: cap <strong>2</strong>. A crit from 0 lands on 2 exactly (Additional Lore at 1, Steeped in History +1 at 2). No star.</li>
+      <li><strong>Secondary</strong> cannot pass half character level: cap <strong>1</strong>. Success lands on 1. A crit tries to reach 2, so they stop at 1 and mark a <strong>★</strong>. That star spends when half their level becomes 2 — character level 4, not level 3.</li>
+      <li><strong>Cram is not available.</strong> Cram needs both branches 2 or more below their caps, and the secondary is only 1 below. Say so if someone asks. One class this term.</li>
+      <li><strong>Anchor’s advantage:</strong> Rain-Scribe Study critical failures become failures (the Session 3 caterpillar cutting). Use it if anyone Studies Rain-Scribes.</li>
+    </ul>
+    <p>Write the result before you stand up: branch chosen, new level, lore or bonus gained, implement name, trait, two spells. A failure is a real semester. Do not offer a reroll to be kind.</p>
+    <p class="cite">Study: <code>kindled-magic.txt</code> printed p. 63. Caps and the star: same page. Branch skills and Additional Lore: <a href="0007-academia-downtime-gm-prep.html">Academia Downtime</a>.</p>
+  </section>
+
+  <section id="recap">
+    <h2>Recap — the morning already happened</h2>
+    <p>Cover this in a few sentences, then sit down to branches. Do not ask what they say to Ot, and do not roll the Diplomacy he named. If someone wants to reopen Kurshkin, the lamp lady, or the tunnels, one sentence and back to Study.</p>
+    <p><span class="tag canon">Settled before Study</span></p>
+    <ul>
+      <li>Ot was not angry about the fight, including the gremlin who went down hard. He cancelled the ceremony. No audience came.</li>
+      <li>Kurshkin and the stabilized gremlin went with the faculty. Both alive. She is not enrolled, and she is not killed. Havvix and the gremlin under the stage are gone. Ot believes the tunnels are real and does not send initiates into them.</li>
+      <li>He will think about relocating the gremlins somewhere they are not Stone Ghost’s tools. The lamp-lady prank is not a school project. Jatia is left alone.</li>
+      <li>He wrote down the name Stone Ghost. The Uduak timeline stays a ledger hunch. The records still say that student is dead. He did not confirm the identity.</li>
+      <li>He sent them to choose a primary and a secondary and to sit their first class. That class is the Study you are about to roll. Weeks have passed. They are still initiates.</li>
+    </ul>
+    <div class="spoiler-box">
+      <strong>GM only — do not add this to the recap</strong>
+      <p>Kurshkin knows Ot because he stuffed her in a sack on an elephant years ago. That grievance can wait for a scene where she is actually in the room. Chapter 3 can still use her. She is alive and in faculty hands.</p>
+    </div>
+    <p class="cite">Ceremony aftermath: <code>kindled-magic.txt</code> printed pp. 27–29. Classes open after a short respite — printed p. 30.</p>
+  </section>
+
+  <section id="stretch">
+    <h2>Stretch — one favor, then stop</h2>
+    <p>Only if the workshop finished with time left. These are the short student favors in Chapter 2 (one or two checks, 30 XP). They are not the insect investigation.</p>
+    <table>
+      <thead><tr><th>If…</th><th>Run</th><th>Stop before</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Anya is here</strong></td>
+          <td><strong>Lost Chicken.</strong> Anchor’s familiar is on the Spire roof. DC 15 Perception to find it, DC 15 Athletics to bring it down. She squeaks a thanks and flees to her room. One line from her, if you want a wink: centipedes have been in the dorm walls. Do not hand them Koride’s list.</td>
+          <td>Any second favor. Any teacher office.</td>
+        </tr>
+        <tr>
+          <td><strong>Anya is out, or the table wants silly</strong></td>
+          <td><strong>Okoro’s board game.</strong> DC 14 Occultism or Society to decipher the rules. Crit on that check finds a cipher page (scroll of <em>augury</em>). Playing the game is DC 18; people who failed to learn the rules worsen their result by one step. He is the same enthusiastic listener from story morning.</td>
+          <td>A second game night. Janatimo. Izem.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="cite">Student favors: <code>kindled-magic.txt</code> printed pp. 42–43. Koride’s three sites and the Low 2 kitchen swarm are printed pp. 31–33 — next session at the earliest.</p>
+  </section>
+
+  <section id="threads">
+    <h2>Live threads — acknowledge, do not detour</h2>
+    <table>
+      <thead><tr><th>Thread</th><th>Session 6 handling</th></tr></thead>
+      <tbody>
+        <tr><td>Ot’s morning</td><td>Already over. Recap only. Do not play it.</td></tr>
+        <tr><td>Kurshkin alive / Havvix fled</td><td>Already with faculty / already gone. No tunnel crawl. No enrollment scene.</td></tr>
+        <tr><td>Stone Ghost = Uduak?</td><td>Still a ledger hunch. The recap does not confirm it.</td></tr>
+        <tr><td>Lamp-lady prank</td><td>Already refused. Do not relitigate.</td></tr>
+        <tr><td>Lumusi’s brownie recipe</td><td>Still secret. Cy’An may keep tinkering offscreen. Not a scene.</td></tr>
+        <tr><td>Glider plans</td><td>Already in Cy’An’s hands. Haibram’s Lofty Leap is a later favor, and it is Solanum’s sky-buddy beat if anyone flies.</td></tr>
+        <tr><td>Pharasma temple</td><td>Lithrei’s training continues between sessions. No new clue tonight.</td></tr>
+        <tr><td>Wolf fang, hand wraps, holly, key</td><td>Still loose from the laundry-room finds. If someone asks, note who holds what and move on. No gear audit.</td></tr>
+        <tr><td>Umbo</td><td>Solanum’s story hopes he is feeling better. Do not correct her during branch choice.</td></tr>
+        <tr><td>Anya’s absence</td><td>She hears the same short recap as everyone else, including that the morning is settled, then chooses with them. Do not replay the fight.</td></tr>
+        <tr><td>Insects / Koride</td><td>Not this session, even if Yggostrus picks Rain-Scribes. One centipede line during Lost Chicken is the whole wink.</td></tr>
+        <tr><td>Spirit masks</td><td>Named last session as homework reading. Carve them later, at First Masking.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="npcs">
+    <h2>NPC relationships tonight</h2>
+    <table>
+      <thead><tr><th>NPC</th><th>Play</th><th>Relationship move</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Takulu Ot</strong></td>
+          <td>Not in the room. The recap already has his decisions: ceremony cancelled, prisoners with faculty, Stone Ghost filed, Uduak unconfirmed, go to class.</td>
+          <td>Do not give him a branch-blessing scene. He does not assign the stump library.</td>
+        </tr>
+        <tr>
+          <td><strong>Kurshkin</strong></td>
+          <td>Not in the room. Alive, with faculty, not enrolled.</td>
+          <td>The lamp-lady scheme and the enrollment offer are already closed. Her grudge against Ot waits for a later scene.</td>
+        </tr>
+        <tr>
+          <td><strong>Anchor Root</strong> <span class="tag stretch">stretch</span></td>
+          <td>Lost Chicken only. Anxious, exact, grateful, then gone.</td>
+          <td><strong>Anya</strong> if she is back: a living campus that needs her, not a speech about belonging.</td>
+        </tr>
+        <tr>
+          <td><strong>Okoro</strong> <span class="tag stretch">stretch</span></td>
+          <td>Same man as story morning. New board game, dense rules, delighted.</td>
+          <td><strong>Taraan:</strong> social glue without ghosts. Do not bring up Ird or the tunnels.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Do not debut Koride, Zuma, Mafika, Lesedi, Izem, or Janatimo tonight. They are Chapter 2 faces for nights when the table is not also building six staves.</p>
+  </section>
+
+  <section id="stories">
+    <h2>Player story moves — inside the workshop</h2>
+    <p>The move is the choice itself. One extra beat at most, and only if it falls out of the round. Nothing here requires a new location.</p>
+    <table>
+      <thead><tr><th>PC</th><th>Available move</th><th>Not yet</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Anya</strong></td>
+          <td>Catch up in two sentences, then choose in public. Rain-Scribes or Tempest-Sun if she wants a skill she is trained in. Lost Chicken is hers if you reach the stretch.</td>
+          <td>Eidolon-origin reveal. Koride. A replay of the ambush.</td>
+        </tr>
+        <tr>
+          <td><strong>Cy’An</strong></td>
+          <td>Rolling pin is the form. The binding trait and the two spells have to match the virtue, not the joke. Provider instinct can be the Emerald or Cascade promise; say which.</td>
+          <td>Lumusi gives up the recipe. Enrolling Kurshkin. A second staff besides the pin.</td>
+        </tr>
+        <tr>
+          <td><strong>Solanum</strong></td>
+          <td>Branch as another way to care (healing, plants, or the sky) after a fight she ended hard. Umbo stays in her version of the story.</td>
+          <td>Lesedi. Red-star answers. Correcting the Umbo hope. Lofty Leap unless she asks and you somehow have time.</td>
+        </tr>
+        <tr>
+          <td><strong>Yggostrus</strong></td>
+          <td>Choosing a branch is the stewardship beat: the school is asking the tiny dragon to be answerable to other people. Shared-damage lesson from the forest can color the trait he picks.</td>
+          <td>Koride, even if he picks Rain-Scribes. Replaying the apology. Shovel errand instead of Study.</td>
+        </tr>
+        <tr>
+          <td><strong>Lithrei</strong></td>
+          <td>Uzunjati or Cascade can rhyme with the Pharasma study without a new vision. Noxolo already met him as a peer at story morning; don’t restage it.</td>
+          <td>A passenger reveal. Folding Noxolo into the haunt. Ahassunu’s debut.</td>
+        </tr>
+        <tr>
+          <td><strong>Taraan</strong></td>
+          <td>Knowledge as the branch he already performed (ledger, map, moral). Okoro’s game is the stretch hitch, not a new faculty mentor.</td>
+          <td>Izem. Ird. The stump library. Confirming Uduak.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="risks">
+    <h2>Table risks and GM moves</h2>
+    <ul>
+      <li><strong>Workshop sprawl:</strong> rounds, not a free-for-all. Branches together, then forms, then spells, then rolls. If spell choice stalls, default the form to a staff and pick the trait tonight; spells can finish at the break, not next week.</li>
+      <li><strong>Cram and cap mistakes:</strong> one Study, DC 14, secondary cap 1, no Cram. A secondary crit banks a star until level 4. A bad roll still gets the implement.</li>
+      <li><strong>Implement vs mask:</strong> say it again when someone asks about carving. Masks are the ceremony you are not running.</li>
+      <li><strong>Anya catching up:</strong> she should not spend the night reconstructing Session 5. Two sentences, then the same rounds as everyone else.</li>
+      <li><strong>Sheet tech:</strong> Force Fang and Pathbuilder exports are a break problem. They ate the end of Session 5. They do not get the end of this one.</li>
+      <li><strong>Reopening the morning:</strong> the recap is closed. A player question gets one sentence, then branches. Ot does not hand over Koride’s list or the missing books.</li>
+      <li><strong>Identity spoilers:</strong> Stone Ghost stays a name. Uduak stays a dead student in a ledger. Kurshkin stays alive.</li>
+      <li><strong>Six-player kindness:</strong> crits on DC 14 will happen. Branch 2 on a primary crit is the reward. Do not soften a crit fail into a success; remedial Study is the lesson that class is real.</li>
+    </ul>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <h2>Self-check — ready for Session 6?</h2>
+
+    <h3>1. What is the expected scope?</h3>
+    <button onclick="check(this,'a')">A. Recap Ot’s morning as already done, then the workshop</button>
+    <button onclick="check(this,'b')">B. Play the stage conversation, then Study as homework</button>
+    <button onclick="check(this,'c')">C. Koride’s three insect sites and the kitchen swarm</button>
+    <div class="feedback" data-answer="a"></div>
+
+    <h3>2. Why is Cram off the table?</h3>
+    <button onclick="check(this,'a')">A. Initiates are not allowed to Cram</button>
+    <button onclick="check(this,'b')">B. Cram needs both branches far below their caps, and the secondary is only one below</button>
+    <button onclick="check(this,'c')">C. The first Study is always a failure</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>3. What is tonight’s thesis pressure?</h3>
+    <button onclick="check(this,'a')">A. Service does not buy safety</button>
+    <button onclick="check(this,'b')">B. A branch is a promise of how you will serve</button>
+    <button onclick="check(this,'c')">C. Curiosity without duty, via Koride’s specimens</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>4. What do you do with the Uduak hunch?</h3>
+    <button onclick="check(this,'a')">A. Ot confirms Stone Ghost is Uduak and opens the tunnels</button>
+    <button onclick="check(this,'b')">B. Leave it a ledger hunch; Ot will not call a dead student a ghost</button>
+    <button onclick="check(this,'c')">C. Kurshkin already confessed the name when Yggostrus asked</button>
+    <div class="feedback" data-answer="b"></div>
+  </section>
+
+  <section id="after">
+    <h2>After Session 6</h2>
+    <ol>
+      <li>Update <a href="../reference/sot-session-log.md">the session log</a>: each PC’s primary, secondary, Study result, and implement name and trait. Ot’s morning is already the recap canon above.</li>
+      <li>Note any branch that crit-failed (they skip the next Study) and any secondary ★.</li>
+      <li>Draft Session 7 from whatever is still unopened: Koride’s insect errand is the natural first teacher mission, and it should be its own night — not bolted onto another rules block.</li>
+    </ol>
+    <p>Ask your teacher about anything unclear: a binding trait that doesn’t fit the branch list, an uncommon spell, or whether Anya is in the room.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0019 · Session prep · grounded in the Session 5 transcript and <em>Kindled Magic</em> Chapter 2’s opening.</p>
+  <p>Open: <code>open lessons/0019-session-6-prep.html</code></p>
+</footer>
+
+<script>
+function check(button, choice) {
+  let feedback = button.nextElementSibling;
+  while (feedback && !feedback.classList.contains('feedback')) {
+    feedback = feedback.nextElementSibling;
+  }
+  const answer = feedback.getAttribute('data-answer');
+  const correct = choice === answer;
+  feedback.textContent = correct ? 'Correct.' : 'Not quite — re-read the matching section above.';
+  feedback.className = 'feedback answered ' + (correct ? 'correct' : 'wrong');
+}
+</script>
+</body>
+</html>

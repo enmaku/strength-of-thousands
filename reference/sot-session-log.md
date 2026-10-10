@@ -14,11 +14,11 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | Field | Value |
 |-------|--------|
 | **Book** | 1 — *Kindled Magic* |
-| **Chapter** | 1 — Orientation |
-| **Level** | 1 (level 2 after Introduction Ceremony) |
-| **Calendar** | Arodus 4721, rainy season; morning after Perquisite day 4 (Emerald mail) |
-| **Last played** | Session 4 |
-| **Next prep** | Session 5 — `lessons/0016-session-5-prep.html` (Uzunjati → Intro Ceremony) |
+| **Chapter** | 1 ceremony fought; aftermath and first Study not yet on the sheet. Session 6 recap settles Ot before Study |
+| **Level** | 2 (handed out at the end of Session 5; branches still 0) |
+| **Calendar** | Arodus 4721, rainy season; weeks of class about to be rolled as the first Study |
+| **Last played** | Session 5 |
+| **Next prep** | Session 6 — `lessons/0019-session-6-prep.html` (recap Ot, then branches, implements, first Study) |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -30,10 +30,10 @@ Book order (Esi’s plan). Tasks may be reordered at table, but NPCs and foresha
 | 2 | Tempest-Sun | Nonlethal pugwampi clear — storage barn (Esi alone); Uduak seed | **Session 2** |
 | 3 | Cascade Bearers | Three oils + fey-abeyance ritual (Mariama + Anchor Root + Chizire); Umbo | **Session 3** |
 | 4 | Emerald Boughs | Mail run on elephant birds (Ignaci + Tzeniwe) | **Session 4** |
-| 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | — |
-| 6 | — | **Introduction Ceremony** — Kurshkin + Havvix (Severe 1); **level 2** | — |
+| 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | **Session 5** |
+| 6 | — | **Introduction Ceremony** — Kurshkin captured, Havvix fled; **level 2**; Ot walked in as the session ended | **Session 5** (aftermath narrated in the Session 6 recap, not played) |
 
-Then: rest day → **Meet the Teachers** → classes (Ch 2).
+Then: first Study at the table (Session 6) → **Meet the Teachers** on a later night.
 
 ## Session history
 
@@ -147,9 +147,9 @@ Then: rest day → **Meet the Teachers** → classes (Ch 2).
 - Hard / unclear addresses cleared: Bassey (ink), Sister Folami (Gozreh laundress), Kofi Two-Hats (cabbages, not hats), Nneka (family support / pregnancy medicine news), Tunde with Broken Shutters, Chukwu (fishing kit + corrected address for Tzeniwe’s ledger), Adanna (kiln / clay nerd), Ekwueme (stilt house — laughs/cries reading letter).
 - Close: ginger-beer picnic; Zachva & Zanvi briefly shift to spider form mid-tag; Society checks — Taraan nat 20 knows Anadi true form; Solanum/Cy’An know rare spider-shifters; others fail.
 
-**Not covered (still ahead)**
+**Not covered (still ahead after Session 4 — done in Session 5 except where noted)**
 
-- Uzunjati story + moral (Okoro + Noxolo); Introduction Ceremony; Meet the Teachers; any Ch 2 Study.
+- Uzunjati story + moral (Okoro + Noxolo); Introduction Ceremony. Meet the Teachers and Ch 2 Study were still ahead.
 
 **Table pace note**
 
@@ -161,21 +161,53 @@ Then: rest day → **Meet the Teachers** → classes (Ch 2).
 |-----|---------------|------|
 | Tzeniwe | Whole cohort; Cy’An kitchen mirror; Anya animal/pack texture available | Debut. Overpacker mom; kids revealed as Anadi spiderlings at picnic. Warm close. |
 | Ignaci | Whole cohort; fashion aside to Cy’An’s stitching | Debut. Emerald framing; lamp not escalated to him mid-dispute. |
-| Haibram | Taraan (Gozreh kite) | Helped craft storm kite; still owes Solanum glider formula. |
+| Haibram | Taraan (Gozreh kite) | Helped craft the storm kite. Glider plans later handed to Solanum in Session 5. |
 | Anchor Root | Taraan (Mazludeh snakes) | Came to temple; egg-snake expertise. |
 | City faces | Split party | Chinasa, Ige, Musubu, Jatau, Ndidi, Nneka, Kofi, etc. — Book 2 “people who remember you” seeds. |
 
+### Session 5
+
+**Covered**
+
+- **Anya absent** (Julia out). Yggostrus present. Recap put him on the bird-train as a passenger lashed to someone else’s elephant bird.
+- Uzunjati in the Spire lobby: **Okoro** and **Noxolo** (snabble). Stories plus morals accepted — Taraan (companionship through change), Yggostrus (non-dragons are more than food), Solanum (the week, including hope that Umbo is “feeling better,” and Anchor as a friend). No friendship cooling.
+- Free afternoon: Haibram’s glider plans traded to Solanum (tomato) and delivered to Cy’An. Ceremony clothes (Lithrei’s ear covers, Taraan’s beaded robes, Yggostrus’s earth robes). Yggostrus practiced the eidolon and learned shared damage. Taraan mapped founders’ statues. Lithrei began ongoing Pharasma-temple study (restless spirits). Lumusi baked brownies and kept the recipe.
+- Dawn ambush: Kurshkin surrendered after a fake surrender and *spider sting*; Havvix fled; one gremlin stabilized (Taraan); another fled under the stage. Taraan pushed nonlethal; Solanum dropped one hard.
+- Interrogation: Stone Ghost named and described. Uduak asked and not answered. Taraan’s ledger crit: timeline matches, school records say Uduak was vaporized — link, not proof. Offers of protection, relocation, a lamp-lady prank war, and enrollment.
+- Level 2. Two beads (story + fight). Homework assigned: branches, implement, first Study next session. Cy’An declared a rolling pin. Spirit masks named as later.
+- **Cut on Ot’s entrance.** He asked what happened. Diplomacy never rolled. Session 6 does not play this: the recap treats the morning as already settled (ceremony cancelled, Kurshkin alive with faculty, Stone Ghost filed, Uduak unconfirmed, sent to class).
+
+**Not covered (still ahead)**
+
+- Branch choice, implements, any Study. Ot’s morning is recap canon, not a scene.
+- Meet the Teachers, insect errands, student favors, First Masking.
+
+**Table pace note**
+
+- Uzunjati + ceremony fight + interrogation filled the night and still stopped before the aftermath scene. Matches “do not also open Chapter 2.” Session 6 should not add a teacher mission on top of the rules workshop.
+
+**NPC relationship seeds planted**
+
+| NPC | Who connected | Note |
+|-----|---------------|------|
+| Okoro | Whole cohort; Taraan’s moral landed cleanly | Debut. Enthusiastic listener. Game night still unused. |
+| Noxolo | Whole cohort, including Lithrei as a peer in the group story | Debut at the table. Ordinary warmth, not another occult probe. Snabble. |
+| Haibram | Solanum (plans + tomato); Cy’An now holds the plans | Glider formula debt paid in paper. Lofty Leap not run. |
+| Lumusi | Cy’An | Brownies yes, recipe no. |
+| Kurshkin | Whole party present | Captured, fed, healed, afraid of Stone Ghost, hates Ot on sight. Alive. |
+| Takulu Ot | Walk-on only | Question never played. Session 6 recap settles it before Study. |
+
 ## Pace model (revisable)
 
-Derived from Sessions 1–4 + book density:
+Derived from Sessions 1–5 + book density:
 
 | Session estimate | Likely content |
 |------------------|----------------|
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
-| **Session 5 (prep target)** | Uzunjati story + moral (short) → **Introduction Ceremony** (Severe 1 climax) → level 2 + **first Study homework** (between sessions). |
-| Session 6 (rough) | Resolve first Study + branch implements → start interleaving Meet Teachers / insect vignettes / student scenes. First Masking still later. |
+| Session 5 (**done**) | Uzunjati + ceremony fight + interrogation. Stopped as Ot arrived. Level 2 handed out. Study not rolled. |
+| **Session 6 (prep target)** | Recap settles Ot’s morning (not played) → branches, implements, first Study for every PC (Anya catch-up included). One dorm favor only if time remains. No Koride, no stump library, no First Masking. |
 
-Revise after Session 5 actuals.
+Revise after Session 6 actuals. The old “interleave Meet the Teachers the same night” estimate does not survive a six-player implement build.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -183,12 +215,12 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
-| Anya | Quiet belonging with Tzeniwe/twins still thin; Cy’An’s wolf-fang gift pending | Deepen **Tzeniwe**; eidolon origin later |
-| Cy’An | Bonding Meal landed; received Tzeniwe care / jam peer texture | Deepen **Lumusi**; don’t re-run provider takeover |
-| Solanum | Haibram kite assist (not her formula); healing hunger; Umbo grief | **Lesedi** (Ch 2+); collect glider formula |
-| Yggostrus | **Absent Session 4** — pick which bird-train events he witnessed; Anchor shovel-repair still open | **Koride** deepen when ready |
-| Lithrei | Lamp occult bluff landed; Noxolo peer contact still pending | **Noxolo** ordinary warmth on Uzunjati day |
-| Taraan | Anadi expert (nat 20); Mazludeh + Gozreh deliveries; Okoro still unused | **Okoro** on Uzunjati day; **Izem** (Ch 2+) |
+| Anya | Missed Session 5 entirely; wolf-fang gift still loose | Belonging beat when she chooses a branch; **Anchor** via Lost Chicken if Session 6 has time. Eidolon origin later |
+| Cy’An | Rolling pin declared; Lumusi kept the brownie recipe; Kurshkin enrollment offer parked | Deepen **Lumusi** later; don’t re-run provider takeover or enroll Kurshkin |
+| Solanum | Glider plans delivered; Umbo “hope he is feeling better” is her version | **Lesedi** still later; don’t correct Umbo during Study |
+| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** when insects open — not Session 6 |
+| Lithrei | Noxolo group warmth landed; Pharasma temple study ongoing | Don’t restage Noxolo; **Ahassunu** still later |
+| Taraan | Okoro debuted on story morning; ledger crit on Uduak timeline | **Okoro** game only as stretch; **Izem** still later. Do not confirm Stone Ghost |
 
 ## Sources
 
@@ -197,4 +229,5 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 - `transcripts/strength-of-thousands/session-02/edited.json`
 - `transcripts/strength-of-thousands/session-03/edited.json`
 - `transcripts/strength-of-thousands/session-04/edited.json`
+- `transcripts/strength-of-thousands/session-05/edited.json`
 - `lessons/0001-kindled-magic-gm-prep.html`, `0009-player-tie-ins-gm-prep.html`

@@ -71,7 +71,11 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 | `lamp-dispute` | Session 4 — Mauxi lamp; Ndidi vs Jatia |
 | `hard-deliveries` | Session 4 — rural parcels, unclear addresses |
 | `mail-return` | Session 4 — ginger beer close |
-| `introduction-ceremony` | End of Ch 1; gremlin attack |
+| `uzunjati-story` | Session 5 — cohort stories of the week (moral beats) |
+| `introduction-ceremony` | Session 5 — Takulu Ot summons; Haibram; ceremony clothes and downtime |
+| `kurshkin-combat` | Session 5 — stage ambush and Kurshkin / Havvix fight |
+| `ceremony-aftermath` | Session 5 — interrogation, Stone Ghost seed, ceremony status |
+| `level-up-wrap` | Session 5 — level 2, beads, Study homework |
 | `campus-semester` | Classes, teacher missions, dorm life |
 | `first-masking` | Ch 2 ceremony; giant insect attack |
 | `archhorn-tunnels` | Ch 3 library tunnels; Stone Ghost |

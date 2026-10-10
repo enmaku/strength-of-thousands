@@ -236,10 +236,40 @@
     {
       "canonical": "Kurshkin",
       "synonyms": [
-        "Kurskin"
+        "Kurskin",
+        "Kirshkin",
+        "Kershkin"
       ],
       "type": "npc",
-      "notes": "Ancient pugwampi; unluck aura; allies with Stone Ghost."
+      "notes": "Ancient pugwampi jinxer; unluck aura; allies with Stone Ghost."
+    },
+    {
+      "canonical": "Havvix",
+      "synonyms": [
+        "Havix",
+        "Havox",
+        "Havocs",
+        "Havok"
+      ],
+      "type": "npc",
+      "notes": "Vexgit bone-breaker with Kurshkin at the Introduction Ceremony (session 5). Whisper often heard Havox/Havoc."
+    },
+    {
+      "canonical": "Modu",
+      "synonyms": [
+        "MODU"
+      ],
+      "type": "npc",
+      "notes": "Cy'An's prototype construct; Mobile Oven Defense Unit. Table also says toaster."
+    },
+    {
+      "canonical": "Lemoussi",
+      "synonyms": [
+        "Chef Lemoussi",
+        "Lemousi"
+      ],
+      "type": "npc",
+      "notes": "Magaambya kitchen cook; brownie recipe Cy'An is chasing (session 5). Distinct from market vendor Lumusi Yao."
     },
     {
       "canonical": "Cy'An Copperbottom",

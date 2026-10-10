@@ -12,13 +12,7 @@ import {
   planBranchIncrement,
 } from '../domain/study.js'
 import { buildHeroTiles } from '../domain/tiles.js'
-
-const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
-
-function staticUrl(path) {
-  const base = pagesBase || ''
-  return `${base}/${path}`.replace(/\/+/g, '/')
-}
+import { fetchStaticJson, staticUrl } from '../utils/staticAssetUrl.js'
 
 export function useHeroRoster() {
   const gmMode = isGmMode()
@@ -36,7 +30,7 @@ export function useHeroRoster() {
     loading.value = true
     error.value = null
     try {
-      const res = await fetch(staticUrl('heroes/index.json'))
+      const res = await fetchStaticJson('heroes/index.json')
       if (!res.ok) throw new Error('Failed to load hero roster')
       roster.value = await res.json()
     } catch (err) {
@@ -48,7 +42,7 @@ export function useHeroRoster() {
   }
 
   async function loadHero(slug) {
-    const res = await fetch(staticUrl(`heroes/${slug}.json`))
+    const res = await fetchStaticJson(`heroes/${slug}.json`)
     if (!res.ok) throw new Error(`Failed to load hero ${slug}`)
     const hero = await res.json()
     const { study } = normalizeStudy(hero)

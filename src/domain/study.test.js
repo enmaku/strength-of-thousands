@@ -1,9 +1,12 @@
 import { describe, expect, it } from 'vitest'
 import catalog from '../../data/magaambya-branches.json'
+import students from '../../data/spire-students.json'
 import {
   branchCap,
   branchReference,
+  classroomAdvantagesForBranch,
   deriveGainedBenefits,
+  deriveStudyCard,
   normalizeStudy,
   parseStudy,
   planBranchDecrement,
@@ -31,7 +34,11 @@ describe('branchCap', () => {
 
 describe('planBranchIncrement', () => {
   it('increments below cap', () => {
-    const study = parseStudy({ primaryBranch: 'rain-scribes', secondaryBranch: 'uzunjati', primaryLevel: 1 })
+    const study = parseStudy({
+      primaryBranch: 'rain-scribes',
+      secondaryBranch: 'uzunjati',
+      primaryLevel: 1,
+    })
     const next = planBranchIncrement(study, 'primary', 3)
     expect(next.primaryLevel).toBe(2)
     expect(next.primaryStarred).toBe(false)
@@ -107,6 +114,73 @@ describe('branchReference', () => {
     expect(ref.skills).toEqual(['Medicine', 'Nature', 'Survival'])
     expect(ref.lore).toContain('terrain')
     expect(ref.virtue).toBe('Adaptability')
+  })
+})
+
+describe('classroomAdvantagesForBranch', () => {
+  it('lists every classmate on that branch, with text only when liked', () => {
+    const advantages = classroomAdvantagesForBranch(
+      'rain-scribes',
+      { 'anchor-root': 3, 'haibram-thodja': 2 },
+      students,
+    )
+    expect(advantages).toEqual([
+      {
+        slug: 'anchor-root',
+        displayName: 'Anchor Root',
+        thumb: 'anchor-root-120.jpg',
+        hearts: 3,
+        text: 'Treat your critical failures when you Study for Rain-Scribe classes as failures instead.',
+      },
+      {
+        slug: 'haibram-thodja',
+        displayName: 'Haibram Thodja',
+        thumb: 'haibram-thodja-120.jpg',
+        hearts: 2,
+        text: null,
+      },
+    ])
+  })
+
+  it('returns nothing when the branch is unset', () => {
+    expect(classroomAdvantagesForBranch(null, { 'anchor-root': 5 }, students)).toEqual([])
+  })
+})
+
+describe('deriveStudyCard', () => {
+  it('attaches every classmate of a branch, and the advantage text only when earned', () => {
+    const card = deriveStudyCard(
+      {
+        displayName: 'Taraan',
+        build: { level: 2 },
+        relationships: { 'anchor-root': 4, tzeniwe: 3, noxolo: 1 },
+        study: {
+          primaryBranch: 'rain-scribes',
+          secondaryBranch: 'emerald-boughs',
+        },
+      },
+      catalog,
+      students,
+    )
+    expect(card.primary.classroomAdvantages.map((advantage) => advantage.slug)).toEqual([
+      'anchor-root',
+      'haibram-thodja',
+    ])
+    expect(card.primary.classroomAdvantages.map((advantage) => advantage.text != null)).toEqual([
+      true,
+      false,
+    ])
+    expect(card.secondary.classroomAdvantages.map((advantage) => advantage.slug)).toEqual([
+      'ignaci-canterells',
+      'tzeniwe',
+    ])
+    expect(
+      card.secondary.classroomAdvantages.find((advantage) => advantage.slug === 'tzeniwe').text,
+    ).toContain('Emerald Boughs')
+    expect(
+      card.secondary.classroomAdvantages.find((advantage) => advantage.slug === 'ignaci-canterells')
+        .text,
+    ).toBeNull()
   })
 })
 

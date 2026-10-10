@@ -9,6 +9,11 @@ export function getGmLessonSections() {
       label: 'Sessions',
       lessons: [
         {
+          title: 'Session 6 Prep',
+          caption: 'GM prep · Branches, first Study',
+          href: `${pagesBase}/lessons/0019-session-6-prep.html`,
+        },
+        {
           title: 'Session 5 Prep',
           caption: 'GM prep · Uzunjati, Intro Ceremony',
           href: `${pagesBase}/lessons/0016-session-5-prep.html`,

@@ -7,7 +7,7 @@
     "name": "Lithrei Woeborn",
     "class": "Oracle",
     "dualClass": "Investigator",
-    "level": 1,
+    "level": 2,
     "xp": 0,
     "ancestry": "Human",
     "heritage": "Custom Mixed Heritage",
@@ -356,5 +356,15 @@
     "noxolo": 2,
     "okoro-obiyo": 1,
     "tzeniwe": 1
+  },
+  "study": {
+    "primaryBranch": null,
+    "secondaryBranch": null,
+    "primaryLevel": 0,
+    "secondaryLevel": 0,
+    "primaryStarred": false,
+    "secondaryStarred": false,
+    "primaryUncapped": false,
+    "secondaryUncapped": false
   }
 }

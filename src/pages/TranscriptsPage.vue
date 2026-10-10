@@ -360,6 +360,8 @@ import {
   listSpeakerOptions,
   listVoiceOptions,
 } from '../domain/transcriptSpeakers.js'
+import { fetchStaticJson } from '../utils/staticAssetUrl.js'
+
 const gmMode = isGmMode()
 const $q = useQuasar()
 const ui = useTranscriptsUiStore()
@@ -371,13 +373,6 @@ function pageFillStyle(offset, height) {
     minHeight: filled,
     maxHeight: filled,
   }
-}
-
-const pagesBase = import.meta.env.BASE_URL.replace(/\/$/, '')
-
-function staticUrl(path) {
-  const base = pagesBase || ''
-  return `${base}/${path}`.replace(/\/+/g, '/')
 }
 
 const catalogLoading = ref(true)
@@ -1095,7 +1090,7 @@ async function loadPlayerMap(campaign) {
   }
 
   try {
-    const res = await fetch(staticUrl(`transcripts/${campaign}/player-map.json`))
+    const res = await fetchStaticJson(`transcripts/${campaign}/player-map.json`)
     playerMap.value = res.ok ? await res.json() : null
   } catch {
     playerMap.value = null
@@ -1115,18 +1110,18 @@ async function loadAssistantSourceData() {
 
   try {
     const campaigns = [...new Set(sessions.map((session) => session.campaign))]
-    const heroIndexRes = await fetch(staticUrl('heroes/index.json'))
+    const heroIndexRes = await fetchStaticJson('heroes/index.json')
 
     const [sessionMetas, playerMapPairs, heroIndex] = await Promise.all([
       Promise.all(
         sessions.map(async (session) => {
-          const res = await fetch(staticUrl(`${sessionPaths(session).base}/meta.json`))
+          const res = await fetchStaticJson(`${sessionPaths(session).base}/meta.json`)
           return res.ok ? await res.json() : null
         }),
       ),
       Promise.all(
         campaigns.map(async (campaign) => {
-          const res = await fetch(staticUrl(`transcripts/${campaign}/player-map.json`))
+          const res = await fetchStaticJson(`transcripts/${campaign}/player-map.json`)
           return [campaign, res.ok ? await res.json() : null]
         }),
       ),
@@ -1171,7 +1166,7 @@ async function loadCatalog() {
   error.value = null
 
   try {
-    const res = await fetch(staticUrl('transcripts/index.json'))
+    const res = await fetchStaticJson('transcripts/index.json')
     if (!res.ok) {
       throw new Error(`Failed to load transcript list (${res.status})`)
     }
@@ -1217,8 +1212,8 @@ async function loadTranscript() {
 
   try {
     const [metaRes, editedRes] = await Promise.all([
-      fetch(staticUrl(`${sessionBase.value}/meta.json`)),
-      fetch(staticUrl(`${sessionBase.value}/edited.json`)),
+      fetchStaticJson(`${sessionBase.value}/meta.json`),
+      fetchStaticJson(`${sessionBase.value}/edited.json`),
     ])
 
     if (!metaRes.ok) {
@@ -1233,8 +1228,8 @@ async function loadTranscript() {
 
     if (gmMode) {
       const [changelogRes, normalizedRes] = await Promise.all([
-        fetch(staticUrl(`${sessionBase.value}/changelog.json`)),
-        fetch(staticUrl(`${sessionBase.value}/normalized.json`)),
+        fetchStaticJson(`${sessionBase.value}/changelog.json`),
+        fetchStaticJson(`${sessionBase.value}/normalized.json`),
       ])
 
       if (normalizedRes.ok) {
