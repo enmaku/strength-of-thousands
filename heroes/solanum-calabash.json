@@ -304,8 +304,8 @@
     "tzeniwe": 1
   },
   "study": {
-    "primaryBranch": null,
-    "secondaryBranch": null,
+    "primaryBranch": "tempest-sun-mages",
+    "secondaryBranch": "cascade-bearers",
     "primaryLevel": 0,
     "secondaryLevel": 0,
     "primaryStarred": false,

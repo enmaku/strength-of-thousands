@@ -297,8 +297,8 @@
     "tzeniwe": 1
   },
   "study": {
-    "primaryBranch": null,
-    "secondaryBranch": null,
+    "primaryBranch": "rain-scribes",
+    "secondaryBranch": "cascade-bearers",
     "primaryLevel": 0,
     "secondaryLevel": 0,
     "primaryStarred": false,
