@@ -293,15 +293,15 @@
     "familiars": []
   },
   "relationships": {
-    "anchor-root": 2,
-    "chizire": 2,
+    "anchor-root": 3,
+    "chizire": 3,
     "esi-djana": 2,
-    "haibram-thodja": 3,
+    "haibram-thodja": 4,
     "ignaci-canterells": 1,
     "mariama-keitana": 1,
     "noxolo": 1,
-    "okoro-obiyo": 1,
-    "tzeniwe": 1
+    "okoro-obiyo": 2,
+    "tzeniwe": 2
   },
   "study": {
     "primaryBranch": "tempest-sun-mages",

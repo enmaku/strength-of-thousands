@@ -288,13 +288,13 @@
   "relationships": {
     "anchor-root": 4,
     "chizire": 3,
-    "esi-djana": 3,
-    "haibram-thodja": 2,
+    "esi-djana": 2,
+    "haibram-thodja": 3,
     "ignaci-canterells": 2,
     "mariama-keitana": 1,
     "noxolo": 1,
-    "okoro-obiyo": 1,
-    "tzeniwe": 1
+    "okoro-obiyo": 2,
+    "tzeniwe": 2
   },
   "study": {
     "primaryBranch": "rain-scribes",

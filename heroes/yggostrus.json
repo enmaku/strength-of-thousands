@@ -284,15 +284,15 @@
     "familiars": []
   },
   "relationships": {
-    "anchor-root": 0,
+    "anchor-root": 1,
     "chizire": 2,
     "esi-djana": 0,
-    "haibram-thodja": 1,
+    "haibram-thodja": 2,
     "ignaci-canterells": 1,
     "mariama-keitana": 1,
     "noxolo": 1,
-    "okoro-obiyo": 1,
-    "tzeniwe": 1
+    "okoro-obiyo": 2,
+    "tzeniwe": 2
   },
   "study": {
     "primaryBranch": "rain-scribes",
