@@ -12,6 +12,10 @@ _Avoid_: Admin mode, dev mode
 The app experience when run from a deployed build (e.g. GitHub Pages). Campaign state is read-only; players see whatever the GM has committed and published. The same party views as GM mode — Relationships tabs, Heroes grid, and all tile content — without edit controls (no disposition or study editing). The index page shows campaign tools only; GM prep lesson links are hidden.
 _Avoid_: Production mode, viewer mode
 
+**Player preview**:
+`?gmMode=false` (or `?gmMode=0`) on `localhost`, which renders the app in **player mode** so the GM can check what players will see — unrevealed Timeline beats, no GM controls. It only ever narrows permissions: it cannot turn GM mode on for a deployed host. The flag may sit in the query string or anywhere in the hash URL, since hash routing keeps route params after `#/`.
+_Avoid_: Test mode, impersonate player, `gmMode=true`
+
 **Hero**:
 The player character at the table — the in-fiction Magaambya student whose name appears in hero tiles, Relationship tabs, and JSON filenames. Each hero has their own relationship state toward every Spire student. One human player usually maps to one hero, but the app keys off the hero, not the person's real-world name.
 _Avoid_: Player (when meaning the hero), PC, character
@@ -85,7 +89,10 @@ _Avoid_: Treating PathBuilder as the live identity source for the Heroes page
 
 **Hero roster**:
 The set of heroes at the table. Each hero has one hero file, listed in `heroes/index.json`. The GM hand-edits JSON to add or remove heroes. An empty roster shows a setup prompt (GM mode) or a "no heroes yet" message (player mode). On the Heroes page, all heroes appear at once in a single responsive grid sorted alphabetically by display name.
-_Avoid_: Import-only roster
+
+**Active hero**:
+A hero still playing in the campaign. `active: false` in the hero file (mirrored in `heroes/index.json`) retires a hero whose player left the table. Only an explicit `false` retires a hero — a missing flag means active. Relationships, Study, and the Heroes page list active heroes only; **Transcripts** and **Timeline** keep the retired hero's history untouched, and `player-map.json` keeps their entry so old lines stay editable. Roster-wide "no active heroes" is distinct from "no heroes yet."
+_Avoid_: Dropped player, retired character (use for the hero, not the human), deleting the hero file
 
 **Heroes page**:
 A **player-facing** campaign tool showing **all heroes at once** — no per-hero tabs. Each **hero tile** shows name, tagline, and bio so the table can remember who everyone is. Read-only in both modes; bios are edited in hero JSON and published via git.
@@ -110,3 +117,27 @@ _Avoid_: GM prep menu, Study page
 **Published player rules**:
 The explicit allow-list of handouts shown on the Rules tab (`getPublishedPlayerRules()`). Adding a file under `lessons/` does not publish it until it is registered here (and optionally mirrored under GM prep → Rules in `gmLessons.js`).
 _Avoid_: “All HTML in lessons/”
+
+**Timeline**:
+Campaign tool at `/timeline` showing every **beat** in one interleaved vertical list, newest-last, split by **book header** and session. Player-facing: players see only **revealed** beats. In GM mode every beat is visible, unrevealed ones dimmed, with **Reveal to here** / **Hide from here** controls. Data: `data/timeline.json`.
+_Avoid_: Roadmap, progress tracker, GM prep page
+
+**Beat**:
+One row in `data/timeline.json` — either a **story beat**, a **player beat**, or a **book header**. Array order is display order. Carries an `id`, `book`, `session`, `lane`, `title`, `description`, optional `source` page refs, optional `confidence`, and a `revealed` flag.
+_Avoid_: Milestone (those are calendar projections in the prose docs), event, entry
+
+**Story beat**:
+A **beat** with `lane: "story"` — a campaign-level event from the adventure path, shared by the whole table.
+_Avoid_: AP beat (fine in prep prose, but the JSON uses `story`), plot point
+
+**Player beat**:
+A **beat** with `lane: "player"`, owned by exactly one hero via `heroSlug`. Player beats are sparse — not every hero has one in every session. Reveal operations on a player beat affect only that hero's beats.
+_Avoid_: Character moment, PC scene, using a player's real name in `heroSlug`
+
+**Book header**:
+A **beat** with `lane: "book"` and `session: null`, marking a book transition. An ordinary row with its own `revealed` flag, not computed from the beats beneath it. Follows the story lane for reveal/hide. Its `description` is GM-only — a book header summarizes an entire book, so players see only the title even after it is revealed.
+_Avoid_: Chapter divider (chapters are prose only), section marker
+
+**Reveal**:
+The `revealed` boolean on a **beat** — the only visibility state a beat has. Reveal and "played" are the same thing: the GM only ever reveals history, never the future. `confidence` tracks played/firm/projected/optional separately and is GM-only metadata.
+_Avoid_: Publish, unhide, spoiler toggle

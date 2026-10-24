@@ -38,10 +38,12 @@ Book 1: initiate → attendant. Book 2 ends as lore-speakers.
 |---|-------|--------|--------|
 | 1 | Kindled Magic | 1→4 | Perquisite, gremlins, Stone Ghost, First Masking |
 | 2 | Spoken on the Song Wind | 4→8 | Janatimo sandbox; Nantambu conversant missions; Salathiss/Asanda manor; **graduate lore-speakers** |
-| 3 | Hurricane's Howl | 8→11 | Teach students; Sodden Lands; Knights of Abendego |
-| 4 | Secrets of the Temple-City | 12→14 | Mzali diplomacy; Osibu; Walkena's siege |
-| 5 | Doorway to the Red Star | 15→17 | Akiton; Contemplatives; free Jatembe |
+| 3 | Hurricane's Howl | 8→12 | Teach students; Sodden Lands; Knights of Abendego |
+| 4 | Secrets of the Temple-City | 12→15 | Mzali diplomacy; Osibu; Walkena's siege |
+| 5 | Doorway to the Red Star | 15→18 | Akiton; Contemplatives; free Jatembe |
 | 6 | Shadows of the Ancients | 18→20 | Egg hatches; shrunken trials; save Magaambya |
+
+Level ranges follow each book's printed Advancement Track. Session-by-session beats: [`../data/timeline.json`](../data/timeline.json); pacing model and projection: [`sot-timeline.md`](sot-timeline.md).
 
 ## Key names (Book 1+)
 

@@ -185,6 +185,7 @@ describe('createHeroFromImport', () => {
     expect(hero).toEqual({
       pathbuilderId: 450903,
       displayName: 'Taraan Skyseeker',
+      active: true,
       build: taraanBuild,
       relationships: { 'anchor-root': 1, chizire: 1 },
     })

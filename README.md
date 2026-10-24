@@ -13,6 +13,9 @@ GM prep workspace and Quasar SPA for the Pathfinder 2e *Strength of Thousands* a
 | `learning-records/` | What you already know; drives future lessons |
 | `reference/` | Campaign overviews, glossaries, thematic guides |
 | `reference/sot-session-log.md` | Living bookmark after each table session |
+| `data/timeline.json` | Canonical beat schedule — story beats, player beats, book headers |
+| `reference/sot-timeline.md` | Six-book pacing model, projections, and drift rules |
+| `reference/sot-player-arcs.md` | Per-PC chords and foreshadowing dependency contract |
 | `reference/sot-session-prep-guide.md` | Recipe for Session N prep lessons (GM prep → Sessions) |
 | `RESOURCES.md` | External links and local resource index |
 | `NOTES.md` | Learner preferences and working notes |

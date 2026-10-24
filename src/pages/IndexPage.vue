@@ -19,6 +19,7 @@
         Use <strong>Heroes</strong> in the top bar for party reference stats,
         <strong>Social</strong> to track Spire Dorm friendships and classroom study bonuses,
         <strong>Study</strong> to see each hero’s Magaambya branch levels and benefits,
+        <strong>Timeline</strong> to follow the story beats and each hero’s moments so far,
         or <strong>Rules</strong> for player handouts on academia downtime and branch implements.
       </p>
     </div>

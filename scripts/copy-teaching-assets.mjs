@@ -47,6 +47,13 @@ async function main() {
   }
 
   try {
+    await mkdir(path.join(dist, 'data'), { recursive: true })
+    await cp(path.join(root, 'data', 'timeline.json'), path.join(dist, 'data', 'timeline.json'))
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err
+  }
+
+  try {
     const transcriptIndex = await generateTranscriptIndex()
     await writeFile(
       path.join(root, 'transcripts', 'index.json'),

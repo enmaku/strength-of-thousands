@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import {
+  activeHeroes,
   buildHeroTabs,
   createHeroState,
   defaultHearts,
   deriveHeroBioTile,
+  isActiveHero,
   slugify,
   sortHeroes,
 } from './heroes.js'
@@ -27,6 +29,30 @@ describe('createHeroState', () => {
       'anchor-root': 1,
       chizire: 1,
     })
+  })
+})
+
+describe('isActiveHero', () => {
+  it('treats a missing flag as active', () => {
+    expect(isActiveHero({ displayName: 'Taraan' })).toBe(true)
+  })
+
+  it('treats active: true as active', () => {
+    expect(isActiveHero({ active: true })).toBe(true)
+  })
+
+  it('only excludes an explicit false', () => {
+    expect(isActiveHero({ active: false })).toBe(false)
+  })
+})
+
+describe('activeHeroes', () => {
+  it('drops heroes marked inactive and keeps the rest', () => {
+    const heroes = [
+      { slug: 'a', displayName: 'Anya', active: false },
+      { slug: 't', displayName: 'Taraan' },
+    ]
+    expect(activeHeroes(heroes).map((hero) => hero.slug)).toEqual(['t'])
   })
 })
 
@@ -64,6 +90,21 @@ describe('buildHeroTabs', () => {
 
   it('returns null default slug for empty roster', () => {
     expect(buildHeroTabs([]).defaultSlug).toBeNull()
+  })
+
+  it('excludes inactive heroes from tabs and default slug', () => {
+    const tabs = buildHeroTabs([
+      { slug: 'a', displayName: 'Alice', active: false },
+      { slug: 'z', displayName: 'Zara' },
+    ])
+    expect(tabs.heroes.map((h) => h.slug)).toEqual(['z'])
+    expect(tabs.defaultSlug).toBe('z')
+  })
+
+  it('returns null default slug when every hero is inactive', () => {
+    const tabs = buildHeroTabs([{ slug: 'a', displayName: 'Alice', active: false }])
+    expect(tabs.heroes).toEqual([])
+    expect(tabs.defaultSlug).toBeNull()
   })
 })
 

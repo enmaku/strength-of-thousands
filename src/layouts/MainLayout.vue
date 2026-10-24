@@ -44,6 +44,12 @@
               label="Transcripts"
             />
             <q-route-tab
+              to="/timeline"
+              name="/timeline"
+              icon="timeline"
+              label="Timeline"
+            />
+            <q-route-tab
               to="/rules"
               name="/rules"
               icon="menu_book"
@@ -132,6 +138,7 @@ const mobileNavItems = [
   { to: '/relationships', icon: 'favorite', label: 'Social' },
   { to: '/study', icon: 'school', label: 'Study' },
   { to: '/transcripts', icon: 'forum', label: 'Transcripts' },
+  { to: '/timeline', icon: 'timeline', label: 'Timeline' },
   { to: '/rules', icon: 'menu_book', label: 'Rules' },
 ]
 

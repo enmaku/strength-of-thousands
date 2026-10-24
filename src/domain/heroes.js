@@ -14,6 +14,14 @@ export function createHeroState(displayName, catalogSlugs) {
   }
 }
 
+export function isActiveHero(hero) {
+  return hero?.active !== false
+}
+
+export function activeHeroes(heroes) {
+  return heroes.filter(isActiveHero)
+}
+
 export function sortHeroes(heroes) {
   return [...heroes].sort((a, b) =>
     a.displayName.localeCompare(b.displayName, undefined, { sensitivity: 'base' }),
@@ -27,7 +35,7 @@ export function defaultHearts(catalogSlugs, relationships = {}) {
 }
 
 export function buildHeroTabs(heroes) {
-  const sorted = sortHeroes(heroes)
+  const sorted = sortHeroes(activeHeroes(heroes))
   return {
     heroes: sorted,
     defaultSlug: sorted[0]?.slug ?? null,

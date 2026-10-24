@@ -5,9 +5,10 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 ## How to use
 
 1. Read **Where we are** + last session’s **Covered / Not covered**.
-2. Estimate next session from table pace (see `sot-session-prep-guide.md`).
-3. Write `lessons/00NN-session-N-prep.html` and add it under **Sessions** in `src/domain/gmLessons.js`.
-4. After the session runs, move estimate → actual coverage here before drafting N+1.
+2. Find the upcoming beats in `data/timeline.json` and the PC chords due in `sot-player-arcs.md`.
+3. Estimate next session from table pace (see `sot-session-prep-guide.md`).
+4. Write `lessons/00NN-session-N-prep.html` and add it under **Sessions** in `src/domain/gmLessons.js`.
+5. After the session runs, move estimate → actual coverage here before drafting N+1.
 
 ## Where we are
 

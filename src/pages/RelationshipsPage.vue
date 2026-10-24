@@ -16,7 +16,12 @@
 
     <template v-else-if="tabs.heroes.length === 0">
       <div class="col relationships-page__empty">
-        <q-banner v-if="gmMode" class="sot-callout" rounded>
+        <q-banner v-if="hasOnlyInactiveHeroes" class="bg-grey-2 sot-muted" rounded>
+          No active heroes. Their history is still in the
+          <router-link to="/transcripts" class="text-primary">Transcripts</router-link> and
+          <router-link to="/timeline" class="text-primary">Timeline</router-link>.
+        </q-banner>
+        <q-banner v-else-if="gmMode" class="sot-callout" rounded>
           No heroes yet.
           <router-link to="/heroes" class="text-primary">Import heroes on the Heroes page</router-link>
           to start tracking Spire Dorm friendships.
@@ -116,6 +121,7 @@ const {
   loading,
   error,
   tabs,
+  hasOnlyInactiveHeroes,
   loadRoster,
   ensureHeroLoaded,
   tilesForHero,

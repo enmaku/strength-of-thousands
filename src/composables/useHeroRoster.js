@@ -2,7 +2,13 @@ import { ref, computed } from 'vue'
 import catalog from '../../data/spire-students.json'
 import branchCatalog from '../../data/magaambya-branches.json'
 import { isGmMode } from '../domain/mode.js'
-import { buildHeroTabs, defaultHearts, deriveHeroBioTile, sortHeroes } from '../domain/heroes.js'
+import {
+  activeHeroes,
+  buildHeroTabs,
+  defaultHearts,
+  deriveHeroBioTile,
+  sortHeroes,
+} from '../domain/heroes.js'
 import { fetchPathbuilderBuild, parsePathbuilderId } from '../domain/pathbuilder.js'
 import {
   deriveStudyCard,
@@ -24,7 +30,10 @@ export function useHeroRoster() {
   const catalogSlugs = catalog.map((s) => s.slug)
 
   const tabs = computed(() => buildHeroTabs(roster.value))
-  const sortedRoster = computed(() => sortHeroes(roster.value))
+  const sortedRoster = computed(() => sortHeroes(activeHeroes(roster.value)))
+  const hasOnlyInactiveHeroes = computed(
+    () => roster.value.length > 0 && sortedRoster.value.length === 0,
+  )
 
   async function loadRoster() {
     loading.value = true
@@ -62,7 +71,7 @@ export function useHeroRoster() {
   }
 
   async function loadAllHeroes() {
-    await Promise.all(roster.value.map((entry) => loadHero(entry.slug)))
+    await Promise.all(activeHeroes(roster.value).map((entry) => loadHero(entry.slug)))
   }
 
   function tilesForHero(slug) {
@@ -193,7 +202,11 @@ export function useHeroRoster() {
     }
 
     const created = await res.json()
-    roster.value.push({ slug: created.slug, displayName: created.displayName })
+    roster.value.push({
+      slug: created.slug,
+      displayName: created.displayName,
+      active: created.active ?? true,
+    })
     roster.value.sort((a, b) =>
       a.displayName.localeCompare(b.displayName, undefined, { sensitivity: 'base' }),
     )
@@ -258,6 +271,7 @@ export function useHeroRoster() {
     branchCatalog,
     roster,
     sortedRoster,
+    hasOnlyInactiveHeroes,
     heroes,
     loading,
     error,

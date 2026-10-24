@@ -49,10 +49,13 @@ Always prefer **under-scheduling** with a stretch goal over a packed checklist t
 ## Knowledge sources (don’t trust memory)
 
 1. `reference/sot-session-log.md` — table truth.
-2. `reference/sot-extracts/*.txt` — book text for the slice.
-3. Relevant `lessons/0001`–`0006` book prep + `0009` tie-ins + `0008` party analysis.
-4. Latest `transcripts/.../session-NN/edited.json` for tone and unfinished threads.
-5. `RESOURCES.md` / Paizo GM Reference thread for author intent when pacing is ambiguous.
+2. `data/timeline.json` — the beat rows for this session (filter by `session`).
+3. `reference/sot-timeline.md` — pacing model and projections for where this session sits in the six-book spine.
+4. `reference/sot-player-arcs.md` — which PC beats are due, and what each one depends on.
+5. `reference/sot-extracts/*.txt` — book text for the slice.
+6. Relevant `lessons/0001`–`0006` book prep + `0009` tie-ins + `0008` party analysis.
+7. Latest `transcripts/.../session-NN/edited.json` for tone and unfinished threads.
+8. `RESOURCES.md` / Paizo GM Reference thread for author intent when pacing is ambiguous.
 
 ## After the session
 

@@ -1,0 +1,9 @@
+# Timeline beats live in JSON, not markdown tables
+
+The campaign's beat schedule — every story beat, per-PC beat, and book header across all six books — used to live in markdown tables in `reference/sot-timeline.md` and `reference/sot-player-arcs.md`. The Timeline page needs that data per-row: a stable id, a session number, a lane, an owning hero, and a `revealed` flag the GM can flip. Markdown tables can carry the first three only by parsing, and cannot carry the flag at all.
+
+**Decision:** `data/timeline.json` is canonical. Array order is display order; every field is stored, nothing derived. The per-session beat tables were deleted from both markdown files. Those files keep their prose — the pacing model, calibration, drift rules, dependency contract, and per-PC "do not" lists — because prep work reads them for reasoning, not for rows.
+
+**Considered options:** (a) generate JSON from the markdown with a parser, keeping markdown canonical; (b) keep both in sync by hand and add a drift test; (c) JSON canonical, markdown prose-only. Rejected (a): the markdown tables are irregular (lumped session ranges, merged cells, parenthetical nuance) and a parser would need per-table special cases forever. Rejected (b): a drift test only tells you the two copies disagree — it does not tell you which one is right.
+
+**Consequences:** the GM hand-edits a ~230-row JSON array (or directs an agent to), with a once-per-session batch being the normal edit. There is deliberately no in-app editor and no generator. Reveal state lives in the same file as the beats, so publishing is still a git commit. Prepping a session means filtering the JSON by `session` and reading the prose docs for constraints — which is why the cross-references in `README.md`, `sot-session-log.md`, `sot-session-prep-guide.md`, and `sot-campaign-overview.md` now point at both.

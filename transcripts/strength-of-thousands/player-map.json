@@ -3,27 +3,33 @@
     "Dave": { "role": "gm" },
     "Kiri": {
       "character": "Cy'An Copperbottom",
-      "heroSlug": "cy-an-copperbottom"
+      "heroSlug": "cy-an-copperbottom",
+      "color": "#6A1B9A"
     },
     "Drew": {
       "character": "Solanum Calabash",
-      "heroSlug": "solanum-calabash"
+      "heroSlug": "solanum-calabash",
+      "color": "#00838F"
     },
     "Lisa": {
       "character": "Taraan Skyseeker",
-      "heroSlug": "taraan-skyseeker"
+      "heroSlug": "taraan-skyseeker",
+      "color": "#2E7D32"
     },
     "Julia": {
       "character": "Anya",
-      "heroSlug": "anya"
+      "heroSlug": "anya",
+      "color": "#AD1457"
     },
     "Matt": {
       "character": "Yggostrus",
-      "heroSlug": "yggostrus"
+      "heroSlug": "yggostrus",
+      "color": "#EF6C00"
     },
     "Xander": {
       "character": "Lithrei Woeborn",
-      "heroSlug": "lithrei-woeborn"
+      "heroSlug": "lithrei-woeborn",
+      "color": "#4527A0"
     }
   }
 }

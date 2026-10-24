@@ -250,6 +250,7 @@ export function createHeroFromImport(build, pathbuilderId, catalogSlugs) {
   return {
     pathbuilderId,
     displayName: build.name,
+    active: true,
     build,
     relationships,
   }

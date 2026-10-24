@@ -1,7 +1,8 @@
 [
   {
     "slug": "anya",
-    "displayName": "Anya"
+    "displayName": "Anya",
+    "active": false
   },
   {
     "slug": "cy-an-copperbottom",

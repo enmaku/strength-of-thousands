@@ -16,6 +16,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const heroesDir = path.join(root, 'heroes')
 const transcriptsDir = path.join(root, 'transcripts')
 const catalogPath = path.join(root, 'data', 'spire-students.json')
+const timelinePath = path.join(root, 'data', 'timeline.json')
 
 function isLocalHost(host) {
   const hostname = (host ?? '').split(':')[0]
@@ -198,7 +199,7 @@ async function handleHeroesApi(req, res) {
       )
 
       await writeHero(slug, hero)
-      index.push({ slug, displayName: hero.displayName })
+      index.push({ slug, displayName: hero.displayName, active: true })
       await writeHeroIndex(index)
 
       sendJson(res, 201, { slug, ...hero })
@@ -515,6 +516,37 @@ async function handleTranscriptsApi(req, res) {
   sendJson(res, 405, { error: 'Method not allowed' })
 }
 
+async function handleTimelineApi(req, res) {
+  if (!isLocalHost(req.headers.host)) {
+    sendJson(res, 403, { error: 'GM writes require localhost' })
+    return
+  }
+
+  const subPath = req.url?.split('?')[0] ?? '/'
+
+  if (req.method === 'PUT' && (subPath === '/' || subPath === '')) {
+    try {
+      const body = await readBody(req)
+      if (!Array.isArray(body.beats)) {
+        sendJson(res, 400, { error: 'beats must be an array' })
+        return
+      }
+
+      await writeJsonFile(timelinePath, body.beats)
+      sendJson(res, 200, body.beats)
+    } catch (err) {
+      if (err instanceof SyntaxError) {
+        sendJson(res, 400, { error: 'Invalid JSON body' })
+        return
+      }
+      throw err
+    }
+    return
+  }
+
+  sendJson(res, 405, { error: 'Method not allowed' })
+}
+
 export function campaignDevPlugin() {
   return {
     name: 'campaign-dev',
@@ -522,6 +554,8 @@ export function campaignDevPlugin() {
     configureServer(server) {
       server.middlewares.use('/api/heroes', wrapAsync(handleHeroesApi))
       server.middlewares.use('/api/transcripts', wrapAsync(handleTranscriptsApi))
+      server.middlewares.use('/api/timeline', wrapAsync(handleTimelineApi))
+      mountStatic(server, '/data', path.join(root, 'data'))
       mountStatic(server, '/heroes', heroesDir)
       mountStatic(server, '/reference', path.join(root, 'reference'))
       mountStatic(server, '/lessons', path.join(root, 'lessons'))
