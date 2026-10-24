@@ -209,7 +209,11 @@
         "Koride",
         "Professor Koride",
         "Karida",
-        "Karide"
+        "Karide",
+        "Coride",
+        "Coride Olawa",
+        "Olawa",
+        "Korida"
       ],
       "type": "npc",
       "notes": "Rain-Scribe entomologist; acerbic; AP keystone faculty."
@@ -255,12 +259,12 @@
       "notes": "Vexgit bone-breaker with Kurshkin at the Introduction Ceremony (session 5). Whisper often heard Havox/Havoc."
     },
     {
-      "canonical": "Modu",
+      "canonical": "MODU",
       "synonyms": [
-        "MODU"
+        "Modu"
       ],
       "type": "npc",
-      "notes": "Cy'An's prototype construct; Mobile Oven Defense Unit. Table also says toaster."
+      "notes": "Cy'An's prototype construct; Mobile Oven Defense Unit. Always capitalized in prose — it is an acronym, never \"Modu\". Table also says toaster."
     },
     {
       "canonical": "Lemoussi",
@@ -404,7 +408,9 @@
     {
       "canonical": "Tzeniwe",
       "synonyms": [
-        "Tzenewe"
+        "Tzenewe",
+        "Zenyway",
+        "Tzeneway"
       ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Emerald Bough anadi dreamweaver."
@@ -925,6 +931,44 @@
       ],
       "type": "npc",
       "notes": "Session 4 Mazludeh temple cleric(s); egg-to-snake prayer ritual."
+    },
+    {
+      "canonical": "Archives of Nethys",
+      "synonyms": [
+        "Archives of Mephys",
+        "Nethys",
+        "Mephys",
+        "Archives of Nephys"
+      ],
+      "type": "term",
+      "notes": "Official Pathfinder rules reference site."
+    },
+    {
+      "canonical": "Zatchva",
+      "synonyms": [
+        "Zatchva",
+        "Zachva"
+      ],
+      "type": "npc",
+      "notes": "One of Tzeniwe's two spider children."
+    },
+    {
+      "canonical": "Zanvi",
+      "synonyms": [
+        "Zanvi",
+        "Zanvee"
+      ],
+      "type": "npc",
+      "notes": "One of Tzeniwe's two spider children."
+    },
+    {
+      "canonical": "Iron Gut",
+      "synonyms": [
+        "Iron Gut",
+        "Iron Gut feat"
+      ],
+      "type": "term",
+      "notes": "Cy'An feat: can eat spoiled food, resists sickened."
     }
   ],
   "flagOnly": []

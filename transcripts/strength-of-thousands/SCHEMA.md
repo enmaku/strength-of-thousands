@@ -41,7 +41,7 @@ Set `"published": false` in `meta.json` to keep session files in the repo withou
 - **character** — PC name when speaker is a player; `null` for GM.
 - **voice** — Archive display voice: PC name for in-fiction player speech; `player` for table talk; `narrator` or NPC name for GM.
 - **contentType** — `game`, `recap`, or `ooc`.
-- **text** — Idealized, readable archive.
+- **text** — Idealized, readable archive. Use the name the table **said** ("Solanum", "Ot", "Haibram") — never expand to `given + surname`. Full names belong in `character`/`voice` and the glossary `canonical`, not prose. Acronyms stay capitalized (`MODU`, not "Modu").
 - **mechanics** — Optional structured rolls/checks alongside spoken text.
 - **sourceText** / **sourceSpeaker** — Whisper values at normalize time.
 

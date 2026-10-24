@@ -14,11 +14,11 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | Field | Value |
 |-------|--------|
 | **Book** | 1 — *Kindled Magic* |
-| **Chapter** | 1 ceremony fought; aftermath and first Study not yet on the sheet. Session 6 recap settles Ot before Study |
-| **Level** | 2 (handed out at the end of Session 5; branches still 0) |
-| **Calendar** | Arodus 4721, rainy season; weeks of class about to be rolled as the first Study |
-| **Last played** | Session 5 |
-| **Next prep** | Session 6 — `lessons/0019-session-6-prep.html` (recap Ot, leftover sheets, two or three student favors) |
+| **Chapter** | 2 — *First of Many*. First Study rolled in Session 6. Teacher errands not started |
+| **Level** | 2 |
+| **Calendar** | After the first Study block (the book’s “first few months” of class, from Arodus 4721). Next Study waits until two teacher errands have run |
+| **Last played** | Session 6 (first Study; some Koride contact — full scene log still to come from the transcript) |
+| **Next prep** | Session 7 — `lessons/0020-session-7-prep.html` (Takulu’s reading list, not Koride) |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -33,7 +33,7 @@ Book order (Esi’s plan). Tasks may be reordered at table, but NPCs and foresha
 | 5 | Uzunjati | Tell the week’s story + moral (Okoro + Noxolo); cue Intro Ceremony | **Session 5** |
 | 6 | — | **Introduction Ceremony** — Kurshkin captured, Havvix fled; **level 2**; Ot walked in as the session ended | **Session 5** (aftermath narrated in the Session 6 recap, not played) |
 
-Then: leftover Study at the table if needed (Session 6) and two or three classmate favors → **Meet the Teachers** on a later night.
+Then: Session 6 rolled the first Study (and touched Koride). Remaining Chapter 2 order is locked under **Chapter 2 order** below. Leftover classmate favors can still sit on an errand night; they are not part of that sequence.
 
 ## Session history
 
@@ -205,9 +205,24 @@ Derived from Sessions 1–5 + book density:
 |------------------|----------------|
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
 | Session 5 (**done**) | Uzunjati + ceremony fight + interrogation. Stopped as Ot arrived. Level 2 handed out. Study not rolled. |
-| **Session 6 (prep target)** | Recap settles Ot (not played). Most branch picks and implements already done early — catch up whoever is left, roll Study if needed, then Lost Chicken + Lofty Leap + one evening favor (Okoro’s game or Tzeniwe’s party). Fourth favor is stretch. No Koride survey, no stump library, no First Masking. |
+| Session 6 (**done**) | Entire session was academia downtime: first Study, then all four classmate favors (Surprise, Rules Mastery, Lofty Leap, Lost Chicken). Cricket theft became a trade with Koride. No teacher errand opened. |
+| **Session 7 (next)** | Open **Takulu’s reading list**. Do not open Koride or Zuma. |
 
-Revise after Session 6 actuals. The old “interleave Meet the Teachers the same night” estimate does not survive a six-player implement build.
+### Chapter 2 order
+
+Table decision after Session 6. Four teacher errands from *Kindled Magic* “Meet the Teachers,” split in half around Study, then the First Masking. Koride is the first errand of the back half, after the next Study, so Bug Problems is not the next teacher scene after Session 6.
+
+| # | Beat |
+|---|------|
+| 1 | **Takulu’s reading list** (stump library) |
+| 2 | **Monochrome Murmurs** (Teacher Zuma) |
+| 3 | **Study** downtime |
+| 4 | **Bug Problems** (Koride) |
+| 5 | **Starday Tournament** (Teacher Ayuwari) |
+| 6 | **Study** downtime |
+| 7 | **First Masking** |
+
+That is two more Study blocks after the one already rolled, which sits inside the book’s “a second, and perhaps a third.” No fourth Study before the masking. Each errand is its own night at this table’s pace unless a night actually runs short.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -218,7 +233,7 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 | Anya | Missed Session 5 entirely; wolf-fang gift still loose | Belonging beat when she chooses a branch; **Anchor** via Lost Chicken if Session 6 has time. Eidolon origin later |
 | Cy’An | Rolling pin declared; Lumusi kept the brownie recipe; Kurshkin enrollment offer parked | Deepen **Lumusi** later; don’t re-run provider takeover or enroll Kurshkin |
 | Solanum | Glider plans delivered; Umbo “hope he is feeling better” is her version | **Lesedi** still later; don’t correct Umbo during Study |
-| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** when insects open — not Session 6 |
+| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** waits for Bug Problems, first errand after the next Study — not Session 7 |
 | Lithrei | Noxolo group warmth landed; Pharasma temple study ongoing | Don’t restage Noxolo; **Ahassunu** still later |
 | Taraan | Okoro debuted on story morning; ledger crit on Uduak timeline | **Okoro** game only as stretch; **Izem** still later. Do not confirm Stone Ghost |
 
