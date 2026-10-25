@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 8 Prep — Strength of Thousands</title>
+  <style>
+    :root {
+      --bg: #f7f1e3;
+      --ink: #361f14;
+      --muted: #6f7068;
+      --gold: #b09060;
+      --gold-soft: #f7e3b4;
+      --green: #204050;
+      --green-soft: #e8eff2;
+      --red-earth: #6d3711;
+      --border: #c7aa82;
+      --spoiler-bg: #f5ebe0;
+      --correct: #406010;
+      --wrong: #a04030;
+      --font: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 1.08rem;
+      line-height: 1.65;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green) 0%, #103040 55%, var(--red-earth) 100%);
+      color: #fcf2d1;
+      padding: 2.5rem 1.5rem 2rem;
+    }
+    header .inner, main, nav.toc, footer { max-width: 48rem; margin: 0 auto; }
+    header .kicker {
+      font-family: var(--sans);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      opacity: 0.85;
+      margin: 0 0 0.5rem;
+    }
+    header h1 { font-size: 2rem; line-height: 1.15; margin: 0 0 0.75rem; }
+    header p { margin: 0; opacity: 0.92; font-size: 1rem; }
+    nav.toc {
+      padding: 1rem 1.5rem 0;
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.85rem;
+    }
+    nav.toc a, a { color: var(--green); }
+    main { padding: 1.25rem 1.5rem 4rem; }
+    h2 {
+      color: var(--green);
+      font-size: 1.35rem;
+      margin: 2.25rem 0 0.75rem;
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 0.35rem;
+    }
+    h3 { color: var(--red-earth); font-size: 1.08rem; margin: 1.5rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    ul, ol { margin: 0 0 1rem; padding-left: 1.4rem; }
+    li { margin-bottom: 0.35rem; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.91rem; margin: 1rem 0; }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--gold-soft);
+      font: 700 0.76rem var(--sans);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .callout, .spoiler-box {
+      padding: 1rem 1.15rem;
+      margin: 1.25rem 0;
+      font-size: 0.97rem;
+    }
+    .callout { background: var(--green-soft); border-left: 4px solid var(--green); }
+    .spoiler-box { background: var(--spoiler-bg); border: 1px solid var(--border); }
+    .spoiler-box strong { color: var(--red-earth); }
+    .tag {
+      display: inline-block;
+      font: 700 0.64rem var(--sans);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--gold-soft);
+      color: var(--red-earth);
+      border: 1px solid var(--border);
+      padding: 0.05rem 0.4rem;
+      vertical-align: middle;
+    }
+    .tag.stretch { background: #efe2ef; color: #5a2a5a; }
+    .tag.cut { background: #f6e0d8; color: #8a3a22; }
+    .tag.canon { background: #e4eee6; color: #2a5030; }
+    .tag.warn { background: #f6e0d8; color: #8a3a22; }
+    .tag.owed { background: #f7e3b4; color: #6d3711; }
+    .quiz {
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .quiz h2 { margin-top: 0; }
+    .quiz button {
+      font: 0.83rem var(--sans);
+      background: var(--green);
+      color: #fff;
+      border: 0;
+      padding: 0.48rem 0.85rem;
+      margin: 0.3rem 0.3rem 0.3rem 0;
+      cursor: pointer;
+    }
+    .feedback { min-height: 1.4em; margin: 0.5rem 0 1.25rem; font-weight: 600; }
+    .feedback.correct { color: var(--correct); }
+    .feedback.wrong { color: var(--wrong); }
+    .cite { color: var(--muted); font-size: 0.8rem; }
+    .nav-lessons { font: 0.85rem var(--sans); }
+    footer {
+      padding: 1.5rem 1.5rem 3rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font: 0.83rem var(--sans);
+    }
+    @media (max-width: 600px) {
+      body { font-size: 1rem; }
+      table { display: block; overflow-x: auto; }
+    }
+    @media print {
+      nav.toc, .quiz button { display: none; }
+      body { background: #fff; font-size: 10.5pt; }
+      header { padding: 1rem; }
+      main { padding-bottom: 1rem; }
+      h2 { break-after: avoid; }
+      table, .callout, .spoiler-box { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <p class="kicker">Strength of Thousands · Session 8 · Book 1 Ch 2</p>
+    <h1>Session 8 Prep — the stump library, finished</h1>
+    <p>The back half of the building, four books out of five, and a return to Ot with everything damaged. Plus the five player beats Session 7 never got to.</p>
+  </div>
+</header>
+
+<nav class="toc">
+  <a href="#left-off">Left off</a>
+  <a href="#pace">Pace</a>
+  <a href="#thesis">Thesis</a>
+  <a href="#run-order">Run order</a>
+  <a href="#rooms">Back-half rooms</a>
+  <a href="#books">The five books</a>
+  <a href="#return">Return to Ot</a>
+  <a href="#stories">PC moves</a>
+  <a href="#threads">Live threads</a>
+  <a href="#risks">Risks</a>
+  <a href="#quiz">Self-check</a>
+</nav>
+
+<main>
+  <p class="nav-lessons">
+    <a href="../reference/sot-session-log.md">Session log</a> ·
+    <a href="0001-kindled-magic-gm-prep.html">Book 1</a> ·
+    <a href="0009-player-tie-ins-gm-prep.html">Player tie-ins</a> ·
+    <a href="../reference/sot-campus-npcs.html">Campus NPCs</a> ·
+    <a href="../reference/sot-thematic-guide.html">Thematic guide</a>
+  </p>
+
+  <section id="left-off">
+    <h2>Start cold — where Session 7 stopped</h2>
+    <p><span class="tag canon">Table canon</span> The cohort is <strong>standing inside the tree-stump library, mid-search</strong>. Do not replay the briefing, the approach, or the scrit fight. Open on the last door they had not opened.</p>
+    <ul>
+      <li><strong>Ot's briefing played.</strong> Five books, the stump lead, and Ot honestly not knowing why the conversion was abandoned. Every NPC on campus gives that same answer.</li>
+      <li><strong>The scrit fight ate the night.</strong> B1 was cleared the hard way. Assume B1 and B2 are searched; assume nothing else is.</li>
+      <li><strong>Bells at the door.</strong> The garland was tossed on the step — the scrits believe only silver bells are dangerous. If the party is carrying it openly, say the −2 out loud once and then let them enjoy it.</li>
+      <li><strong>Survivors, if any, are in B7.</strong> Scrits that broke off fled to the wasp nest hoping for backup that will never come.</li>
+      <li><strong>Nothing has been earned yet.</strong> No XP, no book tally, no return to Ot. <strong>All five library player beats are still owed</strong> — they were tied to rooms the party never reached.</li>
+    </ul>
+    <p>If nobody can remember who holds what, ask the table rather than deciding. Treasure and book custody are the party's record, not yours.</p>
+    <p class="cite">Bookmark: <a href="../reference/sot-session-log.md">session log</a> → Session 7. Session 7's transcript is still pending; the previous prep (<a href="0020-session-7-prep.html">0020</a>) holds the front-half record and the played briefing text.</p>
+  </section>
+
+  <section id="pace">
+    <h2>Pace estimate</h2>
+    <p>The remaining work is <strong>five rooms, one optional fight, one conversation that isn't a fight, and a debrief</strong>. That is a normal night — but it is not a light one, because the debrief is where the five player beats land and six players will want their moment. Budget the rooms tight and the return generously.</p>
+    <table>
+      <thead><tr><th>Band</th><th>Plan</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Expected</strong></td>
+          <td><strong>B4 → B6 → B7 → B8</strong>, then the walk back to the Heron Archives. Four books recovered, 120 XP, 80 more for the spellskeins, the <em>create undead</em> notes if B3 was opened. Land <strong>three or four</strong> of the five player beats during the rooms; land the rest in the debrief.</td>
+        </tr>
+        <tr>
+          <td><span class="tag stretch">Stretch</span></td>
+          <td>The optional rooms from last time — <strong>B3</strong> (silverfish, the research notes) and <strong>B5</strong> (the other silverfish nest) — plus a table conversation in Ot's office that runs long enough to set up Zuma.</td>
+        </tr>
+        <tr>
+          <td><span class="tag cut">Cut early</span></td>
+          <td>Skip B6's spellskein rescue to a single roll, or skip B8 entirely (it is only supplies). Never cut the return to Ot.</td>
+        </tr>
+        <tr>
+          <td><span class="tag cut">Do not bank on</span></td>
+          <td>Zuma's tattoo ritual, Koride's Bug Problems sites, the Starday Tournament, a Study block, or First Masking. Each is its own night at this table. <strong>Do not open Monochrome Murmurs in the last twenty minutes</strong> — it is a whole session of linked minds and deserves the front of a night.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="cite">Room text: <code>kindled-magic.txt</code> printed pp. 35–37. Stat blocks: scrits p. 82, silverfish pp. 84–85, spellskeins p. 85.</p>
+  </section>
+
+  <section id="thesis">
+    <h2>Session thesis</h2>
+    <div class="callout">
+      <strong>Session thesis:</strong> salvage is not repair. Some things come back only in the condition you found them, and the honest work is carrying them out anyway — with a true account of what is lost.
+      <p style="margin:0.65rem 0 0;font-size:0.92rem">Ot asks for damaged books and means it; one of the five cannot be recovered at all, and the room where it died is quiet. The spellskeins cannot be fixed, only let out. And Cy'An — whose whole wound is usefulness — spends the night proving that a hinge and a true inventory are worth more than a finished job. Thematic guide: <em>Word and Way</em> (study unused is incomplete) and <em>curiosity's shadow</em> (a scholar's unfinished thesis is why this building was abandoned). Most needed by: <strong>Cy'An</strong> and <strong>Solanum</strong>; <strong>Lithrei</strong> is the one who can read the ruin as a career rather than a failure.</p>
+    </div>
+  </section>
+
+  <section id="run-order">
+    <h2>Run order for tonight</h2>
+    <p>A suggested clock. It bends; it exists so the debrief doesn't get squeezed to five minutes.</p>
+    <table>
+      <thead><tr><th>Beat</th><th>Time</th><th>What has to happen</th></tr></thead>
+      <tbody>
+        <tr><td><strong>1. Cold open in the corridor</strong></td><td>5 min</td><td>Restate where they are, ask who is carrying the bells and which books they already have, then open the next door.</td></tr>
+        <tr><td><strong>2. B4 beds</strong></td><td>25 min</td><td>The trap, the volumes, Volume 4 under the blanket. <strong>Taraan's beat.</strong></td></tr>
+        <tr><td><strong>3. B6 nook</strong></td><td>35 min</td><td>Two of Ot's books, the armchair, three frightened spellskeins. <strong>Solanum's beat</strong> — the room is hers; give her the chair before the rescue starts.</td></tr>
+        <tr><td><strong>4. B7 wasp nest</strong></td><td>15 min</td><td>The ruined scroll. Possibly the surviving scrits. Slow down here on purpose; this is the loss the night is about. <strong>Lithrei's beat</strong> — the paper that moans.</td></tr>
+        <tr><td><strong>5. B8 supplies</strong></td><td>5 min</td><td>Journals and quills. One line of flavour; somebody should take a blank book.</td></tr>
+        <tr><td><strong>6. Optional: B3 / B5</strong></td><td>20 min</td><td>One moderate silverfish fight, never two. <em>Create undead</em> notes for Ot.</td></tr>
+        <tr><td><strong>7. Walk back, Ot's office</strong></td><td>45 min</td><td>The accounting, the XP, Ot's gratitude, and the last player beats. <strong>Cy'An's hinge</strong> and <strong>Yggostrus's Koride</strong> live here.</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <strong>If the night is running long:</strong> cut B8 and B5, and move Yggostrus's Koride beat into the corridors of the Heron Archives rather than her office — one exchange in a doorway does the job. Do not cut the wasp nest. The destroyed book is the thesis.
+    </div>
+  </section>
+
+  <section id="rooms">
+    <h2>The back half — room keys</h2>
+    <p>Dim light throughout, all interior doors are push-open (latches were removed in the renovation), shelves 8 ft, ceilings 10 ft. Poking at books for more than ten minutes draws silverfish from B3 and B5.</p>
+    <table>
+      <thead><tr><th>Room</th><th>What it is</th><th>Run it like</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>B3 Dubious Research</strong><br><span class="tag">optional</span> <span class="tag">Trivial 2</span></td>
+          <td>Moist room, pulped books mashed into nest shapes, mould on a cracked wall. A silverfish swarm and a giant silverfish.</td>
+          <td>The books are all one abandoned thesis about "positive uses for spells the world calls evil." Run B3 and B5 as <strong>one</strong> moderate encounter however it starts — the clacking pulls the other room in. The notes contain a limited <em>create undead</em> ritual (zombies of 2nd level or lower).</td>
+        </tr>
+        <tr>
+          <td><strong>B4 Bed Storage</strong></td>
+          <td>Beds stacked precariously, dusty boxes shoved underneath.</td>
+          <td><strong>DC 16 Thievery</strong> to move the stack safely; on a failure <strong>2d6 bludgeoning to everyone in the room, DC 16 basic Reflex</strong>. Let Taraan's Architecture instinct find the safe order and grant a bonus or auto-success — that is his beat. Boxes hold <em>Worlds Between Worlds</em> volumes 1, 3, 5, 6; volume 4 is under a blanket on a bottom bed (<strong>DC 16 Perception</strong> once the beds are down). Volume 2 is lost. <em>Bracelet of dashing</em> behind the boxes.</td>
+        </tr>
+        <tr>
+          <td><strong>B5 Miscellaneous Storage</strong><br><span class="tag">optional</span> <span class="tag">Trivial 2</span></td>
+          <td>Frayed wicker chairs, coatracks, two broken beds, mould. Ink-stained blankets — the scrits' beds.</td>
+          <td>Two giant silverfish underneath. If B3 hasn't happened, this is where the fight lives. Nothing of value; it exists to make the building feel like a project nobody finished.</td>
+        </tr>
+        <tr>
+          <td><strong>B6 The Reading Nook</strong><br><span class="tag">Low 3</span></td>
+          <td>Broken stools, then one good armchair with piles of books arranged around it, dust over everything.</td>
+          <td>A student hid here after the library was abandoned and read until she graduated. Three <strong>spellskeins</strong> are trapped: they hide, then fold into crane shapes and flutter to get attention. They mime a darting silverfish to explain their fear. <strong>Show them an exit and they go — 80 XP.</strong> Where they go is the party's call (campus, the city, or somewhere found). Ot's <em>Birds and Drakes</em> and <em>Lesser-Known Peoples</em> are in the stacks, plus the Bloodsalt folio, an <em>animal staff</em> behind the chair, and a <em>scroll of fleet step</em> used as a bookmark.</td>
+        </tr>
+        <tr>
+          <td><strong>B7 Ceaseless Buzzing</strong></td>
+          <td>Mostly empty. Two laden shelves jammed in the entrance, a mass of matted paper hanging from the ceiling.</td>
+          <td>Wasps, not yet a threat, and not willing to fight for anyone. Any surviving scrits are here, discovering this. Careful examination of the nest finds paper that <strong>moans softly</strong> — the <em>Treatise on Non-Vocally-Projecting Entities</em>, torn up for nest material. The title is the only legible part. <strong>Unrecoverable, even for Ot.</strong> Let the room be quiet; this is the one that got away.</td>
+        </tr>
+        <tr>
+          <td><strong>B8 Library Supplies</strong></td>
+          <td>Boxes of blank journals, quills, charcoal, and writing implements. Otherwise empty.</td>
+          <td>Replenishes academic materials, worth almost nothing. Best beat available: someone pockets a blank journal and starts the cohort's own log.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="spoiler-box">
+      <strong>GM only — still just a library tonight</strong>
+      <p>The gremlin tunnel map already circles this building, and the library is one of the targets the story will come back to. None of that surfaces tonight. No tunnel hatch, no glyph, no name. The scrits are gremlins eating a building, exactly as printed.</p>
+      <p>If someone asks why the conversion was abandoned, the true answer from every NPC is that nobody remembers. That is the seed. <strong>Do not invent a culprit</strong> — not a death, not a haunting, not Stone Ghost. The building is sad because a project got hard, and that is enough.</p>
+    </div>
+  </section>
+
+  <section id="books">
+    <h2>The five books — ticking them off</h2>
+    <p>Keep this open; the party will ask "have we got them all" every ten minutes. Tick what they already have before the session starts.</p>
+    <table>
+      <thead><tr><th>Book</th><th>Where</th><th>Check</th><th>Got it?</th></tr></thead>
+      <tbody>
+        <tr><td><em>Studies on the Habits and Migration Patterns of Birds and Drakes of the Continent of Garund</em> — leather-bound</td><td>B6 nook</td><td>None; in the stacks</td><td>☐</td></tr>
+        <tr><td><em>An Expanded History of the Lesser-Known Peoples of the Mwangi Expanse</em> — vellum, leather cords</td><td>B6 nook</td><td>None</td><td>☐</td></tr>
+        <tr><td><em>The Worlds Between Worlds: Exploring the Planes and Demi-Planes, Volume 4</em> — absurdly large</td><td>B4, under a bottom bed</td><td>DC 16 Thievery for the beds, then DC 16 Perception. Vols 1/3/5/6 loose in the boxes; vol 2 lost.</td><td>☐</td></tr>
+        <tr><td><em>Treatise on the Various Communicative Methods of Non-Vocally-Projecting Entities</em> — whispering scroll</td><td>B7, destroyed</td><td>None. Title legible, nothing else.</td><td>☐ (unrecoverable)</td></tr>
+        <tr><td><em>Collected Field Notes of the Druid Mata Digemari</em> — a small chest, cramped writing all over it</td><td>B2, among the boxes</td><td>DC 12 Perception — probably found in S7</td><td>☐</td></tr>
+      </tbody>
+    </table>
+    <p>Everything else in the building is Ot's "anything else you think is worth salvaging": <em>scroll of negate aroma</em>, <em>scroll of faerie fire</em>, gold key (35 gp, opens nothing here), <em>bracelet of dashing</em>, <em>animal staff</em>, <em>scroll of fleet step</em>, the Bloodsalt folio, silver bells (10 gp), and the <em>create undead</em> notes.</p>
+    <div class="callout">
+      <strong>The folio.</strong> A partial map of the ruined city of Bloodsalt, folded in with the nook books. Note who takes it and whether Ot is shown it. Tonight it is only old cartography and Ot's raised eyebrow; it matters much later. Do not sell it, do not explain it, do not have anyone recognise it.
+    </div>
+  </section>
+
+  <section id="return">
+    <h2>Return to Ot — the debrief</h2>
+    <p><span class="tag">Award</span> <strong>30 XP per book returned, maximum 120</strong> — four books is the ceiling. Plus <strong>80 XP</strong> for freeing the spellskeins, and <strong>50 gp</strong> if they hand over the <em>create undead</em> notes. Do not tell them the cap in advance.</p>
+    <p>Play Ot at his desk, books arranged around him, the lens still on the map. He is <strong>fussy about the list and genuinely moved by damage</strong> — that combination is the whole character.</p>
+    <ul>
+      <li><strong>Damaged books.</strong> He means what he said: return them regardless of condition. He turns a water-swollen page, says something dry about restoration, and moves on. No scolding, no disappointment.</li>
+      <li><strong>The destroyed Treatise.</strong> This is the one that lands. He asks what happened to it, listens, and does not blame anyone. Then: <em>"Then it's gone. Thank you for telling me plainly."</em> Pause there — the thesis of the night is in that line.</li>
+      <li><strong>"Anything else?"</strong> He means it, and he is delighted by oddities. The folio gets set aside with visible interest; the <em>create undead</em> notes get 50 gp and the faintest look of disgust. Academic supplies are uninteresting to him and he says so.</li>
+      <li><strong>The building.</strong> If they report that it's salvageable, he is quietly pleased and says he may send someone. He does not commission a second trip tonight. He does not know why it was abandoned, and says so again.</li>
+      <li><strong>Gratitude, not a quest.</strong> The beat is that he thanks them as colleagues, not as errand-runners. He will ask them again — that is the payoff, and it is why the hinge matters (below).</li>
+    </ul>
+    <p class="cite"><code>kindled-magic.txt</code> printed p. 34 for the awards; pp. 35–37 for the returns.</p>
+  </section>
+
+  <section id="stories">
+    <h2>Player story moves — five owed beats</h2>
+    <p>All five were scheduled for Session 7 and did not land because the rooms did not. They are not lost, only displaced. One small advance each, attached to the room it belongs to.</p>
+    <table>
+      <thead><tr><th>PC</th><th>Where and how</th><th>Not yet</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Cy'An</strong><br><span class="tag owed">owed</span></td>
+          <td><strong>The hinge.</strong> Every door in this building had its latch removed in the renovation, so the hinges are the last fittings left — and some are failing. Cy'An fixes one without being asked, and does not mention it. <strong>Ot notices on the way out</strong>, or notices the office door later and asks who did it. The move is that they offer the repair as help rather than as proof of worth; nobody has to be told what it means.</td>
+          <td>Finishing the library. A replacement project for the breeding program. Any brewing scene. Any speech about being useful.</td>
+        </tr>
+        <tr>
+          <td><strong>Lithrei</strong><br><span class="tag owed">owed</span></td>
+          <td><strong>The reframe.</strong> Let him do the reading: the quarter-finished inventory, the abandoned thesis in B3, the student's nook in B6, and finally the paper that moans in the nest. A library held together by silverfish is where an unfinished student would haunt. He is the one who says out loud that "abandoned" and "failed" are not the same word — and applies it to himself without being told to.</td>
+          <td>A passenger vision. Ahassunu. A Noxolo reading. Any ghost that explains the building.</td>
+        </tr>
+        <tr>
+          <td><strong>Solanum</strong><br><span class="tag owed">owed</span></td>
+          <td><strong>The nook.</strong> Give her the armchair before the spellskeins interrupt. Somebody read here for years, in secret, in a building everyone else had written off — and that is what study is, said by nobody and understood by her. Then the Tempest-Sun debt: she failed her first Study and has sat at 0 ever since. <strong>Let her re-attempt it here</strong> — Tempest-Sun, Intimidation or Performance, <strong>standard DC 14</strong>, framed as reading with intent rather than a ritual downtime check. Success clears the debt before First Masking. If she fails, the nook still gave her the reframe; do not let the roll erase the scene.</td>
+          <td>Correcting her about Umbo. Lesedi. Any omen. Any hint that the folio matters.</td>
+        </tr>
+        <tr>
+          <td><strong>Taraan</strong><br><span class="tag owed">owed</span></td>
+          <td><strong>The bells and the load path.</strong> The garland belongs on the door it was torn from. Let him hang it — and let him work out, from lightning scars and the stack of beds, how this stump is holding itself up and where it isn't. Then, in the Heron Archives, he mentions <strong>Ird</strong>: a teacher receives the name with polite institutional silence and changes the subject. That is the entire answer. No correction, no warning, no follow-up.</td>
+          <td>Confirming anything about Ird. Stone Ghost / Uduak. Any relic that makes the ruin feel holy rather than sad. Letting Erudite write the word.</td>
+        </tr>
+        <tr>
+          <td><strong>Yggostrus</strong><br><span class="tag owed">owed</span></td>
+          <td><strong>Koride, warmly.</strong> She is one floor from Ot in the Heron Archives, so this is a doorway or an office, not a scene. She is interested in <em>him</em> — a dragonet who could have gone anywhere and keeps choosing a school full of people — not in what he can do for her program. One exchange is enough; let it be a little awkward and end before it resolves. This is the first warm contact since Session 1 and the arc has been waiting for it.</td>
+          <td>Bug Problems. The breeding program. Anything that makes her interest curdle into specimen-interest — that is Session 11's job, and tonight must be warm first so that later one stings.</td>
+        </tr>
+        <tr>
+          <td><strong>Anya</strong><br><span class="tag">catch-up</span></td>
+          <td>If she is back: she is the scout, and the eidolon fits where people don't. Let her stare down a scrit or find the space behind the beds. Then ten quiet minutes out of session for the <a href="0018-magaambya-branches.html">branch pick</a>, an implement, and a Study roll at DC 14 — she is owed all three and none of it is a punishment.</td>
+          <td>Any eidolon-origin reveal. Being made to account for the absences in front of the table. Any Koride diagnosis.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout" style="border-left-color:var(--red-earth);background:#f6e0d8">
+      <strong>Two table calls before you start.</strong>
+      <p style="margin:0.5rem 0 0">1. <strong>Taraan's Ird mention is tonight, not S10.</strong> The S10 row in <code>data/timeline.json</code> is now written as his second, more direct ask — same silence, no explanation, then drop it. Do not answer tonight's mention with anything a repeat wouldn't also get.</p>
+      <p style="margin:0.5rem 0 0">2. <strong>Solanum's Tempest-Sun clear is a table call.</strong> The row promises a success tonight; Study is nominally downtime. Recommended: run the roll in the nook as above. Alternative: land only the narrative and take the roll at the S10 Study block. Either way she must not reach First Masking at 0.</p>
+    </div>
+  </section>
+
+  <section id="threads">
+    <h2>Live threads — acknowledge, do not detour</h2>
+    <table>
+      <thead><tr><th>Thread</th><th>Tonight's handling</th></tr></thead>
+      <tbody>
+        <tr><td>Insect surge / centipedes</td><td>Silverfish and scrits are ordinary pests with ordinary appetites. If a player connects them to the ward problem, Ot is interested but not alarmed. No survey, no Koride assignment.</td></tr>
+        <tr><td>Koride's breeding program</td><td>Exists, running, needs students. One line if asked. Warm contact with Yggostrus is the only Koride content tonight.</td></tr>
+        <tr><td>Kurshkin</td><td>Alive with the faculty, not enrolled, not mentioned. If asked, Ot has no news and says so.</td></tr>
+        <tr><td>Stone Ghost / Uduak</td><td>Filed. No tunnels, no glyphs, no name. The library is not connected to anything tonight.</td></tr>
+        <tr><td>Potion of leaping / the spire</td><td>Done and funny. One line if raised. No new jump.</td></tr>
+        <tr><td>Felicitous <em>scroll of augury</em></td><td>Yggostrus can spend it on "is this building safe." Give a true and useless answer: <em>"small and hungry, and it does not want you dead."</em> Do not foreshadow the wasps, the scrits, or anything else.</td></tr>
+        <tr><td>Spirit masks</td><td>Two errands and a Study away. Do not tease them tonight.</td></tr>
+        <tr><td>Anya / Julia's possible hiatus</td><td>If it comes up, "we'll sort it after tonight." Do not open it mid-dungeon.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="risks">
+    <h2>Table risks and GM moves</h2>
+    <ul>
+      <li><strong>Search sprawl is the real time sink.</strong> Resolve a room's search in <strong>one roll</strong> and move to the next door. A searched room is searched; the five books have fixed locations.</li>
+      <li><strong>Bed trap twice is a grudge.</strong> 2d6 to everyone at level 2 is a real bite, and it lands on the party's weakest saves. Spring it once. Let Taraan's read prevent or soften it.</li>
+      <li><strong>One silverfish fight, not two.</strong> B3 and B5 are the same encounter split across two rooms. If they've already cleared one, the other is empty and quiet.</li>
+      <li><strong>The spellskeins are not a fight.</strong> If someone attacks them out of reflex, they defend and flee — they do not become a combat encounter and they do not cost XP for being spared. The 80 XP is for the exit, not the kill.</li>
+      <li><strong>Do not let the wasp nest become a puzzle.</strong> There is no way to save the scroll. If a player insists, Ot's answer is the same: it's gone. That is the point, and it is a kindness not to dangle false hope.</li>
+      <li><strong>Six players, five beats, one debrief.</strong> Do not run them as a queue in Ot's office. Stagger them: Taraan in B4, Solanum in B6, Lithrei in B7, Cy'An at a door on the way out, Yggostrus in the corridor. Only Cy'An's needs Ot in the room.</li>
+      <li><strong>Level does not change tonight.</strong> Level 3 arrives at First Masking (S14). Track the XP anyway — the book awards it and the table has been counting.</li>
+      <li><strong>Tone:</strong> the front half was a fight. This half is quieter and stranger — an empty building with one good chair in it, and a nest made of somebody's book. Let it be melancholy rather than spooky.</li>
+    </ul>
+  </section>
+
+  <section id="quiz" class="quiz">
+    <h2>Self-check — ready for Session 8?</h2>
+
+    <h3>1. Where does the session open?</h3>
+    <button onclick="check(this,'a')">A. Ot's office, with the briefing</button>
+    <button onclick="check(this,'b')">B. Inside the stump, at the first door they haven't opened</button>
+    <button onclick="check(this,'c')">C. The scrit fight, from the top</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>2. How many of the five books can come back?</h3>
+    <button onclick="check(this,'a')">A. All five, with enough searching</button>
+    <button onclick="check(this,'b')">B. Four — the Treatise is wasp nest now</button>
+    <button onclick="check(this,'c')">C. Three — the folio is also Ot's</button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>3. What does the spellskein XP reward?</h3>
+    <button onclick="check(this,'a')">A. Killing all three</button>
+    <button onclick="check(this,'b')">B. Showing them a safe way out</button>
+    <button onclick="check(this,'c')">C. Taking the <em>animal staff</em></button>
+    <div class="feedback" data-answer="b"></div>
+
+    <h3>4. Which beat needs Ot in the room to land?</h3>
+    <button onclick="check(this,'a')">A. Cy'An's hinge — he notices the work</button>
+    <button onclick="check(this,'b')">B. Solanum's nook</button>
+    <button onclick="check(this,'c')">C. Yggostrus and Koride</button>
+    <div class="feedback" data-answer="a"></div>
+  </section>
+
+  <section id="after">
+    <h2>After you run it</h2>
+    <ol>
+      <li>Update <a href="../reference/sot-session-log.md">the session log</a>: XP awarded, which books came back, who holds the Bloodsalt folio and the <em>create undead</em> notes, whether the spellskeins were freed and where they went, whether Anya played, and whether Solanum's Tempest-Sun roll cleared her debt.</li>
+      <li>Mark the Session 7/8 beats in <code>data/timeline.json</code> as played and revealed — the story row, and each of the five player rows that actually landed. Anything that didn't land moves to S9, not into the void.</li>
+      <li>If Taraan's second Ird ask got answered by more than silence, that's table canon now — revise <a href="../reference/sot-player-arcs.md">the arcs</a> and the S10 row together.</li>
+      <li>Next is <strong>Monochrome Murmurs</strong> (Zuma) at S9 — a whole night of linked minds, so open it at the start, not at 9:45.</li>
+    </ol>
+    <p>Ask your teacher about anything unclear: whether the bells are worth carrying openly, what Ot does with the folio, or whether Solanum's roll counts as a Study.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Teaching workspace · Lesson 0021 · Session prep · grounded in the Session 7 partial result and <em>Kindled Magic</em> Chapter 2's stump library.</p>
+  <p>Open: <code>open lessons/0021-session-8-prep.html</code></p>
+</footer>
+
+<script>
+function check(button, choice) {
+  let feedback = button.nextElementSibling;
+  while (feedback && !feedback.classList.contains('feedback')) {
+    feedback = feedback.nextElementSibling;
+  }
+  const answer = feedback.getAttribute('data-answer');
+  const correct = choice === answer;
+  feedback.textContent = correct ? 'Correct.' : 'Not quite — re-read the matching section above.';
+  feedback.className = 'feedback answered ' + (correct ? 'correct' : 'wrong');
+}
+</script>
+</body>
+</html>

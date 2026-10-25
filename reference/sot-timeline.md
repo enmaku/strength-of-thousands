@@ -28,7 +28,7 @@ Companion docs:
 | `session` | Projected/actual session number, or `null` for a book header |
 | `lane` | `story`, `player`, or `book` |
 | `title` | Required |
-| `description` | Optional prose. Player-visible on story/player beats; **GM-only on book headers** (they summarize a whole book and cannot be shown without spoiling its arc) |
+| `description` | Optional prose. Player-visible on story/player beats; **GM-only on book headers** (they summarize a whole book and cannot be shown without spoiling its arc). Write it in past tense about what happened — no foreshadowing, no "this matters later", no references to future books or arcs |
 | `source` | Optional page refs (`p46–48`); story beats only |
 | `confidence` | `played`, `firm`, `projected`, or `optional` |
 | `heroSlug` | Player beats only — a slug from `heroes/index.json` |
@@ -51,12 +51,12 @@ Book-level metadata (not beat rows).
 
 | Book | Sessions | Levels | Rank | Module pages |
 |---|---|---|---|---|
-| 1 — Kindled Magic | 1–17 | 1→4 | Initiate → Attendant | 100 |
-| 2 — Spoken on the Song Wind | 18–35 | 4→8 | Attendant → Conversant → Lore-speaker | 100 |
-| 3 — Hurricane's Howl | 36–53 | 8→12 | Lore-speaker (teacher) | 100 |
-| 4 — Secrets of the Temple-City | 54–68 | 12→15 | Lore-speaker | 100 |
-| 5 — Doorway to the Red Star | 69–86 | 15→18 | Lore-speaker | 100 |
-| 6 — Shadows of the Ancients | 87–97 | 18→20 | Magic Warrior | 100 |
+| 1 — Kindled Magic | 1–18 | 1→4 | Initiate → Attendant | 100 |
+| 2 — Spoken on the Song Wind | 19–36 | 4→8 | Attendant → Conversant → Lore-speaker | 100 |
+| 3 — Hurricane's Howl | 37–54 | 8→12 | Lore-speaker (teacher) | 100 |
+| 4 — Secrets of the Temple-City | 55–69 | 12→15 | Lore-speaker | 100 |
+| 5 — Doorway to the Red Star | 70–87 | 15→18 | Lore-speaker | 100 |
+| 6 — Shadows of the Ancients | 88–98 | 18→20 | Magic Warrior | 100 |
 
 Levels above follow each module's **printed advancement track** (B1 end 4, B2 end 8, B3 end 12, B4 end 15, B5 end 18, B6 end 20).
 
@@ -73,14 +73,16 @@ Levels above follow each module's **printed advancement track** (B1 end 4, B2 en
 | 4 | B1 Ch1 | Bonding Meal + day 4 (Emerald mail, full sandbox) | Sep 2026 |
 | 5 | B1 Ch1 | Day 5 (Uzunjati) + Introduction Ceremony ambush + interrogation | Oct 2026 |
 | 6 | B1 Ch2 | One full Study block, implements, all four classmate favors, Cricket Theft | Oct 2026 |
-| 7 | B1 Ch2 | *Next:* Takulu's reading list | — |
+| 7 | B1 Ch2 | Ot's reading list + the stump library — scrits, a long fight, roughly half the rooms searched | Oct 2026 |
+| 8 | B1 Ch2 | *Next:* finish the stump library, then Monochrome Murmurs | — |
 
 ### Calibration
 
 - **Book 1 Chapter 1 — 20 module pages — took 5 sessions.** One Perquisite day per session, plus arrival, plus the ceremony. Hardest data point available; use as base rate.
 - **One scene cluster per session.** A service day, a teacher errand, an investigation site, a dungeon level, or one social sandbox evening. Two small clusters fit only when neither is combat.
 - **Combat is cheap; investigation is expensive.** Session 2 spent a night on a barn then most of the same night on player-driven tunnels. Session 4 spent a whole evening on mail delivery because the table talks.
-- **~2 sessions per month observed** (Jun–Oct 2026: sessions 1–6). Used only for the rough calendar column.
+- **A dungeon with a fight in it is two sessions (new, S7).** The stump library was scoped as one night — eight rooms, a short scrit fight, five fixed books. The scrits ran long, the table fought instead of searched, and the night ended with roughly half the rooms done and no player beats. Plan **two nights for any site whose first room is a combat**; split exploration and fight rather than assuming the fight is a five-minute tax.
+- **~2 sessions per month observed** (Jun–Oct 2026: sessions 1–7). Used only for the rough calendar column.
 - **Six RP-heavy players.** Add 30–50% against "module as written"; sandbox chapters compress less than expected because the table investigates.
 
 ### Cost constants
@@ -90,13 +92,13 @@ Levels above follow each module's **printed advancement track** (B1 end 4, B2 en
 | Perquisite day / teacher errand | 1 session | Established by S1–S5 and the locked Ch 2 order. |
 | Study downtime block | 1 session | S6 fit a full Study plus four favors — high-water mark for density. |
 | Investigation site (multi-room building) | 1–2 sessions | Hababe, Oba Eze's lot, a manor floor. |
-| Dungeon level / prison tier | 1 session | Bloodsalt, Vacant Eye, the Cathedral. |
+| Dungeon level / prison tier | 1–2 sessions | Bloodsalt, Vacant Eye, the Cathedral. Two if the first room is a fight (S7). |
 | Social sandbox (Mzali influence, conversant missions) | 1 session per 2 NPCs or 1 mission | Compresses if the table stops probing. |
 | Chapter finale combat | 1 session | Do not bolt onto a full RP night. |
 
 ### Acceleration levers
 
-Projection lands at ~97 sessions (≈4 years at observed rate). Levers in order of return:
+Projection lands at ~98 sessions (≈4 years at observed rate). Levers in order of return:
 
 1. **Cut the conversant sandbox (B2 Ch2) to 5 missions** — saves 2 sessions. The chapter explicitly says to pick a subset.
 2. **Run Book 5's nine faculty events across 2 sessions instead of 4** — saves 2. Explicitly order-free and skippable.
@@ -111,33 +113,35 @@ Calendar and rank projections — not beat rows, so this stays here. Session num
 | Session | Milestone | Level | Rank | Calendar (approx.) |
 |---|---|---|---|---|
 | S5 | Introduction Ceremony survived | 2 | Initiate | Oct 2026 |
-| S13 | First Masking; spirit masks | 3 | Attendant | Feb 2027 |
-| S16 | Stone Ghost defeated | 4 | Attendant | Mar 2027 |
-| S17 | **Book 1 ends** — griffons, anadi arrived | 4 | Attendant | Apr 2027 |
-| S20 | Janatimo's investigations complete | 5 | Attendant | Jun 2027 |
-| S23 | Conversant promotion ceremony | 6 | Conversant | Jul 2027 |
-| S31 | Flooded manor briefing | 7 | Conversant | Oct 2027 |
-| S35 | **Graduation at the name obelisk** | 8 | Lore-speaker | Jan 2028 |
-| S39 | I'boko vanishes; Bloodsalt expedition | 9 | Lore-speaker | Mar 2028 |
-| S46 | Prison of the Vacant Eye | 10 | Lore-speaker | Jul 2028 |
-| S51 | Jula campaign opens | 11 | Lore-speaker | Sep 2028 |
-| S53 | **Book 3 ends** — Ajbal Kimon falls | 12 | Lore-speaker | Oct 2028 |
-| S59 | Audience with Walkena | 13 | Lore-speaker | Jan 2029 |
-| S61 | Temple of Dajermube cleansed | 14 | Lore-speaker | Feb 2029 |
-| S68 | **Book 4 ends** — Osibu saved; Jatembe located | 15 | Lore-speaker | Jun 2029 |
+| S14 | First Masking; spirit masks | 3 | Attendant | Mar 2027 |
+| S17 | Stone Ghost defeated | 4 | Attendant | Apr 2027 |
+| S18 | **Book 1 ends** — griffons, anadi arrived | 4 | Attendant | Apr 2027 |
+| S21 | Janatimo's investigations complete | 5 | Attendant | Jul 2027 |
+| S24 | Conversant promotion ceremony | 6 | Conversant | Aug 2027 |
+| S32 | Flooded manor briefing | 7 | Conversant | Nov 2027 |
+| S36 | **Graduation at the name obelisk** | 8 | Lore-speaker | Feb 2028 |
+| S40 | I'boko vanishes; Bloodsalt expedition | 9 | Lore-speaker | Apr 2028 |
+| S49 | Prison of the Vacant Eye | 10 | Lore-speaker | Aug 2028 |
+| S52 | Jula campaign opens | 11 | Lore-speaker | Oct 2028 |
+| S54 | **Book 3 ends** — Ajbal Kimon falls | 12 | Lore-speaker | Nov 2028 |
+| S60 | Audience with Walkena | 13 | Lore-speaker | Feb 2029 |
+| S62 | Temple of Dajermube cleansed | 14 | Lore-speaker | Mar 2029 |
+| S69 | **Book 4 ends** — Osibu saved; Jatembe located | 15 | Lore-speaker | Jul 2029 |
 | S76 | Doorway plazas cleared; Iobane alliance | 16 | Lore-speaker | Sep 2029 |
 | S79 | Hall of Reason relieved | 17 | Lore-speaker | Nov 2029 |
-| S85 | **Jatembe freed.** Book 5 climax | 18 | Lore-speaker | Feb 2030 |
-| S87 | **Magic Warrior renaming** | 18 | Magic Warrior | Apr 2030 |
-| S91 | Egg shrinks the party; Koride confronted | 19 | Magic Warrior | Jun 2030 |
-| S94 | Vesicant Egg claimed; restored | 20 | Magic Warrior | Aug 2030 |
-| S97 | **Campaign ends** — Slana hatches | 20 | Magic Warrior | Sep 2030 |
+| S86 | **Jatembe freed.** Book 5 climax | 18 | Lore-speaker | Mar 2030 |
+| S88 | **Magic Warrior renaming** | 18 | Magic Warrior | May 2030 |
+| S92 | Egg shrinks the party; Koride confronted | 19 | Magic Warrior | Jul 2030 |
+| S95 | Vesicant Egg claimed; restored | 20 | Magic Warrior | Sep 2030 |
+| S98 | **Campaign ends** — Slana hatches | 20 | Magic Warrior | Oct 2030 |
 
 ## Played so far — what the backdated record buys us
 
-Sessions 0–6 are fully seeded. Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. The only PC with nothing seeded is Anya (two straight absences), and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride.
+Sessions 0–6 are fully seeded, and S7 seeded Ot's errand without landing any PC beats. Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. The only PC with nothing seeded is Anya (two straight absences), and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride.
 
-Per-session detail for those sessions lives in `data/timeline.json` (all revealed) and in [`sot-session-log.md`](sot-session-log.md).
+Session 7 is a **partial** session: the stump library's first half ran and no player beats landed. Everything from Monochrome Murmurs onward slid one session; the five library player beats moved to S8 intact.
+
+Per-session detail for those sessions lives in `data/timeline.json` and in [`sot-session-log.md`](sot-session-log.md). S7 is revealed through the stump's first half; its five player beats are still unrevealed on S8.
 
 ## Book structure
 
@@ -165,7 +169,7 @@ Chapter names, module page spans, and the ordering notes that are not beat rows.
 | 6 | Ch 2 — The Endless Table | p31–45 |
 | 6 | Ch 3 — The Unborn King | p47–60 |
 
-**Book 1 correction to carry forward:** the session log schedules two more Study blocks plus the four remaining errands — 7 nights for Ch 2 (S7–S13). Ch 2 is 17 module pages. If the table chafes, drop the second Study (S12) and fold First Masking into S12. That is the safest cut in the book: the masks matter more than the branch level.
+**Book 1 correction to carry forward:** the session log schedules two more Study blocks plus the four remaining errands — 8 nights for Ch 2 (S7–S14), because the stump library took two. Ch 2 is 17 module pages. If the table chafes, drop the second Study (S13) and fold First Masking into S13. That is the safest cut in the book: the masks matter more than the branch level.
 
 **Book 2 sandbox cut list:** *Busker Woes, Oozing into Trouble, Trouble from the Skies, Saving Goana, Carving Trouble* are skippable unless a PC hook demands one. Cut them in `data/timeline.json` if they are never scheduled.
 
@@ -210,4 +214,4 @@ The table wins. Revise [`sot-player-arcs.md`](sot-player-arcs.md), `lessons/0009
 - [`sot-session-log.md`](sot-session-log.md) — table truth through S6
 - [`sot-player-arcs.md`](sot-player-arcs.md) — per-PC chords and the dependency contract
 - `lessons/0001`–`0006` book preps; `lessons/0009` Player Tie-Ins; `lessons/0008` party analysis
-- `transcripts/strength-of-thousands/session-00…06`
+- `transcripts/strength-of-thousands/session-00…06` (session 07 pending)

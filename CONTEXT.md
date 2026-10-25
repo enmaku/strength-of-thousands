@@ -119,7 +119,7 @@ The explicit allow-list of handouts shown on the Rules tab (`getPublishedPlayerR
 _Avoid_: “All HTML in lessons/”
 
 **Timeline**:
-Campaign tool at `/timeline` showing every **beat** in one interleaved vertical list, newest-last, split by **book header** and session. Player-facing: players see only **revealed** beats. In GM mode every beat is visible, unrevealed ones dimmed, with **Reveal to here** / **Hide from here** controls. Data: `data/timeline.json`.
+Campaign tool at `/timeline` showing every **beat** in one interleaved vertical list, newest-last, split by **book header** and session. Player-facing: players see only **revealed** beats. In GM mode every beat is visible, unrevealed ones dimmed, with **Reveal to here** / **Hide from here** controls and click-to-edit on each beat's title and description. Data: `data/timeline.json`.
 _Avoid_: Roadmap, progress tracker, GM prep page
 
 **Beat**:

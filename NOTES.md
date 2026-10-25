@@ -31,15 +31,16 @@ Open: `open reference/sot-nantambu.html` (or sibling paths)
 
 ### Sessions (per-table prep — Quasar GM prep → Sessions)
 
-- Session 7 Prep — `lessons/0020-session-7-prep.html` (Takulu’s reading list; stump library)
+- Session 8 Prep — `lessons/0021-session-8-prep.html` (**next** — stump library back half, return to Ot, five owed PC beats)
+- Session 7 Prep — `lessons/0020-session-7-prep.html` (**played, partial** — briefing + scrit fight + front half; see session log)
 - Session 6 Prep — `lessons/0019-session-6-prep.html` (**played** — full downtime semester; see session log + `session-06/edited.json`)
 - Session 5 Prep — `lessons/0016-session-5-prep.html` (**played** — Uzunjati + Intro Ceremony; see session log + `session-05/edited.json`)
 - Session 4 Prep — `lessons/0012-session-4-prep.html` (**played** — Emerald mail done; see session log + `session-04/edited.json`)
 - Session 3 Prep — `lessons/0011-session-3-prep.html` (**played**)
 - Session 2 Prep — `lessons/0010-session-2-prep.html`
-- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 5 logged)
+- Progress bookmark: `reference/sot-session-log.md` (update after every session; Session 7 logged as partial)
 - How to write the next one: `reference/sot-session-prep-guide.md`
-- **Next after Session 6:** log branch picks, Study results, and implements from the transcript. Chapter 2 order is locked in `reference/sot-session-log.md`: Takulu’s reading list, then Zuma (Monochrome Murmurs), Study, Koride (Bug Problems), Starday Tournament, Study, First Masking. Koride is the first of the back half so she is not the next scene after Session 6.
+- **Next after Session 7:** finish the stump and return to Ot (`0021`), then Zuma (Monochrome Murmurs) at S9. The stump errand is one beat paced, two nights scheduled — see `reference/sot-session-log.md` Chapter 2 order.
 
 ### Standing prep
 

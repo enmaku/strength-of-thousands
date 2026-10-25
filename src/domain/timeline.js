@@ -32,6 +32,26 @@ export function buildTimelineGroups(beats, { gmMode = false } = {}) {
   )
 }
 
+export function buildTimelineToc(groups, { gmMode = false } = {}) {
+  return groups.flatMap((group, index) => {
+    if (gmMode && !isRevealedGroup(group)) return []
+
+    return [
+      {
+        anchor: `timeline-group-${index}`,
+        type: group.type,
+        label: group.type === 'book' ? group.beat.title : `Session ${group.session}`,
+      },
+    ]
+  })
+}
+
+function isRevealedGroup(group) {
+  return group.type === 'book'
+    ? group.beat.revealed
+    : group.beats.some((beat) => beat.revealed)
+}
+
 function hasRevealedBeatBeforeNextBook(groups, startIndex) {
   for (let i = startIndex + 1; i < groups.length; i++) {
     if (groups[i].type === 'book') return false

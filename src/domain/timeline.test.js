@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   STORY_COLOR,
   buildTimelineGroups,
+  buildTimelineToc,
   heroColor,
   hideFrom,
   revealTo,
@@ -94,6 +95,41 @@ describe('buildTimelineGroups', () => {
     expect(groups[1].session).toBe(1)
     expect(groups[1].beats.map((entry) => entry.id)).toEqual(['s1-story', 's1-b', 's1-a'])
     expect(groups[2].beats.map((entry) => entry.id)).toEqual(['s2-story'])
+  })
+})
+
+describe('buildTimelineToc', () => {
+  it('lists every header the player timeline shows, in order', () => {
+    const beats = [
+      bookHeader(1, true),
+      story('s1', 1, true),
+      story('s2', 2, false),
+      bookHeader(2, false),
+    ]
+
+    const groups = buildTimelineGroups(beats, { gmMode: false })
+    expect(buildTimelineToc(groups, { gmMode: false })).toEqual([
+      { anchor: 'timeline-group-0', type: 'book', label: 'Book 1' },
+      { anchor: 'timeline-group-1', type: 'session', label: 'Session 1' },
+    ])
+  })
+
+  it('skips unrevealed headers in GM mode but keeps the timeline anchor index', () => {
+    const beats = [bookHeader(1, true), story('s1', 1, false), story('s2', 2, true)]
+
+    const groups = buildTimelineGroups(beats, { gmMode: true })
+    expect(buildTimelineToc(groups, { gmMode: true })).toEqual([
+      { anchor: 'timeline-group-0', type: 'book', label: 'Book 1' },
+      { anchor: 'timeline-group-2', type: 'session', label: 'Session 2' },
+    ])
+  })
+
+  it('returns nothing when no header is revealed', () => {
+    const beats = [bookHeader(1, false), story('s1', 1, false)]
+
+    expect(buildTimelineToc(buildTimelineGroups(beats, { gmMode: true }), { gmMode: true })).toEqual(
+      [],
+    )
   })
 })
 

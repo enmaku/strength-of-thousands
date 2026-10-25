@@ -9,8 +9,13 @@ export function getGmLessonSections() {
       label: 'Sessions',
       lessons: [
         {
+          title: 'Session 8 Prep',
+          caption: 'GM prep · stump library, back half & return to Ot',
+          href: `${pagesBase}/lessons/0021-session-8-prep.html`,
+        },
+        {
           title: 'Session 7 Prep',
-          caption: 'GM prep · Takulu’s reading list',
+          caption: 'GM prep · Takulu’s reading list (played, partial)',
           href: `${pagesBase}/lessons/0020-session-7-prep.html`,
         },
         {

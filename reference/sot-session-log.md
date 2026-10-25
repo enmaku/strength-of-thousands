@@ -15,11 +15,11 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | Field | Value |
 |-------|--------|
 | **Book** | 1 — *Kindled Magic* |
-| **Chapter** | 2 — *First of Many*. First Study rolled in Session 6. Teacher errands not started |
+| **Chapter** | 2 — *First of Many*. First Study rolled in Session 6. Teacher errands underway: Ot's stump library is half explored |
 | **Level** | 2 |
 | **Calendar** | After the first Study block (the book’s “first few months” of class, from Arodus 4721). Next Study waits until two teacher errands have run |
-| **Last played** | Session 6 (first Study; some Koride contact — full scene log still to come from the transcript) |
-| **Next prep** | Session 7 — `lessons/0020-session-7-prep.html` (Takulu’s reading list, not Koride) |
+| **Last played** | Session 7 (Ot's reading list; roughly half the stump library; transcript still to come) |
+| **Next prep** | Session 8 — finish the stump and return to Ot: `lessons/0021-session-8-prep.html`. Monochrome Murmurs is S9 |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -198,6 +198,32 @@ Then: Session 6 rolled the first Study (and touched Koride). Remaining Chapter 2
 | Kurshkin | Whole party present | Captured, fed, healed, afraid of Stone Ghost, hates Ot on sight. Alive. |
 | Takulu Ot | Walk-on only | Question never played. Session 6 recap settles it before Study. |
 
+### Session 7 — partial
+
+**Covered**
+
+- **Takulu's reading list opened.** Ot briefed the cohort in the Heron Archives and handed over the five-book list and the stump-library lead.
+- **The tree-stump library, front half.** The party reached the stump, dealt with the bells at the door, and fought the scrits. The fight ran long — it ate most of the night — and the table stopped roughly halfway through the building.
+- Roughly half the rooms were searched. Ot's books are partially accounted for; the rest of the stump is unsearched.
+
+**Not covered (still ahead)**
+
+- The back half of the stump: bed storage, the reading nook, the wasp nest, the supply room, and whichever optional rooms they skipped.
+- The return to Ot and the XP/GP accounting for what they brought back.
+- **All five library player beats.** None landed — not Cy'An's hinge, Lithrei's research reframe, Solanum's reading nook, Taraan's bell garland, or Yggostrus's warm Koride contact.
+
+**Table pace note**
+
+- **New calibration point: a dungeon whose first room is a fight is two nights, not one.** The stump was scoped as a single session — eight rooms, a small scrit skirmish, five fixed book locations. The skirmish did not stay small, and the table chose combat over searching. Do not stack an exploration site behind a fight again without budgeting two sessions for it.
+- Because the player beats are tied to specific rooms (the nook, the beds, the bells), they could not land before the rooms did. They are not lost, only delayed — they move to S8 with the rooms.
+
+**NPC relationship seeds planted**
+
+| NPC | Who connected | Note |
+|-----|---------------|------|
+| Takulu Ot | Whole cohort | Briefing only so far. The gratitude beat waits for the return with damaged books. |
+| Scrits | Whole cohort | Fought, not befriended. If any survived, they fled — do not let them be adopted. |
+
 ## Pace model (revisable)
 
 Derived from Sessions 1–5 + book density:
@@ -207,23 +233,28 @@ Derived from Sessions 1–5 + book density:
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
 | Session 5 (**done**) | Uzunjati + ceremony fight + interrogation. Stopped as Ot arrived. Level 2 handed out. Study not rolled. |
 | Session 6 (**done**) | Entire session was academia downtime: first Study, then all four classmate favors (Surprise, Rules Mastery, Lofty Leap, Lost Chicken). Cricket theft became a trade with Koride. No teacher errand opened. |
-| **Session 7 (next)** | Open **Takulu’s reading list**. Do not open Koride or Zuma. |
+| Session 7 (**done, partial**) | Ot's reading list and the stump library's front half. The scrit fight ate the night; roughly half the rooms were searched and **no player beats landed**. Ended mid-exploration. |
+| **Session 8 (next)** | Finish the stump (beds, reading nook, wasp nest, whatever else) and return to Ot. The five S7 player beats are owed here. Do not open Zuma unless the night runs short. |
+| Session 9 (forecast) | **Monochrome Murmurs** (Zuma), then the Study block. |
 
 ### Chapter 2 order
 
 Table decision after Session 6. Four teacher errands from *Kindled Magic* “Meet the Teachers,” split in half around Study, then the First Masking. Koride is the first errand of the back half, after the next Study, so Bug Problems is not the next teacher scene after Session 6.
 
-| # | Beat |
-|---|------|
-| 1 | **Takulu’s reading list** (stump library) |
-| 2 | **Monochrome Murmurs** (Teacher Zuma) |
-| 3 | **Study** downtime |
-| 4 | **Bug Problems** (Koride) |
-| 5 | **Starday Tournament** (Teacher Ayuwari) |
-| 6 | **Study** downtime |
-| 7 | **First Masking** |
+| # | Beat | Planned session |
+|---|------|-----------------|
+| 1 | **Takulu’s reading list** (stump library) — front half | S7 (played) |
+| 1b | **Takulu’s reading list** — back half + return to Ot | S8 |
+| 2 | **Monochrome Murmurs** (Teacher Zuma) | S9 |
+| 3 | **Study** downtime | S10 |
+| 4 | **Bug Problems** (Koride) | S11 |
+| 5 | **Starday Tournament** (Teacher Ayuwari) | S12 |
+| 6 | **Study** downtime | S13 |
+| 7 | **First Masking** | S14 |
 
 That is two more Study blocks after the one already rolled, which sits inside the book’s “a second, and perhaps a third.” No fourth Study before the masking. Each errand is its own night at this table’s pace unless a night actually runs short.
+
+**The stump library is now a two-night errand.** S7 ran the approach, Ot's briefing, and the scrit fight, and stopped roughly halfway through the rooms. S8 finishes it and carries the five library player beats that never landed. Treat the errand as one beat for pacing purposes but two nights for scheduling.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -231,10 +262,10 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 
 | PC | Early drip still available | Primary hitch not yet on stage |
 |----|----------------------------|--------------------------------|
-| Anya | Missed Session 5 entirely; wolf-fang gift still loose | Belonging beat when she chooses a branch; **Anchor** via Lost Chicken if Session 6 has time. Eidolon origin later |
+| Anya | Missed Session 5 entirely; wolf-fang gift still loose | Belonging beat when she chooses a branch; **Anchor** via Lost Chicken if a night has time. Eidolon origin later |
 | Cy’An | Rolling pin declared; Lumusi kept the brownie recipe; Kurshkin enrollment offer parked | Deepen **Lumusi** later; don’t re-run provider takeover or enroll Kurshkin |
 | Solanum | Glider plans delivered; Umbo “hope he is feeling better” is her version | **Lesedi** still later; don’t correct Umbo during Study |
-| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** waits for Bug Problems, first errand after the next Study — not Session 7 |
+| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** warm contact is owed at Session 8 — it sits in the stump's back half and never landed in Session 7. Do not pull Bug Problems forward |
 | Lithrei | Noxolo group warmth landed; Pharasma temple study ongoing | Don’t restage Noxolo; **Ahassunu** still later |
 | Taraan | Okoro debuted on story morning; ledger crit on Uduak timeline | **Okoro** game only as stretch; **Izem** still later. Do not confirm Stone Ghost |
 
@@ -246,4 +277,6 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 - `transcripts/strength-of-thousands/session-03/edited.json`
 - `transcripts/strength-of-thousands/session-04/edited.json`
 - `transcripts/strength-of-thousands/session-05/edited.json`
-- `lessons/0001-kindled-magic-gm-prep.html`, `0009-player-tie-ins-gm-prep.html`
+- `transcripts/strength-of-thousands/session-06/edited.json` (unreviewed)
+- `transcripts/strength-of-thousands/session-07/edited.json` (pending)
+- `lessons/0001-kindled-magic-gm-prep.html`, `0020-session-7-prep.html`, `0021-session-8-prep.html`, `0009-player-tie-ins-gm-prep.html`

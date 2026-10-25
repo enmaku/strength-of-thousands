@@ -25,7 +25,7 @@
     "session": 1,
     "lane": "story",
     "title": "Arrival and Welcome Walk",
-    "description": "Their first day. Ot interviews them in a group and sets the aptitude tests that will decide whether they belong, the Spire Dorm tour introduces the people they will live beside for years, Xhokan explains the stipend and the free dining hall, and the first Perquisite day sends them off to the Rain-Scribes and a market full of chicks.",
+    "description": "Their first day. Ot interviews them in a group and sets the aptitude tests that will decide whether they belong, the Spire Dorm tour introduces the people they will live beside, Xhokan explains the stipend and the free dining hall, and the first Perquisite day sends them off to the Rain-Scribes and a market full of chicks.",
     "source": "p8–19",
     "confidence": "played",
     "revealed": true
@@ -37,7 +37,7 @@
     "lane": "player",
     "heroSlug": "anya",
     "title": "Greater connection to the bond",
-    "description": "Asked what she wants from the school, Anya does not say a branch or a rank. She tells Ot she wants a deeper connection to the creature that accompanies her, and to the wild places it came from — a wish the Magaambya will spend a long time deciding how to answer.",
+    "description": "Asked what she wants from the school, Anya does not say a branch or a rank. She tells Ot she wants a deeper connection to the creature that accompanies her, and to the wild places it came from.",
     "confidence": "played",
     "revealed": true
   },
@@ -81,7 +81,7 @@
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Which obelisks are oldest?",
-    "description": "Walking the campus for the first time, Taraan asks which of the obelisks are oldest. He also keeps looking up. The flight hunger and the monument questions arrive together, and neither of them is small talk.",
+    "description": "Walking the campus for the first time, Taraan asks which of the obelisks are oldest. He also keeps looking up.",
     "confidence": "played",
     "revealed": true
   },
@@ -92,7 +92,7 @@
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "The transactional line, seen by Esi",
-    "description": "Yggostrus tells Esi, plainly, that she has a use for him right now. It is not said cruelly — it is simply the only way he knows to describe a relationship — and Esi hears the shape of it before anyone else does.",
+    "description": "Yggostrus tells Esi, plainly, that she has a use for him right now. It is not said cruelly — it is simply the only way he knows to describe a relationship — and Esi hears the shape of it.",
     "confidence": "played",
     "revealed": true
   },
@@ -136,7 +136,7 @@
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The red-star and gateway omen",
-    "description": "Lithrei researches the red-star and gateway omen he has been carrying, and finds enough to take it seriously. The sky seed that pays off years later is already on the table in the second session.",
+    "description": "Lithrei researches the red-star and gateway omen he has been carrying, and finds enough to take it seriously.",
     "confidence": "played",
     "revealed": true
   },
@@ -158,7 +158,7 @@
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Maps the tunnels with Erudite",
-    "description": "Taraan and Erudite map the tunnels beneath the barn and the dorm. It is the first time he reads a structure rather than a monument, and the first hint that something under the campus wants to be found.",
+    "description": "Taraan and Erudite map the tunnels beneath the barn and the dorm. He reads them as a structure rather than a monument.",
     "confidence": "played",
     "revealed": true
   },
@@ -169,7 +169,7 @@
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Friction with Anchor Root",
-    "description": "Yggostrus and Anchor Root do not get along, and the friction is visible to everyone before it becomes personal. A first impression that will take years to undo.",
+    "description": "Yggostrus and Anchor Root do not get along, and the friction is visible to everyone.",
     "confidence": "played",
     "revealed": true
   },
@@ -179,7 +179,7 @@
     "session": 3,
     "lane": "story",
     "title": "Day 3 — Cascade Bearers",
-    "description": "Day three, with the Cascade Bearers. Mariama briefs them, hands them three oils and sends them into a fey-abeyance ritual that ends in a fight with Umbo, an outbreak of purple pox, and a ward the cohort helps cast. When it is done, Mariama mentions that the ward will affect any fey — a detail nobody has finished thinking about.",
+    "description": "Day three, with the Cascade Bearers. Mariama briefs them, hands them three oils and sends them into a fey-abeyance ritual that ends in a fight with Umbo, an outbreak of purple pox, and a ward the cohort helps cast.",
     "source": "p23–25",
     "confidence": "played",
     "revealed": true
@@ -191,7 +191,7 @@
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "MODU is named",
-    "description": "Cy’An names the Mobile Oven Defense Unit, or MODU, and the room immediately understands what it is for. The first construct in a long line of them.",
+    "description": "Cy’An names the Mobile Oven Defense Unit, or MODU, and the room immediately understands what it is for.",
     "confidence": "played",
     "revealed": true
   },
@@ -202,7 +202,7 @@
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The caterpillar gift",
-    "description": "Lithrei buys a caterpillar as a gift, and the purchase quietly secures Anchor Root’s goodwill for the Rain-Scribes. The same day, Koride Ulawa is named to him on campus — a name that will matter later.",
+    "description": "Lithrei buys a caterpillar as a gift, and the purchase quietly secures Anchor Root’s goodwill for the Rain-Scribes. The same day, Koride Ulawa is named to him on campus.",
     "confidence": "played",
     "revealed": true
   },
@@ -344,7 +344,7 @@
     "session": 6,
     "lane": "story",
     "title": "First Study block and the classmate favors",
-    "description": "The first full Study block, and a night of classmate favors: Surprise, Rules Mastery, Lofty Leap, and the Lost Chicken. The Cricket Theft is settled not with a punishment but with a trade that puts the bird into Koride’s breeding program. Implements are started and not finished.",
+    "description": "The first full Study block, and a night of classmate favors: Surprise, Rules Mastery, Lofty Leap, and the Lost Chicken. The Cricket Theft is settled not with a punishment but with a trade that establishes Koride’s breeding program. Implements are started and not finished.",
     "source": "p44–45, 65",
     "confidence": "played",
     "revealed": true
@@ -378,7 +378,7 @@
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Fails the Tempest-Sun Study",
-    "description": "Solanum fails the Tempest-Sun Study and the branch stays at 0. She walks out of the night carrying a debt she will need to clear before the masks arrive, or the mask will land on someone who feels like a failure.",
+    "description": "Solanum fails the Tempest-Sun Study and the branch stays at 0. She walks out of the night carrying a debt.",
     "confidence": "played",
     "revealed": true
   },
@@ -409,16 +409,27 @@
     "book": 1,
     "session": 7,
     "lane": "story",
-    "title": "Takulu's reading list",
-    "description": "Takulu’s reading list sends the cohort to the Tree Stump Library, where the books are held together by scrits and silverfish and saving the text matters more than tidiness. The Bloodsalt folio is on the shelf. Nobody knows yet why that matters.",
+    "title": "Takulu's reading list — the stump library",
+    "description": "Ot asks the cohort to recover five books from a tree-stump building that was being converted into a library before the project was abandoned. The stump is not empty: scrits have been chewing through it, and the fight eats most of the night, leaving half the rooms unsearched.",
+    "source": "p35–38",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-story-reading-list-return",
+    "book": 1,
+    "session": 8,
+    "lane": "story",
+    "title": "The stump library, finished",
+    "description": "The back half of the stump: the stacked beds, the reading nook, the paper nest in the last room, and whatever else the cohort never reached. Then back to Ot with damaged books and a full accounting of what the building still holds.",
     "source": "p35–38",
     "confidence": "firm",
     "revealed": false
   },
   {
-    "id": "s7-cy-an-hinge",
+    "id": "s8-cy-an-hinge",
     "book": 1,
-    "session": 7,
+    "session": 8,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Repairs a hinge Ot notices",
@@ -427,9 +438,9 @@
     "revealed": false
   },
   {
-    "id": "s7-lithrei-research-finding",
+    "id": "s8-lithrei-research-finding",
     "book": 1,
-    "session": 7,
+    "session": 8,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Reframes the Study failure as a research finding",
@@ -438,20 +449,20 @@
     "revealed": false
   },
   {
-    "id": "s7-solanum-reading-nook",
+    "id": "s8-solanum-reading-nook",
     "book": 1,
-    "session": 7,
+    "session": 8,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "The reading nook",
-    "description": "Solanum finds a reading nook in the stump library and turns her failed Study into a research project — she was reading, not failing. She also picks up a Tempest-Sun success before the masks arrive, clearing the debt that had been following her.",
+    "description": "Solanum finds a reading nook in the stump library and turns her failed Study into a research project — she was reading, not failing. She also picks up a Tempest-Sun success, clearing the debt that had been following her.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s7-taraan-bell-garland",
+    "id": "s8-taraan-bell-garland",
     "book": 1,
-    "session": 7,
+    "session": 8,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Bell garland and a structural read",
@@ -460,20 +471,20 @@
     "revealed": false
   },
   {
-    "id": "s7-yggostrus-koride-warm",
+    "id": "s8-yggostrus-koride-warm",
     "book": 1,
-    "session": 7,
+    "session": 8,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Koride's first warm contact",
-    "description": "Koride Ulawa takes a real interest in Yggostrus — not in what he can do for her, but in what he is. One exchange is enough. It is the warm contact the arc has been missing since session one.",
+    "description": "Koride Ulawa takes a real interest in Yggostrus — not in what he can do for her, but in what he is. One exchange is enough.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s8-story-monochrome",
+    "id": "s9-story-monochrome",
     "book": 1,
-    "session": 8,
+    "session": 9,
     "lane": "story",
     "title": "Monochrome Murmurs",
     "description": "Monochrome Murmurs: Zuma, the Tattoo Whispers ritual, linked minds inside the Elephant Museum office. The cohort shares thoughts for an afternoon and learns more about each other than any of them asked to.",
@@ -482,9 +493,9 @@
     "revealed": false
   },
   {
-    "id": "s8-lithrei-zuma",
+    "id": "s9-lithrei-zuma",
     "book": 1,
-    "session": 8,
+    "session": 9,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Zuma's debut",
@@ -493,9 +504,9 @@
     "revealed": false
   },
   {
-    "id": "s8-yggostrus-augury",
+    "id": "s9-yggostrus-augury",
     "book": 1,
-    "session": 8,
+    "session": 9,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "A truthful but useless augury",
@@ -504,9 +515,9 @@
     "revealed": false
   },
   {
-    "id": "s9-story-study-block",
+    "id": "s10-story-study-block",
     "book": 1,
-    "session": 9,
+    "session": 10,
     "lane": "story",
     "title": "Study block and free time",
     "description": "A study block and an evening of free time. Ahassunu joins the Heron Archives and Lesedi opens the planetarium dome, and the cohort is given the rare luxury of a night with no crisis attached.",
@@ -515,9 +526,9 @@
     "revealed": false
   },
   {
-    "id": "s9-cy-an-empty-shift",
+    "id": "s10-cy-an-empty-shift",
     "book": 1,
-    "session": 9,
+    "session": 10,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "The empty shift",
@@ -526,9 +537,9 @@
     "revealed": false
   },
   {
-    "id": "s9-lithrei-ahassunu-slip",
+    "id": "s10-lithrei-ahassunu-slip",
     "book": 1,
-    "session": 9,
+    "session": 10,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Ahassunu's first slip",
@@ -537,9 +548,9 @@
     "revealed": false
   },
   {
-    "id": "s9-solanum-lesedi",
+    "id": "s10-solanum-lesedi",
     "book": 1,
-    "session": 9,
+    "session": 10,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Lesedi's debut",
@@ -548,20 +559,20 @@
     "revealed": false
   },
   {
-    "id": "s9-taraan-ird-aside",
+    "id": "s10-taraan-ird-aside",
     "book": 1,
-    "session": 9,
+    "session": 10,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "The Ird-taboo aside",
-    "description": "In the Heron Archives, a single line lands wrong and is not explained. Taraan mentions Ird; the conversation moves on; nothing follows it. The asides are the point.",
+    "title": "The Ird-taboo aside, pressed",
+    "description": "In the Heron Archives, Taraan asks about Ird a second time, more directly than the first. The answer is the same polite institutional silence, and the conversation moves on without him. Nothing follows it, and that is the whole reply.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s10-story-bug-problems",
+    "id": "s11-story-bug-problems",
     "book": 1,
-    "session": 10,
+    "session": 11,
     "lane": "story",
     "title": "Bug Problems",
     "description": "Koride’s specimen list sends the cohort to the Leshy Gardens, the Speaker’s Stage canal, and the kitchen. Anchor Root has strong opinions about centipedes, which turns out to be relevant when a centipede swarm arrives in the kitchen.",
@@ -570,9 +581,9 @@
     "revealed": false
   },
   {
-    "id": "s10-solanum-mafika",
+    "id": "s11-solanum-mafika",
     "book": 1,
-    "session": 10,
+    "session": 11,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Mafika light — body versus dome",
@@ -581,9 +592,9 @@
     "revealed": false
   },
   {
-    "id": "s10-yggostrus-specimen",
+    "id": "s11-yggostrus-specimen",
     "book": 1,
-    "session": 10,
+    "session": 11,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Koride treats him as a specimen",
@@ -592,9 +603,9 @@
     "revealed": false
   },
   {
-    "id": "s11-story-starday",
+    "id": "s12-story-starday",
     "book": 1,
-    "session": 11,
+    "session": 12,
     "lane": "story",
     "title": "Starday Tournament",
     "description": "The Starday Tournament: Mafika’s mecha-leshy bouts across three rounds, with a crowd that has come specifically to watch. The cohort’s first taste of a public that is not a classroom.",
@@ -603,9 +614,9 @@
     "revealed": false
   },
   {
-    "id": "s11-yggostrus-public-glory",
+    "id": "s12-yggostrus-public-glory",
     "book": 1,
-    "session": 11,
+    "session": 12,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Public glory, wrong court",
@@ -614,20 +625,20 @@
     "revealed": false
   },
   {
-    "id": "s12-story-study-block",
+    "id": "s13-story-study-block",
     "book": 1,
-    "session": 12,
+    "session": 13,
     "lane": "story",
     "title": "Second Study block and free time",
-    "description": "A second Study block and an evening of free time, and the last chance to finish the classmate favors before the masks. Branch levels rise, implements finally get completed, and the book’s preparation phase closes.",
+    "description": "A second Study block and an evening of free time, with the classmate favors still unfinished. Branch levels rise, the implements finally get completed, and the preparation phase closes.",
     "source": "p65",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s12-cy-an-token",
+    "id": "s13-cy-an-token",
     "book": 1,
-    "session": 12,
+    "session": 13,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "A token unearned by labour",
@@ -636,9 +647,9 @@
     "revealed": false
   },
   {
-    "id": "s13-story-first-masking",
+    "id": "s14-story-first-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "story",
     "title": "First Masking",
     "description": "First Masking, in the Tireless Hall: wooden spirit masks, initiates becoming attendants, and a giant insect attack that arrives before the ceremony is quite finished. The cohort leaves at level 3, wearing faces that are not theirs.",
@@ -647,9 +658,9 @@
     "revealed": false
   },
   {
-    "id": "s13-cy-an-masking",
+    "id": "s14-cy-an-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "A person in a mask, not just a hearth-tool",
@@ -658,9 +669,9 @@
     "revealed": false
   },
   {
-    "id": "s13-lithrei-masking",
+    "id": "s14-lithrei-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Whose face, for a breath?",
@@ -669,31 +680,31 @@
     "revealed": false
   },
   {
-    "id": "s13-solanum-masking",
+    "id": "s14-solanum-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Growth is the honest answer",
-    "description": "Whose face, if you are a fruit? The honest answer, and the one the mask accepts, is growth. It is the only arc in the cohort that resolves neatly, and it resolves by getting on with it.",
+    "description": "Whose face, if you are a fruit? The honest answer, and the one the mask accepts, is growth.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s13-taraan-masking",
+    "id": "s14-taraan-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Soralyon's face",
-    "description": "The mask asks Taraan which self he named himself after, and the answer is Soralyon — the patron who is apparently watching, and who will have opinions about what he does with the face.",
+    "description": "The mask asks Taraan which self he named himself after, and the answer is Soralyon — a patron he did not know was watching.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s13-yggostrus-masking",
+    "id": "s14-yggostrus-masking",
     "book": 1,
-    "session": 13,
+    "session": 14,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "A mask over a cursed identity",
@@ -702,9 +713,9 @@
     "revealed": false
   },
   {
-    "id": "s14-story-assignment",
+    "id": "s15-story-assignment",
     "book": 1,
-    "session": 14,
+    "session": 15,
     "lane": "story",
     "title": "Assignment from Ot and Koride",
     "description": "Ot and Koride give the cohort their assignment: a map inherited from Koride’s withdrawn students, leading to a staging room, a wet hollow, a mushroom of unreasonable size, and a set of centipede traps that someone built on purpose.",
@@ -713,9 +724,9 @@
     "revealed": false
   },
   {
-    "id": "s14-taraan-izem",
+    "id": "s15-taraan-izem",
     "book": 1,
-    "session": 14,
+    "session": 15,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Izem Mezitani debuts",
@@ -724,9 +735,9 @@
     "revealed": false
   },
   {
-    "id": "s15-story-deep-caverns",
+    "id": "s16-story-deep-caverns",
     "book": 1,
-    "session": 15,
+    "session": 16,
     "lane": "story",
     "title": "Deep caverns",
     "description": "The cohort goes deeper: gnagrifs, an irritated hive, a war room, a pantry, Binji’s bedroll, and a training ground, all of it belonging to Urbel and a functioning gremlin society that nobody expected to find under the campus.",
@@ -735,31 +746,31 @@
     "revealed": false
   },
   {
-    "id": "s16-story-stone-ghost",
+    "id": "s17-story-stone-ghost",
     "book": 1,
-    "session": 16,
+    "session": 17,
     "lane": "story",
     "title": "Stone Ghost",
-    "description": "Stone Ghost: Uduak’s room, the confrontation the whole book has been pointing at, and level 4 at the end of it. The tunnels were never the mystery — they were the route.",
+    "description": "Stone Ghost: Uduak’s room, the confrontation, and level 4 at the end of it. The tunnels were never the mystery — they were the route.",
     "source": "p58–59",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s16-lithrei-duet",
+    "id": "s17-lithrei-duet",
     "book": 1,
-    "session": 16,
+    "session": 17,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The duet",
-    "description": "The duet: Taraan speaks for institutional duty, Lithrei for lived possession, and neither of them is wrong. It is the campaign’s cleanest two-hander, and it should be played as an argument between friends.",
+    "description": "The duet: Taraan speaks for institutional duty, Lithrei for lived possession, and neither of them is wrong. Play it as an argument between friends.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s16-solanum-gremlins",
+    "id": "s17-solanum-gremlins",
     "book": 1,
-    "session": 16,
+    "session": 17,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Gremlins as people",
@@ -768,9 +779,9 @@
     "revealed": false
   },
   {
-    "id": "s16-taraan-duet",
+    "id": "s17-taraan-duet",
     "book": 1,
-    "session": 16,
+    "session": 17,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "The institutional-duty voice",
@@ -779,9 +790,9 @@
     "revealed": false
   },
   {
-    "id": "s17-story-book-one-closes",
+    "id": "s18-story-book-one-closes",
     "book": 1,
-    "session": 17,
+    "session": 18,
     "lane": "story",
     "title": "Aftermath and griffon attack",
     "description": "Aftermath. The anadi seekers arrive in hybrid form, a griffon attacks, and Book 1 closes on a campus that has been quietly opened from underneath.",
@@ -800,9 +811,9 @@
     "revealed": false
   },
   {
-    "id": "s18-story-janatimo",
+    "id": "s19-story-janatimo",
     "book": 2,
-    "session": 18,
+    "session": 19,
     "lane": "story",
     "title": "Janatimo's audience",
     "description": "Janatimo debriefs Book 1 and puts four debate questions to the cohort — one realistic, one outlandish — grading them on Impression Points. The prize is the crown of the companion, and every PC is expected to answer at least once.",
@@ -811,9 +822,9 @@
     "revealed": false
   },
   {
-    "id": "s18-solanum-outlandish",
+    "id": "s19-solanum-outlandish",
     "book": 2,
-    "session": 18,
+    "session": 19,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Omen logic in a debate hall",
@@ -822,9 +833,9 @@
     "revealed": false
   },
   {
-    "id": "s19-story-investigation-a",
+    "id": "s20-story-investigation-a",
     "book": 2,
-    "session": 19,
+    "session": 20,
     "lane": "story",
     "title": "Investigation A, part 1",
     "description": "The first investigation begins: find Goss, Mazta, and Savana, either through Tzeniwe or through asking around the city. The Hababe Building is the first stop, and there is a terra-cotta soldier standing where a guard should be.",
@@ -833,9 +844,9 @@
     "revealed": false
   },
   {
-    "id": "s20-story-hababe",
+    "id": "s21-story-hababe",
     "book": 2,
-    "session": 20,
+    "session": 21,
     "lane": "story",
     "title": "Investigation A, part 2",
     "description": "The Hababe Building proper: supply room, serpent ward, Coil spies, talisman room, wood golem, and alchemy storage, ending at a passwall into Koride’s own laboratory. The cohort reaches level 5 in a building that keeps being larger than it looked.",
@@ -844,9 +855,9 @@
     "revealed": false
   },
   {
-    "id": "s20-taraan-first-echo",
+    "id": "s21-taraan-first-echo",
     "book": 2,
-    "session": 20,
+    "session": 21,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "First Ird echo",
@@ -855,9 +866,9 @@
     "revealed": false
   },
   {
-    "id": "s20-yggostrus-egg-rhyme",
+    "id": "s21-yggostrus-egg-rhyme",
     "book": 2,
-    "session": 20,
+    "session": 21,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "The egg rhyme",
@@ -866,9 +877,9 @@
     "revealed": false
   },
   {
-    "id": "s21-story-oba-eze",
+    "id": "s22-story-oba-eze",
     "book": 2,
-    "session": 21,
+    "session": 22,
     "lane": "story",
     "title": "Investigation B — Oba Eze's Wondrous Creatures",
     "description": "Investigation B takes the cohort to Oba Eze’s Wondrous Creatures: an animal lot, a tiger cage, elephant-bird cages, griffon cages, a basilisk, and the mpeshi. Froglegs is implicated, and the animal trade stops being an abstraction.",
@@ -877,9 +888,9 @@
     "revealed": false
   },
   {
-    "id": "s21-solanum-cages",
+    "id": "s22-solanum-cages",
     "book": 2,
-    "session": 21,
+    "session": 22,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Cannot look away",
@@ -888,9 +899,9 @@
     "revealed": false
   },
   {
-    "id": "s22-story-follow-up",
+    "id": "s23-story-follow-up",
     "book": 2,
-    "session": 22,
+    "session": 23,
     "lane": "story",
     "title": "Follow-up, semester, and Study",
     "description": "A follow-up session, a semester boundary, and a Study block. Ahassunu lets slip a name from a student file that has been scrubbed, and the lead goes cold almost immediately.",
@@ -899,9 +910,9 @@
     "revealed": false
   },
   {
-    "id": "s22-lithrei-scrubbed-file",
+    "id": "s23-lithrei-scrubbed-file",
     "book": 2,
-    "session": 22,
+    "session": 23,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The scrubbed file",
@@ -910,20 +921,20 @@
     "revealed": false
   },
   {
-    "id": "s22-yggostrus-asymmetric-care",
+    "id": "s23-yggostrus-asymmetric-care",
     "book": 2,
-    "session": 22,
+    "session": 23,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Asymmetric care",
-    "description": "Another PC does something for Yggostrus that he cannot possibly repay. His research stalls not because he lacks the skill but because he cannot yet name who would hold the other half of him.",
+    "description": "Another PC does something for Yggostrus that he cannot possibly repay. His research stalls not because he lacks the skill but because he cannot name who would hold the other half of him.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s23-story-conversant",
+    "id": "s24-story-conversant",
     "book": 2,
-    "session": 23,
+    "session": 24,
     "lane": "story",
     "title": "Conversant promotion",
     "description": "The Conversant promotion: Janatimo’s letter, the ceremony, and a speech from each PC on the best use of magic in the world. Chizire comes to watch, because of course he does.",
@@ -932,9 +943,9 @@
     "revealed": false
   },
   {
-    "id": "s24-story-suspicious-alchemy",
+    "id": "s25-story-suspicious-alchemy",
     "book": 2,
-    "session": 24,
+    "session": 25,
     "lane": "story",
     "title": "Suspicious Alchemy",
     "description": "Xhokan brings the cohort a problem: tainted powder, a supplier named Bamidele, and a chase through the market before the afternoon is out.",
@@ -943,9 +954,9 @@
     "revealed": false
   },
   {
-    "id": "s25-story-flooded-workshop",
+    "id": "s26-story-flooded-workshop",
     "book": 2,
-    "session": 25,
+    "session": 26,
     "lane": "story",
     "title": "Flooded Workshop",
     "description": "Amaechi’s pottery workshop has flooded. The cohort shores up the structure and restores the canal, which is a simpler task than the conversation that follows it.",
@@ -954,9 +965,9 @@
     "revealed": false
   },
   {
-    "id": "s25-cy-an-not-material",
+    "id": "s26-cy-an-not-material",
     "book": 2,
-    "session": 25,
+    "session": 26,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "A need that isn't material",
@@ -965,9 +976,9 @@
     "revealed": false
   },
   {
-    "id": "s26-story-ghost-stories",
+    "id": "s27-story-ghost-stories",
     "book": 2,
-    "session": 26,
+    "session": 27,
     "lane": "story",
     "title": "Ghost Stories and Reth's Shack",
     "description": "Ghost Stories and Reth’s Shack: Mashkudu, Kiru, Loakan, Reth, and a crew of lizardfolk with a labour dispute that everyone keeps calling a haunting.",
@@ -976,9 +987,9 @@
     "revealed": false
   },
   {
-    "id": "s27-story-tell-a-tale",
+    "id": "s28-story-tell-a-tale",
     "book": 2,
-    "session": 27,
+    "session": 28,
     "lane": "story",
     "title": "Tell a Tale and Tokku's Home",
     "description": "Tell a Tale and Tokku’s Home: a poltergeist, Kalembi’s history, and the return of a figurine that should probably never have been taken.",
@@ -987,9 +998,9 @@
     "revealed": false
   },
   {
-    "id": "s27-cy-an-home-letter",
+    "id": "s28-cy-an-home-letter",
     "book": 2,
-    "session": 27,
+    "session": 28,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "The home letter reframed",
@@ -998,9 +1009,9 @@
     "revealed": false
   },
   {
-    "id": "s27-taraan-second-echo",
+    "id": "s28-taraan-second-echo",
     "book": 2,
-    "session": 27,
+    "session": 28,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Second Ird echo",
@@ -1009,9 +1020,9 @@
     "revealed": false
   },
   {
-    "id": "s28-story-carnivorous-gardens",
+    "id": "s29-story-carnivorous-gardens",
     "book": 2,
-    "session": 28,
+    "session": 29,
     "lane": "story",
     "title": "Carnivorous Gardens",
     "description": "Carnivorous Gardens: plants that eat, oozes that do not care, and a grate that has been destroyed by something large enough to be a problem.",
@@ -1020,20 +1031,20 @@
     "revealed": false
   },
   {
-    "id": "s29-story-fiery-debt",
+    "id": "s30-story-fiery-debt",
     "book": 2,
-    "session": 29,
+    "session": 30,
     "lane": "story",
     "title": "Fiery Debt and Fire-Pot's Forge",
-    "description": "Fiery Debt and Fire-Pot’s Forge: minotaur shops, a boulder trap, striding fires, and Ubanu. The cohort reaches level 6, and someone should decide now whether Ubanu comes back in Book 3.",
+    "description": "Fiery Debt and Fire-Pot’s Forge: minotaur shops, a boulder trap, striding fires, and Ubanu. The cohort reaches level 6.",
     "source": "p41–44",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s30-story-froglegs",
+    "id": "s31-story-froglegs",
     "book": 2,
-    "session": 30,
+    "session": 31,
     "lane": "story",
     "title": "Finding Froglegs",
     "description": "Finding Froglegs: the Thieves’ Swamp, grippli skirmishers, Old Thrasher, and a hut at the end of it. The griffon chain closes and the cohort reaches level 7, with the animal-trafficking thread finally finished.",
@@ -1042,9 +1053,9 @@
     "revealed": false
   },
   {
-    "id": "s31-story-mansion-briefing",
+    "id": "s32-story-mansion-briefing",
     "book": 2,
-    "session": 31,
+    "session": 32,
     "lane": "story",
     "title": "The flooded mansion briefing",
     "description": "Suspicion about Asanda crystallizes, Janatimo briefs the cohort on the flooded mansion, and they are handed scrolls of clairvoyance, freedom of movement, and restoration — the school’s way of saying it expects this to go badly.",
@@ -1053,9 +1064,9 @@
     "revealed": false
   },
   {
-    "id": "s32-story-manor-lower",
+    "id": "s33-story-manor-lower",
     "book": 2,
-    "session": 32,
+    "session": 33,
     "lane": "story",
     "title": "Manor lower floors",
     "description": "The manor’s lower floors: entrance hall, greeting room, the main-hall ward, dining room, kitchen, and a grodair in a house that is supposed to be underwater.",
@@ -1064,9 +1075,9 @@
     "revealed": false
   },
   {
-    "id": "s33-story-ballroom",
+    "id": "s34-story-ballroom",
     "book": 2,
-    "session": 33,
+    "session": 34,
     "lane": "story",
     "title": "Ballroom and Asanda's chamber",
     "description": "The ballroom, with Gbahali and musicians still playing, a guest room, and Asanda’s own chamber. The mansion has been maintained, which is its own kind of horror.",
@@ -1075,9 +1086,9 @@
     "revealed": false
   },
   {
-    "id": "s34-story-salathiss",
+    "id": "s35-story-salathiss",
     "book": 2,
-    "session": 34,
+    "session": 35,
     "lane": "story",
     "title": "Salathiss",
     "description": "Salathiss, in the entertainment suite, and the work of liberating the real Asanda from whatever has been wearing her.",
@@ -1086,9 +1097,9 @@
     "revealed": false
   },
   {
-    "id": "s34-yggostrus-salathiss",
+    "id": "s35-yggostrus-salathiss",
     "book": 2,
-    "session": 34,
+    "session": 35,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "A shapeshifter impersonating authority",
@@ -1097,9 +1108,9 @@
     "revealed": false
   },
   {
-    "id": "s35-story-graduation",
+    "id": "s36-story-graduation",
     "book": 2,
-    "session": 35,
+    "session": 36,
     "lane": "story",
     "title": "Graduation at the name obelisk",
     "description": "Graduation at the name obelisk, with lore-speaker speeches all around, and Janatimo asking the cohort to stay on as teachers. Level 8 — the end of being students in any sense the school recognizes.",
@@ -1108,9 +1119,9 @@
     "revealed": false
   },
   {
-    "id": "s35-cy-an-speech",
+    "id": "s36-cy-an-speech",
     "book": 2,
-    "session": 35,
+    "session": 36,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "The best use of magic in the world",
@@ -1129,9 +1140,9 @@
     "revealed": false
   },
   {
-    "id": "s36-story-teacher-life",
+    "id": "s37-story-teacher-life",
     "book": 3,
-    "session": 36,
+    "session": 37,
     "lane": "story",
     "title": "Teacher life",
     "description": "Teacher life: offices in the Heron Archives, stipends, the honorific nobody quite gets used to, a student cohort of their own, and Esi now a colleague rather than a dorm neighbour.",
@@ -1140,9 +1151,9 @@
     "revealed": false
   },
   {
-    "id": "s36-taraan-philosophy",
+    "id": "s37-taraan-philosophy",
     "book": 3,
-    "session": 36,
+    "session": 37,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Teaching philosophy, and the Izem dig-ethics bond",
@@ -1151,20 +1162,20 @@
     "revealed": false
   },
   {
-    "id": "s36-yggostrus-students",
+    "id": "s37-yggostrus-students",
     "book": 3,
-    "session": 36,
+    "session": 37,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Students who want to be him",
-    "description": "Yggostrus gets students who want to be him rather than learn from him. The mirror is uncomfortable, and it is not going away for the rest of the book.",
+    "description": "Yggostrus gets students who want to be him rather than learn from him. The mirror is uncomfortable, and it does not stop being uncomfortable.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s37-story-evening-reminiscing",
+    "id": "s38-story-evening-reminiscing",
     "book": 3,
-    "session": 37,
+    "session": 38,
     "lane": "story",
     "title": "An Evening Reminiscing",
     "description": "An Evening Reminiscing: Mariama and Ignaci’s glyph hunt, a Sparring and Study session with Onyiji, and a runaway experiment that ends the night. The Spire Dorm cohort is together again, as peers, for the only time in the book.",
@@ -1173,9 +1184,9 @@
     "revealed": false
   },
   {
-    "id": "s38-story-lifelong-student",
+    "id": "s39-story-lifelong-student",
     "book": 3,
-    "session": 38,
+    "session": 39,
     "lane": "story",
     "title": "The Lifelong Student",
     "description": "The Lifelong Student: Jumimo refuses to graduate, and the cohort spends the rest of the session on student problems of the week, which are exactly as small and as serious as they sound.",
@@ -1184,9 +1195,9 @@
     "revealed": false
   },
   {
-    "id": "s38-cy-an-let-fail",
+    "id": "s39-cy-an-let-fail",
     "book": 3,
-    "session": 38,
+    "session": 39,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Let a student fail safely",
@@ -1195,9 +1206,9 @@
     "revealed": false
   },
   {
-    "id": "s38-lithrei-cage",
+    "id": "s39-lithrei-cage",
     "book": 3,
-    "session": 38,
+    "session": 39,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Stabilize a stressed student without a cage",
@@ -1206,9 +1217,9 @@
     "revealed": false
   },
   {
-    "id": "s39-story-iboko",
+    "id": "s40-story-iboko",
     "book": 3,
-    "session": 39,
+    "session": 40,
     "lane": "story",
     "title": "I'boko's Disappearance",
     "description": "I’boko disappears, and her classmates hid it. Oyamba reframes the whole thing as sanctioned research at Bloodsalt, and the cohort reaches level 9 while still deciding whether they believe him.",
@@ -1217,9 +1228,9 @@
     "revealed": false
   },
   {
-    "id": "s40-story-terwa-lake",
+    "id": "s41-story-terwa-lake",
     "book": 3,
-    "session": 40,
+    "session": 41,
     "lane": "story",
     "title": "Travel to Terwa Lake",
     "description": "The road to Terwa Lake, with Mocking Cries and Shaking Bones along the way and karnias in the water. Field-teaching under pressure, with students in tow.",
@@ -1228,31 +1239,31 @@
     "revealed": false
   },
   {
-    "id": "s41-story-bloodsalt",
+    "id": "s42-story-bloodsalt",
     "book": 3,
-    "session": 41,
+    "session": 42,
     "lane": "story",
     "title": "Ruins of Bloodsalt",
-    "description": "Ruins of Bloodsalt: the Mudwringer camp, Thiarvo the Quick, a collapsed tower, bog mummies, and a mural wall that somebody painted very deliberately. The second book’s research turns into the third book’s dig.",
+    "description": "Ruins of Bloodsalt: the Mudwringer camp, Thiarvo the Quick, a collapsed tower, bog mummies, and a mural wall that somebody painted very deliberately.",
     "source": "p16–22",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s41-taraan-third-echo",
+    "id": "s42-taraan-third-echo",
     "book": 3,
-    "session": 41,
+    "session": 42,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Third Ird echo",
-    "description": "A Dragon-Speaker ruin with soul-trade iconography, and Izem present for it. Taraan will cheer the fall of tyrants and still be furious at the idea of levelling a city, and both reactions are his.",
+    "description": "A Dragon-Speaker ruin with soul-trade iconography, and Izem present for it. Taraan is asked to cheer the fall of tyrants and still be furious at the idea of levelling a city, and both reactions are his.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s42-story-ixame",
+    "id": "s43-story-ixame",
     "book": 3,
-    "session": 42,
+    "session": 43,
     "lane": "story",
     "title": "Shoreline and Ixamè",
     "description": "The shoreline and the hatchery, and then Ixamè: an undead air dragon, and the ritual to remind it of what it was.",
@@ -1261,20 +1272,20 @@
     "revealed": false
   },
   {
-    "id": "s42-solanum-ixame",
+    "id": "s43-solanum-ixame",
     "book": 3,
-    "session": 42,
+    "session": 43,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Reads the omen wrong first",
-    "description": "Solanum reads the omen wrong. An air dragon that cannot fly is a good lesson in Book 3’s actual theme — omens are not omnipotent, and the people who trust them most are the ones who get surprised.",
+    "description": "Solanum reads the omen wrong. An air dragon that cannot fly is a lesson in what omens are not — they are not omnipotent, and the people who trust them most are the ones who get surprised.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s43-story-practical-research",
+    "id": "s44-story-practical-research",
     "book": 3,
-    "session": 43,
+    "session": 44,
     "lane": "story",
     "title": "Practical Research in Bloodsalt",
     "description": "Practical Research in Bloodsalt, and downtime rebuilding Kiutu. Branch progress comes from field discovery rather than teaching, and it is worth saying so at the table.",
@@ -1283,20 +1294,20 @@
     "revealed": false
   },
   {
-    "id": "s44-story-aerial-predator",
+    "id": "s45-story-aerial-predator",
     "book": 3,
-    "session": 44,
+    "session": 45,
     "lane": "story",
     "title": "Aerial predator and the undead knight",
-    "description": "A kongamato in the air, the river crossing, and Bharlen Sajor — an undead knight who must come before the Terwa Lords by design.",
+    "description": "A kongamato in the air, the river crossing, and Bharlen Sajor — an undead knight with business of his own.",
     "source": "p28–33",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s45-story-terwa-lords",
+    "id": "s46-story-terwa-lords",
     "book": 3,
-    "session": 45,
+    "session": 46,
     "lane": "story",
     "title": "Terwa Lords",
     "description": "The Terwa Lords: iruxi allies, Ssaraku Akai, Giri, and a set of lizardfolk scouts. Level 10, and Yggostrus’s Diplomacy face gets a genuine win.",
@@ -1305,9 +1316,9 @@
     "revealed": false
   },
   {
-    "id": "s46-story-baobab",
+    "id": "s47-story-baobab",
     "book": 3,
-    "session": 46,
+    "session": 47,
     "lane": "story",
     "title": "Baobab Orchard",
     "description": "The Baobab Orchard: boggard hunters, a prisoner shed, Youuti, and Mobogo. Abducted villagers are freed, which is the emotional payload the chapter has been promising.",
@@ -1316,9 +1327,9 @@
     "revealed": false
   },
   {
-    "id": "s46-cy-an-food-first",
+    "id": "s47-cy-an-food-first",
     "book": 3,
-    "session": 46,
+    "session": 47,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Food as the first thing done",
@@ -1327,9 +1338,9 @@
     "revealed": false
   },
   {
-    "id": "s47-story-sodden-lands",
+    "id": "s48-story-sodden-lands",
     "book": 3,
-    "session": 47,
+    "session": 48,
     "lane": "story",
     "title": "Into the Sodden Lands",
     "description": "Into the Sodden Lands: stragglers on the road, and the approach to a prison that the cohort can now see from a distance.",
@@ -1338,9 +1349,9 @@
     "revealed": false
   },
   {
-    "id": "s48-story-prison-entry",
+    "id": "s49-story-prison-entry",
     "book": 3,
-    "session": 48,
+    "session": 49,
     "lane": "story",
     "title": "Prison of the Vacant Eye — entering",
     "description": "Entering the Prison of the Vacant Eye: main entrance, mess hall, kitchen, bunk rooms, and squalid cells. The prisoners are the reason to be here, not the loot.",
@@ -1349,9 +1360,9 @@
     "revealed": false
   },
   {
-    "id": "s49-story-prison-interior",
+    "id": "s50-story-prison-interior",
     "book": 3,
-    "session": 49,
+    "session": 50,
     "lane": "story",
     "title": "Prison interior and Tir",
     "description": "The prison proper: the warden’s room, ritual room, Bashantu, the armory, the frog pen, Halbrux Far-Sight, sleeping slabs, an excavation, and Tir the gogiteth. Level 11 at the bottom of it.",
@@ -1360,9 +1371,9 @@
     "revealed": false
   },
   {
-    "id": "s50-story-taking-the-jail",
+    "id": "s51-story-taking-the-jail",
     "book": 3,
-    "session": 50,
+    "session": 51,
     "lane": "story",
     "title": "Taking the jail",
     "description": "The jail is taken, and the prisoners reveal what the cohort came for: I’boko and her father were taken to Jula and handed to Ajbal Kimon. Practical Research follows from the discovery itself.",
@@ -1371,9 +1382,9 @@
     "revealed": false
   },
   {
-    "id": "s50-lithrei-unattended-dead",
+    "id": "s51-lithrei-unattended-dead",
     "book": 3,
-    "session": 50,
+    "session": 51,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The unattended dead",
@@ -1382,9 +1393,9 @@
     "revealed": false
   },
   {
-    "id": "s51-story-jula",
+    "id": "s52-story-jula",
     "book": 3,
-    "session": 51,
+    "session": 52,
     "lane": "story",
     "title": "Jula's plight",
     "description": "Jula’s plight: gates, shakedowns, Father Heveril, and the work of rallying a town that has learned not to expect help.",
@@ -1393,9 +1404,9 @@
     "revealed": false
   },
   {
-    "id": "s52-story-smuggler-caves",
+    "id": "s53-story-smuggler-caves",
     "book": 3,
-    "session": 52,
+    "session": 53,
     "lane": "story",
     "title": "Alehouse headquarters and smuggler caves",
     "description": "The alehouse headquarters and the smuggler caves behind it: a secret trapdoor, traps, plunder stores, a prison wall, and spies. The longest dungeon sequence in the book.",
@@ -1404,9 +1415,9 @@
     "revealed": false
   },
   {
-    "id": "s52-solanum-small-life",
+    "id": "s53-solanum-small-life",
     "book": 3,
-    "session": 52,
+    "session": 53,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Mentors a “small life” student",
@@ -1415,9 +1426,9 @@
     "revealed": false
   },
   {
-    "id": "s53-story-ajbal-kimon",
+    "id": "s54-story-ajbal-kimon",
     "book": 3,
-    "session": 53,
+    "session": 54,
     "lane": "story",
     "title": "Ajbal Kimon",
     "description": "Ajbal Kimon, in the sacrifice cave, and the end of the cult’s grip on Jula. Level 12, and the cohort returns to the Magaambya as famous teachers.",
@@ -1436,20 +1447,20 @@
     "revealed": false
   },
   {
-    "id": "s54-story-oyamba-briefing",
+    "id": "s55-story-oyamba-briefing",
     "book": 4,
-    "session": 54,
+    "session": 55,
     "lane": "story",
     "title": "Oyamba's briefing",
-    "description": "Oyamba briefs the cohort in the Archhorn Library and sets the terms of the Mzali mission: deal with evil, but no assassination and no coup. The delegation includes Ahassunu, Izem Mezitani, and Koride Ulawa — the densest player-beat session in the campaign.",
+    "description": "Oyamba briefs the cohort in the Archhorn Library and sets the terms of the Mzali mission: deal with evil, but no assassination and no coup. The delegation includes Ahassunu, Izem Mezitani, and Koride Ulawa.",
     "source": "p5–9",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s54-cy-an-systems-erase",
+    "id": "s55-cy-an-systems-erase",
     "book": 4,
-    "session": 54,
+    "session": 55,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Systems that erase people",
@@ -1458,9 +1469,9 @@
     "revealed": false
   },
   {
-    "id": "s54-taraan-izem-delegation",
+    "id": "s55-taraan-izem-delegation",
     "book": 4,
-    "session": 54,
+    "session": 55,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Izem on the Mzali delegation",
@@ -1469,9 +1480,9 @@
     "revealed": false
   },
   {
-    "id": "s54-yggostrus-koride-travels",
+    "id": "s55-yggostrus-koride-travels",
     "book": 4,
-    "session": 54,
+    "session": 55,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Koride travels with the delegation",
@@ -1480,9 +1491,9 @@
     "revealed": false
   },
   {
-    "id": "s55-story-travel-mzali",
+    "id": "s56-story-travel-mzali",
     "book": 4,
-    "session": 55,
+    "session": 56,
     "lane": "story",
     "title": "Travel to Mzali",
     "description": "Travel to Mzali: a welcome gift that is also a warning, jackal guards at every gate, and the necropolis on the horizon.",
@@ -1491,9 +1502,9 @@
     "revealed": false
   },
   {
-    "id": "s56-story-influence-one",
+    "id": "s57-story-influence-one",
     "book": 4,
-    "session": 56,
+    "session": 57,
     "lane": "story",
     "title": "Influence I",
     "description": "Influence I: Nkiruka, Walkena’s speaker, and M’Bele Numbe. The first of the favour-grind rounds, and the first chance for Yggostrus’s court language to meet an actual court.",
@@ -1502,9 +1513,9 @@
     "revealed": false
   },
   {
-    "id": "s57-story-influence-two",
+    "id": "s58-story-influence-two",
     "book": 4,
-    "session": 57,
+    "session": 58,
     "lane": "story",
     "title": "Influence II",
     "description": "Influence II: Sihar, Thembu Sufu, and Wekesa. Izem is here seeking atonement, and Taraan can either help or simply witness it.",
@@ -1513,9 +1524,9 @@
     "revealed": false
   },
   {
-    "id": "s58-story-influence-three",
+    "id": "s59-story-influence-three",
     "book": 4,
-    "session": 58,
+    "session": 59,
     "lane": "story",
     "title": "Influence III",
     "description": "Influence III: Worknesh of the military and Zubari, head of the Council and highest priest. The last and heaviest of the Mzali rounds.",
@@ -1524,9 +1535,9 @@
     "revealed": false
   },
   {
-    "id": "s58-lithrei-death-politics",
+    "id": "s59-lithrei-death-politics",
     "book": 4,
-    "session": 58,
+    "session": 59,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Mzali's death-politics as a mirror",
@@ -1535,9 +1546,9 @@
     "revealed": false
   },
   {
-    "id": "s59-story-walkena",
+    "id": "s60-story-walkena",
     "book": 4,
-    "session": 59,
+    "session": 60,
     "lane": "story",
     "title": "Worknesh's Challenge and the audience with Walkena",
     "description": "Worknesh’s Challenge, One Last Request, and an audience with Walkena. Level 13, and every PC gets to steelman one of Walkena’s arguments before rejecting it.",
@@ -1546,9 +1557,9 @@
     "revealed": false
   },
   {
-    "id": "s60-story-eclipse-shrine",
+    "id": "s61-story-eclipse-shrine",
     "book": 4,
-    "session": 60,
+    "session": 61,
     "lane": "story",
     "title": "Shrine of the Eclipse",
     "description": "Lower floors of the Shrine of the Eclipse: prayer chambers, sanctuary, a secret room, the sun shrine, gardens, a kitchen, and the sanctum. A temple to a sun goddess of eclipses, laid out like a house.",
@@ -1557,9 +1568,9 @@
     "revealed": false
   },
   {
-    "id": "s60-solanum-eclipse",
+    "id": "s61-solanum-eclipse",
     "book": 4,
-    "session": 60,
+    "session": 61,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "The eclipse spike",
@@ -1568,9 +1579,9 @@
     "revealed": false
   },
   {
-    "id": "s61-story-dajermube",
+    "id": "s62-story-dajermube",
     "book": 4,
-    "session": 61,
+    "session": 62,
     "lane": "story",
     "title": "Freeing Dajermube",
     "description": "The ritual chamber, Dajermube’s chamber, and the freeing of a trapped prisoner-goddess, which yields the Osibu secret. Level 14.",
@@ -1579,9 +1590,9 @@
     "revealed": false
   },
   {
-    "id": "s61-lithrei-identity",
+    "id": "s62-lithrei-identity",
     "book": 4,
-    "session": 61,
+    "session": 62,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Partial identity — role, era, manner of death",
@@ -1590,9 +1601,9 @@
     "revealed": false
   },
   {
-    "id": "s62-story-screaming-jungle",
+    "id": "s63-story-screaming-jungle",
     "book": 4,
-    "session": 62,
+    "session": 63,
     "lane": "story",
     "title": "Screaming Jungle",
     "description": "The Screaming Jungle: a doprillu attack, emotion seekers, and kilia mwibos. Solanum’s unease gets exercised.",
@@ -1601,9 +1612,9 @@
     "revealed": false
   },
   {
-    "id": "s63-story-first-contact",
+    "id": "s64-story-first-contact",
     "book": 4,
-    "session": 63,
+    "session": 64,
     "lane": "story",
     "title": "First contact with Osibu",
     "description": "First contact with Osibu. Gold defenders meet the cohort at the edge of the city, and the city’s guardians challenge them before anyone is allowed inside.",
@@ -1612,9 +1623,9 @@
     "revealed": false
   },
   {
-    "id": "s63-cy-an-infrastructure",
+    "id": "s64-cy-an-infrastructure",
     "book": 4,
-    "session": 63,
+    "session": 64,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Infrastructure as care",
@@ -1623,20 +1634,20 @@
     "revealed": false
   },
   {
-    "id": "s64-story-osibu",
+    "id": "s65-story-osibu",
     "book": 4,
-    "session": 64,
+    "session": 65,
     "lane": "story",
     "title": "Life in Osibu and Dimari-Diji",
-    "description": "Life in Osibu, and Dimari-Diji — the ancient arboreal guardian who is the best single NPC in the campaign for three PCs at once. Practical Research in Osibu follows.",
+    "description": "Life in Osibu, and Dimari-Diji — an ancient arboreal guardian with something to say to more than one of them. Practical Research in Osibu follows.",
     "source": "p54–55",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s64-lithrei-two-in-one-skin",
+    "id": "s65-lithrei-two-in-one-skin",
     "book": 4,
-    "session": 64,
+    "session": 65,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "“Two people in one skin”",
@@ -1645,20 +1656,20 @@
     "revealed": false
   },
   {
-    "id": "s64-taraan-debt-of-silence",
+    "id": "s65-taraan-debt-of-silence",
     "book": 4,
-    "session": 64,
+    "session": 65,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "“A debt of silence”",
-    "description": "Dimari-Diji senses a debt of silence in Taraan’s magic and declines to explain it. It is the single biggest hint before the payoff, and it arrives as a courtesy rather than a revelation.",
+    "description": "Dimari-Diji senses a debt of silence in Taraan’s magic and declines to explain it. It arrives as a courtesy rather than a revelation.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s65-story-siege",
+    "id": "s66-story-siege",
     "book": 4,
-    "session": 65,
+    "session": 66,
     "lane": "story",
     "title": "The siege begins",
     "description": "The siege begins: Walkena’s forces, and the attack of the sun-spires on a city that has never been taken.",
@@ -1667,9 +1678,9 @@
     "revealed": false
   },
   {
-    "id": "s65-cy-an-defense-system",
+    "id": "s66-cy-an-defense-system",
     "book": 4,
-    "session": 65,
+    "session": 66,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Organizes the defence as a working system",
@@ -1678,9 +1689,9 @@
     "revealed": false
   },
   {
-    "id": "s66-story-golden-blade",
+    "id": "s67-story-golden-blade",
     "book": 4,
-    "session": 66,
+    "session": 67,
     "lane": "story",
     "title": "Piercing the wall",
     "description": "Piercing the wall: breaking the golden blade, and Worknesh arriving to make the fight worse before it gets better.",
@@ -1689,9 +1700,9 @@
     "revealed": false
   },
   {
-    "id": "s67-story-walkena-fury",
+    "id": "s68-story-walkena-fury",
     "book": 4,
-    "session": 67,
+    "session": 68,
     "lane": "story",
     "title": "Walkena's fury",
     "description": "Walkena’s fury, with Dimari-Diji’s ritual countdown made visible for the first time. The party can now see how much time they do not have.",
@@ -1700,20 +1711,20 @@
     "revealed": false
   },
   {
-    "id": "s68-story-avatar",
+    "id": "s69-story-avatar",
     "book": 4,
-    "session": 68,
+    "session": 69,
     "lane": "story",
     "title": "Avatar of Walkena",
-    "description": "The Avatar of Walkena, and Osibu saved. Level 15, and Dimari-Diji tells the cohort that Jatembe is on Akiton — the hinge the last two books turn on.",
+    "description": "The Avatar of Walkena, and Osibu saved. Level 15, and Dimari-Diji tells the cohort that Jatembe is on Akiton.",
     "source": "p61–62",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s68-solanum-reveal",
+    "id": "s69-solanum-reveal",
     "book": 4,
-    "session": 68,
+    "session": 69,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "“I've seen this sky before”",
@@ -1732,9 +1743,9 @@
     "revealed": false
   },
   {
-    "id": "s69-story-preparatory-research",
+    "id": "s70-story-preparatory-research",
     "book": 5,
-    "session": 69,
+    "session": 70,
     "lane": "story",
     "title": "Semester downtime and Preparatory Research",
     "description": "A semester of downtime in two-week blocks, and Preparatory Research into the Iobane, the King of Biting Ants, and the geography of Akiton. The alignment window gets identified, which turns a legend into a deadline.",
@@ -1743,9 +1754,9 @@
     "revealed": false
   },
   {
-    "id": "s69-solanum-alignment",
+    "id": "s70-solanum-alignment",
     "book": 5,
-    "session": 69,
+    "session": 70,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Her charts predict the alignment",
@@ -1754,9 +1765,9 @@
     "revealed": false
   },
   {
-    "id": "s70-story-events-one-two",
+    "id": "s71-story-events-one-two",
     "book": 5,
-    "session": 70,
+    "session": 71,
     "lane": "story",
     "title": "Events 1–2 — A Diplomatic Dilemma, Disruptive Admirers",
     "description": "Events one and two: A Diplomatic Dilemma with Raido-Kan, and Disruptive Admirers who turn out to be Izem’s pixies.",
@@ -1765,20 +1776,20 @@
     "revealed": false
   },
   {
-    "id": "s70-taraan-izem-invites",
+    "id": "s71-taraan-izem-invites",
     "book": 5,
-    "session": 70,
+    "session": 71,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "Izem's payoff",
-    "description": "Izem’s payoff: the archaeologist with wings invites the tengu who wants them on the expedition, independently, of his own accord. Taraan has been waiting to be chosen since session one.",
+    "title": "Izem invites Taraan",
+    "description": "The archaeologist with wings invites the tengu who wants them on the expedition, independently, of his own accord.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s71-story-events-three-four",
+    "id": "s72-story-events-three-four",
     "book": 5,
-    "session": 71,
+    "session": 72,
     "lane": "story",
     "title": "Events 3–4 — An Impromptu Field Trip, Assistant Summoner Duty",
     "description": "Events three and four: An Impromptu Field Trip that runs into the Grootslang, and Assistant Summoner Duty with Lesedi.",
@@ -1787,31 +1798,31 @@
     "revealed": false
   },
   {
-    "id": "s71-solanum-lesedi-payoff",
+    "id": "s72-solanum-lesedi-payoff",
     "book": 5,
-    "session": 71,
+    "session": 72,
     "lane": "player",
     "heroSlug": "solanum-calabash",
-    "title": "Lesedi's payoff",
-    "description": "Lesedi’s payoff, delivered as a throwaway by someone who genuinely means it: space travel would have been superior to the Red Planet had Lirgen’s technology survived.",
+    "title": "Lesedi's aside",
+    "description": "Lesedi delivers it as a throwaway by someone who genuinely means it: space travel would have been superior to the Red Planet had Lirgen’s technology survived.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s72-story-events-five-six",
+    "id": "s73-story-events-five-six",
     "book": 5,
-    "session": 72,
+    "session": 73,
     "lane": "story",
     "title": "Events 5–6 — Nantambu Noodles, Pollen for Paintings",
-    "description": "Events five and six: Nantambu Noodles at Mafika’s ramen cart, and Pollen for Paintings with Nhyira. A lighter night before the descent.",
+    "description": "Events five and six: Nantambu Noodles at Mafika’s ramen cart, and Pollen for Paintings with Nhyira.",
     "source": "p14–16",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s73-story-first-flight",
+    "id": "s74-story-first-flight",
     "book": 5,
-    "session": 73,
+    "session": 74,
     "lane": "story",
     "title": "Event 7 — First Flight",
     "description": "Event seven: First Flight, aboard Tahenkot’s airship, with Haibram the only remaining crew and the Doorway at the end of the journey.",
@@ -1820,9 +1831,9 @@
     "revealed": false
   },
   {
-    "id": "s73-taraan-crews",
+    "id": "s74-taraan-crews",
     "book": 5,
-    "session": 73,
+    "session": 74,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Taraan crews; he does not pilot",
@@ -1831,20 +1842,20 @@
     "revealed": false
   },
   {
-    "id": "s74-story-events-eight-nine",
+    "id": "s75-story-events-eight-nine",
     "book": 5,
-    "session": 74,
+    "session": 75,
     "lane": "story",
     "title": "Events 8–9 — Pranksters in Peril, Runelord Rainbow",
-    "description": "Events eight and nine: Pranksters in Peril, and Runelord Rainbow, where Zuma’s ritual is the secondary-faculty payoff.",
+    "description": "Events eight and nine: Pranksters in Peril, and Runelord Rainbow, where Zuma’s ritual earns its keep.",
     "source": "p18–19",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s75-story-iobane",
+    "id": "s76-story-iobane",
     "book": 5,
-    "session": 75,
+    "session": 76,
     "lane": "story",
     "title": "The Iobane and Mpondo",
     "description": "The Iobane and Mpondo: peace talks, Practical Research at the Doorway, and Mpondo’s Request. Level 16.",
@@ -1853,9 +1864,9 @@
     "revealed": false
   },
   {
-    "id": "s75-solanum-empty-doorway",
+    "id": "s76-solanum-empty-doorway",
     "book": 5,
-    "session": 75,
+    "session": 76,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "The empty doorway",
@@ -1864,9 +1875,9 @@
     "revealed": false
   },
   {
-    "id": "s75-yggostrus-ordeal",
+    "id": "s76-yggostrus-ordeal",
     "book": 5,
-    "session": 75,
+    "session": 76,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "The unbinding ordeal begins",
@@ -1875,9 +1886,9 @@
     "revealed": false
   },
   {
-    "id": "s76-story-cathedral",
+    "id": "s77-story-cathedral",
     "book": 5,
-    "session": 76,
+    "session": 77,
     "lane": "story",
     "title": "Revelations of Betrayal",
     "description": "Revelations of Betrayal, through the Cathedral of Nothingness: entryway, choir, crypt, sanctum, Taon, Sparkeater, and Dwandek. Soul cages, and a cult that traded selves for power.",
@@ -1886,9 +1897,9 @@
     "revealed": false
   },
   {
-    "id": "s77-story-doorway",
+    "id": "s78-story-doorway",
     "book": 5,
-    "session": 77,
+    "session": 78,
     "lane": "story",
     "title": "Passage through the Doorway",
     "description": "Passage through the Doorway into Akiton’s thin air and light gravity. The red star stops being a point of light and becomes a sky you stand under.",
@@ -1897,20 +1908,20 @@
     "revealed": false
   },
   {
-    "id": "s77-solanum-wonder",
+    "id": "s78-solanum-wonder",
     "book": 5,
-    "session": 77,
+    "session": 78,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Akiton wonder",
-    "description": "Akiton wonder: everything Solanum read off a chart as a child is now weather she is standing in. The longest single beat in the campaign — do not rush it.",
+    "description": "Akiton wonder: everything Solanum read off a chart as a child is now weather she is standing in. Play it slowly — no mechanics, no explanation.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s78-story-hall-of-reason",
+    "id": "s79-story-hall-of-reason",
     "book": 5,
-    "session": 78,
+    "session": 79,
     "lane": "story",
     "title": "Hall of Reason",
     "description": "The Hall of Reason: the Chamber of Meditation, the main passageway, the Fourteen Curiosities, and aeons. Contemplatives are scholar-creatures, and both Yggostrus’s Diplomacy and Taraan’s lore matter here.",
@@ -1919,9 +1930,9 @@
     "revealed": false
   },
   {
-    "id": "s79-story-gardens",
+    "id": "s80-story-gardens",
     "book": 5,
-    "session": 79,
+    "session": 80,
     "lane": "story",
     "title": "Gardens of Enlightenment",
     "description": "The Gardens of Enlightenment, the Ravager of Tindalos, and peace returning. Level 17, and a change of register before Seldo.",
@@ -1930,9 +1941,9 @@
     "revealed": false
   },
   {
-    "id": "s79-lithrei-akiton",
+    "id": "s80-lithrei-akiton",
     "book": 5,
-    "session": 79,
+    "session": 80,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Vocation under pressure",
@@ -1941,9 +1952,9 @@
     "revealed": false
   },
   {
-    "id": "s79-yggostrus-fork",
+    "id": "s80-yggostrus-fork",
     "book": 5,
-    "session": 79,
+    "session": 80,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "The fork resolves",
@@ -1952,9 +1963,9 @@
     "revealed": false
   },
   {
-    "id": "s80-story-road-to-seldo",
+    "id": "s81-story-road-to-seldo",
     "book": 5,
-    "session": 80,
+    "session": 81,
     "lane": "story",
     "title": "Road to Seldo",
     "description": "The road to Seldo, the Great Gritcrawler, and the work of finding answers and researching an enemy that has been winning for a very long time.",
@@ -1963,20 +1974,20 @@
     "revealed": false
   },
   {
-    "id": "s81-story-skartitch",
+    "id": "s82-story-skartitch",
     "book": 5,
-    "session": 81,
+    "session": 82,
     "lane": "story",
     "title": "Meeting Skartitch",
-    "description": "Meeting Skartitch at Tan-Takneh’s camp: Skartitch’s Cantina, sand racers, and the boarding tech that will matter in the race.",
+    "description": "Meeting Skartitch at Tan-Takneh’s camp: Skartitch’s Cantina, sand racers, and a lesson in boarding an insect ship in motion.",
     "source": "p47–55",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s82-story-race-one",
+    "id": "s83-story-race-one",
     "book": 5,
-    "session": 82,
+    "session": 83,
     "lane": "story",
     "title": "The race I",
     "description": "The first leg of the race: Red Desert, Scarlet Rift, the Gluttonworm, and Ikesti territory. Solanum’s best physical showcase, and pure chase mechanics.",
@@ -1985,9 +1996,9 @@
     "revealed": false
   },
   {
-    "id": "s83-story-race-two",
+    "id": "s84-story-race-two",
     "book": 5,
-    "session": 83,
+    "session": 84,
     "lane": "story",
     "title": "The race II",
     "description": "The second leg: Formian hivelands, racing results, and the moment the tables turn. Decide in advance what losing a leg of the race actually costs.",
@@ -1996,9 +2007,9 @@
     "revealed": false
   },
   {
-    "id": "s84-story-mandibles",
+    "id": "s85-story-mandibles",
     "book": 5,
-    "session": 84,
+    "session": 85,
     "lane": "story",
     "title": "Boarding the Mandibles of Fate",
     "description": "Boarding the Mandibles of Fate: quarterdeck, main deck, forecastle, laboratory, rejuvenation centre, brig, hatchery, and bridge. An insect sky, and a hive ship.",
@@ -2007,9 +2018,9 @@
     "revealed": false
   },
   {
-    "id": "s84-solanum-mandibles",
+    "id": "s85-solanum-mandibles",
     "book": 5,
-    "session": 84,
+    "session": 85,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "One line about the name",
@@ -2018,9 +2029,9 @@
     "revealed": false
   },
   {
-    "id": "s85-story-free-jatembe",
+    "id": "s86-story-free-jatembe",
     "book": 5,
-    "session": 85,
+    "session": 86,
     "lane": "story",
     "title": "Free Jatembe",
     "description": "Free Jatembe, and the King of Biting Ants. Level 18, Jatembe’s aid offered without ceremony, and then the return.",
@@ -2029,9 +2040,9 @@
     "revealed": false
   },
   {
-    "id": "s85-solanum-archibald-gift",
+    "id": "s86-solanum-archibald-gift",
     "book": 5,
-    "session": 85,
+    "session": 86,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Dust or a frond for Archibald",
@@ -2040,31 +2051,31 @@
     "revealed": false
   },
   {
-    "id": "s85-taraan-jatembe-conversation",
+    "id": "s86-taraan-jatembe-conversation",
     "book": 5,
-    "session": 85,
+    "session": 86,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "The conversation",
-    "description": "The conversation. A quiet moment after the King falls, with Jatembe present and deflecting praise, and Taraan pressing the destruction story. As your power grows, you may be allowed to remember. But you will still not be allowed to tell.",
+    "description": "The conversation. A quiet moment after the King falls, with Jatembe present and deflecting praise, and Taraan pressing the destruction story. “As your power grows, you may be allowed to remember. But you will still not be allowed to tell.”",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s86-story-return",
+    "id": "s87-story-return",
     "book": 5,
-    "session": 86,
+    "session": 87,
     "lane": "story",
     "title": "Return to Golarion",
-    "description": "Return to Golarion, and the King’s contingency waiting for them. The bridge into Book 6 — let the win feel like a win before the floor drops.",
+    "description": "Return to Golarion, and the King’s contingency waiting for them.",
     "source": "p69",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s86-cy-an-empty-hands",
+    "id": "s87-cy-an-empty-hands",
     "book": 5,
-    "session": 86,
+    "session": 87,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Empty hands",
@@ -2073,13 +2084,13 @@
     "revealed": false
   },
   {
-    "id": "s86-yggostrus-cohort",
+    "id": "s87-yggostrus-cohort",
     "book": 5,
-    "session": 86,
+    "session": 87,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "“My cohort”",
-    "description": "Yggostrus says “my cohort” in the language of patronage. He would rather die than use the word friends, and the whole arc is in the substitution.",
+    "description": "Yggostrus says “my cohort” in the language of patronage. He would rather die than use the word friends.",
     "confidence": "projected",
     "revealed": false
   },
@@ -2094,9 +2105,9 @@
     "revealed": false
   },
   {
-    "id": "s87-story-renaming",
+    "id": "s88-story-renaming",
     "book": 6,
-    "session": 87,
+    "session": 88,
     "lane": "story",
     "title": "Return celebration and Magic Warrior renaming",
     "description": "The return celebration and the Magic Warrior renaming ceremony at the name obelisk. Jatembe names them; bead bracelets are given; the world forgets their old names. Koride and the original cohort are not there, and the wrongness sits in the room unacknowledged.",
@@ -2105,9 +2116,9 @@
     "revealed": false
   },
   {
-    "id": "s87-solanum-rename",
+    "id": "s88-solanum-rename",
     "book": 6,
-    "session": 87,
+    "session": 88,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Renamed as horizon or growth",
@@ -2116,9 +2127,9 @@
     "revealed": false
   },
   {
-    "id": "s87-taraan-shared-secret",
+    "id": "s88-taraan-shared-secret",
     "book": 6,
-    "session": 87,
+    "session": 88,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "A shared secret",
@@ -2127,9 +2138,9 @@
     "revealed": false
   },
   {
-    "id": "s88-story-luncheon",
+    "id": "s89-story-luncheon",
     "book": 6,
-    "session": 88,
+    "session": 89,
     "lane": "story",
     "title": "Luncheon influence",
     "description": "Luncheon influence across four rounds: Asanda, Father Heveril, Mpondo, and Umanja-jinga. A parade of everyone the cohort has helped, arriving at the moment they are least sure it counted.",
@@ -2138,9 +2149,9 @@
     "revealed": false
   },
   {
-    "id": "s89-story-the-barb",
+    "id": "s90-story-the-barb",
     "book": 6,
-    "session": 89,
+    "session": 90,
     "lane": "story",
     "title": "The Barb",
     "description": "Cohort members are acting oddly and running Koride’s insect research. The Barb takes the cohort through the venom pool, Ignaci’s room, the research library, and void portals — all while familiar faces are quietly hollowed out.",
@@ -2149,20 +2160,20 @@
     "revealed": false
   },
   {
-    "id": "s89-lithrei-unshadowed-cohort",
+    "id": "s90-lithrei-unshadowed-cohort",
     "book": 6,
-    "session": 89,
+    "session": 90,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "The Unshadowed cohort",
-    "description": "The Unshadowed cohort: hollowed Okoro, Mariama, Anchor Root, and Haibram. Six books of learning what to do with a spirit that will not rest, and now his friends are the ones who will not rest.",
+    "description": "The Unshadowed cohort: hollowed Okoro, Mariama, Anchor Root, and Haibram. His friends are the ones who will not rest.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s90-story-protea-pavilion",
+    "id": "s91-story-protea-pavilion",
     "book": 6,
-    "session": 90,
+    "session": 91,
     "lane": "story",
     "title": "Protea Pavilion lower",
     "description": "The Protea Pavilion lower floors: lignified guardians, the Dolorous Tree, a courtyard, Ta’apundo, storage, and a garden portal. The pavilion has been relocated into overgrown hedges.",
@@ -2171,9 +2182,9 @@
     "revealed": false
   },
   {
-    "id": "s91-story-unshadowed-koride",
+    "id": "s92-story-unshadowed-koride",
     "book": 6,
-    "session": 91,
+    "session": 92,
     "lane": "story",
     "title": "Unshadowed Koride",
     "description": "Unshadowed Koride: the true Koride fighting from inside a hollowed shell. The egg fractures and shrinks the party. Level 19.",
@@ -2182,9 +2193,9 @@
     "revealed": false
   },
   {
-    "id": "s91-yggostrus-parley",
+    "id": "s92-yggostrus-parley",
     "book": 6,
-    "session": 91,
+    "session": 92,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "He speaks first",
@@ -2193,9 +2204,9 @@
     "revealed": false
   },
   {
-    "id": "s92-story-endless-table",
+    "id": "s93-story-endless-table",
     "book": 6,
-    "session": 92,
+    "session": 93,
     "lane": "story",
     "title": "The Endless Table — cottage and upper camp",
     "description": "The Endless Table: a cottage and an upper camp, ant patrols, Adanyini the kitten, clockwork hazards, the Drum, and the Ash Desert. A deliberate fable register after five books of escalation.",
@@ -2204,9 +2215,9 @@
     "revealed": false
   },
   {
-    "id": "s93-story-red-ant-court",
+    "id": "s94-story-red-ant-court",
     "book": 6,
-    "session": 93,
+    "session": 94,
     "lane": "story",
     "title": "Red ant court",
     "description": "The red ant court: a viewing box, a shadow crowd, the Dancing Regent, and red commander ants, then the Gourd Fortress, an acid lake, and a Tarn Linnorm. The red queen wants to marry the returning King; play it absurd and sad.",
@@ -2215,9 +2226,9 @@
     "revealed": false
   },
   {
-    "id": "s94-story-vesicant-egg",
+    "id": "s95-story-vesicant-egg",
     "book": 6,
-    "session": 94,
+    "session": 95,
     "lane": "story",
     "title": "Four shadow fragments and the Vesicant Egg",
     "description": "Four shadow fragments recovered, Hlakana the norn, and the claiming of the Vesicant Egg. The party is restored to normal size and reaches level 20.",
@@ -2226,9 +2237,9 @@
     "revealed": false
   },
   {
-    "id": "s94-lithrei-choice",
+    "id": "s95-lithrei-choice",
     "book": 6,
-    "session": 94,
+    "session": 95,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Rest, integrate, or witness",
@@ -2237,9 +2248,9 @@
     "revealed": false
   },
   {
-    "id": "s95-story-larva",
+    "id": "s96-story-larva",
     "book": 6,
-    "session": 95,
+    "session": 96,
     "lane": "story",
     "title": "The larva erupts",
     "description": "The larva erupts and the campaign goes into disaster mode: Tahenkot’s class stranded on the acid island, the Osirian diplomats needing shelter, Xhokan’s Powderpile, rooftops, and a tower coming down.",
@@ -2248,9 +2259,9 @@
     "revealed": false
   },
   {
-    "id": "s95-cy-an-system",
+    "id": "s96-cy-an-system",
     "book": 6,
-    "session": 95,
+    "session": 96,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Build the system",
@@ -2259,9 +2270,9 @@
     "revealed": false
   },
   {
-    "id": "s96-story-circle-ritual",
+    "id": "s97-story-circle-ritual",
     "book": 6,
-    "session": 96,
+    "session": 97,
     "lane": "story",
     "title": "The Circle ritual",
     "description": "The Circle ritual: Koride contrite, Jatembe leading, allies gathering at the Ten Magic Warrior statues, and waves of wereants and swarms while the cohort guards the ritual itself.",
@@ -2270,20 +2281,20 @@
     "revealed": false
   },
   {
-    "id": "s96-lithrei-noxolo",
+    "id": "s97-lithrei-noxolo",
     "book": 6,
-    "session": 96,
+    "session": 97,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
-    "title": "Noxolo's payoff",
-    "description": "Noxolo’s payoff: she coordinates at the Magic Warrior statues, and years of a quiet friendship become literal logistics at the exact moment the school needs them.",
+    "title": "Noxolo at the statues",
+    "description": "Noxolo coordinates at the Magic Warrior statues, and years of a quiet friendship become literal logistics at the exact moment the school needs them.",
     "confidence": "projected",
     "revealed": false
   },
   {
-    "id": "s97-story-mind-of-the-king",
+    "id": "s98-story-mind-of-the-king",
     "book": 6,
-    "session": 97,
+    "session": 98,
     "lane": "story",
     "title": "Mind of the King",
     "description": "The Mind of the King in three aspects, Slana hatching as the Vesicant Guardian, and an epilogue. The campaign ends where it began: at a school that keeps asking what you teach now.",
@@ -2292,9 +2303,9 @@
     "revealed": false
   },
   {
-    "id": "s97-cy-an-rename",
+    "id": "s98-cy-an-rename",
     "book": 6,
-    "session": 97,
+    "session": 98,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Rest, guest as well as host",
@@ -2303,9 +2314,9 @@
     "revealed": false
   },
   {
-    "id": "s97-solanum-coda",
+    "id": "s98-solanum-coda",
     "book": 6,
-    "session": 97,
+    "session": 98,
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "The Whispering Word docks",
@@ -2314,9 +2325,9 @@
     "revealed": false
   },
   {
-    "id": "s97-yggostrus-rename",
+    "id": "s98-yggostrus-rename",
     "book": 6,
-    "session": 97,
+    "session": 98,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Renamed as keeper, not owner",
