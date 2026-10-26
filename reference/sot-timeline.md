@@ -73,7 +73,7 @@ Levels above follow each module's **printed advancement track** (B1 end 4, B2 en
 | 4 | B1 Ch1 | Bonding Meal + day 4 (Emerald mail, full sandbox) | Sep 2026 |
 | 5 | B1 Ch1 | Day 5 (Uzunjati) + Introduction Ceremony ambush + interrogation | Oct 2026 |
 | 6 | B1 Ch2 | One full Study block, implements, all four classmate favors, Cricket Theft | Oct 2026 |
-| 7 | B1 Ch2 | Ot's reading list + the stump library — scrits, a long fight, roughly half the rooms searched | Oct 2026 |
+| 7 | B1 Ch2 | Ot's reading list + the stump library — scrits, silverfish, B2–B6 searched; no debrief | Oct 2026 |
 | 8 | B1 Ch2 | *Next:* finish the stump library, then Monochrome Murmurs | — |
 
 ### Calibration
@@ -81,7 +81,8 @@ Levels above follow each module's **printed advancement track** (B1 end 4, B2 en
 - **Book 1 Chapter 1 — 20 module pages — took 5 sessions.** One Perquisite day per session, plus arrival, plus the ceremony. Hardest data point available; use as base rate.
 - **One scene cluster per session.** A service day, a teacher errand, an investigation site, a dungeon level, or one social sandbox evening. Two small clusters fit only when neither is combat.
 - **Combat is cheap; investigation is expensive.** Session 2 spent a night on a barn then most of the same night on player-driven tunnels. Session 4 spent a whole evening on mail delivery because the table talks.
-- **A dungeon with a fight in it is two sessions (new, S7).** The stump library was scoped as one night — eight rooms, a short scrit fight, five fixed books. The scrits ran long, the table fought instead of searched, and the night ended with roughly half the rooms done and no player beats. Plan **two nights for any site whose first room is a combat**; split exploration and fight rather than assuming the fight is a five-minute tax.
+- **A dungeon with a fight in it is two sessions (S7, reconfirmed).** The stump library was scoped as one night — eight rooms, a short scrit fight, five fixed books. Two combats plus five rooms of searching finished the building but not the errand: the last two rooms and the debrief went to S8. Plan **two nights for any site whose first room is a combat**; split exploration and fight rather than assuming the fight is a five-minute tax.
+- **Ordered searching is cheap (S7).** B2–B6 took under an hour once the table agreed on numeric order. The combats were the cost, not the exploration.
 - **~2 sessions per month observed** (Jun–Oct 2026: sessions 1–7). Used only for the rough calendar column.
 - **Six RP-heavy players.** Add 30–50% against "module as written"; sandbox chapters compress less than expected because the table investigates.
 
@@ -137,7 +138,7 @@ Calendar and rank projections — not beat rows, so this stays here. Session num
 
 ## Played so far — what the backdated record buys us
 
-Sessions 0–6 are fully seeded, and S7 seeded Ot's errand without landing any PC beats. Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. The only PC with nothing seeded is Anya (two straight absences), and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride.
+Sessions 0–7 are played. S7 added Solanum's first kill and the skull bead; Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. The only PC with nothing seeded is Anya (two straight absences), and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride.
 
 Session 7 is a **partial** session: the stump library's first half ran and no player beats landed. Everything from Monochrome Murmurs onward slid one session; the five library player beats moved to S8 intact.
 

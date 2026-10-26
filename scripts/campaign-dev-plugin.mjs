@@ -126,11 +126,21 @@ function serveStaticFile(res, filePath) {
     })
 }
 
+const importQueryRE = /(\?|&)import=?(?:&|$)/
+const internalPrefixRE = /^\/(?:@fs|@id|@vite|@react-refresh|vite)\//
+
 function mountStatic(server, urlPrefix, dir) {
   server.middlewares.use(
     urlPrefix,
     wrapAsync(async (req, res, next) => {
       if (req.method !== 'GET' && req.method !== 'HEAD') {
+        next()
+        return
+      }
+
+      // Vite module imports (e.g. `import catalog from '../../data/spire-students.json'`)
+      // must reach Vite's transform middleware, not be served as raw JSON.
+      if (importQueryRE.test(req.url) || internalPrefixRE.test(req.url)) {
         next()
         return
       }

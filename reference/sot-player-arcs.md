@@ -17,12 +17,12 @@ Source of truth for the plots themselves is still `lessons/0009-player-tie-ins-g
 |---|---|---|
 | **Anya** | The wild that enrolled | **Undeveloped.** Two absences, no branch, no Study result, no implement. Bookkeeping is a few minutes at the table; the actual need is table-time with the cohort before S14. |
 | **Cy'An** | Provider-as-identity | On track. Wound named in S1, Ot's lesson in S2, Bonding Meal in S4. Needs an empty-shift. |
-| **Solanum** | Small life, large sky | On track. Glider in S2, chart talk available, red-star omen already at the table from Lithrei. Needs Lesedi. |
-| **Yggostrus** | The sealed dragon | Behind on Koride. Phase 0 transactional visible in S1–S2; no warm Koride contact yet — the planned S7 beat did not land. |
+| **Solanum** | Small life, large sky | On track. Glider in S2, chart talk available, red-star omen already at the table from Lithrei. S7 landed her first kill and the skull bead — the violence she did not want. Needs Lesedi. |
+| **Yggostrus** | The sealed dragon | Behind on Koride. Phase 0 transactional visible in S1–S2; S7 gave him the horde speech to Solanum but no warm Koride contact. |
 | **Lithrei** | The unfinished student | On track. Noxolo warmth in S5, Pharasma study ongoing, red-star omen in S2. Needs Ahassunu. |
 | **Taraan** | Ird / Inscribed One / flight | On track. Flight hunger and monument ethics both visible; no Ird echo yet. Needs an archive aside at S10. |
 
-**S7 was a partial session.** The stump library's front half ran and the scrit fight ate the night; none of the five library player beats landed. They are re-scheduled to S8 with the rooms they belong to — nothing was lost, only displaced.
+**S7 was a partial session.** Two fights ran and B2–B6 were searched, but the last two rooms and the debrief did not happen. Four of the five library player beats — Cy'An's hinge, Lithrei's research reframe, Taraan's structural read and Ird aside, Yggostrus's warm Koride contact — are re-scheduled to S8, where the rooms and the walk back belong. Solanum's reading-nook beat was **cut**: the nook was searched in S7, and the Study reframe belongs to S8's debrief rather than to a room nobody will revisit. Her S7 moment is the kill instead.
 
 ## Dependency contract
 

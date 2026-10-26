@@ -15,11 +15,11 @@ Living campaign bookmark for writing the next **Sessions** GM prep lesson. Updat
 | Field | Value |
 |-------|--------|
 | **Book** | 1 — *Kindled Magic* |
-| **Chapter** | 2 — *First of Many*. First Study rolled in Session 6. Teacher errands underway: Ot's stump library is half explored |
+| **Chapter** | 2 — *First of Many*. First Study rolled in Session 6. Teacher errands underway: Ot's stump library is searched but not turned in |
 | **Level** | 2 |
 | **Calendar** | After the first Study block (the book’s “first few months” of class, from Arodus 4721). Next Study waits until two teacher errands have run |
-| **Last played** | Session 7 (Ot's reading list; roughly half the stump library; transcript still to come) |
-| **Next prep** | Session 8 — finish the stump and return to Ot: `lessons/0021-session-8-prep.html`. Monochrome Murmurs is S9 |
+| **Last played** | Session 7 (the stump library: two fights, rooms B2–B6 searched, no debrief) |
+| **Next prep** | Session 8 — B7/B8, then return to Ot: `lessons/0021-session-8-prep.html`. Monochrome Murmurs is S9 |
 
 ## Perquisite checklist (Book 1 Ch 1)
 
@@ -116,7 +116,7 @@ Then: Session 6 rolled the first Study (and touched Koride). Remaining Chapter 2
 - **First PF2e combat** vs Umbo. Initiative: Lithrei 24, Cy’An 23, Yggostrus 19, Solanum 15, Anya 6. Lithrei used Intimidation; Cy’An named **MODU** (Mobile Oven Defense Unit); Solanum tried Administer First Aid on dying Umbo (failed). Umbo killed by coup de grâce (spore-burst concern); **skull-shaped Perquisite bead** on Yggostrus’s bracelet. Solanum distressed about myceloid death (leshy solidarity).
 - **Oils gathering**: caterpillars (gloves); lucky bones from butcher (Anya Intimidation); purple pox treated at campus first aid (Anya and Yggostrus cured). Wolf fang talisman loot.
 - **Fey-abeyance**: all three oils crafted with group Aid; Chizire never needed. Lithrei gave Anchor a caterpillar-plant cutting → **Rain-Scribe classroom advantage** (crit fail → fail on Rain-Scribe Study). **Fey-abeyance ritual** on cold-iron bells succeeded (Yggostrus primary Nature). Mariama: ward affects **any fey**, not just gremlins — party will tell **Teacher Ot**. Mariama lives in Spire Dorm (revealed).
-- **Aftermath free time**: Lithrei Occultism on **Noxolo** — sense of ambient darkness; **Koride Ulawa** named as Rain-Scribe teacher. Yggostrus apologized to Anchor: personal forgiveness (“we’re fine”) but **“on behalf of my people, apology not accepted”** — repair through action (“pick up a shovel”). Cy’An keeping wolf fang for Anya gift. Taraan continued tunnel mapping (confusing network).
+- **Aftermath free time**: Lithrei Occultism on **Noxolo** — sense of ambient darkness; **Koride Ulawa** named as Rain-Scribe teacher. Yggostrus apologized to Anchor: personal forgiveness (“we’re fine”) but **“on behalf of my people, apology not accepted”** — repair through action (“pick up a shovel”). Cy’An keeping wolf fang for Anya gift. Lithrei explored the tunnels near the dorm (confusing network). **Taraan was absent** — an earlier note crediting him with ritual and tunnel work this session was wrong.
 
 **Not covered (still ahead)**
 
@@ -202,27 +202,30 @@ Then: Session 6 rolled the first Study (and touched Koride). Remaining Chapter 2
 
 **Covered**
 
-- **Takulu's reading list opened.** Ot briefed the cohort in the Heron Archives and handed over the five-book list and the stump-library lead.
-- **The tree-stump library, front half.** The party reached the stump, dealt with the bells at the door, and fought the scrits. The fight ran long — it ate most of the night — and the table stopped roughly halfway through the building.
-- Roughly half the rooms were searched. Ot's books are partially accounted for; the rest of the stump is unsearched.
+- **Takulu's reading list opened.** Ot briefed the cohort in his office and handed over the five-book list and the stump-library lead, admitting he did not know why the conversion was abandoned. Nobody on campus does.
+- **The tree-stump library.** Bells ripped off the door, ink on the vines, four scrits asleep on the shelves. The table tried a synchronized nonlethal takedown; Solanum tripped over a desk before it started.
+- **Two fights back to back.** The scrits first — one killed outright by Solanum, one downed, one fled into B5 — then a swarm and three giant silverfish out of B3 and B5. Lithrei was sickened; the swarm was splattered.
+- **Rooms searched, in numeric order:** B2 (organization station — Mata Digemari's field notes are a chest, plus the inventory scroll and a gold key worth 35 gp), B3 (the create undead research notes, someone's abandoned thesis on "good uses for evil spells"), B4 (beds; *Worlds Between Worlds* 1, 3, 4, 5, 6 and a *bracelet of dashing* under the falling stacks), B5 (furniture; nothing, and the third scrit's burrow hole), B6 (the reading nook — both Birds and Drakes and the Lesser-Known Peoples, a partial map of Bloodsalt, an *animal staff*).
+- **Only the last two rooms and the debrief left.** B7 wasp nest and B8 supplies were never opened; nobody has reported to Ot.
 
 **Not covered (still ahead)**
 
-- The back half of the stump: bed storage, the reading nook, the wasp nest, the supply room, and whichever optional rooms they skipped.
-- The return to Ot and the XP/GP accounting for what they brought back.
-- **All five library player beats.** None landed — not Cy'An's hinge, Lithrei's research reframe, Solanum's reading nook, Taraan's bell garland, or Yggostrus's warm Koride contact.
+- B7 (the wasp nest, and the *Treatise* that cannot be recovered) and B8 (supplies).
+- The return to Ot: XP, GP, the damaged books, the chest, the *create undead* scroll he will pay 50 gp for and dislike.
+- **Four of the five library player beats.** Cy'An's hinge, Lithrei's research reframe, Taraan's structural read and Ird aside, and Yggostrus's warm Koride contact all slipped to S8.
 
 **Table pace note**
 
-- **New calibration point: a dungeon whose first room is a fight is two nights, not one.** The stump was scoped as a single session — eight rooms, a small scrit skirmish, five fixed book locations. The skirmish did not stay small, and the table chose combat over searching. Do not stack an exploration site behind a fight again without budgeting two sessions for it.
-- Because the player beats are tied to specific rooms (the nook, the beds, the bells), they could not land before the rooms did. They are not lost, only delayed — they move to S8 with the rooms.
+- **Reconfirmed: a dungeon with a fight in it is two nights.** The stump was scoped as one night. Two combats plus five rooms of searching finished the building but not the errand, and the night ended with the walk back unplayed.
+- **Searching is fast when the table commits to order.** Rooms B2–B6 took under an hour because Cy'An called numeric order and nobody re-litigated it. The combats, not the exploration, were the cost.
 
 **NPC relationship seeds planted**
 
 | NPC | Who connected | Note |
 |-----|---------------|------|
-| Takulu Ot | Whole cohort | Briefing only so far. The gratitude beat waits for the return with damaged books. |
-| Scrits | Whole cohort | Fought, not befriended. If any survived, they fled — do not let them be adopted. |
+| Takulu Ot | Whole cohort | Briefing only. The gratitude beat still waits for the return with damaged books. |
+| Scrits | Whole cohort | Fought; two downed and bagged for Lampy's house, one killed, one fled down a burrow. Do not let them be adopted. |
+| Yggostrus / Solanum | Each other | The horde speech. Solanum asked him how many leshy he had killed. She is keeping count. |
 
 ## Pace model (revisable)
 
@@ -233,8 +236,8 @@ Derived from Sessions 1–5 + book density:
 | Session 4 (**done**) | Emerald mail end-to-end. Uzunjati not opened. |
 | Session 5 (**done**) | Uzunjati + ceremony fight + interrogation. Stopped as Ot arrived. Level 2 handed out. Study not rolled. |
 | Session 6 (**done**) | Entire session was academia downtime: first Study, then all four classmate favors (Surprise, Rules Mastery, Lofty Leap, Lost Chicken). Cricket theft became a trade with Koride. No teacher errand opened. |
-| Session 7 (**done, partial**) | Ot's reading list and the stump library's front half. The scrit fight ate the night; roughly half the rooms were searched and **no player beats landed**. Ended mid-exploration. |
-| **Session 8 (next)** | Finish the stump (beds, reading nook, wasp nest, whatever else) and return to Ot. The five S7 player beats are owed here. Do not open Zuma unless the night runs short. |
+| Session 7 (**done, partial**) | Ot's reading list and the stump library. Two fights (scrits, then silverfish) and rooms B2–B6 searched; the errand is not turned in. Only Solanum's player beat landed. |
+| **Session 8 (next)** | B7 wasp nest, B8 supplies, then the return to Ot. Four S7 player beats are owed here. Do not open Zuma unless the night runs short. |
 | Session 9 (forecast) | **Monochrome Murmurs** (Zuma), then the Study block. |
 
 ### Chapter 2 order
@@ -243,8 +246,8 @@ Table decision after Session 6. Four teacher errands from *Kindled Magic* “Mee
 
 | # | Beat | Planned session |
 |---|------|-----------------|
-| 1 | **Takulu’s reading list** (stump library) — front half | S7 (played) |
-| 1b | **Takulu’s reading list** — back half + return to Ot | S8 |
+| 1 | **Takulu’s reading list** (stump library) — briefing, both fights, B2–B6 | S7 (played) |
+| 1b | **Takulu’s reading list** — B7 wasp nest, B8 supplies, return to Ot | S8 |
 | 2 | **Monochrome Murmurs** (Teacher Zuma) | S9 |
 | 3 | **Study** downtime | S10 |
 | 4 | **Bug Problems** (Koride) | S11 |
@@ -254,7 +257,7 @@ Table decision after Session 6. Four teacher errands from *Kindled Magic* “Mee
 
 That is two more Study blocks after the one already rolled, which sits inside the book’s “a second, and perhaps a third.” No fourth Study before the masking. Each errand is its own night at this table’s pace unless a night actually runs short.
 
-**The stump library is now a two-night errand.** S7 ran the approach, Ot's briefing, and the scrit fight, and stopped roughly halfway through the rooms. S8 finishes it and carries the five library player beats that never landed. Treat the errand as one beat for pacing purposes but two nights for scheduling.
+**The stump library is a two-night errand.** S7 ran the briefing, the approach, the scrit fight, the silverfish fight, and the search of B2–B6. S8 opens B7 and B8, then does the debrief, and carries the four library player beats that never landed. Treat the errand as one beat for pacing purposes but two nights for scheduling.
 
 ## Player tie-in drip (Book 1 early — still open)
 
@@ -264,8 +267,8 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 |----|----------------------------|--------------------------------|
 | Anya | Missed Session 5 entirely; wolf-fang gift still loose | Belonging beat when she chooses a branch; **Anchor** via Lost Chicken if a night has time. Eidolon origin later |
 | Cy’An | Rolling pin declared; Lumusi kept the brownie recipe; Kurshkin enrollment offer parked | Deepen **Lumusi** later; don’t re-run provider takeover or enroll Kurshkin |
-| Solanum | Glider plans delivered; Umbo “hope he is feeling better” is her version | **Lesedi** still later; don’t correct Umbo during Study |
-| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** warm contact is owed at Session 8 — it sits in the stump's back half and never landed in Session 7. Do not pull Bug Problems forward |
+| Solanum | First kill and a skull bead in S7; the horde speech and the leshy question with Yggostrus are live | **Lesedi** still later; don’t correct Umbo during Study |
+| Yggostrus | Present Session 5; eidolon shared-damage learned; shovel repair still open | **Koride** warm contact is owed at Session 8 — land it in the debrief, not in Bug Problems. Do not pull Bug Problems forward |
 | Lithrei | Noxolo group warmth landed; Pharasma temple study ongoing | Don’t restage Noxolo; **Ahassunu** still later |
 | Taraan | Okoro debuted on story morning; ledger crit on Uduak timeline | **Okoro** game only as stretch; **Izem** still later. Do not confirm Stone Ghost |
 
@@ -277,6 +280,6 @@ Only beats that fit **current** chapter. Full plots: `lessons/0009-player-tie-in
 - `transcripts/strength-of-thousands/session-03/edited.json`
 - `transcripts/strength-of-thousands/session-04/edited.json`
 - `transcripts/strength-of-thousands/session-05/edited.json`
-- `transcripts/strength-of-thousands/session-06/edited.json` (unreviewed)
-- `transcripts/strength-of-thousands/session-07/edited.json` (pending)
+- `transcripts/strength-of-thousands/session-06/edited.json`
+- `transcripts/strength-of-thousands/session-07/edited.json`
 - `lessons/0001-kindled-magic-gm-prep.html`, `0020-session-7-prep.html`, `0021-session-8-prep.html`, `0009-player-tie-ins-gm-prep.html`

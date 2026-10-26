@@ -5,7 +5,7 @@
     "session": null,
     "lane": "book",
     "title": "Book 1 — Kindled Magic",
-    "description": "The first year at the Magaambya. The cohort arrives as initiates, learns a branch, and leaves the year as attendants — still students, but no longer strangers to the school.",
+    "description": "The first year at the Magaambya.",
     "confidence": "played",
     "revealed": true
   },
@@ -15,7 +15,7 @@
     "session": 0,
     "lane": "story",
     "title": "Session zero — the campaign frame",
-    "description": "Before the first bell: the pitch, the six chosen characters, how branches and ranks work, what the Magaambya asks of the people it teaches, and why the six of them are a cohort rather than six strangers who happen to share a dorm.",
+    "description": "Before the first bell: the pitch, the six characters, the five branches as majors rather than houses, and the school's opinion that magic is a debt owed to other people. Nobody rolled anything yet.",
     "confidence": "played",
     "revealed": true
   },
@@ -25,7 +25,7 @@
     "session": 1,
     "lane": "story",
     "title": "Arrival and Welcome Walk",
-    "description": "Their first day. Ot interviews them in a group and sets the aptitude tests that will decide whether they belong, the Spire Dorm tour introduces the people they will live beside, Xhokan explains the stipend and the free dining hall, and the first Perquisite day sends them off to the Rain-Scribes and a market full of chicks.",
+    "description": "Their first day. Ot met them in a garden gazebo and asked each of them who they were, what they wanted, and what they meant to do once they had it, then set four tests with no failing grade — light a candle in the rain, take a feather from a quail without plucking one, soothe the spirit in a femur, make a stone dance — and closed by letting each of them pick a symbol and keep the cantrip it carried. Then the tour: Esi, the student who ran the dorm, walked them through the Spire; Chizire, the catfolk who lives there, jumped forty feet onto the roof and invited everyone up after him; Xhokan, the kobold quartermaster of the student supply store, paid out a forty-gold stipend and collected a clay bead from each of them in return. The first day of the Perquisite — five days of community service, one per branch — sent the cohort to the Rain-Scribes and out to a wandering market to buy rare chickens.",
     "source": "p8–19",
     "confidence": "played",
     "revealed": true
@@ -37,7 +37,7 @@
     "lane": "player",
     "heroSlug": "anya",
     "title": "Greater connection to the bond",
-    "description": "Asked what she wants from the school, Anya does not say a branch or a rank. She tells Ot she wants a deeper connection to the creature that accompanies her, and to the wild places it came from.",
+    "description": "Asked what she wanted from the school, Anya did not name a branch or a rank. The feral summoner said she wanted a greater connection to the magic that ties her to her eidolon — the enormous cat that has been with her since she was a child alone in the forest — and to the nature around it.",
     "confidence": "played",
     "revealed": true
   },
@@ -47,8 +47,8 @@
     "session": 1,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
-    "title": "“I will provide”",
-    "description": "The stipend arrives and leaves the same day, sent home in full. Cy’An does not consider this a sacrifice worth mentioning, which is exactly why it is worth noticing: to them, having money and not giving it away has never been an option.",
+    "title": "Three-quarters of it, sent home",
+    "description": "The Magaambya pays its students rather than charging them, and Cy'An's forty-gold stipend arrived and went home the same day. Asked how much of it they could allocate to their family, they answered three-quarters without hesitating, then treated the arithmetic as obvious.",
     "confidence": "played",
     "revealed": true
   },
@@ -58,8 +58,8 @@
     "session": 1,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
-    "title": "The quiet investigator",
-    "description": "Lithrei spends his first day watching. He does not volunteer, does not perform, and then asks the one question nobody else in the room had thought to ask — establishing, quietly, that his method is patience rather than speed.",
+    "title": "He asks the bone first",
+    "description": "Ot handed out a small femur for the third test and asked them to soothe the soul in it. Lithrei put a hand on the bone, sensed something still present, and asked the spirit whether it wanted the funeral rite before reading it aloud so the whole gazebo could hear.",
     "confidence": "played",
     "revealed": true
   },
@@ -69,19 +69,19 @@
     "session": 1,
     "lane": "player",
     "heroSlug": "solanum-calabash",
-    "title": "A tomato for Ot and the astrologer's tent",
-    "description": "A leshy who grew up in a ship’s kitchen arrives at a school of magic carrying a tomato for the teacher. Later, at the Kafesi market, she finds the astrologer’s tent, and for the first time in her life someone reads her charts as though they were worth reading.",
+    "title": "A tomato for Ot, and the astrologer's tent",
+    "description": "Solanum handed Ot a tomato off her own arm and told him her life had been rather small. At the market that afternoon she found the astrologer's tent and described the red star she had seen over the dorm roof the night before; the impossibly old woman there jerked upright and said \"the gateway opens,\" then went back to selling tourists hokum.",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s1-taraan-oldest-obelisks",
+    "id": "s1-taraan-broom-and-chicks",
     "book": 1,
     "session": 1,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "Which obelisks are oldest?",
-    "description": "Walking the campus for the first time, Taraan asks which of the obelisks are oldest. He also keeps looking up.",
+    "title": "Mucking out a stall for a chicken",
+    "description": "The Rain-Scribe errand was five rare Ojofiri chicks from the Kafesi Market, and the market wanders, so Taraan found it by knowing the handful of places it sets up. Makena wanted four gold a bird; he talked her down and then earned the last one by summoning an animated broom and cleaning out her stall, and paid three gold of his own for the fifth chick.",
     "confidence": "played",
     "revealed": true
   },
@@ -91,8 +91,8 @@
     "session": 1,
     "lane": "player",
     "heroSlug": "yggostrus",
-    "title": "The transactional line, seen by Esi",
-    "description": "Yggostrus tells Esi, plainly, that she has a use for him right now. It is not said cruelly — it is simply the only way he knows to describe a relationship — and Esi hears the shape of it.",
+    "title": "Use for me right now",
+    "description": "On the walk to the market, Yggostrus explained to Taraan why he was helping: Taraan had a use for him, so it was in his own best interest to make the trip worthwhile. It was not said cruelly. It was the only way he had of describing a relationship, and Taraan heard it plainly.",
     "confidence": "played",
     "revealed": true
   },
@@ -102,7 +102,7 @@
     "session": 2,
     "lane": "story",
     "title": "Day 2 — Tempest-Sun",
-    "description": "Day two takes them to the Tempest-Sun Mages, where pugwampis have taken over a storage barn. The cohort clears it without killing anything, learns from the records that Uduak was once expelled, and finds tunnels under both the barn and their own dorm. Anchor Root arrives on campus that same day.",
+    "description": "The second Perquisite day, with the Tempest-Sun Mages: six pugwampis had taken over a storage barn, and the cohort cleared it without a death. Anya intimidated three of them down a hole by picking up a jar none of them could have lifted and breaking it at her feet, Anchor Root ordered the rest after them, and the barn turned out to sit on tunnels that ran under the Spire Dorm as well. The next morning Ot named the earth mage who could have dug them — Uduak, expelled years ago — and kept Cy'An back afterward to tell them that tests do not eat.",
     "source": "p20–22",
     "confidence": "played",
     "revealed": true
@@ -113,8 +113,8 @@
     "session": 2,
     "lane": "player",
     "heroSlug": "anya",
-    "title": "The eidolon earns its keep",
-    "description": "Anya climbs for mushrooms, breaks a jar she probably should not have broken, and helps drive the pugwampis down into the tunnels by being, simply, more alarming than they were. Her companion is useful for the first time in front of witnesses.",
+    "title": "The jar",
+    "description": "Anya did not need the eidolon for this one. In the storage barn she picked up a jar far larger than the pugwampis could lift, broke it at her feet exactly the way they had been breaking theirs, and three of them bolted for a loose floor tile.",
     "confidence": "played",
     "revealed": true
   },
@@ -124,8 +124,8 @@
     "session": 2,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
-    "title": "Ot's aside: “tests do not eat”",
-    "description": "After the day’s tests, Ot stops Cy’An to say something small: that the tests do not eat, meaning the school’s judgement is not a mouth to feed. It is the first quiet crack in the idea that being useful is the same thing as being welcome.",
+    "title": "Ot's aside: \"tests do not eat\"",
+    "description": "Ot kept Cy'An back after the day's tests to say one thing: the tests do not eat. Feeding a friend who was struggling had been feeding the test, and helping was not always help. Cy'An accepted the point and asked for a stress bake.",
     "confidence": "played",
     "revealed": true
   },
@@ -135,8 +135,8 @@
     "session": 2,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
-    "title": "The red-star and gateway omen",
-    "description": "Lithrei researches the red-star and gateway omen he has been carrying, and finds enough to take it seriously.",
+    "title": "Four incompatible omens",
+    "description": "Lithrei took Solanum's red star to the library and came back with four explanations that did not agree — bad omen, comet, another red world, a spell that briefly changes the sky — and the strong sense that whatever it was, it was dangerous.",
     "confidence": "played",
     "revealed": true
   },
@@ -147,7 +147,7 @@
     "lane": "player",
     "heroSlug": "solanum-calabash",
     "title": "Haibram's glider",
-    "description": "Haibram lets her fly his glider, and she does. Afterward he promises her the formula. The sky she has been reading off charts her whole life becomes something she has actually touched.",
+    "description": "Haibram, the Rain-Scribe candidate with the paper-winged contraption, unstrapped his glider on the dorm roof and handed it to a leshy who told him plants were meant to stay on the ground. \"Who says?\" he asked, and she had no answer, so she flew. Afterward he offered her the formula.",
     "confidence": "played",
     "revealed": true
   },
@@ -157,8 +157,8 @@
     "session": 2,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "Maps the tunnels with Erudite",
-    "description": "Taraan and Erudite map the tunnels beneath the barn and the dorm. He reads them as a structure rather than a monument.",
+    "title": "Erudite maps the tunnels",
+    "description": "Taraan sent Erudite, his familiar, down overnight to map the tunnels under the barn and the dorm. It came back with something that read like an ant colony — crossings, chambers, no surface exits beyond the barn hatch and the dorm passage, and one excavated room with a card table in it.",
     "confidence": "played",
     "revealed": true
   },
@@ -169,7 +169,7 @@
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Friction with Anchor Root",
-    "description": "Yggostrus and Anchor Root do not get along, and the friction is visible to everyone.",
+    "description": "Anchor Root explained Kholo funerary rites to Yggostrus — the ritual cannibalism, the bones kept as tools and records — and he asked her why Gnolls acted so uncivilized. She told him that \"Gnoll\" is considered racist and that they prefer Kholo, that they do not consider it uncivilized at all, gathered herself, and answered him as a matter of professional duty. The trust did not come back.",
     "confidence": "played",
     "revealed": true
   },
@@ -179,7 +179,7 @@
     "session": 3,
     "lane": "story",
     "title": "Day 3 — Cascade Bearers",
-    "description": "Day three, with the Cascade Bearers. Mariama briefs them, hands them three oils and sends them into a fey-abeyance ritual that ends in a fight with Umbo, an outbreak of purple pox, and a ward the cohort helps cast.",
+    "description": "The third Perquisite day, with the Cascade Bearers. Mariama set an eight-hour clock and three oils to render — lucky bones, scarlet-cap mushrooms from a treetop, and caterpillars Anchor Root thought of as pets — and the mushroom run put a myceloid called Umbo in front of them. The cohort subdued it and caught purple pox off its spores. Yggo secretly dealt Umbo a death blow when the party wasn't looking, and a small but heavy bead in the shape of a skull appeared on his cord. The rest of the day went to a butcher's bones, a caterpillar hunt, and a cold-iron bell ritual that Yggostrus carried; afterward Mariama told them the ward worked on any fey, not just the pugwampis.",
     "source": "p23–25",
     "confidence": "played",
     "revealed": true
@@ -191,18 +191,18 @@
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "MODU is named",
-    "description": "Cy’An names the Mobile Oven Defense Unit, or MODU, and the room immediately understands what it is for.",
+    "description": "Cy'An named their toaster construct Mobile Oven Defense Unit in the middle of the fight with Umbo, the myceloid, then had to explain to Lithrei that MODU was the toaster and Umbo was the mushroom.",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s3-lithrei-caterpillar",
+    "id": "s3-lithrei-cutting",
     "book": 1,
     "session": 3,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
-    "title": "The caterpillar gift",
-    "description": "Lithrei buys a caterpillar as a gift, and the purchase quietly secures Anchor Root’s goodwill for the Rain-Scribes. The same day, Koride Ulawa is named to him on campus.",
+    "title": "A cutting for Anchor's caterpillars",
+    "description": "Lithrei brought Anchor Root a cutting of the plant her caterpillars ate, in case she wanted to start a colony. Anchor's thanks came with a classroom advantage: from then on he could not critically fail a Rain-Scribe Study.",
     "confidence": "played",
     "revealed": true
   },
@@ -212,19 +212,8 @@
     "session": 3,
     "lane": "player",
     "heroSlug": "solanum-calabash",
-    "title": "“Hope Umbo is feeling better”",
-    "description": "After the fight with Umbo, Solanum says she hopes Umbo is feeling better. Nobody laughs, because she means it. She is capable of grieving a thing she just fought.",
-    "confidence": "played",
-    "revealed": true
-  },
-  {
-    "id": "s3-taraan-ritual",
-    "book": 1,
-    "session": 3,
-    "lane": "player",
-    "heroSlug": "taraan-skyseeker",
-    "title": "Reads the ritual structure",
-    "description": "Watching the fey-abeyance ritual, Taraan reads it as a structure rather than a spell — the ward as architecture as much as magic. It is the archaeologist’s eye finding something to do in a school of mages.",
+    "title": "Trying to save the mushroom she had just killed",
+    "description": "Solanum spent her turn trying to stabilize Umbo, the myceloid, while he was dying, and failed. She took the failure badly, despite Taraan successfully stabilizing Umbo, and went looking for a teacher who could explain why her healing had not worked.",
     "confidence": "played",
     "revealed": true
   },
@@ -234,8 +223,8 @@
     "session": 3,
     "lane": "player",
     "heroSlug": "yggostrus",
-    "title": "A competence win, then an apology refused",
-    "description": "Yggostrus leads the Nature work in the ritual and does it well, which matters more than it sounds. Then he apologizes to Anchor Root, and learns that the apology is accepted by her personally and refused on behalf of the group. Both things are true at once.",
+    "title": "The ritual, and the apology that was refused",
+    "description": "Yggostrus carried the Nature work on the fey-abeyance ritual and then apologized to Anchor Root for what he had said about her people. Anchor Root forgave him personally in her first sentence and refused the apology on behalf of her people in her next: the only way to feel better about that part was to actively help make things better for her people. She also pushed back on Yggo's constant phrasing of \"you mortals\" and asked whether he could be killed, and told him that made him a mortal too.",
     "confidence": "played",
     "revealed": true
   },
@@ -245,7 +234,7 @@
     "session": 4,
     "lane": "story",
     "title": "Day 4 — Emerald Boughs",
-    "description": "Day four, with the Emerald Boughs: a full day of mail and errands that turns into its own small sandbox — Ignaci, Tzeniwe, letters addressed to gods, a dispute over a lamp, and a route that gets genuinely hard to run. At the picnic afterward, the anadi children shift shape in front of everyone.",
+    "description": "The fourth Perquisite day, with the Emerald Boughs. Ignaci and Tzeniwe handed over a mailbag and a warning that some addresses were not going to be straightforward; the cohort delivered letters to a tailor mid-embroidery, a bird rehabilitator, a man with a puppy up a tree, and a woman making mango jam, carried three letters addressed to gods to their temples, settled a dispute between two neighbours who both wanted the same stained-glass lamp, and established that Kofi Two-Hats sells cabbages. At the picnic afterward Tzeniwe's children became child-sized tarantulas mid-tag and back again.",
     "source": "p26–28",
     "confidence": "played",
     "revealed": true
@@ -257,18 +246,18 @@
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "The Bonding Meal",
-    "description": "Cy’An’s Bonding Meal brings mother Caron and thirteen siblings onto the stage in front of the whole cohort. The wound they carry — that worth is usefulness, and family is an obligation you feed — is suddenly public, and nobody has to say a word about it.",
+    "description": "Cy'An opened the morning with a Bonding Meal — a ritual that recreates a dish tied to your past and shares the memory with everyone who cooks and eats it. Cy'An cooked a goblin breakfast with the other players as well as Anchor Root, Esi, Chizire, and Haibram, and the memory was a kitchen built for humans, their mother Caron, and thirteen younger siblings. Taraan's six years on a ship full of pirates came out over the sausages.",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s4-taraan-anadi-form",
+    "id": "s4-taraan-anadi",
     "book": 1,
     "session": 4,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "A nat 20 on the anadi true form",
-    "description": "Something in the way Taraan looks at Tzeniwe’s children lets them be seen as they actually are, and his roll lands clean. No fear, no flinch — just a tengu who thinks spiderlings are people, which is apparently rarer than it should be.",
+    "title": "A nat 20 on the Anadi",
+    "description": "Everyone saw two children turn into spiders and back. Taraan rolled a natural 20 on the Society check and came away knowing the human shape was the costume: the Anadi are giant sentient spiders who got tired of being screamed at.",
     "confidence": "played",
     "revealed": true
   },
@@ -278,19 +267,19 @@
     "session": 5,
     "lane": "story",
     "title": "Day 5 — Uzunjati and the Introduction Ceremony",
-    "description": "Day five, with the Uzunjati, alongside Okoro and Noxolo. The Introduction Ceremony is interrupted by Kurshkin and Havvix, and the interrogation that follows produces a name: the Stone Ghost. The cohort leaves the night at level 2.",
+    "description": "The fifth Perquisite day, with the Uzunjati. Okoro and Noxolo asked for the week as a story rather than a recounting, and each of the cohort supplied a moral for it; then the Introduction Ceremony was interrupted by pugwampis under the stage. Their leader Kurshkin surrendered, and named the being that had sent them — the Stone Ghost — while a second gremlin, Havvix, ran. Taraan's ledger put Kurshkin's pranks, the subsequent gremlin purge, Uduak's expulsion, and the Stone Ghost on one timeline: a strong link, not proof. Ot walked in on the aftermath before anyone had a chance to explain it and Kurshkin revealed prior dealings with Ot.",
     "source": "p28–30",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s5-cy-an-rolling-pin",
+    "id": "s5-cy-an-brownies-and-tailoring",
     "book": 1,
     "session": 5,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
-    "title": "The rolling pin is declared",
-    "description": "Cy’An trades the glider plans to Solanum, delivers them, and declares the rolling pin their weapon. It is a joke that is also completely serious — a tool chosen for what it is actually for, by someone who has decided what they are actually for.",
+    "title": "Brownies guarded, and a tailor",
+    "description": "Lumusi, the dining hall's chef, baked Cy'An a batch of brownies and kept the recipe to herself. Lithrei took Cy'An shopping for clothes to wear to the Introduction Ceremony instead, decided their patchwork needed lifting rather than replacing, and suggested they pierce their ears.",
     "confidence": "played",
     "revealed": true
   },
@@ -301,18 +290,18 @@
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Pharasma-temple study begins",
-    "description": "Lithrei begins studying Pharasma at the temple. Meanwhile Noxolo has a breakdown in front of him, and he treats it as an ordinary bad day rather than a revelation — which is, for both of them, the right call.",
+    "description": "Lithrei found the temple of Pharasma and began learning to speak to spirits that are not in control of themselves. The temple agreed to train him and told him plainly that it takes years.",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s5-solanum-stories",
+    "id": "s5-solanum-glider-plans",
     "book": 1,
     "session": 5,
     "lane": "player",
     "heroSlug": "solanum-calabash",
-    "title": "Dorm-wide stories and morals",
-    "description": "Solanum trades battle-magic talk with Esi and tells stories to the whole dorm. The glider plans arrive from Cy’An. It is a night where she is simply one of the cohort, and that is the point of it.",
+    "title": "The plans, for a tomato",
+    "description": "Solanum found Haibram, the Rain-Scribe candidate with the paper-winged contraption, in the Spire, grounded by the storm, and talked lift with him until he rolled out the glider plans he had been drawing for Cy'An anyway. Solanum paid for them with a tomato and delivered them herself.",
     "confidence": "played",
     "revealed": true
   },
@@ -323,7 +312,7 @@
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Maps the founders' statues",
-    "description": "Taraan maps the founders’ statues and, in doing so, delivers a moral to the whole dorm about companionship through change. He has been on campus five days and has already decided what the place is about.",
+    "description": "Taraan spent the afternoon walking the perimeter with a cartographer's eye: statues, obelisks, and dedications to Jatembe and the ten founders who built the school with him, several of them cut with puzzles for students to work out. Taraan called it a day spent with Soralyon, the angel of archaeology.",
     "confidence": "played",
     "revealed": true
   },
@@ -334,7 +323,7 @@
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Learns the eidolon shares damage",
-    "description": "Yggostrus learns that his eidolon shares his damage — the cost of the bond runs both ways. Of everything he has been told about the creature, this is the first honest thing.",
+    "description": "Yggostrus practised with the dragon eidolon that carries the rest of his true shape, instead of charging in behind it. He came out of it knowing that when the eidolon takes damage, he feels it. Of everything he had been told about the bond, that was the first part that needed no explaining.",
     "confidence": "played",
     "revealed": true
   },
@@ -344,7 +333,7 @@
     "session": 6,
     "lane": "story",
     "title": "First Study block and the classmate favors",
-    "description": "The first full Study block, and a night of classmate favors: Surprise, Rules Mastery, Lofty Leap, and the Lost Chicken. The Cricket Theft is settled not with a punishment but with a trade that establishes Koride’s breeding program. Implements are started and not finished.",
+    "description": "The first Study block: a semester folded into one night of classwork and dorm favours. The cohort ran five of them — a surprise party for Tzeniwe, a board game of Okoro's with an augury spell disguised as a rules page, a launch ramp that put Haibram a hundred and fifty feet up, a search for Anchor Root's escaped chicken that ended on the spire roof, and a cricket theft settled with Koride by trade instead of theft. Each hero's branch implement was started and none was finished.",
     "source": "p44–45, 65",
     "confidence": "played",
     "revealed": true
@@ -356,7 +345,7 @@
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
     "title": "Crams Cascade twice and earns a star",
-    "description": "Cy’An crams Cascade twice in one night and comes away with a star. The branch reaches 1, and there is a banked success sitting at the cap — the reward for treating study the way they treat a kitchen.",
+    "description": "Cy'An crammed Cascade Bearers twice in one night — two Study rolls instead of one, at the cost of a fatigue check each day after — and finished with a point in the branch and a second banked against the cap.",
     "confidence": "played",
     "revealed": true
   },
@@ -367,18 +356,18 @@
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Cascade reaches 1",
-    "description": "Lithrei’s Cascade work reaches 1, and with it the branches are locked for five of the six heroes. The school now has an opinion about what each of them is.",
+    "description": "Lithrei rolled a 23 on Occultism for Cascade Bearers and took a point in the branch, one short of a critical success. Lithrei had spent the earlier part of the evening failing to understand Okoro's board game and then beating everyone at it.",
     "confidence": "played",
     "revealed": true
   },
   {
-    "id": "s6-solanum-study-debt",
+    "id": "s6-solanum-tempest-sun-fail",
     "book": 1,
     "session": 6,
     "lane": "player",
     "heroSlug": "solanum-calabash",
-    "title": "Fails the Tempest-Sun Study",
-    "description": "Solanum fails the Tempest-Sun Study and the branch stays at 0. She walks out of the night carrying a debt.",
+    "title": "The only one who failed",
+    "description": "Solanum rolled a 13 against a DC 14 for the Tempest-Sun Study, spent both of her hero points trying to move it, and ended the night with the branch still at nothing. Cy'An's summary was that the tomato was the only one who did not pass.",
     "confidence": "played",
     "revealed": true
   },
@@ -389,7 +378,7 @@
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "Uzunjati crit brings the branch to 2",
-    "description": "Taraan crits the Uzunjati work and pushes the branch to 2 — the strongest Study result anyone at the table managed. The tengu who came for the sky turns out to be very good at the school part.",
+    "description": "Taraan crit the Uzunjati Study on Magaambya Lore and went to 2, the best Study result at the table. The free lore skill a successful Study grants, Taraan put into Fey — broad enough to be useful, narrow enough to be a subject.",
     "confidence": "played",
     "revealed": true
   },
@@ -399,8 +388,8 @@
     "session": 6,
     "lane": "player",
     "heroSlug": "yggostrus",
-    "title": "Rain-Scribes crit reaches 1",
-    "description": "Yggostrus crits the Rain-Scribes work to reach 1, and in the process Koride’s breeding program opens a working relationship with the whole cohort. He wanted her attention; what he got was her attention on all of them.",
+    "title": "Rain-Scribes crit, and Koride's program",
+    "description": "Yggostrus crit the Rain-Scribes Study on Nature. When the cohort then took Chizire's cricket problem to Koride and traded a centipede infestation for help starting her cricket breeding program, the working relationship she opened covered all of them — not just the one who had come for her attention.",
     "confidence": "played",
     "revealed": true
   },
@@ -410,8 +399,19 @@
     "session": 7,
     "lane": "story",
     "title": "Takulu's reading list — the stump library",
-    "description": "Ot asks the cohort to recover five books from a tree-stump building that was being converted into a library before the project was abandoned. The stump is not empty: scrits have been chewing through it, and the fight eats most of the night, leaving half the rooms unsearched.",
+    "description": "Ot sent the cohort to a half-built library in a hollow stump with a five-book list and no explanation for why the work had been abandoned. Scrits — gremlins with permanently ink-stained hands that ruin books by smearing them — were asleep on the shelves, and the silverfish came out of the walls, and the fighting ate the front half of the night. The search after it went room by room: four of Ot's five books, one of those short a volume, Mata Digemari's field notes carried out as a chest, an inventory scroll naming the rest, a bracelet of dashing under the beds, and an animal staff behind the armchair.",
     "source": "p35–38",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s7-solanum-first-kill",
+    "book": 1,
+    "session": 7,
+    "lane": "player",
+    "heroSlug": "solanum-calabash",
+    "title": "First kill, and a skull bead",
+    "description": "Solanum's first good hit of the night killed a scrit outright — a staff strike charged with Gouging Claw, and far more force than she meant. A new bead appeared on her tomato cage where the rest of them hang: a skull, heavy for its size. Afterward Yggostrus told her that people were her horde and she had done nothing but protect it, revealing that he had killed Umbo, the mushroom leshy. She did not take this news well.",
     "confidence": "played",
     "revealed": true
   },
@@ -420,8 +420,8 @@
     "book": 1,
     "session": 8,
     "lane": "story",
-    "title": "The stump library, finished",
-    "description": "The back half of the stump: the stacked beds, the reading nook, the paper nest in the last room, and whatever else the cohort never reached. Then back to Ot with damaged books and a full accounting of what the building still holds.",
+    "title": "The wasp nest, the supplies, and the reckoning with Ot",
+    "description": "The last two rooms: a wasp nest built partly out of a scroll that cannot be recovered, and a supply room of blank journals and quills. Then back to the Heron Archives with the chest, the inventory scroll, and one book ruined past saving, for Ot's accounting of all of it.",
     "source": "p35–38",
     "confidence": "firm",
     "revealed": false
@@ -434,7 +434,7 @@
     "heroSlug": "cy-an-copperbottom",
     "title": "Repairs a hinge Ot notices",
     "description": "Cy’An repairs a hinge Ot happens to notice. The craft is offered as help rather than proof, and for once nobody needs to be told what it means.",
-    "confidence": "projected",
+    "confidence": "firm",
     "revealed": false
   },
   {
@@ -445,18 +445,7 @@
     "heroSlug": "lithrei-woeborn",
     "title": "Reframes the Study failure as a research finding",
     "description": "Lithrei reframes his Study failure as a research finding. A library held together by silverfish is exactly the kind of place an unfinished student would haunt, and he knows it.",
-    "confidence": "projected",
-    "revealed": false
-  },
-  {
-    "id": "s8-solanum-reading-nook",
-    "book": 1,
-    "session": 8,
-    "lane": "player",
-    "heroSlug": "solanum-calabash",
-    "title": "The reading nook",
-    "description": "Solanum finds a reading nook in the stump library and turns her failed Study into a research project — she was reading, not failing. She also picks up a Tempest-Sun success, clearing the debt that had been following her.",
-    "confidence": "projected",
+    "confidence": "firm",
     "revealed": false
   },
   {
@@ -465,9 +454,9 @@
     "session": 8,
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
-    "title": "Bell garland and a structural read",
-    "description": "Taraan hangs a bell garland and reads the building’s structure. Then, in the Heron Archives, he mentions Ird. A teacher receives the name with polite institutional silence and changes the subject, and that is the whole answer he gets.",
-    "confidence": "projected",
+    "title": "A structural read, and Ird in the archives",
+    "description": "Taraan reads the stump's structure before they leave it — the lightning scars, the renovation, what holds and what does not. Then, in the Heron Archives, he mentions Ird. A teacher receives the name with polite institutional silence and changes the subject, and that is the whole answer he gets.",
+    "confidence": "firm",
     "revealed": false
   },
   {
@@ -478,7 +467,7 @@
     "heroSlug": "yggostrus",
     "title": "Koride's first warm contact",
     "description": "Koride Ulawa takes a real interest in Yggostrus — not in what he can do for her, but in what he is. One exchange is enough.",
-    "confidence": "projected",
+    "confidence": "firm",
     "revealed": false
   },
   {

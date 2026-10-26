@@ -367,7 +367,9 @@
         "Haibrum",
         "Hybram",
         "Halber",
-        "Hallburn"
+        "Hallburn",
+        "Highbrim",
+        "Haybrum"
       ],
       "type": "npc",
       "notes": "Spire Dorm cohort; Tempest-Sun dwarf daredevil."
@@ -681,7 +683,11 @@
     },
     {
       "canonical": "Erudite",
-      "synonyms": [],
+      "synonyms": [
+        "Aru",
+        "Aroo",
+        "Eru"
+      ],
       "type": "npc",
       "notes": "Taraan Skyseeker's familiar; little gargoyle with words flowing across his body; burrower (session 1–2)."
     },
@@ -969,6 +975,93 @@
       ],
       "type": "term",
       "notes": "Cy'An feat: can eat spoiled food, resists sickened."
+    },
+    {
+      "canonical": "Scrit",
+      "synonyms": [
+        "scrits",
+        "Scritts",
+        "Skrit",
+        "Skritz",
+        "skrits",
+        "Skritts",
+        "script",
+        "scripts"
+      ],
+      "type": "creature",
+      "notes": "Gremlin library pest; ink-smeared hands smear text. Always lowercase 'scrit' in prose (it is not an acronym). 'Script'/'scripts' is a recurring STT error — fix only when context is the creature."
+    },
+    {
+      "canonical": "Lampy",
+      "synonyms": [
+        "Lamp Bitch",
+        "Lampbitch",
+        "Lampy the lamp bitch"
+      ],
+      "type": "npc",
+      "notes": "Table nickname (never given a proper name on air). 'Lampy' is the surface form; the joke name is 'Lampy the lamp bitch'. Do not invent a real name."
+    },
+    {
+      "canonical": "Mata Digemari",
+      "synonyms": [
+        "Matu Digimari",
+        "Madhu Digimari",
+        "Motu Digimari",
+        "Mata Digemari"
+      ],
+      "type": "npc",
+      "notes": "Druid whose Collected Field Notes are one of Ot's five books — the item is a small chest with cramped writing on its wooden surfaces, not a book."
+    },
+    {
+      "canonical": "Bloodsalt",
+      "synonyms": [
+        "Blood Salt",
+        "Bloodsalt"
+      ],
+      "type": "place",
+      "notes": "Ruined city; long-vanished inhabitants supposedly sprouted wings and flew away. Books about it are in the B6 reading nook, plus a partial map folio."
+    },
+    {
+      "canonical": "Garund",
+      "synonyms": [
+        "Gerund",
+        "Garan",
+        "Garund"
+      ],
+      "type": "place",
+      "notes": "Continent. Canonical book title: 'Studies on the Habits and Migration Patterns of Birds and Drakes of the Continent of Garund'."
+    },
+    {
+      "canonical": "The Worlds Between Worlds",
+      "synonyms": [
+        "Worlds Between Worlds",
+        "World Between Worlds"
+      ],
+      "type": "term",
+      "notes": "Full title: 'The Worlds Between Worlds: Exploring the Planes and Demi-Planes'. Six volumes; the party needs volume 4. Volumes 1, 3, 5, 6 loose in B4 boxes; volume 2 missing."
+    },
+    {
+      "canonical": "Stump Library",
+      "synonyms": [
+        "the stump",
+        "abandoned library",
+        "stump dormitory",
+        "the library in the stump"
+      ],
+      "type": "place",
+      "notes": "Enormous lightning-scarred tree stump on Magaambya grounds, carved as a dormitory, half converted to a library. Central circular foyer (B1) with seven closed doors B2-B7."
+    },
+    {
+      "canonical": "Uduak",
+      "synonyms": [
+        "Uduak",
+        "Stone Ghost",
+        "Stoneface",
+        "Stoneghost",
+        "Stone Face"
+      ],
+      "type": "npc",
+      "notes": "Former student; now the talking stone entity. Table calls him 'Stoneface'/'Stone Ghost'. Predates nothing here — the stump's abandonment predates Uduak."
     }
   ],
   "flagOnly": []
