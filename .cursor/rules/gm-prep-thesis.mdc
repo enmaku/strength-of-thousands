@@ -1,0 +1,45 @@
+---
+description: GM prep docs need a moral/philosophical thesis for the story slice
+alwaysApply: true
+---
+
+# GM prep — session / chapter thesis
+
+When creating or revising **GM-facing prep** in this repo (session preps under `lessons/*-session-*-prep.html`, book/campaign prep under `lessons/*-gm-prep.html`, or similar cold-run HTML via `/teach` or ad hoc request), include a short **thesis** for the content covered.
+
+Do **not** put this in the global `/teach` skill — it is Strength of Thousands / this workspace only.
+
+## What to write
+
+Before locking beats, ask: what moral, ethical, or philosophical pressure does this slice put on the table?
+
+Then add a callout (reuse `.callout` / green left border from existing prep CSS):
+
+1. **One crisp claim** — the underlying lesson of this chunk (not a plot summary).
+2. **How play enacts it** — choices, consequences, or NPC questions that make the claim felt.
+3. **Optional but preferred:** who among the PCs (or cohort) most needs that lesson right now, and/or how it slots into the campaign arc in `reference/sot-thematic-guide.html`.
+
+Keep it brief — roughly 1–3 sentences. Place it near the top after pace/scope (same pattern as Session 3 prep).
+
+## Example (good)
+
+```html
+<div class="callout">
+  <strong>Session thesis:</strong> imagination needs responsibility.
+  The players choose how to source living and dead ingredients, survive an ambush,
+  and help cast a ward—then Mariama asks what else that ward might hurt.
+</div>
+```
+
+For book- or chapter-scale docs, label **Chapter thesis** / **Book thesis** instead of Session.
+
+## Anti-patterns
+
+- Pure logistics (“tonight: oils then Umbo”) with no value claim
+- Spoiler dumps or theme essays longer than a short callout
+- Inventing a moral that contradicts published Magaambya values or table canon
+- Skipping the thesis because the slice “is just combat / just shopping”
+
+## Also update
+
+When adding a thesis to a **session** prep, mirror the requirement in `reference/sot-session-prep-guide.md` if that recipe drifts. Prefer themes already listed in `NOTES.md` and the thematic guide (service, succession, cohort friendship, curiosity’s shadow).

@@ -10,7 +10,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.cursor/
 .vscode/
 .idea
 *.suo
@@ -23,5 +22,4 @@ yarn-error.log*
 
 reference/sot-extracts/*.txt
 
-.agents/
 skills-lock.json

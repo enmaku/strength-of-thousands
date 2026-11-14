@@ -10,7 +10,7 @@ export function getGmLessonSections() {
       lessons: [
         {
           title: 'Session 8 Prep',
-          caption: 'GM prep · stump library, back half & return to Ot',
+          caption: 'GM prep · stump back half, Ot, Zuma',
           href: `${pagesBase}/lessons/0021-session-8-prep.html`,
         },
         {

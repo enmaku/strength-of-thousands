@@ -420,11 +420,44 @@
     "book": 1,
     "session": 8,
     "lane": "story",
-    "title": "The wasp nest, the supplies, and the reckoning with Ot",
-    "description": "The last two rooms: a wasp nest built partly out of a scroll that cannot be recovered, and a supply room of blank journals and quills. Then back to the Heron Archives with the chest, the inventory scroll, and one book ruined past saving, for Ot's accounting of all of it.",
+    "title": "The last two rooms, and the books back to Ot",
+    "description": "The cohort finished searching the stump library, the half-converted dormitory where Takulu Ot had sent them for five missing books. The scrit that had escaped them earlier smacked a paper-wasp nest expecting the wasps to fight for it; they stung it instead, and Taraan caught it in a sack. The nest turned out to be built from one of Ot’s books, chewed to pulp, with only its title left legible. In the supply room, three frightened spellskins — animated paper left over from a botched scroll — hid among the crates until Lithrei coaxed them out and Taraan touched up their faded ink, and they went home with the cohort to the Spire Dorm library. Ot heard the plain account of the lost book with a sigh, thanked them for telling him straight, and pointed them to Zuma, an Emerald Bough teacher looking for volunteers.",
     "source": "p35–38",
-    "confidence": "firm",
-    "revealed": false
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-story-zuma-ink",
+    "book": 1,
+    "session": 8,
+    "lane": "story",
+    "title": "Zuma’s ink",
+    "description": "Zuma, a half-orc Emerald Bough teacher with a laboratory full of bubbling tubes, wanted volunteers to test whether several people’s magic could be linked. After a ritual over his inks, he tattooed each of the cohort with the same small mouth, drawn by Cy’An. Their biggest spells came out no stronger, and none of them could cast a spell they did not know — but when they tried to talk without speaking, each heard the others’ thoughts from their own tattoo, its mouth moving with the words. Zuma called it a positive result, scribbled notes furiously, and gave Solanum his patchwork hat of the magi.",
+    "source": "p39–40",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-story-bug-problems",
+    "book": 1,
+    "session": 8,
+    "lane": "story",
+    "title": "Koride’s specimen hunt",
+    "description": "Koride Ulawa, the Rain-Scribe teacher who studies insects, sent the cohort to collect specimens from three places where campus insects had been acting strangely. In the Leshy Gardens, the leshies — plant spirits who live there so students can consult them — were losing their carved tournament armor to bark beetles, and the tunnels the beetles chewed looked like summoning runes. In the kitchen, which the head cook Lemoussi had closed, a spilled basket of cassava had let loose a swarm of mites, and a centipede swarm poured out from under the counters to eat them while Abena, a kitchen assistant, shouted for help from inside the stock pot. The cohort knocked the centipedes out rather than killing them and bagged the stunned ones for Koride.",
+    "source": "p31–34",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-story-speaker-stage",
+    "book": 1,
+    "session": 8,
+    "lane": "story",
+    "title": "A show at the speaker stage",
+    "description": "Lithrei trapped a handful of water striders on the canal around the speaker stage — the Magaambya’s public stage on an artificial island — and the commotion drew a crowd of townspeople from across the water, expecting a show. The cohort gave them one: a dramatic retelling of the kitchen fight, painted backdrops, and a poetry reading to close, which the crowd snapped for. Afterward Asanda, one of the eleven magistrate-mayors who govern Nantambu, floated a gift across the canal on a paper boat: a marvelous miniature, a token that opens into a chest holding 10 Bulk.",
+    "source": "p31–34",
+    "confidence": "played",
+    "revealed": true
   },
   {
     "id": "s8-cy-an-hinge",
@@ -432,15 +465,70 @@
     "session": 8,
     "lane": "player",
     "heroSlug": "cy-an-copperbottom",
-    "title": "Repairs a hinge Ot notices",
-    "description": "Cy’An repairs a hinge Ot happens to notice. The craft is offered as help rather than proof, and for once nobody needs to be told what it means.",
+    "title": "Fixes Ot’s crooked door, unasked",
+    "description": "While the cohort waited for Takulu Ot in his empty office, Cy’An noticed that his door swung crooked on an old hinge, and rebuilt it to brand-new condition — easy-close mechanism included — without a word. When Ot came back, he poked the door, jiggled it, closed it, and said, “I will take that.”",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-solanum-reckoning",
+    "book": 1,
+    "session": 8,
+    "lane": "player",
+    "heroSlug": "solanum-calabash",
+    "title": "Carries the first kill",
+    "description": "Solanum was still carrying guilt over the scrit she had killed in the stump library, a book-eating gremlin crushed by a staff strike she could not hold back. She told the others she did not know how to feel, that her magic sometimes felt like raw lightning, and that she felt she messed everything up. Taraan pointed out that the scrits had been trying to kill them, and Lithrei told her she had been protecting them and that he shared the weight. Then Taraan, who studies for fun, handed her a book on how to study.",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-solanum-leshy-gardens",
+    "book": 1,
+    "session": 8,
+    "lane": "player",
+    "heroSlug": "solanum-calabash",
+    "title": "A leshy who goes to school",
+    "description": "In the Leshy Gardens, the other leshies — plant spirits who live there so students can consult them — gathered around Solanum. None of them owned clothing or anything else, and they were fascinated that a leshy could have a hat, a staff, a tomato cage, and a place as a student. She offered to bring them clothes or wire and asked if she could visit again; they said yes, please.",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-taraan-bell-garland",
+    "book": 1,
+    "session": 8,
+    "lane": "player",
+    "heroSlug": "taraan-skyseeker",
+    "title": "Gives Ot the building’s verdict",
+    "description": "Takulu Ot, the teacher who had sent the cohort to the stump library, asked Taraan — whose study is ruins and architecture — what should become of the half-converted dormitory: finish it, preserve it as a ruin, or rope it off as a danger. Taraan said it needed renovating or it was a danger, and that the scrits who lived there would come back if nothing was done. Tearing it down, he said, would be a shame.",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s8-lithrei-zuma",
+    "book": 1,
+    "session": 8,
+    "lane": "player",
+    "heroSlug": "lithrei-woeborn",
+    "title": "Volunteers for Zuma’s experiment",
+    "description": "Before Zuma, a half-orc Emerald Bough teacher, inked the cohort for his magic-linking experiment, Lithrei asked what the risks were — and then volunteered anyway, joining the ritual as one of its secondary casters. When Zuma asked each of them for their biggest spell, Lithrei chose his favorite instead: Eject Soul.",
+    "confidence": "played",
+    "revealed": true
+  },
+  {
+    "id": "s9-story-bug-problems-return",
+    "book": 1,
+    "session": 9,
+    "lane": "story",
+    "title": "Bug Problems — the specimens go back to Koride",
+    "description": "The cohort brings Koride the specimens from all three sites — bark beetles and their tunnelled armor plates from the Leshy Gardens, stunned centipedes and mites from the kitchen, water striders from the canal — and reports what it saw.",
+    "source": "p31–34",
     "confidence": "firm",
     "revealed": false
   },
   {
-    "id": "s8-lithrei-research-finding",
+    "id": "s9-lithrei-research-finding",
     "book": 1,
-    "session": 8,
+    "session": 9,
     "lane": "player",
     "heroSlug": "lithrei-woeborn",
     "title": "Reframes the Study failure as a research finding",
@@ -449,47 +537,14 @@
     "revealed": false
   },
   {
-    "id": "s8-taraan-bell-garland",
+    "id": "s9-yggostrus-koride-warm",
     "book": 1,
-    "session": 8,
-    "lane": "player",
-    "heroSlug": "taraan-skyseeker",
-    "title": "A structural read, and Ird in the archives",
-    "description": "Taraan reads the stump's structure before they leave it — the lightning scars, the renovation, what holds and what does not. Then, in the Heron Archives, he mentions Ird. A teacher receives the name with polite institutional silence and changes the subject, and that is the whole answer he gets.",
-    "confidence": "firm",
-    "revealed": false
-  },
-  {
-    "id": "s8-yggostrus-koride-warm",
-    "book": 1,
-    "session": 8,
+    "session": 9,
     "lane": "player",
     "heroSlug": "yggostrus",
     "title": "Koride's first warm contact",
-    "description": "Koride Ulawa takes a real interest in Yggostrus — not in what he can do for her, but in what he is. One exchange is enough.",
+    "description": "At the specimen debrief, Koride Ulawa takes a real interest in Yggostrus — not in what he can do for her, but in what he is. One exchange is enough.",
     "confidence": "firm",
-    "revealed": false
-  },
-  {
-    "id": "s9-story-monochrome",
-    "book": 1,
-    "session": 9,
-    "lane": "story",
-    "title": "Monochrome Murmurs",
-    "description": "Monochrome Murmurs: Zuma, the Tattoo Whispers ritual, linked minds inside the Elephant Museum office. The cohort shares thoughts for an afternoon and learns more about each other than any of them asked to.",
-    "source": "p39–40",
-    "confidence": "firm",
-    "revealed": false
-  },
-  {
-    "id": "s9-lithrei-zuma",
-    "book": 1,
-    "session": 9,
-    "lane": "player",
-    "heroSlug": "lithrei-woeborn",
-    "title": "Zuma's debut",
-    "description": "Zuma debuts and tells Lithrei the school is hiding something. She is useful, exhausting, and occasionally right, and she is a mirror for his method rather than his mystery — which is precisely why she gets under his skin.",
-    "confidence": "projected",
     "revealed": false
   },
   {
@@ -511,7 +566,7 @@
     "title": "Study block and free time",
     "description": "A study block and an evening of free time. Ahassunu joins the Heron Archives and Lesedi opens the planetarium dome, and the cohort is given the rare luxury of a night with no crisis attached.",
     "source": "p65",
-    "confidence": "projected",
+    "confidence": "firm",
     "revealed": false
   },
   {
@@ -523,6 +578,17 @@
     "title": "The empty shift",
     "description": "Lumusi covers the kitchen and sends Cy’An out for the evening. The question the scene actually asks is not whether they can relax but whether they can stay out once they are gone.",
     "confidence": "projected",
+    "revealed": false
+  },
+  {
+    "id": "s10-lithrei-zuma-hiding",
+    "book": 1,
+    "session": 10,
+    "lane": "player",
+    "heroSlug": "lithrei-woeborn",
+    "title": "Zuma lets something slip",
+    "description": "In an Emerald Bough class, Zuma — mid-rant about the buildings’ invisible defenses — tells Lithrei, mostly by accident, that the school is hiding something. He is useful, exhausting, and occasionally right: a mirror for Lithrei’s method rather than his mystery, which is exactly why he gets under Lithrei’s skin.",
+    "confidence": "firm",
     "revealed": false
   },
   {
@@ -554,18 +620,7 @@
     "lane": "player",
     "heroSlug": "taraan-skyseeker",
     "title": "The Ird-taboo aside, pressed",
-    "description": "In the Heron Archives, Taraan asks about Ird a second time, more directly than the first. The answer is the same polite institutional silence, and the conversation moves on without him. Nothing follows it, and that is the whole reply.",
-    "confidence": "projected",
-    "revealed": false
-  },
-  {
-    "id": "s11-story-bug-problems",
-    "book": 1,
-    "session": 11,
-    "lane": "story",
-    "title": "Bug Problems",
-    "description": "Koride’s specimen list sends the cohort to the Leshy Gardens, the Speaker’s Stage canal, and the kitchen. Anchor Root has strong opinions about centipedes, which turns out to be relevant when a centipede swarm arrives in the kitchen.",
-    "source": "p31–34",
+    "description": "In the Heron Archives, with Ahassunu on stage, Taraan raises Ird — the first time the word leaves his mouth. The answer is polite institutional silence and a change of subject, and nothing follows it. That is the whole reply, and it is the first crack in a subject the school will not discuss.",
     "confidence": "projected",
     "revealed": false
   },

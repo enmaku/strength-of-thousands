@@ -1,0 +1,54 @@
+---
+description: Transcript prose uses the name people actually say out loud, not expanded full names
+alwaysApply: true
+---
+
+# Transcript prose — spoken names, not full names
+
+Nobody at the table says full character names. The GM says "Solanum," not "Solanum Calabash." Players say "Taraan," "Lithrei," "Cy'An," "Yggo," "Ot," "Haibram."
+
+Transcript tooling keeps "correcting" short spoken names into canonical full names, which is wrong. **A cleaned transcript is dialogue and narration, not a name index.**
+
+## The rule
+
+In `transcripts/**/edited.json` → `text` (and in any recap, prep, or log prose written about play):
+
+- Write the name that was **said** — usually the given name or nickname — even on first mention.
+- **Never** expand a given name to `given + surname` because the speaker's identity is known.
+- Keep a full name **only** when the table actually said it: a formal introduction, a title with a name, or a deliberate joke (e.g. "I am not Cy'An Copperbottom").
+- Never stack the surname twice (`Taraan Skyseeker Skyseeker`); that is a replacement artifact and always a bug.
+
+## Examples
+
+| Bad (pipeline output) | Good (what was said) |
+|-----------------------|----------------------|
+| `Has Solanum Calabash ever seen a healing spell?` | `Has Solanum ever seen a healing spell?` |
+| `It is going to flank Lithrei Woeborn.` | `It is going to flank Lithrei.` |
+| `Before the trellis idea, I want to find Haibram Thodja.` | `Before the trellis idea, I want to find Haibram.` |
+| `You also met Ignaci Canterells, your classmate.` | `You also met Ignaci, your classmate.` |
+| `Taraan Skyseeker, your letter is addressed to Gozreh.` | `Taraan, your letter is addressed to Gozreh.` |
+
+Applies to NPCs too: `Takulu Ot`, `Koride Ulawa`, `Mariama Keitana` are canonical spellings, not required forms. Prefer `Teacher Ot`, `Ot`, `Koride`, `Mariama` in prose. Reserve the full form for a first formal introduction.
+
+## Acronyms keep their caps
+
+`MODU` is an initialism — **Mobile Oven Defense Unit**. It is always `MODU` in prose: `MODU attacks with the toaster`, `Seven damage to MODU`, `MODU, go!` Never `Modu`, never `Modu's`. Only `MODU's` for the possessive.
+
+This is not a spelling preference — the caps *are* the joke, and the table established the name at the moment of naming ("I'm going with Mobile Oven Defense Unit — or MODU"). Lowercasing it silently discards the worldbuilding.
+
+The glossary carries this: `canonical: "MODU"`, `synonyms: ["Modu"]`. Treat any other all-caps in-world initialism (item codes, faction acronyms, construct designations) the same way — check `glossary.json` notes for `acronym`, and never sentence-case one.
+
+## Where full names still belong
+
+Structured fields, never prose:
+
+- `character` and `voice` in `edited.json` — canonical PC names from `player-map.json`; the viewer renders them as `Drew (as Solanum Calabash)`.
+- `player-map.json`, `heroes/*.json` `displayName`, `glossary.json` `canonical`.
+
+Do not rename those to short forms, and do not shorten `speaker` (that is the player's real name).
+
+## During an editorial pass
+
+Fixing an STT mangling (`Lithery` → `Lithrei`, `Coride Olawa` → `Koride`) is correct. Attaching the surname is not part of the fix — the glossary canonical is the spelling reference, not the required surface form.
+
+Log any correction as `category: proper_noun`, `reason: spoken_short_name` for a shortened name or `reason: acronym_caps` for casing, and record the `old`/`new` pair so the mistake log shows the pattern.

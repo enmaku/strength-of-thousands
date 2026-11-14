@@ -138,11 +138,13 @@ Calendar and rank projections — not beat rows, so this stays here. Session num
 
 ## Played so far — what the backdated record buys us
 
-Sessions 0–7 are played. S7 added Solanum's first kill and the skull bead; Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. The only PC with nothing seeded is Anya (two straight absences), and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride.
+Sessions 0–8 are played. S7 added Solanum's first kill and the skull bead; Taraan's Ird chord, Solanum's sky chord, Cy'An's provider wound, Yggostrus's Koride contact and Anya's eidolon premise are all already on stage. Anya has left the campaign, and the only relationship the tie-in doc promises but the table hasn't built is Yggostrus ↔ Koride — still waiting, because he missed S8.
 
 Session 7 is a **partial** session: the stump library's first half ran and no player beats landed. Everything from Monochrome Murmurs onward slid one session; the five library player beats moved to S8 intact.
 
-Per-session detail for those sessions lives in `data/timeline.json` and in [`sot-session-log.md`](sot-session-log.md). S7 is revealed through the stump's first half; its five player beats are still unrevealed on S8.
+Session 8 **ran long the other way**: the stump's end, all of Monochrome Murmurs, and Bug Problems through all three sites, with the Koride hand-in left for S9. Four of the five owed player beats landed; the other two (Lithrei's reframe, Yggostrus's Koride contact) moved to S9, and Zuma's hint to Lithrei moved to S10. S11 is now open; the tail was not shifted, since the drift sits inside the ±2 band.
+
+Per-session detail for those sessions lives in `data/timeline.json` and in [`sot-session-log.md`](sot-session-log.md). Everything through S8 is revealed, and no unrevealed row is scheduled at or before S8 — `check-timeline.mjs` enforces that.
 
 ## Book structure
 

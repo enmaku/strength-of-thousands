@@ -1,0 +1,30 @@
+---
+description: Vue Router hash mode — use hash URLs for full paths and browser testing
+alwaysApply: true
+---
+
+# Hash routing
+
+This app uses **Vue Router hash mode** (`vueRouterMode: 'hash'` in `quasar.config.js`) for GitHub Pages / static hosting.
+
+## Full URLs (browser, docs, MCP navigation)
+
+Use the hash segment:
+
+- `http://localhost:9000/#/heroes` — not `http://localhost:9000/heroes`
+- `http://localhost:9000/#/relationships`
+- Deployed: `{base}/#/heroes`
+
+Bare paths without `/#/` load the SPA shell but **not** the intended route.
+
+## In-app code (unchanged)
+
+Vue Router handles the hash internally — these stay as path-only:
+
+- `router-link to="/heroes"`, `q-route-tab to="/heroes"`
+- `route.path === '/heroes'` for active state
+- Child routes in `routes.js`: `path: 'heroes'`
+
+## Dev server
+
+The user runs `quasar dev` externally; it hot-reloads. Do not suggest restarting to pick up code changes (see `no-dev-server.mdc`).

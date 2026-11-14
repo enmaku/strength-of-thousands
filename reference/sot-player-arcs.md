@@ -6,23 +6,25 @@ Source of truth for the plots themselves is still `lessons/0009-player-tie-ins-g
 
 ## Rules of the road
 
-- **One beat per PC per window.** Six PCs, one beat each per ~3 sessions, is the maximum the spotlight can carry without the AP vanishing.
+- **One beat per PC per window.** Five active PCs (Anya has left the campaign), one beat each per ~3 sessions, is the maximum the spotlight can carry without the AP vanishing.
 - **Never invent a scene the AP already has.** Seed in downtime, faculty asides, dreams, dorm friendship. The AP beat is the stage, not the script.
 - **Only Taraan gets a private Jatembe conversation.** Everyone else pays off elsewhere. Lithrei gets one glance, maximum.
 - **Don't double-book relationships.** Noxolo is Lithrei's. Koride's PC favorite is Yggostrus. Ahassunu is Lithrei's historian. Lumusi is Cy'An's kitchen. Haibram is Solanum's omen buddy; Taraan borrows him for flight only.
 
 ### Status
 
-| PC | Chord | Where it stands after S7 |
+| PC | Chord | Where it stands after S8 |
 |---|---|---|
-| **Anya** | The wild that enrolled | **Undeveloped.** Two absences, no branch, no Study result, no implement. Bookkeeping is a few minutes at the table; the actual need is table-time with the cohort before S14. |
-| **Cy'An** | Provider-as-identity | On track. Wound named in S1, Ot's lesson in S2, Bonding Meal in S4. Needs an empty-shift. |
-| **Solanum** | Small life, large sky | On track. Glider in S2, chart talk available, red-star omen already at the table from Lithrei. S7 landed her first kill and the skull bead — the violence she did not want. Needs Lesedi. |
-| **Yggostrus** | The sealed dragon | Behind on Koride. Phase 0 transactional visible in S1–S2; S7 gave him the horde speech to Solanum but no warm Koride contact. |
-| **Lithrei** | The unfinished student | On track. Noxolo warmth in S5, Pharasma study ongoing, red-star omen in S2. Needs Ahassunu. |
-| **Taraan** | Ird / Inscribed One / flight | On track. Flight hunger and monument ethics both visible; no Ird echo yet. Needs an archive aside at S10. |
+| **Anya** | The wild that enrolled | **Left the campaign.** Withdrawn from the academy; no branch, Study, or implement will ever be resolved. Do not schedule beats, owes, or carry-over scenes. |
+| **Cy'An** | Provider-as-identity | On track. Wound named in S1, Ot's lesson in S2, Bonding Meal in S4, the unasked door repair for Ot in S8. Needs an empty-shift. |
+| **Solanum** | Small life, large sky | On track. Glider in S2, chart talk available, red-star omen already at the table from Lithrei. S7 landed her first kill; S8 her reckoning with it, and the Leshy Gardens leshies taking her for a celebrity. Needs Lesedi. |
+| **Yggostrus** | The sealed dragon | Behind on Koride, and now two sessions behind: absent S8, so the warm contact moved to the S9 specimen debrief. The specimen beat (S11) needs that contact first. |
+| **Lithrei** | The unfinished student | On track. Noxolo warmth in S5, Pharasma study ongoing, red-star omen in S2, Zuma debuted S8. Research reframe moved to S9; Zuma's hint moved to S10, ahead of Ahassunu's slip. |
+| **Taraan** | Ird / Inscribed One / flight | On track. Flight hunger and monument ethics both visible; S8 landed the structural read as an expert verdict Ot asked for. No Ird echo yet, and none before the S10 archive aside. |
 
-**S7 was a partial session.** Two fights ran and B2–B6 were searched, but the last two rooms and the debrief did not happen. Four of the five library player beats — Cy'An's hinge, Lithrei's research reframe, Taraan's structural read and Ird aside, Yggostrus's warm Koride contact — are re-scheduled to S8, where the rooms and the walk back belong. Solanum's reading-nook beat was **cut**: the nook was searched in S7, and the Study reframe belongs to S8's debrief rather than to a room nobody will revisit. Her S7 moment is the kill instead.
+**S7 was a partial session.** Two fights ran and B2–B6 were searched, but the last two rooms and the debrief did not happen. The remaining player beats — Cy'An's quiet repair, Lithrei's research reframe, Solanum's walk-out, Taraan's structural read, Yggostrus's warm Koride contact — are re-scheduled to S8, where the rooms and the walk back belong. Taraan's Ird taboo beat is **not** one of them: no archivist is on stage at the stump, and he has no route to a word he has never heard. Solanum's reading-nook beat was **deferred, not cut**: the nook was searched in S7 and the spellskeins were never found there, so the armchair scene circles back on a later visit to the building. The spellskeins themselves moved — they turn up in B8's supply crates in S8, still worth their 80 XP. Her S7 moment is the kill; her Study clear moves to the S10 Study block.
+
+**S8 landed four of the five.** Cy'An's repair (Ot's office door), Solanum's walk-out (as a reckoning with the kill), Taraan's structural read (an expert verdict Ot asked for — the rehung bells were superseded, Cy'An holds them), and Lithrei's Zuma debut. Lithrei's research reframe did not come up and moved to S9. Yggostrus was absent, so his warm Koride contact moved to S9's specimen debrief. Zuma's "the school is hiding something" did not come up either; it moved to the S10 Study night, still ahead of Ahassunu's slip, which it primes. The table also pulled Bug Problems forward into S8, so Koride's research is already on stage for the specimen beat.
 
 ## Dependency contract
 
@@ -39,7 +41,7 @@ Each player beat needs an AP beat under it. This table is what makes the timing 
 | Lithrei: partial identity (role / era / death) | A trapped or captive spirit of consequence | S62 (Dajermube) | S69 |
 | Lithrei: Unshadowed cohort mirror | **Hollowed cohort NPCs** | S90 | S98 |
 | Lithrei: choose rest / integrate / witness | The shadow-fragment work | S95 | S97 |
-| Yggostrus: Koride sees him as specimen | Koride running insect research on campus | S11 (Bug Problems) | S21 |
+| Yggostrus: Koride sees him as specimen | Koride running insect research on campus, **after** the warm contact (S9) | S10 (Bug Problems played S8; debrief S9) | S21 |
 | Yggostrus: asymmetric care (unrepayable gift) | A PC is hurt for his sake | S23 | S42 |
 | Yggostrus: unbinding A/B fork | Soul-trade or identity-for-power material | S76 (Iobane) | S80 |
 | Yggostrus: speaks first to Koride | **Unshadowed Koride** | S92 | S92. There is no later window. |

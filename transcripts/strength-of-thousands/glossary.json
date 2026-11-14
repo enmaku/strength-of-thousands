@@ -198,7 +198,8 @@
         "Teacher Ot",
         "Teacher Alt",
         "Oat",
-        "Ott"
+        "Ott",
+        "Kuluot"
       ],
       "type": "npc",
       "notes": "Cascade Bearer mentor; group interview; kind mathematician. Do not add short synonym \"Up\" — corrupts common words (e.g. right side up)."
@@ -213,7 +214,11 @@
         "Coride",
         "Coride Olawa",
         "Olawa",
-        "Korida"
+        "Korida",
+        "Kuride",
+        "Kurita",
+        "Corridor",
+        "Coridae"
       ],
       "type": "npc",
       "notes": "Rain-Scribe entomologist; acerbic; AP keystone faculty."
@@ -261,7 +266,8 @@
     {
       "canonical": "MODU",
       "synonyms": [
-        "Modu"
+        "Modu",
+        "MoDoo"
       ],
       "type": "npc",
       "notes": "Cy'An's prototype construct; Mobile Oven Defense Unit. Always capitalized in prose — it is an acronym, never \"Modu\". Table also says toaster."
@@ -270,7 +276,10 @@
       "canonical": "Lemoussi",
       "synonyms": [
         "Chef Lemoussi",
-        "Lemousi"
+        "Lemousi",
+        "La Moussi",
+        "Lamousie",
+        "Miss Lamousie"
       ],
       "type": "npc",
       "notes": "Magaambya kitchen cook; brownie recipe Cy'An is chasing (session 5). Distinct from market vendor Lumusi Yao."
@@ -286,7 +295,11 @@
         "Cy",
         "Scy",
         "Scy's",
-        "Sion"
+        "Sion",
+        "Psy",
+        "Sai",
+        "Scion",
+        "Simon"
       ],
       "type": "pc",
       "notes": "Kiri's PC; goblin inventor. Short synonym \"Cy\" needs word-boundary matching — avoid corrupting \"decency\", \"fancy\", etc."
@@ -296,7 +309,9 @@
       "synonyms": [
         "Solanum",
         "Solana",
-        "Drew's character"
+        "Drew's character",
+        "Solanim",
+        "Salon"
       ],
       "type": "pc",
       "notes": "Drew's PC; fruit leshy magus."
@@ -308,7 +323,10 @@
         "Tarann",
         "Taryn",
         "Terran",
-        "Lisa's character"
+        "Lisa's character",
+        "Taran",
+        "Turan",
+        "Tyron"
       ],
       "type": "pc",
       "notes": "Lisa's PC; skyborn tengu cleric/witch; obsessed with learning to fly."
@@ -525,7 +543,9 @@
         "Lithrian",
         "Lithery",
         "Lythry",
-        "Lithu"
+        "Lithu",
+        "Lithri",
+        "Liz"
       ],
       "type": "pc",
       "notes": "Xander's PC; haunted light oracle / investigator."
@@ -686,7 +706,8 @@
       "synonyms": [
         "Aru",
         "Aroo",
-        "Eru"
+        "Eru",
+        "Arrow"
       ],
       "type": "npc",
       "notes": "Taraan Skyseeker's familiar; little gargoyle with words flowing across his body; burrower (session 1–2)."
@@ -944,7 +965,9 @@
         "Archives of Mephys",
         "Nethys",
         "Mephys",
-        "Archives of Nephys"
+        "Archives of Nephys",
+        "Archives of Methus",
+        "Methus"
       ],
       "type": "term",
       "notes": "Official Pathfinder rules reference site."
@@ -1007,7 +1030,9 @@
         "Matu Digimari",
         "Madhu Digimari",
         "Motu Digimari",
-        "Mata Digemari"
+        "Mata Digemari",
+        "Matadigamari",
+        "Mata de Gamari"
       ],
       "type": "npc",
       "notes": "Druid whose Collected Field Notes are one of Ot's five books — the item is a small chest with cramped writing on its wooden surfaces, not a book."
@@ -1062,6 +1087,69 @@
       ],
       "type": "npc",
       "notes": "Former student; now the talking stone entity. Table calls him 'Stoneface'/'Stone Ghost'. Predates nothing here — the stump's abandonment predates Uduak."
+    },
+    {
+      "canonical": "Zuma",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 8: half-orc Emerald Bough teacher; eccentric conspiracy-theorist type, master of defensive magic. Ran the shared-magic tattoo experiment; gave Solanum his hat of the magi."
+    },
+    {
+      "canonical": "Asanda",
+      "synonyms": [
+        "a Sandra"
+      ],
+      "type": "npc",
+      "notes": "Session 8: one of the eleven magistrate-mayors of Nantambu; gave the party a marvelous miniature (chest) after the speaker-stage performance."
+    },
+    {
+      "canonical": "Abena",
+      "synonyms": [
+        "Abina",
+        "Abel"
+      ],
+      "type": "npc",
+      "notes": "Session 8: Magaambya kitchen assistant who hid in the stock cauldron from the centipede swarm."
+    },
+    {
+      "canonical": "Sema",
+      "synonyms": [],
+      "type": "npc",
+      "notes": "Session 8: elf groundskeeper of the Leshy Gardens."
+    },
+    {
+      "canonical": "Leshy Gardens",
+      "synonyms": [
+        "Lushy Gardens",
+        "Lashy Gardens",
+        "Leshy Garden"
+      ],
+      "type": "place",
+      "notes": "Session 8: deliberately overgrown campus garden kept as a home for leshies students can consult."
+    },
+    {
+      "canonical": "speaker stage",
+      "synonyms": [
+        "Speaker Stage"
+      ],
+      "type": "place",
+      "notes": "Session 8: stage on an artificial island at the west end of campus; free public performances."
+    },
+    {
+      "canonical": "Xhokan",
+      "synonyms": [
+        "Zhulkan"
+      ],
+      "type": "npc",
+      "notes": "Kobold who runs the Powderpile; pays a 40 gp stipend per study downtime."
+    },
+    {
+      "canonical": "hat of the magi",
+      "synonyms": [
+        "Hat of the Magi"
+      ],
+      "type": "item",
+      "notes": "Session 8: Zuma's patchwork hat, now Solanum's; +1 Arcana, casts Prestidigitation."
     }
   ],
   "flagOnly": []

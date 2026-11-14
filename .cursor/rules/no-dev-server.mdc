@@ -1,0 +1,22 @@
+---
+description: Never start, stop, or restart the dev server — the user runs quasar dev externally
+alwaysApply: true
+---
+
+# Do not manage the dev server
+
+The user **always** runs `quasar dev` outside Cursor. It hot-restarts on file changes.
+
+## Never do this
+
+- `quasar dev`, `npm run dev`, `npx quasar dev`
+- `kill` / `pkill` on dev-server PIDs
+- Background dev-server launches from the agent
+- `curl localhost:…` to “verify” the running server (assumes agent control)
+- “Restart the dev server” or “hard refresh” as a troubleshooting step
+
+## Instead
+
+- Make code/config fixes and **stop** — the external dev server picks them up
+- If a change needs a restart the agent cannot trigger, **tell the user** in one line; do not run server commands
+- Use file reads, builds (`npm run build`), or tests — not live-server probes
