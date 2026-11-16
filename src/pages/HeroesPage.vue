@@ -34,7 +34,17 @@
             <HeroTile
               v-if="heroTileFor(hero.slug)"
               :tile="heroTileFor(hero.slug)"
-            />
+            >
+              <q-btn
+                v-if="gmMode && heroes[hero.slug]?.pathbuilderId"
+                flat
+                dense
+                color="primary"
+                label="Sync"
+                :loading="refreshingSlug === hero.slug"
+                @click="onRefresh(hero.slug)"
+              />
+            </HeroTile>
           </div>
         </div>
       </template>
@@ -43,9 +53,12 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
+import { useQuasar } from 'quasar'
 import HeroTile from 'components/HeroTile.vue'
 import { useHeroRoster } from '../composables/useHeroRoster.js'
+
+const $q = useQuasar()
 
 const {
   gmMode,
@@ -53,10 +66,15 @@ const {
   error,
   sortedRoster,
   hasOnlyInactiveHeroes,
+  heroes,
   loadRoster,
   loadAllHeroes,
   heroTileFor,
+  ensureHeroLoaded,
+  refreshHero,
 } = useHeroRoster()
+
+const refreshingSlug = ref(null)
 
 onMounted(async () => {
   await loadRoster()
@@ -64,4 +82,17 @@ onMounted(async () => {
     await loadAllHeroes()
   }
 })
+
+async function onRefresh(slug) {
+  refreshingSlug.value = slug
+  try {
+    await ensureHeroLoaded(slug)
+    await refreshHero(slug)
+    $q.notify({ type: 'positive', message: 'Hero synced from PathBuilder' })
+  } catch (err) {
+    $q.notify({ type: 'negative', message: err.message })
+  } finally {
+    refreshingSlug.value = null
+  }
+}
 </script>

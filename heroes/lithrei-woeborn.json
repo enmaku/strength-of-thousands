@@ -1,5 +1,5 @@
 {
-  "pathbuilderId": 456485,
+  "pathbuilderId": 264031,
   "displayName": "Lithrei Woeborn",
   "tagline": "Human · Life oracle / Investigator · Haunted · he/him",
   "bio": "Lithrei Woeborn is a Magaambya initiate whose life as an oracle is haunted by clinging spirits and a curse that pours vitality outward whether he wills it or not. He received his acceptance letter while confined in a healer monastery during a dangerous fugue, and came seeking control and understanding rather than escape alone. Stylish and observant, he has become the cohort's quiet investigator — reading hauntings and omens, including the darkness that unsettles classmate Noxolo.",
@@ -13,8 +13,8 @@
     "heritage": "Custom Mixed Heritage",
     "background": "Haunted",
     "alignment": "N",
-    "gender": "Not set",
-    "age": "Not set",
+    "gender": "boy",
+    "age": "24",
     "deity": "Not set",
     "size": 2,
     "sizeName": "Medium",
@@ -94,13 +94,13 @@
       "intimidation": 2,
       "medicine": 2,
       "nature": 2,
-      "occultism": 2,
+      "occultism": 4,
       "performance": 2,
       "religion": 2,
       "society": 2,
       "stealth": 2,
       "survival": 2,
-      "thievery": 0,
+      "thievery": 2,
       "piloting": 0,
       "computers": 0
     },
@@ -123,6 +123,12 @@
         null,
         "Awarded Feat",
         1
+      ],
+      [
+        "Experienced Tracker",
+        null,
+        "Awarded Feat",
+        2
       ],
       [
         "Custom Mixed Heritage",
@@ -150,6 +156,60 @@
         "Human Feat 1",
         "standardChoice",
         null
+      ],
+      [
+        "Innate Understanding",
+        null,
+        "Ancestry Feat",
+        1,
+        "Ancestry Paragon 1",
+        "standardChoice",
+        null
+      ],
+      [
+        "Additional Lore",
+        null,
+        "General Feat",
+        2,
+        "726084f3-6563-4a78-a8f6-cbf3aef4e90d",
+        "standardChoice",
+        null
+      ],
+      [
+        "Dubious Knowledge",
+        null,
+        "Skill Feat",
+        2,
+        "Skill Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Domain Acumen",
+        null,
+        "Class Feat",
+        2,
+        "Oracle Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Shared Stratagem",
+        null,
+        "Class Feat",
+        2,
+        "Investigator Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Detective Dedication",
+        null,
+        "Archetype Feat",
+        2,
+        "Free Archetype 2",
+        "standardChoice",
+        null
       ]
     ],
     "specials": [
@@ -157,6 +217,7 @@
       "Curse of Outpouring Life",
       "Revelation Spells",
       "Oracular Curse",
+      "Oracle Spellcasting",
       "Pursue a Lead",
       "Clue In",
       "Devise a Stratagem",
@@ -165,9 +226,15 @@
       "Pointed Question",
       "Samsaran",
       "No special vision",
+      "Soul",
       "Custom Mixed Heritage"
     ],
-    "lores": [],
+    "lores": [
+      [
+        "Acedemia",
+        2
+      ]
+    ],
     "equipmentContainers": {
       "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d": {
         "containerName": "Backpack",
@@ -229,6 +296,11 @@
         1,
         "0f3dd0e9-0417-4ad2-9c04-3eadf3ac715d",
         "Invested"
+      ],
+      [
+        "Bloodsalt folio",
+        1,
+        "Invested"
       ]
     ],
     "specificProficiencies": {
@@ -237,14 +309,64 @@
       "master": [],
       "legendary": []
     },
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Bladed Scarf",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Bladed Scarf",
+        "runes": [],
+        "damageType": "S",
+        "attack": 4,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Branch Implement (Lithrei)",
+        "qty": 1,
+        "prof": "simple",
+        "die": "d8",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Branch Implement (Lithrei)",
+        "runes": [],
+        "damageType": "S",
+        "attack": 4,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      }
+    ],
     "money": {
       "cp": 0,
       "sp": 5,
-      "gp": 13,
+      "gp": 58,
       "pp": 0
     },
-    "armor": [],
+    "armor": [
+      {
+        "name": "Armored Cloak",
+        "qty": 1,
+        "prof": "light",
+        "pot": 0,
+        "res": "",
+        "mat": null,
+        "display": "Armored Cloak",
+        "worn": true,
+        "runes": [],
+        "grade": ""
+      }
+    ],
     "spellCasters": [
       {
         "name": "Oracle",
@@ -256,7 +378,7 @@
         "innate": false,
         "perDay": [
           5,
-          3,
+          4,
           0,
           0,
           0,
@@ -275,7 +397,8 @@
               "Wash Your Luck",
               "Message",
               "Glamorize",
-              "Read the Air"
+              "Read the Air",
+              "Vitality Lash"
             ]
           },
           {
@@ -283,8 +406,84 @@
             "list": [
               "Spirit Ward",
               "Defended by Spirits",
-              "Command"
+              "Command",
+              "Sanctuary",
+              "Soothe"
             ]
+          }
+        ],
+        "prepared": [],
+        "blendedSpells": []
+      },
+      {
+        "name": "Other Spells (Staves etc)",
+        "magicTradition": "arcane",
+        "spellcastingType": "prepared",
+        "ability": "cha",
+        "proficiency": 0,
+        "focusPoints": 0,
+        "innate": false,
+        "perDay": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "spells": [
+          {
+            "spellLevel": 0,
+            "list": [
+              "Daze"
+            ]
+          },
+          {
+            "spellLevel": 1,
+            "list": [
+              "Cycle of Retribution"
+            ]
+          },
+          {
+            "spellLevel": 2,
+            "list": []
+          },
+          {
+            "spellLevel": 3,
+            "list": []
+          },
+          {
+            "spellLevel": 4,
+            "list": []
+          },
+          {
+            "spellLevel": 5,
+            "list": []
+          },
+          {
+            "spellLevel": 6,
+            "list": []
+          },
+          {
+            "spellLevel": 7,
+            "list": []
+          },
+          {
+            "spellLevel": 8,
+            "list": []
+          },
+          {
+            "spellLevel": 9,
+            "list": []
+          },
+          {
+            "spellLevel": 10,
+            "list": []
           }
         ],
         "prepared": [],
@@ -314,14 +513,17 @@
         "spells": [
           {
             "spellLevel": 0,
-            "list": []
+            "list": [
+              "Guidance",
+              "Glowing Trail"
+            ]
           }
         ],
         "prepared": [],
         "blendedSpells": []
       }
     ],
-    "focusPoints": 1,
+    "focusPoints": 2,
     "focus": {
       "divine": {
         "cha": {
@@ -330,17 +532,18 @@
           "itemBonus": 0,
           "focusCantrips": [],
           "focusSpells": [
-            "Life Link"
+            "Life Link",
+            "Eject Soul"
           ]
         }
       }
     },
     "formula": [],
     "acTotal": {
-      "acProfBonus": 3,
+      "acProfBonus": 4,
       "acAbilityBonus": 0,
-      "acItemBonus": 0,
-      "acTotal": 13,
+      "acItemBonus": 1,
+      "acTotal": 15,
       "shieldBonus": null
     },
     "pets": [],

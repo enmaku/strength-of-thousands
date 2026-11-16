@@ -1,10 +1,10 @@
 {
   "pathbuilderId": 450903,
-  "displayName": "Taraan Skyseeker",
+  "displayName": "Taraan Skyseeker (Lisa)",
   "tagline": "Skyborn tengu · Cleric of Soralyon / Witch · Archaeologist · he/him",
   "bio": "Taraan Skyseeker is a skyborn tengu cleric of Soralyon with witch training, raised by clergy after escaping the pirate coast. He treats the preservation of ruins as an act of worship, carries the scripture-etched blade Wordreaper, and works with an earth-wisp familiar that burrows through notes and stone alike. Obsessed with learning to fly, he has thrown himself into mapping the tunnels beneath the Spire and already recognized Anadi true form when Zachva and Zanvi shifted mid-play.",
   "build": {
-    "name": "Taraan Skyseeker",
+    "name": "Taraan Skyseeker (Lisa)",
     "class": "Cleric",
     "dualClass": "Witch",
     "level": 2,
@@ -25,6 +25,7 @@
       "Empyrean",
       "Mwangi",
       "Xanmba",
+      "Taldan (common)",
       "Tengu"
     ],
     "rituals": [],
@@ -91,18 +92,18 @@
       "castingPrimal": 0,
       "acrobatics": 2,
       "arcana": 2,
-      "athletics": 0,
+      "athletics": 2,
       "crafting": 2,
-      "deception": 2,
+      "deception": 0,
       "diplomacy": 2,
-      "intimidation": 0,
+      "intimidation": 2,
       "medicine": 2,
       "nature": 2,
-      "occultism": 2,
+      "occultism": 0,
       "performance": 2,
       "religion": 2,
       "society": 2,
-      "stealth": 2,
+      "stealth": 0,
       "survival": 2,
       "thievery": 0,
       "piloting": 0,
@@ -124,16 +125,16 @@
         1
       ],
       [
-        "Oddity Identification",
+        "Additional Lore",
         null,
         "Awarded Feat",
         1
       ],
       [
-        "Additional Lore",
+        "Enhanced Familiar",
         null,
         "Awarded Feat",
-        1
+        2
       ],
       [
         "Skyborn Tengu",
@@ -145,11 +146,74 @@
         null
       ],
       [
+        "Additional Lore",
+        null,
+        "General Feat",
+        1,
+        "c3820eac-11a8-4b44-8d03-31fe24f3e1cf",
+        "standardChoice",
+        null
+      ],
+      [
         "Tengu Lore",
         null,
         "Ancestry Feat",
         1,
         "Tengu Feat 1",
+        "standardChoice",
+        null
+      ],
+      [
+        "Additional Lore",
+        null,
+        "Skill Feat",
+        1,
+        "BACKGROUND_Archaeologistchild1",
+        "standardChoice",
+        null
+      ],
+      [
+        "Scavenger's Search",
+        null,
+        "Ancestry Feat",
+        1,
+        "Ancestry Paragon 1",
+        "standardChoice",
+        null
+      ],
+      [
+        "Skill Training",
+        "Intimidation",
+        "Skill Feat",
+        2,
+        "Skill Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Sap Life",
+        null,
+        "Class Feat",
+        2,
+        "Cleric Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Basic Lesson",
+        null,
+        "Class Feat",
+        2,
+        "Witch Feat 2",
+        "standardChoice",
+        null
+      ],
+      [
+        "Familiar Master Dedication",
+        null,
+        "Archetype Feat",
+        2,
+        "Free Archetype 2",
         "standardChoice",
         null
       ]
@@ -168,22 +232,36 @@
       "Witch Spellcasting",
       "Low-Light Vision",
       "Sharp Beak",
+      "Lesson of the Elements",
+      "Enhanced Familiar Feat",
       "Skyborn Tengu"
     ],
     "lores": [
       [
-        "Ancient Regional",
+        "Architecture",
+        2
+      ],
+      [
+        "Fey",
         2
       ],
       [
         "Tengu",
         2
+      ],
+      [
+        "ancient mwangi expanse",
+        2
+      ],
+      [
+        "Magambya",
+        2
       ]
     ],
     "equipmentContainers": {
-      "6e551de0-1895-4805-9919-8c6e99b3fd3e": {
-        "containerName": "Bag of holding",
-        "bagOfHolding": true,
+      "9c8ec35f-e845-486e-81d6-bf57fc9522c3": {
+        "containerName": "Smuggler's Sack",
+        "bagOfHolding": false,
         "backpack": false,
         "augmentations": false
       }
@@ -291,40 +369,54 @@
       ],
       [
         "Sack",
-        5,
+        1,
         "Invested"
       ],
       [
         "Merciful Balm",
         1,
         "Invested"
+      ],
+      [
+        "Scroll of Sure Strike",
+        1,
+        "Invested"
+      ],
+      [
+        "Smuggler's Sack II",
+        1,
+        "Invested"
+      ],
+      [
+        "Clothing (Explorer's)",
+        1,
+        "Invested"
+      ],
+      [
+        "Flint and Steel",
+        1,
+        "Invested"
+      ],
+      [
+        "Scroll of Augury",
+        1,
+        "Invested"
+      ],
+      [
+        "Scroll of Fleet Step",
+        1,
+        "Invested"
       ]
     ],
     "specificProficiencies": {
-      "trained": [],
+      "trained": [
+        "Pick"
+      ],
       "expert": [],
       "master": [],
       "legendary": []
     },
     "weapons": [
-      {
-        "name": "Fist",
-        "qty": 1,
-        "prof": "unarmed",
-        "die": "d4",
-        "pot": 0,
-        "str": "",
-        "mat": null,
-        "display": "Fist",
-        "runes": [],
-        "damageType": "B",
-        "attack": 5,
-        "damageBonus": 0,
-        "extraDamage": [],
-        "increasedDice": false,
-        "isInventor": false,
-        "grade": ""
-      },
       {
         "name": "Sharp Beak",
         "qty": 1,
@@ -336,7 +428,25 @@
         "display": "Sharp Beak",
         "runes": [],
         "damageType": "P",
-        "attack": 5,
+        "attack": 6,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Margent",
+        "qty": 1,
+        "prof": "simple",
+        "die": "d4",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Margent",
+        "runes": [],
+        "damageType": "B",
+        "attack": 4,
         "damageBonus": 0,
         "extraDamage": [],
         "increasedDice": false,
@@ -354,7 +464,25 @@
         "display": "Wordreaper",
         "runes": [],
         "damageType": "S",
-        "attack": 6,
+        "attack": 7,
+        "damageBonus": 0,
+        "extraDamage": [],
+        "increasedDice": false,
+        "isInventor": false,
+        "grade": ""
+      },
+      {
+        "name": "Pick",
+        "qty": 1,
+        "prof": "martial",
+        "die": "d6",
+        "pot": 0,
+        "str": "",
+        "mat": null,
+        "display": "Pick",
+        "runes": [],
+        "damageType": "P",
+        "attack": 4,
         "damageBonus": 0,
         "extraDamage": [],
         "increasedDice": false,
@@ -363,9 +491,9 @@
       }
     ],
     "money": {
-      "cp": 0,
-      "sp": 0,
-      "gp": 300,
+      "cp": 7,
+      "sp": 9,
+      "gp": 84,
       "pp": 0
     },
     "armor": [
@@ -404,8 +532,8 @@
         "focusPoints": 0,
         "innate": false,
         "perDay": [
-          5,
-          2,
+          6,
+          3,
           0,
           0,
           0,
@@ -423,15 +551,17 @@
               "Stabilize",
               "Forbidding Ward",
               "Torturous Trauma",
-              "Daze",
-              "Divine Lance"
+              "Detect Magic",
+              "Divine Lance",
+              "Dancing Lights"
             ]
           },
           {
             "spellLevel": 1,
             "list": [
               "Summon Construct",
-              "Admonishing Ray"
+              "Admonishing Ray",
+              "Helpful Steps"
             ]
           }
         ],
@@ -487,7 +617,7 @@
         "innate": false,
         "perDay": [
           5,
-          2,
+          3,
           0,
           0,
           0,
@@ -502,27 +632,24 @@
           {
             "spellLevel": 0,
             "list": [
-              "Needle Darts",
-              "Eat Fire",
-              "Infectious Enthusiasm",
-              "Timber",
-              "Telekinetic Projectile",
-              "Detect Magic",
-              "Spout",
-              "Slashing Gust",
               "Scatter Scree",
-              "Read Aura",
-              "Protect Companion",
-              "Prestidigitation"
+              "Prestidigitation",
+              "Electric Arc",
+              "Needle Darts",
+              "Artistic Recollection"
             ]
           },
           {
             "spellLevel": 1,
             "list": [
               "Elysian Whimsy",
-              "Mindlink",
-              "Sure Strike",
-              "Charm"
+              "Charm",
+              "Shattering Gem",
+              "Admonishing Ray",
+              "Pocket Library",
+              "Alarm",
+              "Horizon Thunder Sphere",
+              "True Strike"
             ]
           }
         ],
@@ -531,31 +658,33 @@
             "spellLevel": 0,
             "list": [
               "Prestidigitation",
-              "Eat Fire",
-              "Infectious Enthusiasm",
-              "Telekinetic Projectile",
-              "Detect Magic"
+              "Electric Arc",
+              "Scatter Scree",
+              "Needle Darts",
+              "Artistic Recollection"
             ]
           },
           {
             "spellLevel": 1,
             "list": [
-              "Elysian Whimsy",
-              "Sure Strike"
+              "Shattering Gem",
+              "Pocket Library",
+              "True Strike"
             ]
           }
         ],
         "blendedSpells": []
       },
       {
-        "name": "8a96ed2f-b2bc-4c46-8693-481e2fdbeb42",
+        "name": "Other Spells (Staves etc)",
         "magicTradition": "arcane",
         "spellcastingType": "prepared",
         "ability": "cha",
         "proficiency": 2,
         "focusPoints": 0,
-        "innate": true,
+        "innate": false,
         "perDay": [
+          1,
           1,
           0,
           0,
@@ -565,22 +694,63 @@
           0,
           0,
           0,
-          0,
           0
         ],
         "spells": [
           {
             "spellLevel": 0,
             "list": [
-              "Telekinetic Hand"
+              "Message"
             ]
+          },
+          {
+            "spellLevel": 1,
+            "list": [
+              "Fear"
+            ]
+          },
+          {
+            "spellLevel": 2,
+            "list": []
+          },
+          {
+            "spellLevel": 3,
+            "list": []
+          },
+          {
+            "spellLevel": 4,
+            "list": []
+          },
+          {
+            "spellLevel": 5,
+            "list": []
+          },
+          {
+            "spellLevel": 6,
+            "list": []
+          },
+          {
+            "spellLevel": 7,
+            "list": []
+          },
+          {
+            "spellLevel": 8,
+            "list": []
+          },
+          {
+            "spellLevel": 9,
+            "list": []
+          },
+          {
+            "spellLevel": 10,
+            "list": []
           }
         ],
         "prepared": [],
         "blendedSpells": []
       }
     ],
-    "focusPoints": 1,
+    "focusPoints": 2,
     "focus": {
       "arcane": {
         "int": {
@@ -591,31 +761,34 @@
             "Discern Secrets"
           ],
           "focusSpells": [
-            "Phase Familiar"
+            "Phase Familiar",
+            "Elemental Betrayal"
           ]
         }
       }
     },
     "formula": [],
     "acTotal": {
-      "acProfBonus": 3,
+      "acProfBonus": 4,
       "acAbilityBonus": 2,
       "acItemBonus": 2,
-      "acTotal": 17,
+      "acTotal": 18,
       "shieldBonus": "1"
     },
     "pets": [],
     "familiars": [
       {
         "type": "Familiar",
-        "name": "Elemental Wisp (Earth)",
+        "name": "Elemental Wisp (Earth) (Erudite (Eru))",
         "equipment": [],
         "specific": "Elemental Wisp (Earth)",
         "abilities": [
           "Accompanist",
           "Elemental",
           "Speech",
-          "Burrower"
+          "Burrower",
+          "Independent",
+          "Tough"
         ]
       }
     ]

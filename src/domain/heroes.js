@@ -1,3 +1,5 @@
+import { deriveHeroTile } from './pathbuilder.js'
+
 export function slugify(displayName) {
   return displayName
     .trim()
@@ -47,9 +49,17 @@ export function deriveHeroBioTile(hero) {
   const name = hero.displayName?.trim()
   const bio = hero.bio?.trim()
   if (!name || !bio) return null
-  return {
+
+  const tile = {
     name,
     tagline: hero.tagline?.trim() || '',
     bio,
   }
+
+  if (hero.build) {
+    const stats = deriveHeroTile(hero.build)
+    Object.assign(tile, stats)
+  }
+
+  return tile
 }
