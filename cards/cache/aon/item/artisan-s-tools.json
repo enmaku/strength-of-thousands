@@ -1,0 +1,61 @@
+{
+ "base_item_markdown": "",
+ "bulk": 2,
+ "bulk_raw": "2",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "2",
+ "id": "equipment-3",
+ "item_category": "Adventuring Gear",
+ "item_child_id": [
+  "equipment-3-3",
+  "equipment-3-4"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0+\"\n    pfs=\"Standard\"\n>\n[Artisan's Tools](/Equipment.aspx?ID=3)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n**Hands** 2\n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nYou need these tools to create items from raw materials with the [Craft](/Actions.aspx?ID=43) skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them. \n\nYou can use a set of tools with 1 hand if you're [wearing them](/Rules.aspx?ID=1456) or 2 if you're holding them.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nArtisan's Tools\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n**Bulk** 2\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nArtisan's Tools (Sterling)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 50 gp\n\n<row gap=\"medium\">\n\n**Bulk** 2\n\n</row>\n\n</column>\n\n---\n\nSterling artisan's tools give you a +1 item bonus to the check. ",
+ "name": "Artisan's Tools",
+ "pfs": "Standard",
+ "price": 400,
+ "price_raw": "4 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 287",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "equipment-2703"
+ ],
+ "remaster_name": [
+  "Artisan's Toolkit"
+ ],
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n**Hands** 2\n\n \n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYou need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026\n</summary>",
+ "skill": [
+  "Crafting"
+ ],
+ "skill_markdown": "[Crafting](/Skills.aspx?ID=4)",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 287"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 287",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026",
+ "summary_markdown": "You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026",
+ "text": "Item 0+ Artisan's Tools Source Core Rulebook pg. 287 Price 4 gp Hands 2 Bulk 2 You need these tools to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, blacksmith's tools differ from woodworker's tools. If you wear your artisan's tools, you can draw and replace them as part of the action that uses them. You can use a set of tools with 1 hand if you're wearing them or 2 if you're holding them. Item 0 Artisan's Tools Source Core Rulebook pg. 287 Price 4 gp Bulk 2 Item 3 Artisan's Tools (Sterling) Source Core Rulebook pg. 287 Price 50 gp Bulk 2 Sterling artisan's tools give you a +1 item bonus to the check.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:22-08:00"
+}

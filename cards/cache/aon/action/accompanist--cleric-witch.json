@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-108",
+ "legacy_id": [
+  "familiar-ability-25"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Accompanist](/Familiars.aspx?ID=108) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n\n</column>\n\nYour familiar helps you perform. Whenever you attempt a [Performance](/Skills.aspx?ID=12) check, if your familiar is nearby and can act, it accompanies you with chirps, claps, or its own miniature instrument. This grants you a +1 circumstance bonus, or +2 if you're a master in Performance.",
+ "name": "Accompanist",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 212",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nYour familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 212"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 212",
+ "speed": {},
+ "summary": "Your familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, \u2026",
+ "summary_markdown": "Your familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, \u2026",
+ "text": "Familiar Ability Accompanist Source Player Core pg. 212 Ability Type Familiar Your familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, claps, or its own miniature instrument. This grants you a +1 circumstance bonus, or +2 if you're a master in Performance.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=108",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:38-08:00"
+}

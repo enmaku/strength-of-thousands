@@ -1,0 +1,48 @@
+{
+ "attribute": [
+  "Intelligence"
+ ],
+ "category": "skill",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "skill-47",
+ "legacy_id": [
+  "skill-14"
+ ],
+ "markdown": "<title level=\"1\" right=\"Skill \" pfs=\"\">[Society](/Skills.aspx?ID=47)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 244\n\nYou understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. Further, you can use that knowledge to navigate the complex physical, societal, and economic workings of settlements.\n\n<title level=\"2\">Society Untrained General Actions</title>\n\n- [Recall Knowledge](/Skills.aspx?ID=24&amp;General=true) about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of humans ruled by dragons.\n\n- [Subsist](/Skills.aspx?ID=25&amp;General=true) in a settlement by finding shelter, scrounging, or begging for food.\n\n<title level=\"2\">Society Trained General Actions</title>\n\n- [Decipher Writing](/Skills.aspx?ID=20&amp;General=true) that's a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don't know.\n\n<title level=\"2\">Item Bonuses for Society</title>\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Bonus</th>\n<th>Level</th>\n<th>Category</th>\n<th>Consumable</th>\n<th>Note</th>\n</tr>\n</thead>\n<tbody>\n\n<tr>\n<td>[Essence Charm](/Equipment.aspx?ID=3795)</td>\n<td>+1</td>\n<td>4</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td>Item bonus to a check of the crafter's choice</td>\n</tr>\n\n<tr>\n<td>[Kols's Oath](/Equipment.aspx?ID=3770)</td>\n<td>+1</td>\n<td>5</td>\n<td>[Clan Dagger Filigrees](/equipment/runes/clan-dagger-filigrees)</td>\n<td>No</td>\n<td>Item bonus to Society checks</td>\n</tr>\n\n<tr>\n<td>[Pristine Epaulets](/Equipment.aspx?ID=3975)</td>\n<td>+1</td>\n<td>5</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td>Item bonus to Society</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Lesser)](/Equipment.aspx?ID=3316)</td>\n<td>+1</td>\n<td>1</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Humbug Pocket](/Equipment.aspx?ID=3089)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Greater Kols's Oath](/Equipment.aspx?ID=3770)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Clan Dagger Filigrees](/equipment/runes/clan-dagger-filigrees)</td>\n<td>No</td>\n<td>Item bonus to Society checks</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal](/Equipment.aspx?ID=3435)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Moderate)](/Equipment.aspx?ID=3316)</td>\n<td>+2</td>\n<td>3</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Humbug Pocket (Greater)](/Equipment.aspx?ID=3089)</td>\n<td>+3</td>\n<td>17</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Checks to [Conceal an Object](/Actions.aspx?ID=2403)</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal (Greater)](/Equipment.aspx?ID=3435)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Golden Gloves](/Equipment.aspx?ID=3647)</td>\n<td>+3</td>\n<td>19</td>\n<td>[Apex Items](/equipment/apex-items)</td>\n<td>No</td>\n<td>item bonus to Athletics checks</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Greater)](/Equipment.aspx?ID=3316)</td>\n<td>+3</td>\n<td>11</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Major)](/Equipment.aspx?ID=3316)</td>\n<td>+4</td>\n<td>17</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n</tbody>\n</table>\n\n<title level=\"2\">Related Feats</title>\n\nTo see a list of Feats related to Society, [click here](/feats?include-traits=skill&amp;exclude-traits=archetype&amp;include-skills=society&amp;sort=level-asc%3Bname-asc).\n\n<title level=\"2\">Society Trained Actions</title>\n\n<document level=\"3\" id=\"action-2402\" />",
+ "name": "Society",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 244",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 244\n</additional-info>\n\n---\n\n<summary>\nYou understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. \u2026\n</summary>",
+ "skill": [
+  "Society"
+ ],
+ "skill_markdown": "Society",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 244"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 244",
+ "speed": {},
+ "sub_document_id": [
+  "action-2402"
+ ],
+ "summary": "You understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. \u2026",
+ "summary_markdown": "You understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. \u2026",
+ "text": "Skill Society Source Player Core pg. 244 You understand the people and systems that make civilization run, and you know the historical events that make societies what they are today. Further, you can use that knowledge to navigate the complex physical, societal, and economic workings of settlements. Society Untrained General Actions - Recall Knowledge about local history, important personalities, legal institutions, societal structure, and humanoid cultures. The GM might allow Society to apply to other creatures that are major elements of society in your region, such as the draconic nobility in a kingdom of humans ruled by dragons. - Subsist in a settlement by finding shelter, scrounging, or begging for food. Society Trained General Actions - Decipher Writing that's a coded message, text written in an incomplete or archaic form, or in some cases, text in a language you don't know. Item Bonuses for Society Item Bonus Level Category Consumable Note Essence Charm +1 4 Other Worn Items No Item bonus to a check of the crafter's choice Kols's Oath +1 5 Clan Dagger Filigrees No Item bonus to Society checks Pristine Epaulets +1 5 Other Worn Items No Item bonus to Society Cognitive Mutagen (Lesser) +1 1 Alchemical Elixirs Yes Humbug Pocket +2 9 Worn Items No Greater Kols's Oath +2 11 Clan Dagger Filigrees No Item bonus to Society checks Helm of Zeal +2 11 Worn Items No Item bonus of the associated Deity's Divine Skill Cognitive Mutagen (Moderate) +2 3 Alchemical Elixirs Yes Humbug Pocket (Greater) +3 17 Worn Items No Checks to Conceal an Object Helm of Zeal (Greater) +3 18 Worn Items No Item bonus of the associated Deity's Divine Skill Golden Gloves +3 19 Apex Items No item bonus to Athletics checks Cognitive Mutagen (Greater) +3 11 Alchemical Elixirs Yes Cognitive Mutagen (Major) +4 17 Alchemical Elixirs Yes Related Feats To see a list of Feats related to Society, click here. Society Trained Actions Action Create Forgery Downtime Secret Source Player Core pg. 244 Requirements You provide the proper writing materials for your forgery. You create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 Society check. If you need to forge a specific person's handwriting, you need a sample of that person's handwriting. Otherwise, you need only to have seen a similar document, and you gain up to a +4 circumstance bonus to the check (the GM determines the bonus). Success The forgery is of good enough quality that passive observers can't notice the fake (but see Examining Forgeries). Failure The forgery has some obvious signs of being a fake, potentially allowing passive observers to detect it. Each time a passive observer sees the document, the GM compares your check result to the observer's Perception DC or Society DC, whichever is higher. If your result doesn't exceed a passive observer's DC, that observer knows the document is a forgery.",
+ "type": "Skill",
+ "url": "/Skills.aspx?ID=47",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:32-08:00"
+}

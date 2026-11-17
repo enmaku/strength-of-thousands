@@ -1,0 +1,49 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "2",
+ "id": "equipment-1337",
+ "item_category": "Adventuring Gear",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0\"\n    pfs=\"Standard\"\n>\n[Paint Set](/Equipment.aspx?ID=1337)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 59\n\n**Price** 1 gp\n\n<row gap=\"medium\">\n\n**Hands** 2\n\n**Usage** held in 2 hands\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint set with extra paints and canvas for 1 sp.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Paint Set",
+ "pfs": "Standard",
+ "price": 100,
+ "price_raw": "1 gp",
+ "primary_source": "Grand Bazaar",
+ "primary_source_raw": "Grand Bazaar pg. 59",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2021-10-13",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Grand Bazaar](/Sources.aspx?ID=100) pg. 59\n\n**Price** 1 gp\n\n<row gap=\"medium\">\n**Hands** 2\n\n**Usage** held in 2 hands\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Grand Bazaar"
+ ],
+ "source_raw": [
+  "Grand Bazaar pg. 59"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Grand Bazaar](/Sources.aspx?ID=100) pg. 59",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint \u2026",
+ "summary_markdown": "This set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint \u2026",
+ "text": "Item 0 Paint Set Source Grand Bazaar pg. 59 Price 1 gp Hands 2 Usage held in 2 hands Bulk L This set of painting supplies includes paints, brushes, jars, a palette, a set of small canvases, and a miniature easel. You can refill your paint set with extra paints and canvas for 1 sp.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=1337",
+ "usage": "held in 2 hands",
+ "usage_markdown": "held in 2 hands",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:25-08:00"
+}

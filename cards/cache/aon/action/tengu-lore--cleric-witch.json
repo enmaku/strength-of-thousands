@@ -1,0 +1,56 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Tengu Lore"
+ ],
+ "feat_markdown": "Tengu Lore",
+ "id": "feat-5678",
+ "legacy_id": [
+  "feat-1313"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Tengu Lore](/Feats.aspx?ID=5678) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=776\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 34\n\n</column>\n\n---\n\nYou learned skills for surviving in the place where your people were dispersed. You gain the trained proficiency rank in [Society](/Skills.aspx?ID=47) and [Survival](/Skills.aspx?ID=49). If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.\n\n You also gain the [Additional Lore](/Feats.aspx?ID=5114) general feat for [Tengu Lore](/Skills.aspx?ID=41).",
+ "name": "Tengu Lore",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 34",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=776\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 34\n\n</additional-info>\n\n---\n\n<summary>\nYou learned skills for surviving in the place where your people were dispersed.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 34"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 34",
+ "speed": {},
+ "summary": "You learned skills for surviving in the place where your people were dispersed.",
+ "summary_markdown": "You learned skills for surviving in the place where your people were dispersed.",
+ "text": "Feat 1 Tengu Lore Tengu Source Player Core 2 pg. 34 You learned skills for surviving in the place where your people were dispersed. You gain the trained proficiency rank in Society and Survival. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also gain the Additional Lore general feat for Tengu Lore.",
+ "trait": [
+  "Tengu"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon"
+ ],
+ "trait_markdown": "[Tengu](/Traits.aspx?ID=776)",
+ "trait_raw": [
+  "Tengu"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5678",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:34-08:00"
+}

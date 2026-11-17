@@ -1,0 +1,62 @@
+{
+ "ac": 1,
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "shield",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hardness": 3,
+ "hardness_raw": "3",
+ "hp": 12,
+ "hp_raw": "12 (6)",
+ "id": "shield-5",
+ "item_category": "Shields",
+ "item_subcategory": "Base Shields",
+ "legacy_id": [
+  "shield-21"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Shield 0\"\n    pfs=\"Standard\"\n>\n[Caster's Targe](/Shields.aspx?ID=5)\n</title>\n\n<traits>\n<trait label=\"Inscribed\" url=\"/Traits.aspx?ID=480\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 20\n\n<row gap=\"medium\">\n**Price** 2 gp\n\n**AC Bonus** 1 \n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Bulk** 1\n\n**Hardness** 3\n\n**HP (BT)** 12 (6)\n</row>\n\n</column>\n\n---\n\nThis small shield is made from wood. It features a special panel of parchment along the inside surface that allows for writing.",
+ "name": "Caster's Targe",
+ "pfs": "Standard",
+ "price": 200,
+ "price_raw": "2 gp",
+ "primary_source": "Treasure Vault (Remastered)",
+ "primary_source_raw": "Treasure Vault (Remastered) pg. 20",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-06-04",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Inscribed\" url=\"/Traits.aspx?ID=480\" />\n</traits>\n\n<additional-info>\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 20\n\n<row gap=\"medium\">\n**Price** 2 gp\n\n**AC Bonus** 1 \n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Bulk** 1\n\n**Hardness** 3\n\n**HP (BT)** 12 (6)\n</row>\n</additional-info>\n\n---\n\n<summary>\nThis small shield is made from wood. It features a special panel of parchment along the inside surface that allows for writing.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Treasure Vault (Remastered)"
+ ],
+ "source_raw": [
+  "Treasure Vault (Remastered) pg. 20"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 20",
+ "speed": {},
+ "summary": "This small shield is made from wood. It features a special panel of parchment along the inside surface that allows for writing.",
+ "summary_markdown": "This small shield is made from wood. It features a special panel of parchment along the inside surface that allows for writing.",
+ "text": "Shield 0 Caster's Targe Inscribed Source Treasure Vault (Remastered) pg. 20 Price 2 gp AC Bonus 1 Speed Penalty \u2014 Bulk 1 Hardness 3 HP (BT) 12 (6) This small shield is made from wood. It features a special panel of parchment along the inside surface that allows for writing.",
+ "trait": [
+  "Inscribed"
+ ],
+ "trait_group": [
+  "Armor",
+  "Shield"
+ ],
+ "trait_markdown": "[Inscribed](/Traits.aspx?ID=480)",
+ "trait_raw": [
+  "Inscribed"
+ ],
+ "type": "Item",
+ "url": "/Shields.aspx?ID=5",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:22-08:00"
+}

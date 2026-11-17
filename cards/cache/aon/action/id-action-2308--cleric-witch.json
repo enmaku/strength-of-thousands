@@ -1,0 +1,45 @@
+{
+ "actions": "Reaction",
+ "actions_number": 1,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2308",
+ "legacy_id": [
+  "action-91"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Arrest a Fall](/Actions.aspx?ID=2308) <actions string=\"Reaction\" /></title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n**Trigger** You fall.\n\n**Requirements** You have a fly Speed.\n\n</column>\n\n---\n\nYou attempt your choice of an [Acrobatics](/Skills.aspx?ID=1) check or Reflex save to slow your fall. The DC is typically 15, but it might be higher due to air turbulence or other circumstances.\n\n**Success** You take no damage from the fall.",
+ "name": "Arrest a Fall",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 418",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have a fly Speed.",
+ "requirement_markdown": "You have a fly Speed.",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n**Trigger**\nYou fall.\n\n**Requirement**\nYou have a fly Speed.\n</additional-info>\n\n---\n\n<summary>\nYou attempt your choice of an Acrobatics check or Reflex save to slow your fall. The DC is typically 15, but it might be higher due to air turbulence \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 418"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 418",
+ "speed": {},
+ "summary": "You attempt your choice of an Acrobatics check or Reflex save to slow your fall. The DC is typically 15, but it might be higher due to air turbulence \u2026",
+ "summary_markdown": "You attempt your choice of an Acrobatics check or Reflex save to slow your fall. The DC is typically 15, but it might be higher due to air turbulence \u2026",
+ "text": "Action Arrest a Fall Reaction Source Player Core pg. 418 Trigger You fall. Requirements You have a fly Speed. You attempt your choice of an Acrobatics check or Reflex save to slow your fall. The DC is typically 15, but it might be higher due to air turbulence or other circumstances. Success You take no damage from the fall.",
+ "trait_markdown": "",
+ "trigger": "You fall.",
+ "trigger_markdown": "You fall.",
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2308",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:42-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "4e1e41f85ad0",
+ "front": "Scan an area for hidden or undetected creatures, objects, secret doors, or hazards with a secret Perception check.",
+ "back": "Area is usually 30 ft or less; GM may penalize distant searching. GM rolls one secret Perception check vs. Stealth DCs or object detection DCs.\nCrit Success: hidden/undetected creatures you beat by this much become observed; you learn the location of objects.\nSuccess: undetected become hidden, hidden become observed; you learn an object's location or get a clue.\nCreatures may stay hidden if you use an imprecise sense or invisibility prevents observing."
+}

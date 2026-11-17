@@ -1,0 +1,5 @@
+{
+ "hash": "a96ca826fd60",
+ "front": "Pulse out from you to sense whether any magic is present nearby. You learn only presence or absence, and can ignore magic you already know about.",
+ "back": "Learn only whether magic is present or absent. You can ignore magic you're fully aware of (you and allies' items and ongoing spells).\nIllusions are detected only if their rank is lower than this spell's rank. Items with an illusion aura that aren't deceptive (e.g. invisibility potion) are detected normally.\nHeightened (3rd): learn the rank/level of the most powerful effect detected.\nHeightened (4th): as 3rd, plus pinpoint the source of the highest-rank magic to a 5-foot cube (or nearest if larger)."
+}

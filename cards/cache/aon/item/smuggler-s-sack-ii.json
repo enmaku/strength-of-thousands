@@ -1,0 +1,67 @@
+{
+ "access": "Second-mark members of the Firebrands have access to this item.",
+ "base_item_markdown": "",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-2466-2247",
+ "item_category": "Held Items",
+ "item_parent_id": "equipment-2466",
+ "level": 7,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 4+\"\n    pfs=\"Standard\"\n>\n[Smuggler's Sack](/Equipment.aspx?ID=2466)\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Extradimensional\" url=\"/Traits.aspx?ID=67\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\n\n**Bulk** 1\n</row>\n\n**Access** Second-mark members of the Firebrands have access to this item.\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis specialized version of a bag of holding appears to be a plain, leather bag that opens at the top, with a thin leather cord attached to cinch the sack closed. The sack's magic allows you to access either its mundane space or an extradimensional pocket. The mundane space inside the sack always holds 5 Bulk. The pocket's capacity varies with the type of sack. Anyone searching the bag can notice a thin, magical seam indicating the existence of the extradimensional space with a successful DC 18 Perception check.\n\n**Activate** <actions string=\"Single Action\" /> command;     **Effect** You speak a secret command word. Depending on which word you use, the sack either opens up to the mundane sack or the extradimensional pocket. You can Interact to put items in or remove them as normal.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 4\"\npfs=\"Standard\"\n>\nSmuggler's Sack (Type I)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 75 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 1 Bulk\n\n<title\nlevel=\"2\"\nright=\"Item 7\"\npfs=\"Standard\"\n>\nSmuggler's Sack (Type II)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 300 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 5 Bulk. The DC is 23.\n\n<title\nlevel=\"2\"\nright=\"Item 11\"\npfs=\"Standard\"\n>\nSmuggler's Sack (Type III)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 1,200 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 10 Bulk. The DC is 28.\n\n<title\nlevel=\"2\"\nright=\"Item 13\"\npfs=\"Standard\"\n>\nSmuggler's Sack (Type IV)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 2,400 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 25 Bulk. The DC is 30.\n\n<title\nlevel=\"2\"\nright=\"Item 17\"\npfs=\"Standard\"\n>\nSmuggler's Sack (Type V)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 12,000 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 50 Bulk. The DC is 37.",
+ "name": "Smuggler's Sack (Type II)",
+ "pfs": "Standard",
+ "price": 30000,
+ "price_raw": "300 gp",
+ "primary_source": "Firebrands",
+ "primary_source_raw": "Firebrands pg. 87",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-03-29",
+ "resistance": {},
+ "school": "conjuration",
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Extradimensional\" url=\"/Traits.aspx?ID=67\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<additional-info>\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 87\n\n**Price** 300 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 2 hands\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nCapacity  5 Bulk. The DC is 23.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Firebrands"
+ ],
+ "source_raw": [
+  "Firebrands pg. 87"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Firebrands](/Sources.aspx?ID=196) pg. 87",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "Capacity  5 Bulk. The DC is 23.",
+ "summary_markdown": "Capacity  5 Bulk. The DC is 23.",
+ "text": "Item 4+ Smuggler's Sack Uncommon Conjuration Extradimensional Magical Source Firebrands pg. 87 Usage held in 2 hands Bulk 1 Access Second-mark members of the Firebrands have access to this item. This specialized version of a bag of holding appears to be a plain, leather bag that opens at the top, with a thin leather cord attached to cinch the sack closed. The sack's magic allows you to access either its mundane space or an extradimensional pocket. The mundane space inside the sack always holds 5 Bulk. The pocket's capacity varies with the type of sack. Anyone searching the bag can notice a thin, magical seam indicating the existence of the extradimensional space with a successful DC 18 Perception check. Activate Single Action command; Effect You speak a secret command word. Depending on which word you use, the sack either opens up to the mundane sack or the extradimensional pocket. You can Interact to put items in or remove them as normal. Item 4 Smuggler's Sack (Type I) Source Firebrands pg. 87 Price 75 gp Bulk 1 Capacity 1 Bulk Item 7 Smuggler's Sack (Type II) Source Firebrands pg. 87 Price 300 gp Bulk 1 Capacity 5 Bulk. The DC is 23. Item 11 Smuggler's Sack (Type III) Source Firebrands pg. 87 Price 1,200 gp Bulk 1 Capacity 10 Bulk. The DC is 28. Item 13 Smuggler's Sack (Type IV) Source Firebrands pg. 87 Price 2,400 gp Bulk 1 Capacity 25 Bulk. The DC is 30. Item 17 Smuggler's Sack (Type V) Source Firebrands pg. 87 Price 12,000 gp Bulk 1 Capacity 50 Bulk. The DC is 37.",
+ "trait": [
+  "Conjuration",
+  "Extradimensional",
+  "Magical",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Mechanics",
+  "Rarity"
+ ],
+ "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Extradimensional](/Traits.aspx?ID=67), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Conjuration",
+  "Extradimensional",
+  "Magical",
+  "Uncommon"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2466",
+ "usage": "held in 2 hands",
+ "usage_markdown": "held in 2 hands",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:27-08:00"
+}

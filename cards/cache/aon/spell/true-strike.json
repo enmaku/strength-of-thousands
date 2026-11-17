@@ -1,0 +1,121 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline": [
+  "Draconic"
+ ],
+ "bloodline_markdown": "[Draconic](/Bloodlines.aspx?ID=5)",
+ "category": "spell",
+ "component": [
+  "verbal"
+ ],
+ "deity": [
+  "Achaekek",
+  "Alocer",
+  "Ananshea",
+  "Angazhan",
+  "Cernunnos",
+  "Cihua Coatl",
+  "Dammerich",
+  "Eiseth",
+  "Erastil",
+  "Falayna",
+  "General Susumu",
+  "Genzaeri",
+  "Gorum",
+  "Iapholi",
+  "Iomedae",
+  "Kaldemash",
+  "Kazutal",
+  "Milani",
+  "Neith",
+  "Ongalte",
+  "Otolmens",
+  "Pahti Coatl",
+  "Ragathiel",
+  "Raumya",
+  "Sekhmet",
+  "Shizuru",
+  "Smiad",
+  "Sorrow's Sword",
+  "Srikalis, Sritaming, and Sribaril",
+  "Talons of the Godclaw",
+  "The Anointing of Kings",
+  "Wulgren",
+  "Yaezhing",
+  "Zjar-Tovan"
+ ],
+ "deity_markdown": "[Achaekek](/Deities.aspx?ID=325), [Alocer](/Deities.aspx?ID=732), [Ananshea](/Deities.aspx?ID=592), [Angazhan](/Deities.aspx?ID=644), [Cernunnos](/Deities.aspx?ID=513), [Cihua Coatl](/Deities.aspx?ID=413), [Dammerich](/Deities.aspx?ID=646), [Eiseth](/Deities.aspx?ID=590), [Erastil](/Deities.aspx?ID=282), [Falayna](/Deities.aspx?ID=471), [General Susumu](/Deities.aspx?ID=306), [Genzaeri](/Deities.aspx?ID=342), [Gorum](/Deities.aspx?ID=283), [Iapholi](/Deities.aspx?ID=703), [Iomedae](/Deities.aspx?ID=285), [Kaldemash](/Deities.aspx?ID=349), [Kazutal](/Deities.aspx?ID=350), [Milani](/Deities.aspx?ID=352), [Neith](/Deities.aspx?ID=636), [Ongalte](/Deities.aspx?ID=714), [Otolmens](/Deities.aspx?ID=145), [Pahti Coatl](/Deities.aspx?ID=414), [Ragathiel](/Deities.aspx?ID=481), [Raumya](/Deities.aspx?ID=619), [Sekhmet](/Deities.aspx?ID=639), [Shizuru](/Deities.aspx?ID=315), [Smiad](/Deities.aspx?ID=522), [Sorrow's Sword](/Deities.aspx?ID=249), [Srikalis, Sritaming, and Sribaril](/Deities.aspx?ID=302), [Talons of the Godclaw](/Deities.aspx?ID=383), [The Anointing of Kings](/Deities.aspx?ID=722), [Wulgren](/Deities.aspx?ID=562), [Yaezhing](/Deities.aspx?ID=318), [Zjar-Tovan](/Deities.aspx?ID=360)",
+ "domain_markdown": "",
+ "duration_raw": "until the end of your turn",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-345",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[True Strike](/Spells.aspx?ID=345)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379\n\n_[**PFS Note**](/pathfinder-society) Add the following text to the end of true strike: \"You are then temporarily immune to true strike for 10 minutes.\"_\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\n[Draconic](/Bloodlines.aspx?ID=5)\n\n**Deities**\n[Achaekek](/Deities.aspx?ID=325), [Alocer](/Deities.aspx?ID=732), [Ananshea](/Deities.aspx?ID=592), [Angazhan](/Deities.aspx?ID=644), [Cernunnos](/Deities.aspx?ID=513), [Cihua Coatl](/Deities.aspx?ID=413), [Dammerich](/Deities.aspx?ID=646), [Eiseth](/Deities.aspx?ID=590), [Erastil](/Deities.aspx?ID=282), [Falayna](/Deities.aspx?ID=471), [General Susumu](/Deities.aspx?ID=306), [Genzaeri](/Deities.aspx?ID=342), [Gorum](/Deities.aspx?ID=283), [Iapholi](/Deities.aspx?ID=703), [Iomedae](/Deities.aspx?ID=285), [Kaldemash](/Deities.aspx?ID=349), [Kazutal](/Deities.aspx?ID=350), [Milani](/Deities.aspx?ID=352), [Neith](/Deities.aspx?ID=636), [Ongalte](/Deities.aspx?ID=714), [Otolmens](/Deities.aspx?ID=145), [Pahti Coatl](/Deities.aspx?ID=414), [Ragathiel](/Deities.aspx?ID=481), [Raumya](/Deities.aspx?ID=619), [Sekhmet](/Deities.aspx?ID=639), [Shizuru](/Deities.aspx?ID=315), [Smiad](/Deities.aspx?ID=522), [Sorrow's Sword](/Deities.aspx?ID=249), [Srikalis, Sritaming, and Sribaril](/Deities.aspx?ID=302), [Talons of the Godclaw](/Deities.aspx?ID=383), [The Anointing of Kings](/Deities.aspx?ID=722), [Wulgren](/Deities.aspx?ID=562), [Yaezhing](/Deities.aspx?ID=318), [Zjar-Tovan](/Deities.aspx?ID=360)\n\n**Patron Theme**\n[Fate](/Patrons.aspx?ID=3)\n\n<row gap=\"medium\">\n\n**Cast** [verbal](/Rules.aspx?ID=284)\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** until the end of your turn\n</row>\n\n</column>\n\n---\n\nA glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden.",
+ "name": "True Strike",
+ "patron_theme": [
+  "Fate"
+ ],
+ "patron_theme_markdown": "[Fate](/Patrons.aspx?ID=3)",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 379",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "spell-1709"
+ ],
+ "remaster_name": [
+  "Sure Strike"
+ ],
+ "resistance": {},
+ "school": "divination",
+ "search_markdown": "<traits>\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 379\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodline**\n[Draconic](/Bloodlines.aspx?ID=5)\n\n**Deities**\n[Achaekek](/Deities.aspx?ID=325), [Alocer](/Deities.aspx?ID=732), [Ananshea](/Deities.aspx?ID=592), [Angazhan](/Deities.aspx?ID=644), [Cernunnos](/Deities.aspx?ID=513), [Cihua Coatl](/Deities.aspx?ID=413), [Dammerich](/Deities.aspx?ID=646), [Eiseth](/Deities.aspx?ID=590), [Erastil](/Deities.aspx?ID=282), [Falayna](/Deities.aspx?ID=471), [General Susumu](/Deities.aspx?ID=306), [Genzaeri](/Deities.aspx?ID=342), [Gorum](/Deities.aspx?ID=283), [Iapholi](/Deities.aspx?ID=703), [Iomedae](/Deities.aspx?ID=285), [Kaldemash](/Deities.aspx?ID=349), [Kazutal](/Deities.aspx?ID=350), [Milani](/Deities.aspx?ID=352), [Neith](/Deities.aspx?ID=636), [Ongalte](/Deities.aspx?ID=714), [Otolmens](/Deities.aspx?ID=145), [Pahti Coatl](/Deities.aspx?ID=414), [Ragathiel](/Deities.aspx?ID=481), [Raumya](/Deities.aspx?ID=619), [Sekhmet](/Deities.aspx?ID=639), [Shizuru](/Deities.aspx?ID=315), [Smiad](/Deities.aspx?ID=522), [Sorrow's Sword](/Deities.aspx?ID=249), [Srikalis, Sritaming, and Sribaril](/Deities.aspx?ID=302), [Talons of the Godclaw](/Deities.aspx?ID=383), [The Anointing of Kings](/Deities.aspx?ID=722), [Wulgren](/Deities.aspx?ID=562), [Yaezhing](/Deities.aspx?ID=318), [Zjar-Tovan](/Deities.aspx?ID=360)\n\n**Patron Theme**\n[Fate](/Patrons.aspx?ID=3)\n\n<row gap=\"medium\">\n\n**Cast** [verbal](/Rules.aspx?ID=284)\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** until the end of your turn\n</row>\n</additional-info>\n\n---\n\n<summary>\nMake your next attack especially accurate.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 379"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 379",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Make your next attack especially accurate.",
+ "summary_markdown": "Make your next attack especially accurate.",
+ "text": "Spell 1 True Strike Single Action Divination Fortune Source Core Rulebook pg. 379 PFS Note Add the following text to the end of true strike: \"You are then temporarily immune to true strike for 10 minutes.\" Traditions Arcane, Occult Bloodline Draconic Deities Achaekek, Alocer, Ananshea, Angazhan, Cernunnos, Cihua Coatl, Dammerich, Eiseth, Erastil, Falayna, General Susumu, Genzaeri, Gorum, Iapholi, Iomedae, Kaldemash, Kazutal, Milani, Neith, Ongalte, Otolmens, Pahti Coatl, Ragathiel, Raumya, Sekhmet, Shizuru, Smiad, Sorrow's Sword, Srikalis, Sritaming, and Sribaril, Talons of the Godclaw, The Anointing of Kings, Wulgren, Yaezhing, Zjar-Tovan Patron Theme Fate Cast verbal Duration until the end of your turn A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden.",
+ "tradition": [
+  "Arcane",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Divination",
+  "Fortune"
+ ],
+ "trait_group": [
+  "School",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Fortune](/Traits.aspx?ID=76)",
+ "trait_raw": [
+  "Divination",
+  "Fortune"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=345",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:19-08:00"
+}

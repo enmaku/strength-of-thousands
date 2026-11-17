@@ -1,0 +1,5 @@
+{
+ "hash": "42dd3fb56bcb",
+ "front": "Huddle behind cover or in concealment to become hidden from creatures that observe you, with a secret Stealth check.",
+ "back": "GM rolls Stealth vs. Perception DC of each creature observing you that you have cover/concealment from. +2 circumstance bonus from standard cover, +4 from greater cover.\nSuccess: hidden instead of observed (you keep hidden/undetected).\nYou're observed again if you lose cover/concealment, or do anything except Hide, Sneak, or Step. A Strike leaves the target off-guard, then you're observed. If a creature Seeks and observes you, you must Hide again."
+}

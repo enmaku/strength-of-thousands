@@ -1,0 +1,5 @@
+{
+ "hash": "105ada63d63e",
+ "front": "Treat a poisoned patient to help it resist the poison with a Medicine check.",
+ "back": "Medicine vs. the poison's DC. Can't try again until after the creature's next save against the poison.\nCrit Success: +4 circumstance bonus to its next save against the poison.\nSuccess: +2 circumstance bonus.\nCrit Failure: -2 circumstance penalty to its next save."
+}

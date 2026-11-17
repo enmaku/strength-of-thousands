@@ -1,0 +1,5 @@
+{
+ "hash": "243444bacdf0",
+ "front": "Ward an area so you are alerted when creatures enter without the password, by a mental alert or an audible bell.",
+ "back": "Choose a password. When a Small or larger corporeal creature enters without speaking it, you get your choice of a mental alert (spell gains mental trait) or a hand-bell sound (auditory trait). Either wakes you automatically; the bell lets creatures in the area attempt a DC 15 Perception check to wake.\nA creature aware of the alarm must succeed at Stealth vs. the spell DC to enter without triggering it.\nHeightened (3rd): can specify a trigger for which creatures set it off."
+}

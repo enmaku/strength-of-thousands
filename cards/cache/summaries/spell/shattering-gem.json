@@ -1,0 +1,5 @@
+{
+ "hash": "3e32c754738e",
+ "front": "A floating gem shields the target, absorbing some attacks. When it breaks, it explodes and slashes whoever destroyed it.",
+ "back": "Gem has 5 HP. Each time a creature Strikes the target, target attempts a DC 11 flat check; on success the gem blocks it, takes the damage first, and the target takes any remainder.\nAt 0 HP it shatters: 1d8 slashing (basic Reflex) to the creature that destroyed it, if within 10 feet of the target.\nHeightened (+1): gem has +5 HP; detonation +1d8."
+}

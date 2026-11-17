@@ -1,0 +1,5 @@
+{
+ "hash": "8e6ac561f506",
+ "front": "Overwhelm a creature with a sudden random urge if it fails a Will save. Roll 1d4 for the effect.",
+ "back": "Roll 1d4 on a failed save (worse on crit fail):\n1 Dance: 1 round, -5 ft status penalty to Speeds (-10 on crit fail).\n2 Sing: first action next turn must be Perform a song (crit fail: all actions).\n3 Support: first action next turn is to prepare to Aid a nearby creature's Perform check; next reaction only to Aid it (crit fail: all actions).\n4 Give away wealth: first action next turn Interact to pull out a nonmagical valuable, then Release it; if none, apologize (crit fail: apologize for rest of turn)."
+}

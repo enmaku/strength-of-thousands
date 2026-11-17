@@ -1,0 +1,70 @@
+{
+ "archetype": [
+  "Elementalist",
+  "Shadowcaster",
+  "Soul Warden",
+  "Infernal Pactbreaker"
+ ],
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Familiar"
+ ],
+ "feat_markdown": "Familiar",
+ "id": "feat-5024",
+ "legacy_id": [
+  "feat-604"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Familiar](/Feats.aspx?ID=5024) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=824\" />\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=895\" />\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 201, [Player Core 2](/Sources.aspx?ID=227) pg. 152, [Impossible Magic](/Sources.aspx?ID=355) pg. 16\n\n**Archetypes** [Elementalist](/Archetypes.aspx?ID=98) (Level 4), [Shadowcaster](/Archetypes.aspx?ID=101) (Level 4), [Soul Warden](/Archetypes.aspx?ID=173) (Level 4), [Elementalist](/Archetypes.aspx?ID=207) (Level 4), [Infernal Pactbreaker](/Archetypes.aspx?ID=398) (Level 4)\n\n</column>\n\n---\n\nYou make a pact with a creature that serves you and assists your spellcasting. You gain a [familiar](/Familiars.aspx).",
+ "name": "Familiar",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 201",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=824\" />\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=895\" />\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 201, [Player Core 2](/Sources.aspx?ID=227) pg. 152, [Impossible Magic](/Sources.aspx?ID=355) pg. 16\n\n</additional-info>\n\n---\n\n<summary>\nYou make a pact with a creature that serves you and assists your spellcasting.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core",
+  "Player Core 2",
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Player Core pg. 201",
+  "Player Core 2 pg. 152",
+  "Impossible Magic pg. 16"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 201, [Player Core 2](/Sources.aspx?ID=227) pg. 152, [Impossible Magic](/Sources.aspx?ID=355) pg. 16",
+ "speed": {},
+ "summary": "You make a pact with a creature that serves you and assists your spellcasting.",
+ "summary_markdown": "You make a pact with a creature that serves you and assists your spellcasting.",
+ "text": "Feat 1 Familiar Magus Sorcerer Thaumaturge Wizard Source Player Core pg. 201, Player Core 2 pg. 152, Impossible Magic pg. 16 Archetypes Elementalist (Level 4), Shadowcaster (Level 4), Soul Warden (Level 4), Elementalist (Level 4), Infernal Pactbreaker (Level 4) You make a pact with a creature that serves you and assists your spellcasting. You gain a familiar.",
+ "trait": [
+  "Magus",
+  "Sorcerer",
+  "Thaumaturge",
+  "Wizard"
+ ],
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Magus](/Traits.aspx?ID=953), [Sorcerer](/Traits.aspx?ID=824), [Thaumaturge](/Traits.aspx?ID=895), [Wizard](/Traits.aspx?ID=735)",
+ "trait_raw": [
+  "Magus",
+  "Sorcerer",
+  "Thaumaturge",
+  "Wizard"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5024",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:36-08:00"
+}

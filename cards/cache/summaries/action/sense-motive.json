@@ -1,0 +1,5 @@
+{
+ "hash": "abcfaf6d0146",
+ "front": "Assess a creature's body language to tell whether it is behaving abnormally or deceptively. The GM rolls secretly.",
+ "back": "Secret Perception check vs. the creature's Deception DC (or a mental spell's DC). Can't retry on the same creature until the situation changes significantly.\nCrit Success: learn true intentions and get a solid idea of any mental magic affecting it.\nSuccess: know if it's behaving normally, not exact intentions or magic.\nFailure: you detect what a deceptive creature wants you to believe.\nCrit Failure: false sense of its intentions."
+}

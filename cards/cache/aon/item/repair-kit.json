@@ -1,0 +1,57 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-43",
+ "item_category": "Adventuring Gear",
+ "item_child_id": [
+  "equipment-43-42",
+  "equipment-43-43"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0+\"\n    pfs=\"Standard\"\n>\n[Repair Kit](/Equipment.aspx?ID=43)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 291\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nA repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to [Repair](/Actions.aspx?ID=42) items using the [Crafting](/Skills.aspx?ID=4) skill. You can draw and replace a worn repair kit as part of the action that uses it.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nRepair Kit\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 291\n\n**Price** 2 gp\n\n<row gap=\"medium\">\n\n**Hands** 2\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nRepair Kit (Superb)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 291\n\n**Price** 25 gp\n\n<row gap=\"medium\">\n\n**Hands** 2\n\n**Bulk** 1\n\n</row>\n\n</column>\n\n---\n\nA superb repair kit gives you a +1 item bonus to the check.",
+ "name": "Repair Kit",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 291",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "equipment-2747"
+ ],
+ "remaster_name": [
+  "Repair Toolkit"
+ ],
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 291\n\n \n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nA repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for \u2026\n</summary>",
+ "skill": [
+  "Crafting"
+ ],
+ "skill_markdown": "[Crafting](/Skills.aspx?ID=4)",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 291"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 291",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for \u2026",
+ "summary_markdown": "A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for \u2026",
+ "text": "Item 0+ Repair Kit Source Core Rulebook pg. 291 A repair kit allows you to perform simple repairs while traveling. It contains a portable anvil, tongs, woodworking tools, a whetstone, and oils for conditioning leather and wood. You can use a repair kit to Repair items using the Crafting skill. You can draw and replace a worn repair kit as part of the action that uses it. Item 0 Repair Kit Source Core Rulebook pg. 291 Price 2 gp Hands 2 Bulk 1 Item 3 Repair Kit (Superb) Source Core Rulebook pg. 291 Price 25 gp Hands 2 Bulk 1 A superb repair kit gives you a +1 item bonus to the check.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=43",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:23-08:00"
+}

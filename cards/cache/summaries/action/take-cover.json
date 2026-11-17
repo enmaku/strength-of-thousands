@@ -1,0 +1,5 @@
+{
+ "hash": "dc3e909bd2a0",
+ "front": "Duck behind an obstacle to improve cover: standard cover becomes greater, or you gain standard cover.",
+ "back": "Standard cover becomes greater cover: +4 circumstance bonus to AC, Reflex saves vs. area effects, and Stealth to Hide, Sneak, or avoid detection. Otherwise you gain standard cover (+2).\nIf prone, you gain greater cover against ranged attacks.\nLasts until you move, attack, fall unconscious, or end it as a free action."
+}

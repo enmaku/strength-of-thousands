@@ -1,0 +1,103 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1498",
+ "legacy_id": [
+  "spell-84"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Divine Lance](/Spells.aspx?ID=1498)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Tradition**\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nAC\n\n</row>\n\n</column>\n\n---\n\nYou unleash a beam of divine energy. Make a ranged spell attack against the target's AC. On a hit, the target takes 2d4 spirit damage (double damage on a critical hit).\n\n---\n**Heightened (+1)** The damage increases by 1d4.",
+ "name": "Divine Lance",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 325",
+ "primary_source_category": "Rulebooks",
+ "range": 60,
+ "range_raw": "60 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "AC",
+ "saving_throw_markdown": "AC",
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Sanctified\" url=\"/Traits.aspx?ID=519\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Tradition**\n[Divine](/SpellLists.aspx?Tradition=2)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nAC\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThrow divine energy that deals spirit damage.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 325"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 325",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Throw divine energy that deals spirit damage.",
+ "summary_markdown": "Throw divine energy that deals spirit damage.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Cantrip 1 Divine Lance Two Actions Attack Cantrip Concentrate Manipulate Sanctified Spirit Source Player Core pg. 325 Tradition Divine Range 60 feet Target 1 creature Defense AC You unleash a beam of divine energy. Make a ranged spell attack against the target's AC. On a hit, the target takes 2d4 spirit damage (double damage on a critical hit). Heightened (+1) The damage increases by 1d4.",
+ "tradition": [
+  "Divine"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2)",
+ "trait": [
+  "Attack",
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15), [Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Sanctified](/Traits.aspx?ID=519), [Spirit](/Traits.aspx?ID=149)",
+ "trait_raw": [
+  "Attack",
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Sanctified",
+  "Spirit"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1498",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:16-08:00"
+}

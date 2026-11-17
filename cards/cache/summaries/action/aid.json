@@ -1,0 +1,5 @@
+{
+ "hash": "ff893681e33b",
+ "front": "Prepare to help, then use your reaction to boost an ally's check or attack. Your own check sets the size of the bonus.",
+ "back": "Prepare first (usually an action on your turn) and tell the GM how you help. Then attempt a check, typically DC 15 (GM may adjust).\nCrit Success: ally gets +2 circumstance bonus (+3 if you're master in the check, +4 if legendary).\nSuccess: +1 circumstance bonus.\nCrit Failure: ally gets -1 circumstance penalty."
+}

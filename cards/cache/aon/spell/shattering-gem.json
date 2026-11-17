@@ -1,0 +1,111 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Ashukharma",
+  "Mammon",
+  "Sairazul",
+  "The Resplendent Court",
+  "Yuelral"
+ ],
+ "deity_markdown": "[Ashukharma](/Deities.aspx?ID=611), [Mammon](/Deities.aspx?ID=399), [Sairazul](/Deities.aspx?ID=694), [The Resplendent Court](/Deities.aspx?ID=272), [Yuelral](/Deities.aspx?ID=463)",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "element": [
+  "Earth"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-2364",
+ "legacy_id": [
+  "spell-585"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Shattering Gem](/Spells.aspx?ID=2364)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 259\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\n[Ashukharma](/Deities.aspx?ID=611), [Mammon](/Deities.aspx?ID=399), [Sairazul](/Deities.aspx?ID=694), [The Resplendent Court](/Deities.aspx?ID=272), [Yuelral](/Deities.aspx?ID=463)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nA large gem floats around the target in an erratic pattern. The gem has 5 Hit Points. Each time a creature [Strikes](/Rules.aspx?ID=2895) the target, the target attempts a DC 11 flat check. On a success, the gem blocks the attack, so the attack first damages the gem and then applies any remaining damage to the target. If the gem is reduced to 0 Hit Points, it shatters, immediately dealing 1d8 slashing damage (basic Reflex save) to the creature that destroyed it, as long as that creature is within 10 feet of the target.\n\n---\n**Heightened (+1)** The gem has 5 additional Hit Points, and the damage dealt by its detonation increases by 1d8.",
+ "name": "Shattering Gem",
+ "pfs": "Standard",
+ "primary_source": "Divine Mysteries",
+ "primary_source_raw": "Divine Mysteries pg. 259",
+ "primary_source_category": "Lost Omens",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-01-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=55\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 259\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\n[Ashukharma](/Deities.aspx?ID=611), [Mammon](/Deities.aspx?ID=399), [Sairazul](/Deities.aspx?ID=694), [The Resplendent Court](/Deities.aspx?ID=272), [Yuelral](/Deities.aspx?ID=463)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nA large gem floats around the target in an erratic pattern.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Divine Mysteries"
+ ],
+ "source_raw": [
+  "Divine Mysteries pg. 259"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Divine Mysteries](/Sources.aspx?ID=234) pg. 259",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "A large gem floats around the target in an erratic pattern.",
+ "summary_markdown": "A large gem floats around the target in an erratic pattern.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Shattering Gem Two Actions Concentrate Earth Manipulate Source Divine Mysteries pg. 259 Traditions Arcane, Primal Deities Ashukharma, Mammon, Sairazul, The Resplendent Court, Yuelral Range touch Target 1 creature Duration 1 minute A large gem floats around the target in an erratic pattern. The gem has 5 Hit Points. Each time a creature Strikes the target, the target attempts a DC 11 flat check. On a success, the gem blocks the attack, so the attack first damages the gem and then applies any remaining damage to the target. If the gem is reduced to 0 Hit Points, it shatters, immediately dealing 1d8 slashing damage (basic Reflex save) to the creature that destroyed it, as long as that creature is within 10 feet of the target. Heightened (+1) The gem has 5 additional Hit Points, and the damage dealt by its detonation increases by 1d8.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Concentrate",
+  "Earth",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Earth](/Traits.aspx?ID=55), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Concentrate",
+  "Earth",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2364",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:19-08:00"
+}

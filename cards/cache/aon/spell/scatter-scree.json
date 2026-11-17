@@ -1,0 +1,113 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "area": [
+  5
+ ],
+ "area_markdown": "two contiguous 5-foot cubes",
+ "area_raw": "two contiguous 5-foot cubes",
+ "area_type": [
+  "cube"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "element": [
+  "Earth"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-2021",
+ "legacy_id": [
+  "spell-990"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Scatter Scree](/Spells.aspx?ID=2021)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=585\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 250\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** two contiguous 5-foot cubes\n\n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=2297) Reflex\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nA jumble of rocks cascades into the area. The scattering rocks deal 2d4 bludgeoning damage (basic Reflex save). The ground in the area becomes [difficult terrain](/Rules.aspx?ID=453) for the duration of the spell. A creature can Interact to clear a square of this scree.\n\n If you cast this spell again, any previous _scatter scree_ you've cast ends.\n\n---\n**Heightened (+1)** The damage increases by 1d4.",
+ "name": "Scatter Scree",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 250",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "saving_throw": "basic Reflex",
+ "saving_throw_markdown": "[basic](/Rules.aspx?ID=2297) Reflex",
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Earth\" url=\"/Traits.aspx?ID=585\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 250\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** two contiguous 5-foot cubes\n\n \n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=2297) Reflex\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nEvoke rocks to bludgeon and create difficult terrain.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 250"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 250",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Evoke rocks to bludgeon and create difficult terrain.",
+ "summary_markdown": "Evoke rocks to bludgeon and create difficult terrain.",
+ "text": "Cantrip 1 Scatter Scree Two Actions Cantrip Concentrate Earth Manipulate Source Player Core 2 pg. 250 Traditions Arcane, Primal Range 30 feet Area two contiguous 5-foot cubes Defense basic Reflex Duration 1 minute A jumble of rocks cascades into the area. The scattering rocks deal 2d4 bludgeoning damage (basic Reflex save). The ground in the area becomes difficult terrain for the duration of the spell. A creature can Interact to clear a square of this scree. If you cast this spell again, any previous scatter scree you've cast ends. Heightened (+1) The damage increases by 1d4.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Earth",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Elemental",
+  "Planar",
+  "Monster"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=550), [Concentrate](/Traits.aspx?ID=561), [Earth](/Traits.aspx?ID=585), [Manipulate](/Traits.aspx?ID=645)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Earth",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2021",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:17-08:00"
+}

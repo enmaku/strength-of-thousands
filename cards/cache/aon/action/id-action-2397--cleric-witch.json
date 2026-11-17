@@ -1,0 +1,52 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2397",
+ "legacy_id": [
+  "action-55"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Treat Disease](/Actions.aspx?ID=2397) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=580\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n\n**Requirements** You're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).\n\n</column>\n\n---\n\nYou spend at least 8 hours caring for a diseased creature. Attempt a [Medicine](/Skills.aspx?ID=9) check against the [disease's](/Traits.aspx?ID=578) DC. After you attempt to Treat a Disease for a creature, you can't try again until after that creature's next save against the disease.\n\n**Critical Success** You grant the creature a +4 circumstance bonus to its next saving throw against the disease.<br />\n**Success** You grant the creature a +2 circumstance bonus to its next saving throw against the disease.<br />\n**Critical Failure** Your efforts cause the creature to take a \u20132 circumstance penalty to its next save against the disease.",
+ "name": "Treat Disease",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 242",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You're wearing or holding a healer's toolkit.",
+ "requirement_markdown": "You're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=580\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n\n**Requirement**\nYou're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).\n</additional-info>\n\n---\n\n<summary>\nYou spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 242"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 242",
+ "speed": {},
+ "summary": "You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease \u2026",
+ "summary_markdown": "You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease \u2026",
+ "text": "Action Treat Disease Downtime Manipulate Source Player Core pg. 242 Requirements You're wearing or holding a healer's toolkit. You spend at least 8 hours caring for a diseased creature. Attempt a Medicine check against the disease's DC. After you attempt to Treat a Disease for a creature, you can't try again until after that creature's next save against the disease. Critical Success You grant the creature a +4 circumstance bonus to its next saving throw against the disease. Success You grant the creature a +2 circumstance bonus to its next saving throw against the disease. Critical Failure Your efforts cause the creature to take a \u20132 circumstance penalty to its next save against the disease.",
+ "trait": [
+  "Downtime",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Downtime](/Traits.aspx?ID=580), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Downtime",
+  "Manipulate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2397",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:51-08:00"
+}

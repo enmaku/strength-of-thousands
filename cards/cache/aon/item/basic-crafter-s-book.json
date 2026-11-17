@@ -1,0 +1,50 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "2",
+ "id": "equipment-2705",
+ "item_category": "Adventuring Gear",
+ "legacy_id": [
+  "equipment-6"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0\"\n    pfs=\"Standard\"\n>\n[Basic Crafter's Book](/Equipment.aspx?ID=2705)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 1 sp\n\n<row gap=\"medium\">\n\n**Hands** 2\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis book contains formulas for [Crafting](/Skills.aspx?ID=4) the 0-level common items in this chapter.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Basic Crafter's Book",
+ "pfs": "Standard",
+ "price": 10,
+ "price_raw": "1 sp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 287",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 1 sp\n\n<row gap=\"medium\">\n**Hands** 2\n\n \n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis book contains formulas for Crafting the 0-level common items in this chapter.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 287"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 287",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This book contains formulas for Crafting the 0-level common items in this chapter.",
+ "summary_markdown": "This book contains formulas for Crafting the 0-level common items in this chapter.",
+ "text": "Item 0 Basic Crafter's Book Source Player Core pg. 287 Price 1 sp Hands 2 Bulk L This book contains formulas for Crafting the 0-level common items in this chapter.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2705",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:22-08:00"
+}

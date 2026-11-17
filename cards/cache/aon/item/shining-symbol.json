@@ -1,0 +1,73 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3109",
+ "item_category": "Worn Items",
+ "item_child_id": [
+  "equipment-3109-3053",
+  "equipment-3109-3054",
+  "equipment-3109-3055"
+ ],
+ "item_subcategory": "Other Worn Items",
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3+\"\n    pfs=\"Standard\"\n>\n[Shining Symbol](/Equipment.aspx?ID=3109)\n</title>\n\n<traits>\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Light\" url=\"/Traits.aspx?ID=640\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 295\n\n<row gap=\"medium\">\n\n**Usage** worn\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nIf you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +1 item bonus to Religion. The symbol casts dim light in a 20-foot emanation. \n\n**Activate\u2014Spiritual Light** <actions string=\"Two Actions\" /> ([concentrate](/Traits.aspx?ID=561), [light](/Traits.aspx?ID=640), [revelation](/Traits.aspx?ID=686)) **Frequency** once per day;   **Effect** The light cast by the symbol becomes bright light for 10 minutes and shines through bodies to reveal hints of the spirits within. Creatures in the light receive a \u20131 status penalty to Deception and Stealth checks. You can Dismiss this activation.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nShining Symbol\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 295\n\n**Price** 55 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 9\"\npfs=\"Standard\"\n>\nShining Symbol (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 295\n\n**Price** 650 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe bonus to Religion is +2. Spiritual Light's penalty is \u20132, and while it's active your enemies in the light gain weakness 5 to spirit damage\n\n<title\nlevel=\"2\"\nright=\"Item 17\"\npfs=\"Standard\"\n>\nShining Symbol (Major)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 295\n\n**Price** 13,500 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe bonus to Religion is +3. Spiritual Light's penalty is \u20133, and while it's active your enemies in the light gain weakness 10 to spirit damage.",
+ "name": "Shining Symbol",
+ "pfs": "Standard",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 295",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Light\" url=\"/Traits.aspx?ID=640\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 295\n\n \n\n<row gap=\"medium\">\n \n\n**Usage** worn\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nIf you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +1 item bonus to Religion. \u2026\n</summary>",
+ "skill": [
+  "Religion",
+  "Religion",
+  "Religion"
+ ],
+ "skill_markdown": "[Religion](/Skills.aspx?ID=46), [Religion](/Skills.aspx?ID=46), [Religion](/Skills.aspx?ID=46)",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 295"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 295",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "If you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +1 item bonus to Religion. \u2026",
+ "summary_markdown": "If you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +1 item bonus to Religion. \u2026",
+ "text": "Item 3+ Shining Symbol Divine Invested Light Source GM Core pg. 295 Usage worn If you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +1 item bonus to Religion. The symbol casts dim light in a 20-foot emanation. Activate\u2014Spiritual Light Two Actions (concentrate, light, revelation) Frequency once per day; Effect The light cast by the symbol becomes bright light for 10 minutes and shines through bodies to reveal hints of the spirits within. Creatures in the light receive a \u20131 status penalty to Deception and Stealth checks. You can Dismiss this activation. Item 3 Shining Symbol Source GM Core pg. 295 Price 55 gp Item 9 Shining Symbol (Greater) Source GM Core pg. 295 Price 650 gp The bonus to Religion is +2. Spiritual Light's penalty is \u20132, and while it's active your enemies in the light gain weakness 5 to spirit damage Item 17 Shining Symbol (Major) Source GM Core pg. 295 Price 13,500 gp The bonus to Religion is +3. Spiritual Light's penalty is \u20133, and while it's active your enemies in the light gain weakness 10 to spirit damage.",
+ "trait": [
+  "Divine",
+  "Invested",
+  "Light"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Divine](/Traits.aspx?ID=579), [Invested](/Traits.aspx?ID=637), [Light](/Traits.aspx?ID=640)",
+ "trait_raw": [
+  "Divine",
+  "Invested",
+  "Light"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3109",
+ "usage": "worn",
+ "usage_markdown": "worn",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:26-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "884bee87d268",
+ "front": "Channel vital energy to restore Hit Points to a willing living creature or damage an undead one. More actions spent means more range and reach.",
+ "back": "Living: restore 1d8 HP. Undead: that much vitality damage, basic Fortitude save.\n1 action: range touch.\n2 actions (concentrate): range 30 feet; living target regains an extra 8 HP.\n3 actions (concentrate): 30-foot emanation hitting all living and undead creatures in it.\nHeightened (+1): healing/damage +1d8; the 2-action bonus healing +8."
+}

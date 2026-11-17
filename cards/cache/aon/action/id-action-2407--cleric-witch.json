@@ -1,0 +1,52 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2407",
+ "legacy_id": [
+  "action-65"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Cover Tracks](/Actions.aspx?ID=2407) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 246\n\n</column>\n\n---\n\nYou cover your tracks, [moving up to half your travel Speed](/Rules.aspx?ID=2442). You don't need to attempt a [Survival](/Skills.aspx?ID=16) check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track.\n\n In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait.",
+ "name": "Cover Tracks",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 246",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 246\n\n</additional-info>\n\n---\n\n<summary>\nYou cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 246"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 246",
+ "speed": {},
+ "summary": "You cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you \u2026",
+ "summary_markdown": "You cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you \u2026",
+ "text": "Action Cover Tracks Concentrate Exploration Move Source Player Core pg. 246 You cover your tracks, moving up to half your travel Speed. You don't need to attempt a Survival check to cover your tracks, but anyone tracking you must succeed at a Survival check against your Survival DC if it is higher than the normal DC to Track. In some cases, you might Cover Tracks in an encounter. In this case, Cover Tracks is a single action and doesn't have the exploration trait.",
+ "trait": [
+  "Concentrate",
+  "Exploration",
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595), [Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration",
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2407",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:53-08:00"
+}

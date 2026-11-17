@@ -1,0 +1,94 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "sustained up to 1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-1878",
+ "legacy_id": [
+  "spell-797"
+ ],
+ "level": 1,
+ "lesson": [
+  "Lesson of the Elements"
+ ],
+ "lesson_markdown": "[Lesson of the Elements](/Lessons.aspx?ID=17)",
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\n[Elemental Betrayal](/Spells.aspx?ID=1878)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\n[Lesson of the Elements](/Lessons.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n\n</column>\n\n---\n\nYour patron uses its superior command of the elements, empowering them to undermine your foe. When you Cast this Spell, choose [air](/Traits.aspx?ID=5), [earth](/Traits.aspx?ID=55), [metal](/Traits.aspx?ID=505), [fire](/Traits.aspx?ID=72), [water](/Traits.aspx?ID=165), or [wood](/Traits.aspx?ID=508). The target gains weakness 2 to that trait.\n\n---\n**Heightened (+2)** Increase the weakness by 1.",
+ "name": "Elemental Betrayal",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n**Lesson**\n[Lesson of the Elements](/Lessons.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nYour patron uses its superior command of the elements, empowering them to undermine your foe.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 385"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
+ "speed": {},
+ "spell_type": "Focus",
+ "summary": "Your patron uses its superior command of the elements, empowering them to undermine your foe.",
+ "summary_markdown": "Your patron uses its superior command of the elements, empowering them to undermine your foe.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Focus 1 Elemental Betrayal Single Action Uncommon Concentrate Focus Hex Witch Source Player Core pg. 385 Lesson Lesson of the Elements Range 30 feet Target 1 creature Duration sustained up to 1 minute Your patron uses its superior command of the elements, empowering them to undermine your foe. When you Cast this Spell, choose air, earth, metal, fire, water, or wood. The target gains weakness 2 to that trait. Heightened (+2) Increase the weakness by 1.",
+ "tradition_markdown": "",
+ "trait": [
+  "Concentrate",
+  "Focus",
+  "Hex",
+  "Uncommon",
+  "Witch"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Hex](/Traits.aspx?ID=324), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
+ "trait_raw": [
+  "Concentrate",
+  "Focus",
+  "Hex",
+  "Uncommon",
+  "Witch"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1878",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:21-08:00"
+}

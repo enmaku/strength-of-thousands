@@ -1,0 +1,53 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2400",
+ "legacy_id": [
+  "action-58"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Command an Animal](/Actions.aspx?ID=2400) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n\n</column>\n\n---\n\nYou issue an order to an animal. Attempt a [Nature](/Skills.aspx?ID=10) check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat.\n\n You automatically fail if the animal is [hostile](/Conditions.aspx?ID=23) or [unfriendly](/Conditions.aspx?ID=40) to you. If the animal is [helpful](/Conditions.aspx?ID=21) to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like [Ride](/Feats.aspx?ID=835). Most animals know the [Drop Prone](/Actions.aspx?ID=78), [Leap](/Actions.aspx?ID=81), [Seek](/Actions.aspx?ID=84), [Stand](/Actions.aspx?ID=86), [Stride](/Actions.aspx?ID=88), and [Strike](/Actions.aspx?ID=89) basic actions. If an animal knows an activity, such as a horse's [Gallop](/Actions.aspx?ID=19), you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then make a Strike.\n\n**Success** The animal does as you command on its next turn.<br />\n**Failure** The animal is hesitant or resistant, and it does nothing.<br />\n**Critical Failure** The animal misbehaves or misunderstands, and it takes some other action determined by the GM.",
+ "name": "Command an Animal",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 242",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n\n</additional-info>\n\n---\n\n<summary>\nYou issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 242"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 242",
+ "speed": {},
+ "summary": "You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude \u2026",
+ "summary_markdown": "You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude \u2026",
+ "text": "Action Command an Animal Single Action Auditory Concentrate Source Player Core pg. 242 You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat. You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like Ride. Most animals know the Drop Prone, Leap, Seek, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then make a Strike. Success The animal does as you command on its next turn. Failure The animal is hesitant or resistant, and it does nothing. Critical Failure The animal misbehaves or misunderstands, and it takes some other action determined by the GM.",
+ "trait": [
+  "Auditory",
+  "Concentrate"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2400",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:52-08:00"
+}

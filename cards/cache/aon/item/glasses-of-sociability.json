@@ -1,0 +1,68 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-5185",
+ "item_category": "Worn Items",
+ "item_subcategory": "Other Worn Items",
+ "legacy_id": [
+  "equipment-1057"
+ ],
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3\"\n    pfs=\"Standard\"\n>\n[Glasses of Sociability](/Equipment.aspx?ID=5185)\n</title>\n\n<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 244\n\n**Price** 60 gp\n\n<row gap=\"medium\">\n\n**Usage** worn eyepiece\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to [Diplomacy](/Skills.aspx?ID=39). \n\n**Activate\u2014Have We Met?** <actions string=\"Single Action\" /> ([concentrate](/Traits.aspx?ID=561))    **Effect** You stare at another creature and instantly remember their name if you've met and exchanged names. The glasses rely on your latent memories, so if the creature is disguising their identity, the glasses don't penetrate the disguise. For example, if a [divoynik](/Monsters.aspx?ID=4343) was disguised as an innkeeper you met, the glasses would give you the innkeeper's name, and if a noble you met before was in disguise as a masked vigilante, the glasses wouldn't reveal their true name.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Glasses of Sociability",
+ "pfs": "Standard",
+ "price": 6000,
+ "price_raw": "60 gp",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 244",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 244\n\n**Price** 60 gp\n\n<row gap=\"medium\">\n \n\n**Usage** worn eyepiece\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThese wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They \u2026\n</summary>",
+ "skill": [
+  "Diplomacy"
+ ],
+ "skill_markdown": "[Diplomacy](/Skills.aspx?ID=39)",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 244"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 244",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They \u2026",
+ "summary_markdown": "These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They \u2026",
+ "text": "Item 3 Glasses of Sociability Invested Magical Source Impossible Magic pg. 244 Price 60 gp Usage worn eyepiece Bulk L These wire-rim glasses with large, circular lenses were invented for the sole purpose of avoiding awkward confrontations at social gatherings. They grant you a +1 item bonus to Diplomacy. Activate\u2014Have We Met? Single Action (concentrate) Effect You stare at another creature and instantly remember their name if you've met and exchanged names. The glasses rely on your latent memories, so if the creature is disguising their identity, the glasses don't penetrate the disguise. For example, if a divoynik was disguised as an innkeeper you met, the glasses would give you the innkeeper's name, and if a noble you met before was in disguise as a masked vigilante, the glasses wouldn't reveal their true name.",
+ "trait": [
+  "Invested",
+  "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
+ "trait_raw": [
+  "Invested",
+  "Magical"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=5185",
+ "usage": "worn eyepiece",
+ "usage_markdown": "worn eyepiece",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:25-08:00"
+}

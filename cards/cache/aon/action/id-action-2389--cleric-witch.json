@@ -1,0 +1,57 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2389",
+ "legacy_id": [
+  "action-47"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Lie](/Actions.aspx?ID=2389) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 238\n\n</column>\n\n---\n\nYou try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single [Deception](/Skills.aspx?ID=5) check and compare it against the Perception DC of every creature you are trying to fool. The GM might give them a circumstance bonus based on the situation and the nature of the lie you are trying to tell. Elaborate or highly unbelievable lies are much harder to get a creature to believe than simpler and more believable lies, and some lies are so big that it's impossible to get anyone to believe them.\n\n At the GM's discretion, if a creature initially believes your lie, it might attempt a Perception check later to [Sense Motive](/Actions.aspx?ID=85) against your Deception DC to realize it's a lie. This usually happens if the creature discovers enough evidence to counter your statements.\n\n**Success** The target believes your lie.<br />\n**Failure** The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
+ "name": "Lie",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 238",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 238\n\n</additional-info>\n\n---\n\n<summary>\nYou try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 238"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 238",
+ "speed": {},
+ "summary": "You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and \u2026",
+ "summary_markdown": "You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and \u2026",
+ "text": "Action Lie Auditory Concentrate Linguistic Mental Secret Source Player Core pg. 238 You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and compare it against the Perception DC of every creature you are trying to fool. The GM might give them a circumstance bonus based on the situation and the nature of the lie you are trying to tell. Elaborate or highly unbelievable lies are much harder to get a creature to believe than simpler and more believable lies, and some lies are so big that it's impossible to get anyone to believe them. At the GM's discretion, if a creature initially believes your lie, it might attempt a Perception check later to Sense Motive against your Deception DC to realize it's a lie. This usually happens if the creature discovers enough evidence to counter your statements. Success The target believes your lie. Failure The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Mental",
+  "Secret"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Mental",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2389",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:50-08:00"
+}

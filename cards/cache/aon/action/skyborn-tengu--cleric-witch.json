@@ -1,0 +1,40 @@
+{
+ "category": "heritage",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "heritage-357",
+ "legacy_id": [
+  "heritage-79"
+ ],
+ "markdown": "<title level=\"1\" right=\"Heritage\" pfs=\"Standard\">[Skyborn Tengu](/Heritages.aspx?ID=357)</title>\n\n<traits>\n\n</traits>\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 33\n\nYour bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than most, slowing your descent through the air. You take no damage from [falling](/Rules.aspx?ID=402), regardless of the distance you fall.\n\n<title level=\"2\">Feats that require Skyborn Tengu...</title>\n[Soaring Flight](/Feats.aspx?ID=5684)",
+ "name": "Skyborn Tengu",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 33",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 33\n</additional-info>\n\n---\n\n<summary>\nYour bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 33"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 33",
+ "speed": {},
+ "summary": "Your bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than \u2026",
+ "summary_markdown": "Your bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than \u2026",
+ "text": "Heritage Skyborn Tengu Source Player Core 2 pg. 33 Your bones may be especially light, you may be a rare tengu with wings, or your connection to the spirits of wind and sky might be stronger than most, slowing your descent through the air. You take no damage from falling, regardless of the distance you fall. Feats that require Skyborn Tengu... Soaring Flight",
+ "trait_markdown": "",
+ "type": "Heritage",
+ "url": "/Heritages.aspx?ID=357",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:33-08:00"
+}

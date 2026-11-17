@@ -1,0 +1,50 @@
+{
+ "breadcrumbs": [
+  "Chapter 8: Playing the Game",
+  "Actions"
+ ],
+ "category": "rules",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "rules-2343",
+ "legacy_id": [
+  "rules-439"
+ ],
+ "markdown": "<title level=\"1\" right=\"Rules\">[Basic Actions](/Rules.aspx?ID=2343)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\n<row gap=\"medium\">\n<column gap=\"medium\" flex=\"1 1 400px\">\nBasic actions represent common tasks like moving around, attacking, and helping others. As such, every creature can use basic actions except in some extreme circumstances, and many of those actions are used very frequently. Most notably, you'll use [Interact](/Actions.aspx?ID=2297), [Step](/Actions.aspx?ID=2304), [Stride](/Actions.aspx?ID=2305), and [Strike](/Actions.aspx?ID=2306) a great deal. Many feats and other actions call upon you to use one of these basic actions or modify them to produce different effects. For example, a more complex action might let you Stride twice, and a large number of activities include a Strike. An action or activity might also modify a basic action, such as having you Stride up to half your Speed.\n\nActions that are used less frequently but are still available to most creatures are presented in [Specialty Basic Actions](/Rules.aspx?ID=2344). These typically have requirements that not all characters are likely to meet, such as wielding a shield, having a burrow Speed, or falling through the air.\n\nIn addition to the actions in these two sections, the actions for spellcasting can be found [here](/Rules.aspx?ID=2233), and the actions for using magic items appear [here](/Rules.aspx?ID=3139).\n\n**Delay and Ready:** If you want to change when you take actions, two basic actions let you do so. [Delay](/Actions.aspx?ID=2294) shifts your entire turn later in the round, and [Ready](/Actions.aspx?ID=2299) lets you prepare to take one specific action when a trigger you choose is met.\n\n<document level=\"2\" id=\"action-2292\" />\n\n<document level=\"2\" id=\"action-2293\" />\n\n<document level=\"2\" id=\"action-2294\" />\n\n<document level=\"2\" id=\"action-2295\" />\n\n<document level=\"2\" id=\"action-2296\" />\n\n<document level=\"2\" id=\"action-2297\" />\n\n<document level=\"2\" id=\"action-2298\" />\n\n<document level=\"2\" id=\"action-2299\" />\n\n<document level=\"2\" id=\"action-2300\" />\n\n<document level=\"2\" id=\"action-2301\" />\n\n<document level=\"2\" id=\"action-2302\" />\n\n<document level=\"2\" id=\"action-2303\" />\n\n<document level=\"2\" id=\"action-2304\" />\n\n<document level=\"2\" id=\"action-2306\" />\n\n<document level=\"2\" id=\"action-2307\" />\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<aside>\n<title level=\"2\" noclass=\"true\" icon=\"\">Speaking</title>\n\nAs long as you can act, you can also speak. You don't need to spend any type of action to speak, but because a round represents 6 seconds of time, you can usually speak at most a single sentence or so per round. Special uses of speech, such as attempting a Deception skill check to Lie, require spending actions and follow their own rules. All speech has the auditory trait. If you communicate in some way other than speech, other rules might apply. For instance, using sign language is visual instead of auditory.\n</aside>",
+ "name": "Basic Actions",
+ "next_link": {
+  "label": "Specialty Basic Actions",
+  "url": "/Rules.aspx?ID=2344"
+ },
+ "previous_link": {
+  "label": "Disrupting Actions",
+  "url": "/Rules.aspx?ID=2342"
+ },
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 416",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\nChapter 8: Playing the Game / Actions\n</additional-info>\n\n---\n\n<summary>\nBasic actions represent common tasks like moving around, attacking, and helping others. As such, every creature can use basic actions except in some \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 416"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 416",
+ "speed": {},
+ "summary": "Basic actions represent common tasks like moving around, attacking, and helping others. As such, every creature can use basic actions except in some \u2026",
+ "summary_markdown": "Basic actions represent common tasks like moving around, attacking, and helping others. As such, every creature can use basic actions except in some \u2026",
+ "text": "Rules Basic Actions Source Player Core pg. 416 Basic actions represent common tasks like moving around, attacking, and helping others. As such, every creature can use basic actions except in some extreme circumstances, and many of those actions are used very frequently. Most notably, you'll use Interact, Step, Stride, and Strike a great deal. Many feats and other actions call upon you to use one of these basic actions or modify them to produce different effects. For example, a more complex action might let you Stride twice, and a large number of activities include a Strike. An action or activity might also modify a basic action, such as having you Stride up to half your Speed. Actions that are used less frequently but are still available to most creatures are presented in Specialty Basic Actions. These typically have requirements that not all characters are likely to meet, such as wielding a shield, having a burrow Speed, or falling through the air. In addition to the actions in these two sections, the actions for spellcasting can be found here, and the actions for using magic items appear here. Delay and Ready: If you want to change when you take actions, two basic actions let you do so. Delay shifts your entire turn later in the round, and Ready lets you prepare to take one specific action when a trigger you choose is met. Speaking As long as you can act, you can also speak. You don't need to spend any type of action to speak, but because a round represents 6 seconds of time, you can usually speak at most a single sentence or so per round. Special uses of speech, such as attempting a Deception skill check to Lie, require spending actions and follow their own rules. All speech has the auditory trait. If you communicate in some way other than speech, other rules might apply. For instance, using sign language is visual instead of auditory.",
+ "type": "Rules",
+ "url": "/Rules.aspx?ID=2343",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:28-08:00"
+}

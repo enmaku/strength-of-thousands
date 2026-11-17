@@ -1,0 +1,90 @@
+{
+ "actions": "10 minutes",
+ "actions_number": 600,
+ "area": [
+  20
+ ],
+ "area_markdown": "20-foot burst",
+ "area_raw": "20-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
+ "component": [
+  "10 minutes"
+ ],
+ "domain_markdown": "",
+ "duration": 28800,
+ "duration_raw": "8 hours",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "3rd"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank"
+ ],
+ "heighten_level": [
+  1,
+  3
+ ],
+ "id": "spell-1439",
+ "legacy_id": [
+  "spell-7"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Alarm](/Spells.aspx?ID=1439)\n<actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 314\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** 10 minutes\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Area** 20-foot burst\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 8 hours\n</row>\n\n</column>\n\n---\n\nYou ward an area to alert you when creatures enter without your permission. When you cast alarm, select a password. Whenever a Small or larger corporeal creature enters the spell's area without speaking the password, alarm sends your choice of a mental alert (in which case the spell gains the [mental](/Traits.aspx?ID=106) trait) or an audible alarm with the sound and volume of a hand bell (in which case the spell gains the [auditory](/Traits.aspx?ID=16) trait). Either option automatically awakens you, and the bell allows each creature in the area to attempt a DC 15 Perception check to wake up. A creature aware of the alarm must succeed at a [Stealth](/Skills.aspx?ID=15) check against the spell's DC or trigger the spell when moving into the area.\n\n---\n**Heightened (3rd)** You can specify a trigger for which types of creatures sound the alarm spell, as described in Setting Triggers on page 303.",
+ "name": "Alarm",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 314",
+ "primary_source_category": "Rulebooks",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 314\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** 10 minutes\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Area** 20-foot burst\n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 8 hours\n</row>\n</additional-info>\n\n---\n\n<summary>\nBe alerted if a creature enters a warded area.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 314"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 314",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Be alerted if a creature enters a warded area.",
+ "summary_markdown": "Be alerted if a creature enters a warded area.",
+ "text": "Spell 1 Alarm Concentrate Manipulate Source Player Core pg. 314 Traditions Arcane, Divine, Occult, Primal Cast 10 minutes Range touch Area 20-foot burst Duration 8 hours You ward an area to alert you when creatures enter without your permission. When you cast alarm, select a password. Whenever a Small or larger corporeal creature enters the spell's area without speaking the password, alarm sends your choice of a mental alert (in which case the spell gains the mental trait) or an audible alarm with the sound and volume of a hand bell (in which case the spell gains the auditory trait). Either option automatically awakens you, and the bell allows each creature in the area to attempt a DC 15 Perception check to wake up. A creature aware of the alarm must succeed at a Stealth check against the spell's DC or trigger the spell when moving into the area. Heightened (3rd) You can specify a trigger for which types of creatures sound the alarm spell, as described in Setting Triggers on page 303.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1439",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:19-08:00"
+}

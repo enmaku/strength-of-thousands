@@ -1,0 +1,40 @@
+{
+ "category": "class-feature",
+ "class": "Cleric",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-649",
+ "legacy_id": [
+  "class-5"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Deity](/Classes.aspx?ID=33)</title>\n\n<column gap=\"tiny\">\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 108\n\n**Class** Cleric\n</column>\n\n---\n\nAs a cleric, you are a mortal servitor of a deity you revere above all others. The most common [deities](/Deities.aspx) in Pathfinder have edicts, areas of concern, and the benefits you get for being a cleric of that deity. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list once you can prepare spells of their rank as a cleric. Any of these spells that aren't normally on the divine list are still divine spells if you prepare them this way. \n\n<title level=\"3\" right=\"\">Sanctification</title> Depending on your deity, their sanctification can make you holy or unholy. This gives you the [holy](/Traits.aspx?ID=517) or [unholy](/Traits.aspx?ID=521) trait, which commits you to one side of a struggle over the souls of the planes and may be referenced in other abilities. If you \u201ccan be\u201d holy or unholy according to your deity, you make that choice, and if you \u201cmust be\u201d holy or unholy you gain the trait automatically. If you gain the opposing trait in some way, you lose the previous trait until you complete an [_atone_](/Rituals.aspx?ID=2) ritual. \n\n<title level=\"3\" right=\"\">Anathema</title> Acts fundamentally opposed to your deity's ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces.\n\n Casting spells with the [unholy](/Traits.aspx?ID=521) trait is almost always anathema to deities who don't allow unholy sanctification, and casting [holy](/Traits.aspx?ID=517) spells is likewise anathema to those who don't allow holy sanctification. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create [undead](/Traits.aspx?ID=160) would be anathema to [Pharasma](/Deities.aspx?ID=14), the goddess of death. Many actions that are anathema don't appear in any deity's formal list. For borderline cases, you and your GM determine which acts are anathema.\n\n If you perform enough acts that are anathema to your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all cleric spellcasting. These abilities can be regained only if you repent by conducting an [_atone_](/Rituals.aspx?ID=2) ritual.",
+ "name": "Deity",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 108",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 108\n\n**Class** Cleric\n</additional-info>\n\n---\n\n<summary>\nAs a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder have edicts, areas of concern, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 108"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 108",
+ "speed": {},
+ "summary": "As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder have edicts, areas of concern, \u2026",
+ "summary_markdown": "As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder have edicts, areas of concern, \u2026",
+ "text": "Class Feature 1 Deity Source Player Core pg. 108 Class Cleric As a cleric, you are a mortal servitor of a deity you revere above all others. The most common deities in Pathfinder have edicts, areas of concern, and the benefits you get for being a cleric of that deity. Your deity grants you the trained proficiency rank in one skill and with the deity's favored weapon. If the favored weapon is uncommon, you also get access to that weapon. Your deity also adds spells to your spell list. You can prepare these just like you can any spell on the divine spell list once you can prepare spells of their rank as a cleric. Any of these spells that aren't normally on the divine list are still divine spells if you prepare them this way. Sanctification Depending on your deity, their sanctification can make you holy or unholy. This gives you the holy or unholy trait, which commits you to one side of a struggle over the souls of the planes and may be referenced in other abilities. If you \u201ccan be\u201d holy or unholy according to your deity, you make that choice, and if you \u201cmust be\u201d holy or unholy you gain the trait automatically. If you gain the opposing trait in some way, you lose the previous trait until you complete an atone ritual. Anathema Acts fundamentally opposed to your deity's ideals are anathema to your faith. Learning or casting spells, committing acts, and using items that are anathema to your deity remove you from your deity's good graces. Casting spells with the unholy trait is almost always anathema to deities who don't allow unholy sanctification, and casting holy spells is likewise anathema to those who don't allow holy sanctification. Similarly, casting spells that are anathema to the tenets or goals of your faith could interfere with your connection to your deity. For example, casting a spell to create undead would be anathema to Pharasma, the goddess of death. Many actions that are anathema don't appear in any deity's formal list. For borderline cases, you and your GM determine which acts are anathema. If you perform enough acts that are anathema to your deity, you lose the magical abilities that come from your connection to your deity. The class features that you lose are determined by the GM, but they likely include your divine font and all cleric spellcasting. These abilities can be regained only if you repent by conducting an atone ritual.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=33",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:35-08:00"
+}

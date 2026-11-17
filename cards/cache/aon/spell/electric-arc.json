@@ -1,0 +1,105 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1509",
+ "legacy_id": [
+  "spell-97"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Electric Arc](/Spells.aspx?ID=1509)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 328\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Tempest](/Mysteries.aspx?ID=19)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 or 2 creatures\n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\n\n</column>\n\n---\n\nAn arc of lightning leaps from one target to another. Each target takes 2d4 electricity damage with a [basic](/Rules.aspx?ID=329) Reflex save.\n\n---\n**Heightened (+1)** The damage increases by 1d4.",
+ "mystery": [
+  "Tempest"
+ ],
+ "mystery_markdown": "[Tempest](/Mysteries.aspx?ID=19)",
+ "name": "Electric Arc",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 328",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "basic Reflex",
+ "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Electricity\" url=\"/Traits.aspx?ID=56\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 328\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Tempest](/Mysteries.aspx?ID=19)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 or 2 creatures\n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=329) Reflex\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nZap one or two creatures with lightning.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 328"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 328",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Zap one or two creatures with lightning.",
+ "summary_markdown": "Zap one or two creatures with lightning.",
+ "target": "1 or 2 creatures",
+ "target_markdown": "1 or 2 creatures",
+ "text": "Cantrip 1 Electric Arc Two Actions Cantrip Concentrate Electricity Manipulate Source Player Core pg. 328 Traditions Arcane, Primal Mystery Tempest Range 30 feet Target 1 or 2 creatures Defense basic Reflex An arc of lightning leaps from one target to another. Each target takes 2d4 electricity damage with a basic Reflex save. Heightened (+1) The damage increases by 1d4.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Electricity",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Energy",
+  "Monster"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Electricity](/Traits.aspx?ID=56), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Electricity",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1509",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:18-08:00"
+}

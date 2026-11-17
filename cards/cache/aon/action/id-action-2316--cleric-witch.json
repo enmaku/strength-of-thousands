@@ -1,0 +1,43 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2316",
+ "legacy_id": [
+  "action-98"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Raise a Shield](/Actions.aspx?ID=2316) <actions string=\"Single Action\" /></title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirements** You are wielding a shield.\n\n</column>\n\n---\n\nYou position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.",
+ "name": "Raise a Shield",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are wielding a shield.",
+ "requirement_markdown": "You are wielding a shield.",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirement**\nYou are wielding a shield.\n</additional-info>\n\n---\n\n<summary>\nYou position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 419"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
+ "speed": {},
+ "summary": "You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised \u2026",
+ "summary_markdown": "You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised \u2026",
+ "text": "Action Raise a Shield Single Action Source Player Core pg. 419 Requirements You are wielding a shield. You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.",
+ "trait_markdown": "",
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2316",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:43-08:00"
+}

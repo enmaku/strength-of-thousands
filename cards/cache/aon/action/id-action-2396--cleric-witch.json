@@ -1,0 +1,52 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2396",
+ "legacy_id": [
+  "action-54"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Administer First Aid](/Actions.aspx?ID=2396) <actions string=\"Two Actions\" /></title>\n\n<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 241\n\n**Requirements** You're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).\n\n</column>\n\n---\n\nYou perform first aid on an adjacent creature that is [dying](/Conditions.aspx?ID=11) or [bleeding](/Conditions.aspx?ID=29). If a creature is both dying and bleeding, choose which ailment you're trying to treat before you roll. You can Administer First Aid again to attempt to remedy the other effect. \n<ul><li>**Stabilize** Attempt a [Medicine](/Skills.aspx?ID=9) check on a creature that has 0 Hit Points and the dying condition. The DC is equal to 5 + that creature's recovery roll DC (typically 15 + its dying value).</li><li>**Stop Bleeding** Attempt a Medicine check on a creature that is taking persistent bleed damage. The DC is usually the DC of the effect that caused the bleed.</li></ul>\n\n**Success** If you're trying to stabilize, the target loses the dying condition (but remains [unconscious](/Conditions.aspx?ID=38)). If you're trying to stop bleeding, the target benefits from an [assisted recovery](/Conditions.aspx?ID=29) with the lowered DC for particularly appropriate help.<br />\n**Critical Failure** If you were trying to stabilize, the target's dying value increases by 1. If you were trying to stop bleeding, the target immediately takes an amount of damage equal to its persistent bleed damage.",
+ "name": "Administer First Aid",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 241",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You're wearing or holding a healer's toolkit.",
+ "requirement_markdown": "You're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 241\n\n**Requirement**\nYou're wearing or holding a [healer's toolkit](/Equipment.aspx?ID=2727).\n</additional-info>\n\n---\n\n<summary>\nYou perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you're trying \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 241"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 241",
+ "speed": {},
+ "summary": "You perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you're trying \u2026",
+ "summary_markdown": "You perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you're trying \u2026",
+ "text": "Action Administer First Aid Two Actions Manipulate Source Player Core pg. 241 Requirements You're wearing or holding a healer's toolkit. You perform first aid on an adjacent creature that is dying or bleeding. If a creature is both dying and bleeding, choose which ailment you're trying to treat before you roll. You can Administer First Aid again to attempt to remedy the other effect. Stabilize Attempt a Medicine check on a creature that has 0 Hit Points and the dying condition. The DC is equal to 5 + that creature's recovery roll DC (typically 15 + its dying value). Stop Bleeding Attempt a Medicine check on a creature that is taking persistent bleed damage. The DC is usually the DC of the effect that caused the bleed. Success If you're trying to stabilize, the target loses the dying condition (but remains unconscious). If you're trying to stop bleeding, the target benefits from an assisted recovery with the lowered DC for particularly appropriate help. Critical Failure If you were trying to stabilize, the target's dying value increases by 1. If you were trying to stop bleeding, the target immediately takes an amount of damage equal to its persistent bleed damage.",
+ "trait": [
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Manipulate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2396",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:51-08:00"
+}

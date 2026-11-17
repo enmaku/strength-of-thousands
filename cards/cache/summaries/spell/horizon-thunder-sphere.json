@@ -1,0 +1,5 @@
+{
+ "hash": "1b0ee74f0d75",
+ "front": "Hurl a ball of thunderous lightning with a ranged spell attack. Spend more actions for range, and a second round for an explosion.",
+ "back": "Spell attack vs. AC. Success: 3d6 electricity. Crit Success: double damage and dazzled 1 round.\n2 actions: range 30 ft.\n3 actions: range 60 ft; half damage on a failure (not crit failure).\n2 rounds: after 3 actions, spend 2 more actions next turn; after the attack, the sphere explodes for 2d6 electricity in a 10-ft emanation around target (basic Reflex). You spark 1 minute: 1 electricity to creatures that Grapple you or hit you with unarmed/non-reach melee.\nHeightened (+1): +2d6 hit and burst, +1 spark."
+}

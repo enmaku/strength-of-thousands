@@ -1,0 +1,5 @@
+{
+ "hash": "7652ae356fd5",
+ "front": "Distract creatures with a gesture, trick, or words to become hidden to them with a Deception check vs. Perception DC.",
+ "back": "Gesture/trick adds manipulate; words add auditory and linguistic. Deception vs. Perception DC of each target. Targets gain +4 circumstance to Perception DC against your further diversions for 1 minute, win or lose.\nSuccess: hidden to creatures whose DC you meet, until end of your turn or until you do anything but Step, Hide, or Sneak. If you Strike, the target is off-guard to it, then you become observed.\nFailure: no diversion; they know you tried to trick them."
+}

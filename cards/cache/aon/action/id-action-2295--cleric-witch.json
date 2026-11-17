@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2295",
+ "legacy_id": [
+  "action-78"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Drop Prone](/Actions.aspx?ID=2295) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\n</column>\n\n---\n\nYou fall [prone](/Conditions.aspx?ID=31).",
+ "name": "Drop Prone",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 416",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\n</additional-info>\n\n---\n\n<summary>\nYou fall prone.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 416"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 416",
+ "speed": {},
+ "summary": "You fall prone.",
+ "summary_markdown": "You fall prone.",
+ "text": "Action Drop Prone Single Action Move Source Player Core pg. 416 You fall prone.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2295",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:39-08:00"
+}

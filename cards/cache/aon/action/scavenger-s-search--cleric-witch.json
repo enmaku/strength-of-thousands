@@ -1,0 +1,56 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Scavenger's Search"
+ ],
+ "feat_markdown": "Scavenger's Search",
+ "id": "feat-5675",
+ "legacy_id": [
+  "feat-1310"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Scavenger's Search](/Feats.aspx?ID=5675) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=776\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 34\n\n</column>\n\n---\n\nYou're always on the lookout for supplies and valuables. You gain a +2 circumstance bonus to locate objects (including secret doors and hazards) you search for within 30 feet with a [Seek](/Actions.aspx?ID=2301) action.",
+ "name": "Scavenger's Search",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 34",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Tengu\" url=\"/Traits.aspx?ID=776\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 34\n\n</additional-info>\n\n---\n\n<summary>\nYou're always on the lookout for supplies and valuables.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 34"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 34",
+ "speed": {},
+ "summary": "You're always on the lookout for supplies and valuables.",
+ "summary_markdown": "You're always on the lookout for supplies and valuables.",
+ "text": "Feat 1 Scavenger's Search Tengu Source Player Core 2 pg. 34 You're always on the lookout for supplies and valuables. You gain a +2 circumstance bonus to locate objects (including secret doors and hazards) you search for within 30 feet with a Seek action.",
+ "trait": [
+  "Tengu"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry",
+  "Weapon"
+ ],
+ "trait_markdown": "[Tengu](/Traits.aspx?ID=776)",
+ "trait_raw": [
+  "Tengu"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5675",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:34-08:00"
+}

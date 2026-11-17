@@ -1,0 +1,82 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-1689",
+ "legacy_id": [
+  "spell-307"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Stabilize](/Spells.aspx?ID=1689)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 359\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 dying creature\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nLife energy shuts death's door. The target loses the dying condition, though it remains unconscious at 0 Hit Points.",
+ "name": "Stabilize",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 359",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 359\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 [dying](/Conditions.aspx?ID=11) creature\n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nStabilize a dying creature.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 359"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 359",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Stabilize a dying creature.",
+ "summary_markdown": "Stabilize a dying creature.",
+ "target": "1 dying creature",
+ "target_markdown": "1 [dying](/Conditions.aspx?ID=11) creature",
+ "text": "Cantrip 1 Stabilize Two Actions Cantrip Concentrate Healing Manipulate Vitality Source Player Core pg. 359 Traditions Divine, Primal Range 30 feet Target 1 dying creature Life energy shuts death's door. The target loses the dying condition, though it remains unconscious at 0 Hit Points.",
+ "tradition": [
+  "Divine",
+  "Primal"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Healing",
+  "Manipulate",
+  "Vitality",
+  "Positive"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Healing",
+  "Manipulate",
+  "Vitality"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1689",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:15-08:00"
+}

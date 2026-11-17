@@ -1,0 +1,5 @@
+{
+ "hash": "a8571b705050",
+ "front": "Spend 10 minutes treating an injured living creature to restore Hit Points and remove the wounded condition.",
+ "back": "10 minutes; target is then immune to Treat Wounds for 1 hour. DC 15 Medicine (expert DC 20, +10 HP; master DC 30, +30; legendary DC 40, +50). Succeeding, you can keep treating a total of 1 hour to double HP.\nCrit Success: 4d8 HP and loses wounded.\nSuccess: 2d8 HP and loses wounded.\nCrit Failure: target takes 1d8 damage."
+}

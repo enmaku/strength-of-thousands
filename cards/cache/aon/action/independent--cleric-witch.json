@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-115",
+ "legacy_id": [
+  "familiar-ability-27"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Independent](/Familiars.aspx?ID=115) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n\n</column>\n\nIn an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, the GM might determine that your familiar chooses its own tactics rather than performing your preferred action. This doesn't work with valet or similar abilities that require a command, if you're capable of riding your familiar, or similar situations.",
+ "name": "Independent",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 212",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nIn an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 212"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 212",
+ "speed": {},
+ "summary": "In an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, \u2026",
+ "summary_markdown": "In an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, \u2026",
+ "text": "Familiar Ability Independent Source Player Core pg. 212 Ability Type Familiar In an encounter, if you don't Command your familiar, it still gains 1 action each round. Typically, you still decide how it spends that action, but, the GM might determine that your familiar chooses its own tactics rather than performing your preferred action. This doesn't work with valet or similar abilities that require a command, if you're capable of riding your familiar, or similar situations.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=115",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:39-08:00"
+}

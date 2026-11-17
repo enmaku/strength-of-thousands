@@ -1,0 +1,83 @@
+{
+ "archetype": [
+  "Familiar Master",
+  "Elementalist",
+  "Shadowcaster",
+  "Rivethun Emissary",
+  "Infernal Pactbreaker"
+ ],
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Enhanced Familiar"
+ ],
+ "feat_markdown": "Enhanced Familiar",
+ "id": "feat-4717",
+ "legacy_id": [
+  "feat-318"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Enhanced Familiar](/Feats.aspx?ID=4717) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Animist\" url=\"/Traits.aspx?ID=836\" />\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=824\" />\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=895\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 129, [Player Core 2](/Sources.aspx?ID=227) pg. 153, [Impossible Magic](/Sources.aspx?ID=355) pg. 17, [War of Immortals](/Sources.aspx?ID=232) pg. 23, [Dark Archive (Remastered)](/Sources.aspx?ID=293) pg. 43\n\n**Archetypes** [Familiar Master](/Archetypes.aspx?ID=60) (Level 4), [Elementalist](/Archetypes.aspx?ID=98) (Level 6), [Shadowcaster](/Archetypes.aspx?ID=101) (Level 6), [Elementalist](/Archetypes.aspx?ID=207) (Level 6), [Familiar Master](/Archetypes.aspx?ID=250) (Level 4), [Rivethun Emissary](/Archetypes.aspx?ID=308) (Level 6), [Infernal Pactbreaker](/Archetypes.aspx?ID=398) (Level 6)\n\n**Prerequisites**\na [familiar](/Familiars.aspx)\n\n</column>\n\n---\n\nYou infuse your familiar with additional primal energy, increasing its abilities. You can select four familiar or master abilities each day, instead of two.\n\n**Special** [Witch] Add the bonus familiar abilities you gain for being a witch to this amount. [Wizard] If your arcane thesis is improved familiar attunement, your familiar\u2019s base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four.\n\n<title level=\"2\">Enhanced Familiar leads to...</title>\n[Incredible Familiar](/Feats.aspx?ID=5004), [Incredible Familiar (Animist)](/Feats.aspx?ID=9420), [Incredible Familiar (Familiar Master)](/Feats.aspx?ID=8005)",
+ "name": "Enhanced Familiar",
+ "pfs": "Standard",
+ "prerequisite": "a familiar",
+ "prerequisite_markdown": "a [familiar](/Familiars.aspx)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 129",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Animist\" url=\"/Traits.aspx?ID=836\" />\n<trait label=\"Druid\" url=\"/Traits.aspx?ID=583\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n<trait label=\"Sorcerer\" url=\"/Traits.aspx?ID=824\" />\n<trait label=\"Thaumaturge\" url=\"/Traits.aspx?ID=895\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n<trait label=\"Wizard\" url=\"/Traits.aspx?ID=735\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 129, [Player Core 2](/Sources.aspx?ID=227) pg. 153, [Impossible Magic](/Sources.aspx?ID=355) pg. 17, [War of Immortals](/Sources.aspx?ID=232) pg. 23, [Dark Archive (Remastered)](/Sources.aspx?ID=293) pg. 43\n\n**Prerequisites**\na [familiar](/Familiars.aspx)\n\n</additional-info>\n\n---\n\n<summary>\nYou infuse your familiar with additional primal energy, increasing its abilities.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core",
+  "Player Core 2",
+  "Impossible Magic",
+  "War of Immortals",
+  "Dark Archive (Remastered)"
+ ],
+ "source_raw": [
+  "Player Core pg. 129",
+  "Player Core 2 pg. 153",
+  "Impossible Magic pg. 17",
+  "War of Immortals pg. 23",
+  "Dark Archive (Remastered) pg. 43"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 129, [Player Core 2](/Sources.aspx?ID=227) pg. 153, [Impossible Magic](/Sources.aspx?ID=355) pg. 17, [War of Immortals](/Sources.aspx?ID=232) pg. 23, [Dark Archive (Remastered)](/Sources.aspx?ID=293) pg. 43",
+ "speed": {},
+ "summary": "You infuse your familiar with additional primal energy, increasing its abilities.",
+ "summary_markdown": "You infuse your familiar with additional primal energy, increasing its abilities.",
+ "text": "Feat 2 Enhanced Familiar Animist Druid Magus Sorcerer Thaumaturge Witch Wizard Source Player Core pg. 129, Player Core 2 pg. 153, Impossible Magic pg. 17, War of Immortals pg. 23, Dark Archive (Remastered) pg. 43 Archetypes Familiar Master (Level 4), Elementalist (Level 6), Shadowcaster (Level 6), Elementalist (Level 6), Familiar Master (Level 4), Rivethun Emissary (Level 6), Infernal Pactbreaker (Level 6) Prerequisites a familiar You infuse your familiar with additional primal energy, increasing its abilities. You can select four familiar or master abilities each day, instead of two. Special [Witch] Add the bonus familiar abilities you gain for being a witch to this amount. [Wizard] If your arcane thesis is improved familiar attunement, your familiar\u2019s base number of familiar abilities, before adding any extra abilities from the arcane thesis, is four. Enhanced Familiar leads to... Incredible Familiar, Incredible Familiar (Animist), Incredible Familiar (Familiar Master)",
+ "trait": [
+  "Animist",
+  "Druid",
+  "Magus",
+  "Sorcerer",
+  "Thaumaturge",
+  "Witch",
+  "Wizard"
+ ],
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Animist](/Traits.aspx?ID=836), [Druid](/Traits.aspx?ID=583), [Magus](/Traits.aspx?ID=953), [Sorcerer](/Traits.aspx?ID=824), [Thaumaturge](/Traits.aspx?ID=895), [Witch](/Traits.aspx?ID=734), [Wizard](/Traits.aspx?ID=735)",
+ "trait_raw": [
+  "Animist",
+  "Druid",
+  "Magus",
+  "Sorcerer",
+  "Thaumaturge",
+  "Witch",
+  "Wizard"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=4717",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:33-08:00"
+}

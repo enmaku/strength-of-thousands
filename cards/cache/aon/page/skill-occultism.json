@@ -1,0 +1,45 @@
+{
+ "attribute": [
+  "Intelligence"
+ ],
+ "category": "skill",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "skill-44",
+ "legacy_id": [
+  "skill-11"
+ ],
+ "markdown": "<title level=\"1\" right=\"Skill \" pfs=\"\">[Occultism](/Skills.aspx?ID=44)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n\nYou know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures.\n\n<title level=\"2\">Occultism Untrained General Actions</title>\n\n- [Recall Knowledge](/Skills.aspx?ID=24&amp;General=true) about ancient mysteries; obscure philosophies; creatures of occult significance (like [aberrations](/Traits.aspx?ID=523), [spirits](/Traits.aspx?ID=149), and [oozes](/Traits.aspx?ID=665)); and esoteric planes like the [Astral Plane](/Planes.aspx?ID=8), [Creation's Forge](/Planes.aspx?ID=27), the [Ethereal Plane](/Planes.aspx?ID=9), [the Netherworld](/Planes.aspx?ID=36), and [the Void](/Planes.aspx?ID=28).\n\n<title level=\"2\">Occultism Trained General Actions</title>\n\n- [Decipher Writing](/Skills.aspx?ID=20&amp;General=true) on occult topics, including complex metaphysical systems, syncretic principles, obscure philosophies, and incoherent ramblings.\n\n- [Identify Magic](/Skills.aspx?ID=22&amp;General=true), particularly magic of the [occult](/SpellLists.aspx?Tradition=3) tradition.\n\n- [Learn a Spell](/Skills.aspx?ID=23&amp;General=true) from the [occult](/SpellLists.aspx?Tradition=3) tradition.\n\n<title level=\"2\">Item Bonuses for Occultism</title>\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Bonus</th>\n<th>Level</th>\n<th>Category</th>\n<th>Consumable</th>\n<th>Note</th>\n</tr>\n</thead>\n<tbody>\n\n<tr>\n<td>[Essence Charm](/Equipment.aspx?ID=3795)</td>\n<td>+1</td>\n<td>4</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td>Item bonus to a check of the crafter's choice</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Lesser)](/Equipment.aspx?ID=3791)</td>\n<td>+1</td>\n<td>6</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Lesser)](/Equipment.aspx?ID=3316)</td>\n<td>+1</td>\n<td>1</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Accoutrements of Bone](/Equipment.aspx?ID=4978)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Specific Magic Armor](/equipment/armor/specific-magic-armor)</td>\n<td>No</td>\n<td>Item bonus to Occultism checks.</td>\n</tr>\n\n<tr>\n<td>[Fulu Compendium](/Equipment.aspx?ID=5088)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Held Items](/equipment/held-items)</td>\n<td>No</td>\n<td>Item bonus to determine a fulu's function or authenticity.</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal](/Equipment.aspx?ID=3435)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Moderate)](/Equipment.aspx?ID=3791)</td>\n<td>+2</td>\n<td>12</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Stage Magician's Cloak](/Equipment.aspx?ID=3634)</td>\n<td>+2</td>\n<td>13</td>\n<td>[Held Items](/equipment/held-items)</td>\n<td>No</td>\n<td>When worn with the black velvet lining facing out, the _stage magician\u2019s cloak_ grants a +2 item bonus to Occultism checks.</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Moderate)](/Equipment.aspx?ID=3316)</td>\n<td>+2</td>\n<td>3</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Greater)](/Equipment.aspx?ID=3791)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal (Greater)](/Equipment.aspx?ID=3435)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Archivist's Gaze](/Equipment.aspx?ID=5113)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Apex Items](/equipment/apex-items)</td>\n<td>No</td>\n<td>Item bonus to Occultism.</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Greater)](/Equipment.aspx?ID=3316)</td>\n<td>+3</td>\n<td>11</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Archivist's Gaze](/Equipment.aspx?ID=5113)</td>\n<td>+4</td>\n<td>18</td>\n<td>[Apex Items](/equipment/apex-items)</td>\n<td>No</td>\n<td>Item bonus to Occultism when Investigating.</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Major)](/Equipment.aspx?ID=3316)</td>\n<td>+4</td>\n<td>17</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n</tbody>\n</table>\n\n<title level=\"2\">Related Feats</title>\n\nTo see a list of Feats related to Occultism, [click here](/feats?include-traits=skill&amp;exclude-traits=archetype&amp;include-skills=occultism&amp;sort=level-asc%3Bname-asc).",
+ "name": "Occultism",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 243",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n</additional-info>\n\n---\n\n<summary>\nYou know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures.\n</summary>",
+ "skill": [
+  "Occultism"
+ ],
+ "skill_markdown": "Occultism",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 243"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 243",
+ "speed": {},
+ "summary": "You know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures.",
+ "summary_markdown": "You know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures.",
+ "text": "Skill Occultism Source Player Core pg. 243 You know a great deal about ancient philosophies, esoteric lore, obscure mysticism, and supernatural creatures. Occultism Untrained General Actions - Recall Knowledge about ancient mysteries; obscure philosophies; creatures of occult significance (like aberrations, spirits, and oozes); and esoteric planes like the Astral Plane, Creation's Forge, the Ethereal Plane, the Netherworld, and the Void. Occultism Trained General Actions - Decipher Writing on occult topics, including complex metaphysical systems, syncretic principles, obscure philosophies, and incoherent ramblings. - Identify Magic, particularly magic of the occult tradition. - Learn a Spell from the occult tradition. Item Bonuses for Occultism Item Bonus Level Category Consumable Note Essence Charm +1 4 Other Worn Items No Item bonus to a check of the crafter's choice Essence Forge (Lesser) +1 6 Other No Item Bonus Cognitive Mutagen (Lesser) +1 1 Alchemical Elixirs Yes Accoutrements of Bone +2 9 Specific Magic Armor No Item bonus to Occultism checks. Fulu Compendium +2 9 Held Items No Item bonus to determine a fulu's function or authenticity. Helm of Zeal +2 11 Worn Items No Item bonus of the associated Deity's Divine Skill Essence Forge (Moderate) +2 12 Other No Item Bonus Stage Magician's Cloak +2 13 Held Items No When worn with the black velvet lining facing out, the stage magician\u2019s cloak grants a +2 item bonus to Occultism checks. Cognitive Mutagen (Moderate) +2 3 Alchemical Elixirs Yes Essence Forge (Greater) +3 18 Other No Item Bonus Helm of Zeal (Greater) +3 18 Worn Items No Item bonus of the associated Deity's Divine Skill Archivist's Gaze +3 18 Apex Items No Item bonus to Occultism. Cognitive Mutagen (Greater) +3 11 Alchemical Elixirs Yes Archivist's Gaze +4 18 Apex Items No Item bonus to Occultism when Investigating. Cognitive Mutagen (Major) +4 17 Alchemical Elixirs Yes Related Feats To see a list of Feats related to Occultism, click here.",
+ "type": "Skill",
+ "url": "/Skills.aspx?ID=44",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:31-08:00"
+}

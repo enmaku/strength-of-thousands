@@ -1,0 +1,52 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-2715-2475",
+ "item_category": "Adventuring Gear",
+ "item_parent_id": "equipment-2715",
+ "legacy_id": [
+  "equipment-15"
+ ],
+ "legacy_name": [
+  "Clothing"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0+\"\n    pfs=\"Standard\"\n>\n[Clothing](/Equipment.aspx?ID=2715)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nOrdinary clothing is functional with basic tailoring, such as peasant garb, monk's robes, or work clothes.\n\nMore expensive finery or clothes for specific climes cost more.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nClothing (Ordinary)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287, [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 1 sp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nClothing (Explorer's)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 291, [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 1 sp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nExplorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see [its entry in the armor category](/Armor.aspx?ID=2).\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nClothing (Fine)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 291, [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 2 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nClothing (High-Fashion Fine)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 291, [Core Rulebook](/Sources.aspx?ID=1) pg. 287\n\n**Price** 55 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nClothing (Cold-Weather)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 291\n\n**Price** 4 sp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nClothing (Desert)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Howl of the Wild](/Sources.aspx?ID=226) pg. 112\n\n**Price** 4 sp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nDesert clothing is made up of loose-fitting, light, breathable clothes that protect your head and body from the sun and allow you to cool off easily. They allow you to negate the damage from [severe environmental heat](/Rules.aspx?ID=2820) and reduce the damage from extreme heat to that of severe heat. This effect is negated if the clothing is worn with any armor, except armor that is especially cooling at the GM\u2019s discretion.",
+ "name": "Clothing (Explorer's)",
+ "pfs": "Standard",
+ "price": 10,
+ "price_raw": "1 sp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 291",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 291\n\n**Price** 1 sp\n\n<row gap=\"medium\">\n \n\n \n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nExplorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 291"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 291",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though \u2026",
+ "summary_markdown": "Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though \u2026",
+ "text": "Item 0+ Clothing Source Player Core pg. 287 Ordinary clothing is functional with basic tailoring, such as peasant garb, monk's robes, or work clothes. More expensive finery or clothes for specific climes cost more. Item 0 Clothing (Ordinary) Source Player Core pg. 287, Core Rulebook pg. 287 Price 1 sp Item 0 Clothing (Explorer's) Source Player Core pg. 291, Core Rulebook pg. 287 Price 1 sp Bulk L Explorer\u2019s clothing is sturdy enough that it can be reinforced to protect you, even though it isn\u2019t a suit of armor. It comes in many forms, though the most common sorts look like clerical vestments, monk\u2019s garments, or wizard\u2019s robes, as members of all three classes are likely to avoid wearing armor. For more information on explorer\u2019s clothing, see its entry in the armor category. Item 0 Clothing (Fine) Source Player Core pg. 291, Core Rulebook pg. 287 Price 2 gp Bulk L Item 3 Clothing (High-Fashion Fine) Source Player Core pg. 291, Core Rulebook pg. 287 Price 55 gp Bulk L Item 0 Clothing (Cold-Weather) Source Player Core pg. 291 Price 4 sp Bulk L Item 0 Clothing (Desert) Source Howl of the Wild pg. 112 Price 4 sp Bulk L Desert clothing is made up of loose-fitting, light, breathable clothes that protect your head and body from the sun and allow you to cool off easily. They allow you to negate the damage from severe environmental heat and reduce the damage from extreme heat to that of severe heat. This effect is negated if the clothing is worn with any armor, except armor that is especially cooling at the GM\u2019s discretion.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2715",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:27-08:00"
+}

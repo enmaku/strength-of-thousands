@@ -1,0 +1,59 @@
+{
+ "archetype": [
+  "Familiar Master"
+ ],
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Familiar Master Dedication"
+ ],
+ "feat_markdown": "Familiar Master Dedication",
+ "id": "feat-6328",
+ "legacy_id": [
+  "feat-1970"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Familiar Master Dedication](/Feats.aspx?ID=6328) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=572\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 200\n\n**Archetype** [Familiar Master](/Archetypes.aspx?ID=250)\n\n</column>\n\n---\n\nYou have forged a mystical bond with a creature. This might have involved complex rituals and invocations, such as meditating under the moon until something crept out of the forest. Or maybe you just did each other a good turn, such as rescuing the beast from a trap or a foe, and then being rescued in turn. Whatever the details, you are now comrades until the end. You gain a [familiar](/Rules.aspx?ID=160). If you already have a familiar, you gain the [Enhanced Familiar](/Feats.aspx?ID=4717) feat.\n\n<title level=\"2\">Familiar Master Dedication leads to...</title>\n[Familiar Conduit](/Feats.aspx?ID=6330), [Familiar Mascot](/Feats.aspx?ID=6329), [Improved Familiar](/Feats.aspx?ID=6331), [Mutable Familiar](/Feats.aspx?ID=6332), [Scion of Domora Dedication](/Feats.aspx?ID=8124)",
+ "name": "Familiar Master Dedication",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 200",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=572\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 200\n\n</additional-info>\n\n---\n\n<summary>\nYou have forged a mystical bond with a creature.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 200"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 200",
+ "speed": {},
+ "summary": "You have forged a mystical bond with a creature.",
+ "summary_markdown": "You have forged a mystical bond with a creature.",
+ "text": "Feat 2 Familiar Master Dedication Archetype Dedication Source Player Core 2 pg. 200 Archetype Familiar Master You have forged a mystical bond with a creature. This might have involved complex rituals and invocations, such as meditating under the moon until something crept out of the forest. Or maybe you just did each other a good turn, such as rescuing the beast from a trap or a foe, and then being rescued in turn. Whatever the details, you are now comrades until the end. You gain a familiar. If you already have a familiar, you gain the Enhanced Familiar feat. Familiar Master Dedication leads to... Familiar Conduit, Familiar Mascot, Improved Familiar, Mutable Familiar, Scion of Domora Dedication",
+ "trait": [
+  "Archetype",
+  "Dedication"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=535), [Dedication](/Traits.aspx?ID=572)",
+ "trait_raw": [
+  "Archetype",
+  "Dedication"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=6328",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:34-08:00"
+}

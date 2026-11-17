@@ -1,0 +1,63 @@
+{
+ "ac": 2,
+ "armor_category": "Light",
+ "armor_group": "Plate",
+ "armor_group_markdown": "[Plate](/ArmorGroups.aspx?ID=4)",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "armor",
+ "check_penalty": -1,
+ "dex_cap": 3,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "armor-51",
+ "item_category": "Armor",
+ "item_subcategory": "Base Armor",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Armor 0\"\n    pfs=\"Standard\"\n>\n[Kilted Breastplate](/Armor.aspx?ID=51)\n</title>\n\n<traits>\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=605\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [War of Immortals](/Sources.aspx?ID=232) pg. 146\n\n<row gap=\"medium\">\n**Price** 3 gp\n\n**AC Bonus** +2\n\n**Dex Cap** +3\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** +1\n\n**Bulk** 1\n\n**Category** Light\n\n**Group** Plate\n</row>\n\n</column>\n\n---\n\nThis armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and featuring a skirt of leather pleats reinforced with metal studs to protect the upper legs.\n\n<title level=\"2\">Armor Specialization Effects</title>\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 275\n\nCertain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects.\n\n[Click here for the full rules on Armor Specialization Effects](/Rules.aspx?ID=211).\n\n<document level=\"2\" id=\"armor-group-4\" />",
+ "name": "Kilted Breastplate",
+ "pfs": "Standard",
+ "price": 300,
+ "price_raw": "3 gp",
+ "primary_source": "War of Immortals",
+ "primary_source_raw": "War of Immortals pg. 146",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-10-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=605\" />\n</traits>\n\n<additional-info>\n**Source** [War of Immortals](/Sources.aspx?ID=232) pg. 146\n\n<row gap=\"medium\">\n**Price** 3 gp\n\n**AC Bonus** +2\n\n**Dex Cap** +3\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** 1\n\n**Bulk** 1\n\n**Category** Light\n\n**Group** [Plate](/ArmorGroups.aspx?ID=4)\n</row>\n</additional-info>\n\n---\n\n<summary>\nThis armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "War of Immortals"
+ ],
+ "source_raw": [
+  "War of Immortals pg. 146"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[War of Immortals](/Sources.aspx?ID=232) pg. 146",
+ "speed": {},
+ "strength": 1,
+ "sub_document_id": [
+  "armor-group-4"
+ ],
+ "summary": "This armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and \u2026",
+ "summary_markdown": "This armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and \u2026",
+ "text": "Armor 0 Kilted Breastplate Flexible Source War of Immortals pg. 146 Price 3 gp AC Bonus +2 Dex Cap +3 Check Penalty -1 Speed Penalty \u2014 Strength +1 Bulk 1 Category Light Group Plate This armor consists of a chest plate, typically made out of bronze or other water-resistant alloys, strapped to the body with a leather harness and featuring a skirt of leather pleats reinforced with metal studs to protect the upper legs. Armor Specialization Effects Source Core Rulebook pg. 275 Certain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects. Click here for the full rules on Armor Specialization Effects. Armor Specialization Plate Source Player Core pg. 272 The sturdy plate provides no purchase for a cutting edge. You gain resistance to slashing damage equal to 1 + the value of the armor\u2019s potency rune for medium armor, or 2 + the value of the armor\u2019s potency rune for heavy armor.",
+ "trait": [
+  "Flexible"
+ ],
+ "trait_group": [
+  "Armor"
+ ],
+ "trait_markdown": "[Flexible](/Traits.aspx?ID=605)",
+ "trait_raw": [
+  "Flexible"
+ ],
+ "type": "Item",
+ "url": "/Armor.aspx?ID=51",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:22-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "7cbd8e719705",
+ "front": "Shape three needles from a piece of your metal and fling them at a target with a spell attack. They can cause bleeding; the metal returns to you.",
+ "back": "Spell attack vs. AC. Deals 3d4 piercing. Needles carry the metal's special properties (e.g. cold iron weakness).\nCrit Success: double damage and 1 persistent bleed damage.\nSuccess: full damage.\nHeightened (+1): one more needle: +1d4 damage and +1 persistent bleed on a crit."
+}

@@ -1,0 +1,100 @@
+{
+ "actions": "Reaction",
+ "actions_number": 1,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1884",
+ "legacy_id": [
+  "spell-804"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\n[Phase Familiar](/Spells.aspx?ID=1884)\n<actions string=\"Reaction\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n<row gap=\"medium\">\n\n \n\n**Trigger** Your familiar would take damage\n\n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n**Target** your familiar\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYour patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself. Against the triggering damage, your familiar gains resistance 5 to all damage and is immune to precision damage.\n\n---\n**Heightened (+1)** Increase the resistance by 2.",
+ "name": "Phase Familiar",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 385",
+ "primary_source_category": "Rulebooks",
+ "range": 60,
+ "range_raw": "60 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Hex\" url=\"/Traits.aspx?ID=324\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Witch\" url=\"/Traits.aspx?ID=734\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 385\n\n<row gap=\"medium\">\n\n \n\n**Trigger** Your familiar would take damage\n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n \n\n**Target** your familiar\n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYour patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 385"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 385",
+ "speed": {},
+ "spell_type": "Focus",
+ "summary": "Your patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself.",
+ "summary_markdown": "Your patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself.",
+ "target": "your familiar",
+ "target_markdown": "your familiar",
+ "text": "Focus 1 Phase Familiar Reaction Uncommon Focus Hex Manipulate Witch Source Player Core pg. 385 Trigger Your familiar would take damage Range 60 feet Target your familiar Your patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself. Against the triggering damage, your familiar gains resistance 5 to all damage and is immune to precision damage. Heightened (+1) Increase the resistance by 2.",
+ "tradition_markdown": "",
+ "trait": [
+  "Focus",
+  "Hex",
+  "Manipulate",
+  "Uncommon",
+  "Witch"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class-Specific",
+  "Rarity",
+  "Class"
+ ],
+ "trait_markdown": "[Focus](/Traits.aspx?ID=511), [Hex](/Traits.aspx?ID=324), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159), [Witch](/Traits.aspx?ID=734)",
+ "trait_raw": [
+  "Focus",
+  "Hex",
+  "Manipulate",
+  "Uncommon",
+  "Witch"
+ ],
+ "trigger": "Your familiar would take damage",
+ "trigger_markdown": "Your familiar would take damage",
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1884",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:20-08:00"
+}

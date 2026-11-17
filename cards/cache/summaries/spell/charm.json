@@ -1,0 +1,5 @@
+{
+ "hash": "487925b4d6b9",
+ "front": "Make a creature regard you as a friend through magic. It attempts a Will save, with +4 if you or allies recently threatened it.",
+ "back": "Ends if you use hostile actions against the target. You can Dismiss. Target may not realize it was charmed.\nCrit Success: unaffected, aware you tried.\nSuccess: unaffected, thinks it was something harmless.\nFailure: attitude becomes friendly (helpful if already friendly); it can't use hostile actions against you.\nCrit Failure: becomes helpful; can't use hostile actions against you.\nHeightened (4th): lasts until next daily preparations.\nHeightened (8th): same, and up to 10 targets."
+}

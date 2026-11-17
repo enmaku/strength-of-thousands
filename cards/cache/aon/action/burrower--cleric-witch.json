@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-140",
+ "legacy_id": [
+  "familiar-ability-2"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Burrower](/Familiars.aspx?ID=140) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Ability Type** Familiar\n\n</column>\n\nYour familiar gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.",
+ "name": "Burrower",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 259",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nYour familiar gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 259"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 259",
+ "speed": {},
+ "summary": "Your familiar gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.",
+ "summary_markdown": "Your familiar gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.",
+ "text": "Familiar Ability Burrower Source Player Core pg. 259 Ability Type Familiar Your familiar gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=140",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:38-08:00"
+}

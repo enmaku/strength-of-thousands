@@ -1,0 +1,108 @@
+{
+ "actions": "Three Actions",
+ "actions_number": 6,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Haagenti",
+  "Minderhal",
+  "Soralyon"
+ ],
+ "deity_markdown": "[Haagenti](/Deities.aspx?ID=430), [Minderhal](/Deities.aspx?ID=494), [Soralyon](/Deities.aspx?ID=484)",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "sustained up to 1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "2nd",
+  "3rd",
+  "4th",
+  "5th",
+  "6th",
+  "7th",
+  "8th",
+  "9th",
+  "10th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1696",
+ "legacy_id": [
+  "spell-318"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Summon Construct](/Spells.aspx?ID=1696)\n<actions string=\"Three Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Summon\" url=\"/Traits.aspx?ID=520\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 360\n\n**Tradition**\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\n[Haagenti](/Deities.aspx?ID=430), [Minderhal](/Deities.aspx?ID=494), [Soralyon](/Deities.aspx?ID=484)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n\n</column>\n\n---\n\nYou summon a creature that has the [construct](/Traits.aspx?ID=35) trait and whose level is \u20131 to fight for you.\n\n---\n**Heightened (2nd)** Level 1.\n\n**Heightened (3rd)** Level 2.\n\n**Heightened (4th)** Level 3.\n\n**Heightened (5th)** Level 5.\n\n**Heightened (6th)** Level 7.\n\n**Heightened (7th)** Level 9.\n\n**Heightened (8th)** Level 11.\n\n**Heightened (9th)** Level 13.\n\n**Heightened (10th)** Level 15.\n\n",
+ "name": "Summon Construct",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 360",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Summon\" url=\"/Traits.aspx?ID=520\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 360\n\n**Tradition**\n[Arcane](/SpellLists.aspx?Tradition=1)\n\n**Deities**\n[Haagenti](/Deities.aspx?ID=430), [Minderhal](/Deities.aspx?ID=494), [Soralyon](/Deities.aspx?ID=484)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nConjure a construct to fight on your behalf.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 360"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 360",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Conjure a construct to fight on your behalf.",
+ "summary_markdown": "Conjure a construct to fight on your behalf.",
+ "text": "Spell 1 Summon Construct Three Actions Concentrate Manipulate Summon Source Player Core pg. 360 Tradition Arcane Deities Haagenti, Minderhal, Soralyon Range 30 feet Duration sustained up to 1 minute You summon a creature that has the construct trait and whose level is \u20131 to fight for you. Heightened (2nd) Level 1. Heightened (3rd) Level 2. Heightened (4th) Level 3. Heightened (5th) Level 5. Heightened (6th) Level 7. Heightened (7th) Level 9. Heightened (8th) Level 11. Heightened (9th) Level 13. Heightened (10th) Level 15.",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Concentrate",
+  "Manipulate",
+  "Summon"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Summon](/Traits.aspx?ID=520)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate",
+  "Summon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1696",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:17-08:00"
+}

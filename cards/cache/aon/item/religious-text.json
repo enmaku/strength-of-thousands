@@ -1,0 +1,50 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "1",
+ "id": "equipment-2746",
+ "item_category": "Adventuring Gear",
+ "legacy_id": [
+  "equipment-42"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0\"\n    pfs=\"Standard\"\n>\n[Religious Text](/Equipment.aspx?ID=2746)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 290\n\n**Price** 1 gp\n\n<row gap=\"medium\">\n\n**Hands** 1\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain abilities. A religious text must be held in one hand to use it.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Religious Text",
+ "pfs": "Standard",
+ "price": 100,
+ "price_raw": "1 gp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 290",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 290\n\n**Price** 1 gp\n\n<row gap=\"medium\">\n**Hands** 1\n\n \n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 290"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 290",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain \u2026",
+ "summary_markdown": "This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain \u2026",
+ "text": "Item 0 Religious Text Source Player Core pg. 290 Price 1 gp Hands 1 Bulk L This manuscript contains scripture of a particular religion. Some divine spellcasters, such as clerics, can use a religious text to use certain abilities. A religious text must be held in one hand to use it.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2746",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:23-08:00"
+}

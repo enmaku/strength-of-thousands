@@ -1,0 +1,101 @@
+{
+ "actions": "Single Action to Three Actions",
+ "actions_number": 2,
+ "bloodline": [
+  "Angelic"
+ ],
+ "bloodline_markdown": "[Angelic](/Bloodlines.aspx?ID=20)",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1554",
+ "legacy_id": [
+  "spell-148"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Heal](/Spells.aspx?ID=1554)\n<actions string=\"Single Action to Three Actions\" />\n</title>\n\n<traits>\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 335\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\n[Angelic](/Bloodlines.aspx?ID=20)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** varies\n\n**Target** 1 willing living creature or 1 undead creature\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYou channel vital energy to heal the living or damage the [undead](/Traits.aspx?ID=160). If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.\n\n <actions string=\"Single Action\" /> The spell has a range of touch.<br /> <actions string=\"Two Actions\" /> ([concentrate](/Traits.aspx?ID=32)) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.<br /> <actions string=\"Three Actions\" /> ([concentrate](/Traits.aspx?ID=32)) You disperse vital energy in a 30-foot emanation. This targets all living and undead creatures in the burst.\n\n---\n**Heightened (+1)** The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
+ "name": "Heal",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 335",
+ "primary_source_category": "Rulebooks",
+ "range_raw": "varies",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 335\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\n[Angelic](/Bloodlines.aspx?ID=20)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** varies\n\n \n\n**Target** 1 willing living creature or 1 undead creature\n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nVital energy heals the living or harms the undead, either a single creature or all in a burst.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 335"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 335",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Vital energy heals the living or harms the undead, either a single creature or all in a burst.",
+ "summary_markdown": "Vital energy heals the living or harms the undead, either a single creature or all in a burst.",
+ "target": "1 willing living creature or 1 undead creature",
+ "target_markdown": "1 willing living creature or 1 undead creature",
+ "text": "Spell 1 Heal Single Action to Three Actions Healing Manipulate Vitality Source Player Core pg. 335 Traditions Divine, Primal Bloodline Angelic Range varies Target 1 willing living creature or 1 undead creature You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. Single Action The spell has a range of touch. Two Actions (concentrate) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8. Three Actions (concentrate) You disperse vital energy in a 30-foot emanation. This targets all living and undead creatures in the burst. Heightened (+1) The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.",
+ "tradition": [
+  "Divine",
+  "Primal"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Healing",
+  "Manipulate",
+  "Vitality",
+  "Positive"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)",
+ "trait_raw": [
+  "Healing",
+  "Manipulate",
+  "Vitality"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1554",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:17-08:00"
+}

@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2298",
+ "legacy_id": [
+  "action-81"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Leap](/Actions.aspx?ID=2298) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</column>\n\n---\n\nYou take a short horizontal or vertical jump. Jumping a greater distance requires using the [Athletics](/Skills.aspx?ID=3) skill for a [High Jump](/Actions.aspx?ID=36) or [Long Jump](/Actions.aspx?ID=37). \n<ul><li>**Horizontal Jump** up to 10 feet horizontally if your Speed is at least 15 feet, or up to 15 feet horizontally if your Speed is at least 30 feet. You land in the space where your Leap ends (meaning you can typically clear a 5-foot gap, or a 10-foot gap if your Speed is 30 feet or more). You can't make a horizontal Leap if your Speed is less than 15 feet.</li><li>**Vertical Jump** up to 3 feet vertically and 5 feet horizontally onto an elevated surface.</li></ul>",
+ "name": "Leap",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 417",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</additional-info>\n\n---\n\n<summary>\nYou take a short horizontal or vertical jump. Jumping a greater distance requires using the Athletics skill for a High Jump or Long Jump.    \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 417"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 417",
+ "speed": {},
+ "summary": "You take a short horizontal or vertical jump. Jumping a greater distance requires using the Athletics skill for a High Jump or Long Jump.    \u2026",
+ "summary_markdown": "You take a short horizontal or vertical jump. Jumping a greater distance requires using the Athletics skill for a High Jump or Long Jump.    \u2026",
+ "text": "Action Leap Single Action Move Source Player Core pg. 417 You take a short horizontal or vertical jump. Jumping a greater distance requires using the Athletics skill for a High Jump or Long Jump. Horizontal Jump up to 10 feet horizontally if your Speed is at least 15 feet, or up to 15 feet horizontally if your Speed is at least 30 feet. You land in the space where your Leap ends (meaning you can typically clear a 5-foot gap, or a 10-foot gap if your Speed is 30 feet or more). You can't make a horizontal Leap if your Speed is less than 15 feet. Vertical Jump up to 3 feet vertically and 5 feet horizontally onto an elevated surface.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2298",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:40-08:00"
+}

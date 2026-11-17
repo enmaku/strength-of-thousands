@@ -1,0 +1,5 @@
+{
+ "hash": "09582d3fea83",
+ "front": "Stride, and try to move through an enemy's space with an Acrobatics check vs. its Reflex DC.",
+ "back": "Stride up to your Speed, trying to enter one enemy's space. Acrobatics vs. its Reflex DC. May use Climb, Fly, Swim, etc. instead of Stride.\nSuccess: you move through its space; its squares are difficult terrain (5 ft costs 10 ft). If you lack the Speed to get through, treat as failure.\nFailure: movement ends and you trigger reactions as if you left your starting square."
+}

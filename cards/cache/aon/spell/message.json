@@ -1,0 +1,97 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration_raw": "see below",
+ "element": [
+  "Universal"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "3rd"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank"
+ ],
+ "heighten_level": [
+  1,
+  3
+ ],
+ "id": "spell-1598",
+ "legacy_id": [
+  "spell-190"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Message](/Spells.aspx?ID=1598)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 343\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** see below\n</row>\n\n</column>\n\n---\n\nYou mouth words quietly, but instead of coming out of your mouth, they're transferred directly to the ears of the target. While others can't hear your words any better than if you normally mouthed them, the target can hear your words as if they were standing next to you. The target can give a brief response as a reaction, or as a free action on their next turn if they wish, but they must be able to see you and be within range to do so. If they respond, their response is delivered directly to your ear, just like the original message.\n\n---\n**Heightened (3rd)** The spell's range increases to 500 feet.",
+ "name": "Message",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 343",
+ "primary_source_category": "Rulebooks",
+ "range": 120,
+ "range_raw": "120 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "school": "illusion",
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=92\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 343\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** see below\n</row>\n</additional-info>\n\n---\n\n<summary>\nSpeak a message to a distant creature, who can reply.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 343"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 343",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Speak a message to a distant creature, who can reply.",
+ "summary_markdown": "Speak a message to a distant creature, who can reply.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Cantrip 1 Message Single Action Auditory Cantrip Concentrate Illusion Linguistic Mental Subtle Source Player Core pg. 343 Traditions Arcane, Divine, Occult Spell Lists Elemental Range 120 feet Target 1 creature Duration see below You mouth words quietly, but instead of coming out of your mouth, they're transferred directly to the ears of the target. While others can't hear your words any better than if you normally mouthed them, the target can hear your words as if they were standing next to you. The target can give a brief response as a reaction, or as a free action on their next turn if they wish, but they must be able to see you and be within range to do so. If they respond, their response is delivered directly to your ear, just like the original message. Heightened (3rd) The spell's range increases to 500 feet.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Elemental"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "trait": [
+  "Auditory",
+  "Cantrip",
+  "Concentrate",
+  "Illusion",
+  "Linguistic",
+  "Mental",
+  "Subtle"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics",
+  "School",
+  "Monster"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Illusion](/Traits.aspx?ID=92), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106), [Subtle](/Traits.aspx?ID=522)",
+ "trait_raw": [
+  "Auditory",
+  "Cantrip",
+  "Concentrate",
+  "Illusion",
+  "Linguistic",
+  "Mental",
+  "Subtle"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1598",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:20-08:00"
+}

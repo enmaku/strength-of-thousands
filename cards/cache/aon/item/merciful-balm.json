@@ -1,0 +1,68 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-2072",
+ "item_category": "Consumables",
+ "item_subcategory": "Oils",
+ "legacy_id": [
+  "equipment-4605"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 1\"\n    pfs=\"Standard\"\n>\n[Merciful Balm](/Equipment.aspx?ID=2072)\n</title>\n\n<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 86\n\n**Price** 3 gp\n\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nSmelling strongly of herbs and pine resin, _merciful balm_ is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the [nonlethal](/Traits.aspx?ID=188) trait for 1 hour.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Merciful Balm",
+ "pfs": "Standard",
+ "price": 300,
+ "price_raw": "3 gp",
+ "primary_source": "Treasure Vault (Remastered)",
+ "primary_source_raw": "Treasure Vault (Remastered) pg. 86",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-06-04",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n<trait label=\"Oil\" url=\"/Traits.aspx?ID=121\" />\n</traits>\n\n<additional-info>\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 86\n\n**Price** 3 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 2 hands\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nSmelling strongly of herbs and pine resin,  merciful balm  is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Treasure Vault (Remastered)"
+ ],
+ "source_raw": [
+  "Treasure Vault (Remastered) pg. 86"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 86",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "Smelling strongly of herbs and pine resin,  merciful balm  is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the \u2026",
+ "summary_markdown": "Smelling strongly of herbs and pine resin,  merciful balm  is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the \u2026",
+ "text": "Item 1 Merciful Balm Consumable Magical Oil Source Treasure Vault (Remastered) pg. 86 Price 3 gp Usage held in 2 hands Bulk L Activate Single Action (manipulate) Smelling strongly of herbs and pine resin, merciful balm is a thick, sticky paste that can be used to anoint a weapon, granting the weapon the nonlethal trait for 1 hour.",
+ "trait": [
+  "Consumable",
+  "Magical",
+  "Oil"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Magical](/Traits.aspx?ID=103), [Oil](/Traits.aspx?ID=121)",
+ "trait_raw": [
+  "Consumable",
+  "Magical",
+  "Oil"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2072",
+ "usage": "held in 2 hands",
+ "usage_markdown": "held in 2 hands",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:26-08:00"
+}

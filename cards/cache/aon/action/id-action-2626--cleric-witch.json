@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2626",
+ "legacy_id": [
+  "action-515"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Hustle](/Actions.aspx?ID=2626) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\n</column>\n\n---\n\nYou strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier \u00d7 10 (minimum 10 minutes). If you are in a group that is Hustling, use the lowest Constitution modifier among everyone to determine how fast the group can Hustle together.",
+ "name": "Hustle",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 438",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\n</additional-info>\n\n---\n\n<summary>\nYou strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier \u00d7 10 \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 438"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 438",
+ "speed": {},
+ "summary": "You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier \u00d7 10 \u2026",
+ "summary_markdown": "You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier \u00d7 10 \u2026",
+ "text": "Action Hustle Exploration Move Source Player Core pg. 438 You strain yourself to move at double your travel speed. You can Hustle only for a number of minutes equal to your Constitution modifier \u00d7 10 (minimum 10 minutes). If you are in a group that is Hustling, use the lowest Constitution modifier among everyone to determine how fast the group can Hustle together.",
+ "trait": [
+  "Exploration",
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Exploration](/Traits.aspx?ID=595), [Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Exploration",
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2626",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:44-08:00"
+}

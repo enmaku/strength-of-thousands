@@ -1,0 +1,5 @@
+{
+ "hash": "1e7d317d0047",
+ "front": "Stride at half Speed, trying to stay or become undetected, with a secret Stealth check at the end.",
+ "back": "Move up to half your Speed (or half another move Speed). At the end, GM rolls Stealth vs. Perception DC of creatures you were hidden/undetected from. +2 cover or +4 greater cover bonus if you had it throughout. You're automatically observed if you end with neither concealment nor cover.\nSuccess: undetected.\nFailure: hidden throughout.\nCrit Failure: observed (hidden instead if invisible).\nObserved as soon as you do other than Hide, Sneak, Step. Speaking makes you hidden."
+}

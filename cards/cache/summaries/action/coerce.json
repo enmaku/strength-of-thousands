@@ -1,0 +1,5 @@
+{
+ "hash": "bf11164c1f2e",
+ "front": "Bully a creature into compliance with at least 1 minute of threats, using Intimidation against its Will DC.",
+ "back": "Intimidation vs. Will DC after 1 minute of conversation.\nCrit Success: target gives info or complies if not harmful, up to the GM's time (max 1 day), then becomes unfriendly (if not already unfriendly/hostile); too scared to retaliate short term.\nSuccess: as crit success, but once unfriendly it might act against you (e.g. report you).\nFailure: refuses; becomes unfriendly if not already unfriendly/hostile.\nCrit Failure: refuses, becomes hostile, immune to your Coercion for 1 week."
+}

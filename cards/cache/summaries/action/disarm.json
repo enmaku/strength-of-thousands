@@ -1,0 +1,5 @@
+{
+ "hash": "de8205a6aec1",
+ "front": "Knock an item out of a creature's grasp or weaken its hold, with Athletics against its Reflex DC.",
+ "back": "Athletics vs. Reflex DC.\nCrit Success: item falls to the ground in target's space.\nSuccess: weaken its grasp: further Disarm attempts on that item get +2 circumstance bonus, and target takes -2 circumstance penalty to attacks with it or other checks needing a firm grip. It can end this by Interacting to change grip; otherwise lasts while it holds the item.\nCrit Failure: you're off-guard until the start of your next turn."
+}

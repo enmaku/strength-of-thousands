@@ -1,0 +1,50 @@
+{
+ "breadcrumbs": [
+  "Chapter 8: Playing the Game",
+  "Exploration Mode"
+ ],
+ "category": "rules",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "rules-2442",
+ "legacy_id": [
+  "rules-471"
+ ],
+ "markdown": "<title level=\"1\" right=\"Rules\">[Exploration Activities](/Rules.aspx?ID=2442)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\n<row gap=\"medium\">\n<column gap=\"medium\" flex=\"1 1 400px\">\nWhile you're traveling and exploring, tell the GM what you'd generally like to do along the way. If you do nothing more than make steady progress toward your goal, you move at the full travel speeds given in the table.\n\nWhen you want to do something other than simply travel, you describe what you are attempting to do. It isn't necessary to go into extreme detail, such as \u201cUsing my dagger, I nudge the door so I can check for devious traps.\u201d Instead, \u201cI'm searching the area for hazards\u201d is sufficient. The GM finds the best exploration activity to match your description and describes the effects of that activity. Some exploration activities limit how fast you can travel and be effective.\n\nThese are most common exploration activities.\n\n<document level=\"2\" id=\"action-2622\" />\n\n<document level=\"2\" id=\"action-2623\" />\n\n<document level=\"2\" id=\"action-2624\" />\n\n<document level=\"2\" id=\"action-2625\" />\n\n<document level=\"2\" id=\"action-2626\" />\n\n<document level=\"2\" id=\"action-2627\" />\n\n<document level=\"2\" id=\"action-2628\" />\n\n<document level=\"2\" id=\"action-2629\" />\n\n<document level=\"2\" id=\"action-2630\" />\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<aside>\n<title level=\"2\" noclass=\"true\" icon=\"\">Skill Exploration Activities</title>\n\n[Chapter 4: Skills](/Rules.aspx?ID=2134) includes additional exploration activities.\n\n**[Borrow an Arcane Spell](/Actions.aspx?ID=2373):** You use [Arcana](/Skills.aspx?ID=35) to prepare a spell from someone else's spellbook.<br />**[Coerce](/Actions.aspx?ID=2394):** You use [Intimidation](/Skills.aspx?ID=40) to threaten a creature so it does what you want.<br />**[Cover Tracks](/Actions.aspx?ID=2407):** You use [Survival](/Skills.aspx?ID=49) to obscure your passing.<br />**[Decipher Writing](/Actions.aspx?ID=2363):** You use a suitable skill to understand archaic, esoteric, or obscure texts.<br />**[Gather Information](/Actions.aspx?ID=2391):** You use [Diplomacy](/Skills.aspx?ID=39) to canvass the area to learn about a specific individual or topic.<br />**[Identify Alchemy](/Actions.aspx?ID=2386):** You use [Craft](/Skills.aspx?ID=37) and [alchemist's tools](/Equipment.aspx?ID=2702) to identify an [alchemical](/Traits.aspx?ID=528) item.<br />**[Identify Magic](/Actions.aspx?ID=2365):** Using a variety of skills, you can learn about a magic item, location, or ongoing effect.<br />**[Impersonate](/Actions.aspx?ID=2388):** You use [Deception](/Skills.aspx?ID=38) and usually a [disguise kit](/Equipment.aspx?ID=2720) to create a disguise.<br />**[Learn a Spell](/Actions.aspx?ID=2366):** You use the skill corresponding to the spell's tradition to gain access to a new spell.<br />**[Make an Impression](/Actions.aspx?ID=2392):** You use Diplomacy to make a good impression on someone (page 239).<br />**[Repair](/Actions.aspx?ID=2384):** With a [repair kit](/Equipment.aspx?ID=2747) and the Crafting skill, you fix a damaged item.<br />**[Sense Direction](/Actions.aspx?ID=2406):** You use Survival to get a sense of where you are or determine cardinal directions.<br />**[Squeeze](/Actions.aspx?ID=2372):** Using [Acrobatics](/Skills.aspx?ID=34), you squeeze though very tight spaces.<br />**[Track](/Actions.aspx?ID=2408):** You use Survival to follow tracks.<br />**[Treat Wounds](/Actions.aspx?ID=2399):** You use [Medicine](/Skills.aspx?ID=42) to treat a living creature's wounds.\n</aside>",
+ "name": "Exploration Activities",
+ "next_link": {
+  "label": "Rest and Daily Preparations",
+  "url": "/Rules.aspx?ID=2443"
+ },
+ "previous_link": {
+  "label": "Travel Speed",
+  "url": "/Rules.aspx?ID=2441"
+ },
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 438",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\nChapter 8: Playing the Game / Exploration Mode\n</additional-info>\n\n---\n\n<summary>\nWhile you're traveling and exploring, tell the GM what you'd generally like to do along the way. If you do nothing more than make steady progress \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 438"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 438",
+ "speed": {},
+ "summary": "While you're traveling and exploring, tell the GM what you'd generally like to do along the way. If you do nothing more than make steady progress \u2026",
+ "summary_markdown": "While you're traveling and exploring, tell the GM what you'd generally like to do along the way. If you do nothing more than make steady progress \u2026",
+ "text": "Rules Exploration Activities Source Player Core pg. 438 While you're traveling and exploring, tell the GM what you'd generally like to do along the way. If you do nothing more than make steady progress toward your goal, you move at the full travel speeds given in the table. When you want to do something other than simply travel, you describe what you are attempting to do. It isn't necessary to go into extreme detail, such as \u201cUsing my dagger, I nudge the door so I can check for devious traps.\u201d Instead, \u201cI'm searching the area for hazards\u201d is sufficient. The GM finds the best exploration activity to match your description and describes the effects of that activity. Some exploration activities limit how fast you can travel and be effective. These are most common exploration activities. Skill Exploration Activities Chapter 4: Skills includes additional exploration activities. Borrow an Arcane Spell: You use Arcana to prepare a spell from someone else's spellbook. Coerce: You use Intimidation to threaten a creature so it does what you want. Cover Tracks: You use Survival to obscure your passing. Decipher Writing: You use a suitable skill to understand archaic, esoteric, or obscure texts. Gather Information: You use Diplomacy to canvass the area to learn about a specific individual or topic. Identify Alchemy: You use Craft and alchemist's tools to identify an alchemical item. Identify Magic: Using a variety of skills, you can learn about a magic item, location, or ongoing effect. Impersonate: You use Deception and usually a disguise kit to create a disguise. Learn a Spell: You use the skill corresponding to the spell's tradition to gain access to a new spell. Make an Impression: You use Diplomacy to make a good impression on someone (page 239). Repair: With a repair kit and the Crafting skill, you fix a damaged item. Sense Direction: You use Survival to get a sense of where you are or determine cardinal directions. Squeeze: Using Acrobatics, you squeeze though very tight spaces. Track: You use Survival to follow tracks. Treat Wounds: You use Medicine to treat a living creature's wounds.",
+ "type": "Rules",
+ "url": "/Rules.aspx?ID=2442",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:29-08:00"
+}

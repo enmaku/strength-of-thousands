@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-112",
+ "legacy_id": [
+  "familiar-ability-93"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Elemental](/Familiars.aspx?ID=112) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n\n</column>\n\nYour familiar has the [elemental](/Traits.aspx?ID=57) trait instead of the [animal](/Traits.aspx?ID=9) trait. Choose [air](/Traits.aspx?ID=5), [earth](/Traits.aspx?ID=55), [fire](/Traits.aspx?ID=72), [metal](/Traits.aspx?ID=505), [water](/Traits.aspx?ID=165), or [wood](/Traits.aspx?ID=508). Your familiar gains that trait. The familiar is immune to [bleed](/Conditions.aspx?ID=29), [paralyzed](/Conditions.aspx?ID=28), [poison](/Traits.aspx?ID=126), [sleep](/Traits.aspx?ID=145), and the element matching its trait. Your familiar must have the resistance familiar ability to select this.",
+ "name": "Elemental",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 212",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 212\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nYour familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 212"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 212",
+ "speed": {},
+ "summary": "Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. \u2026",
+ "summary_markdown": "Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. \u2026",
+ "text": "Familiar Ability Elemental Source Player Core pg. 212 Ability Type Familiar Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. The familiar is immune to bleed, paralyzed, poison, sleep, and the element matching its trait. Your familiar must have the resistance familiar ability to select this.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=112",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:38-08:00"
+}

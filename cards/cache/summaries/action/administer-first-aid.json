@@ -1,0 +1,5 @@
+{
+ "hash": "5080248f8fc1",
+ "front": "Stabilize a dying creature or stop a bleed on an adjacent creature with a Medicine check.",
+ "back": "Adjacent creature; if both dying and bleeding, choose one.\nStabilize: Medicine vs. DC 5 + recovery roll DC (typically 15 + dying value) on a creature at 0 HP and dying.\nStop Bleeding: Medicine vs. the DC of the effect that caused the bleed.\nSuccess: stabilize: loses dying (stays unconscious); bleeding: assisted recovery with lowered DC.\nCrit Failure: stabilize: dying value +1; bleeding: takes damage equal to its persistent bleed."
+}

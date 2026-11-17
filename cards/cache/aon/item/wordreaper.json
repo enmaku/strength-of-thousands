@@ -1,0 +1,73 @@
+{
+ "base_item": [
+  "Sickle"
+ ],
+ "base_item_markdown": "[Sickle](/Weapons.aspx?ID=9)",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-1500",
+ "item_category": "Weapons",
+ "item_subcategory": "Specific Magic Weapons",
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3\"\n    pfs=\"Standard\"\n>\n[Wordreaper](/Equipment.aspx?ID=1500)\n</title>\n\n<spoilers>May contain spoilers from Threshold of Knowledge</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10\n\n**Price** 55 gp\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n**Base Weapon** [Sickle](/Weapons.aspx?ID=9)\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThe blade of this _+1 [sickle](/Weapons.aspx?ID=9)_ is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the base. You can use the _wordreaper's_ handle as an ink pen and it never runs out of ink.\n\n**Activate** <actions string=\"Three Actions\" /> Interact;  **Frequency** once per day;   **Effect** You use the _wordreaper_ to inscribe the words \u201cread by\u201d and your name inside a non-magical literary work (such as a non-magical book, scroll, or play). You immediately gain cursory knowledge of the literary work as though you had skimmed it for 5 minutes.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Wordreaper",
+ "pfs": "Standard",
+ "price": 5500,
+ "price_raw": "55 gp",
+ "primary_source": "Threshold of Knowledge",
+ "primary_source_raw": "Threshold of Knowledge pg. 10",
+ "primary_source_category": "Adventures",
+ "primary_source_group": "Threshold of Knowledge",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2021-11-19",
+ "resistance": {},
+ "school": "divination",
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Divination\" url=\"/Traits.aspx?ID=47\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<additional-info>\n**Source** [Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10\n\n**Price** 55 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n**Base Weapon** [Sickle](/Weapons.aspx?ID=9)\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThe blade of this  +1 sickle  is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Threshold of Knowledge"
+ ],
+ "source_raw": [
+  "Threshold of Knowledge pg. 10"
+ ],
+ "source_category": [
+  "Adventures"
+ ],
+ "source_group": [
+  "Threshold of Knowledge"
+ ],
+ "source_markdown": "[Threshold of Knowledge](/Sources.aspx?ID=109) pg. 10",
+ "speed": {},
+ "spell_markdown": "",
+ "spoilers": "Threshold of Knowledge",
+ "stage_markdown": "",
+ "summary": "The blade of this  +1 sickle  is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the \u2026",
+ "summary_markdown": "The blade of this  +1 sickle  is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the \u2026",
+ "text": "Item 3 Wordreaper May contain spoilers from Threshold of Knowledge Uncommon Divination Magical Source Threshold of Knowledge pg. 10 Price 55 gp Usage held in 1 hand Bulk L Base Weapon Sickle The blade of this +1 sickle is engraved to look like the curving feather of a particularly elaborate quill. The wooden handle has a pen nib at the base. You can use the wordreaper's handle as an ink pen and it never runs out of ink. Activate Three Actions Interact; Frequency once per day; Effect You use the wordreaper to inscribe the words \u201cread by\u201d and your name inside a non-magical literary work (such as a non-magical book, scroll, or play). You immediately gain cursory knowledge of the literary work as though you had skimmed it for 5 minutes.",
+ "trait": [
+  "Divination",
+  "Magical",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Mechanics",
+  "Rarity"
+ ],
+ "trait_markdown": "[Divination](/Traits.aspx?ID=47), [Magical](/Traits.aspx?ID=103), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Divination",
+  "Magical",
+  "Uncommon"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=1500",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:21-08:00"
+}

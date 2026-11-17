@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2376",
+ "legacy_id": [
+  "action-35"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Grapple](/Actions.aspx?ID=2376) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n**Requirements** You have at least one free hand and your target is no more than one size larger than you.\n\n</column>\n\n---\n\nAttempt an [Athletics](/Skills.aspx?ID=3) check against the target's Fortitude DC. You can Grapple a target you already have [grabbed](/Conditions.aspx?ID=20) or [restrained](/Conditions.aspx?ID=33) without having a hand free.\n\n**Critical Success** Your target is restrained until the end of your next turn unless you move or your target [Escapes](/Actions.aspx?ID=79).<br />\n**Success** Your target is grabbed until the end of your next turn unless you move or your target Escapes.<br />\n**Failure** You fail to grab your target. If you already had the target grabbed or restrained using a Grapple, those conditions on the target end.<br />\n**Critical Failure** If you already had the target grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land [prone](/Conditions.aspx?ID=31).",
+ "name": "Grapple",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 235",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have at least one free hand and your target is no more than one size larger than you.",
+ "requirement_markdown": "You have at least one free hand and your target is no more than one size larger than you.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n**Requirement**\nYou have at least one free hand and your target is no more than one size larger than you.\n</additional-info>\n\n---\n\n<summary>\nAttempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 235"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 235",
+ "speed": {},
+ "summary": "Attempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand \u2026",
+ "summary_markdown": "Attempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand \u2026",
+ "text": "Action Grapple Single Action Attack Source Player Core pg. 235 Requirements You have at least one free hand and your target is no more than one size larger than you. Attempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand free. Critical Success Your target is restrained until the end of your next turn unless you move or your target Escapes. Success Your target is grabbed until the end of your next turn unless you move or your target Escapes. Failure You fail to grab your target. If you already had the target grabbed or restrained using a Grapple, those conditions on the target end. Critical Failure If you already had the target grabbed or restrained, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land prone.",
+ "trait": [
+  "Attack"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15)",
+ "trait_raw": [
+  "Attack"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2376",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:47-08:00"
+}

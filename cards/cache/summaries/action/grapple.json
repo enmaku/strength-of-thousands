@@ -1,0 +1,5 @@
+{
+ "hash": "0663149762db",
+ "front": "Grab a creature with Athletics against its Fortitude DC. You can keep it held without a free hand.",
+ "back": "Athletics vs. Fortitude DC. No free hand needed if the target is already grabbed or restrained.\nCrit Success: target restrained until end of your next turn unless you move or it Escapes.\nSuccess: target grabbed until end of your next turn unless you move or it Escapes.\nFailure: no grab; existing grabbed/restrained from your Grapple ends.\nCrit Failure: if you held it, it breaks free and may grab you or make you fall prone."
+}

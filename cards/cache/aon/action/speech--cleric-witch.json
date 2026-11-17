@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-124",
+ "legacy_id": [
+  "familiar-ability-12"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Speech](/Familiars.aspx?ID=124) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 213\n\n**Ability Type** Familiar\n\n</column>\n\nYour familiar understands and speaks a language you know.",
+ "name": "Speech",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 213",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 213\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nYour familiar understands and speaks a language you know.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 213"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 213",
+ "speed": {},
+ "summary": "Your familiar understands and speaks a language you know.",
+ "summary_markdown": "Your familiar understands and speaks a language you know.",
+ "text": "Familiar Ability Speech Source Player Core pg. 213 Ability Type Familiar Your familiar understands and speaks a language you know.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=124",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:38-08:00"
+}

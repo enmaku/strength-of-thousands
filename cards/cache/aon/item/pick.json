@@ -1,0 +1,79 @@
+{
+ "ammunition_markdown": "",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "weapon",
+ "damage": "1d6 P",
+ "damage_die": 6,
+ "damage_type": [
+  "Piercing"
+ ],
+ "deity": [
+  "Drokalion",
+  "Ferrumnestra",
+  "Sairazul",
+  "Soralyon",
+  "Treasures of the Eternal Delve",
+  "Zyphus"
+ ],
+ "deity_markdown": "[Drokalion](/Deities.aspx?ID=702), [Ferrumnestra](/Deities.aspx?ID=688), [Sairazul](/Deities.aspx?ID=694), [Soralyon](/Deities.aspx?ID=484), [Treasures of the Eternal Delve](/Deities.aspx?ID=374), [Zyphus](/Deities.aspx?ID=361)",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "1",
+ "id": "weapon-389",
+ "item_category": "Weapons",
+ "item_subcategory": "Base Weapons",
+ "legacy_id": [
+  "weapon-34"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Weapon 0\"\n    pfs=\"Standard\"\n>\n[Pick](/Weapons.aspx?ID=389)\n</title>\n\n<traits>\n<trait label=\"Fatal 1d10\" url=\"/Traits.aspx?ID=178\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 278\n\n**Favored Weapon** [Drokalion](/Deities.aspx?ID=702), [Ferrumnestra](/Deities.aspx?ID=688), [Sairazul](/Deities.aspx?ID=694), [Soralyon](/Deities.aspx?ID=484), [Treasures of the Eternal Delve](/Deities.aspx?ID=374), [Zyphus](/Deities.aspx?ID=361)\n\n<row gap=\"medium\">\n**Price** 7 sp\n\n**Damage** 1d6 P\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n**Hands** 1\n\n</row>\n\n<row gap=\"medium\">\n**Type** Melee\n\n**Category** Martial\n\n**Group** [Pick](/WeaponGroups.aspx?ID=10)\n</row>\n\n</column>\n\n---\n\nA pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows.\n\n<title level=\"2\">Critical Specialization Effects</title>\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 283\n\nCertain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.\n\n[Click here for the full rules on Critical Specialization Effects](/Rules.aspx?ID=235).\n\n<document level=\"2\" id=\"weapon-group-10\" />\n\n<title level=\"2\">Specific Magic Weapons</title>\n[Chainbreaker](/Equipment.aspx?ID=3839), [Pick of Arcane Accuracy](/Equipment.aspx?ID=5026)",
+ "name": "Pick",
+ "pfs": "Standard",
+ "price": 70,
+ "price_raw": "7 sp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 278",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Fatal 1d10\" url=\"/Traits.aspx?ID=178\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 278\n\n<row gap=\"medium\">\n**Price** 7 sp\n\n**Damage** 1d6 P\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n**Hands** 1\n\n \n\n \n</row>\n\n \n\n<row gap=\"medium\">\n**Category** Martial\n\n**Group** [Pick](/WeaponGroups.aspx?ID=10)\n</row>\n</additional-info>\n\n---\n\n<summary>\nA pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 278"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 278",
+ "speed": {},
+ "sub_document_id": [
+  "weapon-group-10"
+ ],
+ "summary": "A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows.",
+ "summary_markdown": "A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows.",
+ "text": "Weapon 0 Pick Fatal 1d10 Source Player Core pg. 278 Favored Weapon Drokalion, Ferrumnestra, Sairazul, Soralyon, Treasures of the Eternal Delve, Zyphus Price 7 sp Damage 1d6 P Bulk 1 Hands 1 Type Melee Category Martial Group Pick A pick designed solely for combat has a sturdy wooden shaft and a heavy, pointed head to deliver devastating blows. Critical Specialization Effects Source Core Rulebook pg. 283 Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon. Click here for the full rules on Critical Specialization Effects. Weapon Critical Specialization Pick Source Player Core pg. 283 The weapon viciously pierces the target, who takes 2 additional damage per weapon damage die. Specific Magic Weapons Chainbreaker, Pick of Arcane Accuracy",
+ "trait": [
+  "Fatal"
+ ],
+ "trait_group": [
+  "Weapon"
+ ],
+ "trait_markdown": "[Fatal 1d10](/Traits.aspx?ID=178)",
+ "trait_raw": [
+  "Fatal 1d10"
+ ],
+ "type": "Item",
+ "url": "/Weapons.aspx?ID=389",
+ "weakness": {},
+ "weapon_category": "Martial",
+ "weapon_group": "Pick",
+ "weapon_group_markdown": "[Pick](/WeaponGroups.aspx?ID=10)",
+ "weapon_type": "Melee",
+ "_fetched_at": "2026-11-16T16:33:22-08:00"
+}

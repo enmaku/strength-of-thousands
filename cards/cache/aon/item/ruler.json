@@ -1,0 +1,47 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-849",
+ "item_category": "Adventuring Gear",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0\"\n    pfs=\"Limited\"\n>\n[Ruler](/Equipment.aspx?ID=849)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 34\n\n_[**PFS Note**](/pathfinder-society) Players can gain access to faction-specific gear by taking the corresponding Faction Gear Access Game Reward, available when they reach 20 reputation with the respective faction._\n\n**Price** 5 sp\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nA ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Ruler",
+ "pfs": "Limited",
+ "price": 50,
+ "price_raw": "5 sp",
+ "primary_source": "PFS Guide",
+ "primary_source_raw": "PFS Guide pg. 34",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2020-10-14",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 34\n\n**Price** 5 sp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nA ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "PFS Guide"
+ ],
+ "source_raw": [
+  "PFS Guide pg. 34"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[PFS Guide](/Sources.aspx?ID=50) pg. 34",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "A ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.",
+ "summary_markdown": "A ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.",
+ "text": "Item 0 Ruler Source PFS Guide pg. 34 PFS Note Players can gain access to faction-specific gear by taking the corresponding Faction Gear Access Game Reward, available when they reach 20 reputation with the respective faction. Price 5 sp Usage held in 1 hand A ruler is a straight-edged object used for measuring small distances accurately and drawing straight lines.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=849",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:24-08:00"
+}

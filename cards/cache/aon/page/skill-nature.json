@@ -1,0 +1,48 @@
+{
+ "attribute": [
+  "Wisdom"
+ ],
+ "category": "skill",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "skill-43",
+ "legacy_id": [
+  "skill-10"
+ ],
+ "markdown": "<title level=\"1\" right=\"Skill \" pfs=\"\">[Nature](/Skills.aspx?ID=43)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n\nYou know about the natural world, and you command and train animals and magical beasts.\n\n<title level=\"2\">Nature Untrained General Actions</title>\n\n- [Recall Knowledge](/Skills.aspx?ID=24&amp;General=true) about fauna, flora, geography, weather, the environment, creatures of natural origin (like [animals](/Traits.aspx?ID=531), [beasts](/Traits.aspx?ID=547), [fey](/Traits.aspx?ID=69), and [plants](/Traits.aspx?ID=668)), the [First World](/Planes.aspx?ID=10), and the Elemental Planes.\n\n<title level=\"2\">Nature Trained General Actions</title>\n\n- [Identify Magic](/Skills.aspx?ID=22&amp;General=true), particularly magic of the [primal](/SpellLists.aspx?Tradition=4) tradition.\n\n- [Learn a Spell](/Skills.aspx?ID=23&amp;General=true) from the [primal](/SpellLists.aspx?Tradition=4) tradition.\n\n<title level=\"2\">Item Bonuses for Nature</title>\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Bonus</th>\n<th>Level</th>\n<th>Category</th>\n<th>Consumable</th>\n<th>Note</th>\n</tr>\n</thead>\n<tbody>\n\n<tr>\n<td>[Essence Charm](/Equipment.aspx?ID=3795)</td>\n<td>+1</td>\n<td>4</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td>Item bonus to a check of the crafter's choice</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Lesser)](/Equipment.aspx?ID=3791)</td>\n<td>+1</td>\n<td>6</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Staff Of Nature's Cunning](/Equipment.aspx?ID=5169)</td>\n<td>+2</td>\n<td>7</td>\n<td>[Staves](/equipment/staves)</td>\n<td>No</td>\n<td>Item bonus to Nature checks to Recall Knowledge.</td>\n</tr>\n\n<tr>\n<td>[Fulu Compendium](/Equipment.aspx?ID=5088)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Held Items](/equipment/held-items)</td>\n<td>No</td>\n<td>Item bonus to determine a fulu's function or authenticity.</td>\n</tr>\n\n<tr>\n<td>[Living Mantle](/Equipment.aspx?ID=3092)</td>\n<td>+2</td>\n<td>10</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal](/Equipment.aspx?ID=3435)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Greater Staff Of Nature's Cunning](/Equipment.aspx?ID=5169)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Staves](/equipment/staves)</td>\n<td>No</td>\n<td>Item bonus to Nature checks to Recall Knowledge.</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Moderate)](/Equipment.aspx?ID=3791)</td>\n<td>+2</td>\n<td>12</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Greater)](/Equipment.aspx?ID=3791)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal (Greater)](/Equipment.aspx?ID=3435)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Living Mantle (Greater)](/Equipment.aspx?ID=3092)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td></td>\n</tr>\n\n</tbody>\n</table>\n\n<title level=\"2\">Related Feats</title>\n\nTo see a list of Feats related to Nature, [click here](/feats?include-traits=skill&amp;exclude-traits=archetype&amp;include-skills=nature&amp;sort=level-asc%3Bname-asc).\n\n<title level=\"2\">Nature Untrained Actions</title>\n\n<document level=\"3\" id=\"action-2400\" />",
+ "name": "Nature",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 242",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 242\n</additional-info>\n\n---\n\n<summary>\nYou know about the natural world, and you command and train animals and magical beasts.\n</summary>",
+ "skill": [
+  "Nature"
+ ],
+ "skill_markdown": "Nature",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 242"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 242",
+ "speed": {},
+ "sub_document_id": [
+  "action-2400"
+ ],
+ "summary": "You know about the natural world, and you command and train animals and magical beasts.",
+ "summary_markdown": "You know about the natural world, and you command and train animals and magical beasts.",
+ "text": "Skill Nature Source Player Core pg. 242 You know about the natural world, and you command and train animals and magical beasts. Nature Untrained General Actions - Recall Knowledge about fauna, flora, geography, weather, the environment, creatures of natural origin (like animals, beasts, fey, and plants), the First World, and the Elemental Planes. Nature Trained General Actions - Identify Magic, particularly magic of the primal tradition. - Learn a Spell from the primal tradition. Item Bonuses for Nature Item Bonus Level Category Consumable Note Essence Charm +1 4 Other Worn Items No Item bonus to a check of the crafter's choice Essence Forge (Lesser) +1 6 Other No Item Bonus Staff Of Nature's Cunning +2 7 Staves No Item bonus to Nature checks to Recall Knowledge. Fulu Compendium +2 9 Held Items No Item bonus to determine a fulu's function or authenticity. Living Mantle +2 10 Worn Items No Helm of Zeal +2 11 Worn Items No Item bonus of the associated Deity's Divine Skill Greater Staff Of Nature's Cunning +2 11 Staves No Item bonus to Nature checks to Recall Knowledge. Essence Forge (Moderate) +2 12 Other No Item Bonus Essence Forge (Greater) +3 18 Other No Item Bonus Helm of Zeal (Greater) +3 18 Worn Items No Item bonus of the associated Deity's Divine Skill Living Mantle (Greater) +3 18 Worn Items No Related Feats To see a list of Feats related to Nature, click here. Nature Untrained Actions Action Command an Animal Single Action Auditory Concentrate Source Player Core pg. 242 You issue an order to an animal. Attempt a Nature check against the animal's Will DC. The GM might adjust the DC if the animal has a good attitude toward you, you suggest a course of action it was predisposed toward, or you offer it a treat. You automatically fail if the animal is hostile or unfriendly to you. If the animal is helpful to you, increase your degree of success by one step. You might be able to Command an Animal more easily with a feat like Ride. Most animals know the Drop Prone, Leap, Seek, Stand, Stride, and Strike basic actions. If an animal knows an activity, such as a horse's Gallop, you can Command the Animal to perform the activity, but you must spend as many actions on Command an Animal as the activity's number of actions. You can also spend multiple actions to Command the Animal to perform that number of basic actions on its next turn; for instance, you could spend 3 actions to Command an Animal to Stride three times or to Stride twice and then make a Strike. Success The animal does as you command on its next turn. Failure The animal is hesitant or resistant, and it does nothing. Critical Failure The animal misbehaves or misunderstands, and it takes some other action determined by the GM.",
+ "type": "Skill",
+ "url": "/Skills.aspx?ID=43",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:31-08:00"
+}

@@ -1,0 +1,48 @@
+{
+ "attribute": [
+  "Intelligence"
+ ],
+ "category": "skill",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "skill-35",
+ "legacy_id": [
+  "skill-2"
+ ],
+ "markdown": "<title level=\"1\" right=\"Skill \" pfs=\"\">[Arcana](/Skills.aspx?ID=35)</title>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\nArcana measures how much you know about arcane magic and creatures.\n\n<title level=\"2\">Arcana Untrained General Actions</title>\n\n- [Recall Knowledge](/Skills.aspx?ID=24&amp;General=true) about arcane theories; magic traditions; creatures of arcane significance (like [constructs](/Traits.aspx?ID=563), [beasts](/Traits.aspx?ID=547), and [elementals](/Traits.aspx?ID=587)); and the [Astral Plane](/Planes.aspx?ID=8), Elemental Planes, and [the Netherworld](/Planes.aspx?ID=36).\n\n<title level=\"2\">Arcana Trained General Actions</title>\n\n- [Decipher Writing](/Skills.aspx?ID=20&amp;General=true) about arcane theory.\n\n- [Identify Magic](/Skills.aspx?ID=22&amp;General=true), particularly magic of the [arcane](/SpellLists.aspx?Tradition=1) tradition.\n\n- [Learn a Spell](/Skills.aspx?ID=23&amp;General=true) from the [arcane](/SpellLists.aspx?Tradition=1) tradition.\n\n<title level=\"2\">Item Bonuses for Arcana</title>\n<table>\n<thead>\n<tr>\n<th>Item</th>\n<th>Bonus</th>\n<th>Level</th>\n<th>Category</th>\n<th>Consumable</th>\n<th>Note</th>\n</tr>\n</thead>\n<tbody>\n\n<tr>\n<td>[Mage's Hat](/Equipment.aspx?ID=3094)</td>\n<td>+1</td>\n<td>3</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Arcana checks</td>\n</tr>\n\n<tr>\n<td>[Essence Charm](/Equipment.aspx?ID=3795)</td>\n<td>+1</td>\n<td>4</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td>Item bonus to a check of the crafter's choice</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Lesser)](/Equipment.aspx?ID=3791)</td>\n<td>+1</td>\n<td>6</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Azlanti Diamond](/Equipment.aspx?ID=5220)</td>\n<td>+1</td>\n<td>8</td>\n<td>[Artifacts](/equipment/artifacts)</td>\n<td>No</td>\n<td>Item bonus to Arcana.</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Lesser)](/Equipment.aspx?ID=3316)</td>\n<td>+1</td>\n<td>1</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Azlanti Diamond](/Equipment.aspx?ID=5220)</td>\n<td>+2</td>\n<td>8</td>\n<td>[Artifacts](/equipment/artifacts)</td>\n<td>No</td>\n<td>Item bonus to Arcana when the item reaches the 9th level.</td>\n</tr>\n\n<tr>\n<td>[Mage's Hat (Greater)](/Equipment.aspx?ID=3094)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Arcana checks</td>\n</tr>\n\n<tr>\n<td>[Fulu Compendium](/Equipment.aspx?ID=5088)</td>\n<td>+2</td>\n<td>9</td>\n<td>[Held Items](/equipment/held-items)</td>\n<td>No</td>\n<td>Item bonus to determine a fulu's function or authenticity.</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal](/Equipment.aspx?ID=3435)</td>\n<td>+2</td>\n<td>11</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Moderate)](/Equipment.aspx?ID=3791)</td>\n<td>+2</td>\n<td>12</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Stage Magician's Cloak](/Equipment.aspx?ID=3634)</td>\n<td>+2</td>\n<td>13</td>\n<td>[Held Items](/equipment/held-items)</td>\n<td>No</td>\n<td>When worn with the silvery blue lining facing out, it grants a +2 item bonus to Arcana checks.</td>\n</tr>\n\n<tr>\n<td>[Runic Skullcap](/Equipment.aspx?ID=5208)</td>\n<td>+2</td>\n<td>15</td>\n<td>[Other Worn Items](/equipment/worn-items/other-worn-items)</td>\n<td>No</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Moderate)](/Equipment.aspx?ID=3316)</td>\n<td>+2</td>\n<td>3</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Azlanti Diamond](/Equipment.aspx?ID=5220)</td>\n<td>+3</td>\n<td>8</td>\n<td>[Artifacts](/equipment/artifacts)</td>\n<td>No</td>\n<td>Item bonus to Arcana when the item reaches the 17th level.</td>\n</tr>\n\n<tr>\n<td>[Essence Forge (Greater)](/Equipment.aspx?ID=3791)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Other](/equipment/other)</td>\n<td>No</td>\n<td>Item Bonus</td>\n</tr>\n\n<tr>\n<td>[Helm of Zeal (Greater)](/Equipment.aspx?ID=3435)</td>\n<td>+3</td>\n<td>18</td>\n<td>[Worn Items](/equipment/worn-items)</td>\n<td>No</td>\n<td>Item bonus of the associated Deity's Divine Skill\n</td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Greater)](/Equipment.aspx?ID=3316)</td>\n<td>+3</td>\n<td>11</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n<tr>\n<td>[Cognitive Mutagen (Major)](/Equipment.aspx?ID=3316)</td>\n<td>+4</td>\n<td>17</td>\n<td>[Alchemical Elixirs](/equipment/alchemical-items/alchemical-elixirs)</td>\n<td>Yes</td>\n<td></td>\n</tr>\n\n</tbody>\n</table>\n\n<title level=\"2\">Related Feats</title>\n\nTo see a list of Feats related to Arcana, [click here](/feats?include-traits=skill&amp;exclude-traits=archetype&amp;include-skills=arcana&amp;sort=level-asc%3Bname-asc).\n\n<title level=\"2\">Arcana Trained Actions</title>\n\n<document level=\"3\" id=\"action-2373\" />",
+ "name": "Arcana",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 234",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n</additional-info>\n\n---\n\n<summary>\nArcana measures how much you know about arcane magic and creatures.\n</summary>",
+ "skill": [
+  "Arcana"
+ ],
+ "skill_markdown": "Arcana",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 234"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 234",
+ "speed": {},
+ "sub_document_id": [
+  "action-2373"
+ ],
+ "summary": "Arcana measures how much you know about arcane magic and creatures.",
+ "summary_markdown": "Arcana measures how much you know about arcane magic and creatures.",
+ "text": "Skill Arcana Source Player Core pg. 234 Arcana measures how much you know about arcane magic and creatures. Arcana Untrained General Actions - Recall Knowledge about arcane theories; magic traditions; creatures of arcane significance (like constructs, beasts, and elementals); and the Astral Plane, Elemental Planes, and the Netherworld. Arcana Trained General Actions - Decipher Writing about arcane theory. - Identify Magic, particularly magic of the arcane tradition. - Learn a Spell from the arcane tradition. Item Bonuses for Arcana Item Bonus Level Category Consumable Note Mage's Hat +1 3 Worn Items No Arcana checks Essence Charm +1 4 Other Worn Items No Item bonus to a check of the crafter's choice Essence Forge (Lesser) +1 6 Other No Item Bonus Azlanti Diamond +1 8 Artifacts No Item bonus to Arcana. Cognitive Mutagen (Lesser) +1 1 Alchemical Elixirs Yes Azlanti Diamond +2 8 Artifacts No Item bonus to Arcana when the item reaches the 9th level. Mage's Hat (Greater) +2 9 Worn Items No Arcana checks Fulu Compendium +2 9 Held Items No Item bonus to determine a fulu's function or authenticity. Helm of Zeal +2 11 Worn Items No Item bonus of the associated Deity's Divine Skill Essence Forge (Moderate) +2 12 Other No Item Bonus Stage Magician's Cloak +2 13 Held Items No When worn with the silvery blue lining facing out, it grants a +2 item bonus to Arcana checks. Runic Skullcap +2 15 Other Worn Items No Cognitive Mutagen (Moderate) +2 3 Alchemical Elixirs Yes Azlanti Diamond +3 8 Artifacts No Item bonus to Arcana when the item reaches the 17th level. Essence Forge (Greater) +3 18 Other No Item Bonus Helm of Zeal (Greater) +3 18 Worn Items No Item bonus of the associated Deity's Divine Skill Cognitive Mutagen (Greater) +3 11 Alchemical Elixirs Yes Cognitive Mutagen (Major) +4 17 Alchemical Elixirs Yes Related Feats To see a list of Feats related to Arcana, click here. Arcana Trained Actions Action Borrow an Arcane Spell Concentrate Exploration Source Player Core pg. 234 If you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, or the like. The GM sets the DC for the check based on the spell's rank and rarity; it's typically a bit easier than Learning the Spell. Success You prepare the borrowed spell as part of your normal spell preparation. Failure You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can't try to borrow this spell again until the next time you prepare spells.",
+ "type": "Skill",
+ "url": "/Skills.aspx?ID=35",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:29-08:00"
+}

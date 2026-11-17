@@ -1,0 +1,58 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Skill Training"
+ ],
+ "feat_markdown": "Skill Training",
+ "id": "feat-5214",
+ "legacy_id": [
+  "feat-841"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Skill Training](/Feats.aspx?ID=5214) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Prerequisites**\nIntelligence +1\n\n</column>\n\n---\n\nYou become trained in the skill of your choice.\n\n**Special** You can select this feat multiple times, choosing a new skill to become trained in each time.",
+ "name": "Skill Training",
+ "pfs": "Standard",
+ "prerequisite": "Intelligence +1",
+ "prerequisite_markdown": "Intelligence +1",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 262",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Prerequisites**\nIntelligence +1\n\n</additional-info>\n\n---\n\n<summary>\nBecome trained in a skill\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 262"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 262",
+ "speed": {},
+ "summary": "Become trained in a skill",
+ "summary_markdown": "Become trained in a skill",
+ "text": "Feat 1 Skill Training General Skill Source Player Core pg. 262 Prerequisites Intelligence +1 You become trained in the skill of your choice. Special You can select this feat multiple times, choosing a new skill to become trained in each time.",
+ "trait": [
+  "General",
+  "Skill"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "General",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5214",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:34-08:00"
+}

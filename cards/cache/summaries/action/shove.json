@@ -1,0 +1,5 @@
+{
+ "hash": "38c5d8c80aea",
+ "front": "Push a creature away with Athletics against its Fortitude DC.",
+ "back": "Athletics vs. Fortitude DC.\nCrit Success: push target up to 10 ft away. You can Stride after it, moving the same distance in the same direction.\nSuccess: push target 5 ft away; you may Stride after it the same way.\nCrit Failure: you lose your balance, fall, and land prone."
+}

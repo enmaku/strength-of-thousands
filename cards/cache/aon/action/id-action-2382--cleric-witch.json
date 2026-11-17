@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2382",
+ "legacy_id": [
+  "action-40"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Trip](/Actions.aspx?ID=2382) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 236\n\n**Requirements** You have at least one hand free. Your target can't be more than one size larger than you.\n\n</column>\n\n---\n\nYou try to knock a creature to the ground. Attempt an [Athletics](/Skills.aspx?ID=3) check against the target's Reflex DC.\n\n**Critical Success** The target falls, lands [prone](/Conditions.aspx?ID=31), and takes 1d6 bludgeoning damage.<br />\n**Success** The target falls and lands prone.<br />\n**Critical Failure** You lose your balance, fall, and land prone.",
+ "name": "Trip",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 236",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have at least one hand free. Your target can't be more than one size larger than you.",
+ "requirement_markdown": "You have at least one hand free. Your target can't be more than one size larger than you.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 236\n\n**Requirement**\nYou have at least one hand free. Your target can't be more than one size larger than you.\n</additional-info>\n\n---\n\n<summary>\nYou try to knock a creature to the ground. Attempt an Athletics check against the target's Reflex DC.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 236"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 236",
+ "speed": {},
+ "summary": "You try to knock a creature to the ground. Attempt an Athletics check against the target's Reflex DC.",
+ "summary_markdown": "You try to knock a creature to the ground. Attempt an Athletics check against the target's Reflex DC.",
+ "text": "Action Trip Single Action Attack Source Player Core pg. 236 Requirements You have at least one hand free. Your target can't be more than one size larger than you. You try to knock a creature to the ground. Attempt an Athletics check against the target's Reflex DC. Critical Success The target falls, lands prone, and takes 1d6 bludgeoning damage. Success The target falls and lands prone. Critical Failure You lose your balance, fall, and land prone.",
+ "trait": [
+  "Attack"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15)",
+ "trait_raw": [
+  "Attack"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2382",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:48-08:00"
+}

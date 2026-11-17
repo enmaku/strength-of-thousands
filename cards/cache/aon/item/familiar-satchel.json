@@ -1,0 +1,56 @@
+{
+ "access": "Member of the Pathfinder Society.",
+ "base_item_markdown": "",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-869",
+ "item_category": "Adventuring Gear",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0\"\n    pfs=\"Standard\"\n>\n[Familiar Satchel](/Equipment.aspx?ID=869)\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 114\n\n**Price** 5 gp\n\n<row gap=\"medium\">\n\n**Bulk** 1\n</row>\n\n**Access** Member of the Pathfinder Society.\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers for underwater travel) and two receptacles for food and water. Any creature inside has neither line of sight nor line of effect to the outside world but also cannot be targeted by attacks that require a line of effect while in the satchel. However, an area effect that deals enough damage to break the case also damages the creature inside. The satchel is made of leather (Hardness 4, HP 16, BT 8). A creature can enter or exit the satchel by using a total of 2 actions: an Interact action to open the satchel and a single action with the move trait to enter or exit.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Familiar Satchel",
+ "pfs": "Standard",
+ "price": 500,
+ "price_raw": "5 gp",
+ "primary_source": "PFS Guide",
+ "primary_source_raw": "PFS Guide pg. 114",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2020-10-14",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n</traits>\n\n<additional-info>\n**Source** [PFS Guide](/Sources.aspx?ID=50) pg. 114\n\n**Price** 5 gp\n\n<row gap=\"medium\">\n \n\n \n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "PFS Guide"
+ ],
+ "source_raw": [
+  "PFS Guide pg. 114"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[PFS Guide](/Sources.aspx?ID=50) pg. 114",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers \u2026",
+ "summary_markdown": "This armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers \u2026",
+ "text": "Item 0 Familiar Satchel Uncommon Source PFS Guide pg. 114 Price 5 gp Bulk 1 Access Member of the Pathfinder Society. This armored case is made to protect any Tiny or smaller creature contained within. It includes air holes (which can be plugged with cork stoppers for underwater travel) and two receptacles for food and water. Any creature inside has neither line of sight nor line of effect to the outside world but also cannot be targeted by attacks that require a line of effect while in the satchel. However, an area effect that deals enough damage to break the case also damages the creature inside. The satchel is made of leather (Hardness 4, HP 16, BT 8). A creature can enter or exit the satchel by using a total of 2 actions: an Interact action to open the satchel and a single action with the move trait to enter or exit.",
+ "trait": [
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Rarity"
+ ],
+ "trait_markdown": "[Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Uncommon"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=869",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:33:26-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "9d4e0ca62a85",
+ "front": "Try to break free of being grabbed, immobilized, or restrained, using your unarmed attack modifier (or Acrobatics/Athletics).",
+ "back": "Choose one effect or creature holding you. Check vs. its DC (Athletics DC of a grabber, Thievery DC of a binder, spell DC, or the Escape DC). Use unarmed attack modifier, or Acrobatics/Athletics if you prefer.\nCrit Success: free of grabbed, immobilized, restrained from that source; Stride up to 5 ft.\nSuccess: free.\nCrit Failure: not free; can't Escape again until your next turn."
+}

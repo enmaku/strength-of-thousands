@@ -1,0 +1,5 @@
+{
+ "hash": "fea67664a8f6",
+ "front": "Order an animal to act with a Nature check against its Will DC.",
+ "back": "Nature vs. animal's Will DC (GM may adjust for attitude or treats). Auto-fail if hostile or unfriendly; if helpful, raise degree of success one step. Most animals know Drop Prone, Leap, Seek, Stand, Stride, Strike. Spend actions equal to an activity's actions, or multiple actions to command that many basic actions next turn.\nSuccess: does as commanded next turn.\nFailure: hesitates, does nothing.\nCrit Failure: misbehaves; GM chooses its action."
+}
