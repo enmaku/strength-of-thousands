@@ -1,0 +1,54 @@
+---
+name: generate-cards
+description: Generate printable spell, item and action reference-card PDFs for the heroes, or only the new and changed cards with diff. Usage - /generate-cards [hero-slug] [diff]
+argument-hint: "[hero-slug] [diff]"
+disable-model-invocation: true
+---
+
+# Generate Cards
+
+Reference-card PDFs for every hero, built from the Pathbuilder JSON in `heroes/` with rules text from Archives of Nethys. The script does the building; you write the summaries for cards too long for a card front.
+
+## Run
+
+Arguments: `$ARGUMENTS`
+
+- No hero: every hero not marked `"active": false` in `heroes/index.json`. This is the default.
+- A hero slug (`heroes/<slug>.json`) limits the run to that hero.
+- `diff` adds `--diff`.
+
+```
+python3 -I cards/generate_cards.py [slug] [--diff]
+```
+
+Exit 0: finished. Exit 2: summaries needed, so go to Summarize. Any other exit: report the traceback.
+
+## Summarize
+
+The output names each pending file written to `cards/cache/pending/`. Work from the files the output names; others in that folder are stale.
+
+Each pending file's `instructions` field holds the writing rules. Each card in it carries the full `text`, the stats line the card prints itself, and `front_budget_chars` / `back_budget_chars`. Fill in `front` and `back` for every card, save, and re-run the same command. The script checks the real fit at the minimum legible font size and returns anything too long with a `problem` note, your attempt kept in place; shorten that side and re-run.
+
+Done: the command exits 0 and no pending files are named. Summaries are cached per card, so one written for a hero is reused for every hero who has the card.
+
+## Report
+
+Per hero and deck, give the card count and the PDFs written. For a diff, give the script's NEW / CHANGED / REMOVED / SOURCE lines as printed, then the `(changes ...)` PDFs it wrote. List `MISSING` names once; most are Pathbuilder labels with no AoN entry (heritages, class frameworks, sub-choices), so call out only those that look like usable actions or items.
+
+Leave `cards/blacklist.json`, `heroes/` and `cards/templates/` as they are. Suggest blacklist entries in the report when a deck looks bloated.
+
+## Output
+
+Everything lands in `cards/<slug>/`, named for the hero's first name.
+
+| File | Holds |
+|---|---|
+| `<Name> - <Spells\|Items\|Actions>.pdf` | the fronts, 9 cards per page |
+| `<Name> - <Deck> (Back) pgN.pdf` | the backs for front page N, one single-page file each |
+| `<Name> - <Deck> (changes <date time>).pdf` (+ its backs) | diff only: just the new and changed cards; never overwritten by later runs |
+
+Cards with backs sit at the front of each deck, so only the first pages need backs printed; later pages have none. Back columns are mirrored for flipping the sheet over its long edge (`MIRROR_BACKS` in the script if a printer disagrees).
+
+## How diff decides
+
+Every completed run writes a record to `cards/cache/runs/<slug>/<deck>/`; `--diff` compares against the latest one for that hero and deck. A card is NEW when its id is absent, CHANGED when anything printed on either side differs, REMOVED when it dropped out (blacklisted, passive, or no longer granted), SOURCE when only the AoN text moved. REMOVED and SOURCE are reported, never printed. With nothing different the run reports "no changes" and writes nothing. The first run for a hero and deck has no record, so it builds the full deck as the baseline.

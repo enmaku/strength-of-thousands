@@ -1,0 +1,73 @@
+{
+  "_comment": "Cards to skip. 'categories' / 'subcategories' match AoN item_category / item_subcategory; 'names' match the hero's or AoN's name. All matching is case-insensitive.",
+  "items": {
+    "categories": [
+      "Adventuring Gear",
+      "Consumables"
+    ],
+    "subcategories": [],
+    "names": []
+  },
+  "spells": {
+    "names": []
+  },
+  "actions": {
+    "names": [
+      "Crawl",
+      "Delay",
+      "Drop Prone",
+      "Interact",
+      "Leap",
+      "Ready",
+      "Release",
+      "Stand",
+      "Step",
+      "Strike",
+      "Arrest a Fall",
+      "Burrow",
+      "Dismiss",
+      "Fly",
+      "Grab an Edge",
+      "Mount",
+      "Point Out",
+      "Sustain",
+      "Avoid Notice",
+      "Defend",
+      "Detect Magic",
+      "Hustle",
+      "Repeat a Spell",
+      "Scout",
+      "Balance",
+      "Maneuver In Flight",
+      "Squeeze",
+      "Recall Knowledge",
+      "Decipher Writing",
+      "Identify Magic",
+      "Borrow an Arcane Spell",
+      "Climb",
+      "Force Open",
+      "High Jump",
+      "Long Jump",
+      "Reposition",
+      "Swim",
+      "Earn Income",
+      "Craft",
+      "Repair",
+      "Identify Alchemy",
+      "Impersonate",
+      "Lie",
+      "Request",
+      "Perform",
+      "Subsist",
+      "Create Forgery",
+      "Conceal an Object",
+      "Sense Direction",
+      "Cover Tracks",
+      "Track",
+      "Palm an Object",
+      "Steal",
+      "Avert Gaze",
+      "Make an Impression"
+    ]
+  }
+}
