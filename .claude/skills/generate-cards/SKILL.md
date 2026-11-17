@@ -14,11 +14,11 @@ Reference-card PDFs for every hero, built from the Pathbuilder JSON in `heroes/`
 Arguments: `$ARGUMENTS`
 
 - No hero: every hero not marked `"active": false` in `heroes/index.json`. This is the default.
-- A hero slug (`heroes/<slug>.json`) limits the run to that hero.
+- A hero name limits the run to that hero. Pass it as typed (`taraan`, `cyan`, `cy-an`, `yggo`): the script matches loosely against slug, display name and each word of the name, tolerates a typo, and prints the hero it chose. When a name fits several heroes it exits with the candidates; ask the user which one they meant.
 - `diff` adds `--diff`.
 
 ```
-python3 -I cards/generate_cards.py [slug] [--diff]
+python3 -I cards/generate_cards.py [hero as typed] [--diff]
 ```
 
 Exit 0: finished. Exit 2: summaries needed, so go to Summarize. Any other exit: report the traceback.
@@ -33,7 +33,7 @@ Done: the command exits 0 and no pending files are named. Summaries are cached p
 
 ## Report
 
-Per hero and deck, give the card count and the PDFs written. For a diff, give the script's NEW / CHANGED / REMOVED / SOURCE lines as printed, then the `(changes ...)` PDFs it wrote. List `MISSING` names once; most are Pathbuilder labels with no AoN entry (heritages, class frameworks, sub-choices), so call out only those that look like usable actions or items.
+Open with the hero the name resolved to when the script printed a "matched" line. Per hero and deck, give the card count and the PDFs written. For a diff, give the script's NEW / CHANGED / REMOVED / SOURCE lines as printed, then the `(changes ...)` PDFs it wrote. List `MISSING` names once; most are Pathbuilder labels with no AoN entry (heritages, class frameworks, sub-choices), so call out only those that look like usable actions or items.
 
 Leave `cards/blacklist.json`, `heroes/` and `cards/templates/` as they are. Suggest blacklist entries in the report when a deck looks bloated.
 

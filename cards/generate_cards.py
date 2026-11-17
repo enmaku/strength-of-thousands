@@ -4,6 +4,7 @@
 Usage: python3 -I cards/generate_cards.py [hero-id|all] [spells|items|actions|all] [--diff]
 
 No hero means all active heroes (heroes/index.json, minus "active": false); no deck means all three.
+A hero can be typed loosely: "taraan", "cyan" or "cy-an" all resolve (see resolve_hero).
 
 --diff compares against the hero's last recorded run (cards/cache/runs/): it rebuilds the full PDFs
 if anything printed changed, and also writes a timestamped "(changes ...)" PDF holding only the
@@ -15,10 +16,12 @@ exits with status 2; fill in the "front" / "back" fields and run it again. Accep
 are cached in cards/cache/summaries/spell/ and reused until the AoN text changes.
 """
 import datetime
+import difflib
 import hashlib
 import json
 import re
 import sys
+import unicodedata
 import urllib.request
 from collections import deque, namedtuple
 from pathlib import Path
@@ -925,16 +928,52 @@ def active_heroes():
     return [h["slug"] for h in index if h.get("active") is not False]
 
 
+def _norm(text):
+    """Lowercase letters and digits only: "Cy\u2019An", "cy-an" and "Cy'An" all become "cyan"."""
+    text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]", "", text.lower())
+
+
+def resolve_hero(query):
+    """Map what was typed to one hero slug: slug, display name or any word of it, matched loosely.
+
+    Tries exact, then prefix, then substring, then close spelling. Several heroes matching at the
+    same step is an error that lists them; guessing between them would print the wrong cards."""
+    index = json.loads((ROOT / "heroes" / "index.json").read_text())
+    aliases = {}  # slug -> normalised names it answers to (inactive heroes can still be named)
+    for h in index:
+        names = [h["slug"], h.get("displayName", ""), *re.findall(r"[\w\u2019']+", h.get("displayName", ""))]
+        aliases[h["slug"]] = {a for a in map(_norm, names) if a}
+    q = _norm(query)
+    steps = (("exact", lambda a: a == q), ("prefix", lambda a: a.startswith(q)), ("partial", lambda a: q in a))
+    for how, test in steps:
+        hits = [slug for slug, names in aliases.items() if any(test(n) for n in names)]
+        if hits:
+            break
+    else:
+        close = {slug: difflib.get_close_matches(q, names, n=1, cutoff=0.7) for slug, names in aliases.items()}
+        hits, how = [slug for slug, m in close.items() if m], "close spelling"
+    shown = lambda slugs: ", ".join(f"{s} ({next(h['displayName'] for h in index if h['slug'] == s)})" for s in slugs)
+    if not hits:
+        sys.exit(f"no hero matches '{query}'. Heroes: {shown(aliases)}")
+    if len(hits) > 1:
+        sys.exit(f"'{query}' matches more than one hero ({how}): {shown(hits)}. Say which one.")
+    if how != "exact":
+        print(f"matched '{query}' ({how}) -> {shown(hits)}")
+    return hits[0]
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     diff = "--diff" in sys.argv or "diff" in args  # bare "diff" works too, as the skill passes it
     args = [a for a in args if a != "diff"]
-    target = args[0] if args else "all"  # no hero named: every active hero
-    kinds = [args[1]] if len(args) > 1 and args[1] != "all" else list(KINDS)
-    heroes = active_heroes() if target == "all" else [target]
-    for h in heroes:
-        if not (ROOT / "heroes" / f"{h}.json").exists():
-            sys.exit(f"no such hero: {h} (heroes/{h}.json)")
+    kinds = list(KINDS)
+    if args and args[-1] in KINDS:  # trailing deck name: "taraan spells"
+        kinds = [args.pop()]
+    elif len(args) > 1 and args[-1] == "all":
+        args.pop()
+    query = " ".join(args).strip()  # "cy an" typed with a space is still one hero
+    heroes = active_heroes() if query in ("", "all") else [resolve_hero(query)]
     results = []
     for h in heroes:
         for k in kinds:
