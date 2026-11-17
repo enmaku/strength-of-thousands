@@ -1,0 +1,110 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1744",
+ "legacy_id": [
+  "spell-79"
+ ],
+ "legacy_name": [
+  "Disrupt Undead"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Vitality Lash](/Spells.aspx?ID=1744)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Life](/Mysteries.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature that is undead or otherwise has void healing\n</row>\n\n<row gap=\"medium\">\n**Defense**\nbasic Fortitude\n\n</row>\n\n</column>\n\n---\n\nYou demolish the target's corrupted essence with energy from Creation's Forge. You deal 2d6 vitality damage with a basic Fortitude save. If the creature critically fails the save, it is also [enfeebled](/Conditions.aspx?ID=71) 1 until the start of your next turn.\n\n---\n**Heightened (+1)** The damage increases by 1d6.",
+ "mystery": [
+  "Life"
+ ],
+ "mystery_markdown": "[Life](/Mysteries.aspx?ID=17)",
+ "name": "Vitality Lash",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 366",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "basic Fortitude",
+ "saving_throw_markdown": "basic Fortitude",
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 366\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Life](/Mysteries.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature that is undead or otherwise has void healing\n</row>\n\n<row gap=\"medium\">\n**Defense**\nbasic Fortitude\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nDamage and weaken the undead with vital energy.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 366"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 366",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Damage and weaken the undead with vital energy.",
+ "summary_markdown": "Damage and weaken the undead with vital energy.",
+ "target": "1 creature that is undead or otherwise has void healing",
+ "target_markdown": "1 creature that is undead or otherwise has void healing",
+ "text": "Cantrip 1 Vitality Lash Two Actions Cantrip Concentrate Manipulate Vitality Source Player Core pg. 366 Traditions Divine, Primal Mystery Life Range 30 feet Target 1 creature that is undead or otherwise has void healing Defense basic Fortitude You demolish the target's corrupted essence with energy from Creation's Forge. You deal 2d6 vitality damage with a basic Fortitude save. If the creature critically fails the save, it is also enfeebled 1 until the start of your next turn. Heightened (+1) The damage increases by 1d6.",
+ "tradition": [
+  "Divine",
+  "Primal"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Vitality",
+  "Positive"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Vitality](/Traits.aspx?ID=509)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Vitality"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1744",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:00-08:00"
+}

@@ -1,0 +1,99 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "3rd",
+  "6th",
+  "9th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 6th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  6,
+  9
+ ],
+ "id": "spell-2081",
+ "legacy_id": [
+  "spell-758"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\n[Life Link](/Spells.aspx?ID=2081)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 260\n\n**Mystery**\n[Life](/Mysteries.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature other than you\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nYou forge a connection of life energy between you and your target, distributing harm between both of you. When you first Cast the Spell, the target recovers 1d4 Hit Points. The first time each round that the target takes damage, reduce the damage it takes by 3 (to a minimum of 0 damage). You lose 3 Hit Points each time, or the total damage dealt, if less than 3; this damage ignores any immunities or resistances you have and can't otherwise be mitigated in any way.\n\n The spell ends immediately if you fall [unconscious](/Conditions.aspx?ID=95). You can Dismiss the spell.\n\n---\n**Heightened (3rd)** You can target 2 creatures other than you. The initial healing increases to 3d4, and the maximum damage reduced and Hit Points lost increases to 5.\n\n**Heightened (6th)** You can target 3 creatures other than you. The initial healing increases to 6d4, and the maximum damage reduced and Hit Points lost increases to 10.\n\n**Heightened (9th)** You can target 4 creatures other than you. The initial healing increases to 9d4, and the maximum damage reduced and Hit Points lost increases to 15.",
+ "mystery": [
+  "Life"
+ ],
+ "mystery_markdown": "[Life](/Mysteries.aspx?ID=17)",
+ "name": "Life Link",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 260",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=319\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 260\n\n**Mystery**\n[Life](/Mysteries.aspx?ID=17)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature other than you\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou forge a connection of life energy between you and your target, distributing harm between both of you.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 260"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 260",
+ "speed": {},
+ "spell_type": "Focus",
+ "summary": "You forge a connection of life energy between you and your target, distributing harm between both of you.",
+ "summary_markdown": "You forge a connection of life energy between you and your target, distributing harm between both of you.",
+ "target": "1 creature other than you",
+ "target_markdown": "1 creature other than you",
+ "text": "Focus 1 Life Link Single Action Uncommon Focus Healing Manipulate Oracle Vitality Source Player Core 2 pg. 260 Mystery Life Range 30 feet Target 1 creature other than you Duration 1 minute You forge a connection of life energy between you and your target, distributing harm between both of you. When you first Cast the Spell, the target recovers 1d4 Hit Points. The first time each round that the target takes damage, reduce the damage it takes by 3 (to a minimum of 0 damage). You lose 3 Hit Points each time, or the total damage dealt, if less than 3; this damage ignores any immunities or resistances you have and can't otherwise be mitigated in any way. The spell ends immediately if you fall unconscious. You can Dismiss the spell. Heightened (3rd) You can target 2 creatures other than you. The initial healing increases to 3d4, and the maximum damage reduced and Hit Points lost increases to 5. Heightened (6th) You can target 3 creatures other than you. The initial healing increases to 6d4, and the maximum damage reduced and Hit Points lost increases to 10. Heightened (9th) You can target 4 creatures other than you. The initial healing increases to 9d4, and the maximum damage reduced and Hit Points lost increases to 15.",
+ "tradition_markdown": "",
+ "trait": [
+  "Focus",
+  "Healing",
+  "Manipulate",
+  "Oracle",
+  "Uncommon",
+  "Vitality",
+  "Positive"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class",
+  "Rarity",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Focus](/Traits.aspx?ID=511), [Healing](/Traits.aspx?ID=623), [Manipulate](/Traits.aspx?ID=645), [Oracle](/Traits.aspx?ID=319), [Uncommon](/Traits.aspx?ID=721), [Vitality](/Traits.aspx?ID=509)",
+ "trait_raw": [
+  "Focus",
+  "Healing",
+  "Manipulate",
+  "Oracle",
+  "Uncommon",
+  "Vitality"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2081",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:02-08:00"
+}

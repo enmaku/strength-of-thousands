@@ -1,0 +1,40 @@
+{
+ "category": "heritage",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "heritage-251",
+ "legacy_id": [
+  "heritage-17"
+ ],
+ "markdown": "<title level=\"1\" right=\"Heritage\" pfs=\"Standard\">[Irongut Goblin](/Heritages.aspx?ID=251)</title>\n\n<traits>\n\n</traits>\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 55\n\nYou can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is readily available, without using the [Subsist](/Actions.aspx?ID=27) downtime activity. You can eat and drink things when you are [sickened](/Conditions.aspx?ID=34).\n\n You gain a +2 circumstance bonus to saving throws against afflictions, against gaining the sickened condition, and to remove the sickened condition. When you roll a success on a Fortitude save affected by this bonus, you get a critical success instead. All these benefits apply only when the affliction or condition resulted from something you ingested.",
+ "name": "Irongut Goblin",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 55",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 55\n</additional-info>\n\n---\n\n<summary>\nYou can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 55"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 55",
+ "speed": {},
+ "summary": "You can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is \u2026",
+ "summary_markdown": "You can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is \u2026",
+ "text": "Heritage Irongut Goblin Source Player Core pg. 55 You can subsist on food that most folks would consider spoiled. You can keep yourself fed with poor meals in a settlement as long as garbage is readily available, without using the Subsist downtime activity. You can eat and drink things when you are sickened. You gain a +2 circumstance bonus to saving throws against afflictions, against gaining the sickened condition, and to remove the sickened condition. When you roll a success on a Fortitude save affected by this bonus, you get a critical success instead. All these benefits apply only when the affliction or condition resulted from something you ingested.",
+ "trait_markdown": "",
+ "type": "Heritage",
+ "url": "/Heritages.aspx?ID=251",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:43-08:00"
+}

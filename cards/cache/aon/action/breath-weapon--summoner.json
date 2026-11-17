@@ -1,0 +1,40 @@
+{
+ "ability_type": "Specific Familiar - Faerie Dragon",
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "frequency": "once per hour",
+ "id": "familiar-ability-19",
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Breath Weapon](/Familiars.aspx?ID=19) <actions string=\"Two Actions\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 147\n\n**Ability Type** Specific Familiar - Faerie Dragon\n\n</column>\n\nThe faerie dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must attempt a Fortitude save against your class DC or spell DC, whichever is higher. A creature that fails its save is [stupefied 2](/Conditions.aspx?ID=37) and [slowed 1](/Conditions.aspx?ID=35) for 1d4 rounds; on a critical failure, the duration is 1 minute.",
+ "name": "Breath Weapon",
+ "pfs": "Standard",
+ "primary_source": "Advanced Player's Guide",
+ "primary_source_raw": "Advanced Player's Guide pg. 147",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2020-07-30",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Advanced Player's Guide](/Sources.aspx?ID=39) pg. 147\n\n**Ability Type** Specific Familiar - Faerie Dragon\n</additional-info>\n\n---\n\n<summary>\nThe faerie dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must attempt a Fortitude save against your class DC or spell DC, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Advanced Player's Guide"
+ ],
+ "source_raw": [
+  "Advanced Player's Guide pg. 147"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Advanced Player's Guide](/Sources.aspx?ID=39) pg. 147",
+ "speed": {},
+ "summary": "The faerie dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must attempt a Fortitude save against your class DC or spell DC, \u2026",
+ "summary_markdown": "The faerie dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must attempt a Fortitude save against your class DC or spell DC, \u2026",
+ "text": "Familiar Ability Breath Weapon Two Actions Source Advanced Player's Guide pg. 147 Ability Type Specific Familiar - Faerie Dragon The faerie dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must attempt a Fortitude save against your class DC or spell DC, whichever is higher. A creature that fails its save is stupefied 2 and slowed 1 for 1d4 rounds; on a critical failure, the duration is 1 minute.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=19",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:50-08:00"
+}

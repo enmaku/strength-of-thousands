@@ -1,0 +1,57 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2392",
+ "legacy_id": [
+  "action-50"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Make an Impression](/Actions.aspx?ID=2392) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</column>\n\n---\n\nWith at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a [Diplomacy](/Skills.aspx?ID=6) check against the Will DC of one target. You can instead choose up to five targets if you take a \u20132 penalty. The GM might add other bonuses or penalties based on the situation. Any impression you make lasts for only the current social interaction unless the GM decides otherwise. See the Changing Attitudes sidebar for a summary of the attitude conditions.\n\n**Critical Success** The target's attitude toward you improves by two steps.<br />\n**Success** The target's attitude toward you improves by one step.<br />\n**Critical Failure** The target's attitude toward you decreases by one step.",
+ "name": "Make an Impression",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 239",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</additional-info>\n\n---\n\n<summary>\nWith at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 239"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 239",
+ "speed": {},
+ "summary": "With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a \u2026",
+ "summary_markdown": "With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a \u2026",
+ "text": "Action Make an Impression Auditory Concentrate Exploration Linguistic Mental Source Player Core pg. 239 With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a Diplomacy check against the Will DC of one target. You can instead choose up to five targets if you take a \u20132 penalty. The GM might add other bonuses or penalties based on the situation. Any impression you make lasts for only the current social interaction unless the GM decides otherwise. See the Changing Attitudes sidebar for a summary of the attitude conditions. Critical Success The target's attitude toward you improves by two steps. Success The target's attitude toward you improves by one step. Critical Failure The target's attitude toward you decreases by one step.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Exploration",
+  "Linguistic",
+  "Mental"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Exploration",
+  "Linguistic",
+  "Mental"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2392",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:43:01-08:00"
+}

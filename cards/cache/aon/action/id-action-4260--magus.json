@@ -1,0 +1,51 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "frequency": "until recharged (see below)",
+ "id": "action-4260",
+ "legacy_id": [
+  "action-755"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Spellstrike](/Actions.aspx?ID=4260) <actions string=\"Two Actions\" /></title>\n\n<traits>\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=389\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 11\n\n**Frequency** until recharged (see below)\n\n</column>\n\n---\n\nYou channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either a spell attack roll or a saving throw. You imbue its effects into an attack instead of executing the spell normally. Make a melee Strike with a weapon or unarmed attack. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the [arcane](/Traits.aspx?ID=534) trait, making it magical. If the spell required a spell attack roll, use your Strike's results to determine the effects of both the Strike and the spell. If the spell required a save, the target of the Strike rolls its saving throw normally regardless of your attack roll's result unless your Strike was a critical failure, in which case your spell is disrupted. Combine the Strike and spell's damage for the purpose of [resistances](/Rules.aspx?ID=2318) and [weaknesses](/Rules.aspx?ID=2317).\n\n After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the [concentrate](/Traits.aspx?ID=561) trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.",
+ "name": "Spellstrike",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 11",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=389\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 11\n\n**Frequency**\nuntil recharged (see below)\n\n</additional-info>\n\n---\n\n<summary>\nYou channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 11"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 11",
+ "speed": {},
+ "summary": "You channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either \u2026",
+ "summary_markdown": "You channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either \u2026",
+ "text": "Action Spellstrike Two Actions Magus Source Impossible Magic pg. 11 Frequency until recharged (see below) You channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either a spell attack roll or a saving throw. You imbue its effects into an attack instead of executing the spell normally. Make a melee Strike with a weapon or unarmed attack. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical. If the spell required a spell attack roll, use your Strike's results to determine the effects of both the Strike and the spell. If the spell required a save, the target of the Strike rolls its saving throw normally regardless of your attack roll's result unless your Strike was a critical failure, in which case your spell is disrupted. Combine the Strike and spell's damage for the purpose of resistances and weaknesses. After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike.",
+ "trait": [
+  "Magus"
+ ],
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Magus](/Traits.aspx?ID=389)",
+ "trait_raw": [
+  "Magus"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=4260",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:28-08:00"
+}

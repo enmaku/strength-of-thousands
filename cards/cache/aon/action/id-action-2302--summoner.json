@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2302",
+ "legacy_id": [
+  "action-85"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Sense Motive](/Actions.aspx?ID=2302) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</column>\n\n---\n\nYou try to tell whether a creature's behavior is abnormal. Choose one creature and assess it for odd body language, signs of nervousness, and other indicators that it might be trying to deceive someone. The GM attempts a single [secret](/Traits.aspx?ID=142) Perception check for you and compares the result to the [Deception](/Skills.aspx?ID=5) DC of the creature, the DC of a spell affecting the creature's mental state, or another appropriate DC determined by the GM. You typically can't try to Sense the Motive of the same creature again until the situation changes significantly.\n\n**Critical Success** You determine the creature's true intentions and get a solid idea of any mental magic affecting it.<br />\n**Success** You can tell whether the creature is behaving normally, but you don't know its exact intentions or what magic might be affecting it.<br />\n**Failure** You detect what a deceptive creature wants you to believe. If they're not being deceptive, you believe they're behaving normally.<br />\n**Critical Failure** You get a false sense of the creature's intentions.",
+ "name": "Sense Motive",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 417",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</additional-info>\n\n---\n\n<summary>\nYou try to tell whether a creature's behavior is abnormal. Choose one creature and assess it for odd body language, signs of nervousness, and other \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 417"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 417",
+ "speed": {},
+ "summary": "You try to tell whether a creature's behavior is abnormal. Choose one creature and assess it for odd body language, signs of nervousness, and other \u2026",
+ "summary_markdown": "You try to tell whether a creature's behavior is abnormal. Choose one creature and assess it for odd body language, signs of nervousness, and other \u2026",
+ "text": "Action Sense Motive Single Action Concentrate Secret Source Player Core pg. 417 You try to tell whether a creature's behavior is abnormal. Choose one creature and assess it for odd body language, signs of nervousness, and other indicators that it might be trying to deceive someone. The GM attempts a single secret Perception check for you and compares the result to the Deception DC of the creature, the DC of a spell affecting the creature's mental state, or another appropriate DC determined by the GM. You typically can't try to Sense the Motive of the same creature again until the situation changes significantly. Critical Success You determine the creature's true intentions and get a solid idea of any mental magic affecting it. Success You can tell whether the creature is behaving normally, but you don't know its exact intentions or what magic might be affecting it. Failure You detect what a deceptive creature wants you to believe. If they're not being deceptive, you believe they're behaving normally. Critical Failure You get a false sense of the creature's intentions.",
+ "trait": [
+  "Concentrate",
+  "Secret"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Concentrate",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2302",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:53-08:00"
+}

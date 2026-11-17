@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2390",
+ "legacy_id": [
+  "action-48"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Feint](/Actions.aspx?ID=2390) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n**Requirements** You are within melee reach of the target you attempt to Feint.\n\n</column>\n\n---\n\nWith a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a [Deception](/Skills.aspx?ID=5) check against your target's Perception DC.\n\n**Critical Success** You throw your enemy's defenses against you entirely off. The target is [off-guard](/Conditions.aspx?ID=58) against melee attacks that you attempt against it until the end of your next turn.<br />\n**Success** Your foe is fooled, but only momentarily. The target is off-guard against the next melee attack that you attempt against it before the end of your current turn.<br />\n**Critical Failure** Your feint backfires. You are off-guard against melee attacks the target attempts against you until the end of your next turn.",
+ "name": "Feint",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 239",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are within melee reach of the target you attempt to Feint.",
+ "requirement_markdown": "You are within melee reach of the target you attempt to Feint.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n**Requirement**\nYou are within melee reach of the target you attempt to Feint.\n</additional-info>\n\n---\n\n<summary>\nWith a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against your target's Perception DC.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 239"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 239",
+ "speed": {},
+ "summary": "With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against your target's Perception DC.",
+ "summary_markdown": "With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against your target's Perception DC.",
+ "text": "Action Feint Single Action Mental Source Player Core pg. 239 Requirements You are within melee reach of the target you attempt to Feint. With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against your target's Perception DC. Critical Success You throw your enemy's defenses against you entirely off. The target is off-guard against melee attacks that you attempt against it until the end of your next turn. Success Your foe is fooled, but only momentarily. The target is off-guard against the next melee attack that you attempt against it before the end of your current turn. Critical Failure Your feint backfires. You are off-guard against melee attacks the target attempts against you until the end of your next turn.",
+ "trait": [
+  "Mental"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Mental"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2390",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:19-08:00"
+}

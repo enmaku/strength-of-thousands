@@ -1,0 +1,55 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Seedpod"
+ ],
+ "feat_markdown": "Seedpod",
+ "id": "feat-4497",
+ "legacy_id": [
+  "feat-1041"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Seedpod](/Feats.aspx?ID=4497) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 68\n\n</column>\n\n---\n\nYour body produces a nearly endless supply of hard seedpods. You gain a seedpod ranged unarmed attack with a [range increment](/Rules.aspx?ID=227) of 30 feet that deals 1d4 bludgeoning damage. On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a \u201310-foot circumstance penalty on the target\u2019s Speed until the start of your next turn. Seedpods do not add critical specialization effects.\n\n<title level=\"2\">Seedpod leads to...</title>\n[Thorned Seedpod](/Feats.aspx?ID=4507)",
+ "name": "Seedpod",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 68",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Leshy\" url=\"/Traits.aspx?ID=225\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 68\n\n</additional-info>\n\n---\n\n<summary>\nYour body produces a nearly endless supply of hard seedpods.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 68"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 68",
+ "speed": {},
+ "summary": "Your body produces a nearly endless supply of hard seedpods.",
+ "summary_markdown": "Your body produces a nearly endless supply of hard seedpods.",
+ "text": "Feat 1 Seedpod Leshy Source Player Core pg. 68 Your body produces a nearly endless supply of hard seedpods. You gain a seedpod ranged unarmed attack with a range increment of 30 feet that deals 1d4 bludgeoning damage. On a critical hit, a seedpod bursts, issuing forth a tangle of vegetation that imposes a \u201310-foot circumstance penalty on the target\u2019s Speed until the start of your next turn. Seedpods do not add critical specialization effects. Seedpod leads to... Thorned Seedpod",
+ "trait": [
+  "Leshy"
+ ],
+ "trait_group": [
+  "Monster",
+  "Ancestry"
+ ],
+ "trait_markdown": "[Leshy](/Traits.aspx?ID=225)",
+ "trait_raw": [
+  "Leshy"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=4497",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:27-08:00"
+}

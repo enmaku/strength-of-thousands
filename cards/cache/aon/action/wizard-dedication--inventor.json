@@ -1,0 +1,63 @@
+{
+ "archetype": [
+  "Wizard"
+ ],
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Wizard Dedication"
+ ],
+ "feat_markdown": "Wizard Dedication",
+ "id": "feat-5106",
+ "legacy_id": [
+  "feat-742"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Wizard Dedication](/Feats.aspx?ID=5106) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=41\" />\n<trait label=\"Multiclass\" url=\"/Traits.aspx?ID=115\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 223\n\n**Archetype** [Wizard](/Archetypes.aspx?ID=218)\n\n**Prerequisites**\nIntelligence +2\n\n</column>\n\n---\n\nYou cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice. You gain the [Cast a Spell](/Actions.aspx?ID=2734) activity. You can prepare two cantrips each day from your spellbook. You\u2019re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for wizard archetype spells is Intelligence, and they are arcane wizard spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice. Select a school; you don\u2019t gain any abilities from your choice of school, but qualify for feats as a member.\n\n<title level=\"2\">Wizard Dedication leads to...</title>\n[Arcane School Spell](/Feats.aspx?ID=5107), [Basic Arcana](/Feats.aspx?ID=5108), [Basic Wizard Spellcasting](/Feats.aspx?ID=5109)",
+ "name": "Wizard Dedication",
+ "pfs": "Standard",
+ "prerequisite": "Intelligence +2",
+ "prerequisite_markdown": "Intelligence +2",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 223",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=12\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=41\" />\n<trait label=\"Multiclass\" url=\"/Traits.aspx?ID=115\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 223\n\n**Prerequisites**\nIntelligence +2\n\n</additional-info>\n\n---\n\n<summary>\nYou cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 223"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 223",
+ "speed": {},
+ "summary": "You cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice.",
+ "summary_markdown": "You cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice.",
+ "text": "Feat 2 Wizard Dedication Archetype Dedication Multiclass Source Player Core pg. 223 Archetype Wizard Prerequisites Intelligence +2 You cast spells like a wizard, gaining a spellbook with four common arcane cantrips of your choice. You gain the Cast a Spell activity. You can prepare two cantrips each day from your spellbook. You\u2019re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for wizard archetype spells is Intelligence, and they are arcane wizard spells. You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice. Select a school; you don\u2019t gain any abilities from your choice of school, but qualify for feats as a member. Wizard Dedication leads to... Arcane School Spell, Basic Arcana, Basic Wizard Spellcasting",
+ "trait": [
+  "Archetype",
+  "Dedication",
+  "Multiclass"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=12), [Dedication](/Traits.aspx?ID=41), [Multiclass](/Traits.aspx?ID=115)",
+ "trait_raw": [
+  "Archetype",
+  "Dedication",
+  "Multiclass"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5106",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:43-08:00"
+}

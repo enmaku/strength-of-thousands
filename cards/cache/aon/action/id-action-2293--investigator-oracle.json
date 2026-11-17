@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2293",
+ "legacy_id": [
+  "action-76"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Crawl](/Actions.aspx?ID=2293) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\n**Requirements** You are [prone](/Conditions.aspx?ID=31) and your Speed is at least 10 feet.\n\n</column>\n\n---\n\nYou move 5 feet by crawling and continue to stay prone.",
+ "name": "Crawl",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 416",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are prone and your Speed is at least 10 feet.",
+ "requirement_markdown": "You are [prone](/Conditions.aspx?ID=31) and your Speed is at least 10 feet.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 416\n\n**Requirement**\nYou are [prone](/Conditions.aspx?ID=31) and your Speed is at least 10 feet.\n</additional-info>\n\n---\n\n<summary>\nYou move 5 feet by crawling and continue to stay prone.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 416"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 416",
+ "speed": {},
+ "summary": "You move 5 feet by crawling and continue to stay prone.",
+ "summary_markdown": "You move 5 feet by crawling and continue to stay prone.",
+ "text": "Action Crawl Single Action Move Source Player Core pg. 416 Requirements You are prone and your Speed is at least 10 feet. You move 5 feet by crawling and continue to stay prone.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2293",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:09-08:00"
+}

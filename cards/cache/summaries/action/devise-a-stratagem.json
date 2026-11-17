@@ -1,0 +1,5 @@
+{
+ "hash": "1f487bef7035",
+ "front": "Assess a foe and roll a d20 now to use on your next Strike, or take a bonus on a skill check against it.",
+ "back": "Free action if the creature could help answer an active investigation. Pick a creature you see; roll a d20; choose a stratagem.\nAttack: first Strike against it before your next turn gains fortune and uses the d20 result as the attack roll; you may add Int instead of Str/Dex. Melee/thrown weapons need agile or finesse.\nSkill: can't Strike the target until your next turn start; +1 circumstance to next Int/Wis/Cha skill or Perception check involving it; if you'd get Pursue a Lead's bonus, it increases by 1 instead."
+}

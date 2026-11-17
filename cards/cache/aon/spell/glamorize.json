@@ -1,0 +1,71 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 3600,
+ "duration_raw": "1 hour",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2353",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Glamorize](/Spells.aspx?ID=2353)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 258\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n\n</column>\n\n---\n\nUsing simple magical gestures, you alter a minor detail of your appearance (add or remove highlights to your hair color, apply or remove cosmetics, add polish or accessories to your nails, etc.) or create a small environmental effect that\u2019s confined to your person (adjust surrounding lighting to favor your good side, cause a brief wind to make your hair blow dramatically, make a small chime occur as you smile, etc.). While the spell is active, you can [Sustain](/Actions.aspx?ID=2317) it to make further adjustments. The changes persist until the spell\u2019s duration ends.\n\nAt the GM\u2019s discretion, such alterations might grant a +1 status bonus to certain tasks, such as [Impersonate](/Actions.aspx?ID=2388) or [Perform](/Actions.aspx?ID=2401).",
+ "name": "Glamorize",
+ "pfs": "Standard",
+ "primary_source": "Divine Mysteries",
+ "primary_source_raw": "Divine Mysteries pg. 258",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-01-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 258\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n</additional-info>\n\n---\n\n<summary>\nUsing simple magical gestures, you alter a minor detail of your appearance.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Divine Mysteries"
+ ],
+ "source_raw": [
+  "Divine Mysteries pg. 258"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Divine Mysteries](/Sources.aspx?ID=234) pg. 258",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Using simple magical gestures, you alter a minor detail of your appearance.",
+ "summary_markdown": "Using simple magical gestures, you alter a minor detail of your appearance.",
+ "text": "Cantrip 1 Glamorize Two Actions Cantrip Concentrate Manipulate Source Divine Mysteries pg. 258 Traditions Arcane, Divine, Occult, Primal Duration 1 hour Using simple magical gestures, you alter a minor detail of your appearance (add or remove highlights to your hair color, apply or remove cosmetics, add polish or accessories to your nails, etc.) or create a small environmental effect that\u2019s confined to your person (adjust surrounding lighting to favor your good side, cause a brief wind to make your hair blow dramatically, make a small chime occur as you smile, etc.). While the spell is active, you can Sustain it to make further adjustments. The changes persist until the spell\u2019s duration ends. At the GM\u2019s discretion, such alterations might grant a +1 status bonus to certain tasks, such as Impersonate or Perform.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2353",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:00-08:00"
+}

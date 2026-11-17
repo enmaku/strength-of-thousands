@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2373",
+ "legacy_id": [
+  "action-32"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Borrow an Arcane Spell](/Actions.aspx?ID=2373) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n</column>\n\n---\n\nIf you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, or the like. The GM sets the DC for the check based on the spell's rank and rarity; it's typically a bit easier than [Learning the Spell](/Actions.aspx?ID=25).\n\n**Success** You prepare the borrowed spell as part of your normal spell preparation.<br />\n**Failure** You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can't try to borrow this spell again until the next time you prepare spells.",
+ "name": "Borrow an Arcane Spell",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 234",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n</additional-info>\n\n---\n\n<summary>\nIf you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 234"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 234",
+ "speed": {},
+ "summary": "If you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, \u2026",
+ "summary_markdown": "If you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, \u2026",
+ "text": "Action Borrow an Arcane Spell Concentrate Exploration Source Player Core pg. 234 If you're an arcane spellcaster who prepares spells, you can attempt to prepare a spell from someone else's arcane spellbook, arcane witch familiar, or the like. The GM sets the DC for the check based on the spell's rank and rarity; it's typically a bit easier than Learning the Spell. Success You prepare the borrowed spell as part of your normal spell preparation. Failure You fail to prepare the spell, but the spell slot remains available for you to prepare a different spell. You can't try to borrow this spell again until the next time you prepare spells.",
+ "trait": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2373",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:36-08:00"
+}

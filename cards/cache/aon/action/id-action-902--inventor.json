@@ -1,0 +1,68 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "category": "action",
+ "element": [
+  "Fire"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-902",
+ "legacy_id": [
+  "action-3666"
+ ],
+ "legacy_name": [
+  "Interact"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Explode](/Actions.aspx?ID=902) <actions string=\"Two Actions\" /></title>\n\n<traits>\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 19\n\n</column>\n\n---\n\nYou intentionally take your [innovation](/Innovations.aspx) beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals 2d6 fire damage with a [basic](/Rules.aspx?ID=329) Reflex save to all creatures in a 5-foot emanation around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a [minion](/Traits.aspx?ID=109)).\n\n At 3rd level, and every level thereafter, increase your explosion's damage by 1d6.\n\n If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation.",
+ "name": "Explode",
+ "primary_source": "Guns & Gears (Remastered)",
+ "primary_source_raw": "Guns & Gears (Remastered) pg. 19",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-02-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Fire\" url=\"/Traits.aspx?ID=72\" />\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Unstable\" url=\"/Traits.aspx?ID=416\" />\n</traits>\n\n<additional-info>\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 19\n\n</additional-info>\n\n---\n\n<summary>\nYou intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Guns & Gears (Remastered)"
+ ],
+ "source_raw": [
+  "Guns & Gears (Remastered) pg. 19"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears (Remastered)](/Sources.aspx?ID=98) pg. 19",
+ "speed": {},
+ "summary": "You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... \u2026",
+ "summary_markdown": "You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... \u2026",
+ "text": "Action Explode Two Actions Fire Inventor Manipulate Unstable Source Guns &amp; Gears (Remastered) pg. 19 You intentionally take your innovation beyond normal safety limits, making it explode and damage nearby creatures without damaging the innovation... hopefully. The explosion deals 2d6 fire damage with a basic Reflex save to all creatures in a 5-foot emanation around you (if you're wearing or holding the innovation) or around your innovation (if your innovation is a minion). At 3rd level, and every level thereafter, increase your explosion's damage by 1d6. If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area when you use Explode; if you have the revolutionary innovation class feature, you can choose a 5-foot, 10-foot, or 15-foot emanation.",
+ "trait": [
+  "Fire",
+  "Inventor",
+  "Manipulate",
+  "Unstable"
+ ],
+ "trait_group": [
+  "Energy",
+  "Elemental",
+  "Planar",
+  "Monster",
+  "Class",
+  "Mechanics",
+  "Class-Specific"
+ ],
+ "trait_markdown": "[Fire](/Traits.aspx?ID=72), [Inventor](/Traits.aspx?ID=408), [Manipulate](/Traits.aspx?ID=104), [Unstable](/Traits.aspx?ID=416)",
+ "trait_raw": [
+  "Fire",
+  "Inventor",
+  "Manipulate",
+  "Unstable"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=902",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:44-08:00"
+}

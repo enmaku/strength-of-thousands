@@ -1,0 +1,54 @@
+{
+ "actions": "Free Action or Single Action",
+ "actions_number": 0,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "frequency": "once per round",
+ "id": "action-2813",
+ "legacy_id": [
+  "action-546"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Devise a Stratagem](/Actions.aspx?ID=2813) <actions string=\"Free Action or Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 103\n\n**Frequency** once per round\n\n</column>\n\n---\n\nYou assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a free action if you're aware that creature could help answer the question at the heart of one of your active investigations. Roll a d20, then decide on an attack stratagem or skill stratagem. \n\n**Attack Stratagem** If you Strike the chosen creature before the start of your next turn, your Strike gains the fortune trait and you must use the result of the d20 roll for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent ones. When you make this substitution, you can add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier. If you Strike with a melee weapon, melee unarmed attack, or thrown weapon, it must have the [agile](/Traits.aspx?ID=526) or [finesse](/Traits.aspx?ID=602) trait to benefit from the substitution.\n\n**Skill Stratagem** You can't attempt to Strike the target until the start of your next turn. You gain a +1 circumstance bonus to your next Intelligence-, Wisdom-, or Charisma-based skill check or Perception check involving the target before the start of your next turn. If you would gain your Pursue a Lead investigation bonus to such a check, that bonus increases by 1 instead of you gaining the +1 bonus listed.",
+ "name": "Devise a Stratagem",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 103",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 103\n\n**Frequency**\nonce per round\n\n</additional-info>\n\n---\n\n<summary>\nYou assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 103"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 103",
+ "speed": {},
+ "summary": "You assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a \u2026",
+ "summary_markdown": "You assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a \u2026",
+ "text": "Action Devise a Stratagem Free Action or Single Action Concentrate Investigator Source Player Core 2 pg. 103 Frequency once per round You assess a foe's weaknesses in combat and use them to formulate a plan of attack. Choose a creature you can see. You can Devise a Stratagem as a free action if you're aware that creature could help answer the question at the heart of one of your active investigations. Roll a d20, then decide on an attack stratagem or skill stratagem. Attack Stratagem If you Strike the chosen creature before the start of your next turn, your Strike gains the fortune trait and you must use the result of the d20 roll for your Strike's attack roll instead of rolling. You make this substitution only for the first Strike you make against the creature this round, not any subsequent ones. When you make this substitution, you can add your Intelligence modifier to your attack roll instead of your Strength or Dexterity modifier. If you Strike with a melee weapon, melee unarmed attack, or thrown weapon, it must have the agile or finesse trait to benefit from the substitution. Skill Stratagem You can't attempt to Strike the target until the start of your next turn. You gain a +1 circumstance bonus to your next Intelligence-, Wisdom-, or Charisma-based skill check or Perception check involving the target before the start of your next turn. If you would gain your Pursue a Lead investigation bonus to such a check, that bonus increases by 1 instead of you gaining the +1 bonus listed.",
+ "trait": [
+  "Concentrate",
+  "Investigator"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Investigator](/Traits.aspx?ID=818)",
+ "trait_raw": [
+  "Concentrate",
+  "Investigator"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2813",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:08-08:00"
+}

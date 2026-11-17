@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2624",
+ "legacy_id": [
+  "action-513"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Detect Magic](/Actions.aspx?ID=2624) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\n</column>\n\n---\n\nYou cast [_detect magic_](/Spells.aspx?ID=66) at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them.",
+ "name": "Detect Magic",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 438",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 438\n\n</additional-info>\n\n---\n\n<summary>\nYou cast  detect magic  at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 438"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 438",
+ "speed": {},
+ "summary": "You cast  detect magic  at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic \u2026",
+ "summary_markdown": "You cast  detect magic  at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic \u2026",
+ "text": "Action Detect Magic Concentrate Exploration Source Player Core pg. 438 You cast detect magic at regular intervals. You move at half your travel speed or slower. You have no chance of accidentally overlooking a magic aura at a travel speed up to 300 feet per minute, but must be traveling no more than 150 feet per minute to detect magic auras before the party moves into them.",
+ "trait": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2624",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:34-08:00"
+}

@@ -1,0 +1,40 @@
+{
+ "category": "class-feature",
+ "class": "Inventor",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-480",
+ "legacy_id": [
+  "class-71"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Peerless Inventor](/Classes.aspx?ID=19)</title>\n\n<column gap=\"tiny\">\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 15\n\n**Class** Inventor\n</column>\n\n---\n\nYou are constantly inventing, and your skill at crafting is unimpeachable. You gain the [Inventor](/Feats.aspx?ID=798) skill feat, even if you don't meet its prerequisites.",
+ "name": "Peerless Inventor",
+ "primary_source": "Guns & Gears (Remastered)",
+ "primary_source_raw": "Guns & Gears (Remastered) pg. 15",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-02-05",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 15\n\n**Class** Inventor\n</additional-info>\n\n---\n\n<summary>\nYou are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Guns & Gears (Remastered)"
+ ],
+ "source_raw": [
+  "Guns & Gears (Remastered) pg. 15"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears (Remastered)](/Sources.aspx?ID=98) pg. 15",
+ "speed": {},
+ "summary": "You are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites.",
+ "summary_markdown": "You are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites.",
+ "text": "Class Feature 1 Peerless Inventor Source Guns &amp; Gears (Remastered) pg. 15 Class Inventor You are constantly inventing, and your skill at crafting is unimpeachable. You gain the Inventor skill feat, even if you don't meet its prerequisites.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=19",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:44-08:00"
+}

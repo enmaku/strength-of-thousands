@@ -1,0 +1,66 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Seasoned"
+ ],
+ "feat_markdown": "Seasoned",
+ "id": "feat-5210",
+ "legacy_id": [
+  "feat-2149"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Seasoned](/Feats.aspx?ID=5210) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Prerequisites**\nTrained in [Alcohol Lore](/Skills.aspx?ID=8), Trained in [Cooking Lore](/Skills.aspx?ID=8), or Trained in [Crafting](/Skills.aspx?ID=4)\n\n</column>\n\n---\n\nYou've mastered the preparation of many types of food and drink. You gain a +1 circumstance bonus to checks to [Craft](/Actions.aspx?ID=2385) food and drink, including elixirs if you have [Alchemical Crafting](/Feats.aspx?ID=5117) and potions if you have [Magical Crafting](/Feats.aspx?ID=5178). If you are a master in one of the prerequisite skills, this bonus increases to +2.",
+ "name": "Seasoned",
+ "pfs": "Standard",
+ "prerequisite": "Trained in Alcohol Lore, Trained in Cooking Lore, or Trained in Crafting",
+ "prerequisite_markdown": "Trained in [Alcohol Lore](/Skills.aspx?ID=8), Trained in [Cooking Lore](/Skills.aspx?ID=8), or Trained in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 262",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 262\n\n**Prerequisites**\nTrained in [Alcohol Lore](/Skills.aspx?ID=8), Trained in [Cooking Lore](/Skills.aspx?ID=8), or Trained in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\n\n---\n\n<summary>\n+1 to Craft food and drink, including elixirs and potions\n</summary>",
+ "skill": [
+  "Lore",
+  "Lore",
+  "Crafting",
+  "Lore",
+  "Lore",
+  "Crafting"
+ ],
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 262"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 262",
+ "speed": {},
+ "summary": "+1 to Craft food and drink, including elixirs and potions",
+ "summary_markdown": "+1 to Craft food and drink, including elixirs and potions",
+ "text": "Feat 1 Seasoned General Skill Source Player Core pg. 262 Prerequisites Trained in Alcohol Lore, Trained in Cooking Lore, or Trained in Crafting You've mastered the preparation of many types of food and drink. You gain a +1 circumstance bonus to checks to Craft food and drink, including elixirs if you have Alchemical Crafting and potions if you have Magical Crafting. If you are a master in one of the prerequisite skills, this bonus increases to +2.",
+ "trait": [
+  "General",
+  "Skill"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "General",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5210",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:42-08:00"
+}

@@ -1,0 +1,53 @@
+{
+ "actions": "Reaction",
+ "actions_number": 1,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "frequency": "once per 10 minutes",
+ "id": "action-2812",
+ "markdown": "<title level=\"1\" right=\"Action\">[Clue In](/Actions.aspx?ID=2812) <actions string=\"Reaction\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 102\n\n**Frequency** once per 10 minutes\n\n**Trigger** Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations.\n\n</column>\n\n---\n\nYou share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as [auditory](/Traits.aspx?ID=541) and [linguistic](/Traits.aspx?ID=642) if you're conveying information verbally.",
+ "name": "Clue In",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 102",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 102\n\n**Frequency**\nonce per 10 minutes\n\n**Trigger**\nAnother creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations.\n\n</additional-info>\n\n---\n\n<summary>\nYou share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 102"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 102",
+ "speed": {},
+ "summary": "You share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a \u2026",
+ "summary_markdown": "You share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a \u2026",
+ "text": "Action Clue In Reaction Concentrate Investigator Source Player Core 2 pg. 102 Frequency once per 10 minutes Trigger Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations. You share information with the triggering creature. They gain a circumstance bonus to their check equal to your investigation bonus from Pursue a Lead. The GM can add any relevant traits to this reaction depending on the situation, such as auditory and linguistic if you're conveying information verbally.",
+ "trait": [
+  "Concentrate",
+  "Investigator"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Investigator](/Traits.aspx?ID=818)",
+ "trait_raw": [
+  "Concentrate",
+  "Investigator"
+ ],
+ "trigger": "Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations.",
+ "trigger_markdown": "Another creature attempts a check that could help get you closer to answering the question at the heart of one of your active investigations.",
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2812",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:08-08:00"
+}

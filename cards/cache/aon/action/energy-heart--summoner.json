@@ -1,0 +1,57 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Energy Heart"
+ ],
+ "feat_markdown": "Energy Heart",
+ "id": "feat-9223",
+ "legacy_id": [
+  "feat-2888"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Energy Heart](/Feats.aspx?ID=9223) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=959\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 78\n\n</column>\n\n---\n\nYour eidolon\u2019s heart beats with energy. Choose [acid](/Traits.aspx?ID=524), [cold](/Traits.aspx?ID=555), [electricity](/Traits.aspx?ID=586), or [fire](/Traits.aspx?ID=604). One of their unarmed attacks changes its damage type to the chosen type, and they gain [resistance](/Rules.aspx?ID=2318) to that type equal to half your level (minimum 1).\n\n<title level=\"2\">Energy Heart leads to...</title>\n[Dual Energy Heart](/Feats.aspx?ID=9237), [Energy Resistance](/Feats.aspx?ID=9253)",
+ "name": "Energy Heart",
+ "pfs": "Standard",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 78",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Evolution\" url=\"/Traits.aspx?ID=959\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 78\n\n</additional-info>\n\n---\n\n<summary>\nYour eidolon\u2019s heart beats with energy. \n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 78"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 78",
+ "speed": {},
+ "summary": "Your eidolon\u2019s heart beats with energy. ",
+ "summary_markdown": "Your eidolon\u2019s heart beats with energy. ",
+ "text": "Feat 1 Energy Heart Evolution Summoner Source Impossible Magic pg. 78 Your eidolon\u2019s heart beats with energy. Choose acid, cold, electricity, or fire. One of their unarmed attacks changes its damage type to the chosen type, and they gain resistance to that type equal to half your level (minimum 1). Energy Heart leads to... Dual Energy Heart, Energy Resistance",
+ "trait": [
+  "Evolution",
+  "Summoner"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Class"
+ ],
+ "trait_markdown": "[Evolution](/Traits.aspx?ID=959), [Summoner](/Traits.aspx?ID=954)",
+ "trait_raw": [
+  "Evolution",
+  "Summoner"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=9223",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:49-08:00"
+}

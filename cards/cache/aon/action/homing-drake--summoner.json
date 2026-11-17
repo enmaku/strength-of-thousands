@@ -1,0 +1,37 @@
+{
+ "category": "heritage",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "heritage-423",
+ "markdown": "<title level=\"1\" right=\"Heritage\" pfs=\"Standard\">[Homing Drake](/Heritages.aspx?ID=423)</title>\n\n<traits>\n\n</traits>\n\n**Source** [Draconic Codex](/Sources.aspx?ID=277) pg. 210\n\nYou have a short, stubby nose, and tiny spines that resemble hairs. You might have vividly colored scales or be a dun brown. You can cast the [_know the way_](/Spells.aspx?ID=1582) cantrip as an [arcane](/SpellLists.aspx?Tradition=1) [innate spell](/Rules.aspx?ID=2901) at will. A cantrip is heightened to a spell rank equal to half your level rounded up. In addition, you always know the distance and direction to your home. You can designate a new location as your home after you spend 1 week there, but you can have only a single designated home at a time.",
+ "name": "Homing Drake",
+ "pfs": "Standard",
+ "primary_source": "Draconic Codex",
+ "primary_source_raw": "Draconic Codex pg. 210",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-11-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Draconic Codex](/Sources.aspx?ID=277) pg. 210\n</additional-info>\n\n---\n\n<summary>\nYou have a short, stubby nose, and tiny spines that resemble hairs. You might have vividly colored scales or be a dun brown. You can cast the  know \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Draconic Codex"
+ ],
+ "source_raw": [
+  "Draconic Codex pg. 210"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Draconic Codex](/Sources.aspx?ID=277) pg. 210",
+ "speed": {},
+ "summary": "You have a short, stubby nose, and tiny spines that resemble hairs. You might have vividly colored scales or be a dun brown. You can cast the  know \u2026",
+ "summary_markdown": "You have a short, stubby nose, and tiny spines that resemble hairs. You might have vividly colored scales or be a dun brown. You can cast the  know \u2026",
+ "text": "Heritage Homing Drake Source Draconic Codex pg. 210 You have a short, stubby nose, and tiny spines that resemble hairs. You might have vividly colored scales or be a dun brown. You can cast the know the way cantrip as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. In addition, you always know the distance and direction to your home. You can designate a new location as your home after you spend 1 week there, but you can have only a single designated home at a time.",
+ "trait_markdown": "",
+ "type": "Heritage",
+ "url": "/Heritages.aspx?ID=423",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:49-08:00"
+}

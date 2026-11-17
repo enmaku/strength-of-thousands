@@ -1,0 +1,5 @@
+{
+ "hash": "46fe9184d5cb",
+ "front": "Spend 1 minute examining a detail to learn if there's a larger mystery, then open an investigation that grants a bonus to checks.",
+ "back": "Examine a detail (found via Recall Knowledge, Sense Motive, etc.) 1 min; GM says if a larger mystery exists. If so, no Pursue a Lead for 10 min; you may open an investigation by naming its central question.\nBonus: +1 circumstance to Perception or Int/Wis/Cha skill checks advancing an active investigation.\nMax 2 active; a new one must differ and you drop one, which can't be resumed until next daily preparations.\nSolved: keep the bonus until you close or Dismiss it; may adapt the question."
+}

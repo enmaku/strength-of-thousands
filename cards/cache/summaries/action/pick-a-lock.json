@@ -1,0 +1,5 @@
+{
+ "hash": "57d67f934c07",
+ "front": "Open a lock without its key using Thievery and a thieves' toolkit. Better locks need multiple successes.",
+ "back": "Thievery check; DC set by the lock's quality. Improvised picks count as a shoddy toolkit.\nCrit Success: unlock it (or 2 successes toward a multi-success lock), no trace.\nSuccess: open it (or 1 success); leaves damage visible on close scrutiny.\nCrit Failure: you break your toolkit and leave obvious damage. Repair it with Crafting or replace picks (3 sp; 3 gp for infiltrator toolkit)."
+}

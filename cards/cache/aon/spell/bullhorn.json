@@ -1,0 +1,89 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 600,
+ "duration_raw": "10 minutes",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "5th",
+  "7th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank"
+ ],
+ "heighten_level": [
+  1,
+  5,
+  7
+ ],
+ "id": "spell-1971",
+ "legacy_id": [
+  "spell-877"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Bullhorn](/Spells.aspx?ID=1971)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=541\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=629\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 241\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 10 minutes\n</row>\n\n</column>\n\n---\n\nYou amplify your voice, loud enough for you to be heard easily at a great distance. For the duration, your voice can be heard loudly and clearly by all listeners within 500 feet, even if other ambient noise would otherwise block the sound. Despite the volume, this doesn't make your voice jarring or distracting. This doesn't increase the range or area of other [auditory](/Traits.aspx?ID=541) or [linguistic](/Traits.aspx?ID=642) effects, and physical barriers such as walls and doors still block or muffle your voice as normal.\n\n Your loud voice makes it easier to [Coerce](/Actions.aspx?ID=2394) others, and the acoustics assist in [Performing](/Actions.aspx?ID=2401) at a large venue. You gain a +1 status bonus to checks to Coerce and auditory [Performance](/Skills.aspx?ID=45) checks to Perform at a large venue.\n\n You can Dismiss the spell.\n\n---\n**Heightened (5th)** Your voice can be heard clearly up to 1,200 feet away.\n\n**Heightened (7th)** Your voice can be heard clearly up to 1 mile away",
+ "name": "Bullhorn",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 241",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "school": "illusion",
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=541\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Illusion\" url=\"/Traits.aspx?ID=629\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 241\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 10 minutes\n</row>\n</additional-info>\n\n---\n\n<summary>\nMagnify your voice to be heard at a distance.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 241"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 241",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Magnify your voice to be heard at a distance.",
+ "summary_markdown": "Magnify your voice to be heard at a distance.",
+ "text": "Cantrip 1 Bullhorn Two Actions Auditory Cantrip Concentrate Illusion Manipulate Source Player Core 2 pg. 241 Traditions Arcane, Divine, Occult Duration 10 minutes You amplify your voice, loud enough for you to be heard easily at a great distance. For the duration, your voice can be heard loudly and clearly by all listeners within 500 feet, even if other ambient noise would otherwise block the sound. Despite the volume, this doesn't make your voice jarring or distracting. This doesn't increase the range or area of other auditory or linguistic effects, and physical barriers such as walls and doors still block or muffle your voice as normal. Your loud voice makes it easier to Coerce others, and the acoustics assist in Performing at a large venue. You gain a +1 status bonus to checks to Coerce and auditory Performance checks to Perform at a large venue. You can Dismiss the spell. Heightened (5th) Your voice can be heard clearly up to 1,200 feet away. Heightened (7th) Your voice can be heard clearly up to 1 mile away",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Auditory",
+  "Cantrip",
+  "Concentrate",
+  "Illusion",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics",
+  "School",
+  "Monster"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=541), [Cantrip](/Traits.aspx?ID=550), [Concentrate](/Traits.aspx?ID=561), [Illusion](/Traits.aspx?ID=629), [Manipulate](/Traits.aspx?ID=645)",
+ "trait_raw": [
+  "Auditory",
+  "Cantrip",
+  "Concentrate",
+  "Illusion",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1971",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:59-08:00"
+}

@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2303",
+ "legacy_id": [
+  "action-86"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Stand](/Actions.aspx?ID=2303) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n</column>\n\n---\n\nYou stand up from being [prone](/Conditions.aspx?ID=31).",
+ "name": "Stand",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 418",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n</additional-info>\n\n---\n\n<summary>\nYou stand up from being prone.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 418"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 418",
+ "speed": {},
+ "summary": "You stand up from being prone.",
+ "summary_markdown": "You stand up from being prone.",
+ "text": "Action Stand Single Action Move Source Player Core pg. 418 You stand up from being prone.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2303",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:11-08:00"
+}

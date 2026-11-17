@@ -1,0 +1,57 @@
+{
+ "actions": "Three Actions",
+ "actions_number": 6,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-4267",
+ "legacy_id": [
+  "action-757"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Manifest Eidolon](/Actions.aspx?ID=4267) <actions string=\"Three Actions\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=710\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 64\n\n</column>\n\n---\n\nYour eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them instead.\n\n The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points or your eidolon were to die, your eidolon's physical form unmanifests, and you need to use Manifest Eidolon to manifest them again.\n\n---\n\n **Special** This activity has the trait matching your eidolon's tradition ([arcane](/Traits.aspx?ID=534), [divine](/Traits.aspx?ID=579), [occult](/Traits.aspx?ID=662), or [primal](/Traits.aspx?ID=676)).",
+ "name": "Manifest Eidolon",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 64",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n<trait label=\"Teleportation\" url=\"/Traits.aspx?ID=710\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 64\n\n</additional-info>\n\n---\n\n<summary>\nYour eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 64"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 64",
+ "speed": {},
+ "summary": "Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them \u2026",
+ "summary_markdown": "Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them \u2026",
+ "text": "Action Manifest Eidolon Three Actions Concentrate Manipulate Summoner Teleportation Source Impossible Magic pg. 64 Your eidolon appears in an open space adjacent to you, and can then take a single action. If your eidolon was already manifested, you unmanifest them instead. The conduit that allows your eidolon to manifest is also a tether between you. Your eidolon must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you are reduced to 0 Hit Points or your eidolon were to die, your eidolon's physical form unmanifests, and you need to use Manifest Eidolon to manifest them again. Special This activity has the trait matching your eidolon's tradition (arcane, divine, occult, or primal).",
+ "trait": [
+  "Concentrate",
+  "Manipulate",
+  "Summoner",
+  "Teleportation"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Manipulate](/Traits.aspx?ID=645), [Summoner](/Traits.aspx?ID=954), [Teleportation](/Traits.aspx?ID=710)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate",
+  "Summoner",
+  "Teleportation"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=4267",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:50-08:00"
+}

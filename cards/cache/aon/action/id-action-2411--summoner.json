@@ -1,0 +1,50 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2411",
+ "legacy_id": [
+  "action-69"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Disable a Device](/Actions.aspx?ID=2411) <actions string=\"Two Actions\" /></title>\n\n<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 247\n\n</column>\n\n---\n\nThis action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on its construction and complexity. A [thieves' toolkit](/Equipment.aspx?ID=2758) is helpful and sometimes even required to Disable a Device, as determined by the GM, and sometimes a device requires a higher proficiency rank in [Thievery](/Skills.aspx?ID=17) to disable it.\n\n Your Thievery check result determines your progress.\n\n**Critical Success** You disable the device, or you achieve two successes toward disabling a device requiring more than one success. You leave no trace of your tampering, and you can rearm the device later, if that type of device can be rearmed.<br />\n**Success** You disable the device, or you achieve one success toward disabling a device that requires more than one success.<br />\n**Critical Failure** You trigger the device.",
+ "name": "Disable a Device",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 247",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 247\n\n</additional-info>\n\n---\n\n<summary>\nThis action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 247"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 247",
+ "speed": {},
+ "summary": "This action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on \u2026",
+ "summary_markdown": "This action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on \u2026",
+ "text": "Action Disable a Device Two Actions Manipulate Source Player Core pg. 247 This action allows you to disarm a trap or another complex device. Often, a device requires numerous successes before becoming disabled, depending on its construction and complexity. A thieves' toolkit is helpful and sometimes even required to Disable a Device, as determined by the GM, and sometimes a device requires a higher proficiency rank in Thievery to disable it. Your Thievery check result determines your progress. Critical Success You disable the device, or you achieve two successes toward disabling a device requiring more than one success. You leave no trace of your tampering, and you can rearm the device later, if that type of device can be rearmed. Success You disable the device, or you achieve one success toward disabling a device that requires more than one success. Critical Failure You trigger the device.",
+ "trait": [
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Manipulate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2411",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:43:03-08:00"
+}

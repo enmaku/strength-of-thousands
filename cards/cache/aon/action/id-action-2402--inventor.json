@@ -1,0 +1,52 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2402",
+ "legacy_id": [
+  "action-60"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Create Forgery](/Actions.aspx?ID=2402) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=580\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 244\n\n**Requirements** You provide the proper writing materials for your forgery.\n\n</column>\n\n---\n\nYou create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 [Society](/Skills.aspx?ID=14) check. If you need to forge a specific person's handwriting, you need a sample of that person's handwriting. Otherwise, you need only to have seen a similar document, and you gain up to a +4 circumstance bonus to the check (the GM determines the bonus).\n\n**Success** The forgery is of good enough quality that passive observers can't notice the fake (but see Examining Forgeries).<br />\n**Failure** The forgery has some obvious signs of being a fake, potentially allowing passive observers to detect it. Each time a passive observer sees the document, the GM compares your check result to the observer's Perception DC or Society DC, whichever is higher. If your result doesn't exceed a passive observer's DC, that observer knows the document is a forgery.",
+ "name": "Create Forgery",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 244",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You provide the proper writing materials for your forgery.",
+ "requirement_markdown": "You provide the proper writing materials for your forgery.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=580\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 244\n\n**Requirement**\nYou provide the proper writing materials for your forgery.\n</additional-info>\n\n---\n\n<summary>\nYou create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 Society check. If you need to forge a specific \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 244"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 244",
+ "speed": {},
+ "summary": "You create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 Society check. If you need to forge a specific \u2026",
+ "summary_markdown": "You create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 Society check. If you need to forge a specific \u2026",
+ "text": "Action Create Forgery Downtime Secret Source Player Core pg. 244 Requirements You provide the proper writing materials for your forgery. You create a forged document, usually over the course of a day or a week. The GM rolls a secret DC 20 Society check. If you need to forge a specific person's handwriting, you need a sample of that person's handwriting. Otherwise, you need only to have seen a similar document, and you gain up to a +4 circumstance bonus to the check (the GM determines the bonus). Success The forgery is of good enough quality that passive observers can't notice the fake (but see Examining Forgeries). Failure The forgery has some obvious signs of being a fake, potentially allowing passive observers to detect it. Each time a passive observer sees the document, the GM compares your check result to the observer's Perception DC or Society DC, whichever is higher. If your result doesn't exceed a passive observer's DC, that observer knows the document is a forgery.",
+ "trait": [
+  "Downtime",
+  "Secret"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Downtime](/Traits.aspx?ID=580), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Downtime",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2402",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:57-08:00"
+}

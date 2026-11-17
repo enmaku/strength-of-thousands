@@ -1,0 +1,57 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2393",
+ "legacy_id": [
+  "action-51"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Request](/Actions.aspx?ID=2393) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</column>\n\n---\n\nYou can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their current attitude toward you. The GM sets the DC based on the difficulty of the request. Some requests are unsavory or impossible, and even a helpful NPC would never agree to them.\n\n**Critical Success** The target agrees to your request without qualifications.<br />\n**Success** The target agrees to your request, but they might demand added provisions or alterations to the request.<br />\n**Failure** The target refuses the request, though they might propose an alternative that is less extreme.<br />\n**Critical Failure** Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request.",
+ "name": "Request",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 239",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 239\n\n</additional-info>\n\n---\n\n<summary>\nYou can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 239"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 239",
+ "speed": {},
+ "summary": "You can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their \u2026",
+ "summary_markdown": "You can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their \u2026",
+ "text": "Action Request Single Action Auditory Concentrate Linguistic Mental Source Player Core pg. 239 You can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their current attitude toward you. The GM sets the DC based on the difficulty of the request. Some requests are unsavory or impossible, and even a helpful NPC would never agree to them. Critical Success The target agrees to your request without qualifications. Success The target agrees to your request, but they might demand added provisions or alterations to the request. Failure The target refuses the request, though they might propose an alternative that is less extreme. Critical Failure Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Mental"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Mental"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2393",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:39-08:00"
+}

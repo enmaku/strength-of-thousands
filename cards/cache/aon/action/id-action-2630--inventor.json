@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2630",
+ "legacy_id": [
+  "action-519"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Search](/Actions.aspx?ID=2630) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</column>\n\n---\n\nYou [Seek](/Actions.aspx?ID=84) meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the [Expeditious Search](/Feats.aspx?ID=777) feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly.",
+ "name": "Search",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 439",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</additional-info>\n\n---\n\n<summary>\nYou Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 439"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 439",
+ "speed": {},
+ "summary": "You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check \u2026",
+ "summary_markdown": "You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check \u2026",
+ "text": "Action Search Concentrate Exploration Source Player Core pg. 439 You Seek meticulously for hidden doors, concealed hazards, and so on. You can usually make an educated guess as to which locations are best to check and move at half speed, but if you want to be thorough and guarantee you checked everything, you need to travel at a Speed of no more than 300 feet per minute, or 150 feet per minute to ensure you check everything before you walk into it. You can always move more slowly while Searching to cover the area more thoroughly, and the Expeditious Search feat increases these maximum Speeds. If you come across a secret door, item, or hazard while Searching, the GM will attempt a free secret check to Seek to see if you notice the hidden object or hazard. In locations with many objects to search, you have to stop and spend significantly longer to search thoroughly.",
+ "trait": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2630",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:51-08:00"
+}

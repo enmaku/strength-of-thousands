@@ -1,0 +1,86 @@
+{
+ "ammunition_markdown": "",
+ "bulk": 2,
+ "bulk_raw": "2",
+ "category": "weapon",
+ "damage": "1d8 B",
+ "damage_die": 8,
+ "damage_type": [
+  "Bludgeoning"
+ ],
+ "deity": [
+  "Anras",
+  "Nyarlathotep (The Veiled Voice)",
+  "Sun Wukong"
+ ],
+ "deity_markdown": "[Anras](/Deities.aspx?ID=708), [Nyarlathotep (The Veiled Voice)](/Deities.aspx?ID=575), [Sun Wukong](/Deities.aspx?ID=316)",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "2",
+ "id": "weapon-372",
+ "item_category": "Weapons",
+ "item_subcategory": "Base Weapons",
+ "legacy_id": [
+  "weapon-17"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Weapon 0\"\n    pfs=\"Standard\"\n>\n[Bo Staff](/Weapons.aspx?ID=372)\n</title>\n\n<traits>\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\n<trait label=\"Parry\" url=\"/Traits.aspx?ID=190\" />\n<trait label=\"Reach\" url=\"/Traits.aspx?ID=192\" />\n<trait label=\"Trip\" url=\"/Traits.aspx?ID=196\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 127, [Player Core](/Sources.aspx?ID=216) pg. 278\n\n**Favored Weapon** [Anras](/Deities.aspx?ID=708), [Nyarlathotep (The Veiled Voice)](/Deities.aspx?ID=575), [Sun Wukong](/Deities.aspx?ID=316)\n\n<row gap=\"medium\">\n**Price** 2 sp\n\n**Damage** 1d8 B\n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n**Hands** 2\n\n</row>\n\n<row gap=\"medium\">\n**Type** Melee\n\n**Category** Martial\n\n**Group** [Club](/WeaponGroups.aspx?ID=5)\n</row>\n\n</column>\n\n---\n\nThis strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon.\n\n<title level=\"2\">Critical Specialization Effects</title>\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 283\n\nCertain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.\n\n[Click here for the full rules on Critical Specialization Effects](/Rules.aspx?ID=235).\n\n<document level=\"2\" id=\"weapon-group-5\" />\n\n<title level=\"2\">Specific Magic Weapons</title>\n[Dragonscale Staff](/Equipment.aspx?ID=4417), [Sensei's Parasol](/Equipment.aspx?ID=4065), [Staff of Sun Wukong](/Equipment.aspx?ID=3481), [Twining Staff](/Equipment.aspx?ID=2874)",
+ "name": "Bo Staff",
+ "pfs": "Standard",
+ "price": 20,
+ "price_raw": "2 sp",
+ "primary_source": "Tian Xia Character Guide",
+ "primary_source_raw": "Tian Xia Character Guide pg. 127",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-28",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Monk\" url=\"/Traits.aspx?ID=112\" />\n<trait label=\"Parry\" url=\"/Traits.aspx?ID=190\" />\n<trait label=\"Reach\" url=\"/Traits.aspx?ID=192\" />\n<trait label=\"Trip\" url=\"/Traits.aspx?ID=196\" />\n</traits>\n\n<additional-info>\n**Source** [Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 127, [Player Core](/Sources.aspx?ID=216) pg. 278\n\n<row gap=\"medium\">\n**Price** 2 sp\n\n**Damage** 1d8 B\n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n**Hands** 2\n\n \n\n \n</row>\n\n \n\n<row gap=\"medium\">\n**Category** Martial\n\n**Group** [Club](/WeaponGroups.aspx?ID=5)\n</row>\n</additional-info>\n\n---\n\n<summary>\nThis strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Tian Xia Character Guide",
+  "Player Core"
+ ],
+ "source_raw": [
+  "Tian Xia Character Guide pg. 127",
+  "Player Core pg. 278"
+ ],
+ "source_category": [
+  "Lost Omens",
+  "Rulebooks"
+ ],
+ "source_markdown": "[Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 127, [Player Core](/Sources.aspx?ID=216) pg. 278",
+ "speed": {},
+ "sub_document_id": [
+  "weapon-group-5"
+ ],
+ "summary": "This strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon.",
+ "summary_markdown": "This strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon.",
+ "text": "Weapon 0 Bo Staff Monk Parry Reach Trip Source Tian Xia Character Guide pg. 127, Player Core pg. 278 Favored Weapon Anras, Nyarlathotep (The Veiled Voice), Sun Wukong Price 2 sp Damage 1d8 B Bulk 2 Hands 2 Type Melee Category Martial Group Club This strong but slender staff is tapered at the ends and well balanced. It's designed to be an offensive and defensive weapon. Critical Specialization Effects Source Core Rulebook pg. 283 Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon. Click here for the full rules on Critical Specialization Effects. Weapon Critical Specialization Club Source Player Core pg. 283 You knock the target away from you up to 10 feet (you choose the distance). This is forced movement. Specific Magic Weapons Dragonscale Staff, Sensei's Parasol, Staff of Sun Wukong, Twining Staff",
+ "trait": [
+  "Monk",
+  "Parry",
+  "Reach",
+  "Trip"
+ ],
+ "trait_group": [
+  "Class",
+  "Weapon"
+ ],
+ "trait_markdown": "[Monk](/Traits.aspx?ID=112), [Parry](/Traits.aspx?ID=190), [Reach](/Traits.aspx?ID=192), [Trip](/Traits.aspx?ID=196)",
+ "trait_raw": [
+  "Monk",
+  "Parry",
+  "Reach",
+  "Trip"
+ ],
+ "type": "Item",
+ "url": "/Weapons.aspx?ID=372",
+ "weakness": {},
+ "weapon_category": "Martial",
+ "weapon_group": "Club",
+ "weapon_group_markdown": "[Club](/WeaponGroups.aspx?ID=5)",
+ "weapon_type": "Melee",
+ "_fetched_at": "2026-11-16T16:42:26-08:00"
+}

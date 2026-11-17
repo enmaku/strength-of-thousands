@@ -1,0 +1,76 @@
+{
+ "actions": "Three Actions",
+ "actions_number": 6,
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "No Cause for Alarm"
+ ],
+ "feat_markdown": "No Cause for Alarm",
+ "id": "feat-5184",
+ "legacy_id": [
+  "feat-2139"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[No Cause for Alarm](/Feats.aspx?ID=5184) <actions string=\"Three Actions\" />\n</title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Prerequisites**\nTrained in [Diplomacy](/Skills.aspx?ID=6)\n\n</column>\n\n---\n\nYou attempt to reduce panic. Attempt a [Diplomacy](/Skills.aspx?ID=39) check, comparing it to the Will DC of creatures in a 10-foot emanation around you who are [frightened](/Conditions.aspx?ID=76). Each of them is temporarily immune for 1 hour.\n\n**Critical Success** Reduce the creature's frightened value by 2.<br />\n**Success** Reduce the creature's frightened value by 1.",
+ "name": "No Cause for Alarm",
+ "pfs": "Standard",
+ "prerequisite": "Trained in Diplomacy",
+ "prerequisite_markdown": "Trained in [Diplomacy](/Skills.aspx?ID=6)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 259",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Prerequisites**\nTrained in [Diplomacy](/Skills.aspx?ID=6)\n\n</additional-info>\n\n---\n\n<summary>\nReduce creatures\u2019 frightened condition values\n</summary>",
+ "skill": [
+  "Diplomacy",
+  "Diplomacy"
+ ],
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 259"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 259",
+ "speed": {},
+ "summary": "Reduce creatures\u2019 frightened condition values",
+ "summary_markdown": "Reduce creatures\u2019 frightened condition values",
+ "text": "Feat 1 No Cause for Alarm Three Actions Auditory Concentrate Emotion General Linguistic Mental Skill Source Player Core pg. 259 Prerequisites Trained in Diplomacy You attempt to reduce panic. Attempt a Diplomacy check, comparing it to the Will DC of creatures in a 10-foot emanation around you who are frightened. Each of them is temporarily immune for 1 hour. Critical Success Reduce the creature's frightened value by 2. Success Reduce the creature's frightened value by 1.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Emotion",
+  "General",
+  "Linguistic",
+  "Mental",
+  "Skill"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics",
+  "Feat"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [General](/Traits.aspx?ID=78), [Linguistic](/Traits.aspx?ID=101), [Mental](/Traits.aspx?ID=106), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Emotion",
+  "General",
+  "Linguistic",
+  "Mental",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5184",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:05-08:00"
+}

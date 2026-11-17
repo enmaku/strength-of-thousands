@@ -1,0 +1,63 @@
+{
+ "archetype": [
+  "Oracle"
+ ],
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Oracle Dedication"
+ ],
+ "feat_markdown": "Oracle Dedication",
+ "id": "feat-6217",
+ "legacy_id": [
+  "feat-1851"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Oracle Dedication](/Feats.aspx?ID=6217) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=572\" />\n<trait label=\"Multiclass\" url=\"/Traits.aspx?ID=659\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 180\n\n**Archetype** [Oracle](/Archetypes.aspx?ID=233)\n\n**Prerequisites**\nCharisma +2\n\n</column>\n\n---\n\nChoose a mystery. You become trained in [Religion](/Skills.aspx?ID=46) and the mystery\u2019s skill; if you were already trained, you become trained in a skill of your choice. You gain the curse associated with your mystery, which follows the normal rules for an oracular curse.\n\nYou cast spells like an oracle and gain the [Cast a Spell](/Actions.aspx?ID=2734) activity. You gain a spell repertoire with two cantrips, either common divine cantrips or other divine cantrips you learn or discover. You\u2019re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for oracle archetype spells is Charisma, and they are divine oracle spells.\n\n<title level=\"2\">Oracle Dedication leads to...</title>\n[Basic Mysteries](/Feats.aspx?ID=6218), [Basic Oracle Spellcasting](/Feats.aspx?ID=6219), [First Revelation](/Feats.aspx?ID=6220)",
+ "name": "Oracle Dedication",
+ "pfs": "Standard",
+ "prerequisite": "Charisma +2",
+ "prerequisite_markdown": "Charisma +2",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 180",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Archetype\" url=\"/Traits.aspx?ID=535\" />\n<trait label=\"Dedication\" url=\"/Traits.aspx?ID=572\" />\n<trait label=\"Multiclass\" url=\"/Traits.aspx?ID=659\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 180\n\n**Prerequisites**\nCharisma +2\n\n</additional-info>\n\n---\n\n<summary>\nChoose a mystery.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 180"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 180",
+ "speed": {},
+ "summary": "Choose a mystery.",
+ "summary_markdown": "Choose a mystery.",
+ "text": "Feat 2 Oracle Dedication Archetype Dedication Multiclass Source Player Core 2 pg. 180 Archetype Oracle Prerequisites Charisma +2 Choose a mystery. You become trained in Religion and the mystery\u2019s skill; if you were already trained, you become trained in a skill of your choice. You gain the curse associated with your mystery, which follows the normal rules for an oracular curse. You cast spells like an oracle and gain the Cast a Spell activity. You gain a spell repertoire with two cantrips, either common divine cantrips or other divine cantrips you learn or discover. You\u2019re trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for oracle archetype spells is Charisma, and they are divine oracle spells. Oracle Dedication leads to... Basic Mysteries, Basic Oracle Spellcasting, First Revelation",
+ "trait": [
+  "Archetype",
+  "Dedication",
+  "Multiclass"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[Archetype](/Traits.aspx?ID=535), [Dedication](/Traits.aspx?ID=572), [Multiclass](/Traits.aspx?ID=659)",
+ "trait_raw": [
+  "Archetype",
+  "Dedication",
+  "Multiclass"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=6217",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:05-08:00"
+}

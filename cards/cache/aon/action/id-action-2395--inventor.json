@@ -1,0 +1,59 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2395",
+ "legacy_id": [
+  "action-53"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Demoralize](/Actions.aspx?ID=2395) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 240\n\n</column>\n\n---\n\nWith a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an [Intimidation](/Skills.aspx?ID=7) check against that target's Will DC. If the target doesn't understand the language you are speaking, or you're not speaking a language, you take a \u20134 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes.\n\n**Critical Success** The target becomes [frightened 2](/Conditions.aspx?ID=76).<br />\n**Success** The target becomes frightened 1.",
+ "name": "Demoralize",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 240",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Fear\" url=\"/Traits.aspx?ID=68\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 240\n\n</additional-info>\n\n---\n\n<summary>\nWith a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 240"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 240",
+ "speed": {},
+ "summary": "With a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're \u2026",
+ "summary_markdown": "With a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're \u2026",
+ "text": "Action Demoralize Single Action Auditory Concentrate Emotion Fear Mental Source Player Core pg. 240 With a sudden shout, a well-timed taunt, or a cutting put-down, you can shake an enemy's resolve. Choose a creature within 30 feet of you who you're aware of. Attempt an Intimidation check against that target's Will DC. If the target doesn't understand the language you are speaking, or you're not speaking a language, you take a \u20134 circumstance penalty to the check. Regardless of your result, the target is temporarily immune to your attempts to Demoralize it for 10 minutes. Critical Success The target becomes frightened 2. Success The target becomes frightened 1.",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Emotion",
+  "Fear",
+  "Mental"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Fear](/Traits.aspx?ID=68), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Emotion",
+  "Fear",
+  "Mental"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2395",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:56-08:00"
+}

@@ -1,0 +1,55 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "City Scavenger"
+ ],
+ "feat_markdown": "City Scavenger",
+ "id": "feat-4439",
+ "legacy_id": [
+  "feat-39"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[City Scavenger](/Feats.aspx?ID=4439) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 56\n\n</column>\n\n---\n\nYou know that the greatest treasures often look like refuse. You gain a +1 circumstance bonus to checks to [Subsist](/Actions.aspx?ID=27), and you can use [Society](/Skills.aspx?ID=14) or [Survival](/Skills.aspx?ID=16) when you Subsist in a settlement.\n\nWhen you Subsist in a city, you also gather valuable junk that silly longshanks threw away. You can [Earn Income](/Actions.aspx?ID=23) using Society or Survival at the same time while you Subsist, without spending any additional days of downtime. You also gain a +1 circumstance bonus to this check.\n\n**Special** If you have the irongut goblin heritage, increase the bonuses to +2.",
+ "name": "City Scavenger",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 56",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Goblin\" url=\"/Traits.aspx?ID=81\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 56\n\n</additional-info>\n\n---\n\n<summary>\nYou know that the greatest treasures often look like refuse.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 56"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 56",
+ "speed": {},
+ "summary": "You know that the greatest treasures often look like refuse.",
+ "summary_markdown": "You know that the greatest treasures often look like refuse.",
+ "text": "Feat 1 City Scavenger Goblin Source Player Core pg. 56 You know that the greatest treasures often look like refuse. You gain a +1 circumstance bonus to checks to Subsist, and you can use Society or Survival when you Subsist in a settlement. When you Subsist in a city, you also gather valuable junk that silly longshanks threw away. You can Earn Income using Society or Survival at the same time while you Subsist, without spending any additional days of downtime. You also gain a +1 circumstance bonus to this check. Special If you have the irongut goblin heritage, increase the bonuses to +2.",
+ "trait": [
+  "Goblin"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Weapon"
+ ],
+ "trait_markdown": "[Goblin](/Traits.aspx?ID=81)",
+ "trait_raw": [
+  "Goblin"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=4439",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:43-08:00"
+}

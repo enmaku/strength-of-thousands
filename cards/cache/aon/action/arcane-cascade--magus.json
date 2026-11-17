@@ -1,0 +1,43 @@
+{
+ "category": "class-feature",
+ "class": "Magus",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-1260",
+ "legacy_id": [
+  "class-17"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Arcane Cascade](/Classes.aspx?ID=74)</title>\n\n<column gap=\"tiny\">\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</column>\n\n---\n\nYou can enter a special stance to blend magic into your attacks and defend against spells. \n\n<document level=\"2\" id=\"action-4261\" />",
+ "name": "Arcane Cascade",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 9",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</additional-info>\n\n---\n\n<summary>\nYou can enter a special stance to blend magic into your attacks and defend against spells. \n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 9"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 9",
+ "speed": {},
+ "sub_document_id": [
+  "action-4261"
+ ],
+ "summary": "You can enter a special stance to blend magic into your attacks and defend against spells. ",
+ "summary_markdown": "You can enter a special stance to blend magic into your attacks and defend against spells. ",
+ "text": "Class Feature 1 Arcane Cascade Source Impossible Magic pg. 9 Class Magus You can enter a special stance to blend magic into your attacks and defend against spells. Action Arcane Cascade Single Action Concentrate Magus Stance Source Impossible Magic pg. 12 You cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes gain the arcane trait (making them magical) and deal 1 extra force damage, and you gain resistance 1 to damage from spells. If you have the weapon specialization class feature, the damage and resistance increase to 2, and if you have greater weapon specialization, they increase to 3. If you Cast a Spell and then enter Arcane Cascade on the same turn, you can change the damage from the stance to any one damage type that spell could deal instead of force.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=74",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:28-08:00"
+}

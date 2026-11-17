@@ -1,0 +1,76 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 6,
+ "duration_raw": "1 round",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2913",
+ "legacy_id": [
+  "spell-1045"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Boost Eidolon](/Spells.aspx?ID=2913)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 185\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 100 feet\n\n**Target** your eidolon\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 round\n</row>\n\n</column>\n\n---\n\nYou focus deeply on the link between you and your eidolon and boost the power of your eidolon\u2019s attacks. Your eidolon gains a +2 status bonus to damage rolls with their unarmed attacks. If your eidolon\u2019s Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice.\n\n---\n\n**Special** Your eidolon can benefit from either _boost eidolon_ or [_reinforce eidolon_](/Spells.aspx?ID=2918), but not both; if you cast one of these spells during the other's duration, the newer spell replaces the older one.",
+ "name": "Boost Eidolon",
+ "pfs": "Standard",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 185",
+ "primary_source_category": "Rulebooks",
+ "range": 100,
+ "range_raw": "100 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Summoner\" url=\"/Traits.aspx?ID=954\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 185\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 100 feet\n\n \n\n**Target** your eidolon\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 round\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou focus deeply on the link between you and your eidolon and boost the power of your eidolon\u2019s attacks. \n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 185"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 185",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "You focus deeply on the link between you and your eidolon and boost the power of your eidolon\u2019s attacks. ",
+ "summary_markdown": "You focus deeply on the link between you and your eidolon and boost the power of your eidolon\u2019s attacks. ",
+ "target": "your eidolon",
+ "target_markdown": "your eidolon",
+ "text": "Cantrip 1 Boost Eidolon Single Action Uncommon Cantrip Concentrate Summoner Source Impossible Magic pg. 185 Range 100 feet Target your eidolon Duration 1 round You focus deeply on the link between you and your eidolon and boost the power of your eidolon\u2019s attacks. Your eidolon gains a +2 status bonus to damage rolls with their unarmed attacks. If your eidolon\u2019s Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice. Special Your eidolon can benefit from either boost eidolon or reinforce eidolon , but not both; if you cast one of these spells during the other's duration, the newer spell replaces the older one.",
+ "tradition_markdown": "",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Summoner",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=550), [Concentrate](/Traits.aspx?ID=561), [Summoner](/Traits.aspx?ID=954), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Summoner",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2913",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:48-08:00"
+}

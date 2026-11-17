@@ -1,0 +1,5 @@
+{
+ "hash": "215858942de2",
+ "front": "Shout a one-word order that forces a creature to obey: approach, flee, drop, release, or stand still.",
+ "back": "Command target to approach, run away (as fleeing), release what it holds, drop prone, or stand in place. It can't Delay or take reactions until it obeys. Will save:\nSuccess: unaffected.\nFailure: spends its first action next turn obeying.\nCrit Failure: spends all actions next turn obeying.\nHeightened (5th): up to 10 targets."
+}

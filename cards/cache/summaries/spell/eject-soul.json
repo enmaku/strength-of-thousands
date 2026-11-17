@@ -1,0 +1,5 @@
+{
+ "hash": "81017d44172d",
+ "front": "Touch a creature to disrupt body-soul connection, stunning it or forcing its soul out of its body.",
+ "back": "Fortitude save; allies can choose their degree of success.\nSuccess: unaffected.\nFailure: stunned 1.\nCrit Failure: soul exits body; body stunned 1 round. Soul is aware, incorporeal, invisible, fly Speed 60 ft; can't attack, cast, or do checks needing a body; must keep line of effect to body. When stun ends, soul returns instantly.\nHeightened (+3): a willing ally who chooses crit failure stays in soul form 1 more round."
+}

@@ -1,0 +1,78 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration_raw": "until the start of your next turn",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-1549",
+ "legacy_id": [
+  "spell-142"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Guidance](/Spells.aspx?ID=1549)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 334\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Ancestors](/Mysteries.aspx?ID=12)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\n</row>\n\n</column>\n\n---\n\nYou ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.",
+ "mystery": [
+  "Ancestors"
+ ],
+ "mystery_markdown": "[Ancestors](/Mysteries.aspx?ID=12)",
+ "name": "Guidance",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 334",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 334\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Mystery**\n[Ancestors](/Mysteries.aspx?ID=12)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** until the start of your next turn\n</row>\n</additional-info>\n\n---\n\n<summary>\nDivine guidance improves one roll.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 334"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 334",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Divine guidance improves one roll.",
+ "summary_markdown": "Divine guidance improves one roll.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Cantrip 1 Guidance Single Action Cantrip Concentrate Source Player Core pg. 334 Traditions Divine, Occult, Primal Mystery Ancestors Range 30 feet Target 1 creature Duration until the start of your next turn You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.",
+ "tradition": [
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1549",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:02-08:00"
+}

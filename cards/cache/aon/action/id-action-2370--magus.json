@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2370",
+ "legacy_id": [
+  "action-29"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Tumble Through](/Actions.aspx?ID=2370) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 233\n\n</column>\n\n---\n\nYou Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an [Acrobatics](/Skills.aspx?ID=1) check against the enemy's Reflex DC as soon as you try to enter its space. You can Tumble Through using [Climb](/Actions.aspx?ID=33), [Fly](/Actions.aspx?ID=94), [Swim](/Actions.aspx?ID=39), or another action instead of Stride in the appropriate environment.\n\n**Success** You move through the enemy's space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don't have enough Speed to move all the way through its space, you get the same effect as a failure.<br />\n**Failure** Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
+ "name": "Tumble Through",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 233",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 233\n\n</additional-info>\n\n---\n\n<summary>\nYou Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 233"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 233",
+ "speed": {},
+ "summary": "You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the \u2026",
+ "summary_markdown": "You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the \u2026",
+ "text": "Action Tumble Through Single Action Move Source Player Core pg. 233 You Stride up to your Speed. During this movement, you can try to move through the space of one enemy. Attempt an Acrobatics check against the enemy's Reflex DC as soon as you try to enter its space. You can Tumble Through using Climb, Fly, Swim, or another action instead of Stride in the appropriate environment. Success You move through the enemy's space, treating the squares in its space as difficult terrain (every 5 feet costs 10 feet of movement). If you don't have enough Speed to move all the way through its space, you get the same effect as a failure. Failure Your movement ends, and you trigger reactions as if you had moved out of the square you started in.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2370",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:35-08:00"
+}

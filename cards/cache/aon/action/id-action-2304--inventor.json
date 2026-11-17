@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2304",
+ "legacy_id": [
+  "action-87"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Step](/Actions.aspx?ID=2304) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n**Requirements** Your Speed is at least 10 feet.\n\n</column>\n\n---\n\nYou carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as [Reactive Strike](/Actions.aspx?ID=2256), that can be triggered by move actions or upon leaving or entering a square.\n\n You can't Step into [difficult terrain](/Rules.aspx?ID=453), and you can't Step using a Speed other than your land Speed.",
+ "name": "Step",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 418",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "Your Speed is at least 10 feet.",
+ "requirement_markdown": "Your Speed is at least 10 feet.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n**Requirement**\nYour Speed is at least 10 feet.\n</additional-info>\n\n---\n\n<summary>\nYou carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Reactive Strike, that can be triggered by move \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 418"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 418",
+ "speed": {},
+ "summary": "You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Reactive Strike, that can be triggered by move \u2026",
+ "summary_markdown": "You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Reactive Strike, that can be triggered by move \u2026",
+ "text": "Action Step Single Action Move Source Player Core pg. 418 Requirements Your Speed is at least 10 feet. You carefully move 5 feet. Unlike most types of movement, Stepping doesn't trigger reactions, such as Reactive Strike, that can be triggered by move actions or upon leaving or entering a square. You can't Step into difficult terrain, and you can't Step using a Speed other than your land Speed.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2304",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:47-08:00"
+}

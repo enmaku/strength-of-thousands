@@ -1,0 +1,116 @@
+{
+ "ammunition_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "weapon",
+ "damage": "1d4 P",
+ "damage_die": 4,
+ "damage_type": [
+  "Piercing",
+  "Slashing"
+ ],
+ "deity": [
+  "Alazhra",
+  "Alseta",
+  "Apep",
+  "Ardad Lili",
+  "Atropos",
+  "Chinostes (Nightwarden)",
+  "Chinostes (Redeemer)",
+  "Conqueror Worm",
+  "Corosbel",
+  "Cthulhu",
+  "Eritrice",
+  "Eyes That Watch",
+  "Fandarra",
+  "Gravelady's Guard",
+  "Gyronna",
+  "Kalekot",
+  "Kitumu",
+  "Lady Razor",
+  "Lao Shu Po",
+  "Lurlup",
+  "Naderi",
+  "Nocticula",
+  "Pharasma",
+  "Shadow Cabinet",
+  "Shax",
+  "Thamir",
+  "The Lantern King",
+  "The Lantern King",
+  "The Last Breath",
+  "The Tides of Chaos",
+  "Urban Prosperity",
+  "Vildeis",
+  "Vulot",
+  "Ydersius",
+  "Yog-Sothoth",
+  "Yuelral"
+ ],
+ "deity_markdown": "[Alazhra](/Deities.aspx?ID=510), [Alseta](/Deities.aspx?ID=329), [Apep](/Deities.aspx?ID=631), [Ardad Lili](/Deities.aspx?ID=588), [Atropos](/Deities.aspx?ID=533), [Chinostes (Nightwarden)](/Deities.aspx?ID=701), [Chinostes (Redeemer)](/Deities.aspx?ID=700), [Conqueror Worm](/Deities.aspx?ID=234), [Corosbel](/Deities.aspx?ID=418), [Cthulhu](/Deities.aspx?ID=569), [Eritrice](/Deities.aspx?ID=470), [Eyes That Watch](/Deities.aspx?ID=658), [Fandarra](/Deities.aspx?ID=492), [Gravelady's Guard](/Deities.aspx?ID=247), [Gyronna](/Deities.aspx?ID=515), [Kalekot](/Deities.aspx?ID=676), [Kitumu](/Deities.aspx?ID=677), [Lady Razor](/Deities.aspx?ID=661), [Lao Shu Po](/Deities.aspx?ID=312), [Lurlup](/Deities.aspx?ID=504), [Naderi](/Deities.aspx?ID=627), [Nocticula](/Deities.aspx?ID=724), [Pharasma](/Deities.aspx?ID=290), [Shadow Cabinet](/Deities.aspx?ID=372), [Shax](/Deities.aspx?ID=435), [Thamir](/Deities.aspx?ID=566), [The Lantern King](/Deities.aspx?ID=455), [The Lantern King](/Deities.aspx?ID=749), [The Last Breath](/Deities.aspx?ID=270), [The Tides of Chaos](/Deities.aspx?ID=698), [Urban Prosperity](/Deities.aspx?ID=256), [Vildeis](/Deities.aspx?ID=487), [Vulot](/Deities.aspx?ID=439), [Ydersius](/Deities.aspx?ID=323), [Yog-Sothoth](/Deities.aspx?ID=580), [Yuelral](/Deities.aspx?ID=463)",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "1",
+ "id": "weapon-358",
+ "item_category": "Weapons",
+ "item_subcategory": "Base Weapons",
+ "legacy_id": [
+  "weapon-3"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Weapon 0\"\n    pfs=\"Standard\"\n>\n[Dagger](/Weapons.aspx?ID=358)\n</title>\n\n<traits>\n<trait label=\"Agile\" url=\"/Traits.aspx?ID=170\" />\n<trait label=\"Finesse\" url=\"/Traits.aspx?ID=179\" />\n<trait label=\"Thrown 10 ft.\" url=\"/Traits.aspx?ID=195\" />\n<trait label=\"Versatile S\" url=\"/Traits.aspx?ID=200\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 277\n\n**Favored Weapon** [Alazhra](/Deities.aspx?ID=510), [Alseta](/Deities.aspx?ID=329), [Apep](/Deities.aspx?ID=631), [Ardad Lili](/Deities.aspx?ID=588), [Atropos](/Deities.aspx?ID=533), [Chinostes (Nightwarden)](/Deities.aspx?ID=701), [Chinostes (Redeemer)](/Deities.aspx?ID=700), [Conqueror Worm](/Deities.aspx?ID=234), [Corosbel](/Deities.aspx?ID=418), [Cthulhu](/Deities.aspx?ID=569), [Eritrice](/Deities.aspx?ID=470), [Eyes That Watch](/Deities.aspx?ID=658), [Fandarra](/Deities.aspx?ID=492), [Gravelady's Guard](/Deities.aspx?ID=247), [Gyronna](/Deities.aspx?ID=515), [Kalekot](/Deities.aspx?ID=676), [Kitumu](/Deities.aspx?ID=677), [Lady Razor](/Deities.aspx?ID=661), [Lao Shu Po](/Deities.aspx?ID=312), [Lurlup](/Deities.aspx?ID=504), [Naderi](/Deities.aspx?ID=627), [Nocticula](/Deities.aspx?ID=724), [Pharasma](/Deities.aspx?ID=290), [Shadow Cabinet](/Deities.aspx?ID=372), [Shax](/Deities.aspx?ID=435), [Thamir](/Deities.aspx?ID=566), [The Lantern King](/Deities.aspx?ID=455), [The Lantern King](/Deities.aspx?ID=749), [The Last Breath](/Deities.aspx?ID=270), [The Tides of Chaos](/Deities.aspx?ID=698), [Urban Prosperity](/Deities.aspx?ID=256), [Vildeis](/Deities.aspx?ID=487), [Vulot](/Deities.aspx?ID=439), [Ydersius](/Deities.aspx?ID=323), [Yog-Sothoth](/Deities.aspx?ID=580), [Yuelral](/Deities.aspx?ID=463)\n\n<row gap=\"medium\">\n**Price** 2 sp\n\n**Damage** 1d4 P\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n**Hands** 1\n\n</row>\n\n<row gap=\"medium\">\n**Type** Melee\n\n**Category** Simple\n\n**Group** [Knife](/WeaponGroups.aspx?ID=9)\n</row>\n\n</column>\n\n---\n\nThis small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.\n\n<title level=\"2\">Critical Specialization Effects</title>\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 283\n\nCertain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon.\n\n[Click here for the full rules on Critical Specialization Effects](/Rules.aspx?ID=235).\n\n<document level=\"2\" id=\"weapon-group-9\" />\n\n<title level=\"2\">Specific Magic Weapons</title>\n[Apotheosis Knife](/Equipment.aspx?ID=3713), [Bloody Fang](/Equipment.aspx?ID=3486), [Dog-Bone Knife](/Equipment.aspx?ID=4136), [Fiend's Hunger](/Equipment.aspx?ID=4062), [Ghast Stiletto](/Equipment.aspx?ID=4419), [Gloaming Shard](/Equipment.aspx?ID=5018), [Poisonous Dagger](/Equipment.aspx?ID=4354), [Serpent Dagger](/Equipment.aspx?ID=2871), [Shadefield Knife](/Equipment.aspx?ID=3680), [Shard of Self-Destruction](/Equipment.aspx?ID=3516), [Undead Scourge](/Equipment.aspx?ID=3861)",
+ "name": "Dagger",
+ "pfs": "Standard",
+ "price": 20,
+ "price_raw": "2 sp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 277",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Agile\" url=\"/Traits.aspx?ID=170\" />\n<trait label=\"Finesse\" url=\"/Traits.aspx?ID=179\" />\n<trait label=\"Thrown 10 ft.\" url=\"/Traits.aspx?ID=195\" />\n<trait label=\"Versatile S\" url=\"/Traits.aspx?ID=200\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 277\n\n<row gap=\"medium\">\n**Price** 2 sp\n\n**Damage** 1d4 P\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n**Hands** 1\n\n \n\n \n</row>\n\n \n\n<row gap=\"medium\">\n**Category** Simple\n\n**Group** [Knife](/WeaponGroups.aspx?ID=9)\n</row>\n</additional-info>\n\n---\n\n<summary>\nThis small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 277"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 277",
+ "speed": {},
+ "sub_document_id": [
+  "weapon-group-9"
+ ],
+ "summary": "This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.",
+ "summary_markdown": "This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown.",
+ "text": "Weapon 0 Dagger Agile Finesse Thrown 10 ft. Versatile S Source Player Core pg. 277 Favored Weapon Alazhra, Alseta, Apep, Ardad Lili, Atropos, Chinostes (Nightwarden), Chinostes (Redeemer), Conqueror Worm, Corosbel, Cthulhu, Eritrice, Eyes That Watch, Fandarra, Gravelady's Guard, Gyronna, Kalekot, Kitumu, Lady Razor, Lao Shu Po, Lurlup, Naderi, Nocticula, Pharasma, Shadow Cabinet, Shax, Thamir, The Lantern King, The Lantern King, The Last Breath, The Tides of Chaos, Urban Prosperity, Vildeis, Vulot, Ydersius, Yog-Sothoth, Yuelral Price 2 sp Damage 1d4 P Bulk L Hands 1 Type Melee Category Simple Group Knife This small, bladed weapon is held in one hand and used to stab a creature in close combat. It can also be thrown. Critical Specialization Effects Source Core Rulebook pg. 283 Certain feats, class features, weapon runes, and other effects can grant you additional benefits when you make a Strike with certain weapons and get a critical success. This is called a critical specialization effect. The exact effect depends on which weapon group your weapon belongs to, as listed below. You can always decide not to add the critical specialization effect of your weapon. Click here for the full rules on Critical Specialization Effects. Weapon Critical Specialization Knife Source Player Core pg. 283 The target takes 1d6 persistent bleed damage. You gain an item bonus to this bleed damage equal to the weapon's item bonus to attack rolls. Specific Magic Weapons Apotheosis Knife, Bloody Fang, Dog-Bone Knife, Fiend's Hunger, Ghast Stiletto, Gloaming Shard, Poisonous Dagger, Serpent Dagger, Shadefield Knife, Shard of Self-Destruction, Undead Scourge",
+ "trait": [
+  "Agile",
+  "Finesse",
+  "Thrown",
+  "Versatile"
+ ],
+ "trait_group": [
+  "Weapon"
+ ],
+ "trait_markdown": "[Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179), [Thrown 10 ft.](/Traits.aspx?ID=195), [Versatile S](/Traits.aspx?ID=200)",
+ "trait_raw": [
+  "Agile",
+  "Finesse",
+  "Thrown 10 ft.",
+  "Versatile S"
+ ],
+ "type": "Item",
+ "url": "/Weapons.aspx?ID=358",
+ "weakness": {},
+ "weapon_category": "Simple",
+ "weapon_group": "Knife",
+ "weapon_group_markdown": "[Knife](/WeaponGroups.aspx?ID=9)",
+ "weapon_type": "Melee",
+ "_fetched_at": "2026-11-16T16:41:41-08:00"
+}

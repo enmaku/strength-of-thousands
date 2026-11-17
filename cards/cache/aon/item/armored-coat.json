@@ -1,0 +1,69 @@
+{
+ "ac": 2,
+ "access": "Knights of Lastwall have access to this armor.",
+ "armor_category": "Light",
+ "armor_group": "Leather",
+ "armor_group_markdown": "[Leather](/ArmorGroups.aspx?ID=3)",
+ "bulk": 2,
+ "bulk_raw": "2",
+ "category": "armor",
+ "check_penalty": -1,
+ "dex_cap": 2,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "armor-16",
+ "item_category": "Armor",
+ "item_subcategory": "Base Armor",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Armor 0\"\n    pfs=\"Standard\"\n>\n[Armored Coat](/Armor.aspx?ID=16)\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Comfort\" url=\"/Traits.aspx?ID=203\" />\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=204\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 87\n\n<row gap=\"medium\">\n**Price** 20 gp\n\n**AC Bonus** +2\n\n**Dex Cap** +2\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** +2\n\n**Bulk** 2\n\n**Category** Light\n\n**Group** Leather\n</row>\n\n</column>\n\n---\n\nA custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's fashion. While not nearly as protective as heavier armors, the armored coat allows the wearer to blend in more aesthetically during civilian functions. Like other suits of armor, the armored coat is custom-fitted to an individual's body type, ensuring comfort without sacrificing its defensive capabilities.\n\n<title level=\"2\">Armor Specialization Effects</title>\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 275\n\nCertain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects.\n\n[Click here for the full rules on Armor Specialization Effects](/Rules.aspx?ID=211).\n\n<document level=\"2\" id=\"armor-group-3\" />",
+ "name": "Armored Coat",
+ "pfs": "Standard",
+ "price": 2000,
+ "price_raw": "20 gp",
+ "primary_source": "Knights of Lastwall",
+ "primary_source_raw": "Knights of Lastwall pg. 87",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2022-05-25",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Comfort\" url=\"/Traits.aspx?ID=203\" />\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=204\" />\n</traits>\n\n<additional-info>\n**Source** [Knights of Lastwall](/Sources.aspx?ID=123) pg. 87\n\n<row gap=\"medium\">\n**Price** 20 gp\n\n**AC Bonus** +2\n\n**Dex Cap** +2\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** 2\n\n**Bulk** 2\n\n**Category** Light\n\n**Group** [Leather](/ArmorGroups.aspx?ID=3)\n</row>\n</additional-info>\n\n---\n\n<summary>\nA custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Knights of Lastwall"
+ ],
+ "source_raw": [
+  "Knights of Lastwall pg. 87"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Knights of Lastwall](/Sources.aspx?ID=123) pg. 87",
+ "speed": {},
+ "strength": 2,
+ "sub_document_id": [
+  "armor-group-3"
+ ],
+ "summary": "A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's \u2026",
+ "summary_markdown": "A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's \u2026",
+ "text": "Armor 0 Armored Coat Uncommon Comfort Flexible Source Knights of Lastwall pg. 87 Price 20 gp AC Bonus +2 Dex Cap +2 Check Penalty -1 Speed Penalty \u2014 Strength +2 Bulk 2 Category Light Group Leather A custom, lightweight mail is fitted within the lining of a coat or similar apparel, physically hiding the armor while maintaining the wearer's fashion. While not nearly as protective as heavier armors, the armored coat allows the wearer to blend in more aesthetically during civilian functions. Like other suits of armor, the armored coat is custom-fitted to an individual's body type, ensuring comfort without sacrificing its defensive capabilities. Armor Specialization Effects Source Core Rulebook pg. 275 Certain class features can grant you additional benefits with certain armors. This is called an armor specialization effect. The exact effect depends on which armor group your armor belongs to, as listed below. Only medium and heavy armors have armor specialization effects. Click here for the full rules on Armor Specialization Effects. Armor Specialization Leather Source Player Core pg. 272 The thick second skin of the armor disperses blunt force to reduce bludgeoning damage. You gain resistance to bludgeoning damage equal to 1 + the value of the armor\u2019s potency rune for medium armor, or 2 + the value of the armor\u2019s potency rune for heavy armor.",
+ "trait": [
+  "Comfort",
+  "Flexible",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Armor",
+  "Rarity"
+ ],
+ "trait_markdown": "[Comfort](/Traits.aspx?ID=203), [Flexible](/Traits.aspx?ID=204), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Comfort",
+  "Flexible",
+  "Uncommon"
+ ],
+ "type": "Item",
+ "url": "/Armor.aspx?ID=16",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:41-08:00"
+}

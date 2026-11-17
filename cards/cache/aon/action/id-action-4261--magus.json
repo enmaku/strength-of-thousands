@@ -1,0 +1,56 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-4261",
+ "legacy_id": [
+  "action-756"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Arcane Cascade](/Actions.aspx?ID=4261) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=389\" />\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=701\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 12\n\n</column>\n\n---\n\nYou cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee [Strikes](/Actions.aspx?ID=1167) gain the [arcane](/Traits.aspx?ID=534) trait (making them magical) and deal 1 extra force damage, and you gain [resistance](/Rules.aspx?ID=2318) 1 to damage from spells. If you have the weapon specialization class feature, the damage and resistance increase to 2, and if you have greater weapon specialization, they increase to 3.\n\n If you [Cast a Spell](/Actions.aspx?ID=2734) and then enter Arcane Cascade on the same turn, you can change the damage from the stance to any one damage type that spell could deal instead of force.",
+ "name": "Arcane Cascade",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 12",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=389\" />\n<trait label=\"Stance\" url=\"/Traits.aspx?ID=701\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 12\n\n</additional-info>\n\n---\n\n<summary>\nYou cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 12"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 12",
+ "speed": {},
+ "summary": "You cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes \u2026",
+ "summary_markdown": "You cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes \u2026",
+ "text": "Action Arcane Cascade Single Action Concentrate Magus Stance Source Impossible Magic pg. 12 You cycle arcane power through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes gain the arcane trait (making them magical) and deal 1 extra force damage, and you gain resistance 1 to damage from spells. If you have the weapon specialization class feature, the damage and resistance increase to 2, and if you have greater weapon specialization, they increase to 3. If you Cast a Spell and then enter Arcane Cascade on the same turn, you can change the damage from the stance to any one damage type that spell could deal instead of force.",
+ "trait": [
+  "Concentrate",
+  "Magus",
+  "Stance"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class",
+  "Class-Specific"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Magus](/Traits.aspx?ID=389), [Stance](/Traits.aspx?ID=701)",
+ "trait_raw": [
+  "Concentrate",
+  "Magus",
+  "Stance"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=4261",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:28-08:00"
+}

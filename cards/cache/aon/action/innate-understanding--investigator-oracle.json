@@ -1,0 +1,52 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Innate Understanding"
+ ],
+ "feat_markdown": "Innate Understanding",
+ "id": "feat-6896",
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Innate Understanding](/Feats.aspx?ID=6896) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Samsaran\" url=\"/Traits.aspx?ID=828\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 55\n\n</column>\n\n---\n\nVague connections to the knowledge and prowess of your past help guide you in tasks that this life might not understand. You can attempt skill actions that normally require a character to be trained even if you\u2019re untrained, and you gain a +2 circumstance bonus to the check when doing so.",
+ "name": "Innate Understanding",
+ "pfs": "Standard",
+ "primary_source": "Tian Xia Character Guide",
+ "primary_source_raw": "Tian Xia Character Guide pg. 55",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-28",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Samsaran\" url=\"/Traits.aspx?ID=828\" />\n</traits>\n\n<additional-info>\n**Source** [Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 55\n\n</additional-info>\n\n---\n\n<summary>\nVague connections to the knowledge and prowess of your past help guide you in tasks that this life might not understand.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Tian Xia Character Guide"
+ ],
+ "source_raw": [
+  "Tian Xia Character Guide pg. 55"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Tian Xia Character Guide](/Sources.aspx?ID=230) pg. 55",
+ "speed": {},
+ "summary": "Vague connections to the knowledge and prowess of your past help guide you in tasks that this life might not understand.",
+ "summary_markdown": "Vague connections to the knowledge and prowess of your past help guide you in tasks that this life might not understand.",
+ "text": "Feat 1 Innate Understanding Samsaran Source Tian Xia Character Guide pg. 55 Vague connections to the knowledge and prowess of your past help guide you in tasks that this life might not understand. You can attempt skill actions that normally require a character to be trained even if you\u2019re untrained, and you gain a +2 circumstance bonus to the check when doing so.",
+ "trait": [
+  "Samsaran"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Monster"
+ ],
+ "trait_markdown": "[Samsaran](/Traits.aspx?ID=828)",
+ "trait_raw": [
+  "Samsaran"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=6896",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:05-08:00"
+}

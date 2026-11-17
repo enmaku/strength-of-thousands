@@ -1,0 +1,65 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Inventor"
+ ],
+ "feat_markdown": "Inventor",
+ "id": "feat-5164",
+ "legacy_id": [
+  "feat-798"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Inventor](/Feats.aspx?ID=5164) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 257\n\n**Prerequisites**\nExpert in [Crafting](/Skills.aspx?ID=4)\n\n</column>\n\n---\n\nYou are a genius at [Crafting](/Skills.aspx?ID=37), easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don't know. This works just like the [Craft](/Actions.aspx?ID=2385) activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it's complete, you add the new formula you invented to your formula book.\n\nThe GM might allow you to invent uncommon or rare formulas, typically with an increased DC. You need the Alchemical Crafting feat to invent alchemical formulas and the Magical Crafting feat to invent magical formulas.",
+ "name": "Inventor",
+ "pfs": "Standard",
+ "prerequisite": "Expert in Crafting",
+ "prerequisite_markdown": "Expert in [Crafting](/Skills.aspx?ID=4)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 257",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Downtime\" url=\"/Traits.aspx?ID=49\" />\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 257\n\n**Prerequisites**\nExpert in [Crafting](/Skills.aspx?ID=4)\n\n</additional-info>\n\n---\n\n<summary>\nUse Crafting to create item formulas\n</summary>",
+ "skill": [
+  "Crafting",
+  "Crafting"
+ ],
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 257"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 257",
+ "speed": {},
+ "summary": "Use Crafting to create item formulas",
+ "summary_markdown": "Use Crafting to create item formulas",
+ "text": "Feat 2 Inventor Downtime General Skill Source Player Core pg. 257 Prerequisites Expert in Crafting You are a genius at Crafting, easily able to determine how things are made and create new inventions. You can spend downtime to invent a common formula that you don't know. This works just like the Craft activity: you spend half the Price of the formula up front, attempt a Crafting check, and on a success either finish the formula by paying the difference or work for longer to decrease the Price. The difference is that you spend the additional time in research, design, and development, rather than in creating an item. Once it's complete, you add the new formula you invented to your formula book. The GM might allow you to invent uncommon or rare formulas, typically with an increased DC. You need the Alchemical Crafting feat to invent alchemical formulas and the Magical Crafting feat to invent magical formulas.",
+ "trait": [
+  "Downtime",
+  "General",
+  "Skill"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Feat"
+ ],
+ "trait_markdown": "[Downtime](/Traits.aspx?ID=49), [General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "Downtime",
+  "General",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5164",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:42-08:00"
+}

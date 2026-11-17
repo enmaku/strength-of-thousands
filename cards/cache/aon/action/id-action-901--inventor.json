@@ -1,0 +1,54 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "frequency": "once per round",
+ "id": "action-901",
+ "legacy_id": [
+  "action-3655"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Overdrive](/Actions.aspx?ID=901) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 16\n\n**Frequency** once per round\n\n</column>\n\n---\n\nTemporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a [Crafting](/Skills.aspx?ID=4) check that has a [standard DC for your level](/Rules.aspx?ID=554).\n\n**Critical Success** Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute.<br />\n**Success** Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier.<br />\n**Failure** Your gizmos whine concerningly and begin to\r\nsmoke. Your Strikes deal 1 additional fire damage for 1 minute.<br />\n**Critical Failure** Whoops! Something explodes. You take fire damage equal to half your level (rounded up), and you can\u2019t use Overdrive again for 1d4 rounds as your gizmos reset.\n\n **Special** When under the effects of Overdrive, you can still use the Overdrive action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.",
+ "name": "Overdrive",
+ "primary_source": "Guns & Gears (Remastered)",
+ "primary_source_raw": "Guns & Gears (Remastered) pg. 16",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-02-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Inventor\" url=\"/Traits.aspx?ID=408\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Guns &amp; Gears (Remastered)](/Sources.aspx?ID=98) pg. 16\n\n**Frequency**\nonce per round\n\n</additional-info>\n\n---\n\n<summary>\nTemporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Guns & Gears (Remastered)"
+ ],
+ "source_raw": [
+  "Guns & Gears (Remastered) pg. 16"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Guns & Gears (Remastered)](/Sources.aspx?ID=98) pg. 16",
+ "speed": {},
+ "summary": "Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a \u2026",
+ "summary_markdown": "Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a \u2026",
+ "text": "Action Overdrive Single Action Inventor Manipulate Source Guns &amp; Gears (Remastered) pg. 16 Frequency once per round Temporarily cranking the gizmos on your body into overdrive, you try to add greater power to your attacks. Attempt a Crafting check that has a standard DC for your level. Critical Success Your gizmos go into a state of incredible efficiency called critical overdrive, adding great power to your attacks. Your Strikes deal additional damage equal to your Intelligence modifier for 1 minute. After the Overdrive ends, your gizmos become unusable as they cool down or reset, and you can't use Overdrive for 1 minute. Success Your gizmos go into overdrive, adding power to your attacks. As critical success, except the additional damage is equal to half your Intelligence modifier. Failure Your gizmos whine concerningly and begin to smoke. Your Strikes deal 1 additional fire damage for 1 minute. Critical Failure Whoops! Something explodes. You take fire damage equal to half your level (rounded up), and you can\u2019t use Overdrive again for 1d4 rounds as your gizmos reset. Special When under the effects of Overdrive, you can still use the Overdrive action. You can't extend your Overdrive's duration this way, but you can turn an overdrive into a critical overdrive if you critically succeed. A failure has no effect on your current Overdrive, and you end your Overdrive on a critical failure.",
+ "trait": [
+  "Inventor",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Class",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Inventor](/Traits.aspx?ID=408), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Inventor",
+  "Manipulate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=901",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:44-08:00"
+}

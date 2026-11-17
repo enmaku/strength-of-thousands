@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2381",
+ "legacy_id": [
+  "action-39"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Swim](/Actions.aspx?ID=2381) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n</column>\n\n---\n\nYou attempt an [Athletics](/Skills.aspx?ID=3) check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the water; in most instances of calm water, you get an automatic critical success. If your land Speed is 40 feet or higher, increase the maximum possible distance by 5 feet for every 20 feet of Speed above 20 feet.\n\n If you end your turn in water and haven't succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. This doesn't apply if your last action on your turn was to enter the water.\n\n**Critical Success** You move through the water, increasing the maximum distance by 5 feet.<br />\n**Success** You move through the water.<br />\n**Critical Failure** You make no progress. If you're [holding your breath](/Rules.aspx?ID=468), you lose 1 round of air.\n\n<title level=\"2\">Sample Swim Tasks</title>\n\n**Untrained** lake or other still water<br />\n**Trained** flowing water, like a river<br />\n**Expert** swiftly flowing river<br />\n**Master** stormy sea<br />\n**Legendary** maelstrom, waterfall",
+ "name": "Swim",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 235",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n</additional-info>\n\n---\n\n<summary>\nYou attempt an Athletics check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 235"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 235",
+ "speed": {},
+ "summary": "You attempt an Athletics check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the \u2026",
+ "summary_markdown": "You attempt an Athletics check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the \u2026",
+ "text": "Action Swim Single Action Move Source Player Core pg. 235 You attempt an Athletics check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the water; in most instances of calm water, you get an automatic critical success. If your land Speed is 40 feet or higher, increase the maximum possible distance by 5 feet for every 20 feet of Speed above 20 feet. If you end your turn in water and haven't succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. This doesn't apply if your last action on your turn was to enter the water. Critical Success You move through the water, increasing the maximum distance by 5 feet. Success You move through the water. Critical Failure You make no progress. If you're holding your breath, you lose 1 round of air. Sample Swim Tasks Untrained lake or other still water Trained flowing water, like a river Expert swiftly flowing river Master stormy sea Legendary maelstrom, waterfall",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2381",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:53-08:00"
+}

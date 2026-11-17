@@ -1,0 +1,49 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2379",
+ "markdown": "<title level=\"1\" right=\"Action\">[Reposition](/Actions.aspx?ID=2379) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n**Requirements** You either have at least one hand free, or you're [grabbing](/Conditions.aspx?ID=20) or [restraining](/Conditions.aspx?ID=33) the target. The target can't be more than one size larger than you.\n\n</column>\n\n---\n\nYou muscle a creature or object around. Attempt an [Athletics](/Skills.aspx?ID=3) check against the target's Fortitude DC.\n\n**Critical Success** You [move](/Rules.aspx?ID=451) the creature up to 10 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles.<br />\n**Success** You move the target up to 5 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles.<br />\n**Critical Failure** The target can move you up to 5 feet as though it successfully Repositioned you.",
+ "name": "Reposition",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 235",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You either have at least one hand free, or you're grabbing or restraining the target. The target can't be more than one size larger than you.",
+ "requirement_markdown": "You either have at least one hand free, or you're [grabbing](/Conditions.aspx?ID=20) or [restraining](/Conditions.aspx?ID=33) the target. The target can't be more than one size larger than you.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 235\n\n**Requirement**\nYou either have at least one hand free, or you're [grabbing](/Conditions.aspx?ID=20) or [restraining](/Conditions.aspx?ID=33) the target. The target can't be more than one size larger than you.\n</additional-info>\n\n---\n\n<summary>\nYou muscle a creature or object around. Attempt an Athletics check against the target's Fortitude DC.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 235"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 235",
+ "speed": {},
+ "summary": "You muscle a creature or object around. Attempt an Athletics check against the target's Fortitude DC.",
+ "summary_markdown": "You muscle a creature or object around. Attempt an Athletics check against the target's Fortitude DC.",
+ "text": "Action Reposition Single Action Attack Source Player Core pg. 235 Requirements You either have at least one hand free, or you're grabbing or restraining the target. The target can't be more than one size larger than you. You muscle a creature or object around. Attempt an Athletics check against the target's Fortitude DC. Critical Success You move the creature up to 10 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles. Success You move the target up to 5 feet. It must remain within your reach during this movement, and you can't move it into or through obstacles. Critical Failure The target can move you up to 5 feet as though it successfully Repositioned you.",
+ "trait": [
+  "Attack"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15)",
+ "trait_raw": [
+  "Attack"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2379",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:37-08:00"
+}

@@ -1,0 +1,88 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "sustained up to 1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-2468",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Defended By Spirits](/Spells.aspx?ID=2468)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Shining Kingdoms](/Sources.aspx?ID=265) pg. 98\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 ally and 1 enemy\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n\n</column>\n\n---\n\nYou entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe. Each time the enemy attacks and damages the ally, the enemy takes 1d6 [spirit](/Traits.aspx?ID=737) damage. The enemy is aware of these spirits and has a general sense that attacking the ally will draw the spirits\u2019 ire.\n\n---\n**Heightened (+2)** The damage increases by 1d6.",
+ "name": "Defended By Spirits",
+ "pfs": "Standard",
+ "primary_source": "Shining Kingdoms",
+ "primary_source_raw": "Shining Kingdoms pg. 98",
+ "primary_source_category": "Lost Omens",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2025-06-04",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=149\" />\n</traits>\n\n<additional-info>\n**Source** [Shining Kingdoms](/Sources.aspx?ID=265) pg. 98\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 ally and 1 enemy\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Shining Kingdoms"
+ ],
+ "source_raw": [
+  "Shining Kingdoms pg. 98"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Shining Kingdoms](/Sources.aspx?ID=265) pg. 98",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "You entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe.",
+ "summary_markdown": "You entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe.",
+ "target": "1 ally and 1 enemy",
+ "target_markdown": "1 ally and 1 enemy",
+ "text": "Spell 1 Defended By Spirits Two Actions Uncommon Concentrate Manipulate Spirit Source Shining Kingdoms pg. 98 Traditions Divine, Occult Range 30 feet Target 1 ally and 1 enemy Duration sustained up to 1 minute You entreat a spirit or the spiritual energies in your location to surround and protect an ally from an certain foe. Each time the enemy attacks and damages the ally, the enemy takes 1d6 spirit damage. The enemy is aware of these spirits and has a general sense that attacking the ally will draw the spirits\u2019 ire. Heightened (+2) The damage increases by 1d6.",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Manipulate",
+  "Spirit",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Spirit](/Traits.aspx?ID=149), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate",
+  "Spirit",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2468",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:00-08:00"
+}

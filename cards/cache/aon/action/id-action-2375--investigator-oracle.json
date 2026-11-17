@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2375",
+ "legacy_id": [
+  "action-34"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Force Open](/Actions.aspx?ID=2375) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n</column>\n\n---\n\nUsing your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a [crowbar](/Equipment.aspx?ID=18), prying something open takes a \u20132 item penalty to the [Athletics](/Skills.aspx?ID=3) check to Force Open.\n\n**Critical Success** You open the door, window, container, or gate and can avoid damaging it in the process.<br />\n**Success** You break the door, window, container, or gate open, and it gains the [broken](/Conditions.aspx?ID=2) condition. If it's especially sturdy, the GM might have it take damage but not be broken.<br />\n**Critical Failure** Your attempt jams the door, window, container, or gate shut, imposing a \u20132 circumstance penalty on future attempts to Force it Open.\n\n<title level=\"2\">Sample Force Open Tasks</title>\n\n**Untrained** fabric, flimsy glass<br />\n**Trained** ice, sturdy glass<br />\n**Expert** flimsy wooden door, wooden portcullis<br />\n**Master** sturdy wooden door, iron portcullis, metal bar<br />\n**Legendary** stone or iron door",
+ "name": "Force Open",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 234",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n</additional-info>\n\n---\n\n<summary>\nUsing your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 234"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 234",
+ "speed": {},
+ "summary": "Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you \u2026",
+ "summary_markdown": "Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you \u2026",
+ "text": "Action Force Open Single Action Attack Source Player Core pg. 234 Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a crowbar, prying something open takes a \u20132 item penalty to the Athletics check to Force Open. Critical Success You open the door, window, container, or gate and can avoid damaging it in the process. Success You break the door, window, container, or gate open, and it gains the broken condition. If it's especially sturdy, the GM might have it take damage but not be broken. Critical Failure Your attempt jams the door, window, container, or gate shut, imposing a \u20132 circumstance penalty on future attempts to Force it Open. Sample Force Open Tasks Untrained fabric, flimsy glass Trained ice, sturdy glass Expert flimsy wooden door, wooden portcullis Master sturdy wooden door, iron portcullis, metal bar Legendary stone or iron door",
+ "trait": [
+  "Attack"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15)",
+ "trait_raw": [
+  "Attack"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2375",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:17-08:00"
+}

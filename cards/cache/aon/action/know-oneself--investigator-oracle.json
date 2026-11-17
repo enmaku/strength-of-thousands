@@ -1,0 +1,65 @@
+{
+ "access": "Vudrani ethnicity",
+ "actions": "Reaction",
+ "actions_number": 1,
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Know Oneself"
+ ],
+ "feat_markdown": "Know Oneself",
+ "frequency": "once per day",
+ "id": "feat-944",
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Know Oneself](/Feats.aspx?ID=944) <actions string=\"Reaction\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Character Guide](/Sources.aspx?ID=12) pg. 12\n\n**Frequency**\nonce per day\n\n**Access**\nVudrani ethnicity\n\n**Trigger**\nYou roll a critical failure on a saving throw against an [emotion](/Traits.aspx?ID=60) effect.\n\n</column>\n\n---\n\nYou center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge. You fail the save against the emotion effect instead of critically failing.",
+ "name": "Know Oneself",
+ "pfs": "Standard",
+ "primary_source": "Character Guide",
+ "primary_source_raw": "Character Guide pg. 12",
+ "primary_source_category": "Lost Omens",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2019-10-16",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Fortune\" url=\"/Traits.aspx?ID=76\" />\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\n</traits>\n\n<additional-info>\n**Source** [Character Guide](/Sources.aspx?ID=12) pg. 12\n\n**Frequency**\nonce per day\n\n**Access**\nVudrani ethnicity\n\n**Trigger**\nYou roll a critical failure on a saving throw against an [emotion](/Traits.aspx?ID=60) effect.\n\n</additional-info>\n\n---\n\n<summary>\nYou center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Character Guide"
+ ],
+ "source_raw": [
+  "Character Guide pg. 12"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Character Guide](/Sources.aspx?ID=12) pg. 12",
+ "speed": {},
+ "summary": "You center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge.",
+ "summary_markdown": "You center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge.",
+ "text": "Feat 1 Know Oneself Reaction Uncommon Fortune Human Source Character Guide pg. 12 Frequency once per day Access Vudrani ethnicity Trigger You roll a critical failure on a saving throw against an emotion effect. You center yourself and call to mind the Vudrani monastic ideals of mindfulness and self-knowledge. You fail the save against the emotion effect instead of critically failing.",
+ "trait": [
+  "Fortune",
+  "Human",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Rarity"
+ ],
+ "trait_markdown": "[Fortune](/Traits.aspx?ID=76), [Human](/Traits.aspx?ID=90), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Fortune",
+  "Human",
+  "Uncommon"
+ ],
+ "trigger": "You roll a critical failure on a saving throw against an emotion effect.",
+ "trigger_markdown": "You roll a critical failure on a saving throw against an [emotion](/Traits.aspx?ID=60) effect.",
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=944",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:05-08:00"
+}

@@ -1,0 +1,71 @@
+{
+ "actions": "Single Action to Three Actions",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "sustained up to 1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2471",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Spirit Ward](/Spells.aspx?ID=2471)\n<actions string=\"Single Action to Three Actions\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Shining Kingdoms](/Sources.aspx?ID=265) pg. 99\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** varies\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n\n</column>\n\n---\n\nYou draw on nearby spiritual energy or on echoes of the spirits you\u2019ve invoked throughout your life to temporarily ward living flesh against dangerous spirits. You grant the target a +1 status bonus to saving throws against spells and effects caused by creatures that have the spirit trait and haunts. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. \n\n<actions string=\"Single Action\" /> The spell has a range of [touch](/Rules.aspx?ID=2238). \n\n<actions string=\"Two Actions\" /> ([concentrate](/Traits.aspx?ID=561)) The spell has a range of 30 feet. If you target a living creature, the bonus increases to +2. \n\n<actions string=\"Three Actions\" /> (concentrate) You create a ward in a 30-foot [emanation](/Rules.aspx?ID=2387). This targets you and all your allies in the burst.",
+ "name": "Spirit Ward",
+ "pfs": "Standard",
+ "primary_source": "Shining Kingdoms",
+ "primary_source_raw": "Shining Kingdoms pg. 99",
+ "primary_source_category": "Lost Omens",
+ "range_raw": "varies",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2025-06-04",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Shining Kingdoms](/Sources.aspx?ID=265) pg. 99\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** varies\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** sustained up to 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou draw on nearby spiritual energy or on echoes of the spirits you\u2019ve invoked throughout your life to temporarily ward living flesh against dangerous spirits.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Shining Kingdoms"
+ ],
+ "source_raw": [
+  "Shining Kingdoms pg. 99"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Shining Kingdoms](/Sources.aspx?ID=265) pg. 99",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "You draw on nearby spiritual energy or on echoes of the spirits you\u2019ve invoked throughout your life to temporarily ward living flesh against dangerous spirits.",
+ "summary_markdown": "You draw on nearby spiritual energy or on echoes of the spirits you\u2019ve invoked throughout your life to temporarily ward living flesh against dangerous spirits.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Spirit Ward Single Action to Three Actions Uncommon Manipulate Source Shining Kingdoms pg. 99 Traditions Divine, Occult Range varies Target 1 creature Duration sustained up to 1 minute You draw on nearby spiritual energy or on echoes of the spirits you\u2019ve invoked throughout your life to temporarily ward living flesh against dangerous spirits. You grant the target a +1 status bonus to saving throws against spells and effects caused by creatures that have the spirit trait and haunts. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters. Single Action The spell has a range of touch. Two Actions (concentrate) The spell has a range of 30 feet. If you target a living creature, the bonus increases to +2. Three Actions (concentrate) You create a ward in a 30-foot emanation. This targets you and all your allies in the burst.",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Manipulate",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Rarity"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Manipulate",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2471",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:00-08:00"
+}

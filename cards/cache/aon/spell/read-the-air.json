@@ -1,0 +1,74 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2798",
+ "legacy_id": [
+  "spell-981"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Read the Air](/Spells.aspx?ID=2798)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 159\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nYou survey a social situation, showing courtesy to all around you as your intuition swiftly picks up clues about social contexts and unspoken assumptions of behavior. Your body language subconsciously changes to take advantage of this information and use it in your own interactions with those creatures. As part of Casting this Spell, you [Recall Knowledge](/Actions.aspx?ID=2367) using [Society](/Skills.aspx?ID=47) to gain information about the social situation. You also gain a +1 status bonus to your next [Diplomacy](/Skills.aspx?ID=39) check to [Make an Impression](/Actions.aspx?ID=2392) on those creatures present when you Cast this Spell, as long as the check occurs during the duration of the spell. You can _read the air_ only once in a given social situation; casting it again has no effect.",
+ "name": "Read the Air",
+ "pfs": "Standard",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 159",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n<trait label=\"Subtle\" url=\"/Traits.aspx?ID=522\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 159\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nPick up societal cues.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 159"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 159",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Pick up societal cues.",
+ "summary_markdown": "Pick up societal cues.",
+ "text": "Cantrip 1 Read the Air Two Actions Cantrip Concentrate Manipulate Subtle Source Impossible Magic pg. 159 Traditions Divine, Occult Duration 1 minute You survey a social situation, showing courtesy to all around you as your intuition swiftly picks up clues about social contexts and unspoken assumptions of behavior. Your body language subconsciously changes to take advantage of this information and use it in your own interactions with those creatures. As part of Casting this Spell, you Recall Knowledge using Society to gain information about the social situation. You also gain a +1 status bonus to your next Diplomacy check to Make an Impression on those creatures present when you Cast this Spell, as long as the check occurs during the duration of the spell. You can read the air only once in a given social situation; casting it again has no effect.",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Subtle"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=550), [Concentrate](/Traits.aspx?ID=561), [Manipulate](/Traits.aspx?ID=645), [Subtle](/Traits.aspx?ID=522)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Subtle"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2798",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:00-08:00"
+}

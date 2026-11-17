@@ -1,0 +1,5 @@
+{
+ "hash": "8296939205cd",
+ "front": "Channel a 1-2 action attack or save spell into a melee Strike, delivering both at once. You must recharge before using it again.",
+ "back": "Cast a 1-2 action spell with an attack roll or save; make a melee Strike with weapon or unarmed attack. Counts as two attacks for MAP, applied after Spellstrike. Strike gains arcane trait.\nAttack-roll spell: Strike's result determines both effects.\nSave spell: target saves normally regardless of your roll, unless Strike crit fails, which disrupts the spell.\nCombine Strike and spell damage for resistances/weaknesses.\nRecharge: single action (concentrate), or cast a conflux spell taking 1+ actions. Other focus spells don't recharge."
+}

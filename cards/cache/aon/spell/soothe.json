@@ -1,0 +1,128 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Aesocar",
+  "Ashava",
+  "Atreia",
+  "Bolka",
+  "Dalenydra",
+  "Immonhiel",
+  "Isis",
+  "Kofusachi",
+  "Korada",
+  "Mother Vulture",
+  "Mrtyu",
+  "Myr",
+  "Naderi",
+  "Oathos",
+  "Osiris",
+  "Phi Deva",
+  "Qi Zhong",
+  "Selket",
+  "The Lost Prince",
+  "The Lost Prince",
+  "The Offering Plate",
+  "Tlehar",
+  "Touch of the Sun",
+  "Tsukiyo",
+  "Wards of the Pharaoh"
+ ],
+ "deity_markdown": "[Aesocar](/Deities.aspx?ID=403), [Ashava](/Deities.aspx?ID=466), [Atreia](/Deities.aspx?ID=686), [Bolka](/Deities.aspx?ID=445), [Dalenydra](/Deities.aspx?ID=469), [Immonhiel](/Deities.aspx?ID=626), [Isis](/Deities.aspx?ID=517), [Kofusachi](/Deities.aspx?ID=309), [Korada](/Deities.aspx?ID=475), [Mother Vulture](/Deities.aspx?ID=542), [Mrtyu](/Deities.aspx?ID=543), [Myr](/Deities.aspx?ID=408), [Naderi](/Deities.aspx?ID=627), [Oathos](/Deities.aspx?ID=712), [Osiris](/Deities.aspx?ID=520), [Phi Deva](/Deities.aspx?ID=301), [Qi Zhong](/Deities.aspx?ID=314), [Selket](/Deities.aspx?ID=640), [The Lost Prince](/Deities.aspx?ID=456), [The Lost Prince](/Deities.aspx?ID=750), [The Offering Plate](/Deities.aspx?ID=254), [Tlehar](/Deities.aspx?ID=681), [Touch of the Sun](/Deities.aspx?ID=233), [Tsukiyo](/Deities.aspx?ID=317), [Wards of the Pharaoh](/Deities.aspx?ID=208)",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-1678",
+ "legacy_id": [
+  "spell-291"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Soothe](/Spells.aspx?ID=1678)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 357\n\n**Tradition**\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Aesocar](/Deities.aspx?ID=403), [Ashava](/Deities.aspx?ID=466), [Atreia](/Deities.aspx?ID=686), [Bolka](/Deities.aspx?ID=445), [Dalenydra](/Deities.aspx?ID=469), [Immonhiel](/Deities.aspx?ID=626), [Isis](/Deities.aspx?ID=517), [Kofusachi](/Deities.aspx?ID=309), [Korada](/Deities.aspx?ID=475), [Mother Vulture](/Deities.aspx?ID=542), [Mrtyu](/Deities.aspx?ID=543), [Myr](/Deities.aspx?ID=408), [Naderi](/Deities.aspx?ID=627), [Oathos](/Deities.aspx?ID=712), [Osiris](/Deities.aspx?ID=520), [Phi Deva](/Deities.aspx?ID=301), [Qi Zhong](/Deities.aspx?ID=314), [Selket](/Deities.aspx?ID=640), [The Lost Prince](/Deities.aspx?ID=456), [The Lost Prince](/Deities.aspx?ID=750), [The Offering Plate](/Deities.aspx?ID=254), [Tlehar](/Deities.aspx?ID=681), [Touch of the Sun](/Deities.aspx?ID=233), [Tsukiyo](/Deities.aspx?ID=317), [Wards of the Pharaoh](/Deities.aspx?ID=208)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 willing creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nYou grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against [mental](/Traits.aspx?ID=106) effects for the duration.\n\n---\n**Heightened (+1)** The amount of healing increases by 1d10+4.",
+ "name": "Soothe",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 357",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=89\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 357\n\n**Tradition**\n[Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Aesocar](/Deities.aspx?ID=403), [Ashava](/Deities.aspx?ID=466), [Atreia](/Deities.aspx?ID=686), [Bolka](/Deities.aspx?ID=445), [Dalenydra](/Deities.aspx?ID=469), [Immonhiel](/Deities.aspx?ID=626), [Isis](/Deities.aspx?ID=517), [Kofusachi](/Deities.aspx?ID=309), [Korada](/Deities.aspx?ID=475), [Mother Vulture](/Deities.aspx?ID=542), [Mrtyu](/Deities.aspx?ID=543), [Myr](/Deities.aspx?ID=408), [Naderi](/Deities.aspx?ID=627), [Oathos](/Deities.aspx?ID=712), [Osiris](/Deities.aspx?ID=520), [Phi Deva](/Deities.aspx?ID=301), [Qi Zhong](/Deities.aspx?ID=314), [Selket](/Deities.aspx?ID=640), [The Lost Prince](/Deities.aspx?ID=456), [The Lost Prince](/Deities.aspx?ID=750), [The Offering Plate](/Deities.aspx?ID=254), [Tlehar](/Deities.aspx?ID=681), [Touch of the Sun](/Deities.aspx?ID=233), [Tsukiyo](/Deities.aspx?ID=317), [Wards of the Pharaoh](/Deities.aspx?ID=208)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 willing creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nHeal the target and bolster them against mental attacks.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 357"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 357",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Heal the target and bolster them against mental attacks.",
+ "summary_markdown": "Heal the target and bolster them against mental attacks.",
+ "target": "1 willing creature",
+ "target_markdown": "1 willing creature",
+ "text": "Spell 1 Soothe Two Actions Concentrate Emotion Healing Manipulate Mental Source Player Core pg. 357 Tradition Occult Deities Aesocar, Ashava, Atreia, Bolka, Dalenydra, Immonhiel, Isis, Kofusachi, Korada, Mother Vulture, Mrtyu, Myr, Naderi, Oathos, Osiris, Phi Deva, Qi Zhong, Selket, The Lost Prince, The Lost Prince, The Offering Plate, Tlehar, Touch of the Sun, Tsukiyo, Wards of the Pharaoh Range 30 feet Target 1 willing creature Duration 1 minute You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration. Heightened (+1) The amount of healing increases by 1d10+4.",
+ "tradition": [
+  "Occult"
+ ],
+ "tradition_markdown": "[Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Emotion",
+  "Healing",
+  "Manipulate",
+  "Mental"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Healing](/Traits.aspx?ID=89), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Concentrate",
+  "Emotion",
+  "Healing",
+  "Manipulate",
+  "Mental"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1678",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:01-08:00"
+}

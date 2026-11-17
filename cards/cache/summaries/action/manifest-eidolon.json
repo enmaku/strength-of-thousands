@@ -1,0 +1,5 @@
+{
+ "hash": "d4f957152500",
+ "front": "Summon your eidolon adjacent to you; it can then take one action. If already manifested, this unmanifests them.",
+ "back": "Eidolon appears in an open adjacent space and takes a single action; if already manifested, unmanifest them.\nEidolon must stay within 100 feet of you and can't willingly go farther.\nIf forced beyond 100 feet, you drop to 0 HP, or the eidolon dies, it unmanifests and you must use this again.\nSpecial: has the trait of your eidolon's tradition (arcane, divine, occult, or primal)."
+}

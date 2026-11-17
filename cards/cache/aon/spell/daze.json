@@ -1,0 +1,99 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline": [
+  "Aberrant",
+  "Hag"
+ ],
+ "bloodline_markdown": "[Aberrant](/Bloodlines.aspx?ID=19), [Hag](/Bloodlines.aspx?ID=26)",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 6,
+ "duration_raw": "1 round",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-1482",
+ "legacy_id": [
+  "spell-61"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Daze](/Spells.aspx?ID=1482)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 322\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodlines**\n[Aberrant](/Bloodlines.aspx?ID=19), [Hag](/Bloodlines.aspx?ID=26)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** 1 round\n</row>\n\n</column>\n\n---\n\nYou push into the target's mind and daze it with a mental jolt. The jolt deals 1d6 mental damage, with a basic Will save. If the target critically fails the save, it is also [stunned 1](/Conditions.aspx?ID=36).\n\n---\n**Heightened (+2)** The damage increases by 1d6.",
+ "name": "Daze",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 322",
+ "primary_source_category": "Rulebooks",
+ "range": 60,
+ "range_raw": "60 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "Will",
+ "saving_throw_markdown": "Will",
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n<trait label=\"Nonlethal\" url=\"/Traits.aspx?ID=188\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 322\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Bloodlines**\n[Aberrant](/Bloodlines.aspx?ID=19), [Hag](/Bloodlines.aspx?ID=26)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 60 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** 1 round\n</row>\n</additional-info>\n\n---\n\n<summary>\nCloud a creature's mind and possibly stun it.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 322"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 322",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Cloud a creature's mind and possibly stun it.",
+ "summary_markdown": "Cloud a creature's mind and possibly stun it.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Cantrip 1 Daze Two Actions Cantrip Concentrate Manipulate Mental Nonlethal Source Player Core pg. 322 Traditions Arcane, Divine, Occult Bloodlines Aberrant, Hag Range 60 feet Target 1 creature Defense Will Duration 1 round You push into the target's mind and daze it with a mental jolt. The jolt deals 1d6 mental damage, with a basic Will save. If the target critically fails the save, it is also stunned 1. Heightened (+2) The damage increases by 1d6.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Mental",
+  "Nonlethal"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Weapon"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Nonlethal](/Traits.aspx?ID=188)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Mental",
+  "Nonlethal"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1482",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:01-08:00"
+}

@@ -1,0 +1,94 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration_raw": "until the end of the target's next turn",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "5th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank"
+ ],
+ "heighten_level": [
+  1,
+  5
+ ],
+ "id": "spell-1470",
+ "legacy_id": [
+  "spell-45"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Command](/Spells.aspx?ID=1470)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Themes**\n[Faith's Flamekeeper](/Patrons.aspx?ID=12), [The Unseen Broker](/Patrons.aspx?ID=26), [The Unseen Broker](/Patrons.aspx?ID=29)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** until the end of the target's next turn\n</row>\n\n</column>\n\n---\n\nYou shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the [fleeing](/Conditions.aspx?ID=17) condition), release what it's holding, drop [prone](/Conditions.aspx?ID=31), or stand in place. It can't [Delay](/Actions.aspx?ID=77) or take any reactions until it has obeyed your command. The effects depend on the target's Will save.\n\n**Success** The creature is unaffected.<br />\n**Failure** The creature must spend the first action on its next turn to obey your command.<br />\n**Critical Failure** The target must use all its actions on its next turn to obey your command.\n\n---\n**Heightened (5th)** You can target up to 10 creatures.",
+ "name": "Command",
+ "patron_theme": [
+  "Faith's Flamekeeper",
+  "The Unseen Broker",
+  "The Unseen Broker"
+ ],
+ "patron_theme_markdown": "[Faith's Flamekeeper](/Patrons.aspx?ID=12), [The Unseen Broker](/Patrons.aspx?ID=26), [The Unseen Broker](/Patrons.aspx?ID=29)",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 321",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "Will",
+ "saving_throw_markdown": "Will",
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Linguistic\" url=\"/Traits.aspx?ID=101\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 321\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Patron Themes**\n[Faith's Flamekeeper](/Patrons.aspx?ID=12), [The Unseen Broker](/Patrons.aspx?ID=26), [The Unseen Broker](/Patrons.aspx?ID=29)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** until the end of the target's next turn\n</row>\n</additional-info>\n\n---\n\n<summary>\nBid a creature approach, run, drop something, lie prone, or stand up.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 321"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 321",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Bid a creature approach, run, drop something, lie prone, or stand up.",
+ "summary_markdown": "Bid a creature approach, run, drop something, lie prone, or stand up.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Command Two Actions Auditory Concentrate Linguistic Manipulate Mental Source Player Core pg. 321 Traditions Arcane, Divine, Occult Patron Themes Faith's Flamekeeper, The Unseen Broker, The Unseen Broker Range 30 feet Target 1 creature Defense Will Duration until the end of the target's next turn You shout a command that's hard to ignore. You can command the target to approach you, run away (as if it had the fleeing condition), release what it's holding, drop prone, or stand in place. It can't Delay or take any reactions until it has obeyed your command. The effects depend on the target's Will save. Success The creature is unaffected. Failure The creature must spend the first action on its next turn to obey your command. Critical Failure The target must use all its actions on its next turn to obey your command. Heightened (5th) You can target up to 10 creatures.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Manipulate",
+  "Mental"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Concentrate](/Traits.aspx?ID=32), [Linguistic](/Traits.aspx?ID=101), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Auditory",
+  "Concentrate",
+  "Linguistic",
+  "Manipulate",
+  "Mental"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1470",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:01-08:00"
+}

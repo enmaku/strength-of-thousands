@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2367",
+ "legacy_id": [
+  "action-26"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Recall Knowledge](/Actions.aspx?ID=2367) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 231\n\n</column>\n\n---\n\nYou attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and ask the GM one question. The GM determines the DC. You might need to collaborate with the GM to narrow down the question or skills, and you can decide not to Recall Knowledge before committing to the action if you don't like your options.\n\n**Critical Success** You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one followup question.<br />\n**Success** You recall the knowledge accurately. The GM answers your question truthfully.<br />\n**Critical Failure** You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure).\n\n<title level=\"2\">Sample Recall Knowledge Tasks</title>\n\nThese examples use Society or Religion.\n\n**Untrained** name of a ruler, key noble, or major deity<br />\n**Trained** line of succession for a major noble family, core doctrines of a major deity<br />\n**Expert** genealogy of a minor noble, teachings of an ancient priest<br />\n**Master** hierarchy of a genie noble court, major extraplanar temples of a deity<br />\n**Legendary** existence of a long-lost noble heir, secret doctrines of a religion",
+ "name": "Recall Knowledge",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 231",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 231\n\n</additional-info>\n\n---\n\n<summary>\nYou attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 231"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 231",
+ "speed": {},
+ "summary": "You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and \u2026",
+ "summary_markdown": "You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and \u2026",
+ "text": "Action Recall Knowledge Single Action Concentrate Secret Source Player Core pg. 231 You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and ask the GM one question. The GM determines the DC. You might need to collaborate with the GM to narrow down the question or skills, and you can decide not to Recall Knowledge before committing to the action if you don't like your options. Critical Success You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one followup question. Success You recall the knowledge accurately. The GM answers your question truthfully. Critical Failure You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure). Sample Recall Knowledge Tasks These examples use Society or Religion. Untrained name of a ruler, key noble, or major deity Trained line of succession for a major noble family, core doctrines of a major deity Expert genealogy of a minor noble, teachings of an ancient priest Master hierarchy of a genie noble court, major extraplanar temples of a deity Legendary existence of a long-lost noble heir, secret doctrines of a religion",
+ "trait": [
+  "Concentrate",
+  "Secret"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Concentrate",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2367",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:57-08:00"
+}

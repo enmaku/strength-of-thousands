@@ -1,0 +1,52 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2363",
+ "legacy_id": [
+  "action-22"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Decipher Writing](/Actions.aspx?ID=2363) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 228\n\n</column>\n\n---\n\nYou attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer (typically an hour per page for decrypting ciphers or the like). The text must be in a language you can read, though the GM might allow you to attempt to decipher text written in an unfamiliar language using [Society](/Skills.aspx?ID=14) instead.\n\n The DC is determined by the GM based on the state or complexity of the document. The GM might have you roll one check for a short text or a check for each section of a larger text.\n\n**Critical Success** You understand the true meaning of the text.<br />\n**Success** You understand the true meaning of the text. If it was a coded document, you know the general meaning but might not have a word-for-word translation.<br />\n**Failure** You can't understand the text and take a \u20132 circumstance penalty to further checks to decipher it.<br />\n**Critical Failure** You believe you understand the text on that page, but you have in fact misconstrued its message.\n\n<title level=\"2\">Sample Decipher Writing Tasks</title>\n\n**Trained** entry-level philosophy treatise<br />\n**Expert** complex code, such as a cipher<br />\n**Master** spymaster\u2019s code or advanced research notes<br />\n**Legendary** esoteric planar text written in metaphor by an ancient celestial",
+ "name": "Decipher Writing",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 228",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 228\n\n</additional-info>\n\n---\n\n<summary>\nYou attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 228"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 228",
+ "speed": {},
+ "summary": "You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer \u2026",
+ "summary_markdown": "You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer \u2026",
+ "text": "Action Decipher Writing Concentrate Exploration Secret Source Player Core pg. 228 You attempt to decipher complicated writing or literature on an obscure topic. This usually takes 1 minute per page of text, but might take longer (typically an hour per page for decrypting ciphers or the like). The text must be in a language you can read, though the GM might allow you to attempt to decipher text written in an unfamiliar language using Society instead. The DC is determined by the GM based on the state or complexity of the document. The GM might have you roll one check for a short text or a check for each section of a larger text. Critical Success You understand the true meaning of the text. Success You understand the true meaning of the text. If it was a coded document, you know the general meaning but might not have a word-for-word translation. Failure You can't understand the text and take a \u20132 circumstance penalty to further checks to decipher it. Critical Failure You believe you understand the text on that page, but you have in fact misconstrued its message. Sample Decipher Writing Tasks Trained entry-level philosophy treatise Expert complex code, such as a cipher Master spymaster\u2019s code or advanced research notes Legendary esoteric planar text written in metaphor by an ancient celestial",
+ "trait": [
+  "Concentrate",
+  "Exploration",
+  "Secret"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2363",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:16-08:00"
+}

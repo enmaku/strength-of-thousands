@@ -1,0 +1,107 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "area": [
+  5
+ ],
+ "area_markdown": "5-foot burst",
+ "area_raw": "5-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline": [
+  "Demonic"
+ ],
+ "bloodline_markdown": "[Demonic](/Bloodlines.aspx?ID=21)",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-1461",
+ "legacy_id": [
+  "spell-3"
+ ],
+ "legacy_name": [
+  "Acid Splash"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Caustic Blast](/Spells.aspx?ID=1461)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Acid\" url=\"/Traits.aspx?ID=3\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 319\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\n[Demonic](/Bloodlines.aspx?ID=21)\n\n**Mystery**\n[Blight](/Mysteries.aspx?ID=21)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** 5-foot burst\n\n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=329) Reflex\n\n</row>\n\n</column>\n\n---\n\nYou fling a large glob of acid that immediately detonates, spraying nearby creatures. Creatures in the area take 1d8 acid damage with a basic Reflex save; on a critical failure, the creature also takes 1 [persistent acid damage](/Conditions.aspx?ID=29).\n\n---\n**Heightened (+2)** The initial damage increases by 1d8, and the persistent damage on a critical failure increases by 1.",
+ "mystery": [
+  "Blight"
+ ],
+ "mystery_markdown": "[Blight](/Mysteries.aspx?ID=21)",
+ "name": "Caustic Blast",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 319",
+ "primary_source_category": "Rulebooks",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "saving_throw": "basic Reflex",
+ "saving_throw_markdown": "[basic](/Rules.aspx?ID=329) Reflex",
+ "search_markdown": "<traits>\n<trait label=\"Acid\" url=\"/Traits.aspx?ID=3\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 319\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Bloodline**\n[Demonic](/Bloodlines.aspx?ID=21)\n\n**Mystery**\n[Blight](/Mysteries.aspx?ID=21)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** 5-foot burst\n\n \n</row>\n\n<row gap=\"medium\">\n**Defense**\n[basic](/Rules.aspx?ID=329) Reflex\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nFling a glob of acid that splashes a small area.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 319"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 319",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Fling a glob of acid that splashes a small area.",
+ "summary_markdown": "Fling a glob of acid that splashes a small area.",
+ "text": "Cantrip 1 Caustic Blast Two Actions Acid Cantrip Concentrate Manipulate Source Player Core pg. 319 Traditions Arcane, Primal Bloodline Demonic Mystery Blight Range 30 feet Area 5-foot burst Defense basic Reflex You fling a large glob of acid that immediately detonates, spraying nearby creatures. Creatures in the area take 1d8 acid damage with a basic Reflex save; on a critical failure, the creature also takes 1 persistent acid damage. Heightened (+2) The initial damage increases by 1d8, and the persistent damage on a critical failure increases by 1.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Acid",
+  "Cantrip",
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Energy",
+  "Monster",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Acid](/Traits.aspx?ID=3), [Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Acid",
+  "Cantrip",
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1461",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:47-08:00"
+}

@@ -1,0 +1,107 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "area": [
+  5
+ ],
+ "area_markdown": "5-foot cube",
+ "area_raw": "5-foot cube",
+ "area_type": [
+  "cube"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "element": [
+  "Wood"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+2"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-2444",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Limited\">\n[Bramble Bush](/Spells.aspx?ID=2444)\n<actions string=\"Two Actions\" />\n</title>\n\n<spoilers>May contain spoilers from Wardens of Wildwood</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #203 Shepherd of Decay](/Sources.aspx?ID=243) pg. 78\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** 5-foot cube\n\n</row>\n\n<row gap=\"medium\">\n**Saving Throw** \n[basic](/Rules.aspx?ID=2297) Reflex\n\n</row>\n\n</column>\n\n---\n\nIn a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither. Any creature in the area takes 1d4 piercing damage with a [basic](/Rules.aspx?ID=2247)  Reflex saving throw. \n\nUntil the start of your next turn, the area is [difficult terrain](/Rules.aspx?ID=2366) and [hazardous terrain](/Rules.aspx?ID=2368). Any creature entering the square takes 1d4 piercing damage with a basic Reflex saving throw.\n\n---\n**Heightened (+2)** The initial damage increases by 1d4, and the damage dealt by hazardous terrain increases by 1.",
+ "name": "Bramble Bush",
+ "pfs": "Limited",
+ "primary_source": "Pathfinder #203 Shepherd of Decay",
+ "primary_source_raw": "Pathfinder #203 Shepherd of Decay pg. 78",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Wardens of Wildwood",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2024-06-15",
+ "resistance": {},
+ "saving_throw": "basic Reflex",
+ "saving_throw_markdown": "[basic](/Rules.aspx?ID=2297) Reflex",
+ "search_markdown": "<spoilers>May contain spoilers from Wardens of Wildwood</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=22\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Plant\" url=\"/Traits.aspx?ID=125\" />\n<trait label=\"Wood\" url=\"/Traits.aspx?ID=508\" />\n</traits>\n\n<additional-info>\n**Source** [Pathfinder #203 Shepherd of Decay](/Sources.aspx?ID=243) pg. 78\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Area** 5-foot cube\n\n \n</row>\n\n<row gap=\"medium\">\n**Saving Throw** \n[basic](/Rules.aspx?ID=2297) Reflex\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nIn a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #203 Shepherd of Decay"
+ ],
+ "source_raw": [
+  "Pathfinder #203 Shepherd of Decay pg. 78"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Wardens of Wildwood"
+ ],
+ "source_markdown": "[Pathfinder #203 Shepherd of Decay](/Sources.aspx?ID=243) pg. 78",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "spoilers": "Wardens of Wildwood",
+ "summary": "In a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither.",
+ "summary_markdown": "In a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither.",
+ "text": "Cantrip 1 Bramble Bush Two Actions May contain spoilers from Wardens of Wildwood Uncommon Cantrip Concentrate Manipulate Plant Wood Source Pathfinder #203 Shepherd of Decay pg. 78 Traditions Arcane, Primal Range 30 feet Area 5-foot cube Saving Throw basic Reflex In a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither. Any creature in the area takes 1d4 piercing damage with a basic Reflex saving throw. Until the start of your next turn, the area is difficult terrain and hazardous terrain. Any creature entering the square takes 1d4 piercing damage with a basic Reflex saving throw. Heightened (+2) The initial damage increases by 1d4, and the damage dealt by hazardous terrain increases by 1.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Uncommon",
+  "Wood"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Creature Type",
+  "Rarity",
+  "Elemental"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=22), [Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Plant](/Traits.aspx?ID=125), [Uncommon](/Traits.aspx?ID=159), [Wood](/Traits.aspx?ID=508)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Manipulate",
+  "Plant",
+  "Uncommon",
+  "Wood"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2444",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:25-08:00"
+}

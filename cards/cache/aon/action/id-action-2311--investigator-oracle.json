@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2311",
+ "legacy_id": [
+  "action-74"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Dismiss](/Actions.aspx?ID=2311) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n</column>\n\n---\n\nYou end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "name": "Dismiss",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n</additional-info>\n\n---\n\n<summary>\nYou end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 419"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
+ "speed": {},
+ "summary": "You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "summary_markdown": "You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "text": "Action Dismiss Single Action Concentrate Source Player Core pg. 419 You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.",
+ "trait": [
+  "Concentrate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32)",
+ "trait_raw": [
+  "Concentrate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2311",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:12-08:00"
+}

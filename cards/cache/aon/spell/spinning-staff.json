@@ -1,0 +1,72 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2884",
+ "legacy_id": [
+  "spell-1043"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\n[Spinning Staff](/Spells.aspx?ID=2884)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 180\n\n<row gap=\"medium\">\n\n \n\n**Requirements** You\u2019re wielding a staff.\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYou spin your staff with an impossibly quick twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next [Spellstrike](/Actions.aspx?ID=4260). Make a melee [Strike](/Actions.aspx?ID=2306) with your staff against one foe and then a second melee Strike with your staff against a different foe. Your multiple attack penalty applies to both of these attacks as normal.",
+ "name": "Spinning Staff",
+ "pfs": "Standard",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 180",
+ "primary_source_category": "Rulebooks",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2026-07-30",
+ "requirement": "You\u2019re wielding a staff.",
+ "requirement_markdown": "You\u2019re wielding a staff.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Magus\" url=\"/Traits.aspx?ID=953\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 180\n\n<row gap=\"medium\">\n\n \n\n \n\n**Requirements** You\u2019re wielding a staff.\n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYou spin your staff with an impossibly quick twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next Spellstrike.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 180"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 180",
+ "speed": {},
+ "spell_type": "Focus",
+ "summary": "You spin your staff with an impossibly quick twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next Spellstrike.",
+ "summary_markdown": "You spin your staff with an impossibly quick twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next Spellstrike.",
+ "text": "Focus 1 Spinning Staff Single Action Uncommon Concentrate Focus Magus Source Impossible Magic pg. 180 Requirements You\u2019re wielding a staff. You spin your staff with an impossibly quick twirling flourish, attacking two foes and transforming the momentum into magical energy to charge for your next Spellstrike. Make a melee Strike with your staff against one foe and then a second melee Strike with your staff against a different foe. Your multiple attack penalty applies to both of these attacks as normal.",
+ "tradition_markdown": "",
+ "trait": [
+  "Concentrate",
+  "Focus",
+  "Magus",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Focus](/Traits.aspx?ID=511), [Magus](/Traits.aspx?ID=953), [Uncommon](/Traits.aspx?ID=721)",
+ "trait_raw": [
+  "Concentrate",
+  "Focus",
+  "Magus",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2884",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:26-08:00"
+}

@@ -1,0 +1,40 @@
+{
+ "category": "class-feature",
+ "class": "Investigator",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-904",
+ "legacy_id": [
+  "class-13"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Strategic Strike](/Classes.aspx?ID=59)</title>\n\n<column gap=\"tiny\">\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 100\n\n**Class** Investigator\n</column>\n\n---\n\nWhen you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier to your attack roll due to Devising a Stratagem, you deal an additional 1d6 precision damage. As your investigator level increases, so too does the deadliness of your strategic strike. Increase the number of dice by one at 5th, 9th, 13th, and 17th levels.",
+ "name": "Strategic Strike",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 100",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 100\n\n**Class** Investigator\n</additional-info>\n\n---\n\n<summary>\nWhen you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier to your attack \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 100"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 100",
+ "speed": {},
+ "summary": "When you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier to your attack \u2026",
+ "summary_markdown": "When you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier to your attack \u2026",
+ "text": "Class Feature 1 Strategic Strike Source Player Core 2 pg. 100 Class Investigator When you strike carefully and with forethought, you deal a telling blow. When making a Strike that adds your Intelligence modifier to your attack roll due to Devising a Stratagem, you deal an additional 1d6 precision damage. As your investigator level increases, so too does the deadliness of your strategic strike. Increase the number of dice by one at 5th, 9th, 13th, and 17th levels.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=59",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:08-08:00"
+}

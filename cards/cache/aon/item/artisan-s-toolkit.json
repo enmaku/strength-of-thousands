@@ -1,0 +1,61 @@
+{
+ "base_item_markdown": "",
+ "bulk": 2,
+ "bulk_raw": "2",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "hands": "-1",
+ "id": "equipment-2703",
+ "item_category": "Adventuring Gear",
+ "item_child_id": [
+  "equipment-2703-2470",
+  "equipment-2703-2471"
+ ],
+ "legacy_id": [
+  "equipment-3"
+ ],
+ "legacy_name": [
+  "Artisan's Tools"
+ ],
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 0+\"\n    pfs=\"Standard\"\n>\n[Artisan's Toolkit](/Equipment.aspx?ID=2703)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n**Hands** -1\n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nYou need this toolkit to create items from raw materials with the [Craft](/Actions.aspx?ID=43) skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it.\n\nYou can use a toolkit with 1 hand if you\u2019re wearing it or 2 if you\u2019re holding it. [See here for details](/Rules.aspx?ID=2207). \n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 0\"\npfs=\"Standard\"\n>\nArtisan's Toolkit\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n**Bulk** 2\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nArtisan's Toolkit (Sterling)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 50 gp\n\n<row gap=\"medium\">\n\n**Bulk** 2\n\n</row>\n\n</column>\n\n---\n\nA sterling artisan's toolkit gives you a +1 item bonus to the check.",
+ "name": "Artisan's Toolkit",
+ "pfs": "Standard",
+ "price": 400,
+ "price_raw": "4 gp",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 287",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 287\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n**Hands** -1\n\n \n\n**Bulk** 2\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYou need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026\n</summary>",
+ "skill": [
+  "Crafting"
+ ],
+ "skill_markdown": "[Crafting](/Skills.aspx?ID=37)",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 287"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 287",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "You need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026",
+ "summary_markdown": "You need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; \u2026",
+ "text": "Item 0+ Artisan's Toolkit Source Player Core pg. 287 Price 4 gp Hands -1 Bulk 2 You need this toolkit to create items from raw materials with the Craft skill. Different sets are needed for different work, as determined by the GM; for example, a blacksmith's toolkit differs from a woodworker's toolkit. If you wear your artisan's toolkit, you can draw and replace it as part of the action that uses it. You can use a toolkit with 1 hand if you\u2019re wearing it or 2 if you\u2019re holding it. See here for details. Item 0 Artisan's Toolkit Source Player Core pg. 287 Price 4 gp Bulk 2 Item 3 Artisan's Toolkit (Sterling) Source Player Core pg. 287 Price 50 gp Bulk 2 A sterling artisan's toolkit gives you a +1 item bonus to the check.",
+ "trait_markdown": "",
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2703",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:42-08:00"
+}

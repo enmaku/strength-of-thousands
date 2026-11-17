@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2312",
+ "legacy_id": [
+  "action-94"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Fly](/Actions.aspx?ID=2312) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirements** You have a fly Speed.\n\n</column>\n\n---\n\nYou move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through [difficult terrain](/Rules.aspx?ID=453). You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don't take [falling damage](/Rules.aspx?ID=402). You can use an action to Fly 0 feet to hover in place. If you're airborne at the end of your turn and didn't use a Fly action this round, you fall.",
+ "name": "Fly",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have a fly Speed.",
+ "requirement_markdown": "You have a fly Speed.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirement**\nYou have a fly Speed.\n</additional-info>\n\n---\n\n<summary>\nYou move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 419"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
+ "speed": {},
+ "summary": "You move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can \u2026",
+ "summary_markdown": "You move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can \u2026",
+ "text": "Action Fly Single Action Move Source Player Core pg. 419 Requirements You have a fly Speed. You move through the air up to your fly Speed. Moving upward (straight up or diagonally) uses the rules for moving through difficult terrain. You can move straight down 10 feet for every 5 feet of movement you spend. If you Fly to the ground, you don't take falling damage. You can use an action to Fly 0 feet to hover in place. If you're airborne at the end of your turn and didn't use a Fly action this round, you fall.",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2312",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:32-08:00"
+}

@@ -1,0 +1,66 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Nudge the Scales"
+ ],
+ "feat_markdown": "Nudge the Scales",
+ "id": "feat-6055",
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Nudge the Scales](/Feats.aspx?ID=6055) <actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=800\" />\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=817\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 138\n\n</column>\n\n---\n\nYou lay a finger on the scales of life and death to heal a creature, regardless of whether it's living or [undead](/Traits.aspx?ID=722). You restore Hit Points equal to 2 + double your level to one creature within 30 feet. <br />In addition, you can mediate during your daily preparations to place yourself on one side of the scales. Choose life or death. If you align yourself with life, you can be targeted and healed by vitality healing effects, as normal for most living creatures; if you align yourself with death, you gain the [void healing](/MonsterAbilities.aspx?ID=83) ability, and can instead be targeted and healed by [void](/Traits.aspx?ID=510) effects and other effects that restore Hit Points to undead creatures.",
+ "name": "Nudge the Scales",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 138",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cursebound\" url=\"/Traits.aspx?ID=800\" />\n<trait label=\"Divine\" url=\"/Traits.aspx?ID=579\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=817\" />\n<trait label=\"Spirit\" url=\"/Traits.aspx?ID=737\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 138\n\n</additional-info>\n\n---\n\n<summary>\nYou lay a finger on the scales of life and death to heal a creature, regardless of whether it's living or [undead](/Traits.aspx?ID=722).\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 138"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 138",
+ "speed": {},
+ "summary": "You lay a finger on the scales of life and death to heal a creature, regardless of whether it's living or undead.",
+ "summary_markdown": "You lay a finger on the scales of life and death to heal a creature, regardless of whether it's living or [undead](/Traits.aspx?ID=722).",
+ "text": "Feat 1 Nudge the Scales Single Action Cursebound Divine Healing Oracle Spirit Source Player Core 2 pg. 138 You lay a finger on the scales of life and death to heal a creature, regardless of whether it's living or undead. You restore Hit Points equal to 2 + double your level to one creature within 30 feet. In addition, you can mediate during your daily preparations to place yourself on one side of the scales. Choose life or death. If you align yourself with life, you can be targeted and healed by vitality healing effects, as normal for most living creatures; if you align yourself with death, you gain the void healing ability, and can instead be targeted and healed by void effects and other effects that restore Hit Points to undead creatures.",
+ "trait": [
+  "Cursebound",
+  "Divine",
+  "Healing",
+  "Oracle",
+  "Spirit"
+ ],
+ "trait_group": [
+  "Class-Specific",
+  "Tradition",
+  "Monster",
+  "Mechanics",
+  "Class",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Cursebound](/Traits.aspx?ID=800), [Divine](/Traits.aspx?ID=579), [Healing](/Traits.aspx?ID=623), [Oracle](/Traits.aspx?ID=817), [Spirit](/Traits.aspx?ID=737)",
+ "trait_raw": [
+  "Cursebound",
+  "Divine",
+  "Healing",
+  "Oracle",
+  "Spirit"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=6055",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:04-08:00"
+}

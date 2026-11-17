@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2629",
+ "legacy_id": [
+  "action-518"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Scout](/Actions.aspx?ID=2629) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</column>\n\n---\n\nYou scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls.",
+ "name": "Scout",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 439",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</additional-info>\n\n---\n\n<summary>\nYou scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 439"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 439",
+ "speed": {},
+ "summary": "You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a \u2026",
+ "summary_markdown": "You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a \u2026",
+ "text": "Action Scout Concentrate Exploration Source Player Core pg. 439 You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls.",
+ "trait": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2629",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:50-08:00"
+}

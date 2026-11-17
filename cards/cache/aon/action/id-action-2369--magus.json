@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2369",
+ "legacy_id": [
+  "action-28"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Balance](/Actions.aspx?ID=2369) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 233\n\n**Requirements** You are in a square that contains a [narrow surface](/Rules.aspx?ID=455), [uneven ground](/Rules.aspx?ID=456), or another similar feature.\n\n</column>\n\n---\n\nYou move across a narrow surface or uneven ground, attempting an [Acrobatics](/Skills.aspx?ID=1) check against its Balance DC. You are [off-guard](/Conditions.aspx?ID=58) while on a narrow surface or uneven ground.\n\n**Critical Success** You move up to your Speed.<br />\n**Success** You move up to your Speed, treating it as [difficult terrain](/Rules.aspx?ID=453) (every 5 feet costs 10 feet of movement).<br />\n**Failure** You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends.<br />\n**Critical Failure** You fall and your turn ends.\n\n<title level=\"2\">Sample Balance Tasks</title>\n\n**Untrained** tangled roots, uneven cobblestones<br />\n**Trained** wooden beam<br />\n**Expert** deep, loose gravel<br />\n**Master** tightrope, smooth sheet of ice<br />\n**Legendary** razor\u2019s edge, chunks of floor falling in midair",
+ "name": "Balance",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 233",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You are in a square that contains a narrow surface, uneven ground, or another similar feature.",
+ "requirement_markdown": "You are in a square that contains a [narrow surface](/Rules.aspx?ID=455), [uneven ground](/Rules.aspx?ID=456), or another similar feature.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 233\n\n**Requirement**\nYou are in a square that contains a [narrow surface](/Rules.aspx?ID=455), [uneven ground](/Rules.aspx?ID=456), or another similar feature.\n</additional-info>\n\n---\n\n<summary>\nYou move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are off-guard while on a narrow surface \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 233"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 233",
+ "speed": {},
+ "summary": "You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are off-guard while on a narrow surface \u2026",
+ "summary_markdown": "You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are off-guard while on a narrow surface \u2026",
+ "text": "Action Balance Single Action Move Source Player Core pg. 233 Requirements You are in a square that contains a narrow surface, uneven ground, or another similar feature. You move across a narrow surface or uneven ground, attempting an Acrobatics check against its Balance DC. You are off-guard while on a narrow surface or uneven ground. Critical Success You move up to your Speed. Success You move up to your Speed, treating it as difficult terrain (every 5 feet costs 10 feet of movement). Failure You must remain stationary to keep your balance (wasting the action) or you fall. If you fall, your turn ends. Critical Failure You fall and your turn ends. Sample Balance Tasks Untrained tangled roots, uneven cobblestones Trained wooden beam Expert deep, loose gravel Master tightrope, smooth sheet of ice Legendary razor\u2019s edge, chunks of floor falling in midair",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2369",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:35-08:00"
+}

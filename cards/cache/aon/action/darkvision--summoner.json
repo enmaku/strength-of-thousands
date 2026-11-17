@@ -1,0 +1,40 @@
+{
+ "ability_type": "Familiar",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-142",
+ "legacy_id": [
+  "familiar-ability-5"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Darkvision](/Familiars.aspx?ID=142) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Ability Type** Familiar\n\n</column>\n\nYour familiar gains [darkvision](/Rules.aspx?ID=415).",
+ "name": "Darkvision",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 259",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Ability Type** Familiar\n</additional-info>\n\n---\n\n<summary>\nYour familiar gains darkvision.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 259"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 259",
+ "speed": {},
+ "summary": "Your familiar gains darkvision.",
+ "summary_markdown": "Your familiar gains darkvision.",
+ "text": "Familiar Ability Darkvision Source Player Core pg. 259 Ability Type Familiar Your familiar gains darkvision.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=142",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:51-08:00"
+}

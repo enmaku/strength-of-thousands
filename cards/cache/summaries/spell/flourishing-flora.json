@@ -1,0 +1,5 @@
+{
+ "hash": "5c736e7b957a",
+ "front": "Plants burst from the ground in a burst, damaging creatures; the plant type you pick sets damage type and crit-failure effect.",
+ "back": "2d4 damage, basic Reflex save; type depends on plant chosen when Casting.\nCacti: piercing; crit failure 1 persistent bleed.\nFlowers: poison; crit failure dazzled 2 rounds.\nFruits: bludgeoning; crit failure clumsy 1 for 2 rounds.\nRoots: bludgeoning; crit failure prone.\nHeightened (+1): +1d4 damage; cacti bleed +1."
+}

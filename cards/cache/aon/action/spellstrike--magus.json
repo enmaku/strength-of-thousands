@@ -1,0 +1,43 @@
+{
+ "category": "class-feature",
+ "class": "Magus",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-1259",
+ "legacy_id": [
+  "class-17"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Spellstrike](/Classes.aspx?ID=74)</title>\n\n<column gap=\"tiny\">\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</column>\n\n---\n\nYou\u2019ve learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity. \n\n<document level=\"2\" id=\"action-4260\" /> \n\n<title level=\"3\" right=\"\">Spellstrike Specifics</title> Though the base Spellstrike rules cover most spells, various modifications apply to more complicated spells when loaded into your fist, blade, or other attack.\n\n **One Target:** The spell targets only the target of your Strike, even if it normally allows more targets. This includes area spells, against which only the target attempts a saving throw. Any ongoing effects of the area, such as the [difficult terrain](/Rules.aspx?ID=2366) from [_scatter scree_](/Spells.aspx?ID=2021), affect only the target's space. Some feats let you affect more creatures.\n\n **Reach:** The coupled spell affects the target using the reach of the weapon or unarmed attack you use for your Spellstrike. For instance, [_gouging claw_](/Spells.aspx?ID=1546) would affect a creature beyond the reach of your hand if you used a weapon with reach, and [_frostbite_](/Spells.aspx?ID=1539) would affect only a creature in your weapon's reach, even though the spell's range is longer.\n\n **Ancillary Effects:** Your spell still has any non-targeted effects that might affect creatures other than the target, as well as any ongoing effects starting from the moment you hit with the Strike. For example, _scatter scree_ would still create difficult terrain in the target's space (as mentioned above), and [_tangle vine's_](/Spells.aspx?ID=1713) circumstance penalty would last for its normal duration. The spell takes effect after the Strike deals damage; if the Strike has other special effects, the GM determines whether they happen before or after the spell.\n\n **Invalid or Immune Target:** If the target you hit wouldn't be a valid target for the spell, the spell is still expended but doesn't affect the target. If the target is immune to your attack but not the spell, it can still be affected by the spell.\n\n **Variable Actions:** Some spells have different effects based on the number of actions you spend to cast them. You choose whether to use the effects of the 1- or 2-action version of the spell when you use Spellstrike. A spell has to take exactly 1 or 2 actions; you can't use Spellstrike with a spell that takes a free action, reaction, or 3 or more actions.\n\n **Spellshape:** Even if you gain a spellshape action from outside the magus class, such as from a multiclass feat or an item, you typically can't use spellshape with Spellstrike. Spellshape actions require the next action you take to be Cast a Spell, and Spellstrike is a combined activity that doesn't qualify.",
+ "name": "Spellstrike",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 9",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</additional-info>\n\n---\n\n<summary>\nYou\u2019ve learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity.   \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 9"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 9",
+ "speed": {},
+ "sub_document_id": [
+  "action-4260"
+ ],
+ "summary": "You\u2019ve learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity.   \u2026",
+ "summary_markdown": "You\u2019ve learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity.   \u2026",
+ "text": "Class Feature 1 Spellstrike Source Impossible Magic pg. 9 Class Magus You\u2019ve learned the fundamental magus technique that lets you combine magical and physical attacks together. You gain the Spellstrike activity. Action Spellstrike Two Actions Magus Source Impossible Magic pg. 11 Frequency until recharged (see below) You channel a spell into a punch or sword thrust to deliver a combined attack. You cast a spell that takes 1 or 2 actions to cast and requires either a spell attack roll or a saving throw. You imbue its effects into an attack instead of executing the spell normally. Make a melee Strike with a weapon or unarmed attack. This counts as two attacks for your multiple attack penalty, but you don't apply the penalty until after you've completed the Spellstrike. The infusion of spell energy grants your Strike the arcane trait, making it magical. If the spell required a spell attack roll, use your Strike's results to determine the effects of both the Strike and the spell. If the spell required a save, the target of the Strike rolls its saving throw normally regardless of your attack roll's result unless your Strike was a critical failure, in which case your spell is disrupted. Combine the Strike and spell's damage for the purpose of resistances and weaknesses. After you use Spellstrike, you can't do so again until you recharge your Spellstrike as a single action, which has the concentrate trait. You also recharge your Spellstrike when you cast a conflux spell that takes at least 1 action to cast; casting a focus spell of another type doesn't recharge your Spellstrike. Spellstrike Specifics Though the base Spellstrike rules cover most spells, various modifications apply to more complicated spells when loaded into your fist, blade, or other attack. One Target: The spell targets only the target of your Strike, even if it normally allows more targets. This includes area spells, against which only the target attempts a saving throw. Any ongoing effects of the area, such as the difficult terrain from scatter scree , affect only the target's space. Some feats let you affect more creatures. Reach: The coupled spell affects the target using the reach of the weapon or unarmed attack you use for your Spellstrike. For instance, gouging claw would affect a creature beyond the reach of your hand if you used a weapon with reach, and frostbite would affect only a creature in your weapon's reach, even though the spell's range is longer. Ancillary Effects: Your spell still has any non-targeted effects that might affect creatures other than the target, as well as any ongoing effects starting from the moment you hit with the Strike. For example, scatter scree would still create difficult terrain in the target's space (as mentioned above), and tangle vine's circumstance penalty would last for its normal duration. The spell takes effect after the Strike deals damage; if the Strike has other special effects, the GM determines whether they happen before or after the spell. Invalid or Immune Target: If the target you hit wouldn't be a valid target for the spell, the spell is still expended but doesn't affect the target. If the target is immune to your attack but not the spell, it can still be affected by the spell. Variable Actions: Some spells have different effects based on the number of actions you spend to cast them. You choose whether to use the effects of the 1- or 2-action version of the spell when you use Spellstrike. A spell has to take exactly 1 or 2 actions; you can't use Spellstrike with a spell that takes a free action, reaction, or 3 or more actions. Spellshape: Even if you gain a spellshape action from outside the magus class, such as from a multiclass feat or an item, you typically can't use spellshape with Spellstrike. Spellshape actions require the next action you take to be Cast a Spell, and Spellstrike is a combined activity that doesn't qualify.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=74",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:27-08:00"
+}

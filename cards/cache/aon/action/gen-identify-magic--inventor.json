@@ -1,0 +1,52 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2365",
+ "legacy_id": [
+  "action-24"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Identify Magic](/Actions.aspx?ID=2365) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 230\n\n</column>\n\n---\n\nOnce you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed magic or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn't increase the DC to identify it.\n\n**Critical Success** You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed.<br />\n**Success** For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect's name and what it does. You can't try again in hopes of getting a critical success.<br />\n**Failure** You fail to identify the magic and can't try again for 1 day.<br />\n**Critical Failure** You misidentify the magic as something else of the GM's choice.",
+ "name": "Identify Magic",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 230",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Secret\" url=\"/Traits.aspx?ID=142\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 230\n\n</additional-info>\n\n---\n\n<summary>\nOnce you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 230"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 230",
+ "speed": {},
+ "summary": "Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If \u2026",
+ "summary_markdown": "Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If \u2026",
+ "text": "Action Identify Magic Concentrate Exploration Secret Source Player Core pg. 230 Once you discover that an item, location, or ongoing effect is magical, you can spend 10 minutes to try to identify the particulars of its magic. If your attempt is interrupted, you must start over. The GM sets the DC for your check. Cursed magic or esoteric subjects usually have higher DCs or might even be impossible to identify using this activity alone. Heightening a spell doesn't increase the DC to identify it. Critical Success You learn all the attributes of the magic, including its name (for an effect), what it does, any means of activating it (for an item or location), and whether it is cursed. Success For an item or location, you get a sense of what it does and learn any means of activating it. For an ongoing effect (such as a spell with a duration), you learn the effect's name and what it does. You can't try again in hopes of getting a critical success. Failure You fail to identify the magic and can't try again for 1 day. Critical Failure You misidentify the magic as something else of the GM's choice.",
+ "trait": [
+  "Concentrate",
+  "Exploration",
+  "Secret"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595), [Secret](/Traits.aspx?ID=142)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration",
+  "Secret"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2365",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:52-08:00"
+}

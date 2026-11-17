@@ -1,0 +1,5 @@
+{
+ "hash": "ced190981368",
+ "front": "Name a type of object in a small area and instantly learn a rough count of those visible there.",
+ "back": "Name an object type in the area; learn an estimate of the quantity clearly visible, rounded to the largest digit (180 coins reads as about 200).\nType can be as specific or general as you like, but distinguishing features must be obvious at a glance.\nFooled by objects disguised as other objects."
+}

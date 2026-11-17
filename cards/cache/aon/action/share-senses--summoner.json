@@ -1,0 +1,40 @@
+{
+ "ability_type": "Master",
+ "category": "familiar-ability",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "familiar-ability-136",
+ "legacy_id": [
+  "familiar-ability-40"
+ ],
+ "markdown": "<title\n    level=\"1\"\n    right=\"Familiar Ability \"\n    pfs=\"Standard\"\n>\n[Share Senses](/Familiars.aspx?ID=136) <actions string=\"\" />\n</title>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 214\n\n**Ability Type** Master\n\n</column>\n\nOnce every 10 minutes, you can use a single action with the [concentrate](/Traits.aspx?ID=32) trait to project your senses into your familiar. When you do, you lose all sensory information from your own body, but can sense through your familiar's body for up to 1 minute. You can Dismiss this effect.",
+ "name": "Share Senses",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 214",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 214\n\n**Ability Type** Master\n</additional-info>\n\n---\n\n<summary>\nOnce every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 214"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 214",
+ "speed": {},
+ "summary": "Once every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all \u2026",
+ "summary_markdown": "Once every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all \u2026",
+ "text": "Familiar Ability Share Senses Source Player Core pg. 214 Ability Type Master Once every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all sensory information from your own body, but can sense through your familiar's body for up to 1 minute. You can Dismiss this effect.",
+ "type": "Familiar Ability",
+ "url": "/Familiars.aspx?ID=136",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:50-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "de8c18df194e",
+ "front": "Disarm a trap or other complex device with a Thievery check. Complex devices may need multiple successes.",
+ "back": "Thievery check; a thieves' toolkit may be required, and some devices need higher Thievery proficiency.\nCrit Success: disable it (or 2 successes toward a multi-success device) with no trace; you can rearm it later if it can be rearmed.\nSuccess: disable it, or 1 success toward a multi-success device.\nCrit Failure: you trigger the device."
+}

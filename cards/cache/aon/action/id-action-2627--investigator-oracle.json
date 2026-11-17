@@ -1,0 +1,50 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2627",
+ "legacy_id": [
+  "action-516"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Investigate](/Actions.aspx?ID=2627) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</column>\n\n---\n\nYou seek out information about your surroundings while traveling at half speed. You use [Recall Knowledge](/Actions.aspx?ID=26) as a [secret](/Traits.aspx?ID=142) check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find.",
+ "name": "Investigate",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 439",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 439\n\n</additional-info>\n\n---\n\n<summary>\nYou seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 439"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 439",
+ "speed": {},
+ "summary": "You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among \u2026",
+ "summary_markdown": "You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among \u2026",
+ "text": "Action Investigate Concentrate Exploration Source Player Core pg. 439 You seek out information about your surroundings while traveling at half speed. You use Recall Knowledge as a secret check to discover clues among the various things you can see and engage with as you journey along. You can use any skill that has a Recall Knowledge action while Investigating, but the GM determines whether the skill is relevant to the clues you could find.",
+ "trait": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Exploration](/Traits.aspx?ID=595)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2627",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:14-08:00"
+}

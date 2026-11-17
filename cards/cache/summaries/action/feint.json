@@ -1,0 +1,5 @@
+{
+ "hash": "681cd2e6e32b",
+ "front": "Mislead a foe in melee with a Deception check so your real attack catches them off-guard.",
+ "back": "Deception vs. target's Perception DC.\nCrit Success: target is off-guard against your melee attacks until end of your next turn.\nSuccess: target is off-guard against your next melee attack before end of your current turn.\nCrit Failure: you are off-guard against the target's melee attacks until end of your next turn."
+}

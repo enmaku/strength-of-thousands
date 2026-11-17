@@ -1,0 +1,92 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain": [
+  "Soul"
+ ],
+ "domain_markdown": "[Soul](/Domains.aspx?ID=118)",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+3"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 4th rank",
+  "Heightened 7th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  4,
+  7,
+  10
+ ],
+ "id": "spell-2409",
+ "legacy_id": [
+  "spell-616"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Focus 1\" pfs=\"Standard\">\n[Eject Soul](/Spells.aspx?ID=2409)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 269\n\n**Domain**\n[Soul](/Domains.aspx?ID=118)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Target** 1 living creature that has a soul\n</row>\n\n<row gap=\"medium\">\n**Defense**\nFortitude\n\n</row>\n\n</column>\n\n---\n\nYour touch disrupts the connection between body and soul, possibly forcing the soul out of the body altogether. The target must attempt a Fortitude save. You can allow allies to choose the degree of success instead of rolling a saving throw.\n\n**Success** The target is unaffected.<br />\n**Failure** The target is [stunned](/Conditions.aspx?ID=93) 1 as its soul briefly loses its connection to their body.<br />\n**Critical Failure** The target\u2019s soul exits its body and the target\u2019s body becomes [stunned](/Conditions.aspx?ID=93) for 1 round. While their body is stunned in this way, the target remains fully aware in soul form; they simply can\u2019t consciously move their body (though the body makes basic instinctual defensive movements). The target\u2019s soul has the [incorporeal](/Traits.aspx?ID=632) trait, is [invisible](/Conditions.aspx?ID=83), and has a [fly Speed](/Rules.aspx?ID=2350) of 60 feet. It can\u2019t [attack](/Traits.aspx?ID=540), [cast spells](/Actions.aspx?ID=2734), or attempt any skill checks that require a physical body, and it must always maintain line of effect to the target\u2019s body. When the target\u2019s body ceases being stunned, the target\u2019s soul instantly returns to their body as the target wakes.\n\n---\n**Heightened (+3)** If a willing ally chooses to critically fail, they can stay in soul form for 1 additional round.",
+ "name": "Eject Soul",
+ "pfs": "Standard",
+ "primary_source": "Divine Mysteries",
+ "primary_source_raw": "Divine Mysteries pg. 269",
+ "primary_source_category": "Lost Omens",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2025-01-30",
+ "resistance": {},
+ "saving_throw": "Fortitude",
+ "saving_throw_markdown": "Fortitude",
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Cleric\" url=\"/Traits.aspx?ID=26\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Focus\" url=\"/Traits.aspx?ID=511\" />\n<trait label=\"Incapacitation\" url=\"/Traits.aspx?ID=93\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 269\n\n**Domain**\n[Soul](/Domains.aspx?ID=118)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n \n\n**Target** 1 living creature that has a soul\n</row>\n\n<row gap=\"medium\">\n**Defense**\nFortitude\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYour touch disrupts the connection between body and soul, possibly forcing the soul out of the body altogether.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Divine Mysteries"
+ ],
+ "source_raw": [
+  "Divine Mysteries pg. 269"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Divine Mysteries](/Sources.aspx?ID=234) pg. 269",
+ "speed": {},
+ "spell_type": "Focus",
+ "summary": "Your touch disrupts the connection between body and soul, possibly forcing the soul out of the body altogether.",
+ "summary_markdown": "Your touch disrupts the connection between body and soul, possibly forcing the soul out of the body altogether.",
+ "target": "1 living creature that has a soul",
+ "target_markdown": "1 living creature that has a soul",
+ "text": "Focus 1 Eject Soul Two Actions Uncommon Cleric Concentrate Focus Incapacitation Manipulate Source Divine Mysteries pg. 269 Domain Soul Range touch Target 1 living creature that has a soul Defense Fortitude Your touch disrupts the connection between body and soul, possibly forcing the soul out of the body altogether. The target must attempt a Fortitude save. You can allow allies to choose the degree of success instead of rolling a saving throw. Success The target is unaffected. Failure The target is stunned 1 as its soul briefly loses its connection to their body. Critical Failure The target\u2019s soul exits its body and the target\u2019s body becomes stunned for 1 round. While their body is stunned in this way, the target remains fully aware in soul form; they simply can\u2019t consciously move their body (though the body makes basic instinctual defensive movements). The target\u2019s soul has the incorporeal trait, is invisible, and has a fly Speed of 60 feet. It can\u2019t attack, cast spells, or attempt any skill checks that require a physical body, and it must always maintain line of effect to the target\u2019s body. When the target\u2019s body ceases being stunned, the target\u2019s soul instantly returns to their body as the target wakes. Heightened (+3) If a willing ally chooses to critically fail, they can stay in soul form for 1 additional round.",
+ "tradition_markdown": "",
+ "trait": [
+  "Cleric",
+  "Concentrate",
+  "Focus",
+  "Incapacitation",
+  "Manipulate",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Class",
+  "Mechanics",
+  "Rarity"
+ ],
+ "trait_markdown": "[Cleric](/Traits.aspx?ID=26), [Concentrate](/Traits.aspx?ID=32), [Focus](/Traits.aspx?ID=511), [Incapacitation](/Traits.aspx?ID=93), [Manipulate](/Traits.aspx?ID=104), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Cleric",
+  "Concentrate",
+  "Focus",
+  "Incapacitation",
+  "Manipulate",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2409",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:02-08:00"
+}

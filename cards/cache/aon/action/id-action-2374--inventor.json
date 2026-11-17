@@ -1,0 +1,52 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2374",
+ "legacy_id": [
+  "action-33"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Climb](/Actions.aspx?ID=2374) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n**Requirements** You have two hands free.\n\n</column>\n\n---\n\nYou attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an [incline](/Rules.aspx?ID=457). You're [off-guard](/Conditions.aspx?ID=58) while climbing unless you have a climb Speed. The GM determines the DC based on the nature of the incline and environmental circumstances; you might get an automatic critical success on an incline that's trivial to climb. If your land Speed is 40 feet or higher, increase the maximum distance by 5 feet for every 20 feet of Speed above 20 feet.\n\n**Critical Success** You move along the incline, increasing the maximum distance by 5 feet.<br />\n**Success** You move along the incline.<br />\n**Critical Failure** You fall. If you began the climb on stable ground, you fall and land [prone](/Conditions.aspx?ID=31).\n\n<title level=\"2\">Sample Climb Tasks</title>\n\n**Untrained** ladder, steep slope, low-branched tree<br />\n**Trained** rigging, rope, typical tree<br />\n**Expert** wall with small handholds and footholds<br />\n**Master** ceiling with handholds and footholds, rock wall<br />\n**Legendary** smooth surface",
+ "name": "Climb",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 234",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "You have two hands free.",
+ "requirement_markdown": "You have two hands free.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Move\" url=\"/Traits.aspx?ID=114\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 234\n\n**Requirement**\nYou have two hands free.\n</additional-info>\n\n---\n\n<summary>\nYou attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're off-guard while climbing unless you have a \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 234"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 234",
+ "speed": {},
+ "summary": "You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're off-guard while climbing unless you have a \u2026",
+ "summary_markdown": "You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're off-guard while climbing unless you have a \u2026",
+ "text": "Action Climb Single Action Move Source Player Core pg. 234 Requirements You have two hands free. You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're off-guard while climbing unless you have a climb Speed. The GM determines the DC based on the nature of the incline and environmental circumstances; you might get an automatic critical success on an incline that's trivial to climb. If your land Speed is 40 feet or higher, increase the maximum distance by 5 feet for every 20 feet of Speed above 20 feet. Critical Success You move along the incline, increasing the maximum distance by 5 feet. Success You move along the incline. Critical Failure You fall. If you began the climb on stable ground, you fall and land prone. Sample Climb Tasks Untrained ladder, steep slope, low-branched tree Trained rigging, rope, typical tree Expert wall with small handholds and footholds Master ceiling with handholds and footholds, rock wall Legendary smooth surface",
+ "trait": [
+  "Move"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Move](/Traits.aspx?ID=114)",
+ "trait_raw": [
+  "Move"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2374",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:52-08:00"
+}

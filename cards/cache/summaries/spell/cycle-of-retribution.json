@@ -1,0 +1,5 @@
+{
+ "hash": "5252ff0f7588",
+ "front": "Fill a target with the anguish of violence so it takes mental damage when it acts hostilely.",
+ "back": "Will save.\nCrit Success: unaffected.\nSuccess: next time target takes a hostile action it takes 1d4 mental damage, then the spell ends.\nFailure: first time each round target takes a hostile action, it takes 1d4 mental damage.\nCrit Failure: each time it takes a hostile action, 1d4 mental damage.\nSustain up to 1 min.\nHeightened (+1): +1d4 damage."
+}

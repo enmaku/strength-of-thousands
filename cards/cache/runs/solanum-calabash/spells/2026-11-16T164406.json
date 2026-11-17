@@ -1,0 +1,290 @@
+{
+ "version": 1,
+ "timestamp": "2026-11-16T16:44:06-08:00",
+ "hero": "solanum-calabash",
+ "label": "Solanum",
+ "kind": "spells",
+ "hero_sha": "138d6d05f530",
+ "blacklist_sha": "5a23550b013d",
+ "blacklist": {
+  "names": []
+ },
+ "hero_context": {
+  "name": "Solanum Calabash",
+  "class": "Magus",
+  "dualClass": null,
+  "level": 1,
+  "proficiencies": {
+   "classDC": 2,
+   "perception": 2,
+   "fortitude": 4,
+   "reflex": 2,
+   "will": 4,
+   "heavy": 0,
+   "medium": 2,
+   "light": 2,
+   "unarmored": 2,
+   "advanced": 0,
+   "martial": 2,
+   "simple": 2,
+   "unarmed": 2,
+   "castingArcane": 2,
+   "castingDivine": 0,
+   "castingOccult": 0,
+   "castingPrimal": 0,
+   "acrobatics": 2,
+   "arcana": 2,
+   "athletics": 2,
+   "crafting": 0,
+   "deception": 0,
+   "diplomacy": 0,
+   "intimidation": 0,
+   "medicine": 0,
+   "nature": 2,
+   "occultism": 2,
+   "performance": 0,
+   "religion": 0,
+   "society": 0,
+   "stealth": 0,
+   "survival": 0,
+   "thievery": 0,
+   "piloting": 0,
+   "computers": 0
+  },
+  "feats": [
+   "Oddity Identification",
+   "Fruit Leshy",
+   "Seedpod"
+  ],
+  "specials": [
+   "Spellstrike",
+   "Spellstrike Specifics",
+   "Arcane Cascade",
+   "Twisting Tree",
+   "Conflux Spells",
+   "Spellbook",
+   "Low-Light Vision",
+   "Plant Nourishment",
+   "Fruit Leshy"
+  ],
+  "familiar_abilities": [],
+  "pets": [],
+  "rituals": [],
+  "weapons": [
+   "Bo Staff"
+  ],
+  "armor": [
+   "Leaf Weave"
+  ],
+  "equipment": [
+   "Backpack"
+  ]
+ },
+ "cards": [
+  {
+   "id": "approximate",
+   "title": "Approximate",
+   "subtitle": "Cantrip 1",
+   "page": 1,
+   "slot": 1,
+   "render_sha": "2859d6558ec9",
+   "fields": {
+    "title": "c65bb471abb2",
+    "subtitle": "b66b8be0388e",
+    "actions": "e1c740375aa6",
+    "stats": "09d6335bcbe0",
+    "footer": "982e59e9f5b5",
+    "front": "dfb39250f6fd",
+    "back": "3344a24cde8d",
+    "cited": "e4d6e7c77087"
+   },
+   "source_sha": "ced190981368",
+   "summarized": true,
+   "aon_id": "spell-2631",
+   "aon_fetched": "2026-11-16T16:42:24-08:00"
+  },
+  {
+   "id": "healing-plaster",
+   "title": "Healing Plaster",
+   "subtitle": "Cantrip 1",
+   "page": 1,
+   "slot": 2,
+   "render_sha": "d773dc0dd49a",
+   "fields": {
+    "title": "6e07861bc28e",
+    "subtitle": "b66b8be0388e",
+    "actions": "834c4ff8770e",
+    "stats": "e7dce1502c71",
+    "footer": "2b36e8eb7707",
+    "front": "100c9a317c67",
+    "back": "c9ab16cd587e",
+    "cited": "a56024159e37"
+   },
+   "source_sha": "7912c5ff0941",
+   "summarized": true,
+   "aon_id": "spell-925",
+   "aon_fetched": "2026-11-16T16:42:24-08:00"
+  },
+  {
+   "id": "bramble-bush",
+   "title": "Bramble Bush",
+   "subtitle": "Cantrip 1",
+   "page": 1,
+   "slot": 3,
+   "render_sha": "9e2f103230ea",
+   "fields": {
+    "title": "5bccaab0f761",
+    "subtitle": "b66b8be0388e",
+    "actions": "e1c740375aa6",
+    "stats": "7442aae1b130",
+    "footer": "416d5fdb914d",
+    "front": "16e22774f51c",
+    "back": "2436a4555d2f",
+    "cited": "b3f232f69d63"
+   },
+   "source_sha": "1f2d85b099ec",
+   "summarized": true,
+   "aon_id": "spell-2444",
+   "aon_fetched": "2026-11-16T16:42:25-08:00"
+  },
+  {
+   "id": "telekinetic-hand",
+   "title": "Telekinetic Hand",
+   "subtitle": "Cantrip 1",
+   "page": 1,
+   "slot": 4,
+   "render_sha": "8abfe9f56462",
+   "fields": {
+    "title": "c013259de455",
+    "subtitle": "b66b8be0388e",
+    "actions": "e1c740375aa6",
+    "stats": "57df6d37081d",
+    "footer": "e6210f9127a5",
+    "front": "486490db2e4e",
+    "back": "a58c1f35e3cb",
+    "cited": "da8789d047be"
+   },
+   "source_sha": "6b008b2595bd",
+   "summarized": true,
+   "aon_id": "spell-1715",
+   "aon_fetched": "2026-11-16T16:42:25-08:00"
+  },
+  {
+   "id": "flourishing-flora",
+   "title": "Flourishing Flora",
+   "subtitle": "Spell 1",
+   "page": 1,
+   "slot": 5,
+   "render_sha": "35569299ec88",
+   "fields": {
+    "title": "3d793bc76359",
+    "subtitle": "e66147605b6e",
+    "actions": "e1c740375aa6",
+    "stats": "1673e58ec0a4",
+    "footer": "55ee093b4da8",
+    "front": "e27b81c55340",
+    "back": "8c37b0dea606",
+    "cited": "12c8e30a54e3"
+   },
+   "source_sha": "5c736e7b957a",
+   "summarized": true,
+   "aon_id": "spell-1401",
+   "aon_fetched": "2026-11-16T16:42:26-08:00"
+  },
+  {
+   "id": "take-root",
+   "title": "Take Root",
+   "subtitle": "Cantrip 1",
+   "page": 1,
+   "slot": 6,
+   "render_sha": "81e490b7bf53",
+   "fields": {
+    "title": "eba8fe76d4a3",
+    "subtitle": "b66b8be0388e",
+    "actions": "834c4ff8770e",
+    "stats": "3bfc9b7b8aba",
+    "footer": "60d6d72189b6",
+    "front": "b767eb162db3",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "457c6642c415",
+   "summarized": false,
+   "aon_id": "spell-1411",
+   "aon_fetched": "2026-11-16T16:42:25-08:00"
+  },
+  {
+   "id": "befuddle",
+   "title": "Befuddle",
+   "subtitle": "Spell 1",
+   "page": 1,
+   "slot": 7,
+   "render_sha": "21993bdef447",
+   "fields": {
+    "title": "568f3b122b83",
+    "subtitle": "e66147605b6e",
+    "actions": "e1c740375aa6",
+    "stats": "024407f0d52a",
+    "footer": "a9d6f1e1530a",
+    "front": "f261b87f13a7",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "7f1dfab77be7",
+   "summarized": false,
+   "aon_id": "spell-2344",
+   "aon_fetched": "2026-11-16T16:42:25-08:00"
+  },
+  {
+   "id": "endure",
+   "title": "Endure",
+   "subtitle": "Spell 1",
+   "page": 1,
+   "slot": 8,
+   "render_sha": "bbbc54817f09",
+   "fields": {
+    "title": "0f2b8a033c69",
+    "subtitle": "e66147605b6e",
+    "actions": "834c4ff8770e",
+    "stats": "f90ee5efaf2d",
+    "footer": "e6210f9127a5",
+    "front": "837ee8112a24",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "037ac0b2b0a1",
+   "summarized": false,
+   "aon_id": "spell-2348",
+   "aon_fetched": "2026-11-16T16:42:25-08:00"
+  },
+  {
+   "id": "spinning-staff",
+   "title": "Spinning Staff",
+   "subtitle": "Focus 1",
+   "page": 1,
+   "slot": 9,
+   "render_sha": "fc29b7a9d081",
+   "fields": {
+    "title": "4a28fd2b438d",
+    "subtitle": "87000959c17a",
+    "actions": "834c4ff8770e",
+    "stats": "dd29ecf524b0",
+    "footer": "d94affc54e91",
+    "front": "b5675e2260e9",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "809bed953a24",
+   "summarized": false,
+   "aon_id": "spell-2884",
+   "aon_fetched": "2026-11-16T16:42:26-08:00"
+  }
+ ],
+ "blacklisted": [],
+ "passive": [],
+ "missing": [],
+ "outputs": [
+  "Solanum - Spells.pdf",
+  "Solanum - Spells (Back) pg1.pdf"
+ ]
+}

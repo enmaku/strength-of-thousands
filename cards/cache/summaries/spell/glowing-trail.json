@@ -1,0 +1,5 @@
+{
+ "hash": "75c91136c574",
+ "front": "Leave a faint glowing path behind you as you move, visible or invisible, showing your size but not your form.",
+ "back": "Path hangs in space, tracking your movement through the air; not anchored to surfaces. It fades after 10 minutes. You can Dismiss the spell, but the path fades normally.\nVisible: faint mist in a color of your choice, sheds no light. Invisible: you can still detect it.\nHeightened (3rd): fades after 1 day.\n(5th): 1 week.\n(7th): 1 month.\n(9th): 1 year."
+}

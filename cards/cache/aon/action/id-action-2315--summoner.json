@@ -1,0 +1,57 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2315",
+ "legacy_id": [
+  "action-97"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Point Out](/Actions.aspx?ID=2315) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirements** A creature is [undetected](/Conditions.aspx?ID=39) by one or more of your allies but isn't undetected by you.\n\n</column>\n\n---\n\nYou indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is [hidden](/Conditions.aspx?ID=22) to your allies, rather than undetected. This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's [Stealth](/Skills.aspx?ID=15) DC or they misunderstand and believe the target is in a different location.",
+ "name": "Point Out",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 419",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "requirement": "A creature is undetected by one or more of your allies but isn't undetected by you.",
+ "requirement_markdown": "A creature is [undetected](/Conditions.aspx?ID=39) by one or more of your allies but isn't undetected by you.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Auditory\" url=\"/Traits.aspx?ID=16\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=163\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 419\n\n**Requirement**\nA creature is [undetected](/Conditions.aspx?ID=39) by one or more of your allies but isn't undetected by you.\n</additional-info>\n\n---\n\n<summary>\nYou indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 419"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 419",
+ "speed": {},
+ "summary": "You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is \u2026",
+ "summary_markdown": "You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is \u2026",
+ "text": "Action Point Out Single Action Auditory Manipulate Visual Source Player Core pg. 419 Requirements A creature is undetected by one or more of your allies but isn't undetected by you. You indicate a creature that you can see to one or more allies, gesturing in a direction and describing the distance verbally. That creature is hidden to your allies, rather than undetected. This works only for allies who can see you and are in a position where they could potentially detect the target. If your allies can't hear or understand you, they must succeed at a Perception check against the creature's Stealth DC or they misunderstand and believe the target is in a different location.",
+ "trait": [
+  "Auditory",
+  "Manipulate",
+  "Visual"
+ ],
+ "trait_group": [
+  "Sense",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Auditory](/Traits.aspx?ID=16), [Manipulate](/Traits.aspx?ID=104), [Visual](/Traits.aspx?ID=163)",
+ "trait_raw": [
+  "Auditory",
+  "Manipulate",
+  "Visual"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2315",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:55-08:00"
+}

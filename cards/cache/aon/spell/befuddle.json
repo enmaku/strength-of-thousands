@@ -1,0 +1,87 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Areshkagal",
+  "Nyuo-Ogh",
+  "The Pandemonia",
+  "Vulot"
+ ],
+ "deity_markdown": "[Areshkagal](/Deities.aspx?ID=426), [Nyuo-Ogh](/Deities.aspx?ID=584), [The Pandemonia](/Deities.aspx?ID=370), [Vulot](/Deities.aspx?ID=439)",
+ "domain_markdown": "",
+ "duration": 6,
+ "duration_raw": "1 round",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2344",
+ "legacy_id": [
+  "spell-569"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Befuddle](/Spells.aspx?ID=2344)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 256\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Areshkagal](/Deities.aspx?ID=426), [Nyuo-Ogh](/Deities.aspx?ID=584), [The Pandemonia](/Deities.aspx?ID=370), [Vulot](/Deities.aspx?ID=439)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** 1 round\n</row>\n\n</column>\n\n---\n\nYou sow seeds of confusion in your target\u2019s mind, causing its actions and thoughts to become [clumsy](/Conditions.aspx?ID=61).\n\n**Critical Success** The target is unaffected.<br />\n**Success** The target is clumsy 1 and [stupefied](/Conditions.aspx?ID=94) 1.<br />\n**Failure** The target is clumsy 2 and stupefied 2.<br />\n**Critical Failure** The target is clumsy 3, stupefied 3, and [confused](/Conditions.aspx?ID=63).",
+ "name": "Befuddle",
+ "pfs": "Standard",
+ "primary_source": "Divine Mysteries",
+ "primary_source_raw": "Divine Mysteries pg. 256",
+ "primary_source_category": "Lost Omens",
+ "range": 30,
+ "range_raw": "30 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-01-30",
+ "resistance": {},
+ "saving_throw": "Will",
+ "saving_throw_markdown": "Will",
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Emotion\" url=\"/Traits.aspx?ID=60\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 256\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Areshkagal](/Deities.aspx?ID=426), [Nyuo-Ogh](/Deities.aspx?ID=584), [The Pandemonia](/Deities.aspx?ID=370), [Vulot](/Deities.aspx?ID=439)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 30 feet\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** 1 round\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou sow seeds of confusion in your target\u2019s mind.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Divine Mysteries"
+ ],
+ "source_raw": [
+  "Divine Mysteries pg. 256"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Divine Mysteries](/Sources.aspx?ID=234) pg. 256",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "You sow seeds of confusion in your target\u2019s mind.",
+ "summary_markdown": "You sow seeds of confusion in your target\u2019s mind.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Befuddle Two Actions Concentrate Emotion Manipulate Mental Source Divine Mysteries pg. 256 Traditions Arcane, Occult Deities Areshkagal, Nyuo-Ogh, The Pandemonia, Vulot Range 30 feet Target 1 creature Defense Will Duration 1 round You sow seeds of confusion in your target\u2019s mind, causing its actions and thoughts to become clumsy. Critical Success The target is unaffected. Success The target is clumsy 1 and stupefied 1. Failure The target is clumsy 2 and stupefied 2. Critical Failure The target is clumsy 3, stupefied 3, and confused.",
+ "tradition": [
+  "Arcane",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Emotion",
+  "Manipulate",
+  "Mental"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Emotion](/Traits.aspx?ID=60), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106)",
+ "trait_raw": [
+  "Concentrate",
+  "Emotion",
+  "Manipulate",
+  "Mental"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2344",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:25-08:00"
+}

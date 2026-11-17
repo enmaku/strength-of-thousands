@@ -1,0 +1,54 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Domain Acumen"
+ ],
+ "feat_markdown": "Domain Acumen",
+ "id": "feat-6059",
+ "legacy_id": [
+  "feat-1488"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 2\"\n    pfs=\"Standard\"\n>\n[Domain Acumen](/Feats.aspx?ID=6059) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=817\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 138\n\n</column>\n\n---\n\nEvery oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power. Choose one of the domains associated with your mystery for which you don't already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell.\n\n**Special** You can select this feat multiple times, selecting a different domain each time and gaining its domain spell as a revelation spell.\n\n<title level=\"2\">Domain Acumen leads to...</title>\n[Domain Fluency](/Feats.aspx?ID=6074)",
+ "name": "Domain Acumen",
+ "pfs": "Standard",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 138",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Oracle\" url=\"/Traits.aspx?ID=817\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 138\n\n</additional-info>\n\n---\n\n<summary>\nEvery oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 138"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 138",
+ "speed": {},
+ "summary": "Every oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power.",
+ "summary_markdown": "Every oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power.",
+ "text": "Feat 2 Domain Acumen Oracle Source Player Core 2 pg. 138 Every oracle's mystery touches on a divine domain of the deities that fuel it; you can access that power. Choose one of the domains associated with your mystery for which you don't already have an initial domain spell. You gain an initial domain spell from that domain, which you cast as a revelation spell. Special You can select this feat multiple times, selecting a different domain each time and gaining its domain spell as a revelation spell. Domain Acumen leads to... Domain Fluency",
+ "trait": [
+  "Oracle"
+ ],
+ "trait_group": [
+  "Class"
+ ],
+ "trait_markdown": "[Oracle](/Traits.aspx?ID=817)",
+ "trait_raw": [
+  "Oracle"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=6059",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:06-08:00"
+}

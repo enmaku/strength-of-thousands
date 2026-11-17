@@ -1,0 +1,5 @@
+{
+ "hash": "ffaacba990ac",
+ "front": "Shield your eidolon or minion with +1 AC and gain a reaction to take some of the damage yourself.",
+ "back": "+1 circumstance bonus to AC until start of your next turn.\nLife Block (Reaction): Trigger: target would take damage. Reduce damage by 10 and you lose 5 HP. Effects tied to the damage (like poison) still apply. After using it, spell ends and can't recast for 10 minutes.\nHeightened (+2): reduce by 10 more and lose 5 more HP; you may lower the reduction and HP lost to a lower rank's values."
+}

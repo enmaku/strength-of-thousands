@@ -1,0 +1,53 @@
+{
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2811",
+ "legacy_id": [
+  "action-544"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Pursue a Lead](/Actions.aspx?ID=2811) <actions string=\"\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 102\n\n</column>\n\n---\n\nYou name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either obvious or something you've already discovered using [Recall Knowledge](/Actions.aspx?ID=2367), [Sense Motive](/Actions.aspx?ID=2302), [Gather Information](/Actions.aspx?ID=2391), or a similar action. After the minute passes, the GM either confirms there's a larger mystery or tells you there's nothing more to learn (the detail is inconsequential or you know all the information already). If there is in fact a larger mystery at play, you can't Pursue a Lead again for 10 minutes, but you can choose to open an investigation. To do so, define the question at the heart of the mystery, such as \u201cWhere has the priceless work of art that was supposed to hang here been taken?\u201d or \u201cWho or what killed this priest?\u201d Work with your GM to refine the question if need be. You can also give your investigation a name to better keep track of it (such as \u201cThe Case of the Cheated Goblin\u201d or \u201cThe Skinsaw Murders\u201d).\n\n**Investigation Bonus** Whenever you attempt a Perception check or skill check to attempt to get closer to answering the question at the heart of an active investigation, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma.\n\n **Active Investigations** You can maintain two active investigations at a time. If you Pursue another Lead after that, the case must be different from any of your current investigations (as far as you are aware), and you give up on a current investigation of your choice. Once you've given up pursuit of an investigation, you can't Pursue a Lead into it again until after the next time you make your daily preparations. \n\n**Solving an Investigation** If you answer the question at the heart of your investigation, the GM tells you that you've done so. You don't lose the bonus or other benefits until you choose to close the investigation by Pursuing a Lead again or voluntarily Dismissing it. If what you discover points to an even larger mystery, you can work with the GM to adapt the question and name of the investigation to the new information.",
+ "name": "Pursue a Lead",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 102",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Exploration\" url=\"/Traits.aspx?ID=595\" />\n<trait label=\"Investigator\" url=\"/Traits.aspx?ID=818\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 102\n\n</additional-info>\n\n---\n\n<summary>\nYou name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 102"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 102",
+ "speed": {},
+ "summary": "You name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either \u2026",
+ "summary_markdown": "You name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either \u2026",
+ "text": "Action Pursue a Lead Concentrate Exploration Investigator Source Player Core 2 pg. 102 You name one detail you've identified that you think is part of a larger mystery, then spend 1 minute examining it. The detail is typically either obvious or something you've already discovered using Recall Knowledge, Sense Motive, Gather Information, or a similar action. After the minute passes, the GM either confirms there's a larger mystery or tells you there's nothing more to learn (the detail is inconsequential or you know all the information already). If there is in fact a larger mystery at play, you can't Pursue a Lead again for 10 minutes, but you can choose to open an investigation. To do so, define the question at the heart of the mystery, such as \u201cWhere has the priceless work of art that was supposed to hang here been taken?\u201d or \u201cWho or what killed this priest?\u201d Work with your GM to refine the question if need be. You can also give your investigation a name to better keep track of it (such as \u201cThe Case of the Cheated Goblin\u201d or \u201cThe Skinsaw Murders\u201d). Investigation Bonus Whenever you attempt a Perception check or skill check to attempt to get closer to answering the question at the heart of an active investigation, you gain a +1 circumstance bonus to the check. The exact checks this applies to depend on the actions you use to investigate and are determined by the GM, but checks to investigate are typically Perception checks or skill checks that use Intelligence, Wisdom, or Charisma. Active Investigations You can maintain two active investigations at a time. If you Pursue another Lead after that, the case must be different from any of your current investigations (as far as you are aware), and you give up on a current investigation of your choice. Once you've given up pursuit of an investigation, you can't Pursue a Lead into it again until after the next time you make your daily preparations. Solving an Investigation If you answer the question at the heart of your investigation, the GM tells you that you've done so. You don't lose the bonus or other benefits until you choose to close the investigation by Pursuing a Lead again or voluntarily Dismissing it. If what you discover points to an even larger mystery, you can work with the GM to adapt the question and name of the investigation to the new information.",
+ "trait": [
+  "Concentrate",
+  "Exploration",
+  "Investigator"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Class"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=561), [Exploration](/Traits.aspx?ID=595), [Investigator](/Traits.aspx?ID=818)",
+ "trait_raw": [
+  "Concentrate",
+  "Exploration",
+  "Investigator"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2811",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:07-08:00"
+}

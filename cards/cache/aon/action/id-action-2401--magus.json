@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2401",
+ "legacy_id": [
+  "action-59"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Perform](/Actions.aspx?ID=2401) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n\n</column>\n\n---\n\nWhen making a brief performance\u2014one song, a quick dance, or a few jokes\u2014you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent [Diplomacy](/Skills.aspx?ID=6) checks against the observers, or even change their attitudes if the GM sees fit.\n\n**Critical Success** Your performance impresses the observers, and they're likely to share stories of your ability.<br />\n**Success** You prove yourself, and observers appreciate the quality of your performance.<br />\n**Failure** Your performance falls flat.<br />\n**Critical Failure** You demonstrate only incompetence.\n\n<title level=\"2\">Sample Perform Tasks</title>\n\n**Untrained** audience of commoners<br />\n**Trained** audience of artisans<br />\n**Expert** audience of merchants or minor nobles<br />\n**Master** audience of high nobility or minor royalty<br />\n**Legendary** audience of major royalty or otherworldly beings",
+ "name": "Perform",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 243",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 243\n\n</additional-info>\n\n---\n\n<summary>\nWhen making a brief performance\u2014one song, a quick dance, or a few jokes\u2014you use the Perform action. This action is most useful when you want to prove \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 243"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 243",
+ "speed": {},
+ "summary": "When making a brief performance\u2014one song, a quick dance, or a few jokes\u2014you use the Perform action. This action is most useful when you want to prove \u2026",
+ "summary_markdown": "When making a brief performance\u2014one song, a quick dance, or a few jokes\u2014you use the Perform action. This action is most useful when you want to prove \u2026",
+ "text": "Action Perform Single Action Concentrate Source Player Core pg. 243 When making a brief performance\u2014one song, a quick dance, or a few jokes\u2014you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers, or even change their attitudes if the GM sees fit. Critical Success Your performance impresses the observers, and they're likely to share stories of your ability. Success You prove yourself, and observers appreciate the quality of your performance. Failure Your performance falls flat. Critical Failure You demonstrate only incompetence. Sample Perform Tasks Untrained audience of commoners Trained audience of artisans Expert audience of merchants or minor nobles Master audience of high nobility or minor royalty Legendary audience of major royalty or otherworldly beings",
+ "trait": [
+  "Concentrate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32)",
+ "trait_raw": [
+  "Concentrate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2401",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:40-08:00"
+}

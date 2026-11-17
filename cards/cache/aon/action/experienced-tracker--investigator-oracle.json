@@ -1,0 +1,62 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Experienced Tracker"
+ ],
+ "feat_markdown": "Experienced Tracker",
+ "id": "feat-5146",
+ "legacy_id": [
+  "feat-780"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Experienced Tracker](/Feats.aspx?ID=5146) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 255\n\n**Prerequisites**\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</column>\n\n---\n\nTracking is second nature to you, and when necessary you can follow a trail without pause. You can [Track](/Actions.aspx?ID=2408) while moving at full Speed by taking a \u20135 penalty to your Survival check. If you're a master in [Survival](/Skills.aspx?ID=49), you don't take the \u20135 penalty. If you're legendary in Survival, you no longer need to roll a new Survival check every hour when tracking, though you still need to roll whenever there are significant changes in the trail.\n\n<title level=\"2\">Experienced Tracker leads to...</title>\n[Swift Tracker](/Feats.aspx?ID=4882)",
+ "name": "Experienced Tracker",
+ "pfs": "Standard",
+ "prerequisite": "Trained in Survival",
+ "prerequisite_markdown": "Trained in [Survival](/Skills.aspx?ID=16)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 255",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 255\n\n**Prerequisites**\nTrained in [Survival](/Skills.aspx?ID=16)\n\n</additional-info>\n\n---\n\n<summary>\nTrack at your full Speed at a \u20135 penalty\n</summary>",
+ "skill": [
+  "Survival",
+  "Survival"
+ ],
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 255"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 255",
+ "speed": {},
+ "summary": "Track at your full Speed at a \u20135 penalty",
+ "summary_markdown": "Track at your full Speed at a \u20135 penalty",
+ "text": "Feat 1 Experienced Tracker General Skill Source Player Core pg. 255 Prerequisites Trained in Survival Tracking is second nature to you, and when necessary you can follow a trail without pause. You can Track while moving at full Speed by taking a \u20135 penalty to your Survival check. If you're a master in Survival, you don't take the \u20135 penalty. If you're legendary in Survival, you no longer need to roll a new Survival check every hour when tracking, though you still need to roll whenever there are significant changes in the trail. Experienced Tracker leads to... Swift Tracker",
+ "trait": [
+  "General",
+  "Skill"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "General",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5146",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:05-08:00"
+}

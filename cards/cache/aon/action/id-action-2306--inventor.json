@@ -1,0 +1,50 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2306",
+ "legacy_id": [
+  "action-89"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Strike](/Actions.aspx?ID=2306) <actions string=\"Single Action\" /></title>\n\n<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n</column>\n\n---\n\nYou attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll an attack roll using the attack modifier for the weapon or unarmed attack you're using, and compare the result to the target creature's AC to determine the effect.\n\n**Critical Success** You make a damage roll according to the weapon or unarmed attack and deal double damage (see [Doubling and Halving Damage](/Rules.aspx?ID=2307) for rules on doubling damage).<br />\n**Success** You make a damage roll according to the weapon or unarmed attack and deal damage.",
+ "name": "Strike",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 418",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Attack\" url=\"/Traits.aspx?ID=15\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 418\n\n</additional-info>\n\n---\n\n<summary>\nYou attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 418"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 418",
+ "speed": {},
+ "summary": "You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range \u2026",
+ "summary_markdown": "You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range \u2026",
+ "text": "Action Strike Single Action Attack Source Player Core pg. 418 You attack with a weapon you're wielding or with an unarmed attack, targeting one creature within your reach (for a melee attack) or within range (for a ranged attack). Roll an attack roll using the attack modifier for the weapon or unarmed attack you're using, and compare the result to the target creature's AC to determine the effect. Critical Success You make a damage roll according to the weapon or unarmed attack and deal double damage (see Doubling and Halving Damage for rules on doubling damage). Success You make a damage roll according to the weapon or unarmed attack and deal damage.",
+ "trait": [
+  "Attack"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Attack](/Traits.aspx?ID=15)",
+ "trait_raw": [
+  "Attack"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2306",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:41:47-08:00"
+}

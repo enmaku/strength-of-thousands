@@ -1,0 +1,107 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "sustained up to 1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-2537",
+ "legacy_id": [
+  "spell-1919"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">\n[Cycle of Retribution](/Spells.aspx?ID=2537)\n<actions string=\"Two Actions\" />\n</title>\n\n<spoilers>May contain spoilers from Season of Ghosts</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Season of Ghosts (Hardcover)](/Sources.aspx?ID=294) pg. 287\n\n_[**PFS Note**](/pathfinder-society) Characters must have the appropriate Season of Ghosts boon to access this option._\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** sustained up to 1 minute\n</row>\n\n</column>\n\n---\n\nAn understanding of how violence begets more violence fills your target, causing it mental anguish in the form of splitting headaches when it attempts to take violent actions. The target must attempt a Will saving throw, with the following results.\n\n**Critical Success** The target is unaffected.<br />\n**Success** The next time the target takes a [hostile](/Conditions.aspx?ID=80) action, the target takes 1d4 mental damage; the spell\u2019s duration then ends.<br />\n**Failure** The first time in a round when the target takes a hostile action, the target takes 1d4 mental damage.<br />\n**Critical Failure** Each time the target takes a hostile action, the target takes 1d4 mental damage.\n\n---\n**Heightened (+1)** The mental damage increases by 1d4.",
+ "name": "Cycle of Retribution",
+ "pfs": "Limited",
+ "primary_source": "Season of Ghosts (Hardcover)",
+ "primary_source_raw": "Season of Ghosts (Hardcover) pg. 287",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Season of Ghosts",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2026-02-04",
+ "resistance": {},
+ "saving_throw": "Will",
+ "saving_throw_markdown": "Will",
+ "search_markdown": "<spoilers>May contain spoilers from Season of Ghosts</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Mental\" url=\"/Traits.aspx?ID=106\" />\n</traits>\n\n<additional-info>\n**Source** [Season of Ghosts (Hardcover)](/Sources.aspx?ID=294) pg. 287\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n**Defense**\nWill\n\n**Duration** sustained up to 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nAn understanding of how violence begets more violence fills your target, causing it mental anguish in the form of splitting headaches when it attempts to take violent actions.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Season of Ghosts (Hardcover)"
+ ],
+ "source_raw": [
+  "Season of Ghosts (Hardcover) pg. 287"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Season of Ghosts"
+ ],
+ "source_markdown": "[Season of Ghosts (Hardcover)](/Sources.aspx?ID=294) pg. 287",
+ "speed": {},
+ "spell_type": "Spell",
+ "spoilers": "Season of Ghosts",
+ "summary": "An understanding of how violence begets more violence fills your target, causing it mental anguish in the form of splitting headaches when it attempts to take violent actions.",
+ "summary_markdown": "An understanding of how violence begets more violence fills your target, causing it mental anguish in the form of splitting headaches when it attempts to take violent actions.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Cycle of Retribution Two Actions May contain spoilers from Season of Ghosts Uncommon Concentrate Manipulate Mental Source Season of Ghosts (Hardcover) pg. 287 PFS Note Characters must have the appropriate Season of Ghosts boon to access this option. Traditions Divine, Occult Range touch Target 1 creature Defense Will Duration sustained up to 1 minute An understanding of how violence begets more violence fills your target, causing it mental anguish in the form of splitting headaches when it attempts to take violent actions. The target must attempt a Will saving throw, with the following results. Critical Success The target is unaffected. Success The next time the target takes a hostile action, the target takes 1d4 mental damage; the spell\u2019s duration then ends. Failure The first time in a round when the target takes a hostile action, the target takes 1d4 mental damage. Critical Failure Each time the target takes a hostile action, the target takes 1d4 mental damage. Heightened (+1) The mental damage increases by 1d4.",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Manipulate",
+  "Mental",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Rarity"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Mental](/Traits.aspx?ID=106), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate",
+  "Mental",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2537",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:01-08:00"
+}

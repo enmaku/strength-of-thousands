@@ -1,0 +1,5 @@
+{
+ "hash": "ae8ec8e14f25",
+ "front": "Link your life to an ally, healing them and absorbing some of the damage they take at the cost of your own HP.",
+ "back": "On Cast, target recovers 1d4 HP. First time each round target takes damage, reduce it by 3 (min 0); you lose 3 HP each time (or the damage dealt if less); this ignores your immunities and resistances and can't be mitigated. Ends if you fall unconscious. Can Dismiss.\nHeightened (3rd): 2 targets, 3d4 healing, max 5.\n(6th): 3 targets, 6d4, max 10.\n(9th): 4 targets, 9d4, max 15."
+}

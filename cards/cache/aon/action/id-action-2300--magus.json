@@ -1,0 +1,50 @@
+{
+ "actions": "Free Action",
+ "actions_number": 0,
+ "category": "action",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "action-2300",
+ "legacy_id": [
+  "action-83"
+ ],
+ "markdown": "<title level=\"1\" right=\"Action\">[Release](/Actions.aspx?ID=2300) <actions string=\"Free Action\" /></title>\n\n<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</column>\n\n---\n\nYou release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most [manipulate](/Traits.aspx?ID=104) actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as [Reactive Strike](/Actions.aspx?ID=2256)).\n\n If you want to prepare to Release something outside of your turn, use the Ready activity.",
+ "name": "Release",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 417",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 417\n\n</additional-info>\n\n---\n\n<summary>\nYou release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 417"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 417",
+ "speed": {},
+ "summary": "You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to \u2026",
+ "summary_markdown": "You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to \u2026",
+ "text": "Action Release Free Action Manipulate Source Player Core pg. 417 You release something you're holding in your hand or hands. This might mean dropping an item, removing one hand from your weapon while continuing to hold it in another hand, releasing a rope suspending a chandelier, or performing a similar action. Unlike most manipulate actions, Release does not trigger reactions that can be triggered by actions with the manipulate trait (such as Reactive Strike). If you want to prepare to Release something outside of your turn, use the Ready activity.",
+ "trait": [
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Manipulate"
+ ],
+ "type": "Action",
+ "url": "/Actions.aspx?ID=2300",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:31-08:00"
+}

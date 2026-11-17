@@ -1,0 +1,94 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "component": [
+  "somatic",
+  "verbal"
+ ],
+ "domain_markdown": "",
+ "duration": 3600,
+ "duration_raw": "1 hour",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "3rd",
+  "5th",
+  "7th",
+  "9th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 3rd rank",
+  "Heightened 5th rank",
+  "Heightened 7th rank",
+  "Heightened 9th rank"
+ ],
+ "heighten_level": [
+  1,
+  3,
+  5,
+  7,
+  9
+ ],
+ "id": "spell-1428",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Limited\">\n[Glowing Trail](/Spells.aspx?ID=1428)\n<actions string=\"Two Actions\" />\n</title>\n\n<spoilers>May contain spoilers from Sky King's Tomb</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 79\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n\n</column>\n\n---\n\nYour movements leave a vague glowing path behind you, like a misty echo of your presence. While your form is not discernible, your size is. This path hangs in space and is not anchored to any surface, so it tracks your movement through the air. The path fades after 10 minutes. You can Dismiss this spell at any time, but the path fades normally.\n\n The path can be visible or invisible. While visible, it appears as a faintly glowing mist in a color of your choosing but sheds no light beyond its area. While invisible, you can still detect the path, but it gives off no light.\n\n---\n**Heightened (3rd)** The _glowing trail_ fades after 1 day.\n\n**Heightened (5th)** The _glowing trail_ fades after 1 week.\n\n**Heightened (7th)** The _glowing trail_ fades after 1 month.\n\n**Heightened (9th)** The _glowing trail_ fades after 1 year.",
+ "name": "Glowing Trail",
+ "pfs": "Limited",
+ "primary_source": "Pathfinder #194: Cult of the Cave Worm",
+ "primary_source_raw": "Pathfinder #194: Cult of the Cave Worm pg. 79",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Sky King's Tomb",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-08-30",
+ "resistance": {},
+ "school": "transmutation",
+ "search_markdown": "<spoilers>May contain spoilers from Sky King's Tomb</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=159\" />\n<trait label=\"Transmutation\" url=\"/Traits.aspx?ID=157\" />\n</traits>\n\n<additional-info>\n**Source** [Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 79\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n</additional-info>\n\n---\n\n<summary>\nYour movements leave a vague glowing path behind you, like a misty echo of your presence.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #194: Cult of the Cave Worm"
+ ],
+ "source_raw": [
+  "Pathfinder #194: Cult of the Cave Worm pg. 79"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Sky King's Tomb"
+ ],
+ "source_markdown": "[Pathfinder #194: Cult of the Cave Worm](/Sources.aspx?ID=209) pg. 79",
+ "speed": {},
+ "spell_type": "Spell",
+ "spoilers": "Sky King's Tomb",
+ "summary": "Your movements leave a vague glowing path behind you, like a misty echo of your presence.",
+ "summary_markdown": "Your movements leave a vague glowing path behind you, like a misty echo of your presence.",
+ "text": "Spell 1 Glowing Trail Two Actions May contain spoilers from Sky King's Tomb Uncommon Transmutation Source Pathfinder #194: Cult of the Cave Worm pg. 79 Traditions Arcane, Divine, Occult, Primal Cast somatic, verbal Duration 1 hour Your movements leave a vague glowing path behind you, like a misty echo of your presence. While your form is not discernible, your size is. This path hangs in space and is not anchored to any surface, so it tracks your movement through the air. The path fades after 10 minutes. You can Dismiss this spell at any time, but the path fades normally. The path can be visible or invisible. While visible, it appears as a faintly glowing mist in a color of your choosing but sheds no light beyond its area. While invisible, you can still detect the path, but it gives off no light. Heightened (3rd) The glowing trail fades after 1 day. Heightened (5th) The glowing trail fades after 1 week. Heightened (7th) The glowing trail fades after 1 month. Heightened (9th) The glowing trail fades after 1 year.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Transmutation",
+  "Uncommon"
+ ],
+ "trait_group": [
+  "School",
+  "Rarity"
+ ],
+ "trait_markdown": "[Transmutation](/Traits.aspx?ID=157), [Uncommon](/Traits.aspx?ID=159)",
+ "trait_raw": [
+  "Transmutation",
+  "Uncommon"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1428",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:02-08:00"
+}

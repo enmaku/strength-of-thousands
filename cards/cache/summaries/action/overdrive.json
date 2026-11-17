@@ -1,0 +1,5 @@
+{
+ "hash": "86951edffa77",
+ "front": "Crank your gizmos into overdrive with a Crafting check (standard DC for your level) to add damage to your Strikes for 1 minute.",
+ "back": "Crafting check, standard DC for your level.\nCrit Success: Strikes deal extra damage = Int modifier for 1 min; afterward gizmos unusable and no Overdrive for 1 min.\nSuccess: as crit success, but extra damage = half Int modifier.\nFailure: Strikes deal 1 extra fire damage for 1 min.\nCrit Failure: take fire damage = half level (round up); no Overdrive for 1d4 rounds.\nSpecial: can reuse while active, but can't extend duration; a crit success upgrades it, a crit failure ends it."
+}

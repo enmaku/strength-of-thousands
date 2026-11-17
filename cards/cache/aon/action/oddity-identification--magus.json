@@ -1,0 +1,62 @@
+{
+ "category": "feat",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "feat": [
+  "Oddity Identification"
+ ],
+ "feat_markdown": "Oddity Identification",
+ "id": "feat-5185",
+ "legacy_id": [
+  "feat-817"
+ ],
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Feat 1\"\n    pfs=\"Standard\"\n>\n[Oddity Identification](/Feats.aspx?ID=5185) <actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Prerequisites**\nTrained in [Occultism](/Skills.aspx?ID=11)\n\n</column>\n\n---\n\nWhen you become aware of a magical effect or see a spell being cast, you can immediately determine if it twists minds (with the [mental](/Traits.aspx?ID=647) trait), fights against fortune (with the [fortune](/Traits.aspx?ID=612) or [misfortune](/Traits.aspx?ID=654) trait), or reveals secrets (with the [detection](/Traits.aspx?ID=574), [prediction](/Traits.aspx?ID=674), [revelation](/Traits.aspx?ID=686), or [scrying](/Traits.aspx?ID=689) traits). At the GM's discretion, similar effects can also fall into these categories. When you [Identify Magic](/Actions.aspx?ID=2365) or [Recall Knowledge](/Actions.aspx?ID=2367) to learn more about these effects, you can always use Occultism without penalty and gain a +2 circumstance bonus.",
+ "name": "Oddity Identification",
+ "pfs": "Standard",
+ "prerequisite": "Trained in Occultism",
+ "prerequisite_markdown": "Trained in [Occultism](/Skills.aspx?ID=11)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 259",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"General\" url=\"/Traits.aspx?ID=78\" />\n<trait label=\"Skill\" url=\"/Traits.aspx?ID=144\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 259\n\n**Prerequisites**\nTrained in [Occultism](/Skills.aspx?ID=11)\n\n</additional-info>\n\n---\n\n<summary>\nRecognize magic involving minds, fortune, or secrets\n</summary>",
+ "skill": [
+  "Occultism",
+  "Occultism"
+ ],
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 259"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 259",
+ "speed": {},
+ "summary": "Recognize magic involving minds, fortune, or secrets",
+ "summary_markdown": "Recognize magic involving minds, fortune, or secrets",
+ "text": "Feat 1 Oddity Identification General Skill Source Player Core pg. 259 Prerequisites Trained in Occultism When you become aware of a magical effect or see a spell being cast, you can immediately determine if it twists minds (with the mental trait), fights against fortune (with the fortune or misfortune trait), or reveals secrets (with the detection, prediction, revelation, or scrying traits). At the GM's discretion, similar effects can also fall into these categories. When you Identify Magic or Recall Knowledge to learn more about these effects, you can always use Occultism without penalty and gain a +2 circumstance bonus.",
+ "trait": [
+  "General",
+  "Skill"
+ ],
+ "trait_group": [
+  "Feat"
+ ],
+ "trait_markdown": "[General](/Traits.aspx?ID=78), [Skill](/Traits.aspx?ID=144)",
+ "trait_raw": [
+  "General",
+  "Skill"
+ ],
+ "type": "Feat",
+ "url": "/Feats.aspx?ID=5185",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:27-08:00"
+}

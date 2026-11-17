@@ -1,0 +1,113 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Arazni",
+  "Arqueros",
+  "Embaral",
+  "Fandarra",
+  "Folgrit",
+  "Grask Uldeth",
+  "Haggakal",
+  "Immaculate Growth",
+  "Izuyaku",
+  "Lorris",
+  "Narakaas",
+  "The Last Breath",
+  "Thuskchoon",
+  "Trudd",
+  "Vonymos"
+ ],
+ "deity_markdown": "[Arazni](/Deities.aspx?ID=326), [Arqueros](/Deities.aspx?ID=645), [Embaral](/Deities.aspx?ID=340), [Fandarra](/Deities.aspx?ID=492), [Folgrit](/Deities.aspx?ID=448), [Grask Uldeth](/Deities.aspx?ID=555), [Haggakal](/Deities.aspx?ID=493), [Immaculate Growth](/Deities.aspx?ID=364), [Izuyaku](/Deities.aspx?ID=348), [Lorris](/Deities.aspx?ID=477), [Narakaas](/Deities.aspx?ID=672), [The Last Breath](/Deities.aspx?ID=270), [Thuskchoon](/Deities.aspx?ID=586), [Trudd](/Deities.aspx?ID=451), [Vonymos](/Deities.aspx?ID=553)",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "+1"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 2nd rank",
+  "Heightened 3rd rank",
+  "Heightened 4th rank",
+  "Heightened 5th rank",
+  "Heightened 6th rank",
+  "Heightened 7th rank",
+  "Heightened 8th rank",
+  "Heightened 9th rank",
+  "Heightened 10th rank"
+ ],
+ "heighten_level": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "id": "spell-2348",
+ "legacy_id": [
+  "spell-573"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Endure](/Spells.aspx?ID=2348)\n<actions string=\"Single Action\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 257\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Arazni](/Deities.aspx?ID=326), [Arqueros](/Deities.aspx?ID=645), [Embaral](/Deities.aspx?ID=340), [Fandarra](/Deities.aspx?ID=492), [Folgrit](/Deities.aspx?ID=448), [Grask Uldeth](/Deities.aspx?ID=555), [Haggakal](/Deities.aspx?ID=493), [Immaculate Growth](/Deities.aspx?ID=364), [Izuyaku](/Deities.aspx?ID=348), [Lorris](/Deities.aspx?ID=477), [Narakaas](/Deities.aspx?ID=672), [The Last Breath](/Deities.aspx?ID=270), [Thuskchoon](/Deities.aspx?ID=586), [Trudd](/Deities.aspx?ID=451), [Vonymos](/Deities.aspx?ID=553)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nYou invigorate the touched creature\u2019s mind and urge it to press on. You grant the touched creature 5 [temporary Hit Points](/Rules.aspx?ID=2321) that last for 1 minute.\n\n---\n**Heightened (+1)** The temporary Hit Points increase by 5.",
+ "name": "Endure",
+ "pfs": "Standard",
+ "primary_source": "Divine Mysteries",
+ "primary_source_raw": "Divine Mysteries pg. 257",
+ "primary_source_category": "Lost Omens",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-01-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Divine Mysteries](/Sources.aspx?ID=234) pg. 257\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)\n\n**Deities**\n[Arazni](/Deities.aspx?ID=326), [Arqueros](/Deities.aspx?ID=645), [Embaral](/Deities.aspx?ID=340), [Fandarra](/Deities.aspx?ID=492), [Folgrit](/Deities.aspx?ID=448), [Grask Uldeth](/Deities.aspx?ID=555), [Haggakal](/Deities.aspx?ID=493), [Immaculate Growth](/Deities.aspx?ID=364), [Izuyaku](/Deities.aspx?ID=348), [Lorris](/Deities.aspx?ID=477), [Narakaas](/Deities.aspx?ID=672), [The Last Breath](/Deities.aspx?ID=270), [Thuskchoon](/Deities.aspx?ID=586), [Trudd](/Deities.aspx?ID=451), [Vonymos](/Deities.aspx?ID=553)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n \n\n**Target** 1 creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nYou invigorate the touched creature\u2019s mind and urge it to press on.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Divine Mysteries"
+ ],
+ "source_raw": [
+  "Divine Mysteries pg. 257"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Divine Mysteries](/Sources.aspx?ID=234) pg. 257",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "You invigorate the touched creature\u2019s mind and urge it to press on.",
+ "summary_markdown": "You invigorate the touched creature\u2019s mind and urge it to press on.",
+ "target": "1 creature",
+ "target_markdown": "1 creature",
+ "text": "Spell 1 Endure Single Action Concentrate Manipulate Source Divine Mysteries pg. 257 Traditions Arcane, Occult Deities Arazni, Arqueros, Embaral, Fandarra, Folgrit, Grask Uldeth, Haggakal, Immaculate Growth, Izuyaku, Lorris, Narakaas, The Last Breath, Thuskchoon, Trudd, Vonymos Range touch Target 1 creature Duration 1 minute You invigorate the touched creature\u2019s mind and urge it to press on. You grant the touched creature 5 temporary Hit Points that last for 1 minute. Heightened (+1) The temporary Hit Points increase by 5.",
+ "tradition": [
+  "Arcane",
+  "Occult"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2348",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:25-08:00"
+}

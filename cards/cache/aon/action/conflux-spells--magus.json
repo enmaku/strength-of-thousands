@@ -1,0 +1,40 @@
+{
+ "category": "class-feature",
+ "class": "Magus",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "class-feature-1262",
+ "legacy_id": [
+  "class-17"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Class Feature 1\">[Conflux Spells](/Classes.aspx?ID=74)</title>\n\n<column gap=\"tiny\">\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</column>\n\n---\n\nYou learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are magus-specific spells created for combat and are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to both study your spellbook and perform a physical regimen.\n\nFocus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points. The full rules for focus spells appear [here](/Rules.aspx?ID=2228).",
+ "name": "Conflux Spells",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 9",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 9\n\n**Class** Magus\n</additional-info>\n\n---\n\n<summary>\nYou learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 9"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 9",
+ "speed": {},
+ "summary": "You learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are \u2026",
+ "summary_markdown": "You learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are \u2026",
+ "text": "Class Feature 1 Conflux Spells Source Impossible Magic pg. 9 Class Magus You learn a conflux spell from your hybrid study, and you can cast additional conflux spells by selecting certain feats. Conflux spells are magus-specific spells created for combat and are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to both study your spellbook and perform a physical regimen. Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Certain feats give you more focus spells. The maximum Focus Points your focus pool can hold is equal to the number of focus spells you have, but it can never be more than 3 points. The full rules for focus spells appear here.",
+ "type": "Class Feature",
+ "url": "/Classes.aspx?ID=74",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:28-08:00"
+}

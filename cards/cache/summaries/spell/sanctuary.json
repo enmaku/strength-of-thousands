@@ -1,0 +1,5 @@
+{
+ "hash": "24cf3689655e",
+ "front": "Ward a creature so attackers must pass a Will save to attack it. Ends if it acts hostilely.",
+ "back": "Duration 1 min. Attackers attempt a Will save each time they attack the target. Spell ends if the target uses a hostile action.\nCrit Success: sanctuary ends.\nSuccess: attacker can attack, and make other attacks against the target this turn.\nFailure: can't attack the target, wastes the action, no more attacks on it this turn.\nCrit Failure: wastes action and can't attack the target for the rest of the duration."
+}

@@ -1,0 +1,84 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "area": [
+  1
+ ],
+ "area_markdown": "1 cubic foot",
+ "area_raw": "1 cubic foot",
+ "area_type": [
+  "cube"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-2631",
+ "legacy_id": [
+  "spell-864"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Cantrip 1\" pfs=\"Standard\">\n[Approximate](/Spells.aspx?ID=2631)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=574\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 123\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 10 feet\n\n**Area** 1 cubic foot\n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYour magic quickly flows over an area to help you count and catalog. Name a particular type of object you're looking for within the area. You gain an instant estimate of the quantity of the chosen objects that are clearly visible within the target area. The number is rounded to the largest digit. For example, you could look at a pile of 180 copper coins, and you would learn that it held about 200 coins, but you couldn't determine there were exactly 180 coins.\n\n The type of object you name can be as specific or general as you like\u2014\u201cdented copper coins\u201d is as viable as \u201ccoins\u201d\u2014but the distinguishing features must be obvious at a glance, and the spell is fooled by objects disguised as other objects.",
+ "name": "Approximate",
+ "pfs": "Standard",
+ "primary_source": "Impossible Magic",
+ "primary_source_raw": "Impossible Magic pg. 123",
+ "primary_source_category": "Rulebooks",
+ "range": 10,
+ "range_raw": "10 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2026-07-30",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Cantrip\" url=\"/Traits.aspx?ID=550\" />\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=561\" />\n<trait label=\"Detection\" url=\"/Traits.aspx?ID=574\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=645\" />\n</traits>\n\n<additional-info>\n**Source** [Impossible Magic](/Sources.aspx?ID=355) pg. 123\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 10 feet\n\n**Area** 1 cubic foot\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nMagically estimate the number of nearby objects.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Impossible Magic"
+ ],
+ "source_raw": [
+  "Impossible Magic pg. 123"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Impossible Magic](/Sources.aspx?ID=355) pg. 123",
+ "speed": {},
+ "spell_type": "Cantrip",
+ "summary": "Magically estimate the number of nearby objects.",
+ "summary_markdown": "Magically estimate the number of nearby objects.",
+ "text": "Cantrip 1 Approximate Two Actions Cantrip Concentrate Detection Manipulate Source Impossible Magic pg. 123 Traditions Arcane, Divine, Occult, Primal Range 10 feet Area 1 cubic foot Your magic quickly flows over an area to help you count and catalog. Name a particular type of object you're looking for within the area. You gain an instant estimate of the quantity of the chosen objects that are clearly visible within the target area. The number is rounded to the largest digit. For example, you could look at a pile of 180 copper coins, and you would learn that it held about 200 coins, but you couldn't determine there were exactly 180 coins. The type of object you name can be as specific or general as you like\u2014\u201cdented copper coins\u201d is as viable as \u201ccoins\u201d\u2014but the distinguishing features must be obvious at a glance, and the spell is fooled by objects disguised as other objects.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Cantrip",
+  "Concentrate",
+  "Detection",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Cantrip](/Traits.aspx?ID=550), [Concentrate](/Traits.aspx?ID=561), [Detection](/Traits.aspx?ID=574), [Manipulate](/Traits.aspx?ID=645)",
+ "trait_raw": [
+  "Cantrip",
+  "Concentrate",
+  "Detection",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=2631",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:24-08:00"
+}

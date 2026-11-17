@@ -1,0 +1,61 @@
+{
+ "ac": 1,
+ "armor_category": "Light",
+ "armor_group_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "armor",
+ "check_penalty": -1,
+ "dex_cap": 3,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "armor-37",
+ "item_category": "Armor",
+ "item_subcategory": "Base Armor",
+ "level": 0,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Armor 0\"\n    pfs=\"Standard\"\n>\n[Armored Cloak](/Armor.aspx?ID=37)\n</title>\n\n<traits>\n<trait label=\"Comfort\" url=\"/Traits.aspx?ID=203\" />\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=204\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 83\n\n<row gap=\"medium\">\n**Price** 2 gp\n\n**AC Bonus** +1\n\n**Dex Cap** +3\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** +1\n\n**Bulk** L\n\n**Category** Light\n\n**Group** \u2014\n</row>\n\n</column>\n\n---\n\nThis large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, giving you greater control over the cloak's movements. Using these straps, you can constantly move the cloak or keep it wrapped around yourself to block and intercept attacks. Many Firebrands favor wearing armored cloaks over traditional armor for style reasons, such as matching the cloak to the rest of their outfit.",
+ "name": "Armored Cloak",
+ "pfs": "Standard",
+ "price": 200,
+ "price_raw": "2 gp",
+ "primary_source": "Firebrands",
+ "primary_source_raw": "Firebrands pg. 83",
+ "primary_source_category": "Lost Omens",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-03-29",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Comfort\" url=\"/Traits.aspx?ID=203\" />\n<trait label=\"Flexible\" url=\"/Traits.aspx?ID=204\" />\n</traits>\n\n<additional-info>\n**Source** [Firebrands](/Sources.aspx?ID=196) pg. 83\n\n<row gap=\"medium\">\n**Price** 2 gp\n\n**AC Bonus** +1\n\n**Dex Cap** +3\n\n**Check Penalty** -1\n\n**Speed Penalty** \u2014\n</row>\n\n<row gap=\"medium\">\n**Strength** 1\n\n**Bulk** L\n\n**Category** Light\n\n**Group** \u2014\n</row>\n</additional-info>\n\n---\n\n<summary>\nThis large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Firebrands"
+ ],
+ "source_raw": [
+  "Firebrands pg. 83"
+ ],
+ "source_category": [
+  "Lost Omens"
+ ],
+ "source_markdown": "[Firebrands](/Sources.aspx?ID=196) pg. 83",
+ "speed": {},
+ "strength": 1,
+ "summary": "This large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, \u2026",
+ "summary_markdown": "This large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, \u2026",
+ "text": "Armor 0 Armored Cloak Comfort Flexible Source Firebrands pg. 83 Price 2 gp AC Bonus +1 Dex Cap +3 Check Penalty -1 Speed Penalty \u2014 Strength +1 Bulk L Category Light Group \u2014 This large, thick cloak is fitted with thin strips of metal at key locations along its length. A pair of straps attaches the cloak to your arms, giving you greater control over the cloak's movements. Using these straps, you can constantly move the cloak or keep it wrapped around yourself to block and intercept attacks. Many Firebrands favor wearing armored cloaks over traditional armor for style reasons, such as matching the cloak to the rest of their outfit.",
+ "trait": [
+  "Comfort",
+  "Flexible"
+ ],
+ "trait_group": [
+  "Armor"
+ ],
+ "trait_markdown": "[Comfort](/Traits.aspx?ID=203), [Flexible](/Traits.aspx?ID=204)",
+ "trait_raw": [
+  "Comfort",
+  "Flexible"
+ ],
+ "type": "Item",
+ "url": "/Armor.aspx?ID=37",
+ "weakness": {},
+ "_fetched_at": "2026-11-16T16:42:03-08:00"
+}
