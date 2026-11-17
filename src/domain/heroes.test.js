@@ -118,7 +118,8 @@ describe('deriveHeroBioTile', () => {
       }),
     ).toEqual({
       name: 'Anya',
-      tagline: 'Human summoner · she/her',
+      tagline: 'Human summoner',
+      pronouns: 'she/her',
       bio: 'Grew up in the wild with her eidolon.',
     })
   })
@@ -131,6 +132,7 @@ describe('deriveHeroBioTile', () => {
     expect(deriveHeroBioTile({ displayName: 'Anya', bio: 'A brief bio.' })).toEqual({
       name: 'Anya',
       tagline: '',
+      pronouns: '',
       bio: 'A brief bio.',
     })
   })

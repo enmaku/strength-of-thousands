@@ -44,6 +44,21 @@ export function buildHeroTabs(heroes) {
   }
 }
 
+const PRONOUNS_RE = /^[a-z]+(?:\/[a-z]+)+$/i
+
+/** Split a trailing "he/him"-style segment off a " · "-separated tagline. */
+export function splitTagline(tagline) {
+  const parts = (tagline ?? '')
+    .split('·')
+    .map((p) => p.trim())
+    .filter(Boolean)
+  const last = parts[parts.length - 1]
+  if (last && PRONOUNS_RE.test(last)) {
+    return { tagline: parts.slice(0, -1).join(' · '), pronouns: last }
+  }
+  return { tagline: parts.join(' · '), pronouns: '' }
+}
+
 export function deriveHeroBioTile(hero) {
   if (!hero) return null
   const name = hero.displayName?.trim()
@@ -52,7 +67,7 @@ export function deriveHeroBioTile(hero) {
 
   const tile = {
     name,
-    tagline: hero.tagline?.trim() || '',
+    ...splitTagline(hero.tagline),
     bio,
   }
 

@@ -1,7 +1,10 @@
 <template>
   <q-card flat bordered class="hero-tile">
     <q-card-section class="hero-header q-pb-sm">
-      <div class="text-h6 text-weight-bold">{{ tile.name }}</div>
+      <div class="text-h6 text-weight-bold">
+        {{ tile.name }}
+        <span v-if="tile.pronouns" class="text-weight-regular sot-muted">· ({{ tile.pronouns }})</span>
+      </div>
       <div v-if="tile.tagline" class="text-caption sot-muted">{{ tile.tagline }}</div>
     </q-card-section>
 
