@@ -35,7 +35,7 @@ Done: the command exits 0 and no pending files are named. Summaries are cached p
 
 Open with the hero the name resolved to when the script printed a "matched" line. Per hero and deck, give the card count and the PDFs written. For a diff, give the script's NEW / CHANGED / REMOVED / SOURCE lines as printed, then the `(changes ...)` PDFs it wrote. List `MISSING` names once; most are Pathbuilder labels with no AoN entry (heritages, class frameworks, sub-choices), so call out only those that look like usable actions or items.
 
-Leave `cards/blacklist.json`, `heroes/` and `cards/templates/` as they are. Suggest blacklist entries in the report when a deck looks bloated.
+Leave `cards/blacklist.json`, `heroes/` and `cards/templates/` as they are (the generator reads `Playing Card - <Deck>.pdf` for fronts and `Playing Card - <Deck> Backs.pdf` for backs, so both must exist). Suggest blacklist entries in the report when a deck looks bloated.
 
 ## Output
 
@@ -47,7 +47,9 @@ Everything lands in `cards/<slug>/`, named for the hero's first name.
 | `<Name> - <Deck> (Back) pgN.pdf` | the backs for front page N, one single-page file each |
 | `<Name> - <Deck> (changes <date time>).pdf` (+ its backs) | diff only: just the new and changed cards; never overwritten by later runs |
 
-Cards with backs sit at the front of each deck, so only the first pages need backs printed; later pages have none. Back columns are mirrored for flipping the sheet over its long edge (`MIRROR_BACKS` in the script if a printer disagrees).
+Every front page has a back file, built on that deck's own fillable back template (`cards/templates/Playing Card - <Deck> Backs.pdf`). Each back shows the frame, scrollwork and the deck's tab (Spell / Item / Action). The tab is mirrored left-to-right from the front, since a back prints on the reverse of its front: a tab at the left of the front sits at the right of the back. Cards with summary text show title, text and a "Full rules" citation; cards without back text show the frame, tab and title only. Slots with no card stay blank. Cards with summary text sit at the front of each deck. Back columns are mirrored for flipping the sheet over its long edge (`MIRROR_BACKS` in the script if a printer disagrees).
+
+If the front templates change, rebuild the back templates with `python3 -I cards/build_back_templates.py <plain-frame-backs.pdf>`, where the argument is the plain nine-frame back sheet with its nine fillable fields.
 
 ## How diff decides
 

@@ -1,0 +1,180 @@
+{
+ "version": 1,
+ "timestamp": "2026-11-22T18:48:36-08:00",
+ "hero": "lithrei-woeborn",
+ "label": "Lithrei",
+ "kind": "items",
+ "hero_sha": "0649c24817cd",
+ "blacklist_sha": "d23eb12cfa9e",
+ "blacklist": {
+  "categories": [
+   "Adventuring Gear",
+   "Consumables"
+  ],
+  "subcategories": [],
+  "names": []
+ },
+ "hero_context": {
+  "name": "Lithrei Woeborn",
+  "class": "Oracle",
+  "dualClass": "Investigator",
+  "level": 2,
+  "proficiencies": {
+   "classDC": 2,
+   "perception": 4,
+   "fortitude": 2,
+   "reflex": 4,
+   "will": 4,
+   "heavy": 0,
+   "medium": 0,
+   "light": 2,
+   "unarmored": 2,
+   "advanced": 0,
+   "martial": 2,
+   "simple": 2,
+   "unarmed": 2,
+   "castingArcane": 0,
+   "castingDivine": 2,
+   "castingOccult": 0,
+   "castingPrimal": 0,
+   "acrobatics": 0,
+   "arcana": 2,
+   "athletics": 0,
+   "crafting": 0,
+   "deception": 2,
+   "diplomacy": 2,
+   "intimidation": 2,
+   "medicine": 2,
+   "nature": 2,
+   "occultism": 4,
+   "performance": 2,
+   "religion": 2,
+   "society": 2,
+   "stealth": 2,
+   "survival": 2,
+   "thievery": 2,
+   "piloting": 0,
+   "computers": 0
+  },
+  "feats": [
+   "Nudge the Scales",
+   "No Cause for Alarm",
+   "Oracle Dedication",
+   "Experienced Tracker",
+   "Custom Mixed Heritage",
+   "That's Odd",
+   "Know Oneself",
+   "Innate Understanding",
+   "Additional Lore",
+   "Dubious Knowledge",
+   "Domain Acumen",
+   "Shared Stratagem",
+   "Detective Dedication"
+  ],
+  "specials": [
+   "Life Mystery",
+   "Curse of Outpouring Life",
+   "Revelation Spells",
+   "Oracular Curse",
+   "Oracle Spellcasting",
+   "Pursue a Lead",
+   "Clue In",
+   "Devise a Stratagem",
+   "Strategic Strike",
+   "Interrogation Methodology",
+   "Pointed Question",
+   "Samsaran",
+   "No special vision",
+   "Soul",
+   "Custom Mixed Heritage"
+  ],
+  "familiar_abilities": [],
+  "pets": [],
+  "rituals": [],
+  "weapons": [
+   "Bladed Scarf",
+   "Branch Implement (Lithrei)"
+  ],
+  "armor": [
+   "Armored Cloak"
+  ],
+  "equipment": [
+   "Backpack",
+   "Bedroll",
+   "Chalk",
+   "Flint and Steel",
+   "Rope",
+   "Rations",
+   "Torch",
+   "Waterskin",
+   "Soap",
+   "Bloodsalt folio"
+  ]
+ },
+ "cards": [
+  {
+   "id": "bladed-scarf",
+   "title": "Bladed Scarf",
+   "subtitle": "Weapon 0",
+   "page": 1,
+   "slot": 1,
+   "render_sha": "2500de74f967",
+   "fields": {
+    "title": "c4decbbda1c8",
+    "subtitle": "78b0d2a54014",
+    "actions": "dd29ecf524b0",
+    "stats": "6cdfb4ff05ea",
+    "footer": "f7ac9d1733cb",
+    "front": "4ccd602da628",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "e86dfbedbc76",
+   "summarized": false,
+   "aon_id": "weapon-273",
+   "aon_fetched": "2026-11-16T16:42:03-08:00"
+  },
+  {
+   "id": "armored-cloak",
+   "title": "Armored Cloak",
+   "subtitle": "Armor 0",
+   "page": 1,
+   "slot": 2,
+   "render_sha": "5bb5329fa3aa",
+   "fields": {
+    "title": "c8780b0eb914",
+    "subtitle": "2d219c11efa3",
+    "actions": "dd29ecf524b0",
+    "stats": "67dd302eb027",
+    "footer": "128091f7b6c6",
+    "front": "c5d7c79d0241",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "7cb68e225377",
+   "summarized": false,
+   "aon_id": "armor-37",
+   "aon_fetched": "2026-11-16T16:42:03-08:00"
+  }
+ ],
+ "blacklisted": [
+  "Backpack",
+  "Bedroll",
+  "Chalk",
+  "Flint and Steel",
+  "Rope",
+  "Rations",
+  "Torch",
+  "Waterskin",
+  "Soap"
+ ],
+ "passive": [],
+ "missing": [
+  "Branch Implement (Lithrei)",
+  "Bloodsalt folio"
+ ],
+ "outputs": [
+  "Lithrei - Items.pdf",
+  "Lithrei - Items (Back) pg1.pdf"
+ ]
+}

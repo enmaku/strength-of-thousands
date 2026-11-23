@@ -1,0 +1,147 @@
+{
+ "version": 1,
+ "timestamp": "2026-11-22T18:48:33-08:00",
+ "hero": "cy-an-copperbottom",
+ "label": "Cy’An",
+ "kind": "items",
+ "hero_sha": "15d3ce2a486b",
+ "blacklist_sha": "d23eb12cfa9e",
+ "blacklist": {
+  "categories": [
+   "Adventuring Gear",
+   "Consumables"
+  ],
+  "subcategories": [],
+  "names": []
+ },
+ "hero_context": {
+  "name": "Cy’An Copperbottom",
+  "class": "Inventor",
+  "dualClass": null,
+  "level": 1,
+  "proficiencies": {
+   "classDC": 2,
+   "perception": 2,
+   "fortitude": 4,
+   "reflex": 2,
+   "will": 4,
+   "heavy": 0,
+   "medium": 2,
+   "light": 2,
+   "unarmored": 2,
+   "advanced": 0,
+   "martial": 2,
+   "simple": 2,
+   "unarmed": 2,
+   "castingArcane": 2,
+   "castingDivine": 0,
+   "castingOccult": 0,
+   "castingPrimal": 0,
+   "acrobatics": 0,
+   "arcana": 2,
+   "athletics": 2,
+   "crafting": 2,
+   "deception": 2,
+   "diplomacy": 0,
+   "intimidation": 0,
+   "medicine": 0,
+   "nature": 0,
+   "occultism": 0,
+   "performance": 0,
+   "religion": 0,
+   "society": 2,
+   "stealth": 2,
+   "survival": 2,
+   "thievery": 2,
+   "piloting": 0,
+   "computers": 0
+  },
+  "feats": [
+   "Shield Block",
+   "Inventor",
+   "Seasoned",
+   "Wizard Dedication",
+   "Irongut Goblin",
+   "Built-In Tools",
+   "City Scavenger"
+  ],
+  "specials": [
+   "Overdrive",
+   "Construct Innovation",
+   "Explode",
+   "Peerless Inventor",
+   "Darkvision",
+   "School of Unified Magical Theory",
+   "Irongut Goblin"
+  ],
+  "familiar_abilities": [],
+  "pets": [],
+  "rituals": [
+   "Bonding Meal"
+  ],
+  "weapons": [
+   "Dagger"
+  ],
+  "armor": [
+   "Armored Coat"
+  ],
+  "equipment": [
+   "Artisan's Toolkit"
+  ]
+ },
+ "cards": [
+  {
+   "id": "armored-coat",
+   "title": "Armored Coat",
+   "subtitle": "Armor 0",
+   "page": 1,
+   "slot": 1,
+   "render_sha": "aa3b2f1d11cf",
+   "fields": {
+    "title": "815494c92517",
+    "subtitle": "2d219c11efa3",
+    "actions": "dd29ecf524b0",
+    "stats": "cc965d8424f1",
+    "footer": "0a38068cec6c",
+    "front": "2263ef752edb",
+    "back": "f260d29c281f",
+    "cited": "e1940e0367c2"
+   },
+   "source_sha": "5bf39ca3204d",
+   "summarized": true,
+   "aon_id": "armor-16",
+   "aon_fetched": "2026-11-16T16:41:41-08:00"
+  },
+  {
+   "id": "dagger",
+   "title": "Dagger",
+   "subtitle": "Weapon 0",
+   "page": 1,
+   "slot": 2,
+   "render_sha": "8937577e9a4f",
+   "fields": {
+    "title": "7efda8fab1d2",
+    "subtitle": "78b0d2a54014",
+    "actions": "dd29ecf524b0",
+    "stats": "3e1831d4fd2c",
+    "footer": "f7b328dd53c4",
+    "front": "12db87f87356",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "d5abf330e836",
+   "summarized": false,
+   "aon_id": "weapon-358",
+   "aon_fetched": "2026-11-16T16:41:41-08:00"
+  }
+ ],
+ "blacklisted": [
+  "Artisan's Toolkit"
+ ],
+ "passive": [],
+ "missing": [],
+ "outputs": [
+  "Cy’An - Items.pdf",
+  "Cy’An - Items (Back) pg1.pdf"
+ ]
+}

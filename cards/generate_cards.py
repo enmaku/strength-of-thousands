@@ -564,7 +564,7 @@ FRONT_ROWS = [(35.8, 269.5), (279.2, 513.0), (522.5, 756.2)]
 
 
 def fill_front(page, cards):
-    """Draw up to 9 cards onto one front page. Returns {slot index: card} for cards that get a back."""
+    """Draw up to 9 cards onto one front page. Returns {slot index: card} for every card on the page (all of them get a back)."""
     rects = {w.field_name: w.rect for w in page.widgets()}
     backs = {}
     for i, card in enumerate(cards):
@@ -573,10 +573,10 @@ def fill_front(page, cards):
         dy = t.y0 - 50  # row-1 title field top is y=50 in PyMuPDF coords
         fit_text(page, fitz.Rect(t.x0, 66 + dy, t.x1, 90 + dy), card["title"], "title", 14, align=1)
         draw_subtitle(page, fitz.Rect(t.x0, 93 + dy, t.x1, 105 + dy), card["subtitle"], card["actions"])
+        backs[i] = card
         if card["summary"] is None:
             size = fit_text(page, body, front_text(card), "body", 10, align=1, min_size=FRONT_MIN)
         else:
-            backs[i] = card
             size = fit_text(page, fitz.Rect(body.x0, body.y0, body.x1, body.y1 - SEE_REVERSE_H),
                             front_text(card, card["summary"]["front"]), "body", 10, align=1, min_size=FRONT_MIN)
             page.insert_textbox(fitz.Rect(body.x0, body.y1 - SEE_REVERSE_H, body.x1, body.y1),
@@ -601,22 +601,67 @@ def fill_front(page, cards):
     return backs
 
 
+TAB_CLIP = fitz.Rect(52, 30, 216, 62)  # top strip of front slot 0: the title tab ("Spell"/"Item"/"Action"), whose position varies by template
+_TAB_CACHE = {}
+
+
+def mirrored_tab(template):
+    """(png bytes, label, label rect) for the tab strip of a front template, flipped left-to-right.
+
+    A back is printed on the reverse of its front, so a tab on the left of the front sits on the
+    right of the back. The strip is rendered without its label and flipped; the label is drawn
+    afterwards as real, unflipped text at the mirrored position.
+    """
+    if template not in _TAB_CACHE:
+        page = fitz.open(CARDS / "templates" / template)[0]
+        x0, y0, x1, y1, label = page.get_text("words", clip=TAB_CLIP)[0][:5]
+        # Remove just the label's text from the page (line art and images stay), then flip the pixels.
+        page.add_redact_annot(fitz.Rect(x0, y0, x1, y1))
+        page.apply_redactions(images=fitz.PDF_REDACT_IMAGE_NONE, graphics=fitz.PDF_REDACT_LINE_ART_NONE)
+        scale = 600 / 72
+        pix = page.get_pixmap(matrix=fitz.Matrix(scale, scale), clip=TAB_CLIP, alpha=False)
+        w, h, n = pix.width, pix.height, pix.n
+        rows = bytes(pix.samples)
+        flipped = b"".join(b"".join(rows[(y * w + x) * n:(y * w + x + 1) * n] for x in range(w - 1, -1, -1)) for y in range(h))
+        pix = fitz.Pixmap(pix.colorspace, w, h, flipped, False)
+        mx0, mx1 = TAB_CLIP.x0 + TAB_CLIP.x1 - x1, TAB_CLIP.x0 + TAB_CLIP.x1 - x0
+        _TAB_CACHE[template] = (pix.tobytes("png"), label, fitz.Rect(mx0 - 4, y0 - 2, mx1 + 4, y0 + 15))
+    return _TAB_CACHE[template]
+
+
+def draw_back_tab(page, template, dx=0, dy=0):
+    """Draw the mirrored title tab on one back slot; (dx, dy) is the slot offset from slot 0."""
+    png, label, lrect = mirrored_tab(template)
+    dest = TAB_CLIP + (dx, dy, dx, dy)
+    page.draw_rect(dest, color=None, fill=(1, 1, 1), overlay=True)
+    page.insert_image(dest, stream=png, overlay=True)
+    page.insert_textbox(lrect + (dx, dy, dx, dy), label, fontname="tibo", fontsize=8.5, align=1, overlay=True)
+
+
 def fill_back(page, slots):
-    """slots: {front slot index: card} -> one back page, columns mirrored if needed."""
+    """slots: {front slot index: card} -> one back page, columns mirrored if needed.
+
+    Uses the deck's own back template ("Playing Card - <Deck> Backs.pdf"), which already carries the
+    mirrored tab; see cards/build_back_templates.py.
+    """
     rects = {w.field_name: w.rect for w in page.widgets()}
-    # Cover the template's frame for every slot that has no back, so no empty frames get printed.
+    # Cover the template's frame only for slots with no card at all. Cards without back text keep
+    # their frame and title so every card has a finished back.
     # (The frames are raster strips; a white box is far smaller than blanking pixels.)
     used = {(i // 3, 2 - i % 3 if MIRROR_BACKS else i % 3) for i in slots}
     for r in range(3):
         for c in range(3):
             if (r, c) not in used:
-                page.draw_rect(rects[f"p2_r{r+1}_c{c+1}_back"] + (-8, -16, 8, 16), color=None, fill=(1, 1, 1), overlay=True)
+                page.draw_rect(rects[f"p2_r{r+1}_c{c+1}_back"] + (-8, -26, 8, 16), color=None, fill=(1, 1, 1), overlay=True)
     for i, card in slots.items():
         r, c = divmod(i, 3)
         if MIRROR_BACKS:
             c = 2 - c
         title, text, cite = back_rects(rects[f"p2_r{r+1}_c{c+1}_back"])
         fit_text(page, title, card["title"], "title", 12, align=1)
+        if card["summary"] is None:
+            print(f"  back: {card['title']:<24} (title only)")
+            continue
         size = fit_text(page, text, card["summary"]["back"], "body", 10, min_size=FRONT_MIN)
         if size is None:
             print(f"  ! back overflows at {FRONT_MIN}pt: {card['title']}")
@@ -629,8 +674,8 @@ def fill_back(page, slots):
 def build_pdfs(cards, outdir, label, template, kind_label):
     """Write '<label> - <Kind>.pdf' plus one '<label> - <Kind> (Back) pgN.pdf' per front page that has backs.
 
-    Back pages are separate single-page PDFs, fed through the printer one at a time. Front pages
-    with no back text get no back file.
+    Back pages are separate single-page PDFs, fed through the printer one at a time. Every front
+    page gets a back; cards without back text show the frame and title only.
     """
     # Only this deck's own files: timestamped "(changes ...)" PDFs from earlier diffs must survive.
     for old in [outdir / f"{label} - {kind_label}.pdf", *outdir.glob(f"{label} - {kind_label} (Back) pg*.pdf")]:
@@ -650,7 +695,7 @@ def build_pdfs(cards, outdir, label, template, kind_label):
     needed = [n for n in sorted(back_slots) if back_slots[n]]
     for n in needed:
         print(f"back for page {n}")
-        doc = fitz.open(CARDS / "templates" / "Playing Card - Backs.pdf")
+        doc = fitz.open(CARDS / "templates" / template.replace(".pdf", " Backs.pdf"))
         fill_back(doc[0], back_slots[n])
         doc.save(outdir / f"{label} - {kind_label} (Back) pg{n}.pdf", garbage=4, deflate=True)
         files.append(f"{label} - {kind_label} (Back) pg{n}.pdf")
@@ -846,7 +891,7 @@ def run(hero_id, kind, diff):
 
     # Measurement pages for the fit checks (front slot 0 and back slot 0 are representative).
     front_page = fitz.open(CARDS / "templates" / cfg["template"])[0]
-    back_page = fitz.open(CARDS / "templates" / "Playing Card - Backs.pdf")[0]
+    back_page = fitz.open(CARDS / "templates" / cfg["template"].replace(".pdf", " Backs.pdf"))[0]
     _, front_body, _ = front_rects({w.field_name: w.rect for w in front_page.widgets()}, 0)
     _, back_text, _ = back_rects({w.field_name: w.rect for w in back_page.widgets()}["p2_r1_c1_back"])
 

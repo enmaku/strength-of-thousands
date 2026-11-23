@@ -1,0 +1,143 @@
+{
+ "version": 1,
+ "timestamp": "2026-11-22T18:48:40-08:00",
+ "hero": "solanum-calabash",
+ "label": "Solanum",
+ "kind": "items",
+ "hero_sha": "138d6d05f530",
+ "blacklist_sha": "d23eb12cfa9e",
+ "blacklist": {
+  "categories": [
+   "Adventuring Gear",
+   "Consumables"
+  ],
+  "subcategories": [],
+  "names": []
+ },
+ "hero_context": {
+  "name": "Solanum Calabash",
+  "class": "Magus",
+  "dualClass": null,
+  "level": 1,
+  "proficiencies": {
+   "classDC": 2,
+   "perception": 2,
+   "fortitude": 4,
+   "reflex": 2,
+   "will": 4,
+   "heavy": 0,
+   "medium": 2,
+   "light": 2,
+   "unarmored": 2,
+   "advanced": 0,
+   "martial": 2,
+   "simple": 2,
+   "unarmed": 2,
+   "castingArcane": 2,
+   "castingDivine": 0,
+   "castingOccult": 0,
+   "castingPrimal": 0,
+   "acrobatics": 2,
+   "arcana": 2,
+   "athletics": 2,
+   "crafting": 0,
+   "deception": 0,
+   "diplomacy": 0,
+   "intimidation": 0,
+   "medicine": 0,
+   "nature": 2,
+   "occultism": 2,
+   "performance": 0,
+   "religion": 0,
+   "society": 0,
+   "stealth": 0,
+   "survival": 0,
+   "thievery": 0,
+   "piloting": 0,
+   "computers": 0
+  },
+  "feats": [
+   "Oddity Identification",
+   "Fruit Leshy",
+   "Seedpod"
+  ],
+  "specials": [
+   "Spellstrike",
+   "Spellstrike Specifics",
+   "Arcane Cascade",
+   "Twisting Tree",
+   "Conflux Spells",
+   "Spellbook",
+   "Low-Light Vision",
+   "Plant Nourishment",
+   "Fruit Leshy"
+  ],
+  "familiar_abilities": [],
+  "pets": [],
+  "rituals": [],
+  "weapons": [
+   "Bo Staff"
+  ],
+  "armor": [
+   "Leaf Weave"
+  ],
+  "equipment": [
+   "Backpack"
+  ]
+ },
+ "cards": [
+  {
+   "id": "bo-staff",
+   "title": "Bo Staff",
+   "subtitle": "Weapon 0",
+   "page": 1,
+   "slot": 1,
+   "render_sha": "27b55e29d4aa",
+   "fields": {
+    "title": "441320c65311",
+    "subtitle": "78b0d2a54014",
+    "actions": "dd29ecf524b0",
+    "stats": "0b54cc654dca",
+    "footer": "c708bb4d22f9",
+    "front": "0f8652189b56",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "a595eb242620",
+   "summarized": false,
+   "aon_id": "weapon-372",
+   "aon_fetched": "2026-11-16T16:42:26-08:00"
+  },
+  {
+   "id": "leaf-weave",
+   "title": "Leaf Weave",
+   "subtitle": "Armor 0",
+   "page": 1,
+   "slot": 2,
+   "render_sha": "9ad99e0dce35",
+   "fields": {
+    "title": "5e077b585ffb",
+    "subtitle": "2d219c11efa3",
+    "actions": "dd29ecf524b0",
+    "stats": "1e1bdb0159d3",
+    "footer": "44204b1e5033",
+    "front": "b929a54ec7f2",
+    "back": "2be88ca4242c",
+    "cited": "2be88ca4242c"
+   },
+   "source_sha": "c5bce94ad14e",
+   "summarized": false,
+   "aon_id": "armor-28",
+   "aon_fetched": "2026-11-16T16:42:26-08:00"
+  }
+ ],
+ "blacklisted": [
+  "Backpack"
+ ],
+ "passive": [],
+ "missing": [],
+ "outputs": [
+  "Solanum - Items.pdf",
+  "Solanum - Items (Back) pg1.pdf"
+ ]
+}
