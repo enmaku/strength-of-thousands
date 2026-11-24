@@ -131,16 +131,21 @@ def fetch_aon(name, kind):
         base, num = m.groups()
         pat = re.compile(rf"{re.escape(base)} \((?:[A-Za-z]+ )?{num}\)", re.I)
         hits = [h for h in _search(base, kind, 40) if pat.fullmatch(h["name"])]
-    # A class feature only counts if it belongs to one of the hero's classes.
-    hits = [h for h in hits if h["category"] != "class-feature" or not HERO_CLASSES or _classes(h) & HERO_CLASSES]
+    hits = best_hits(hits)
     if not hits:
         return None
-    # Prefer the current (remastered) entry: legacy entries carry a remaster_id, their
-    # replacements carry a legacy_id; then prefer the core remaster books.
-    hits.sort(key=lambda s: (CATEGORY_RANK.get(s["category"], 9), bool(s.get("remaster_id")), not s.get("legacy_id"),
-                             not (s.get("source_raw") or [""])[0].startswith(PREFERRED_SOURCES)))
     cache_save(path, hits[0])
     return hits[0]
+
+
+def best_hits(hits):
+    """Order AoN hits best-first, dropping class features of classes the hero does not have."""
+    # A class feature only counts if it belongs to one of the hero's classes.
+    hits = [h for h in hits if h["category"] != "class-feature" or not HERO_CLASSES or _classes(h) & HERO_CLASSES]
+    # Prefer the current (remastered) entry: legacy entries carry a remaster_id, their
+    # replacements carry a legacy_id; then prefer the core remaster books.
+    return sorted(hits, key=lambda s: (CATEGORY_RANK.get(s["category"], 9), bool(s.get("remaster_id")), not s.get("legacy_id"),
+                                       not (s.get("source_raw") or [""])[0].startswith(PREFERRED_SOURCES)))
 
 
 def clean(md, name=""):
@@ -564,10 +569,12 @@ FRONT_ROWS = [(35.8, 269.5), (279.2, 513.0), (522.5, 756.2)]
 
 
 def fill_front(page, cards):
-    """Draw up to 9 cards onto one front page. Returns {slot index: card} for every card on the page (all of them get a back)."""
+    """Draw up to 9 cards onto one front page: a list fills slots 0.., a dict {slot: card} fills exactly those slots.
+    Returns {slot index: card} for every card on the page (all of them get a back)."""
     rects = {w.field_name: w.rect for w in page.widgets()}
+    slots = cards if isinstance(cards, dict) else dict(enumerate(cards))
     backs = {}
-    for i, card in enumerate(cards):
+    for i, card in slots.items():
         t, body, foot = front_rects(rects, i)
         # Title sits above the thick rule, subtitle between the rules.
         dy = t.y0 - 50  # row-1 title field top is y=50 in PyMuPDF coords
@@ -592,7 +599,7 @@ def fill_front(page, cards):
     # Cover the frame of every unused slot so no empty cards get printed. The spell, item and action
     # templates share one frame grid (measured from the rendered templates); gaps between cards
     # are 15.6pt wide and 9.7pt tall, so a 3pt margin never touches a neighbour.
-    for i in range(len(cards), 9):
+    for i in sorted(set(range(9)) - set(slots)):
         r, c = divmod(i, 3)
         (x0, x1), (y0, y1) = FRONT_COLS[c], FRONT_ROWS[r]
         page.draw_rect(fitz.Rect(x0 - 3, y0 - 3, x1 + 3, y1 + 3), color=None, fill=(1, 1, 1), overlay=True)
@@ -831,21 +838,31 @@ def diff_cards(prev, cards):
     return new, changed, source_only, [p for i, p in prev_by.items() if i not in current]
 
 
+def rehash(card):
+    """Source hash for a card whose title or stats were relabelled (universal actions, companions)."""
+    card["hash"] = hashlib.sha1("\n".join([card["title"], card["stats"], *card["desc"]]).encode()).hexdigest()[:12]
+
+
 Entry = namedtuple("Entry", "ref subtitle extra title follow", defaults=(None, "", None, True))
 
 
-def collect_cards(hero, kind):
-    """Resolve a hero's names to cards. Returns (cards, blacklisted, passive, missing)."""
+def collect_cards(hero, kind, entries=None, explicit=False, fetch=None):
+    """Resolve a hero's names to cards. Returns (cards, blacklisted, passive, missing).
+
+    entries / explicit / fetch serve hand-picked cards (generate_custom_cards.py): `entries` replaces the
+    hero's own list, `explicit` skips the blacklist and keeps a requested passive entry that links to
+    nothing, `fetch` swaps in a lookup that prefers the cache."""
     cfg = KINDS[kind]
+    fetch = fetch or fetch_aon
     cards, skipped, passive, missing = [], [], [], []
-    queue = deque(Entry(*e) if isinstance(e, tuple) else Entry(e) for e in cfg["names"](hero))
+    queue = deque(Entry(*e) if isinstance(e, tuple) else Entry(e) for e in (cfg["names"](hero) if entries is None else entries))
     while queue:
         e = queue.popleft()
-        s = fetch_aon(e.ref, cfg["aon"])
+        s = fetch(e.ref, cfg["aon"])
         if not s:
             missing.append(e.ref)
             continue
-        if is_blacklisted(kind, e.ref, s):
+        if not explicit and is_blacklisted(kind, e.ref, s):
             if s["name"] not in skipped:  # several skills can lead to the same action
                 skipped.append(s["name"])
             continue
@@ -857,7 +874,7 @@ def collect_cards(hero, kind):
             card["subtitle"] = e.subtitle
             card["stats"] = "; ".join(filter(None, [e.extra, card["stats"]]))
         if e.title or e.subtitle:
-            card["hash"] = hashlib.sha1("\n".join([card["title"], card["stats"], *card["desc"]]).encode()).hexdigest()[:12]
+            rehash(card)
         if any(c["id"] == card["id"] for c in cards):
             continue  # same action reached twice (e.g. Recall Knowledge from several skills)
         # A class feature with no cost of its own usually embeds the action it grants (Spellstrike,
@@ -866,11 +883,20 @@ def collect_cards(hero, kind):
             s["category"] == "animal-companion" or not card["actions"]) else []
         for i in reversed(links):
             queue.appendleft(Entry("id:" + i))
-        if e.subtitle or cfg.get("keep", lambda c: True)(card):
+        if e.subtitle or cfg.get("keep", lambda c: True)(card) or (explicit and not links):
             cards.append(card)
         elif not links:
             passive.append(s["name"])
     return cards, skipped, passive, missing
+
+
+def measure_pages(cfg):
+    """(front_page, front_body, back_page, back_text) for the fit checks; front slot 0 and back slot 0 are representative."""
+    front_page = fitz.open(CARDS / "templates" / cfg["template"])[0]
+    back_page = fitz.open(CARDS / "templates" / cfg["template"].replace(".pdf", " Backs.pdf"))[0]
+    _, front_body, _ = front_rects({w.field_name: w.rect for w in front_page.widgets()}, 0)
+    _, back_text, _ = back_rects({w.field_name: w.rect for w in back_page.widgets()}["p2_r1_c1_back"])
+    return front_page, front_body, back_page, back_text
 
 
 def run(hero_id, kind, diff):
@@ -889,13 +915,7 @@ def run(hero_id, kind, diff):
     if passive:
         print(f"skipped {len(passive)} passive (no action cost): {', '.join(passive)}")
 
-    # Measurement pages for the fit checks (front slot 0 and back slot 0 are representative).
-    front_page = fitz.open(CARDS / "templates" / cfg["template"])[0]
-    back_page = fitz.open(CARDS / "templates" / cfg["template"].replace(".pdf", " Backs.pdf"))[0]
-    _, front_body, _ = front_rects({w.field_name: w.rect for w in front_page.widgets()}, 0)
-    _, back_text, _ = back_rects({w.field_name: w.rect for w in back_page.widgets()}["p2_r1_c1_back"])
-
-    todo, pending_file = resolve_summaries(cards, hero_id, front_page, front_body, back_page, back_text)
+    todo, pending_file = resolve_summaries(cards, hero_id, *measure_pages(cfg))
     if todo:
         PENDING.mkdir(parents=True, exist_ok=True)
         pending_file.write_text(json.dumps({"hero": hero_id, "instructions": INSTRUCTIONS, "cards": todo}, indent=1))
