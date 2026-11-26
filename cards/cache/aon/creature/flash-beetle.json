@@ -1,0 +1,149 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "attack_bonus": [
+  8
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Luminescent Aura",
+  "Light Flash"
+ ],
+ "creature_family": "Beetle",
+ "creature_family_markdown": "[Beetle](/MonsterFamilies.aspx?ID=371)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 5,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 6,
+ "hp_raw": "6",
+ "hp_scale": "Low",
+ "hp_scale_number": 2,
+ "id": "creature-2852",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "legacy_id": [
+  "creature-49"
+ ],
+ "level": -1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Flash Beetle](/Monsters.aspx?ID=2852)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nThese 3-foot-long insects boast a pair of glowing organs on the back of the abdomen that give off bright light and that continue to glow for days, even after the creature's death. Flash beetles are commonly herded and harvested by miners and spelunkers, as their glow is considered safer than torches and less expensive than lamps. Denizens of the Darklands often domesticate and train these insects, using them as pets, livestock, or caging them to use as organic sources of light in areas frequented by visitors unaccustomed to the darkness.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\n([Nature](/Skills.aspx?ID=43)): DC 13\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature -1\">[Flash Beetle](/Monsters.aspx?ID=2852)</title>\n\n<traits>\n<trait label=\"Small\" />\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 42\n\n**Perception** +6; [low-light vision](/MonsterAbilities.aspx?ID=69)\n\n**Languages**\n\n**Skills**\n[Acrobatics](/Skills.aspx?ID=1) +6, [Athletics](/Skills.aspx?ID=3) +4\n\n<row gap=\"medium\">\n**Str** +1\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -5\n\n**Wis** +1\n\n**Cha** -2\n</row>\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 16 \n\n**Fort** +5 \n\n**Ref** +8 \n\n**Will** +4 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 6\n\n</row>\n\n**Luminescent Aura** ([aura](/Traits.aspx?ID=542), [light](/Traits.aspx?ID=640)) 10 feet. The flash beetle's bioluminescent organs fill<br />the area with [bright light](/Rules.aspx?ID=407).\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 20 feet, fly 15 feet\n\n**Melee**\n<actions string=\"Single Action\" />\nmandibles +8 ([Agile](/Traits.aspx?ID=526), [Finesse](/Traits.aspx?ID=602)),\n**Damage** 1d4+1 piercing\n\n**Light Flash** <actions string=\"Single Action\" /> ([Concentrate](/Traits.aspx?ID=561), [Light](/Traits.aspx?ID=640)) The flash beetle creates a brilliant flash of light. All creatures in its luminescent aura must succeed at a DC 17 Fortitude save or be [dazzled](/Conditions.aspx?ID=65) for 1 minute. The flash beetle's glow then goes out, disabling its aura for 24 hours, during which time it cannot use Light Flash.\n\n</column>\n\n<aside>\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_5_TreasureAndRewards.png\">Light Glands</title>\n\nBeetles do not collect treasure, but the two light-producing organs of a flash beetle can be recovered from the creature and used for illumination-based chemical recipes, spell components, and magic item creation.\n</aside>\n\n<document level=\"2\" id=\"creature-family-371\" />",
+ "name": "Flash Beetle",
+ "npc": false,
+ "perception": 6,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 42",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 8,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Small\" />\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=531\" />\n</traits>\n\n<additional-info>\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 42\n\n**Creature Family** [Beetle](/MonsterFamilies.aspx?ID=371)\n\n<row gap=\"medium\">\n**HP** 6\n\n**AC** 16\n\n**Fort** +5\n\n**Ref** +8\n\n**Will** +4\n\n**Perception** +6\n</row>\n</additional-info>\n\n---\n\n<summary>\nThese 3-foot-long insects boast a pair of glowing organs on the back of the abdomen that give off bright light and that continue to glow for days, \u2026\n</summary>",
+ "sense": "low-light vision",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Small"
+ ],
+ "size_id": [
+  2
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Athletics](/Skills.aspx?ID=3) +4",
+ "skill_mod": {
+  "acrobatics": 6,
+  "athletics": 4
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 42"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 42",
+ "speed": {
+  "fly": 15,
+  "land": 20,
+  "max": 20
+ },
+ "speed_markdown": "20 feet, fly 15 feet",
+ "speed_raw": "20 feet, fly 15 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  3
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "sub_document_id": [
+  "creature-family-371"
+ ],
+ "summary": "These 3-foot-long insects boast a pair of glowing organs on the back of the abdomen that give off bright light and that continue to glow for days, \u2026",
+ "summary_markdown": "These 3-foot-long insects boast a pair of glowing organs on the back of the abdomen that give off bright light and that continue to glow for days, \u2026",
+ "text": "Flash Beetle These 3-foot-long insects boast a pair of glowing organs on the back of the abdomen that give off bright light and that continue to glow for days, even after the creature's death. Flash beetles are commonly herded and harvested by miners and spelunkers, as their glow is considered safer than torches and less expensive than lamps. Denizens of the Darklands often domesticate and train these insects, using them as pets, livestock, or caging them to use as organic sources of light in areas frequented by visitors unaccustomed to the darkness. Recall Knowledge - Animal (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Creature -1 Flash Beetle Small Animal Source Monster Core pg. 42 Perception +6; low-light vision Languages Skills Acrobatics +6, Athletics +4 Str +1 Dex +3 Con +2 Int -5 Wis +1 Cha -2 AC 16 Fort +5 Ref +8 Will +4 HP 6 Luminescent Aura (aura, light) 10 feet. The flash beetle's bioluminescent organs fill the area with bright light. Speed 20 feet, fly 15 feet Melee Single Action mandibles +8 (Agile, Finesse), Damage 1d4+1 piercing Light Flash Single Action (Concentrate, Light) The flash beetle creates a brilliant flash of light. All creatures in its luminescent aura must succeed at a DC 17 Fortitude save or be dazzled for 1 minute. The flash beetle's glow then goes out, disabling its aura for 24 hours, during which time it cannot use Light Flash. Light Glands Beetles do not collect treasure, but the two light-producing organs of a flash beetle can be recovered from the creature and used for illumination-based chemical recipes, spell components, and magic item creation. Creature Family Beetle Source Monster Core pg. 42 Not all beetles are harmless creatures that can be easily crushed underfoot. Oversized and ravenous giant beetles can be found throughout the temperate and tropical regions of the world. They are often benign creatures, though when threatened or roused, giant beetles are quite dangerous. Their powerful mandibles and tough exoskeletons make for a challenging combatant. Members Flash Beetle (Creature -1), Giant Stag Beetle (Creature 4), Swamp Beetle (Creature -1)",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "Small"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=531)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=2852",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 4,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

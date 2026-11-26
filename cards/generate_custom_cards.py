@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""One-off card pages: a hand-picked mix of spells, items and actions, front and back.
+"""One-off card pages: a hand-picked mix of spells, items, actions and GM cards, front and back.
 
-Usage: python3 -I cards/generate_custom_cards.py [--hero NAME] "[kind:]Name [xN], [kind:]Name, ..."
+Usage: python3 -I cards/generate_custom_cards.py [--hero NAME] [--no-tabs] "[kind:]Name [xN], [kind:]Name, ..."
 
 For replacing individual cards that were misprinted or damaged. Entries are comma- or newline-separated;
 `spell:`, `item:` or `action:` names the deck (otherwise it is worked out, see detect_kind), and a trailing
@@ -12,6 +12,12 @@ cached summaries), but AoN is only asked about names that are not already in car
 its own deck's template and its slot is copied onto one mixed page, so every card keeps its deck's tab position
 (Spell left, Action middle, Item right on the front; mirrored on the back). Nine cards per page, in the order
 given. Every page gets a back page.
+
+GM cards (cards/gm/book*.py, drawn by generate_gm_cards.py) are found by title, full name or slug: `combat:`,
+`npc:` or `campaign:` names the tab, `gm:` any tab, and `gm:book1:Name` (or `combat:book1:Name`) picks a book when
+several books have a card of that name. An unprefixed name that matches a GM card is that card, unless an AoN
+spell, item or action of that name is cached too, in which case the script asks for a prefix. GM cards need no AoN
+lookup and no summaries. `--no-tabs` prints every card on the page with a plain top edge instead of its tab (handouts).
 
 Cards too long for a front need a summary, as in generate_cards.py: they are written to
 cards/cache/pending/custom-<deck>.json and the script exits 2; fill them in and re-run the same command.
@@ -29,8 +35,10 @@ import fitz
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import generate_cards as g
+import generate_gm_cards as gm
 
-DECKS = {"spell": "spells", "spells": "spells", "item": "items", "items": "items", "action": "actions", "actions": "actions"}
+DECKS = {"spell": "spells", "spells": "spells", "item": "items", "items": "items", "action": "actions", "actions": "actions",
+         "combat": "combat", "npc": "npcs", "npcs": "npcs", "campaign": "campaign", "gm": "gm"}
 OUT = g.CARDS / "custom"
 PAGE_W, PAGE_H = 612, 792
 
@@ -92,7 +100,7 @@ def detect_kind(name):
 # ---------- request parsing ----------
 
 def parse_requests(args):
-    """-> [(deck or None, name, copies)] from the command-line words (commas and newlines separate entries)."""
+    """-> [(deck or None, book or None, name, copies)] from the command-line words (commas and newlines separate entries)."""
     out = []
     for raw in re.split(r"[,;\n]", " ".join(args)):
         text = raw.strip()
@@ -101,10 +109,13 @@ def parse_requests(args):
         copies = 1
         if m := re.fullmatch(r"(.+?)\s*[x×]\s*(\d+)", text, re.I):
             text, copies = m.group(1).strip(), int(m.group(2))
-        deck = None
-        if m := re.match(r"(spells?|items?|actions?)\s*:\s*(.+)", text, re.I):
+        deck = book = None
+        if m := re.match(r"(spells?|items?|actions?|combat|npcs?|campaign|gm)\s*:\s*(.+)", text, re.I):
             deck, text = DECKS[m.group(1).lower()], m.group(2).strip()
-        out.append((deck, text, copies))
+        if m := re.match(r"(book\d+)\s*:\s*(.+)", text, re.I):
+            book, text = m.group(1).lower(), m.group(2).strip()
+            deck = deck or "gm"
+        out.append((deck, book, text, copies))
     return out
 
 
@@ -158,7 +169,27 @@ def back_clip(i, fields):
     return fields[f"p2_r{r+1}_c{c+1}_back"] + (-8, -26, 8, 16)
 
 
-def compose(chunk, template, fill, clip):
+def deck_page(deck, slots, back):
+    """(doc, field rects) for one deck's template with its cards drawn: the player decks via generate_cards, the GM
+    tabs via generate_gm_cards (which also swaps the tab label)."""
+    if deck in gm.TABS:
+        tpl, label, size = gm.TABS[deck]
+        doc, page, fields = gm.template_page(g.CARDS / "templates" / f"Playing Card - {tpl}{' Backs' if back else ''}.pdf",
+                                             label, size)
+        for i, card in slots.items():
+            if back:
+                gm.draw_back(page, fields, i, card)
+            else:
+                gm.draw_front(page, fields, i, card, gm.GM / "art")
+        return doc, fields
+    template = g.KINDS[deck]["template"]
+    doc = fitz.open(g.CARDS / "templates" / (template.replace(".pdf", " Backs.pdf") if back else template))
+    fields = {w.field_name: w.rect for w in doc[0].widgets()}
+    (g.fill_back if back else g.fill_front)(doc[0], slots)
+    return doc, fields
+
+
+def compose(chunk, back, no_tabs):
     """One page from up to nine (deck, card) pairs: each deck's cards are drawn on that deck's own template, then each
     card's slot is copied onto a blank page, so a page can mix decks without disturbing any deck's tab."""
     out = fitz.open()
@@ -167,29 +198,29 @@ def compose(chunk, template, fill, clip):
     for i, (deck, card) in enumerate(chunk):
         by_deck.setdefault(deck, {})[i] = card
     for deck, slots in by_deck.items():
-        doc = fitz.open(g.CARDS / "templates" / template(deck))
-        fields = {w.field_name: w.rect for w in doc[0].widgets()}
-        fill(doc[0], slots)
+        doc, fields = deck_page(deck, slots, back)  # draw every card first: show_pdf_page caches the source page
         for i in slots:
-            rect = clip(i, fields)
+            rect = back_clip(i, fields) if back else front_clip(i)
             page.show_pdf_page(rect, doc, 0, clip=rect)
+    if no_tabs:
+        mirror = (lambda c: 2 - c) if (back and g.MIRROR_BACKS) else (lambda c: c)
+        gm.strip_tabs(page, [(i // 3, mirror(i % 3)) for i in range(len(chunk))], back=back)
     return out
 
 
-def build(chunks, stamp):
+def build(chunks, stamp, no_tabs=False):
     OUT.mkdir(parents=True, exist_ok=True)
-    name = f"Custom {stamp} - Cards"
+    name = f"Custom {stamp} - Cards" + (" (No Tabs)" if no_tabs else "")
     fronts = fitz.open()
     files = []
     for n, chunk in enumerate(chunks, 1):
         print(f"page {n}")
-        fronts.insert_pdf(compose(chunk, lambda d: g.KINDS[d]["template"], g.fill_front, lambda i, f: front_clip(i)))
+        fronts.insert_pdf(compose(chunk, False, no_tabs))
     fronts.save(OUT / f"{name}.pdf", garbage=4, deflate=True)
     files.append(f"{name}.pdf")
     for n, chunk in enumerate(chunks, 1):
         print(f"back for page {n}")
-        back = compose(chunk, lambda d: g.KINDS[d]["template"].replace(".pdf", " Backs.pdf"), g.fill_back, back_clip)
-        back.save(OUT / f"{name} (Back) pg{n}.pdf", garbage=4, deflate=True)
+        compose(chunk, True, no_tabs).save(OUT / f"{name} (Back) pg{n}.pdf", garbage=4, deflate=True)
         files.append(f"{name} (Back) pg{n}.pdf")
     return files
 
@@ -198,7 +229,8 @@ def slot_map(chunks):
     for n, chunk in enumerate(chunks, 1):
         print(f"\npage {n} (front slot: row, column -> back column is mirrored)")
         for i, (deck, card) in enumerate(chunk):
-            print(f"  r{i // 3 + 1} c{i % 3 + 1}  {g.KINDS[deck]['label'][:-1]:<7} {card['title']}")
+            kind = gm.TABS[deck][1] if deck in gm.TABS else g.KINDS[deck]["label"][:-1]
+            print(f"  r{i // 3 + 1} c{i % 3 + 1}  {kind:<8} {card['title']}")
 
 
 # ---------- main ----------
@@ -206,7 +238,8 @@ def slot_map(chunks):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--hero", help="hero whose class(es) decide which class features count")
-    ap.add_argument("entries", nargs="+", help='"[spell:|item:|action:]Name [xN], ..."')
+    ap.add_argument("--no-tabs", action="store_true", help="plain top edge instead of the tab on every card (handouts)")
+    ap.add_argument("entries", nargs="+", help='"[spell:|item:|action:|combat:|npc:|campaign:|gm:]Name [xN], ..."')
     opts = ap.parse_args()
 
     g.HERO_CLASSES.clear()
@@ -219,8 +252,22 @@ def main():
         sys.exit("no cards requested")
 
     # Settle every card's deck before anything is built.
-    resolved, unclear = [], []
-    for deck, name, copies in requests:
+    resolved, unclear, missing = [], [], []
+    for deck, book, name, copies in requests:
+        if deck in ("gm", *gm.TABS) or (deck is None and gm.find(name, book=book)):
+            hits = gm.find(name, None if deck in (None, "gm") else deck, book)
+            cached = [k for k, cfg in g.KINDS.items() if find_cached(name, cfg["aon"])] if deck is None else []
+            if not hits:
+                missing.append(f"{deck}:{name}")
+            elif len(hits) > 1 or cached:
+                options = [f"{c['tab']}:{b}:{name}" for b, c in hits] + [f"{k[:-1]}:{name}" for k in cached]
+                unclear.append(f"'{name}' matches more than one card: write one of {', '.join(options)}")
+            else:
+                (b, card), = hits
+                if deck in (None, "gm"):
+                    print(f"{name}: GM {gm.TABS[card['tab']][1]} ({b})")
+                resolved.append(("gm", (card["tab"], card), copies))
+            continue
         if deck is None:
             kinds = detect_kind(name)
             if len(kinds) > 1:
@@ -233,9 +280,12 @@ def main():
     if unclear:
         sys.exit("\n".join(unclear))
 
-    placed, missing, passive = [], [], []  # placed: (deck, card) in request order, copies repeated
+    placed, passive = [], []  # placed: (deck, card) in request order, copies repeated
     canon = {}  # (deck, card id) -> the one card object, so a repeated card is summarised once
     for deck, name, copies in resolved:
+        if deck == "gm":  # GM cards are complete as written: no AoN text, no summaries
+            placed += [name] * copies
+            continue
         cfg = g.KINDS[deck]
         cards, _, pas, miss = g.collect_cards(None, deck, entries=[name], explicit=True, fetch=lookup)
         missing += miss
@@ -275,8 +325,10 @@ def main():
         sys.exit(2)
 
     chunks = [placed[i:i + 9] for i in range(0, len(placed), 9)]
-    files = build(chunks, datetime.datetime.now().strftime("%Y-%m-%d %H%M%S"))
+    files = build(chunks, datetime.datetime.now().strftime("%Y-%m-%d %H%M%S"), opts.no_tabs)
     slot_map(chunks)
+    for w in gm.WARN:
+        print("GM card text too long:", w)
     print(f"\nwrote {len(placed)} card(s) on {len(chunks)} page(s) to {OUT.relative_to(g.ROOT)}:")
     for f in files:
         print("  ", f)

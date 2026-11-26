@@ -1,0 +1,154 @@
+{
+ "ac": 16,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "N",
+ "attack_bonus": [
+  8,
+  8
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": -1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 2,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Smoke Susceptibility"
+ ],
+ "creature_family": "Giant Bee",
+ "creature_family_markdown": "[Giant Bee](/MonsterFamilies.aspx?ID=288)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 16,
+ "hp_raw": "16",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-1609",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 0,
+ "markdown": "<title level=\"1\" pfs=\"\">[Giant Worker Bee](/Monsters.aspx?ID=1609)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nWorker bees, exclusively female, exist to feed and defend a hive. They have no qualms about sacrificing their lives when confronting intruders in their territory. Worker bees can fight singly, in small groups, or in swarms of dozens. Giant worker bees inject a venom with their stings, but this venom is rarely dangerous except to people sensitive to it. Other worker bees have no stinger and only bite their enemies.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Animal](/Rules.aspx?ID=563)**\n([Nature](/Skills.aspx?ID=10)): DC 14\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 12\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 9\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature 0\">[Giant Worker Bee](/Monsters.aspx?ID=1609)</title>\n\n<traits>\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 80\n\n**Perception** +5; [darkvision](/MonsterAbilities.aspx?ID=12)\n\n**Languages**\n\n**Skills**\n[Acrobatics](/Skills.aspx?ID=1) +6, [Athletics](/Skills.aspx?ID=3) +5\n\n<row gap=\"medium\">\n**Str** +2\n\n**Dex** +3\n\n**Con** +2\n\n**Int** -5\n\n**Wis** +1\n\n**Cha** -1\n</row>\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 16 \n\n**Fort** +6 \n\n**Ref** +9 \n\n**Will** +3 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 16\n\n</row>\n\n**Weaknesses**\nsmoke susceptibility\n\n**Smoke Susceptibility** A giant bee is [slowed 1](/Conditions.aspx?ID=35) for 1 round if it starts its turn in heavy smoke.\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 20 feet, fly 40 feet\n\n**Melee**\n<actions string=\"Single Action\" />\nstinger +8 ([deadly d6](/Traits.aspx?ID=174), [Finesse](/Traits.aspx?ID=179)),\n**Damage** 1d4+2 piercing\n\n**Melee**\n<actions string=\"Single Action\" />\nmandibles +8 ([Agile](/Traits.aspx?ID=170), [Finesse](/Traits.aspx?ID=179)),\n**Damage** 1d4+2 piercing\n\n</column>\n\n<document level=\"2\" id=\"creature-family-288\" />",
+ "name": "Giant Worker Bee",
+ "npc": false,
+ "perception": 5,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "primary_source": "Pathfinder #169: Kindled Magic",
+ "primary_source_raw": "Pathfinder #169: Kindled Magic pg. 80",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2021-08-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Animal\" url=\"/Traits.aspx?ID=9\" />\n</traits>\n\n<additional-info>\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 80\n\n**Creature Family** [Giant Bee](/MonsterFamilies.aspx?ID=288)\n\n<row gap=\"medium\">\n**HP** 16\n\n**AC** 16\n\n**Fort** +6\n\n**Ref** +9\n\n**Will** +3\n\n**Perception** +5\n</row>\n</additional-info>\n\n---\n\n<summary>\nWorker bees, exclusively female, exist to feed and defend a hive. They have no qualms about sacrificing their lives when confronting intruders in \u2026\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=12)",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Acrobatics",
+  "Athletics"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +6, [Athletics](/Skills.aspx?ID=3) +5",
+ "skill_mod": {
+  "acrobatics": 6,
+  "athletics": 5
+ },
+ "source": [
+  "Pathfinder #169: Kindled Magic"
+ ],
+ "source_raw": [
+  "Pathfinder #169: Kindled Magic pg. 80"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 80",
+ "speed": {
+  "fly": 40,
+  "land": 20,
+  "max": 40
+ },
+ "speed_markdown": "20 feet, fly 40 feet",
+ "speed_raw": "20 feet, fly 40 feet",
+ "spell_markdown": "",
+ "strike_damage_average": [
+  4,
+  4
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 2,
+ "strength_scale": "Moderate",
+ "strength_scale_number": 3,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "sub_document_id": [
+  "creature-family-288"
+ ],
+ "summary": "Worker bees, exclusively female, exist to feed and defend a hive. They have no qualms about sacrificing their lives when confronting intruders in \u2026",
+ "summary_markdown": "Worker bees, exclusively female, exist to feed and defend a hive. They have no qualms about sacrificing their lives when confronting intruders in \u2026",
+ "text": "Giant Worker Bee Worker bees, exclusively female, exist to feed and defend a hive. They have no qualms about sacrificing their lives when confronting intruders in their territory. Worker bees can fight singly, in small groups, or in swarms of dozens. Giant worker bees inject a venom with their stings, but this venom is rarely dangerous except to people sensitive to it. Other worker bees have no stinger and only bite their enemies. Recall Knowledge - Animal (Nature): DC 14 Unspecific Lore : DC 12 Specific Lore : DC 9 Creature 0 Giant Worker Bee N Medium Animal Source Pathfinder #169: Kindled Magic pg. 80 Perception +5; darkvision Languages Skills Acrobatics +6, Athletics +5 Str +2 Dex +3 Con +2 Int -5 Wis +1 Cha -1 AC 16 Fort +6 Ref +9 Will +3 HP 16 Weaknesses smoke susceptibility Smoke Susceptibility A giant bee is slowed 1 for 1 round if it starts its turn in heavy smoke. Speed 20 feet, fly 40 feet Melee Single Action stinger +8 (deadly d6, Finesse), Damage 1d4+2 piercing Melee Single Action mandibles +8 (Agile, Finesse), Damage 1d4+2 piercing Creature Family Giant Bee Source Pathfinder #169: Kindled Magic pg. 80 Like their smaller counterparts, giant bees are highly territorial. Many types of giant bees construct hives in caves or abandoned buildings and are quick to attack creatures that they deem a threat to the single fertile queen, who almost never leaves the hive. Although most common in warm biomes with lots of vegetation, some giant bees live in arid or cold environments and are solitary rather than hive-dwelling. Members Giant Mining Bee (Creature 2), Giant Worker Bee (Creature 0) Hive Minds Bees communicate with each other using complex combinations of movement and pheromones. They can share detailed information, particularly related to food, water, and dangers. A queen bee doesn't have the ability to directly control members of her hive, but she guides the entire hive's activities and, when necessary, its relocation. Some druids have attempted to tap into this hive mind to control giant bee swarms, with limited success.",
+ "tradition_markdown": "",
+ "trait": [
+  "Animal",
+  "N",
+  "Medium"
+ ],
+ "trait_group": [
+  "Creature Type"
+ ],
+ "trait_markdown": "[Animal](/Traits.aspx?ID=9)",
+ "trait_raw": [
+  "Animal"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=1609",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "weakness_markdown": "smoke susceptibility",
+ "weakness_raw": "smoke susceptibility",
+ "will_save": 3,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 1,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

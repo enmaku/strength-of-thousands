@@ -1,0 +1,536 @@
+{
+ "combat": [
+  {
+   "slug": "spellskein",
+   "name": "Spellskein",
+   "source": "pdf xref 457",
+   "note": ""
+  },
+  {
+   "slug": "pugwampi",
+   "name": "Pugwampi",
+   "source": "wiki",
+   "note": "PathfinderWiki"
+  },
+  {
+   "slug": "umbo",
+   "name": "Umbo",
+   "source": "pdf xref 590",
+   "note": ""
+  },
+  {
+   "slug": "kurshkin",
+   "name": "Kurshkin",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "havvix",
+   "name": "Havvix",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "centipede-swarm",
+   "name": "Centipede Swarm",
+   "source": "wiki",
+   "note": "PathfinderWiki; same art as giant centipede"
+  },
+  {
+   "slug": "scrit",
+   "name": "Scrit",
+   "source": "pdf xref 1648",
+   "note": ""
+  },
+  {
+   "slug": "silverfish-swarm",
+   "name": "Silverfish Swarm",
+   "source": "pdf xref 782",
+   "note": ""
+  },
+  {
+   "slug": "giant-silverfish",
+   "name": "Giant Silverfish",
+   "source": "pdf xref 1692",
+   "note": ""
+  },
+  {
+   "slug": "shieldbearer-construct",
+   "name": "Shieldbearer Construct",
+   "source": "pdf xref 853",
+   "note": ""
+  },
+  {
+   "slug": "sicklehand-construct",
+   "name": "Sicklehand Construct",
+   "source": "pdf xref 874",
+   "note": ""
+  },
+  {
+   "slug": "bramble-champion-construct",
+   "name": "Bramble Champion",
+   "source": "pdf xref 889",
+   "note": ""
+  },
+  {
+   "slug": "giant-goliath-beetle",
+   "name": "Giant Goliath Beetle",
+   "source": "pdf xref 938",
+   "note": ""
+  },
+  {
+   "slug": "giant-centipede",
+   "name": "Giant Centipede",
+   "source": "wiki",
+   "note": "PathfinderWiki; same art as swarm"
+  },
+  {
+   "slug": "flash-beetle",
+   "name": "Flash Beetle",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "giant-mining-bee",
+   "name": "Giant Mining Bee",
+   "source": "pdf xref 1003",
+   "note": ""
+  },
+  {
+   "slug": "giant-worker-bee",
+   "name": "Giant Worker Bee",
+   "source": "pdf xref 1610",
+   "note": ""
+  },
+  {
+   "slug": "gnagrif",
+   "name": "Gnagrif",
+   "source": "pdf xref 1667",
+   "note": ""
+  },
+  {
+   "slug": "gray-ooze",
+   "name": "Gray Ooze",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "mitflit",
+   "name": "Mitflit",
+   "source": "wiki",
+   "note": "PathfinderWiki"
+  },
+  {
+   "slug": "vexgit",
+   "name": "Vexgit",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "jinkin",
+   "name": "Jinkin",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "binji",
+   "name": "Binji",
+   "source": "pdf xref 1053",
+   "note": ""
+  },
+  {
+   "slug": "urbel",
+   "name": "Urbel",
+   "source": "pdf xref 1087",
+   "note": ""
+  },
+  {
+   "slug": "giant-tsetse-fly",
+   "name": "Giant Tsetse Fly",
+   "source": "pdf xref 1629",
+   "note": ""
+  },
+  {
+   "slug": "stone-ghost",
+   "name": "Stone Ghost",
+   "source": "pdf xref 1776",
+   "note": ""
+  },
+  {
+   "slug": "griffon",
+   "name": "Griffon",
+   "source": "wiki",
+   "note": "PathfinderWiki"
+  },
+  {
+   "slug": "centipede-carcasses",
+   "name": "Centipede Carcasses (hazard)",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "brown-mold",
+   "name": "Brown Mold (hazard)",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "anadi-venom",
+   "name": "Anadi Venom",
+   "source": "pdf xref 1561",
+   "note": "affliction: source creature"
+  },
+  {
+   "slug": "centipede-venom",
+   "name": "Centipede Venom",
+   "source": "wiki",
+   "note": "affliction: source creature"
+  },
+  {
+   "slug": "scrit-poison",
+   "name": "Scrit Poison",
+   "source": "pdf xref 1648",
+   "note": "affliction: source creature"
+  },
+  {
+   "slug": "sleeping-sickness",
+   "name": "Sleeping Sickness",
+   "source": "pdf xref 1629",
+   "note": "affliction: source creature"
+  },
+  {
+   "slug": "purple-pox",
+   "name": "Purple Pox",
+   "source": "pdf xref 590",
+   "note": "affliction: source (Umbo)"
+  },
+  {
+   "slug": "forgetful-ink",
+   "name": "Forgetful Ink",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  }
+ ],
+ "campaign": [
+  {
+   "slug": "cascade-bearers",
+   "name": "Cascade Bearers",
+   "source": "emblem",
+   "note": ""
+  },
+  {
+   "slug": "emerald-boughs",
+   "name": "Emerald Boughs",
+   "source": "emblem",
+   "note": ""
+  },
+  {
+   "slug": "rain-scribes",
+   "name": "Rain-Scribes",
+   "source": "emblem",
+   "note": ""
+  },
+  {
+   "slug": "tempest-sun-mages",
+   "name": "Tempest-Sun Mages",
+   "source": "emblem",
+   "note": ""
+  },
+  {
+   "slug": "uzunjati",
+   "name": "Uzunjati",
+   "source": "emblem",
+   "note": ""
+  },
+  {
+   "slug": "study",
+   "name": "Study",
+   "source": "pdf xref 1266",
+   "note": "Book 1 study illustration"
+  },
+  {
+   "slug": "cram",
+   "name": "Cram",
+   "source": "pdf xref 1245",
+   "note": "Book 1 tome illustration"
+  },
+  {
+   "slug": "practical-research",
+   "name": "Practical Research",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "branch-benefits",
+   "name": "Branch Benefits",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "academy-ranks",
+   "name": "Academy Ranks",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "spire-dormitory",
+   "name": "Spire Dormitory",
+   "source": "page",
+   "note": "Kindled Magic p. 12 interior map, pencil filter, kept landscape"
+  },
+  {
+   "slug": "heron-archives",
+   "name": "Heron Archives",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "tireless-hall",
+   "name": "Tireless Hall",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "archhorn-library",
+   "name": "Archhorn Library",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "speakers-stage",
+   "name": "Speaker\u2019s Stage",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "leshy-gardens",
+   "name": "Leshy Gardens",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "sparring-field",
+   "name": "Sparring Field",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "welcome-walk",
+   "name": "Welcome Walk",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "verdant-house",
+   "name": "Verdant House",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "tree-stump-library",
+   "name": "Tree Stump Library",
+   "source": "campus",
+   "note": "campus map"
+  },
+  {
+   "slug": "dining-hall",
+   "name": "Dining Hall",
+   "source": "campus",
+   "note": "campus map (new)"
+  },
+  {
+   "slug": "powderpile",
+   "name": "Powderpile",
+   "source": "campus",
+   "note": "campus map (new)"
+  },
+  {
+   "slug": "jatembe-and-the-ten",
+   "name": "Jatembe & the Ten",
+   "source": "wiki",
+   "note": "PathfinderWiki 'Jatembe battles Agohbindi', cropped to Jatembe and his Magic Warriors"
+  },
+  {
+   "slug": "founding-of-the-magaambya",
+   "name": "Founding of the Magaambya",
+   "source": "page",
+   "note": "whole campus map"
+  },
+  {
+   "slug": "nantambu",
+   "name": "Nantambu",
+   "source": "page",
+   "note": "Book 2 city map"
+  },
+  {
+   "slug": "spirit-masks",
+   "name": "Spirit Masks",
+   "source": "pdf xref 1495",
+   "note": "Book 1 mask art"
+  },
+  {
+   "slug": "the-anadi",
+   "name": "The Anadi",
+   "source": "pdf xref 1561",
+   "note": "Book 1 anadi art"
+  }
+ ],
+ "npcs": [
+  {
+   "slug": "anchor-root",
+   "name": "Anchor Root",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "chizire",
+   "name": "Chizire",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "esi-djana",
+   "name": "Esi",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "haibram-thodja",
+   "name": "Haibram",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "ignaci-canterells",
+   "name": "Ignaci",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "mariama-keitana",
+   "name": "Mariama",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "noxolo",
+   "name": "Noxolo",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "okoro-obiyo",
+   "name": "Okoro",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "tzeniwe",
+   "name": "Tzeniwe",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "koride-ulawa",
+   "name": "Koride",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "zuma",
+   "name": "Zuma",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "mafika-ayuwari",
+   "name": "Mafika",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "lumusi-yao",
+   "name": "Lumusi",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "oyamba",
+   "name": "Oyamba",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "janatimo",
+   "name": "Janatimo",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "takulu-ot",
+   "name": "Takulu Ot",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "ahassunu",
+   "name": "Ahassunu",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "nhyira",
+   "name": "Nhyira",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "lesedi",
+   "name": "Lesedi",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "tahenkot",
+   "name": "Tahenkot",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "izem-mezitani",
+   "name": "Izem",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "xhokan",
+   "name": "Xhokan",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "goss",
+   "name": "Goss",
+   "source": "portrait",
+   "note": ""
+  },
+  {
+   "slug": "savana",
+   "name": "Savana",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "mazta",
+   "name": "Mazta",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  },
+  {
+   "slug": "abena",
+   "name": "Abena",
+   "source": "generated",
+   "note": "generated (GPT Image)"
+  }
+ ]
+}

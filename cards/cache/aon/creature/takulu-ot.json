@@ -1,0 +1,206 @@
+{
+ "ac": 21,
+ "ac_scale": "High",
+ "ac_scale_number": 4,
+ "alignment": "LG",
+ "attack_bonus": [
+  9
+ ],
+ "attack_bonus_scale": [
+  "Low"
+ ],
+ "attack_bonus_scale_number": [
+  2
+ ],
+ "category": "creature",
+ "charisma": 1,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 1,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Quick Lesson"
+ ],
+ "creature_family_markdown": "",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 9,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-1619",
+ "intelligence": 5,
+ "intelligence_scale": "High",
+ "intelligence_scale_number": 4,
+ "item": [
+  "anteater mask",
+  "potion of minor healing",
+  "Staff"
+ ],
+ "language": [
+  "Amurrun",
+  "Common",
+  "Elven",
+  "Iruxi",
+  "Sylvan",
+  "Xanmba"
+ ],
+ "language_markdown": "[Amurrun](/Languages.aspx?ID=25), [Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Iruxi](/Languages.aspx?ID=32), [Sylvan](/Languages.aspx?ID=10), [Xanmba](/Languages.aspx?ID=81)",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"\">[Takulu Ot, Kindly Teacher of Incoming Students](/Monsters.aspx?ID=1619)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nTakulu was born in the scholarly town of Tunyani, a settlement dedicated to the worship of the Empyreal Lords of magic and knowledge. Due to protection agreements held with the Tempest-Sun Mages of Nantambu, Tunyani's people were afforded the luxury of scholarly focus, with no need for its youths to train as warriors or soldiers. Instead, custom dictated the eldest child of every family would be sent to the priests and become a theologian. Takulu, first born to his parents, arrived at the temples at the age of five. Though he clearly disliked the separation from the rest of his family, Takulu took to his initial lessons well, soon excelling in his studies beyond what even the most learned scholars of Tunyani could offer him. Recognizing their son would never be happy where he was, stifled in both mind and spirit, Takulu's parents invoked a different tradition\u2014a gift of a sacred ibis went to the Empyreal scholars, and Takulu went to the Magaambya.\n\n Takulu had a considerate and kind nature even as a youth, and he immediately took to the Magaambyan ideals of responsibility and community service. He impressed his teachers with his thoughtfulness and his almost-supernatural levels of calm when dealing with difficult situations. His friendly and accepting demeanor meant that Takulu often found himself making friends with the unpopular or less successful students, helping them overcome bullying, shyness, and other social challenges to excel. These efforts found him surrounded by loyal friends and grateful acquaintances as he advanced his academic career. A year after achieving Conversant rank, he married his wife, a talented glass artist living in Nantambu; their relationship remains quietly happy and unshakable to this day.\n\n For over a decade, he was content, and this was enough. Yet as Takulu watched the next generation of Magaambya initiates work their way through their studies, he began to realize his beloved academy had flaws. The school was incredibly understanding of different methods of learning, but could be callous when it came to supporting students emotionally. The self-directed studies that had offered Takulu the freedom to pursue his own interests allowed similarly self-directed and ambitious students to flourish but left those less certain of their path in life adrift and lost. The Magaambya's teachers maintained informal schedules and often forced students to seek them out, considering the journey a valuable lesson, yet this method actively favored those with more social confidence. Recognizing that talented youths were being left behind by the Magaambya's practices, Takulu turned his research to a field that had often taken second place to other academic concerns at the university\u2014the study of teaching itself.\n\n Like many subjects at the Magaambya, several scholars had dabbled in this research, but their knowledge had never been aggregated or catalogued. Takulu began the slow process of testing these approaches and adding his own refinements. He volunteered to personally teach many of the new initiates, a task that was usually left up to older students. The scholar also continued to tutor students that failed to thrive, doing what he could to learn the best methods of organizing lessons to help the most people learn.\n\n Imparting his knowledge to the rest of the Magaambya has been slow. Teachers who thrived under the self-guided tutelage of their mentors prefer things to remain as they are. Others approve of Takulu's goals but consider the implementation a project for him and his like-minded students, rather than something to be broadly embraced. For now, Takulu has satisfied his ambitions by making himself a resource to a generation of incoming initiates and by keeping notes on his process and observations with the same precision that he applies to all of his scholarly pursuits.\n\n In addition to his knowledge of magic and mathematics, Takulu is a skilled diplomat, as he deals with irate students and reticent academics on a daily basis. He's also a very capable mbira player. When not teaching, he can be found watching birds on campus or out in the city of Nantambu, where he's usually accompanied by his wife.\n\n Physically, Takulu is an average-looking man with a friendly smile. He wears clothing with crisp patterns and happy colors, which somehow never have a wrinkle on them no matter what the teacher has been doing recently. He has a favored wooden staff that he almost always carries with him\u2014a gift from a student, which sometimes sprouts a tiny fruit or attracts a brave songbird\u2014and also carries or wears a small trinket in the shape of an anteater, as he has a well-known and innocent delight for the animals. His wholesome image often causes students to gossip about him, making up conspiracy theories of violent hobbies or a secret dark past, but there's no truth to these haphazard stories. Takulu really is everything he appears to be. \n\n<title level=\"2\" right=\"\">Campaign Role</title> Takulu is the first impression of the Magaambya that this campaign offers, serving as a kindly mentor to the heroes while they are students and a reliable ally to them after they outgrow his guidance. Even-tempered and unbearably kind, Takulu can offer advice and help to heroes who are struggling, including being a mouthpiece for you to provide suggestions to players who are struggling to find their character's role in the campaign. Although he answers to Takulu when faculty members speak to him, he prefers that students call him \u201cTeacher Ot.\u201d When not teaching, he can usually be found in his office on the top floor of the Heron Archives.\n\n If placed into a dangerous situation, Takulu's first goal is to protect his students, then anyone else in the area who requires assistance. He isn't a violent man, nor is he very good at violence even if he tries, meaning any combat aid he might offer in the course of the Adventure Path is firmly relegated to a support role.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Humanoid](/Rules.aspx?ID=563)**\n([Society](/Skills.aspx?ID=14)): DC 29\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 27\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 24\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature 4\">[Takulu Ot](/Monsters.aspx?ID=1619)</title>\n\n<traits>\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\n<trait label=\"LG\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 90\n\n**Perception** +11\n\n**Languages**\n[Amurrun](/Languages.aspx?ID=25), [Common](/Languages.aspx?ID=1), [Elven](/Languages.aspx?ID=4), [Iruxi](/Languages.aspx?ID=32), [Sylvan](/Languages.aspx?ID=10), [Xanmba](/Languages.aspx?ID=81)\n\n**Skills**\n[Academia Lore](/Skills.aspx?ID=8) +13, [Arcana](/Skills.aspx?ID=2) +13, [Diplomacy](/Skills.aspx?ID=6) +11, [Library Lore](/Skills.aspx?ID=8) +11, [Nature](/Skills.aspx?ID=10) +9, [Performance](/Skills.aspx?ID=12) +11\n\n<row gap=\"medium\">\n**Str** -1\n\n**Dex** +2\n\n**Con** +1\n\n**Int** +5\n\n**Wis** +3\n\n**Cha** +1\n</row>\n\n**Items**\nanteater mask, _[potion of minor healing](/Equipment.aspx?ID=186)_, [Staff](/Weapons.aspx?ID=12)\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 21 \n\n**Fort** +9 \n\n**Ref** +12 \n\n**Will** +12 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 60\n\n</row>\n\n**Quick Lesson** <actions string=\"Reaction\" /> ([auditory](/Traits.aspx?ID=16)) **Trigger** An ally Takulu can see and who can hear Takulu makes a skill check or an attack roll; **Effect** Takulu grants the ally a +2 circumstance bonus to the triggering check.\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 25 feet\n\n**Melee**\n<actions string=\"Single Action\" />\nstaff +9 ([two-hand d8](/Traits.aspx?ID=198)),\n**Damage** 1d4+1 bludgeoning\n\n**Arcane Prepared Spells** DC 21, attack +13\n- **Cantrips (2nd)**\n[Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Message](/Spells.aspx?ID=190), [Prestidigitation](/Spells.aspx?ID=229), [Read Aura](/Spells.aspx?ID=246)\n- **1st**\n[Heal](/Spells.aspx?ID=148), [Mending](/Spells.aspx?ID=189), [Ray of Enfeeblement](/Spells.aspx?ID=244)\n- **2nd**\n[Comprehend Language](/Spells.aspx?ID=46), [Glitterdust](/Spells.aspx?ID=136), [See Invisibility](/Spells.aspx?ID=271)\n\n</column>",
+ "name": "Takulu Ot",
+ "npc": false,
+ "perception": 11,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "primary_source": "Pathfinder #169: Kindled Magic",
+ "primary_source_raw": "Pathfinder #169: Kindled Magic pg. 90",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
+ "rarity": "unique",
+ "rarity_id": 4,
+ "reflex_save": 12,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2021-08-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Unique\" url=\"/Traits.aspx?ID=161\" />\n<trait label=\"LG\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Human\" url=\"/Traits.aspx?ID=90\" />\n<trait label=\"Humanoid\" url=\"/Traits.aspx?ID=91\" />\n</traits>\n\n<additional-info>\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 90\n\n<row gap=\"medium\">\n**HP** 60\n\n**AC** 21\n\n**Fort** +9\n\n**Ref** +12\n\n**Will** +12\n\n**Perception** +11\n</row>\n</additional-info>\n\n---\n\n<summary>\nTakulu was born in the scholarly town of Tunyani, a settlement dedicated to the worship of the Empyreal Lords of magic and knowledge. Due to \u2026\n</summary>",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Academia Lore",
+  "Arcana",
+  "Diplomacy",
+  "Library Lore",
+  "Nature",
+  "Performance"
+ ],
+ "skill_markdown": "[Academia Lore](/Skills.aspx?ID=8) +13, [Arcana](/Skills.aspx?ID=2) +13, [Diplomacy](/Skills.aspx?ID=6) +11, [Library Lore](/Skills.aspx?ID=8) +11, [Nature](/Skills.aspx?ID=10) +9, [Performance](/Skills.aspx?ID=12) +11",
+ "skill_mod": {
+  "arcana": 13,
+  "diplomacy": 11,
+  "nature": 9,
+  "performance": 11
+ },
+ "source": [
+  "Pathfinder #169: Kindled Magic"
+ ],
+ "source_raw": [
+  "Pathfinder #169: Kindled Magic pg. 90"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 90",
+ "speed": {
+  "land": 25,
+  "max": 25
+ },
+ "speed_markdown": "25 feet",
+ "speed_raw": "25 feet",
+ "spell": [
+  "Comprehend Language",
+  "Glitterdust",
+  "See Invisibility",
+  "Heal",
+  "Mending",
+  "Ray of Enfeeblement",
+  "Daze",
+  "Detect Magic",
+  "Message",
+  "Prestidigitation",
+  "Read Aura"
+ ],
+ "spell_markdown": "[Comprehend Language](/Spells.aspx?ID=46), [Daze](/Spells.aspx?ID=61), [Detect Magic](/Spells.aspx?ID=66), [Glitterdust](/Spells.aspx?ID=136), [Heal](/Spells.aspx?ID=148), [Mending](/Spells.aspx?ID=189), [Message](/Spells.aspx?ID=190), [Prestidigitation](/Spells.aspx?ID=229), [Ray of Enfeeblement](/Spells.aspx?ID=244), [Read Aura](/Spells.aspx?ID=246), [See Invisibility](/Spells.aspx?ID=271)",
+ "spell_attack_bonus": [
+  13
+ ],
+ "spell_attack_bonus_scale": [
+  "High"
+ ],
+ "spell_attack_bonus_scale_number": [
+  4
+ ],
+ "spell_dc": [
+  21
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "spoilers": "Strength of Thousands",
+ "strike_damage_average": [
+  3
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": -1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex",
+  "will"
+ ],
+ "summary": "Takulu was born in the scholarly town of Tunyani, a settlement dedicated to the worship of the Empyreal Lords of magic and knowledge. Due to \u2026",
+ "summary_markdown": "Takulu was born in the scholarly town of Tunyani, a settlement dedicated to the worship of the Empyreal Lords of magic and knowledge. Due to \u2026",
+ "text": "Takulu Ot, Kindly Teacher of Incoming Students Takulu was born in the scholarly town of Tunyani, a settlement dedicated to the worship of the Empyreal Lords of magic and knowledge. Due to protection agreements held with the Tempest-Sun Mages of Nantambu, Tunyani's people were afforded the luxury of scholarly focus, with no need for its youths to train as warriors or soldiers. Instead, custom dictated the eldest child of every family would be sent to the priests and become a theologian. Takulu, first born to his parents, arrived at the temples at the age of five. Though he clearly disliked the separation from the rest of his family, Takulu took to his initial lessons well, soon excelling in his studies beyond what even the most learned scholars of Tunyani could offer him. Recognizing their son would never be happy where he was, stifled in both mind and spirit, Takulu's parents invoked a different tradition\u2014a gift of a sacred ibis went to the Empyreal scholars, and Takulu went to the Magaambya. Takulu had a considerate and kind nature even as a youth, and he immediately took to the Magaambyan ideals of responsibility and community service. He impressed his teachers with his thoughtfulness and his almost-supernatural levels of calm when dealing with difficult situations. His friendly and accepting demeanor meant that Takulu often found himself making friends with the unpopular or less successful students, helping them overcome bullying, shyness, and other social challenges to excel. These efforts found him surrounded by loyal friends and grateful acquaintances as he advanced his academic career. A year after achieving Conversant rank, he married his wife, a talented glass artist living in Nantambu; their relationship remains quietly happy and unshakable to this day. For over a decade, he was content, and this was enough. Yet as Takulu watched the next generation of Magaambya initiates work their way through their studies, he began to realize his beloved academy had flaws. The school was incredibly understanding of different methods of learning, but could be callous when it came to supporting students emotionally. The self-directed studies that had offered Takulu the freedom to pursue his own interests allowed similarly self-directed and ambitious students to flourish but left those less certain of their path in life adrift and lost. The Magaambya's teachers maintained informal schedules and often forced students to seek them out, considering the journey a valuable lesson, yet this method actively favored those with more social confidence. Recognizing that talented youths were being left behind by the Magaambya's practices, Takulu turned his research to a field that had often taken second place to other academic concerns at the university\u2014the study of teaching itself. Like many subjects at the Magaambya, several scholars had dabbled in this research, but their knowledge had never been aggregated or catalogued. Takulu began the slow process of testing these approaches and adding his own refinements. He volunteered to personally teach many of the new initiates, a task that was usually left up to older students. The scholar also continued to tutor students that failed to thrive, doing what he could to learn the best methods of organizing lessons to help the most people learn. Imparting his knowledge to the rest of the Magaambya has been slow. Teachers who thrived under the self-guided tutelage of their mentors prefer things to remain as they are. Others approve of Takulu's goals but consider the implementation a project for him and his like-minded students, rather than something to be broadly embraced. For now, Takulu has satisfied his ambitions by making himself a resource to a generation of incoming initiates and by keeping notes on his process and observations with the same precision that he applies to all of his scholarly pursuits. In addition to his knowledge of magic and mathematics, Takulu is a skilled diplomat, as he deals with irate students and reticent academics on a daily basis. He's also a very capable mbira player. When not teaching, he can be found watching birds on campus or out in the city of Nantambu, where he's usually accompanied by his wife. Physically, Takulu is an average-looking man with a friendly smile. He wears clothing with crisp patterns and happy colors, which somehow never have a wrinkle on them no matter what the teacher has been doing recently. He has a favored wooden staff that he almost always carries with him\u2014a gift from a student, which sometimes sprouts a tiny fruit or attracts a brave songbird\u2014and also carries or wears a small trinket in the shape of an anteater, as he has a well-known and innocent delight for the animals. His wholesome image often causes students to gossip about him, making up conspiracy theories of violent hobbies or a secret dark past, but there's no truth to these haphazard stories. Takulu really is everything he appears to be. Campaign Role Takulu is the first impression of the Magaambya that this campaign offers, serving as a kindly mentor to the heroes while they are students and a reliable ally to them after they outgrow his guidance. Even-tempered and unbearably kind, Takulu can offer advice and help to heroes who are struggling, including being a mouthpiece for you to provide suggestions to players who are struggling to find their character's role in the campaign. Although he answers to Takulu when faculty members speak to him, he prefers that students call him \u201cTeacher Ot.\u201d When not teaching, he can usually be found in his office on the top floor of the Heron Archives. If placed into a dangerous situation, Takulu's first goal is to protect his students, then anyone else in the area who requires assistance. He isn't a violent man, nor is he very good at violence even if he tries, meaning any combat aid he might offer in the course of the Adventure Path is firmly relegated to a support role. Recall Knowledge - Humanoid (Society): DC 29 Unspecific Lore : DC 27 Specific Lore : DC 24 Creature 4 Takulu Ot Unique LG Medium Human Humanoid Source Pathfinder #169: Kindled Magic pg. 90 Perception +11 Languages Amurrun, Common, Elven, Iruxi, Sylvan, Xanmba Skills Academia Lore +13, Arcana +13, Diplomacy +11, Library Lore +11, Nature +9, Performance +11 Str -1 Dex +2 Con +1 Int +5 Wis +3 Cha +1 Items anteater mask, potion of minor healing , Staff AC 21 Fort +9 Ref +12 Will +12 HP 60 Quick Lesson Reaction (auditory) Trigger An ally Takulu can see and who can hear Takulu makes a skill check or an attack roll; Effect Takulu grants the ally a +2 circumstance bonus to the triggering check. Speed 25 feet Melee Single Action staff +9 (two-hand d8), Damage 1d4+1 bludgeoning Arcane Prepared Spells DC 21, attack +13 - Cantrips (2nd) Daze, Detect Magic, Message, Prestidigitation, Read Aura - 1st Heal, Mending, Ray of Enfeeblement - 2nd Comprehend Language, Glitterdust, See Invisibility",
+ "tradition": [
+  "Arcane"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1)",
+ "trait": [
+  "Human",
+  "Humanoid",
+  "Unique",
+  "LG",
+  "Medium"
+ ],
+ "trait_group": [
+  "Ancestry",
+  "Half-Elf",
+  "Half-Orc",
+  "Creature Type",
+  "Rarity"
+ ],
+ "trait_markdown": "[Human](/Traits.aspx?ID=90), [Humanoid](/Traits.aspx?ID=91), [Unique](/Traits.aspx?ID=161)",
+ "trait_raw": [
+  "Human",
+  "Humanoid",
+  "Unique"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=1619",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {},
+ "will_save": 12,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 3,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

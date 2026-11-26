@@ -1,0 +1,167 @@
+{
+ "ac": 14,
+ "ac_scale": "Low",
+ "ac_scale_number": 2,
+ "alignment": "N",
+ "attack_bonus": [
+  13
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -5,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 4,
+ "constitution_scale": "Moderate",
+ "constitution_scale_number": 3,
+ "creature_ability": [
+  "Motion Sense",
+  "Puddled Ambush",
+  "Constrict",
+  "Gray Ooze Acid"
+ ],
+ "creature_family": "Ooze",
+ "creature_family_markdown": "[Ooze](/MonsterFamilies.aspx?ID=79)",
+ "dexterity": 2,
+ "dexterity_scale": "Low",
+ "dexterity_scale_number": 2,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 12,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 60,
+ "hp_raw": "60",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-753",
+ "immunity": [
+  "acid",
+  "critical hits",
+  "mental",
+  "precision",
+  "unconscious",
+  "visual"
+ ],
+ "immunity_markdown": "acid, critical hits, [mental](/Traits.aspx?ID=106), precision, [unconscious](/Conditions.aspx?ID=38), [visual](/Traits.aspx?ID=163)",
+ "intelligence": -5,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "language_markdown": "",
+ "level": 4,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Gray Ooze](/Monsters.aspx?ID=753)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nThese dangerous oozes are the bane of any who travel through swamps, marshes, or damp caves. Easily masquerading as pools of clear water or patches of wet stone, gray oozes lie in wait for unwary victims to reach down for a drink or step into what appears to be a puddle, then lash out with whiplike pseudopods to ensnare and consume their hapless prey.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Ooze](/Rules.aspx?ID=563)**\n([Occultism](/Skills.aspx?ID=11)): DC 19\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 17\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 14\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature 4\">[Gray Ooze](/Monsters.aspx?ID=753)</title>\n\n<traits>\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\n<trait label=\"Ooze\" url=\"/Traits.aspx?ID=122\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 194\n\n**Perception** +8; motion sense 60 feet, no vision\n\n**Languages**\n\n**Skills**\n[Athletics](/Skills.aspx?ID=3) +11, [Stealth](/Skills.aspx?ID=15) +10\n\n<row gap=\"medium\">\n**Str** +5\n\n**Dex** +2\n\n**Con** +4\n\n**Int** -5\n\n**Wis** +0\n\n**Cha** -5\n</row>\n\n**Motion Sense** A gray ooze can sense nearby creatures through vibration and air or water movement.<br />**Puddled Ambush** <actions string=\"Reaction\" /> **Trigger** A creature enters a space occupied by a gray ooze; **Requirements** Initiative has not yet been rolled; **Effect** The gray ooze automatically notices the creature, then makes a pseudopod Strike against one creature adjacent to itself before rolling initiative.\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 14 \n\n**Fort** +12 \n\n**Ref** +10 \n\n**Will** +8 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 60\n\n</row>\n\n**Immunities**\nacid, critical hits, [mental](/Traits.aspx?ID=106), precision, [unconscious](/Conditions.aspx?ID=38), [visual](/Traits.aspx?ID=163)\n\n**Resistances**\nslashing 5, piercing 5\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 10 feet, climb 10 feet\n\n**Melee**\n<actions string=\"Single Action\" />\npseudopod +13 ([Agile](/Traits.aspx?ID=170)),\n**Damage** 1d6+5 bludgeoning plus 1d6 acid and [Grab](/MonsterAbilities.aspx?ID=18)\n\n**[Constrict](/MonsterAbilities.aspx?ID=10)** <actions string=\"Single Action\" />  1d6 bludgeoning plus 1d6 acid, DC 21\n\n**Gray Ooze Acid**   A gray ooze's acid damages only metal and organic materials, not stone.\n\n</column>\n\n<aside>\n<title level=\"2\" noclass=\"true\" icon=\"\">Gray Ooze Adaptability</title>\n\nGray oozes have shown the astounding ability to overcome environmental challenges by changing their qualities. For example, some gray oozes have adapted to fully aquatic environments, replacing their movement with a swim speed and gaining a paralytic poison similar to that of gelatinous cubes. Other gray oozes have become charged with psychic energy, gaining the ability to cause nearby creatures to become [confused](/Conditions.aspx?ID=5), [fascinated](/Conditions.aspx?ID=14), or [frightened](/Conditions.aspx?ID=19) for a short time.\n</aside>\n\n<document level=\"2\" id=\"creature-family-79\" />",
+ "name": "Gray Ooze",
+ "npc": false,
+ "perception": 8,
+ "perception_scale": "Low",
+ "perception_scale_number": 2,
+ "pfs": "Standard",
+ "primary_source": "Bestiary 2",
+ "primary_source_raw": "Bestiary 2 pg. 194",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "Low",
+ "reflex_save_scale_number": 2,
+ "release_date": "2020-05-27",
+ "resistance": {
+  "piercing": 5,
+  "slashing": 5
+ },
+ "resistance_markdown": "slashing 5, piercing 5",
+ "resistance_raw": "slashing 5, piercing 5",
+ "search_markdown": "<traits>\n<trait label=\"N\" url=\"/Rules.aspx?ID=95\" />\n<trait label=\"Medium\" />\n<trait label=\"Mindless\" url=\"/Traits.aspx?ID=108\" />\n<trait label=\"Ooze\" url=\"/Traits.aspx?ID=122\" />\n</traits>\n\n<additional-info>\n**Source** [Bestiary 2](/Sources.aspx?ID=32) pg. 194\n\n**Creature Family** [Ooze](/MonsterFamilies.aspx?ID=79)\n\n<row gap=\"medium\">\n**HP** 60\n\n**AC** 14\n\n**Fort** +12\n\n**Ref** +10\n\n**Will** +8\n\n**Perception** +8\n</row>\n</additional-info>\n\n---\n\n<summary>\nThese dangerous oozes are the bane of any who travel through swamps, marshes, or damp caves. Easily masquerading as pools of clear water or patches \u2026\n</summary>",
+ "sense": "motion sense 60 feet, no vision",
+ "sense_markdown": "motion sense 60 feet, no vision",
+ "size": [
+  "Medium"
+ ],
+ "size_id": [
+  3
+ ],
+ "skill": [
+  "Athletics",
+  "Stealth"
+ ],
+ "skill_markdown": "[Athletics](/Skills.aspx?ID=3) +11, [Stealth](/Skills.aspx?ID=15) +10",
+ "skill_mod": {
+  "athletics": 11,
+  "stealth": 10
+ },
+ "source": [
+  "Bestiary 2"
+ ],
+ "source_raw": [
+  "Bestiary 2 pg. 194"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Bestiary 2](/Sources.aspx?ID=32) pg. 194",
+ "speed": {
+  "climb": 10,
+  "land": 10,
+  "max": 10
+ },
+ "speed_markdown": "10 feet, climb 10 feet",
+ "speed_raw": "10 feet, climb 10 feet",
+ "spell_markdown": "",
+ "stealth": "10",
+ "strike_damage_average": [
+  12
+ ],
+ "strike_damage_scale": [
+  "Moderate"
+ ],
+ "strike_damage_scale_number": [
+  3
+ ],
+ "strength": 5,
+ "strength_scale": "High",
+ "strength_scale_number": 4,
+ "strongest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "sub_document_id": [
+  "creature-family-79"
+ ],
+ "summary": "These dangerous oozes are the bane of any who travel through swamps, marshes, or damp caves. Easily masquerading as pools of clear water or patches \u2026",
+ "summary_markdown": "These dangerous oozes are the bane of any who travel through swamps, marshes, or damp caves. Easily masquerading as pools of clear water or patches \u2026",
+ "text": "Gray Ooze These dangerous oozes are the bane of any who travel through swamps, marshes, or damp caves. Easily masquerading as pools of clear water or patches of wet stone, gray oozes lie in wait for unwary victims to reach down for a drink or step into what appears to be a puddle, then lash out with whiplike pseudopods to ensnare and consume their hapless prey. Recall Knowledge - Ooze (Occultism): DC 19 Unspecific Lore : DC 17 Specific Lore : DC 14 Creature 4 Gray Ooze N Medium Mindless Ooze Source Bestiary 2 pg. 194 Perception +8; motion sense 60 feet, no vision Languages Skills Athletics +11, Stealth +10 Str +5 Dex +2 Con +4 Int -5 Wis +0 Cha -5 Motion Sense A gray ooze can sense nearby creatures through vibration and air or water movement. Puddled Ambush Reaction Trigger A creature enters a space occupied by a gray ooze; Requirements Initiative has not yet been rolled; Effect The gray ooze automatically notices the creature, then makes a pseudopod Strike against one creature adjacent to itself before rolling initiative. AC 14 Fort +12 Ref +10 Will +8 HP 60 Immunities acid, critical hits, mental, precision, unconscious, visual Resistances slashing 5, piercing 5 Speed 10 feet, climb 10 feet Melee Single Action pseudopod +13 (Agile), Damage 1d6+5 bludgeoning plus 1d6 acid and Grab Constrict Single Action 1d6 bludgeoning plus 1d6 acid, DC 21 Gray Ooze Acid A gray ooze's acid damages only metal and organic materials, not stone. Gray Ooze Adaptability Gray oozes have shown the astounding ability to overcome environmental challenges by changing their qualities. For example, some gray oozes have adapted to fully aquatic environments, replacing their movement with a swim speed and gaining a paralytic poison similar to that of gelatinous cubes. Other gray oozes have become charged with psychic energy, gaining the ability to cause nearby creatures to become confused, fascinated, or frightened for a short time. Creature Family Ooze Source Bestiary pg. 254 Slimes, molds, and other oozes can be found in dank dungeons and shadowed forests. While not necessarily evil, some grow to enormous sizes and have insatiable appetites. Members Amoeba Swarm (Creature 1), Black Pudding (Creature 7), Blood Ooze (Creature 4), Carnivorous Blob (Creature 13), Chromatic Ooze (Creature 18), Crawling Slurry (Creature 16), Gelatinous Cube (Creature 3), Giant Amoeba (Creature 1), Gray Ooze (Creature 4), Gunpowder Ooze (Creature 14), Id Ooze (Creature 7), Ochre Jelly (Creature 5), Pyronite Ooze (Creature 10), Rust Ooze (Creature 3), Sewer Ooze (Creature 1), Slime Mold (Creature 2), Slithering Pit (Creature 7), Tallow Ooze (Creature 11), Vaultbreaker Ooze (Creature 6), Verdurous Ooze (Creature 6), Yeast Ooze (Creature 2) Amoebas Large and Small Giant amoebas and amoeba swarms are usually found near each other, as the two oozes are part of the same life cycle. When a giant amoeba grows large enough, it can spontaneously split apart into two separate amoeba swarms, and when an amoeba swarm feeds enough, its individual components can fuse together into a single creature. Oozing Acid Many oozes have acidic attacks that can quickly degrade flesh, wood, and even stronger materials. Some believe that oozes are the result of alchemical or magical experimentation run amok, while others postulate that they simply emerged from the natural processes of evolution. Other Oozes Many varieties of these nearly mindless predators exist in the world. Some are mere variants, with different colored puddings, jellies, and oozes with little to differentiate them from those presented here other than their habitat. Others are more specialized, or even dangerously intelligent. The shoggoth is one such example, but another variety of deadly and powerful ooze is the thankfully rare blight, a creature composed of protoplasm and eyes that curses entire regions with its presence.",
+ "tradition_markdown": "",
+ "trait": [
+  "Mindless",
+  "Ooze",
+  "N",
+  "Medium"
+ ],
+ "trait_group": [
+  "Monster",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Mindless](/Traits.aspx?ID=108), [Ooze](/Traits.aspx?ID=122)",
+ "trait_raw": [
+  "Mindless",
+  "Ooze"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=753",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {},
+ "will_save": 8,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 0,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

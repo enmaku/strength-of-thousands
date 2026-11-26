@@ -1,0 +1,187 @@
+{
+ "ac": 15,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  9
+ ],
+ "attack_bonus_scale": [
+  "High"
+ ],
+ "attack_bonus_scale_number": [
+  4
+ ],
+ "category": "creature",
+ "charisma": 2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 0,
+ "constitution_scale": "Low",
+ "constitution_scale_number": 2,
+ "creature_ability": [
+  "Sneak Attack",
+  "Tinker"
+ ],
+ "creature_family": "Gremlin",
+ "creature_family_markdown": "[Gremlin](/MonsterFamilies.aspx?ID=424)",
+ "dexterity": 4,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 6,
+ "fortitude_save_scale": "Low",
+ "fortitude_save_scale_number": 2,
+ "hp": 19,
+ "hp_raw": "19",
+ "hp_scale": "Moderate",
+ "hp_scale_number": 3,
+ "id": "creature-3033",
+ "intelligence": 2,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "Shortsword"
+ ],
+ "language": [
+  "Sakvroth"
+ ],
+ "language_markdown": "[Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": [
+  "creature-247"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Jinkin](/Monsters.aspx?ID=3033)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nJinkins are sadistic tinkers who steal and sabotage items and take great pride in their power to curse precious objects. They hold grudges and create convoluted plans for revenge when they feel slighted, such as when a creature dares to remove one of their curses. Rarely content to wreak simple mayhem, jinkins also take immense pleasure in torture and murder, though they prefer to lead victims into traps designed to capture or incapacitate rather than just kill them outright. Deep pits are a preferred method, since victims who survive their fall face a slow death from starvation and thirst while jinkins gather at the edge of pits to tease and torment them.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\n([Nature](/Skills.aspx?ID=43)): DC 15\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 13\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 10\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature 1\">[Jinkin](/Monsters.aspx?ID=3033)</title>\n\n<traits>\n<trait label=\"Tiny\" />\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 181\n\n**Perception** +7; [darkvision](/MonsterAbilities.aspx?ID=59)\n\n**Languages**\n[Sakvroth](/Languages.aspx?ID=118)\n\n**Skills**\n[Acrobatics](/Skills.aspx?ID=1) +7, [Crafting](/Skills.aspx?ID=4) +5, [Deception](/Skills.aspx?ID=5) +5, [Nature](/Skills.aspx?ID=10) +5, [Stealth](/Skills.aspx?ID=15) +7, [Thievery](/Skills.aspx?ID=17) +7\n\n<row gap=\"medium\">\n**Str** -2\n\n**Dex** +4\n\n**Con** +0\n\n**Int** +2\n\n**Wis** +2\n\n**Cha** +2\n</row>\n\n**Items**\n[Shortsword](/Weapons.aspx?ID=43)\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 15 \n\n**Fort** +6 \n\n**Ref** +10 \n\n**Will** +7 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 19\n\n</row>\n\n**Weaknesses**\n[cold iron](/Equipment.aspx?ID=375) 2\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 30 feet\n\n**Melee**\n<actions string=\"Single Action\" />\nshortsword +9 ([Agile](/Traits.aspx?ID=526), [Finesse](/Traits.aspx?ID=602), [reach 0 feet](/Traits.aspx?ID=684), [versatile S](/Traits.aspx?ID=724)),\n**Damage** 1d6\u20132 piercing\n\n**Primal Innate Spells** DC 17\n- **Cantrips (1st)**\n[Prestidigitation](/Spells.aspx?ID=1639)\n\n**[Sneak Attack](/MonsterAbilities.aspx?ID=34)**   The jinkin deals 1d6 extra precision damage to [off-guard](/Conditions.aspx?ID=58) creatures.\n\n**Tinker**  ([Curse](/Traits.aspx?ID=566), [Primal](/Traits.aspx?ID=676)) A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while [Hiding](/Actions.aspx?ID=2404). Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat check or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber.\n\n</column>\n\n<document level=\"2\" id=\"creature-family-424\" />",
+ "name": "Jinkin",
+ "npc": false,
+ "perception": 7,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core",
+ "primary_source_raw": "Monster Core pg. 181",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 10,
+ "reflex_save_scale": "High",
+ "reflex_save_scale_number": 4,
+ "release_date": "2024-03-27",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Tiny\" />\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\n</traits>\n\n<additional-info>\n**Source** [Monster Core](/Sources.aspx?ID=221) pg. 181\n\n**Creature Family** [Gremlin](/MonsterFamilies.aspx?ID=424)\n\n<row gap=\"medium\">\n**HP** 19\n\n**AC** 15\n\n**Fort** +6\n\n**Ref** +10\n\n**Will** +7\n\n**Perception** +7\n</row>\n</additional-info>\n\n---\n\n<summary>\nJinkins are sadistic tinkers who steal and sabotage items and take great pride in their power to curse precious objects. They hold grudges and create \u2026\n</summary>",
+ "sense": "darkvision",
+ "sense_markdown": "[darkvision](/MonsterAbilities.aspx?ID=59)",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Acrobatics",
+  "Crafting",
+  "Deception",
+  "Nature",
+  "Stealth",
+  "Thievery"
+ ],
+ "skill_markdown": "[Acrobatics](/Skills.aspx?ID=1) +7, [Crafting](/Skills.aspx?ID=4) +5, [Deception](/Skills.aspx?ID=5) +5, [Nature](/Skills.aspx?ID=10) +5, [Stealth](/Skills.aspx?ID=15) +7, [Thievery](/Skills.aspx?ID=17) +7",
+ "skill_mod": {
+  "acrobatics": 7,
+  "crafting": 5,
+  "deception": 5,
+  "nature": 5,
+  "stealth": 7,
+  "thievery": 7
+ },
+ "source": [
+  "Monster Core"
+ ],
+ "source_raw": [
+  "Monster Core pg. 181"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core](/Sources.aspx?ID=221) pg. 181",
+ "speed": {
+  "land": 30,
+  "max": 30
+ },
+ "speed_markdown": "30 feet",
+ "speed_raw": "30 feet",
+ "spell": [
+  "Prestidigitation"
+ ],
+ "spell_markdown": "[Prestidigitation](/Spells.aspx?ID=1639)",
+ "spell_dc": [
+  17
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "stealth": "7",
+ "strike_damage_average": [
+  3
+ ],
+ "strike_damage_scale": [
+  "Low"
+ ],
+ "strike_damage_scale_number": [
+  2
+ ],
+ "strength": -2,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "sub_document_id": [
+  "creature-family-424"
+ ],
+ "summary": "Jinkins are sadistic tinkers who steal and sabotage items and take great pride in their power to curse precious objects. They hold grudges and create \u2026",
+ "summary_markdown": "Jinkins are sadistic tinkers who steal and sabotage items and take great pride in their power to curse precious objects. They hold grudges and create \u2026",
+ "text": "Jinkin Jinkins are sadistic tinkers who steal and sabotage items and take great pride in their power to curse precious objects. They hold grudges and create convoluted plans for revenge when they feel slighted, such as when a creature dares to remove one of their curses. Rarely content to wreak simple mayhem, jinkins also take immense pleasure in torture and murder, though they prefer to lead victims into traps designed to capture or incapacitate rather than just kill them outright. Deep pits are a preferred method, since victims who survive their fall face a slow death from starvation and thirst while jinkins gather at the edge of pits to tease and torment them. Recall Knowledge - Fey (Nature): DC 15 Unspecific Lore : DC 13 Specific Lore : DC 10 Creature 1 Jinkin Tiny Fey Gremlin Source Monster Core pg. 181 Perception +7; darkvision Languages Sakvroth Skills Acrobatics +7, Crafting +5, Deception +5, Nature +5, Stealth +7, Thievery +7 Str -2 Dex +4 Con +0 Int +2 Wis +2 Cha +2 Items Shortsword AC 15 Fort +6 Ref +10 Will +7 HP 19 Weaknesses cold iron 2 Speed 30 feet Melee Single Action shortsword +9 (Agile, Finesse, reach 0 feet, versatile S), Damage 1d6\u20132 piercing Primal Innate Spells DC 17 - Cantrips (1st) Prestidigitation Sneak Attack The jinkin deals 1d6 extra precision damage to off-guard creatures. Tinker (Curse, Primal) A group of six jinkins can work together for an hour to imbue an item with a curse at a range of 60 feet. While this process is lengthy, it's also unobtrusive and can be performed while Hiding. Jinkins prefer to use this ability on magic items. The curse makes the item unreliable (DC 5 flat check or waste any action to Interact with or Activate the item), adds a bizarre requirement to use the item, or imparts some other curse of a similar caliber. Creature Family Gremlin Source Monster Core pg. 180 Gremlins are cruel fey tricksters and saboteurs who have fully acclimated to life in the Universe, finding distinct niches for their inventive destructiveness. Nearly all gremlins delight in ruining or breaking things, whether it's something physical like a device or vehicle or something intangible such as an alliance or relationship. A gremlin's greatest joy is watching the collapse of complex creations, preferably after the slightest, carefully targeted nudge from the gremlin. Gremlins tend to denigrate, bully, or even slaughter their lesser kin, particularly mitflits, whom stronger gremlins derisively call \u201cbaggies.\u201d Members Durtik (Creature 3), Fuath (Creature 1), Gremlin Swarm (Creature 4), Grimple (Creature -1), Grimple Guards (Creature -1), Haniver (Creature -1), Hobkins (Creature 0), Jinkin (Creature 1), Mitflit (Creature -1), Monaciello (Creature 1), Nuglub (Creature 2), Pugwampi (Creature 0), Vexgit (Creature 1) Gremlin \u201cTreasure\u201d All gremlins are hoarders, and their nests are cluttered with objects both valuable and worthless. Sorting through a gremlin nest can reveal unexpected treasures like pieces of jewelry or minor magic items, but care must also be taken to avoid being cut on rusty shards of metal, taking cursed items, or disturbing a hidden nest of venomous vermin. Gremlin Bells Superstitious societies sometimes hang tiny bells made of semiprecious metals in the belief that such bells will dissuade gremlins from destroying an affixed object or infesting a home. Strangely enough, most gremlins believe this superstition as well, and even when a gremlin bell hasn't been magically enhanced, a gremlin usually won't risk tinkering with objects that have been protected in this manner. Gremlin Games When gremlins gather, one challenge always presents itself: figuring out which gremlin should be in charge. Sometimes, this is resolved by a simple rule, \u201cthe biggest and meanest gremlin is the boss,\u201d but there are other ways. Sometimes, a gremlin takes command on the merits of a really impressive and complicated act of sabotage. Other times, the group plays a rousing game of Screaming Mortal. Gremlins take turns scaring random mortals, and whoever can make a victim scream or swear the loudest earns the title of Gremlin King. Regardless of the result, each gremlin believes in their heart of hearts that they're the one in charge. The Gremlin Way \u201cEverything that can go wrong, will go wrong if I have anything to say about it.\u201d If gremlins can be said to have a philosophy, it is this. No one knows who first coined this saying, and over the eons, variants that leave off the final clause have spread to other societies, where it's much beloved by cynics and all who study complex systems, social or mechanical. To gremlins, this mantra verges on a religion, and many seek to embody it with all their actions. Besides, following the saying is a lot of fun\u2014if you're of a gremlin-ish disposition.",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Fey",
+  "Gremlin",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Gremlin](/Traits.aspx?ID=756)",
+ "trait_raw": [
+  "Fey",
+  "Gremlin"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=3033",
+ "vision": "Darkvision",
+ "weakest_save": [
+  "fort",
+  "fortitude"
+ ],
+ "weakness": {
+  "cold_iron": 2
+ },
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=375) 2",
+ "weakness_raw": "cold iron 2",
+ "will_save": 7,
+ "will_save_scale": "Moderate",
+ "will_save_scale_number": 3,
+ "wisdom": 2,
+ "wisdom_scale": "Low",
+ "wisdom_scale_number": 2,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

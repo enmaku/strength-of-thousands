@@ -1,50 +1,72 @@
 [
-  {
-    "slug": "study",
-    "name": "Study (student reading)",
-    "image": "study.jpg",
-    "source": "Kindled Magic",
-    "source_page": 67,
-    "xref": 1266
-  },
-  {
-    "slug": "cram",
-    "name": "Cram (tome)",
-    "image": "cram.jpg",
-    "source": "Kindled Magic",
-    "source_page": 66,
-    "xref": 1245
-  },
-  {
-    "slug": "jatembe-fable",
-    "name": "Jatembe fable illustration",
-    "image": "jatembe-fable.jpg",
-    "source": "Kindled Magic",
-    "source_page": 10,
-    "xref": 338
-  },
-  {
-    "slug": "shapespeak-mask",
-    "name": "Shapespeak Mask (spirit masks)",
-    "image": "shapespeak-mask.jpg",
-    "source": "Kindled Magic",
-    "source_page": 76,
-    "xref": 1495
-  },
-  {
-    "slug": "campus-map",
-    "name": "Magaambya campus map",
-    "image": "campus-map.jpg",
-    "source": "Kindled Magic",
-    "source_page": 2,
-    "rendered": "full page, 150 dpi, labels included"
-  },
-  {
-    "slug": "nantambu-map",
-    "name": "Nantambu city map",
-    "image": "nantambu-map.jpg",
-    "source": "Spoken on the Song Wind",
-    "source_page": 2,
-    "rendered": "full page, 150 dpi, labels included"
-  }
+ {
+  "slug": "study",
+  "name": "Study (student reading)",
+  "image": "study.jpg",
+  "source": "Kindled Magic",
+  "source_page": 67,
+  "xref": 1266
+ },
+ {
+  "slug": "cram",
+  "name": "Cram (tome)",
+  "image": "cram.jpg",
+  "source": "Kindled Magic",
+  "source_page": 66,
+  "xref": 1245
+ },
+ {
+  "slug": "jatembe-fable",
+  "name": "Jatembe fable illustration",
+  "image": "jatembe-fable.jpg",
+  "source": "Kindled Magic",
+  "source_page": 10,
+  "xref": 338,
+  "note": "generic chapter-heading art, not Jatembe; not used on cards"
+ },
+ {
+  "slug": "shapespeak-mask",
+  "name": "Shapespeak Mask (spirit masks)",
+  "image": "shapespeak-mask.jpg",
+  "source": "Kindled Magic",
+  "source_page": 76,
+  "xref": 1495
+ },
+ {
+  "slug": "campus-map",
+  "name": "Magaambya campus map",
+  "image": "campus-map.jpg",
+  "source": "Kindled Magic",
+  "source_page": 2,
+  "rendered": "full page, 150 dpi, labels included"
+ },
+ {
+  "slug": "nantambu-map",
+  "name": "Nantambu city map",
+  "image": "nantambu-map.jpg",
+  "source": "Spoken on the Song Wind",
+  "source_page": 2,
+  "rendered": "full page, 150 dpi, labels included"
+ },
+ {
+  "slug": "jatembe-and-the-ten",
+  "name": "Jatembe battles Agohbindi (crop: Jatembe and his Magic Warriors)",
+  "image": "jatembe-and-the-ten.jpg",
+  "source": "PathfinderWiki",
+  "url": "https://pathfinderwiki.com/wiki/File:Jatembe_battles_Agohbindi.webp",
+  "crop_px": [
+   1750,
+   250,
+   4450,
+   2950
+  ]
+ },
+ {
+  "slug": "spire-dormitory-map",
+  "name": "Spire Dormitory interior map (A1\u2013A18)",
+  "image": "spire-dormitory-map.jpg",
+  "source": "Kindled Magic",
+  "source_page": 12,
+  "note": "page render at 200 dpi, clipped to the map so the room labels are kept"
+ }
 ]

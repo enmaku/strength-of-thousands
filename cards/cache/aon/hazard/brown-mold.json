@@ -1,0 +1,76 @@
+{
+ "ac": 18,
+ "category": "hazard",
+ "complexity": "Simple",
+ "disable": "DC 18 Survival (trained) to safely remove the mold",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 11,
+ "hazard_type": "Environmental",
+ "hp": 30,
+ "hp_raw": "30 (BT 15)",
+ "id": "hazard-35",
+ "immunity": [
+  "critical hits",
+  "fire",
+  "object immunities",
+  "precision damage"
+ ],
+ "immunity_markdown": "critical hits, fire, object immunities, precision damage",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Hazard 2\" pfs=\"\">[Brown Mold](/Hazards.aspx?ID=35)</title>\n\n<traits>\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 77\n\n**Complexity** Simple\n\n</column>\n\nThis unassuming fungus leeches heat out of the air.\n\n---\n\n**Stealth**\nDC 21 (trained)\n\n**Disable**\nDC 18 [Survival](/Skills.aspx?ID=16) (trained) to safely remove the mold\n\n**Emit Cold** ([aura](/Traits.aspx?ID=206), [cold](/Traits.aspx?ID=27)); 5 feet. Brown mold deals 2d6 cold damage to nearby creatures.\n\n<column gap=\"tiny\">\n\n**AC** 18, **Fort** +11, **Ref** +5\n\n**HP**\n30 (BT 15)\n\n**Immunities**\ncritical hits, fire, object immunities, precision damage\n\n**Weaknesses**\ncold 10\n\n</column>\n\n**Leech Warmth** <actions string=\"Reaction\" /> **Trigger** Fire comes within 5 feet of the brown mold; **Effect** The brown mold expands into every square adjacent to its space. As it grows, it pulls more heat from its surroundings, dealing 2d6+6 cold damage (DC 18 basic Fortitude save) to creatures within 10 feet after it expands.\n\n---\n**Reset**\nAfter expanding, the brown mold can\u2019t grow again for 1 day.",
+ "name": "Brown Mold",
+ "primary_source": "Gamemastery Guide",
+ "primary_source_raw": "Gamemastery Guide pg. 77",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 5,
+ "release_date": "2020-02-26",
+ "remaster_id": [
+  "hazard-478"
+ ],
+ "remaster_name": [
+  "Poisonous Mold"
+ ],
+ "reset": "After expanding, the brown mold can\u2019t grow again for 1 day.",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Environmental\" url=\"/Traits.aspx?ID=62\" />\n<trait label=\"Fungus\" url=\"/Traits.aspx?ID=77\" />\n</traits>\n\n<additional-info>\n**Source** [Gamemastery Guide](/Sources.aspx?ID=22) pg. 77\n</additional-info>\n\n---\n\n<summary>\nThis unassuming fungus leeches heat out of the air.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Gamemastery Guide"
+ ],
+ "source_raw": [
+  "Gamemastery Guide pg. 77"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Gamemastery Guide](/Sources.aspx?ID=22) pg. 77",
+ "speed": {},
+ "stealth": "DC 21 (trained)",
+ "summary": "This unassuming fungus leeches heat out of the air.",
+ "summary_markdown": "This unassuming fungus leeches heat out of the air.",
+ "text": "Hazard 2 Brown Mold Environmental Fungus Source Gamemastery Guide pg. 77 Complexity Simple This unassuming fungus leeches heat out of the air. Stealth DC 21 (trained) Disable DC 18 Survival (trained) to safely remove the mold Emit Cold (aura, cold); 5 feet. Brown mold deals 2d6 cold damage to nearby creatures. AC 18, Fort +11, Ref +5 HP 30 (BT 15) Immunities critical hits, fire, object immunities, precision damage Weaknesses cold 10 Leech Warmth Reaction Trigger Fire comes within 5 feet of the brown mold; Effect The brown mold expands into every square adjacent to its space. As it grows, it pulls more heat from its surroundings, dealing 2d6+6 cold damage (DC 18 basic Fortitude save) to creatures within 10 feet after it expands. Reset After expanding, the brown mold can\u2019t grow again for 1 day.",
+ "trait": [
+  "Environmental",
+  "Fungus"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Environmental](/Traits.aspx?ID=62), [Fungus](/Traits.aspx?ID=77)",
+ "trait_raw": [
+  "Environmental",
+  "Fungus"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=35",
+ "weakness": {
+  "cold": 10
+ },
+ "weakness_markdown": "cold 10",
+ "weakness_raw": "cold 10",
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

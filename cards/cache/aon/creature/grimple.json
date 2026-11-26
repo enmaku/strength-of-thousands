@@ -1,0 +1,189 @@
+{
+ "ac": 14,
+ "ac_scale": "Moderate",
+ "ac_scale_number": 3,
+ "attack_bonus": [
+  7,
+  7
+ ],
+ "attack_bonus_scale": [
+  "Moderate"
+ ],
+ "attack_bonus_scale_number": [
+  3
+ ],
+ "category": "creature",
+ "charisma": -2,
+ "charisma_scale": "Low",
+ "charisma_scale_number": 2,
+ "constitution": 3,
+ "constitution_scale": "High",
+ "constitution_scale_number": 4,
+ "creature_ability": [
+  "Gremlin Lice",
+  "Putrid Vomit"
+ ],
+ "creature_family": "Gremlin",
+ "creature_family_markdown": "[Gremlin](/MonsterFamilies.aspx?ID=424)",
+ "dexterity": 3,
+ "dexterity_scale": "High",
+ "dexterity_scale_number": 4,
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 5,
+ "fortitude_save_scale": "Moderate",
+ "fortitude_save_scale_number": 3,
+ "hp": 9,
+ "hp_raw": "9",
+ "hp_scale": "High",
+ "hp_scale_number": 4,
+ "id": "creature-4422",
+ "intelligence": 1,
+ "intelligence_scale": "Low",
+ "intelligence_scale_number": 2,
+ "item": [
+  "satchel with 5 rocks"
+ ],
+ "language": [
+  "Sakvroth"
+ ],
+ "language_markdown": "[Sakvroth](/Languages.aspx?ID=118)",
+ "legacy_id": [
+  "creature-1177"
+ ],
+ "level": -1,
+ "markdown": "<title level=\"1\" pfs=\"Standard\">[Grimple](/Monsters.aspx?ID=4422)</title>\n\n<row gap=\"medium\">\n\n<column gap=\"medium\" flex=\"1 1 400px\">\n\nEven more than most gremlins, grimples resent the trappings of civilization: inn common rooms with their rowdy singalongs, livery yards with their whinnying horses, church steeples with their clanging bells. Grimples live to spoil these conventions, dropping tavern signs on patrons, urinating in rain barrels, and opening stable doors. When all else fails, they literally vomit their disdain on passersby. \n\nGrimples resemble humanoid, mange-ridden opossums, with boar-like tusks that aid them in rooting through garbage heaps for food. They're agile climbers who glide from eave to eave on the loose flaps of skin between their limbs. Savvy gremlin-hunters know to look for the skin flakes and fur grimples shed from their parasite-infested hides.\n\n<column gap=\"tiny\">\n**[Recall Knowledge - Fey](/Rules.aspx?ID=563)**\n([Nature](/Skills.aspx?ID=43)): DC 13\n\n**[Unspecific Lore](/Rules.aspx?ID=563)**: DC 11\n\n**[Specific Lore](/Rules.aspx?ID=563)**: DC 8\n</column>\n\n</column>\n\n<column gap=\"medium\">\n\n</column>\n\n</row>\n\n<title level=\"2\" right=\"Creature -1\">[Grimple](/Monsters.aspx?ID=4422)</title>\n\n<traits>\n<trait label=\"Tiny\" />\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Monster Core 2](/Sources.aspx?ID=276) pg. 176\n\n**Perception** +6; [low-light vision](/MonsterAbilities.aspx?ID=69)\n\n**Languages**\n[Sakvroth](/Languages.aspx?ID=118)\n\n**Skills**\n[Crafting](/Skills.aspx?ID=37) +5, [Deception](/Skills.aspx?ID=38) +2, [Nature](/Skills.aspx?ID=43) +4, [Stealth](/Skills.aspx?ID=48) +5, [Thievery](/Skills.aspx?ID=50) +5\n\n<row gap=\"medium\">\n**Str** +1\n\n**Dex** +3\n\n**Con** +3\n\n**Int** +1\n\n**Wis** +2\n\n**Cha** -2\n</row>\n\n**Items**\nsatchel with 5 rocks\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n<row gap=\"medium\">\n**AC** 14 \n\n**Fort** +5 \n\n**Ref** +7 \n\n**Will** +4 \n\n</row>\n\n<row gap=\"medium\">\n**HP** 9\n\n</row>\n\n**Weaknesses**\n[cold iron](/Equipment.aspx?ID=2916) 2\n\n**Gremlin Lice** Whenever a living creature touches or is touched by a grimple (including via a successful unarmed melee Strike), it must succeed at a DC 13 Reflex save or become infested by gremlin lice. While infested, the targeted creature is distracted by the itching sensation and is [stupefied](/Conditions.aspx?ID=94) 1, though it can use an [Interact](/Actions.aspx?ID=3259) action to scratch at the itching lice to suppress the stupefied condition from the lice for 1d4 rounds. The infestation ends after 24 hours or until the creature is submerged in water or exposed to a [severe cold](/Rules.aspx?ID=2820) environment, whichever comes first.\n\n</column>\n\n---\n\n<column gap=\"tiny\">\n\n**Speed** 10 feet, climb 20 feet, fly 20 feet\n\n**Melee**\n<actions string=\"Single Action\" />\nbite +7 ([Agile](/Traits.aspx?ID=526), [finesse](/Traits.aspx?ID=602)),\n**Damage** 1d4+1 piercing\n\n**Ranged**\n<actions string=\"Single Action\" />\nrock +7 ([Agile](/Traits.aspx?ID=526), [range increment 20 feet](/Traits.aspx?ID=248)),\n**Damage** 1d4+1 bludgeoning\n\n**Primal Innate Spells** DC 16\n- **Cantrips (1st)**\n[Prestidigitation](/Spells.aspx?ID=1639), [Telekinetic Hand](/Spells.aspx?ID=1715)\n- **1st**\n[Grease](/Spells.aspx?ID=1547)\n\n**Putrid Vomit** <actions string=\"Single Action\" />  The grimple spews a 30-foot [line](/Rules.aspx?ID=2388) of vomit. Each creature in the line must succeed at a DC 16 Fortitude save or become [sickened](/Conditions.aspx?ID=91) 1 (sickened 2 on a critical failure). The grimple can't use Putrid Vomit again for 1d4 rounds.\n\n</column>\n\n<aside>\n<title level=\"2\" noclass=\"true\" icon=\"/images/Icons/Sidebar_4_RelatedCreatures.png\">Grimple Allies</title>\n\nGrimples sometimes team up with other [gremlins](/MonsterFamilies.aspx?ID=424) to cause trouble. Stronger gremlins, such as [jinkins](/Monsters.aspx?ID=3033), use cranky grimples to lure victims into dangerous traps. Left to their own devices, grimples bully [mitflits](/Monsters.aspx?ID=3031) or train [giant rats](/Monsters.aspx?ID=3162) (Monster Core 288) and [spider swarms](/Monsters.aspx?ID=3206) to do their bidding.\n</aside>\n\n<document level=\"2\" id=\"creature-family-424\" />",
+ "name": "Grimple",
+ "npc": false,
+ "perception": 6,
+ "perception_scale": "Moderate",
+ "perception_scale_number": 3,
+ "pfs": "Standard",
+ "primary_source": "Monster Core 2",
+ "primary_source_raw": "Monster Core 2 pg. 176",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 7,
+ "reflex_save_scale": "Moderate",
+ "reflex_save_scale_number": 3,
+ "release_date": "2025-11-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Tiny\" />\n<trait label=\"Fey\" url=\"/Traits.aspx?ID=599\" />\n<trait label=\"Gremlin\" url=\"/Traits.aspx?ID=756\" />\n</traits>\n\n<additional-info>\n**Source** [Monster Core 2](/Sources.aspx?ID=276) pg. 176\n\n**Creature Family** [Gremlin](/MonsterFamilies.aspx?ID=424)\n\n<row gap=\"medium\">\n**HP** 9\n\n**AC** 14\n\n**Fort** +5\n\n**Ref** +7\n\n**Will** +4\n\n**Perception** +6\n</row>\n</additional-info>\n\n---\n\n<summary>\nEven more than most gremlins, grimples resent the trappings of civilization: inn common rooms with their rowdy singalongs, livery yards with their \u2026\n</summary>",
+ "sense": "low-light vision",
+ "sense_markdown": "[low-light vision](/MonsterAbilities.aspx?ID=69)",
+ "size": [
+  "Tiny"
+ ],
+ "size_id": [
+  1
+ ],
+ "skill": [
+  "Crafting",
+  "Deception",
+  "Nature",
+  "Stealth",
+  "Thievery"
+ ],
+ "skill_markdown": "[Crafting](/Skills.aspx?ID=37) +5, [Deception](/Skills.aspx?ID=38) +2, [Nature](/Skills.aspx?ID=43) +4, [Stealth](/Skills.aspx?ID=48) +5, [Thievery](/Skills.aspx?ID=50) +5",
+ "skill_mod": {
+  "crafting": 5,
+  "deception": 2,
+  "nature": 4,
+  "stealth": 5,
+  "thievery": 5
+ },
+ "source": [
+  "Monster Core 2"
+ ],
+ "source_raw": [
+  "Monster Core 2 pg. 176"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Monster Core 2](/Sources.aspx?ID=276) pg. 176",
+ "speed": {
+  "climb": 20,
+  "fly": 20,
+  "land": 10,
+  "max": 20
+ },
+ "speed_markdown": "10 feet, climb 20 feet, fly 20 feet",
+ "speed_raw": "10 feet, climb 20 feet, fly 20 feet",
+ "spell": [
+  "Grease",
+  "Prestidigitation",
+  "Telekinetic Hand"
+ ],
+ "spell_markdown": "[Grease](/Spells.aspx?ID=1547), [Prestidigitation](/Spells.aspx?ID=1639), [Telekinetic Hand](/Spells.aspx?ID=1715)",
+ "spell_dc": [
+  16
+ ],
+ "spell_dc_scale": [
+  "High"
+ ],
+ "spell_dc_scale_number": [
+  4
+ ],
+ "strike_damage_average": [
+  3,
+  3
+ ],
+ "strike_damage_scale": [
+  "High"
+ ],
+ "strike_damage_scale_number": [
+  4
+ ],
+ "strength": 1,
+ "strength_scale": "Low",
+ "strength_scale_number": 2,
+ "strongest_save": [
+  "ref",
+  "reflex"
+ ],
+ "sub_document_id": [
+  "creature-family-424"
+ ],
+ "summary": "Even more than most gremlins, grimples resent the trappings of civilization: inn common rooms with their rowdy singalongs, livery yards with their \u2026",
+ "summary_markdown": "Even more than most gremlins, grimples resent the trappings of civilization: inn common rooms with their rowdy singalongs, livery yards with their \u2026",
+ "text": "Grimple Even more than most gremlins, grimples resent the trappings of civilization: inn common rooms with their rowdy singalongs, livery yards with their whinnying horses, church steeples with their clanging bells. Grimples live to spoil these conventions, dropping tavern signs on patrons, urinating in rain barrels, and opening stable doors. When all else fails, they literally vomit their disdain on passersby. Grimples resemble humanoid, mange-ridden opossums, with boar-like tusks that aid them in rooting through garbage heaps for food. They're agile climbers who glide from eave to eave on the loose flaps of skin between their limbs. Savvy gremlin-hunters know to look for the skin flakes and fur grimples shed from their parasite-infested hides. Recall Knowledge - Fey (Nature): DC 13 Unspecific Lore : DC 11 Specific Lore : DC 8 Creature -1 Grimple Tiny Fey Gremlin Source Monster Core 2 pg. 176 Perception +6; low-light vision Languages Sakvroth Skills Crafting +5, Deception +2, Nature +4, Stealth +5, Thievery +5 Str +1 Dex +3 Con +3 Int +1 Wis +2 Cha -2 Items satchel with 5 rocks AC 14 Fort +5 Ref +7 Will +4 HP 9 Weaknesses cold iron 2 Gremlin Lice Whenever a living creature touches or is touched by a grimple (including via a successful unarmed melee Strike), it must succeed at a DC 13 Reflex save or become infested by gremlin lice. While infested, the targeted creature is distracted by the itching sensation and is stupefied 1, though it can use an Interact action to scratch at the itching lice to suppress the stupefied condition from the lice for 1d4 rounds. The infestation ends after 24 hours or until the creature is submerged in water or exposed to a severe cold environment, whichever comes first. Speed 10 feet, climb 20 feet, fly 20 feet Melee Single Action bite +7 (Agile, finesse), Damage 1d4+1 piercing Ranged Single Action rock +7 (Agile, range increment 20 feet), Damage 1d4+1 bludgeoning Primal Innate Spells DC 16 - Cantrips (1st) Prestidigitation, Telekinetic Hand - 1st Grease Putrid Vomit Single Action The grimple spews a 30-foot line of vomit. Each creature in the line must succeed at a DC 16 Fortitude save or become sickened 1 (sickened 2 on a critical failure). The grimple can't use Putrid Vomit again for 1d4 rounds. Grimple Allies Grimples sometimes team up with other gremlins to cause trouble. Stronger gremlins, such as jinkins, use cranky grimples to lure victims into dangerous traps. Left to their own devices, grimples bully mitflits or train giant rats (Monster Core 288) and spider swarms to do their bidding. Creature Family Gremlin Source Monster Core pg. 180 Gremlins are cruel fey tricksters and saboteurs who have fully acclimated to life in the Universe, finding distinct niches for their inventive destructiveness. Nearly all gremlins delight in ruining or breaking things, whether it's something physical like a device or vehicle or something intangible such as an alliance or relationship. A gremlin's greatest joy is watching the collapse of complex creations, preferably after the slightest, carefully targeted nudge from the gremlin. Gremlins tend to denigrate, bully, or even slaughter their lesser kin, particularly mitflits, whom stronger gremlins derisively call \u201cbaggies.\u201d Members Durtik (Creature 3), Fuath (Creature 1), Gremlin Swarm (Creature 4), Grimple (Creature -1), Grimple Guards (Creature -1), Haniver (Creature -1), Hobkins (Creature 0), Jinkin (Creature 1), Mitflit (Creature -1), Monaciello (Creature 1), Nuglub (Creature 2), Pugwampi (Creature 0), Vexgit (Creature 1) Gremlin \u201cTreasure\u201d All gremlins are hoarders, and their nests are cluttered with objects both valuable and worthless. Sorting through a gremlin nest can reveal unexpected treasures like pieces of jewelry or minor magic items, but care must also be taken to avoid being cut on rusty shards of metal, taking cursed items, or disturbing a hidden nest of venomous vermin. Gremlin Bells Superstitious societies sometimes hang tiny bells made of semiprecious metals in the belief that such bells will dissuade gremlins from destroying an affixed object or infesting a home. Strangely enough, most gremlins believe this superstition as well, and even when a gremlin bell hasn't been magically enhanced, a gremlin usually won't risk tinkering with objects that have been protected in this manner. Gremlin Games When gremlins gather, one challenge always presents itself: figuring out which gremlin should be in charge. Sometimes, this is resolved by a simple rule, \u201cthe biggest and meanest gremlin is the boss,\u201d but there are other ways. Sometimes, a gremlin takes command on the merits of a really impressive and complicated act of sabotage. Other times, the group plays a rousing game of Screaming Mortal. Gremlins take turns scaring random mortals, and whoever can make a victim scream or swear the loudest earns the title of Gremlin King. Regardless of the result, each gremlin believes in their heart of hearts that they're the one in charge. The Gremlin Way \u201cEverything that can go wrong, will go wrong if I have anything to say about it.\u201d If gremlins can be said to have a philosophy, it is this. No one knows who first coined this saying, and over the eons, variants that leave off the final clause have spread to other societies, where it's much beloved by cynics and all who study complex systems, social or mechanical. To gremlins, this mantra verges on a religion, and many seek to embody it with all their actions. Besides, following the saying is a lot of fun\u2014if you're of a gremlin-ish disposition.",
+ "tradition": [
+  "Primal"
+ ],
+ "tradition_markdown": "[Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Fey",
+  "Gremlin",
+  "Tiny"
+ ],
+ "trait_group": [
+  "Creature Type",
+  "Monster",
+  "Ancestry"
+ ],
+ "trait_markdown": "[Fey](/Traits.aspx?ID=599), [Gremlin](/Traits.aspx?ID=756)",
+ "trait_raw": [
+  "Fey",
+  "Gremlin"
+ ],
+ "type": "Creature",
+ "url": "/Monsters.aspx?ID=4422",
+ "vision": "Low-light vision",
+ "weakest_save": [
+  "will"
+ ],
+ "weakness": {
+  "cold_iron": 2
+ },
+ "weakness_markdown": "[cold iron](/Equipment.aspx?ID=2916) 2",
+ "weakness_raw": "cold iron 2",
+ "will_save": 4,
+ "will_save_scale": "Low",
+ "will_save_scale_number": 2,
+ "wisdom": 2,
+ "wisdom_scale": "Moderate",
+ "wisdom_scale_number": 3,
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}

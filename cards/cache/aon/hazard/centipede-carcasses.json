@@ -1,0 +1,72 @@
+{
+ "ac": 22,
+ "category": "hazard",
+ "complexity": "Complex",
+ "disable": "DC 23 Nature (trained) to bend the centipede carapace so the wire can't pull out any more legs, or DC 21 Thievery (expert) to cut the springy wires. After all three carcasses are disabled (regardless of the check used), the trap is deactivated. The trap automatically deactivates after 10 rounds.",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "fortitude_save": 15,
+ "hardness": 12,
+ "hardness_raw": "12 Carcass Hardness",
+ "hazard_type": "Trap",
+ "hp": 20,
+ "hp_raw": "20 (BT 10)",
+ "id": "hazard-90",
+ "immunity": [
+  "critical hits",
+  "object immunities",
+  "precision damage."
+ ],
+ "immunity_markdown": "critical hits, object immunities, precision damage.",
+ "level": 5,
+ "markdown": "<title level=\"1\" right=\"Hazard 5\" pfs=\"\">[Centipede Carcasses Trap](/Hazards.aspx?ID=90)</title>\n\n<traits>\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 50\n\n**Complexity** Complex\n\n</column>\n\nThree giant centipede carcasses have wire springs that pull out and fling their sharpened legs around the room.\n\n---\n\n**Stealth**\n+11 (trained)\n\n**Disable**\nDC 23 [Nature](/Skills.aspx?ID=10) (trained) to bend the centipede carapace so the wire can't pull out any more legs, or DC 21 [Thievery](/Skills.aspx?ID=17) (expert) to cut the springy wires. After all three carcasses are disabled (regardless of the check used), the trap is deactivated. The trap automatically deactivates after 10 rounds.\n\n<column gap=\"tiny\">\n\n**AC** 22, **Fort** +15, **Ref** +9\n\n**Carcass Hardness**\n12\n\n**Carcass HP**\n20 (BT 10)\n\n**Immunities**\ncritical hits, object immunities, precision damage.\n\n</column>\n\n**Volley of Legs** <actions string=\"Reaction\" /> **Trigger** A carcass is touched or jostled; **Effect** Each creature within 30 feet of any centipede carcass takes 4d4 piercing damage (DC 22 [basic](/Rules.aspx?ID=329) Reflex save), and the area becomes difficult terrain due to the many sharpened legs on the ground. Each creature that Strides more than 10 feet through the area must succeed at a DC 20 [Acrobatics](/Skills.aspx?ID=1) check or take 1d4 piercing damage. The trap then rolls initiative.\n\n---\n**Routine**\n(1 action) Each creature within 30 feet of a centipede carcass that hasn't been disabled takes 6d4 piercing damage (DC 22 [basic](/Rules.aspx?ID=329) Reflex save).",
+ "name": "Centipede Carcasses Trap",
+ "primary_source": "Pathfinder #169: Kindled Magic",
+ "primary_source_raw": "Pathfinder #169: Kindled Magic pg. 50",
+ "primary_source_category": "Adventure Paths",
+ "primary_source_group": "Strength of Thousands",
+ "rarity": "common",
+ "rarity_id": 1,
+ "reflex_save": 9,
+ "release_date": "2021-08-05",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Complex\" url=\"/Traits.aspx?ID=30\" />\n<trait label=\"Mechanical\" url=\"/Traits.aspx?ID=105\" />\n<trait label=\"Trap\" url=\"/Traits.aspx?ID=158\" />\n</traits>\n\n<additional-info>\n**Source** [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 50\n</additional-info>\n\n---\n\n<summary>\nThree giant centipede carcasses have wire springs that pull out and fling their sharpened legs around the room.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Pathfinder #169: Kindled Magic"
+ ],
+ "source_raw": [
+  "Pathfinder #169: Kindled Magic pg. 50"
+ ],
+ "source_category": [
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 50",
+ "speed": {},
+ "stealth": "+11 (trained)",
+ "summary": "Three giant centipede carcasses have wire springs that pull out and fling their sharpened legs around the room.",
+ "summary_markdown": "Three giant centipede carcasses have wire springs that pull out and fling their sharpened legs around the room.",
+ "text": "Hazard 5 Centipede Carcasses Trap Complex Mechanical Trap Source Pathfinder #169: Kindled Magic pg. 50 Complexity Complex Three giant centipede carcasses have wire springs that pull out and fling their sharpened legs around the room. Stealth +11 (trained) Disable DC 23 Nature (trained) to bend the centipede carapace so the wire can't pull out any more legs, or DC 21 Thievery (expert) to cut the springy wires. After all three carcasses are disabled (regardless of the check used), the trap is deactivated. The trap automatically deactivates after 10 rounds. AC 22, Fort +15, Ref +9 Carcass Hardness 12 Carcass HP 20 (BT 10) Immunities critical hits, object immunities, precision damage. Volley of Legs Reaction Trigger A carcass is touched or jostled; Effect Each creature within 30 feet of any centipede carcass takes 4d4 piercing damage (DC 22 basic Reflex save), and the area becomes difficult terrain due to the many sharpened legs on the ground. Each creature that Strides more than 10 feet through the area must succeed at a DC 20 Acrobatics check or take 1d4 piercing damage. The trap then rolls initiative. Routine (1 action) Each creature within 30 feet of a centipede carcass that hasn't been disabled takes 6d4 piercing damage (DC 22 basic Reflex save).",
+ "trait": [
+  "Complex",
+  "Mechanical",
+  "Trap"
+ ],
+ "trait_group": [
+  "Hazard",
+  "Equipment"
+ ],
+ "trait_markdown": "[Complex](/Traits.aspx?ID=30), [Mechanical](/Traits.aspx?ID=105), [Trap](/Traits.aspx?ID=158)",
+ "trait_raw": [
+  "Complex",
+  "Mechanical",
+  "Trap"
+ ],
+ "type": "Hazard",
+ "url": "/Hazards.aspx?ID=90",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T00:36:36-08:00"
+}
