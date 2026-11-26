@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "spellskein",
+    "name": "Spellskein",
+    "image": "spellskein.jpg",
+    "source": "Kindled Magic",
+    "source_page": 17,
+    "xref": 457
+  },
+  {
+    "slug": "umbo",
+    "name": "Umbo (myceloid)",
+    "image": "umbo.jpg",
+    "source": "Kindled Magic",
+    "source_page": 25,
+    "xref": 590
+  },
+  {
+    "slug": "scrit",
+    "name": "Scrit",
+    "image": "scrit.jpg",
+    "source": "Kindled Magic",
+    "source_page": 84,
+    "xref": 1648
+  },
+  {
+    "slug": "silverfish-swarm",
+    "name": "Silverfish Swarm",
+    "image": "silverfish-swarm.jpg",
+    "source": "Kindled Magic",
+    "source_page": 38,
+    "xref": 782
+  },
+  {
+    "slug": "giant-silverfish",
+    "name": "Giant Silverfish",
+    "image": "giant-silverfish.jpg",
+    "source": "Kindled Magic",
+    "source_page": 86,
+    "xref": 1692
+  },
+  {
+    "slug": "shieldbearer-construct",
+    "name": "Shieldbearer Construct",
+    "image": "shieldbearer-construct.jpg",
+    "source": "Kindled Magic",
+    "source_page": 42,
+    "xref": 853
+  },
+  {
+    "slug": "sicklehand-construct",
+    "name": "Sicklehand Construct",
+    "image": "sicklehand-construct.jpg",
+    "source": "Kindled Magic",
+    "source_page": 43,
+    "xref": 874
+  },
+  {
+    "slug": "bramble-champion-construct",
+    "name": "Bramble Champion Construct",
+    "image": "bramble-champion-construct.jpg",
+    "source": "Kindled Magic",
+    "source_page": 44,
+    "xref": 889
+  },
+  {
+    "slug": "giant-goliath-beetle",
+    "name": "Giant Goliath Beetle",
+    "image": "giant-goliath-beetle.jpg",
+    "source": "Kindled Magic",
+    "source_page": 47,
+    "xref": 938
+  },
+  {
+    "slug": "giant-mining-bee",
+    "name": "Giant Mining Bee",
+    "image": "giant-mining-bee.jpg",
+    "source": "Kindled Magic",
+    "source_page": 51,
+    "xref": 1003
+  },
+  {
+    "slug": "giant-worker-bee",
+    "name": "Giant Worker Bee",
+    "image": "giant-worker-bee.jpg",
+    "source": "Kindled Magic",
+    "source_page": 82,
+    "xref": 1610
+  },
+  {
+    "slug": "gnagrif",
+    "name": "Gnagrif",
+    "image": "gnagrif.jpg",
+    "source": "Kindled Magic",
+    "source_page": 85,
+    "xref": 1667
+  },
+  {
+    "slug": "binji",
+    "name": "Binji",
+    "image": "binji.jpg",
+    "source": "Kindled Magic",
+    "source_page": 55,
+    "xref": 1053
+  },
+  {
+    "slug": "urbel",
+    "name": "Urbel",
+    "image": "urbel.jpg",
+    "source": "Kindled Magic",
+    "source_page": 57,
+    "xref": 1087
+  },
+  {
+    "slug": "giant-tsetse-fly",
+    "name": "Giant Tsetse Fly",
+    "image": "giant-tsetse-fly.jpg",
+    "source": "Kindled Magic",
+    "source_page": 83,
+    "xref": 1629
+  },
+  {
+    "slug": "stone-ghost",
+    "name": "Stone Ghost",
+    "image": "stone-ghost.jpg",
+    "source": "Kindled Magic",
+    "source_page": 91,
+    "xref": 1776
+  },
+  {
+    "slug": "anadi-seeker",
+    "name": "Anadi Seeker",
+    "image": "anadi-seeker.jpg",
+    "source": "Kindled Magic",
+    "source_page": 61,
+    "xref": 1146
+  },
+  {
+    "slug": "anadi-lurker",
+    "name": "Anadi Lurker",
+    "image": "anadi-lurker.jpg",
+    "source": "Kindled Magic",
+    "source_page": 80,
+    "xref": 1561
+  },
+  {
+    "slug": "anadi-fateweaver",
+    "name": "Anadi Fateweaver",
+    "image": "anadi-fateweaver.jpg",
+    "source": "Kindled Magic",
+    "source_page": 81,
+    "xref": 1587
+  },
+  {
+    "slug": "pugwampi",
+    "name": "Pugwampi",
+    "image": "pugwampi.jpg",
+    "source": "PathfinderWiki",
+    "url": "https://pathfinderwiki.com/w/images/3/38/Pugwampi.jpg"
+  },
+  {
+    "slug": "mitflit",
+    "name": "Mitflit",
+    "image": "mitflit.jpg",
+    "source": "PathfinderWiki",
+    "url": "https://pathfinderwiki.com/w/images/f/f0/Mitflit.jpg"
+  },
+  {
+    "slug": "centipede",
+    "name": "Centipede (swarm and giant centipede)",
+    "image": "centipede.jpg",
+    "source": "PathfinderWiki",
+    "url": "https://pathfinderwiki.com/w/images/6/66/Centipede.jpg"
+  },
+  {
+    "slug": "griffon",
+    "name": "Griffon",
+    "image": "griffon.jpg",
+    "source": "PathfinderWiki",
+    "url": "https://pathfinderwiki.com/w/images/d/d5/Ascendant_griffon.webp"
+  }
+]

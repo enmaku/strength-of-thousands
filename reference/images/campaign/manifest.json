@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "study",
+    "name": "Study (student reading)",
+    "image": "study.jpg",
+    "source": "Kindled Magic",
+    "source_page": 67,
+    "xref": 1266
+  },
+  {
+    "slug": "cram",
+    "name": "Cram (tome)",
+    "image": "cram.jpg",
+    "source": "Kindled Magic",
+    "source_page": 66,
+    "xref": 1245
+  },
+  {
+    "slug": "jatembe-fable",
+    "name": "Jatembe fable illustration",
+    "image": "jatembe-fable.jpg",
+    "source": "Kindled Magic",
+    "source_page": 10,
+    "xref": 338
+  },
+  {
+    "slug": "shapespeak-mask",
+    "name": "Shapespeak Mask (spirit masks)",
+    "image": "shapespeak-mask.jpg",
+    "source": "Kindled Magic",
+    "source_page": 76,
+    "xref": 1495
+  },
+  {
+    "slug": "campus-map",
+    "name": "Magaambya campus map",
+    "image": "campus-map.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "rendered": "full page, 150 dpi, labels included"
+  },
+  {
+    "slug": "nantambu-map",
+    "name": "Nantambu city map",
+    "image": "nantambu-map.jpg",
+    "source": "Spoken on the Song Wind",
+    "source_page": 2,
+    "rendered": "full page, 150 dpi, labels included"
+  }
+]

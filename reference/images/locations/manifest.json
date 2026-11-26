@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "spire-dormitory",
+    "name": "Spire Dormitory",
+    "image": "spire-dormitory.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      113,
+      113
+    ]
+  },
+  {
+    "slug": "heron-archives",
+    "name": "Heron Archives",
+    "image": "heron-archives.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      113,
+      113
+    ]
+  },
+  {
+    "slug": "tireless-hall",
+    "name": "Tireless Hall",
+    "image": "tireless-hall.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "archhorn-library",
+    "name": "Archhorn Library",
+    "image": "archhorn-library.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "speakers-stage",
+    "name": "Speaker\u2019s Stage",
+    "image": "speakers-stage.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "leshy-gardens",
+    "name": "Leshy Gardens",
+    "image": "leshy-gardens.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "sparring-field",
+    "name": "Sparring Field",
+    "image": "sparring-field.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "welcome-walk",
+    "name": "Welcome Walk",
+    "image": "welcome-walk.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      113
+    ]
+  },
+  {
+    "slug": "verdant-house",
+    "name": "Verdant House",
+    "image": "verdant-house.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      113,
+      112
+    ]
+  },
+  {
+    "slug": "tree-stump-library",
+    "name": "Tree Stump Library",
+    "image": "tree-stump-library.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "dining-hall",
+    "name": "Dining Hall",
+    "image": "dining-hall.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  },
+  {
+    "slug": "powderpile",
+    "name": "Powderpile",
+    "image": "powderpile.jpg",
+    "source": "Kindled Magic",
+    "source_page": 2,
+    "xref": 52,
+    "crop": "150 pt square of the campus map centred on the building's marker (labels are page text, not in the image)",
+    "marker_px": [
+      112,
+      112
+    ]
+  }
+]

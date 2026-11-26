@@ -1,0 +1,229 @@
+[
+  {
+    "slug": "savana",
+    "name": "Savana (Droplets-Hanging-Gently Savanakin)",
+    "cardTab": "npcs",
+    "image": "savana.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "anadi-lurker.jpg",
+      "anadi-fateweaver.jpg",
+      "goss.jpg",
+      "esi-headshot.jpg",
+      "tzeniwe-headshot.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.102739
+  },
+  {
+    "slug": "mazta",
+    "name": "Mazta (Barest-Threads-Billowing Maztachia)",
+    "cardTab": "npcs",
+    "image": "mazta.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "anadi-lurker.jpg",
+      "anadi-seeker.jpg",
+      "goss.jpg",
+      "esi-headshot.jpg",
+      "tzeniwe-headshot.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.100169
+  },
+  {
+    "slug": "abena",
+    "name": "Abena",
+    "cardTab": "npcs",
+    "image": "abena.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "lumusi-headshot.jpg",
+      "esi-headshot.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.073014
+  },
+  {
+    "slug": "havvix",
+    "name": "Havvix",
+    "cardTab": "combat",
+    "image": "havvix.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "gnagrif.jpg",
+      "binji.jpg",
+      "wiki-pugwampi.jpg",
+      "kurshkin.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.084358
+  },
+  {
+    "slug": "vexgit",
+    "name": "Vexgit",
+    "cardTab": "combat",
+    "image": "vexgit.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "gnagrif.jpg",
+      "wiki-mitflit.jpg",
+      "havvix-generated.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.078701
+  },
+  {
+    "slug": "jinkin",
+    "name": "Jinkin",
+    "cardTab": "combat",
+    "image": "jinkin.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "gnagrif.jpg",
+      "wiki-pugwampi.jpg",
+      "wiki-mitflit.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.077266
+  },
+  {
+    "slug": "gray-ooze",
+    "name": "Gray Ooze",
+    "cardTab": "combat",
+    "image": "gray-ooze.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "giant-silverfish.jpg",
+      "umbo-myceloid.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.069252
+  },
+  {
+    "slug": "flash-beetle",
+    "name": "Flash Beetle",
+    "cardTab": "combat",
+    "image": "flash-beetle.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "giant-goliath-beetle.jpg",
+      "giant-worker-bee.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.069938
+  },
+  {
+    "slug": "centipede-carcasses",
+    "name": "Centipede Carcasses (hazard)",
+    "cardTab": "combat",
+    "image": "centipede-carcasses.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "wiki-centipede.jpg",
+      "giant-silverfish.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.073322
+  },
+  {
+    "slug": "brown-mold",
+    "name": "Brown Mold (hazard)",
+    "cardTab": "combat",
+    "image": "brown-mold.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "umbo-myceloid.jpg",
+      "giant-silverfish.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.071397
+  },
+  {
+    "slug": "forgetful-ink",
+    "name": "Forgetful Ink (affliction)",
+    "cardTab": "combat",
+    "image": "forgetful-ink.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "tome-illustration.jpg",
+      "rhythm-bone.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.066435
+  },
+  {
+    "slug": "practical-research",
+    "name": "Practical Research",
+    "cardTab": "campaign",
+    "image": "practical-research.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "study-illustration.jpg",
+      "anadi-fateweaver.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.070505
+  },
+  {
+    "slug": "branch-benefits",
+    "name": "Branch Benefits",
+    "cardTab": "campaign",
+    "image": "branch-benefits.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "magaambya-logo.jpg",
+      "emblem-cascade-bearers.jpg",
+      "emblem-emerald-boughs.jpg",
+      "emblem-rain-scribes.jpg",
+      "emblem-tempest-sun-mages.jpg",
+      "emblem-uzunjati.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.088752
+  },
+  {
+    "slug": "academy-ranks",
+    "name": "Academy Ranks",
+    "cardTab": "campaign",
+    "image": "academy-ranks.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "herd-mask.jpg",
+      "shapespeak-mask.jpg",
+      "study-illustration.jpg"
+    ],
+    "sourceText": "Kindled Magic / Spoken on the Song Wind passages + Archives of Nethys descriptions",
+    "costUsd": 0.076681
+  },
+  {
+    "slug": "kurshkin",
+    "name": "Kurshkin",
+    "cardTab": "combat",
+    "image": "kurshkin.jpg",
+    "generator": "openai/gpt-image-2.6-sunburst via OpenRouter (quality high, 1:1)",
+    "generated": "2026-11-26",
+    "references": [
+      "kurshkin.jpg",
+      "wiki-pugwampi.jpg",
+      "binji.jpg"
+    ],
+    "sourceText": "Kindled Magic (Kurshkin entry + Introduction Ceremony) + session 5 table description (patchwork silk and satin, shortbow)",
+    "replaces": "Kindled Magic p89 art, by table choice",
+    "costUsd": 0.0801
+  }
+]

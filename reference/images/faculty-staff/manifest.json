@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "koride-ulawa",
+    "name": "Koride Ulawa",
+    "image": "koride-ulawa.jpg",
+    "source": "Kindled Magic",
+    "source_page": 32,
+    "xref": 688
+  },
+  {
+    "slug": "zuma",
+    "name": "Zuma",
+    "image": "zuma.jpg",
+    "source": "Kindled Magic",
+    "source_page": 40,
+    "xref": 812
+  },
+  {
+    "slug": "mafika-ayuwari",
+    "name": "Mafika Ayuwari",
+    "image": "mafika-ayuwari.jpg",
+    "source": "Kindled Magic",
+    "source_page": 41,
+    "xref": 836
+  },
+  {
+    "slug": "lumusi-yao",
+    "name": "Lumusi Yao",
+    "image": "lumusi-yao.jpg",
+    "source": "Kindled Magic",
+    "source_page": 18,
+    "xref": 472
+  },
+  {
+    "slug": "takulu-ot",
+    "name": "Takulu Ot",
+    "image": "takulu-ot.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 69,
+    "xref": 691
+  },
+  {
+    "slug": "takulu-ot-full",
+    "name": "Takulu Ot (full figure)",
+    "image": "takulu-ot-full.jpg",
+    "source": "Kindled Magic",
+    "source_page": 93,
+    "xref": 1808
+  },
+  {
+    "slug": "oyamba",
+    "name": "High Sun-Mage Oyamba",
+    "image": "oyamba.jpg",
+    "source": "Hurricane's Howl",
+    "source_page": 8,
+    "xref": 98
+  },
+  {
+    "slug": "janatimo",
+    "name": "Janatimo",
+    "image": "janatimo.jpg",
+    "source": "Spoken on the Song Wind",
+    "source_page": 7,
+    "xref": 91
+  },
+  {
+    "slug": "ahassunu",
+    "name": "Ahassunu",
+    "image": "ahassunu.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 65,
+    "xref": 628
+  },
+  {
+    "slug": "nhyira",
+    "name": "Nhyira",
+    "image": "nhyira.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 68,
+    "xref": 676
+  },
+  {
+    "slug": "lesedi",
+    "name": "Lesedi",
+    "image": "lesedi.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 67,
+    "xref": 660
+  },
+  {
+    "slug": "tahenkot",
+    "name": "Tahenkot",
+    "image": "tahenkot.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 68,
+    "xref": 677
+  },
+  {
+    "slug": "izem-mezitani",
+    "name": "Izem Mezitani",
+    "image": "izem-mezitani.jpg",
+    "source": "Secrets of the Temple-City",
+    "source_page": 66,
+    "xref": 641
+  },
+  {
+    "slug": "xhokan",
+    "name": "Xhokan",
+    "image": "xhokan.jpg",
+    "source": "Spoken on the Song Wind",
+    "source_page": 22,
+    "xref": 229
+  },
+  {
+    "slug": "goss",
+    "name": "Goss (Rainbows-Reflected-Upon-Gossamer-Strands)",
+    "image": "goss.jpg",
+    "source": "Spoken on the Song Wind",
+    "source_page": 9,
+    "xref": 119
+  }
+]
