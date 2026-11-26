@@ -1,0 +1,5 @@
+{
+ "hash": "cfefa7285e7f",
+ "front": "Single use: cast negate aroma from the scroll at rank 1 (must be on your spell list). The target loses its odor, so creatures can't passively notice it by smell, even with precise or imprecise scent.",
+ "back": "Scroll: cast the spell from it at rank 1 (it must be on your spell list); then it's used up.\nPrevents passive detection by smell alone, even by precise or imprecise scent. A creature using Perception to Seek with scent and other senses might notice the lack of natural scent.\nAbilities of the target that result from its smell, such as an overpowering scent, are also negated.\nHeightened (5th): range 30 feet; up to 10 creatures (not for this rank 1 scroll)."
+}

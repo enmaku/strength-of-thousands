@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-off card pages: a hand-picked mix of spells, items, actions and GM cards, front and back.
 
-Usage: python3 -I cards/generate_custom_cards.py [--hero NAME] [--no-tabs] "[kind:]Name [xN], [kind:]Name, ..."
+Usage: python3 -I cards/generate_custom_cards.py [--hero NAME] [--no-tabs] [--session N] "[kind:]Name [xN], [kind:]Name, ..."
 
 For replacing individual cards that were misprinted or damaged. Entries are comma- or newline-separated;
 `spell:`, `item:` or `action:` names the deck (otherwise it is worked out, see detect_kind), and a trailing
@@ -13,7 +13,7 @@ its own deck's template and its slot is copied onto one mixed page, so every car
 (Spell left, Action middle, Item right on the front; mirrored on the back). Nine cards per page, in the order
 given. Every page gets a back page.
 
-GM cards (cards/gm/book*.py, drawn by generate_gm_cards.py) are found by title, full name or slug: `combat:`,
+GM cards (cards/gm_book*.py, drawn by generate_gm_cards.py) are found by title, full name or slug: `combat:`,
 `npc:` or `campaign:` names the tab, `gm:` any tab, and `gm:book1:Name` (or `combat:book1:Name`) picks a book when
 several books have a card of that name. An unprefixed name that matches a GM card is that card, unless an AoN
 spell, item or action of that name is cached too, in which case the script asks for a prefix. GM cards need no AoN
@@ -23,9 +23,14 @@ Cards too long for a front need a summary, as in generate_cards.py: they are wri
 cards/cache/pending/custom-<deck>.json and the script exits 2; fill them in and re-run the same command.
 
 Output: cards/custom/Custom <date time> - Cards.pdf and Custom <date time> - Cards (Back) pgN.pdf.
+With --session N (session loot for GM prep): every entry is an item, and the cards are split by the Consumable trait
+into cards/session-N/Session N - Items.pdf and Session N - Consumables.pdf, each with its own back pages, because
+the two are printed differently. A re-run replaces that session's files. "Scroll of <spell>" and "Wand of <spell>"
+(optionally "(Rank N)") are built from the spell, since AoN has no item per spell.
 """
 import argparse
 import datetime
+import hashlib
 import json
 import re
 import sys
@@ -100,12 +105,18 @@ def detect_kind(name):
 # ---------- request parsing ----------
 
 def parse_requests(args):
-    """-> [(deck or None, book or None, name, copies)] from the command-line words (commas and newlines separate entries)."""
+    """-> [(deck or None, book or None, name, copies, note or None)] from the command-line words.
+
+    Commas and newlines separate entries, except inside {braces}: a {note} after a name is added to the end of that
+    card's text, for the adventure's own version of an item (e.g. a brew with a side effect)."""
     out = []
-    for raw in re.split(r"[,;\n]", " ".join(args)):
+    for raw in re.split(r"[,;\n](?![^{]*\})", " ".join(args)):
         text = raw.strip()
         if not text:
             continue
+        note = None
+        if m := re.search(r"\{([^}]*)\}", text):
+            note, text = m.group(1).strip() or None, (text[:m.start()] + text[m.end():]).strip()
         copies = 1
         if m := re.fullmatch(r"(.+?)\s*[x×]\s*(\d+)", text, re.I):
             text, copies = m.group(1).strip(), int(m.group(2))
@@ -115,8 +126,17 @@ def parse_requests(args):
         if m := re.match(r"(book\d+)\s*:\s*(.+)", text, re.I):
             book, text = m.group(1).lower(), m.group(2).strip()
             deck = deck or "gm"
-        out.append((deck, book, text, copies))
+        out.append((deck, book, text, copies, note))
     return out
+
+
+def with_note(card, note):
+    """A copy of card with note as its last paragraph, under its own id, so the plain item's card and summary stay as
+    they are."""
+    card = dict(card, desc=[*card["desc"], note])
+    card["id"] = f"{card['id']}--{hashlib.sha1(note.encode()).hexdigest()[:8]}"
+    g.rehash(card)
+    return card
 
 
 # ---------- universal actions carry a label and a "Trained" note on hero decks ----------
@@ -208,19 +228,21 @@ def compose(chunk, back, no_tabs):
     return out
 
 
-def build(chunks, stamp, no_tabs=False):
-    OUT.mkdir(parents=True, exist_ok=True)
-    name = f"Custom {stamp} - Cards" + (" (No Tabs)" if no_tabs else "")
+def build(chunks, name, out=OUT, no_tabs=False):
+    """'<name>.pdf' (fronts) and '<name> (Back) pgN.pdf' in out; earlier files of the same name are replaced."""
+    out.mkdir(parents=True, exist_ok=True)
+    for old in [out / f"{name}.pdf", *out.glob(f"{name} (Back) pg*.pdf")]:
+        old.unlink(missing_ok=True)
     fronts = fitz.open()
     files = []
     for n, chunk in enumerate(chunks, 1):
         print(f"page {n}")
         fronts.insert_pdf(compose(chunk, False, no_tabs))
-    fronts.save(OUT / f"{name}.pdf", garbage=4, deflate=True)
+    fronts.save(out / f"{name}.pdf", garbage=4, deflate=True)
     files.append(f"{name}.pdf")
     for n, chunk in enumerate(chunks, 1):
         print(f"back for page {n}")
-        compose(chunk, True, no_tabs).save(OUT / f"{name} (Back) pg{n}.pdf", garbage=4, deflate=True)
+        compose(chunk, True, no_tabs).save(out / f"{name} (Back) pg{n}.pdf", garbage=4, deflate=True)
         files.append(f"{name} (Back) pg{n}.pdf")
     return files
 
@@ -239,6 +261,9 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--hero", help="hero whose class(es) decide which class features count")
     ap.add_argument("--no-tabs", action="store_true", help="plain top edge instead of the tab on every card (handouts)")
+    ap.add_argument("--session", type=int, metavar="N",
+                    help="session loot: every entry is an item; writes cards/session-N/Session N - Items.pdf and "
+                         "Session N - Consumables.pdf (split by the Consumable trait), replacing earlier runs")
     ap.add_argument("entries", nargs="+", help='"[spell:|item:|action:|combat:|npc:|campaign:|gm:]Name [xN], ..."')
     opts = ap.parse_args()
 
@@ -248,13 +273,21 @@ def main():
         g.HERO_CLASSES.update(c for c in (hero["build"].get("class"), hero["build"].get("dualClass")) if c)
 
     requests = parse_requests(opts.entries)
+    if opts.session is not None:  # loot lists are items only
+        wrong = [f"{d}:{n}" for d, _, n, _, _ in requests if d not in (None, "items")]
+        if wrong:
+            sys.exit(f"--session takes items only: {', '.join(wrong)}")
+        requests = [("items", b, n, c, note) for _, b, n, c, note in requests]
     if not requests:
         sys.exit("no cards requested")
 
     # Settle every card's deck before anything is built.
     resolved, unclear, missing = [], [], []
-    for deck, book, name, copies in requests:
+    for deck, book, name, copies, note in requests:
         if deck in ("gm", *gm.TABS) or (deck is None and gm.find(name, book=book)):
+            if note:
+                unclear.append(f"'{name}': notes are for player cards; edit the GM card's text in cards/gm_book*.py instead")
+                continue
             hits = gm.find(name, None if deck in (None, "gm") else deck, book)
             cached = [k for k, cfg in g.KINDS.items() if find_cached(name, cfg["aon"])] if deck is None else []
             if not hits:
@@ -276,7 +309,7 @@ def main():
             deck = kinds[0] if kinds else "actions"  # not found anywhere: reported as MISSING below
             if kinds:
                 print(f"{name}: {deck[:-1]}")
-        resolved.append((deck, name, copies))
+        resolved.append((deck, (name, note), copies))
     if unclear:
         sys.exit("\n".join(unclear))
 
@@ -286,13 +319,15 @@ def main():
         if deck == "gm":  # GM cards are complete as written: no AoN text, no summaries
             placed += [name] * copies
             continue
-        cfg = g.KINDS[deck]
+        name, note = name
         cards, _, pas, miss = g.collect_cards(None, deck, entries=[name], explicit=True, fetch=lookup)
         missing += miss
         passive += pas
         for card in cards:
             if deck == "actions":
                 relabel_universal(card)
+            if note:
+                card = with_note(card, note)
             card = canon.setdefault((deck, card["id"]), card)
             placed += [(deck, card)] * copies
     for ref in missing:
@@ -324,8 +359,31 @@ def main():
         print("\nFill in 'front' and 'back' for each, then re-run this command.")
         sys.exit(2)
 
+    if opts.session is not None:
+        # Items and consumables print differently, so each gets its own document (both on the Item template).
+        out = g.CARDS / f"session-{opts.session}"
+        is_consumable = lambda card: "consumable" in {t.strip().lower() for t in card["footer"].split(",")}
+        groups = {"Consumables": [pc for pc in placed if is_consumable(pc[1])],
+                  "Items": [pc for pc in placed if not is_consumable(pc[1])]}
+        for label, group in groups.items():
+            name = f"Session {opts.session} - {label}"
+            if not group:  # nothing of this kind this session: clear out an earlier run's pages
+                for old in [out / f"{name}.pdf", *out.glob(f"{name} (Back) pg*.pdf")]:
+                    old.unlink(missing_ok=True)
+                print(f"\n{label}: none")
+                continue
+            chunks = [group[i:i + 9] for i in range(0, len(group), 9)]
+            print(f"\n{label}:")
+            files = build(chunks, name, out, opts.no_tabs)
+            slot_map(chunks)
+            print(f"wrote {len(group)} {label.lower()} card(s) on {len(chunks)} page(s) to {out.relative_to(g.ROOT)}:")
+            for f in files:
+                print("  ", f)
+        return
+
     chunks = [placed[i:i + 9] for i in range(0, len(placed), 9)]
-    files = build(chunks, datetime.datetime.now().strftime("%Y-%m-%d %H%M%S"), opts.no_tabs)
+    name = f"Custom {datetime.datetime.now().strftime('%Y-%m-%d %H%M%S')} - Cards" + (" (No Tabs)" if opts.no_tabs else "")
+    files = build(chunks, name, OUT, opts.no_tabs)
     slot_map(chunks)
     for w in gm.WARN:
         print("GM card text too long:", w)

@@ -1,0 +1,73 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-2350",
+ "item_category": "Worn Items",
+ "item_subcategory": "Other Worn Items",
+ "legacy_id": [
+  "equipment-4882"
+ ],
+ "level": 4,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 4\"\n    pfs=\"Standard\"\n>\n[Mask of Mercy](/Equipment.aspx?ID=2350)\n</title>\n\n<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 154, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74\n\n**Price** 100 gp\n\n<row gap=\"medium\">\n\n**Usage** worn mask\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to [Medicine](/Skills.aspx?ID=9) checks.\n\n**Activate** <actions string=\"Single Action\" /> ([concentrate](/Traits.aspx?ID=561), [fortune](/Traits.aspx?ID=612)) **Frequency** once per day; **Trigger** You are about to roll a variable number of Hit Points you restore from an action with the [healing](/Traits.aspx?ID=89) trait;  **Effect** Roll twice to determine the number of Hit Points you restore and take the higher result.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Mask of Mercy",
+ "pfs": "Standard",
+ "price": 10000,
+ "price_raw": "100 gp",
+ "primary_source": "Treasure Vault (Remastered)",
+ "primary_source_raw": "Treasure Vault (Remastered) pg. 154",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2025-06-04",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<additional-info>\n**Source** [Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 154, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74\n\n**Price** 100 gp\n\n<row gap=\"medium\">\n \n\n**Usage** worn mask\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks.\n</summary>",
+ "skill": [
+  "Medicine"
+ ],
+ "skill_markdown": "[Medicine](/Skills.aspx?ID=42)",
+ "skill_mod": {},
+ "source": [
+  "Treasure Vault (Remastered)",
+  "Pathfinder #169: Kindled Magic"
+ ],
+ "source_raw": [
+  "Treasure Vault (Remastered) pg. 154",
+  "Pathfinder #169: Kindled Magic pg. 74"
+ ],
+ "source_category": [
+  "Rulebooks",
+  "Adventure Paths"
+ ],
+ "source_group": [
+  "Strength of Thousands"
+ ],
+ "source_markdown": "[Treasure Vault (Remastered)](/Sources.aspx?ID=191) pg. 154, [Pathfinder #169: Kindled Magic](/Sources.aspx?ID=94) pg. 74",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks.",
+ "summary_markdown": "This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks.",
+ "text": "Item 4 Mask of Mercy Invested Magical Source Treasure Vault (Remastered) pg. 154, Pathfinder #169: Kindled Magic pg. 74 Price 100 gp Usage worn mask This porcelain or alabaster mask portrays an angelic visage of kindness and mercy. The mask grants a +1 item bonus to Medicine checks. Activate Single Action (concentrate, fortune) Frequency once per day; Trigger You are about to roll a variable number of Hit Points you restore from an action with the healing trait; Effect Roll twice to determine the number of Hit Points you restore and take the higher result.",
+ "trait": [
+  "Invested",
+  "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Invested](/Traits.aspx?ID=98), [Magical](/Traits.aspx?ID=103)",
+ "trait_raw": [
+  "Invested",
+  "Magical"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2350",
+ "usage": "worn mask",
+ "usage_markdown": "worn mask",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:07-08:00"
+}

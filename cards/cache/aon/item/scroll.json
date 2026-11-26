@@ -1,0 +1,77 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-640",
+ "item_category": "Consumables",
+ "item_child_id": [
+  "equipment-640-639",
+  "equipment-640-640",
+  "equipment-640-641",
+  "equipment-640-642",
+  "equipment-640-643",
+  "equipment-640-644",
+  "equipment-640-645",
+  "equipment-640-646",
+  "equipment-640-647",
+  "equipment-640-648"
+ ],
+ "item_subcategory": "Scrolls",
+ "level": 1,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 1+\"\n    pfs=\"Standard\"\n>\n[Scroll](/Equipment.aspx?ID=640)\n</title>\n\n<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n<trait label=\"Scroll\" url=\"/Traits.aspx?ID=140\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n<row gap=\"medium\">\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThe traits for a scroll vary based on the spell it contains. A scroll always has the [consumable](Traits.aspx?ID=36), [magical](Traits.aspx?ID=103), and [scroll](Traits.aspx?ID=140) traits, plus the traits of the spell stored on it.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 1\"\npfs=\"Standard\"\n>\n1st-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\n2nd-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 12 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 5\"\npfs=\"Standard\"\n>\n3rd-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 30 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 7\"\npfs=\"Standard\"\n>\n4th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 70 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 9\"\npfs=\"Standard\"\n>\n5th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 150 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 11\"\npfs=\"Standard\"\n>\n6th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 300 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 13\"\npfs=\"Standard\"\n>\n7th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 600 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 15\"\npfs=\"Standard\"\n>\n8th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 1,300 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 17\"\npfs=\"Standard\"\n>\n9th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 3,000 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 19\"\npfs=\"Standard\"\n>\n10th-Level Scroll\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n**Price** 8,000 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>",
+ "name": "Scroll",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 565",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "equipment-2962"
+ ],
+ "remaster_name": [
+  "Magic Scroll"
+ ],
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=36\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n<trait label=\"Scroll\" url=\"/Traits.aspx?ID=140\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 565\n\n \n\n<row gap=\"medium\">\n \n\n \n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThe traits for a scroll vary based on the spell it contains. A scroll always has the  consumable ,  magical , and  scroll  traits, plus the traits of \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 565"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 565",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "The traits for a scroll vary based on the spell it contains. A scroll always has the  consumable ,  magical , and  scroll  traits, plus the traits of \u2026",
+ "summary_markdown": "The traits for a scroll vary based on the spell it contains. A scroll always has the  consumable ,  magical , and  scroll  traits, plus the traits of \u2026",
+ "text": "Item 1+ Scroll Consumable Magical Scroll Source Core Rulebook pg. 565 Bulk L The traits for a scroll vary based on the spell it contains. A scroll always has the consumable, magical, and scroll traits, plus the traits of the spell stored on it. Item 1 1st-Level Scroll Source Core Rulebook pg. 565 Price 4 gp Item 3 2nd-Level Scroll Source Core Rulebook pg. 565 Price 12 gp Item 5 3rd-Level Scroll Source Core Rulebook pg. 565 Price 30 gp Item 7 4th-Level Scroll Source Core Rulebook pg. 565 Price 70 gp Item 9 5th-Level Scroll Source Core Rulebook pg. 565 Price 150 gp Item 11 6th-Level Scroll Source Core Rulebook pg. 565 Price 300 gp Item 13 7th-Level Scroll Source Core Rulebook pg. 565 Price 600 gp Item 15 8th-Level Scroll Source Core Rulebook pg. 565 Price 1,300 gp Item 17 9th-Level Scroll Source Core Rulebook pg. 565 Price 3,000 gp Item 19 10th-Level Scroll Source Core Rulebook pg. 565 Price 8,000 gp",
+ "trait": [
+  "Consumable",
+  "Magical",
+  "Scroll"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Consumable](/Traits.aspx?ID=36), [Magical](/Traits.aspx?ID=103), [Scroll](/Traits.aspx?ID=140)",
+ "trait_raw": [
+  "Consumable",
+  "Magical",
+  "Scroll"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=640",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:08-08:00"
+}

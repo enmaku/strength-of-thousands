@@ -1,0 +1,79 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-2943-2813",
+ "item_category": "Consumables",
+ "item_parent_id": "equipment-2943",
+ "item_subcategory": "Potions",
+ "legacy_id": [
+  "equipment-186"
+ ],
+ "legacy_name": [
+  "Healing Potion"
+ ],
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 1+\"\n    pfs=\"Standard\"\n>\n[Healing Potion](/Equipment.aspx?ID=2943)\n</title>\n\n<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=672\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nA _healing potion_ is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a _healing potion_, you regain the listed number of Hit Points.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 1\"\npfs=\"Standard\"\n>\nHealing Potion (Minor)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259, [Core Rulebook](/Sources.aspx?ID=1) pg. 563\n\n**Price** 4 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe potion restores 1d8 Hit Points.\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nHealing Potion (Lesser)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259, [Core Rulebook](/Sources.aspx?ID=1) pg. 563\n\n**Price** 12 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe potion restores 2d8+5 Hit Points.\n\n<title\nlevel=\"2\"\nright=\"Item 6\"\npfs=\"Standard\"\n>\nHealing Potion (Moderate)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259, [Core Rulebook](/Sources.aspx?ID=1) pg. 563\n\n**Price** 50 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe potion restores 3d8+10 Hit Points.\n\n<title\nlevel=\"2\"\nright=\"Item 12\"\npfs=\"Standard\"\n>\nHealing Potion (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259, [Core Rulebook](/Sources.aspx?ID=1) pg. 563\n\n**Price** 400 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe potion restores 6d8+20 Hit Points.\n\n<title\nlevel=\"2\"\nright=\"Item 18\"\npfs=\"Standard\"\n>\nHealing Potion (Major)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259, [Core Rulebook](/Sources.aspx?ID=1) pg. 563\n\n**Price** 5,000 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe potion restores 8d8+30 Hit Points.",
+ "name": "Healing Potion (Lesser)",
+ "pfs": "Standard",
+ "price": 1200,
+ "price_raw": "12 gp",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 259",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Potion\" url=\"/Traits.aspx?ID=672\" />\n<trait label=\"Vitality\" url=\"/Traits.aspx?ID=509\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 259\n\n**Price** 12 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThe potion restores 2d8+5 Hit Points.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 259"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 259",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "The potion restores 2d8+5 Hit Points.",
+ "summary_markdown": "The potion restores 2d8+5 Hit Points.",
+ "text": "Item 1+ Healing Potion Consumable Healing Magical Potion Vitality Source GM Core pg. 259 Usage held in 1 hand Bulk L Activate Single Action (manipulate) A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion , you regain the listed number of Hit Points. Item 1 Healing Potion (Minor) Source GM Core pg. 259, Core Rulebook pg. 563 Price 4 gp The potion restores 1d8 Hit Points. Item 3 Healing Potion (Lesser) Source GM Core pg. 259, Core Rulebook pg. 563 Price 12 gp The potion restores 2d8+5 Hit Points. Item 6 Healing Potion (Moderate) Source GM Core pg. 259, Core Rulebook pg. 563 Price 50 gp The potion restores 3d8+10 Hit Points. Item 12 Healing Potion (Greater) Source GM Core pg. 259, Core Rulebook pg. 563 Price 400 gp The potion restores 6d8+20 Hit Points. Item 18 Healing Potion (Major) Source GM Core pg. 259, Core Rulebook pg. 563 Price 5,000 gp The potion restores 8d8+30 Hit Points.",
+ "trait": [
+  "Consumable",
+  "Healing",
+  "Magical",
+  "Potion",
+  "Vitality",
+  "Positive"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics",
+  "Energy",
+  "Planar",
+  "Creature Type"
+ ],
+ "trait_markdown": "[Consumable](/Traits.aspx?ID=564), [Healing](/Traits.aspx?ID=623), [Magical](/Traits.aspx?ID=644), [Potion](/Traits.aspx?ID=672), [Vitality](/Traits.aspx?ID=509)",
+ "trait_raw": [
+  "Consumable",
+  "Healing",
+  "Magical",
+  "Potion",
+  "Vitality"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=2943",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:06-08:00"
+}

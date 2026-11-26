@@ -1,0 +1,73 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3074",
+ "item_category": "Worn Items",
+ "item_child_id": [
+  "equipment-3074-3011",
+  "equipment-3074-3012"
+ ],
+ "item_subcategory": "Other Worn Items",
+ "legacy_id": [
+  "equipment-428"
+ ],
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3+\"\n    pfs=\"Standard\"\n>\n[Dancing Scarf](/Equipment.aspx?ID=3074)\n</title>\n\n<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=727\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288\n\n<row gap=\"medium\">\n\n**Usage** worn belt\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 item bonus to Performance checks to dance. \n\n**Activate\u2014Swirling Scarf** <actions string=\"Single Action\" /> ([manipulate](/Traits.aspx?ID=104))   **Requirements** On your most recent action, you succeeded at a Performance check to dance; **Effect** You become [concealed](/Conditions.aspx?ID=4) until the beginning of your next turn.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nDancing Scarf\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288, [Core Rulebook](/Sources.aspx?ID=1) pg. 609\n\n**Price** 60 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 9\"\npfs=\"Standard\"\n>\nDancing Scarf (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288, [Core Rulebook](/Sources.aspx?ID=1) pg. 609\n\n**Price** 650 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThe scarf grants a +2 bonus. When you activate the scarf, you can also Stride up to half your Speed or Step.",
+ "name": "Dancing Scarf",
+ "pfs": "Standard",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 288",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Visual\" url=\"/Traits.aspx?ID=727\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 288\n\n \n\n<row gap=\"medium\">\n \n\n**Usage** worn belt\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 \u2026\n</summary>",
+ "skill": [
+  "Performance",
+  "Performance"
+ ],
+ "skill_markdown": "[Performance](/Skills.aspx?ID=12), [Performance](/Skills.aspx?ID=12)",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 288"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 288",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 \u2026",
+ "summary_markdown": "This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 \u2026",
+ "text": "Item 3+ Dancing Scarf Invested Magical Visual Source GM Core pg. 288 Usage worn belt This long and billowing scarf is typically woven of silk or sheer fabric and adorned with bells or other jangling bits of shiny metal. It grants a +1 item bonus to Performance checks to dance. Activate\u2014Swirling Scarf Single Action (manipulate) Requirements On your most recent action, you succeeded at a Performance check to dance; Effect You become concealed until the beginning of your next turn. Item 3 Dancing Scarf Source GM Core pg. 288, Core Rulebook pg. 609 Price 60 gp Item 9 Dancing Scarf (Greater) Source GM Core pg. 288, Core Rulebook pg. 609 Price 650 gp The scarf grants a +2 bonus. When you activate the scarf, you can also Stride up to half your Speed or Step.",
+ "trait": [
+  "Invested",
+  "Magical",
+  "Visual"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics",
+  "Sense"
+ ],
+ "trait_markdown": "[Invested](/Traits.aspx?ID=637), [Magical](/Traits.aspx?ID=644), [Visual](/Traits.aspx?ID=727)",
+ "trait_raw": [
+  "Invested",
+  "Magical",
+  "Visual"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3074",
+ "usage": "worn belt",
+ "usage_markdown": "worn belt",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:07-08:00"
+}

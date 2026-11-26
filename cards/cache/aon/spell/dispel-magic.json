@@ -1,0 +1,81 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline": [
+  "Imperial"
+ ],
+ "bloodline_markdown": "[Imperial](/Bloodlines.aspx?ID=27)",
+ "category": "spell",
+ "domain_markdown": "",
+ "element": [
+  "Universal"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "2nd rank"
+ ],
+ "heighten_level": [
+  2
+ ],
+ "id": "spell-1493",
+ "legacy_id": [
+  "spell-78"
+ ],
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\n[Dispel Magic](/Spells.aspx?ID=1493)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Bloodline**\n[Imperial](/Bloodlines.aspx?ID=27)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n**Target** 1 spell effect or unattended magic item\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYou unravel the magic behind a spell or effect. Attempt a [counteract](/Rules.aspx?ID=371) check against the target. If you successfully counteract a magic item, it becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an [artifact](/Traits.aspx?ID=253) or similar item, you automatically fail.",
+ "name": "Dispel Magic",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 325",
+ "primary_source_category": "Rulebooks",
+ "range": 120,
+ "range_raw": "120 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 325\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n**Bloodline**\n[Imperial](/Bloodlines.aspx?ID=27)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n \n\n**Target** 1 spell effect or unattended magic item\n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nEnd a spell or suppress an item's magic.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 325"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 325",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "End a spell or suppress an item's magic.",
+ "summary_markdown": "End a spell or suppress an item's magic.",
+ "target": "1 spell effect or unattended magic item",
+ "target_markdown": "1 spell effect or unattended magic item",
+ "text": "Spell 2 Dispel Magic Two Actions Concentrate Manipulate Source Player Core pg. 325 Traditions Arcane, Divine, Occult, Primal Spell Lists Elemental Bloodline Imperial Range 120 feet Target 1 spell effect or unattended magic item You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, it becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an artifact or similar item, you automatically fail.",
+ "tradition": [
+  "Arcane",
+  "Divine",
+  "Occult",
+  "Primal",
+  "Elemental"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "trait": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1493",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:36:19-08:00"
+}

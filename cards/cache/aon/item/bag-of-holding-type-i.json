@@ -1,0 +1,69 @@
+{
+ "base_item_markdown": "",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-249-251",
+ "item_category": "Held Items",
+ "item_parent_id": "equipment-249",
+ "level": 4,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 4+\"\n    pfs=\"Standard\"\n>\n[Bag of Holding](/Equipment.aspx?ID=249)\n</title>\n\n<traits>\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Extradimensional\" url=\"/Traits.aspx?ID=67\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n<row gap=\"medium\">\n\n**Usage** held in 2 hands\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThough it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a _bag of holding_ opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the _bag of holding_ itself. The amount of Bulk the bag's extradimensional space can hold depends on its type.\n\n You can Interact with the _bag of holding_ to stow items in it or remove them just like a mundane [sack](/Equipment.aspx?ID=45). Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside.\n\n If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to [Escape](/Actions.aspx?ID=79) against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 4\"\npfs=\"Standard\"\n>\nBag of Holding (Type I)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n**Price** 75 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 25 Bulk\n\n<title\nlevel=\"2\"\nright=\"Item 7\"\npfs=\"Standard\"\n>\nBag of Holding (Type II)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n**Price** 300 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 50 Bulk\n\n<title\nlevel=\"2\"\nright=\"Item 11\"\npfs=\"Standard\"\n>\nBag of Holding (Type III)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n**Price** 1,200 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 100 Bulk\n\n<title\nlevel=\"2\"\nright=\"Item 13\"\npfs=\"Standard\"\n>\nBag of Holding (Type IV)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n**Price** 2,400 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n**Capacity** 150 Bulk",
+ "name": "Bag of Holding (Type I)",
+ "pfs": "Standard",
+ "price": 7500,
+ "price_raw": "75 gp",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 572",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "equipment-3032"
+ ],
+ "remaster_name": [
+  "Spacious Pouch"
+ ],
+ "resistance": {},
+ "school": "conjuration",
+ "search_markdown": "<traits>\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Extradimensional\" url=\"/Traits.aspx?ID=67\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=103\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 572\n\n**Price** 75 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 2 hands\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nCapacity  25 Bulk\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 572"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 572",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "Capacity  25 Bulk",
+ "summary_markdown": "Capacity  25 Bulk",
+ "text": "Item 4+ Bag of Holding Conjuration Extradimensional Magical Source Core Rulebook pg. 572 Usage held in 2 hands Bulk 1 Though it appears to be a cloth sack decorated with panels of richly colored silk or stylish embroidery, a bag of holding opens into an extradimensional space larger than its outside dimensions. The Bulk held inside the bag doesn't change the Bulk of the bag of holding itself. The amount of Bulk the bag's extradimensional space can hold depends on its type. You can Interact with the bag of holding to stow items in it or remove them just like a mundane sack. Though the bag can hold a great amount of material, an object still needs to be able to fit through the opening of the sack to be stored inside. If the bag is overloaded or broken, it ruptures and is ruined, causing the items inside to be lost forever. If it's turned inside out, the items inside spill out unharmed, but the bag must be put right before it can be used again. A living creature placed inside the bag has enough air for 10 minutes before it begins to suffocate, and it can attempt to Escape against a DC of 13. An item inside the bag provides no benefits unless it's retrieved first. An item in the bag can't be detected by magic that detects only things on the same plane. Item 4 Bag of Holding (Type I) Source Core Rulebook pg. 572 Price 75 gp Capacity 25 Bulk Item 7 Bag of Holding (Type II) Source Core Rulebook pg. 572 Price 300 gp Capacity 50 Bulk Item 11 Bag of Holding (Type III) Source Core Rulebook pg. 572 Price 1,200 gp Capacity 100 Bulk Item 13 Bag of Holding (Type IV) Source Core Rulebook pg. 572 Price 2,400 gp Capacity 150 Bulk",
+ "trait": [
+  "Conjuration",
+  "Extradimensional",
+  "Magical"
+ ],
+ "trait_group": [
+  "School",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Conjuration](/Traits.aspx?ID=33), [Extradimensional](/Traits.aspx?ID=67), [Magical](/Traits.aspx?ID=103)",
+ "trait_raw": [
+  "Conjuration",
+  "Extradimensional",
+  "Magical"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=249",
+ "usage": "held in 2 hands",
+ "usage_markdown": "held in 2 hands",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:07-08:00"
+}

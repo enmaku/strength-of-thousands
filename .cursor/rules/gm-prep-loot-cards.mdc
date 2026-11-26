@@ -1,0 +1,46 @@
+---
+description: Session prep docs come with printed cards for every item and consumable the party might find that session
+alwaysApply: true
+---
+
+# GM prep — loot cards for the session
+
+When creating a **session prep** doc (`lessons/*-session-N-prep.html`, via `/teach` or an ad hoc request), also generate cards for every **item and consumable the players might find or be given during that session**. The table prints loot as cards and hands them over as it's found.
+
+This is Strength of Thousands / this workspace only. Do **not** put it in the global `/teach` skill.
+
+## What goes on the list
+
+- Book treasure in every area or scene the prep expects the table to reach, including stretch content.
+- Rewards NPCs hand over (Lumusi's potions, Zuma's hat, a tournament prize).
+- Loot still owed from earlier sessions: anything in the prep's "Loot owed" section the party hasn't received.
+- Use one entry per physical item: write `x2` for two of the same thing.
+- Leave out coins, gems and art objects that are only worth gp, mundane keys and books, and story objects with no rules. These stay in the prep doc only.
+
+Write each name as Archives of Nethys spells it, not as the book's legacy wording: "Healing Potion (Lesser)" for "lesser healing potion", "Wondrous Figurine (Onyx Dog)" for "onyx dog wondrous figurine", "Feather Token (Chest)" for "chest feather token". When the adventure gives an item its own twist (a side effect, a curse, a flavor), keep the AoN name and add the twist in braces: `Potion of Leaping {Chizire's brew: whoever drinks it is sickened 1 and can't recover from it while the potion is in effect.}`. Quote the book's rule; don't invent one.
+
+Write scrolls and wands as `Scroll of <spell>` or `Wand of <spell>`, adding `(Rank N)` when the book's rank differs from the spell's base rank (Book 1's 3rd-level *dispel magic* scroll is `Scroll of Dispel Magic (Rank 3)`).
+
+## Generate
+
+Run one command per session with every entry, in order of where the party is likely to find it:
+
+```
+python3 -I cards/generate_custom_cards.py --session N "Scroll of Fleet Step, Bracers of Missile Deflection x2, Healing Potion (Lesser) x3, ..."
+```
+
+`--session N` treats every entry as an item. It splits the cards by AoN's Consumable trait into two separate documents, because items and consumables are printed differently:
+
+| File | Holds |
+|---|---|
+| `cards/session-N/Session N - Items.pdf` + `(Back) pgN.pdf` | permanent items, wands included |
+| `cards/session-N/Session N - Consumables.pdf` + `(Back) pgN.pdf` | potions, elixirs, scrolls, talismans, ammunition, and the rest |
+
+A re-run replaces that session's files, so after revising the prep's loot, run the whole list again.
+
+- Exit 2 means some cards need summaries. Follow the Summarize step in `.claude/skills/generate-custom-card-page/SKILL.md`, then re-run the same command.
+- Every name the script prints as `MISSING` needs fixing: find the AoN spelling, or drop it if it has no rules.
+
+## In the prep doc
+
+In the prep's loot section, link the two PDFs. Name any item that couldn't be carded, and say why.

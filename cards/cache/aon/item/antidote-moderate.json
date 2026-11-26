@@ -1,0 +1,77 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3296-3158",
+ "item_category": "Alchemical Items",
+ "item_parent_id": "equipment-3296",
+ "item_subcategory": "Alchemical Elixirs",
+ "legacy_id": [
+  "equipment-80"
+ ],
+ "legacy_name": [
+  "Antidote"
+ ],
+ "level": 6,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 1+\"\n    pfs=\"Standard\"\n>\n[Antidote](/Equipment.aspx?ID=3296)\n</title>\n\n<traits>\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=528\" />\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Elixir\" url=\"/Traits.aspx?ID=589\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nAn antidote protects you against toxins. Upon drinking an antidote, you gain an item bonus to Fortitude saving throws against poisons for 6 hours.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 1\"\npfs=\"Standard\"\n>\nAntidote (Lesser)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 245, [Core Rulebook](/Sources.aspx?ID=1) pg. 546\n\n**Price** 3 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nYou gain a +2 item bonus.\n\n<title\nlevel=\"2\"\nright=\"Item 6\"\npfs=\"Standard\"\n>\nAntidote (Moderate)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246, [Core Rulebook](/Sources.aspx?ID=1) pg. 546\n\n**Price** 35 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nYou gain a +3 item bonus.\n\n<title\nlevel=\"2\"\nright=\"Item 10\"\npfs=\"Standard\"\n>\nAntidote (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246, [Core Rulebook](/Sources.aspx?ID=1) pg. 546\n\n**Price** 160 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nYou gain a +4 item bonus.\n\n<title\nlevel=\"2\"\nright=\"Item 14\"\npfs=\"Standard\"\n>\nAntidote (Major)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246, [Core Rulebook](/Sources.aspx?ID=1) pg. 546\n\n**Price** 675 gp\n\n<row gap=\"medium\">\n\n**Bulk** L\n\n</row>\n\n</column>\n\n---\n\nYou gain a +4 item bonus, and when you drink the antidote, you can immediately attempt a save against one poison of 14th level or lower affecting you. If you succeed, the poison is neutralized.",
+ "name": "Antidote (Moderate)",
+ "pfs": "Standard",
+ "price": 3500,
+ "price_raw": "35 gp",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 286",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=528\" />\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Elixir\" url=\"/Traits.aspx?ID=589\" />\n<trait label=\"Healing\" url=\"/Traits.aspx?ID=623\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246\n\n**Price** 35 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nYou gain a +3 item bonus.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2",
+  "GM Core"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 286",
+  "GM Core pg. 246"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "You gain a +3 item bonus.",
+ "summary_markdown": "You gain a +3 item bonus.",
+ "text": "Item 1+ Antidote Alchemical Consumable Elixir Healing Source Player Core 2 pg. 286, GM Core pg. 246 Usage held in 1 hand Bulk L Activate Single Action (manipulate) An antidote protects you against toxins. Upon drinking an antidote, you gain an item bonus to Fortitude saving throws against poisons for 6 hours. Item 1 Antidote (Lesser) Source Player Core 2 pg. 286, GM Core pg. 245, Core Rulebook pg. 546 Price 3 gp Bulk L You gain a +2 item bonus. Item 6 Antidote (Moderate) Source Player Core 2 pg. 286, GM Core pg. 246, Core Rulebook pg. 546 Price 35 gp Bulk L You gain a +3 item bonus. Item 10 Antidote (Greater) Source Player Core 2 pg. 286, GM Core pg. 246, Core Rulebook pg. 546 Price 160 gp Bulk L You gain a +4 item bonus. Item 14 Antidote (Major) Source Player Core 2 pg. 286, GM Core pg. 246, Core Rulebook pg. 546 Price 675 gp Bulk L You gain a +4 item bonus, and when you drink the antidote, you can immediately attempt a save against one poison of 14th level or lower affecting you. If you succeed, the poison is neutralized.",
+ "trait": [
+  "Alchemical",
+  "Consumable",
+  "Elixir",
+  "Healing"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Alchemical](/Traits.aspx?ID=528), [Consumable](/Traits.aspx?ID=564), [Elixir](/Traits.aspx?ID=589), [Healing](/Traits.aspx?ID=623)",
+ "trait_raw": [
+  "Alchemical",
+  "Consumable",
+  "Elixir",
+  "Healing"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3296",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:35:06-08:00"
+}

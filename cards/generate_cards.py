@@ -281,7 +281,8 @@ def item_card(s):
         "subtitle": subtitle,
         "actions": "",
         "stats": "; ".join(stats),
-        "desc": [l for l in clean(body_md, s["name"]).split("\n") if l],
+        # AoN leaves a staff's "Activate Cast a Spell" cost empty, which clean() would print as "()"
+        "desc": [re.sub(r"\(\)\s*", "", l) for l in clean(body_md, s["name"]).split("\n") if l],
         "footer": trait_labels(md, s),  # labels keep e.g. "Fatal 1d10"
     }
     card["hash"] = hashlib.sha1("\n".join([card["stats"], *card["desc"]]).encode()).hexdigest()[:12]
@@ -845,6 +846,34 @@ def rehash(card):
 
 Entry = namedtuple("Entry", "ref subtitle extra title follow", defaults=(None, "", None, True))
 
+# "Scroll of Fleet Step", "Wand of Heal (Rank 2)", "Scroll of Augury (2nd rank)": AoN has no item per spell, only
+# the generic Scroll and Wand, so these cards are built from the spell itself.
+SPELL_ITEM = re.compile(r"(scroll|wand) of (.+?)(?:\s*\((?:rank\s*)?(\d+)(?:st|nd|rd|th)?(?:[- ]rank)?\))?\s*$", re.I)
+SPELL_ITEM_USE = {
+    "scroll": "Scroll: cast this spell from it at rank {rank} (it must be on your spell list); then it's used up.",
+    "wand": "Wand: cast this spell from it at rank {rank} once a day (it must be on your spell list). Overcharge to "
+            "cast again: DC 10 flat check; success, the wand breaks; failure, it's destroyed.",
+}
+
+
+def spell_item_card(name, fetch=None):
+    """A card for a scroll or wand of a named spell, or None if the name isn't one or the spell isn't found."""
+    m = SPELL_ITEM.match(name.strip())
+    if not m:
+        return None
+    form, spell, rank = m.group(1).lower(), m.group(2).strip(), m.group(3)
+    s = (fetch or fetch_aon)(spell, "spell")
+    if not s:
+        return None
+    card = spell_card(s)
+    rank = int(rank) if rank else max(1, int(s.get("level") or 1))
+    card.update(title=name.strip(), id=slug(name), subtitle=f"{form.title()} · Rank {rank}",
+                desc=[SPELL_ITEM_USE[form].format(rank=rank), *card["desc"]],
+                footer=", ".join(["Consumable", "Magical", "Scroll"] if form == "scroll" else ["Magical", "Wand"]))
+    card["aon_id"], card["aon_fetched"] = s.get("id"), s.get("_fetched_at")
+    rehash(card)
+    return card
+
 
 def collect_cards(hero, kind, entries=None, explicit=False, fetch=None):
     """Resolve a hero's names to cards. Returns (cards, blacklisted, passive, missing).
@@ -860,7 +889,11 @@ def collect_cards(hero, kind, entries=None, explicit=False, fetch=None):
         e = queue.popleft()
         s = fetch(e.ref, cfg["aon"])
         if not s:
-            missing.append(e.ref)
+            card = spell_item_card(e.ref, fetch) if kind == "items" else None
+            if card and not any(c["id"] == card["id"] for c in cards):
+                cards.append(card)
+            elif not card:
+                missing.append(e.ref)
             continue
         if not explicit and is_blacklisted(kind, e.ref, s):
             if s["name"] not in skipped:  # several skills can lead to the same action

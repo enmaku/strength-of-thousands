@@ -21,8 +21,11 @@ python3 -I cards/generate_custom_cards.py [--hero <hero as typed>] [--no-tabs] "
 
 - Names are as Archives of Nethys spells them. Fix obvious capitalization; do not guess at a name the user did not give.
 - `spell:`, `item:` or `action:` in front of a name states its deck. Without it the script works the deck out: a name with a cached entry in exactly one deck is that deck's; with nothing cached it asks AoN about each deck. A name found in several decks makes the script exit with the options; ask the user which one they meant, or add the prefix when the user already said (e.g. "the spell Aid"). It prints `<name>: <deck>` for every guess.
-- **GM cards** (`cards/gm/book*.py`) are found by title, full name or slug ("Teacher Ot", "Takulu Ot" and "takulu-ot" are the same card). `combat:`, `npc:` or `campaign:` names the tab; `gm:` searches all three. An unprefixed name that matches a GM card is that card (the script prints `<name>: GM <tab> (<book>)`) unless an AoN spell, item or action of the same name is cached, in which case it exits with the options. When later books repeat a name, it asks for the book too: `gm:book1:Takulu Ot` (or `npc:book1:Takulu Ot`). GM cards never need AoN or summaries.
+- **GM cards** (`cards/gm_book*.py`) are found by title, full name or slug ("Teacher Ot", "Takulu Ot" and "takulu-ot" are the same card). `combat:`, `npc:` or `campaign:` names the tab; `gm:` searches all three. An unprefixed name that matches a GM card is that card (the script prints `<name>: GM <tab> (<book>)`) unless an AoN spell, item or action of the same name is cached, in which case it exits with the options. When later books repeat a name, it asks for the book too: `gm:book1:Takulu Ot` (or `npc:book1:Takulu Ot`). GM cards never need AoN or summaries.
 - `x2` after a name prints two copies (both sides).
+- `{note}` after a name adds the note as the card's last paragraph, for an adventure's own version of an item, e.g. `item:Potion of Leaping {Chizire's brew: whoever drinks it is sickened 1 and can't recover from it while the potion is in effect.}`. Commas inside the braces are fine. The noted card gets its own id, so the plain item's card and cached summary are untouched. Notes are for player cards; GM cards are edited in `cards/gm_book*.py`.
+- `Scroll of <spell>` and `Wand of <spell>` (optionally `(Rank N)`) are built from the spell's own text, since AoN has no item per spell. Without a rank they use the spell's base rank.
+- `--session N` is for session loot (see `.cursor/rules/gm-prep-loot-cards.mdc`). Every entry is treated as an item, and the cards are split by the Consumable trait into `cards/session-N/Session N - Items.pdf` and `Session N - Consumables.pdf`, each with its own back pages. A re-run replaces that session's files.
 - `--no-tabs` replaces every card's tab with a plain top edge, front and back, for player handouts that shouldn't stick up in a deck box. Use it only when the user asks for tabless or handout copies. Whole GM tabs can also be printed tabless with `python3 -I cards/generate_gm_cards.py --no-tabs campaign`.
 - `--hero` is only needed for a class feature that several classes share a name for (e.g. Spellstrike); it limits those to the hero's class(es).
 - A ritual is `spell:rit:<Name>`; an animal companion cannot be requested.
@@ -53,7 +56,7 @@ With `--no-tabs`, both names gain ` (No Tabs)` after `Cards`.
 
 Every card sits in its own deck's frame with the tab in that deck's position (Spell and Combat left, Action and NPCs middle, Item and Campaign right on a front), so mixed pages need no special handling when cut and sleeved. The backs are mirrored left-to-right exactly as in `/generate-cards`, with the same duplex assumption (`MIRROR_BACKS` in `cards/generate_cards.py`). Cards with no summary still get a back (frame, tab and title only), because the sheet is printed as a whole.
 
-Leave `heroes/`, `cards/blacklist.json`, `cards/templates/` and `cards/gm/` as they are. Do not commit the output unless asked.
+Leave `heroes/`, `cards/blacklist.json`, `cards/templates/`, `cards/gm_book*.py` and `cards/gm/art/` as they are. Do not commit the output unless asked.
 
 ## How it works
 

@@ -3,8 +3,9 @@
 
 Usage: python3 -I cards/generate_gm_cards.py [BOOK] [--preview DIR] [--no-tabs TAB ...]
 
-BOOK is a module in cards/gm/ (default: book1) whose CARDS list holds the card content; art is read from
-cards/gm/art/<tab>/<slug>.png (square, black-and-white pencil renders). Output goes to cards/gm/:
+BOOK (default: book1) names the content module cards/gm_<BOOK>.py, whose CARDS list holds the cards (gm_book1.py
+gathers gm_book1_combat.py, gm_book1_npcs.py and gm_book1_campaign.py); art is read from
+cards/gm/art/<tab>/<slug>.png (black-and-white pencil renders). Output goes to cards/gm/:
   GM <Book> - <Tab>.pdf               fronts, nine poker-size cards per letter page
   GM <Book> - <Tab> (Back) pgN.pdf    one back page per front page, columns mirrored for long-edge duplex
 --preview DIR also writes a PNG of every page there, for checking the layout by eye.
@@ -32,7 +33,7 @@ import fitz
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import generate_cards as g  # noqa: E402  (slot geometry, fonts, MIRROR_BACKS, FRONT_MIN)
 
-GM = g.CARDS / "gm"
+GM = g.CARDS / "gm"  # printable PDFs, plus the card art in gm/art/
 TPL = g.CARDS / "templates"
 TABS = {  # tab key: (template deck, tab label, label size)
     "combat": ("Spells", "Combat", 8.5),
@@ -253,14 +254,12 @@ def build_tab(tab, cards, stem, art_dir, preview):
 # ---------- lookup (used by generate_custom_cards.py) ----------
 
 def books():
-    """{module name: module} for every book in cards/gm/ (a module with STEM and CARDS, e.g. book1)."""
-    if str(GM) not in sys.path:
-        sys.path.insert(0, str(GM))
+    """{book: module} for every GM book: a cards/gm_<book>.py module with STEM and CARDS (e.g. gm_book1 -> book1)."""
     out = {}
-    for path in sorted(GM.glob("book*.py")):
+    for path in sorted(g.CARDS.glob("gm_book*.py")):
         mod = importlib.import_module(path.stem)
         if hasattr(mod, "STEM") and hasattr(mod, "CARDS"):
-            out[path.stem] = mod
+            out[path.stem.removeprefix("gm_")] = mod
     return out
 
 
@@ -343,8 +342,7 @@ def main():
     ap.add_argument("--no-tabs", nargs="*", default=[], metavar="TAB",
                     help="also write a tabless copy of these tabs (e.g. campaign), for player handouts")
     args = ap.parse_args()
-    sys.path.insert(0, str(GM))
-    mod = importlib.import_module(args.book)
+    mod = importlib.import_module(f"gm_{args.book}")
     if args.preview:
         args.preview.mkdir(parents=True, exist_ok=True)
     slugs = [c["slug"] for c in mod.CARDS]

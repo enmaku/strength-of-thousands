@@ -1,0 +1,5 @@
+{
+ "hash": "c1773272204e",
+ "front": "Single use: cast augury from the scroll at rank 2 (must be on your spell list). Ask about the results of a course of action; predicts up to 30 minutes ahead: good, bad, mixed or nothing.",
+ "back": "Scroll: cast the spell from it at rank 2 (it must be on your spell list); then it's used up.\nThe GM reveals a best guess about results up to 30 minutes ahead: good, bad, mixed (a mix of good and bad) or nothing (nothing particularly good or bad).\nThe GM rolls a secret DC 6 flat check; on a failure the result is always \"nothing\", so you can't tell whether \"nothing\" is accurate.\nAsking about the same topic with another augury uses the first casting's secret roll. If circumstances change, a different result is possible."
+}
