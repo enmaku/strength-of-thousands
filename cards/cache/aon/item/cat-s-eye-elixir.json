@@ -1,0 +1,71 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3301",
+ "item_category": "Alchemical Items",
+ "item_subcategory": "Alchemical Elixirs",
+ "legacy_id": [
+  "equipment-85"
+ ],
+ "level": 2,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 2\"\n    pfs=\"Standard\"\n>\n[Cat's Eye Elixir](/Equipment.aspx?ID=3301)\n</title>\n\n<traits>\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=528\" />\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Elixir\" url=\"/Traits.aspx?ID=589\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246\n\n**Price** 7 gp\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nAfter you consume this elixir, your vision sharpens, and you become sensitive to even the most minute movements. For the next minute, you reduce the flat check to target [hidden](/Conditions.aspx?ID=79) creatures to 5, and you don't need to attempt a flat check to target [concealed](/Conditions.aspx?ID=62) creatures. These benefits apply only against creatures within 30 feet of you.\n\n<column gap=\"tiny\">\n\n</column>",
+ "name": "Cat's Eye Elixir",
+ "pfs": "Standard",
+ "price": 700,
+ "price_raw": "7 gp",
+ "primary_source": "Player Core 2",
+ "primary_source_raw": "Player Core 2 pg. 286",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2024-08-01",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Alchemical\" url=\"/Traits.aspx?ID=528\" />\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Elixir\" url=\"/Traits.aspx?ID=589\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246\n\n**Price** 7 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nAfter you consume this elixir, your vision sharpens, and you become sensitive to even the most minute movements. For the next minute, you reduce the \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core 2",
+  "GM Core"
+ ],
+ "source_raw": [
+  "Player Core 2 pg. 286",
+  "GM Core pg. 246"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core 2](/Sources.aspx?ID=227) pg. 286, [GM Core](/Sources.aspx?ID=218) pg. 246",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "After you consume this elixir, your vision sharpens, and you become sensitive to even the most minute movements. For the next minute, you reduce the \u2026",
+ "summary_markdown": "After you consume this elixir, your vision sharpens, and you become sensitive to even the most minute movements. For the next minute, you reduce the \u2026",
+ "text": "Item 2 Cat's Eye Elixir Alchemical Consumable Elixir Source Player Core 2 pg. 286, GM Core pg. 246 Price 7 gp Usage held in 1 hand Bulk L Activate Single Action (manipulate) After you consume this elixir, your vision sharpens, and you become sensitive to even the most minute movements. For the next minute, you reduce the flat check to target hidden creatures to 5, and you don't need to attempt a flat check to target concealed creatures. These benefits apply only against creatures within 30 feet of you.",
+ "trait": [
+  "Alchemical",
+  "Consumable",
+  "Elixir"
+ ],
+ "trait_group": [
+  "Monster",
+  "Equipment",
+  "Weapon"
+ ],
+ "trait_markdown": "[Alchemical](/Traits.aspx?ID=528), [Consumable](/Traits.aspx?ID=564), [Elixir](/Traits.aspx?ID=589)",
+ "trait_raw": [
+  "Alchemical",
+  "Consumable",
+  "Elixir"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3301",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:03-08:00"
+}

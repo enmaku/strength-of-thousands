@@ -1,0 +1,71 @@
+{
+ "actions": "Single Action",
+ "actions_number": 2,
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3002-2862",
+ "item_category": "Consumables",
+ "item_parent_id": "equipment-3002",
+ "item_subcategory": "Other Consumables",
+ "legacy_id": [
+  "equipment-244"
+ ],
+ "legacy_name": [
+  "Feather Token (Chest)"
+ ],
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 1+\"\n    pfs=\"Standard\"\n>\n[Marvelous Miniature](/Equipment.aspx?ID=3002)\n</title>\n\n<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Expandable\" url=\"/Traits.aspx?ID=475\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nEvery _marvelous miniature_ is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. _Marvelous miniatures_ sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a _marvelous miniature_ causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 8\"\npfs=\"Standard\"\n>\nMarvelous Miniature (Boat)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 76 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThis miniature can be activated only when tossed into a large body of water, such as a lake or broad river. It transforms into a [cutter](/Vehicles.aspx?ID=41). The cutter lasts 1 day.\n\n<title\nlevel=\"2\"\nright=\"Item 1\"\npfs=\"Standard\"\n>\nMarvelous Miniature (Campfire)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 1 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nWhen activated, this miniature transforms into an active campfire. The campfire doesn't require attending and remains fully lit for 8 hours, though it can be quenched as any other campfire.\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nMarvelous Miniature (Chest)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 10 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nWhen you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is closed, it transforms again\u2014this time into a key\u2014taking all of the stored items with it. You can activate this key by spending an Interact action to turn it in an imaginary lock, which causes it to transform back into a chest with all of the items still inside. Once it has turned into a chest a second time, it forever remains a wooden chest.\n\n<title\nlevel=\"2\"\nright=\"Item 4\"\npfs=\"Standard\"\n>\nMarvelous Miniature (Horse)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 13 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nWhen activated, this miniature transforms into a horse. The horse can't attack or use reactions, but otherwise uses all the statistics of a [riding horse](/Monsters.aspx?ID=266) and follows your basic commands. The horse doesn't need to eat or drink. After 8 hours, it reverts back to miniature form, then crumbles to dust.\n\n<title\nlevel=\"2\"\nright=\"Item 1\"\npfs=\"Standard\"\n>\nMarvelous Miniature (Ladder)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 3 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nWhen activated, this miniature transforms permanently into a 20-foot-long wooden ladder.\n\n<title\nlevel=\"2\"\nright=\"Item 2\"\npfs=\"Limited\"\n>\nMarvelous Miniature (Swift Sparrow)\n</title>\n\n<spoilers>May contain spoilers from Hellbreakers</spoilers>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Pathfinder #222: Hellbreakers](/Sources.aspx?ID=307) pg. 210\n\n**Price** 6 gp\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n</row>\n\n</column>\n\n---\n\nWhen activated, this miniature transforms into a seemingly mundane sparrow. The sparrow flies to a destination of your choice within 200 feet that you can see, then [Seeks](/Actions.aspx?ID=2301) in a 30-foot burst using your Perception modifier before returning. The sparrow then unravels into a small map of the area it perceived, including any creatures it saw. The map is rudimentary and doesn't reveal anything the sparrow failed to perceive.",
+ "name": "Marvelous Miniature (Chest)",
+ "pfs": "Standard",
+ "price": 1000,
+ "price_raw": "10 gp",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 268",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Consumable\" url=\"/Traits.aspx?ID=564\" />\n<trait label=\"Expandable\" url=\"/Traits.aspx?ID=475\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 268\n\n**Price** 10 gp\n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n \n</row>\n\n<row gap=\"medium\">\n<row gap=\"tiny\"><row>**Activate**</row><actions string=\"Single Action\" /><row>([manipulate](/Traits.aspx?ID=104))</row></row>\n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nWhen you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 268"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 268",
+ "speed": {},
+ "spell_markdown": "",
+ "summary": "When you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is \u2026",
+ "summary_markdown": "When you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is \u2026",
+ "text": "Item 1+ Marvelous Miniature Consumable Expandable Magical Source GM Core pg. 268 Usage held in 1 hand Activate Single Action (manipulate) Every marvelous miniature is an exceptionally small replica of a real creature or object. The miniature is made from wood, pewter, or other simple materials, and features a rune etched into the underside of the replica's base. Marvelous miniatures sometimes come packaged together; for example, the camping set features the boat, campfire, and horse miniatures. Activating a marvelous miniature causes it to transform into another creature or object, which then can be used as normal for that object. Each miniature can be activated only once, with most of them permanently becoming the item in their description. Item 8 Marvelous Miniature (Boat) Source GM Core pg. 268 Price 76 gp This miniature can be activated only when tossed into a large body of water, such as a lake or broad river. It transforms into a cutter. The cutter lasts 1 day. Item 1 Marvelous Miniature (Campfire) Source GM Core pg. 268 Price 1 gp When activated, this miniature transforms into an active campfire. The campfire doesn't require attending and remains fully lit for 8 hours, though it can be quenched as any other campfire. Item 3 Marvelous Miniature (Chest) Source GM Core pg. 268 Price 10 gp When you use this miniature, a small wooden chest appears and immediately opens. This chest can hold up to 10 Bulk worth of items. Once the chest is closed, it transforms again\u2014this time into a key\u2014taking all of the stored items with it. You can activate this key by spending an Interact action to turn it in an imaginary lock, which causes it to transform back into a chest with all of the items still inside. Once it has turned into a chest a second time, it forever remains a wooden chest. Item 4 Marvelous Miniature (Horse) Source GM Core pg. 268 Price 13 gp When activated, this miniature transforms into a horse. The horse can't attack or use reactions, but otherwise uses all the statistics of a riding horse and follows your basic commands. The horse doesn't need to eat or drink. After 8 hours, it reverts back to miniature form, then crumbles to dust. Item 1 Marvelous Miniature (Ladder) Source GM Core pg. 268 Price 3 gp When activated, this miniature transforms permanently into a 20-foot-long wooden ladder. Item 2 Marvelous Miniature (Swift Sparrow) May contain spoilers from Hellbreakers Uncommon Source Pathfinder #222: Hellbreakers pg. 210 Price 6 gp Usage held in 1 hand When activated, this miniature transforms into a seemingly mundane sparrow. The sparrow flies to a destination of your choice within 200 feet that you can see, then Seeks in a 30-foot burst using your Perception modifier before returning. The sparrow then unravels into a small map of the area it perceived, including any creatures it saw. The map is rudimentary and doesn't reveal anything the sparrow failed to perceive.",
+ "trait": [
+  "Consumable",
+  "Expandable",
+  "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Shield",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Consumable](/Traits.aspx?ID=564), [Expandable](/Traits.aspx?ID=475), [Magical](/Traits.aspx?ID=644)",
+ "trait_raw": [
+  "Consumable",
+  "Expandable",
+  "Magical"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3002",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:02-08:00"
+}

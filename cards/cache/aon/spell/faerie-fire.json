@@ -1,0 +1,94 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "area": [
+  10
+ ],
+ "area_markdown": "10-foot burst",
+ "area_raw": "10-foot burst",
+ "area_type": [
+  "burst"
+ ],
+ "bloodline_markdown": "",
+ "category": "spell",
+ "component": [
+  "somatic",
+  "verbal"
+ ],
+ "domain_markdown": "",
+ "duration": 300,
+ "duration_raw": "5 minutes",
+ "element": [
+  "Universal"
+ ],
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "2nd rank"
+ ],
+ "heighten_level": [
+  2
+ ],
+ "id": "spell-107",
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\n[Faerie Fire](/Spells.aspx?ID=107)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n**Area** 10-foot burst\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 5 minutes\n</row>\n\n</column>\n\n---\n\nAll creatures in the area when you cast the spell are limned in colorful, heatless fire of a color of your choice for the duration. Visible creatures can't be concealed while affected by _faerie fire_. If the creatures are invisible, they are concealed while affected by _faerie fire_, rather than being undetected.",
+ "name": "Faerie Fire",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 337",
+ "primary_source_category": "Rulebooks",
+ "range": 120,
+ "range_raw": "120 feet",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "spell-1653"
+ ],
+ "remaster_name": [
+  "Revealing Light"
+ ],
+ "resistance": {},
+ "school": "evocation",
+ "search_markdown": "<traits>\n<trait label=\"Evocation\" url=\"/Traits.aspx?ID=65\" />\n<trait label=\"Light\" url=\"/Traits.aspx?ID=100\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 337\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Spell Lists**\n[Elemental](/SpellLists.aspx?Tradition=5)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** 120 feet\n\n**Area** 10-foot burst\n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 5 minutes\n</row>\n</additional-info>\n\n---\n\n<summary>\nColorful light prevents creatures from being concealed or invisible.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 337"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 337",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Colorful light prevents creatures from being concealed or invisible.",
+ "summary_markdown": "Colorful light prevents creatures from being concealed or invisible.",
+ "text": "Spell 2 Faerie Fire Two Actions Evocation Light Source Core Rulebook pg. 337 Traditions Divine, Occult, Primal Spell Lists Elemental Cast somatic, verbal Range 120 feet Area 10-foot burst Duration 5 minutes All creatures in the area when you cast the spell are limned in colorful, heatless fire of a color of your choice for the duration. Visible creatures can't be concealed while affected by faerie fire . If the creatures are invisible, they are concealed while affected by faerie fire , rather than being undetected.",
+ "tradition": [
+  "Divine",
+  "Occult",
+  "Primal",
+  "Elemental"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3), [Primal](/SpellLists.aspx?Tradition=4), [Elemental](/SpellLists.aspx?Tradition=5)",
+ "trait": [
+  "Evocation",
+  "Light"
+ ],
+ "trait_group": [
+  "School",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Evocation](/Traits.aspx?ID=65), [Light](/Traits.aspx?ID=100)",
+ "trait_raw": [
+  "Evocation",
+  "Light"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=107",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:03-08:00"
+}

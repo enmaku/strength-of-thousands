@@ -1,0 +1,73 @@
+{
+ "actions": "10 minutes",
+ "actions_number": 600,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "component": [
+  "10 minutes"
+ ],
+ "domain_markdown": "",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "2nd rank"
+ ],
+ "heighten_level": [
+  2
+ ],
+ "id": "spell-1445",
+ "legacy_id": [
+  "spell-15"
+ ],
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Spell 2\" pfs=\"Standard\">\n[Augury](/Spells.aspx?ID=1445)\n<actions string=\"\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 316\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n**Cast** 10 minutes\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYou gain a vague glimpse of the future. During the casting of this spell, ask about the results of a particular course of action. The spell can predict results up to 30 minutes into the future and reveal the GM's best guess among the following outcomes: good, bad, mixed (the results will be a mix of good and bad), and nothing (there won't be particularly good or bad results).\n\n The GM rolls a [secret](/Traits.aspx?ID=142) DC 6 flat check. On a failure, the result is always \u201cnothing.\u201d This makes it impossible to tell whether a \u201cnothing\u201d result is accurate. If anyone asks about the same topic as the first casting of augury during an additional casting, the GM uses the secret roll result from the first casting. If circumstances change, though, it's possible to get a different result.",
+ "name": "Augury",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 316",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n<trait label=\"Prediction\" url=\"/Traits.aspx?ID=132\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 316\n\n**Traditions**\n[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)\n\n<row gap=\"medium\">\n\n**Cast** 10 minutes\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nPredict whether a course of action brings good fortune.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 316"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 316",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Predict whether a course of action brings good fortune.",
+ "summary_markdown": "Predict whether a course of action brings good fortune.",
+ "text": "Spell 2 Augury Concentrate Manipulate Prediction Source Player Core pg. 316 Traditions Divine, Occult Cast 10 minutes You gain a vague glimpse of the future. During the casting of this spell, ask about the results of a particular course of action. The spell can predict results up to 30 minutes into the future and reveal the GM's best guess among the following outcomes: good, bad, mixed (the results will be a mix of good and bad), and nothing (there won't be particularly good or bad results). The GM rolls a secret DC 6 flat check. On a failure, the result is always \u201cnothing.\u201d This makes it impossible to tell whether a \u201cnothing\u201d result is accurate. If anyone asks about the same topic as the first casting of augury during an additional casting, the GM uses the secret roll result from the first casting. If circumstances change, though, it's possible to get a different result.",
+ "tradition": [
+  "Divine",
+  "Occult"
+ ],
+ "tradition_markdown": "[Divine](/SpellLists.aspx?Tradition=2), [Occult](/SpellLists.aspx?Tradition=3)",
+ "trait": [
+  "Concentrate",
+  "Manipulate",
+  "Prediction"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104), [Prediction](/Traits.aspx?ID=132)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate",
+  "Prediction"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1445",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:03-08:00"
+}

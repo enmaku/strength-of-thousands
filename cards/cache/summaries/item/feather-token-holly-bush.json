@@ -1,0 +1,5 @@
+{
+ "hash": "fcc03aa25803",
+ "front": "Activate to turn the feather into a living holly bush filling 1 square. It provides standard cover and has 2d4 healing berries.",
+ "back": "One activation only.\nBush fills 1 square and provides standard cover.\nBerries (2d4): Interact to pick and eat one, regaining 1 HP. A plucked berry loses its magic within seconds, so it heals only if eaten during that Interact action.\nOn soil, the bush keeps growing (no more healing berries). Elsewhere, it withers and dies within 1d4 days."
+}

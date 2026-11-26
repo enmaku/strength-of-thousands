@@ -1,0 +1,87 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "deity": [
+  "Aroden",
+  "Baalzebul",
+  "Cayden Cailean",
+  "Chaldira",
+  "Drokalion",
+  "Guardians of the Sacred Self",
+  "Hadregash",
+  "Jezelda",
+  "Lahkgya",
+  "Rokoga Gin",
+  "The Laborer's Bastion",
+  "Uvuko",
+  "Yog-Sothoth",
+  "Yrmidar"
+ ],
+ "deity_markdown": "[Aroden](/Deities.aspx?ID=512), [Baalzebul](/Deities.aspx?ID=394), [Cayden Cailean](/Deities.aspx?ID=280), [Chaldira](/Deities.aspx?ID=336), [Drokalion](/Deities.aspx?ID=702), [Guardians of the Sacred Self](/Deities.aspx?ID=379), [Hadregash](/Deities.aspx?ID=503), [Jezelda](/Deities.aspx?ID=431), [Lahkgya](/Deities.aspx?ID=615), [Rokoga Gin](/Deities.aspx?ID=629), [The Laborer's Bastion](/Deities.aspx?ID=253), [Uvuko](/Deities.aspx?ID=682), [Yog-Sothoth](/Deities.aspx?ID=580), [Yrmidar](/Deities.aspx?ID=500)",
+ "domain_markdown": "",
+ "duration": 60,
+ "duration_raw": "1 minute",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "1st rank"
+ ],
+ "heighten_level": [
+  1
+ ],
+ "id": "spell-1531",
+ "legacy_id": [
+  "spell-122"
+ ],
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Fleet Step](/Spells.aspx?ID=1531)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 332\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\n[Aroden](/Deities.aspx?ID=512), [Baalzebul](/Deities.aspx?ID=394), [Cayden Cailean](/Deities.aspx?ID=280), [Chaldira](/Deities.aspx?ID=336), [Drokalion](/Deities.aspx?ID=702), [Guardians of the Sacred Self](/Deities.aspx?ID=379), [Hadregash](/Deities.aspx?ID=503), [Jezelda](/Deities.aspx?ID=431), [Lahkgya](/Deities.aspx?ID=615), [Rokoga Gin](/Deities.aspx?ID=629), [The Laborer's Bastion](/Deities.aspx?ID=253), [Uvuko](/Deities.aspx?ID=682), [Yog-Sothoth](/Deities.aspx?ID=580), [Yrmidar](/Deities.aspx?ID=500)\n\n<row gap=\"medium\">\n\n \n\n</row>\n\n<row gap=\"medium\">\n\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n\n</column>\n\n---\n\nYou gain a +30-foot status bonus to your Speed.",
+ "name": "Fleet Step",
+ "pfs": "Standard",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 332",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Concentrate\" url=\"/Traits.aspx?ID=32\" />\n<trait label=\"Manipulate\" url=\"/Traits.aspx?ID=104\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 332\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n**Deities**\n[Aroden](/Deities.aspx?ID=512), [Baalzebul](/Deities.aspx?ID=394), [Cayden Cailean](/Deities.aspx?ID=280), [Chaldira](/Deities.aspx?ID=336), [Drokalion](/Deities.aspx?ID=702), [Guardians of the Sacred Self](/Deities.aspx?ID=379), [Hadregash](/Deities.aspx?ID=503), [Jezelda](/Deities.aspx?ID=431), [Lahkgya](/Deities.aspx?ID=615), [Rokoga Gin](/Deities.aspx?ID=629), [The Laborer's Bastion](/Deities.aspx?ID=253), [Uvuko](/Deities.aspx?ID=682), [Yog-Sothoth](/Deities.aspx?ID=580), [Yrmidar](/Deities.aspx?ID=500)\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 minute\n</row>\n</additional-info>\n\n---\n\n<summary>\nMake your Speed much faster.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 332"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 332",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Make your Speed much faster.",
+ "summary_markdown": "Make your Speed much faster.",
+ "text": "Spell 1 Fleet Step Two Actions Concentrate Manipulate Source Player Core pg. 332 Traditions Arcane, Primal Deities Aroden, Baalzebul, Cayden Cailean, Chaldira, Drokalion, Guardians of the Sacred Self, Hadregash, Jezelda, Lahkgya, Rokoga Gin, The Laborer's Bastion, Uvuko, Yog-Sothoth, Yrmidar Duration 1 minute You gain a +30-foot status bonus to your Speed.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "trait_group": [
+  "Mechanics"
+ ],
+ "trait_markdown": "[Concentrate](/Traits.aspx?ID=32), [Manipulate](/Traits.aspx?ID=104)",
+ "trait_raw": [
+  "Concentrate",
+  "Manipulate"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=1531",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:03-08:00"
+}

@@ -1,0 +1,78 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0,
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-443",
+ "item_category": "Worn Items",
+ "item_child_id": [
+  "equipment-443-540",
+  "equipment-443-541"
+ ],
+ "item_subcategory": "Other Worn Items",
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3+\"\n    pfs=\"Standard\"\n>\n[Hat of the Magi](/Equipment.aspx?ID=443)\n</title>\n\n<traits>\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 611\n\n<row gap=\"medium\">\n\n**Usage** worn headwear\n\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to Arcana checks and allows you to cast the [_prestidigitation_](/Spells.aspx?ID=229) cantrip as an arcane innate spell. \n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nHat of the Magi\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 611\n\n**Price** 50 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 9\"\npfs=\"Standard\"\n>\nHat of the Magi (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 611\n\n**Price** 650 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nThis larger, fancier hat grants a +2 bonus and can be activated.\n\n**Activate** <actions string=\"Three Actions\" /> Cast a Spell;  **Frequency** once per day;   **Effect** You cast a 4th-level arcane [_summon elemental_](/Spells.aspx?ID=320) spell.",
+ "name": "Hat of the Magi",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 611",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "remaster_id": [
+  "equipment-3094"
+ ],
+ "remaster_name": [
+  "Mage's Hat"
+ ],
+ "resistance": {},
+ "school": "conjuration",
+ "search_markdown": "<traits>\n<trait label=\"Arcane\" url=\"/Traits.aspx?ID=11\" />\n<trait label=\"Conjuration\" url=\"/Traits.aspx?ID=33\" />\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=98\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 611\n\n \n\n<row gap=\"medium\">\n \n\n**Usage** worn headwear\n\n \n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to \u2026\n</summary>",
+ "skill": [
+  "Arcana",
+  "Arcana"
+ ],
+ "skill_markdown": "[Arcana](/Skills.aspx?ID=2), [Arcana](/Skills.aspx?ID=2)",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 611"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 611",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to \u2026",
+ "summary_markdown": "This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to \u2026",
+ "text": "Item 3+ Hat of the Magi Arcane Conjuration Invested Source Core Rulebook pg. 611 Usage worn headwear This hat comes in many forms, such as a colorful turban or a pointy hat with a brim, and can bear symbols or runes. It grants you a +1 item bonus to Arcana checks and allows you to cast the prestidigitation cantrip as an arcane innate spell. Item 3 Hat of the Magi Source Core Rulebook pg. 611 Price 50 gp Item 9 Hat of the Magi (Greater) Source Core Rulebook pg. 611 Price 650 gp This larger, fancier hat grants a +2 bonus and can be activated. Activate Three Actions Cast a Spell; Frequency once per day; Effect You cast a 4th-level arcane summon elemental spell.",
+ "trait": [
+  "Arcane",
+  "Conjuration",
+  "Invested"
+ ],
+ "trait_group": [
+  "Tradition",
+  "Monster",
+  "School",
+  "Equipment"
+ ],
+ "trait_markdown": "[Arcane](/Traits.aspx?ID=11), [Conjuration](/Traits.aspx?ID=33), [Invested](/Traits.aspx?ID=98)",
+ "trait_raw": [
+  "Arcane",
+  "Conjuration",
+  "Invested"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=443",
+ "usage": "worn headwear",
+ "usage_markdown": "worn headwear",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:02:47-08:00"
+}

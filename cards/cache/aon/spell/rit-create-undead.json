@@ -1,0 +1,73 @@
+{
+ "actions": "1 day",
+ "actions_number": 86400,
+ "category": "ritual",
+ "cost": "black onyx, see Creature Creation Rituals",
+ "cost_markdown": "black onyx, see Creature Creation Rituals",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten_group": [
+  "2nd rank"
+ ],
+ "heighten_level": [
+  2
+ ],
+ "id": "ritual-117",
+ "legacy_id": [
+  "ritual-10"
+ ],
+ "level": 2,
+ "markdown": "<title level=\"1\" right=\"Ritual 2\" pfs=\"Standard\">[Create Undead](/Rituals.aspx?ID=117)</title>\n\n<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 393\n\n<row gap=\"medium\">\n**Cast** 1 day\n\n**Cost** black onyx, see Creature Creation Rituals\n\n**Secondary Casters** 1\n</row>\n\n<row gap=\"medium\">\n**Primary Check** [Arcana](/Skills.aspx?ID=2) (expert), [Occultism](/Skills.aspx?ID=11) (expert), or [Religion](/Skills.aspx?ID=13) (expert)\n\n**Secondary Checks** Religion\n</row>\n\n<row gap=\"medium\">\n\n**Range** 10 feet\n\n**Target(s)** 1 dead creature\n</row>\n\n</column>\n\n---\n\nYou transform the target into an [undead](/Traits.aspx?ID=160) creature with a level up to that allowed in the Creature Creation Rituals table. There are many versions of this ritual, each specific to a particular type of undead (one ritual for all [zombies](/MonsterFamilies.aspx?ID=103), one for [skeletons](/MonsterFamilies.aspx?ID=92), one for [ghouls](/MonsterFamilies.aspx?ID=52), and so on), and the rituals that create [rare](/Traits.aspx?ID=137) undead are also rare. Some forms of undead, such as [liches](/Monsters.aspx?ID=282), form using their own unique methods and can't be created with a version of _create undead_.\n\n## Creature Creation Rituals\n\n<row gap=\"tiny\">\n\n<table> <tr><td>**Creature Level**</td><td>**Ritual Rank**</td><td>**Required Cost**</td></tr> <tr><td>\u20131 or 0</td><td>2</td><td>15 gp</td></tr> <tr><td>1</td><td>2</td><td>60 gp</td></tr> <tr><td>2</td><td>3</td><td>105 gp</td></tr> <tr><td>3</td><td>3</td><td>180 gp</td></tr> <tr><td>4</td><td>4</td><td>300 gp</td></tr> <tr><td>5</td><td>4</td><td>480 gp</td></tr> <tr><td>6</td><td>5</td><td>750 gp</td></tr> <tr><td>7</td><td>5</td><td>1,080 gp</td></tr> <tr><td>8</td><td>6</td><td>1,500 gp</td></tr> <tr><td>9</td><td>6</td><td>2,100 gp</td></tr> <tr><td>10</td><td>7</td><td>3,000 gp</td></tr> <tr><td>11</td><td>7</td><td>4,200 gp</td></tr> <tr><td>12</td><td>8</td><td>6,000 gp</td></tr> <tr><td>13</td><td>8</td><td>9,000 gp</td></tr> <tr><td>14</td><td>9</td><td>13,500 gp</td></tr> <tr><td>15</td><td>9</td><td>19,500 gp</td></tr> <tr><td>16</td><td>10</td><td>30,000 gp</td></tr> <tr><td>17</td><td>10</td><td>45,000 gp</td></tr> </table>\n</row>\n\n**Critical Success** The target becomes an undead creature of the appropriate type. If it's at least 4 levels lower than you, you can make it a minion. This gives it the [minion](/Traits.aspx?ID=109) trait, meaning it can use 2 actions when you command it, and commanding it is a single action that has the [auditory](/Traits.aspx?ID=16) and [concentrate](/Actions.aspx?ID=683) traits. You can have a maximum of four minions under your control. If it's intelligent and doesn't become a minion, the undead is [helpful](/Conditions.aspx?ID=21) to you for awakening it, though it's still a horrid and evil creature. If it's unintelligent and doesn't become a minion, you can give it one simple command. It pursues that goal single-mindedly, ignoring any of your subsequent commands.<br />\n**Success** As critical success, except an intelligent undead that doesn't become your minion is only [friendly](/Conditions.aspx?ID=18) to you, and an unintelligent undead that doesn't become your minion leaves you alone unless you attack it. It marauds the local area rather than following your command.<br />\n**Failure** You fail to create the undead.<br />\n**Critical Failure** You create the undead, but its soul, tortured by your foul necromancy, is full of nothing but hatred for you. It attempts to destroy you.",
+ "name": "Create Undead",
+ "pfs": "Standard",
+ "primary_check": "Arcana (expert), Occultism (expert), or Religion (expert)",
+ "primary_check_markdown": "[Arcana](/Skills.aspx?ID=2) (expert), [Occultism](/Skills.aspx?ID=11) (expert), or [Religion](/Skills.aspx?ID=13) (expert)",
+ "primary_source": "Player Core",
+ "primary_source_raw": "Player Core pg. 393",
+ "primary_source_category": "Rulebooks",
+ "range": 10,
+ "range_raw": "10 feet",
+ "rarity": "uncommon",
+ "rarity_id": 2,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Uncommon\" url=\"/Traits.aspx?ID=721\" />\n<trait label=\"Unholy\" url=\"/Traits.aspx?ID=521\" />\n</traits>\n\n<additional-info>\n**Source** [Player Core](/Sources.aspx?ID=216) pg. 393\n\n<row gap=\"medium\">\n**Cast** 1 day\n\n**Cost**\nblack onyx, see Creature Creation Rituals\n\n**Secondary Casters**\n1\n</row>\n\n<row gap=\"medium\">\n**Primary Check**\n[Arcana](/Skills.aspx?ID=2) (expert), [Occultism](/Skills.aspx?ID=11) (expert), or [Religion](/Skills.aspx?ID=13) (expert)\n\n**Secondary Checks**\nReligion\n</row>\n\n<row gap=\"medium\">\n\n**Range**\n10 feet\n\n**Target**\n1 dead creature\n</row>\n\n</additional-info>\n\n---\n\n<summary>\nYou transform the target into an undead creature with a level up to that allowed in the Creature Creation Rituals table.\n</summary>",
+ "secondary_casters": 1,
+ "secondary_casters_raw": "1",
+ "secondary_check": "Religion",
+ "secondary_check_markdown": "Religion",
+ "skill_mod": {},
+ "source": [
+  "Player Core"
+ ],
+ "source_raw": [
+  "Player Core pg. 393"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Player Core](/Sources.aspx?ID=216) pg. 393",
+ "speed": {},
+ "summary": "You transform the target into an undead creature with a level up to that allowed in the Creature Creation Rituals table.",
+ "summary_markdown": "You transform the target into an undead creature with a level up to that allowed in the Creature Creation Rituals table.",
+ "target": "1 dead creature",
+ "target_markdown": "1 dead creature",
+ "text": "Ritual 2 Create Undead Uncommon Unholy Source Player Core pg. 393 Cast 1 day Cost black onyx, see Creature Creation Rituals Secondary Casters 1 Primary Check Arcana (expert), Occultism (expert), or Religion (expert) Secondary Checks Religion Range 10 feet Target(s) 1 dead creature You transform the target into an undead creature with a level up to that allowed in the Creature Creation Rituals table. There are many versions of this ritual, each specific to a particular type of undead (one ritual for all zombies, one for skeletons, one for ghouls, and so on), and the rituals that create rare undead are also rare. Some forms of undead, such as liches, form using their own unique methods and can't be created with a version of create undead . ## Creature Creation Rituals Creature Level Ritual Rank Required Cost \u20131 or 0 2 15 gp 1 2 60 gp 2 3 105 gp 3 3 180 gp 4 4 300 gp 5 4 480 gp 6 5 750 gp 7 5 1,080 gp 8 6 1,500 gp 9 6 2,100 gp 10 7 3,000 gp 11 7 4,200 gp 12 8 6,000 gp 13 8 9,000 gp 14 9 13,500 gp 15 9 19,500 gp 16 10 30,000 gp 17 10 45,000 gp Critical Success The target becomes an undead creature of the appropriate type. If it's at least 4 levels lower than you, you can make it a minion. This gives it the minion trait, meaning it can use 2 actions when you command it, and commanding it is a single action that has the auditory and concentrate traits. You can have a maximum of four minions under your control. If it's intelligent and doesn't become a minion, the undead is helpful to you for awakening it, though it's still a horrid and evil creature. If it's unintelligent and doesn't become a minion, you can give it one simple command. It pursues that goal single-mindedly, ignoring any of your subsequent commands. Success As critical success, except an intelligent undead that doesn't become your minion is only friendly to you, and an unintelligent undead that doesn't become your minion leaves you alone unless you attack it. It marauds the local area rather than following your command. Failure You fail to create the undead. Critical Failure You create the undead, but its soul, tortured by your foul necromancy, is full of nothing but hatred for you. It attempts to destroy you.",
+ "trait": [
+  "Uncommon",
+  "Unholy"
+ ],
+ "trait_group": [
+  "Rarity",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Uncommon](/Traits.aspx?ID=721), [Unholy](/Traits.aspx?ID=521)",
+ "trait_raw": [
+  "Uncommon",
+  "Unholy"
+ ],
+ "type": "Ritual",
+ "url": "/Rituals.aspx?ID=117",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:04-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "906c73189aae",
+ "front": "The target loses its odor: creatures can't passively notice it by smell alone, even with precise or imprecise scent.",
+ "back": "Prevents passive detection by smell alone, even by precise or imprecise scent. A creature using Perception to Seek with scent and other senses might notice the lack of natural scent.\nAbilities of the target that result from its smell, such as an overpowering scent, are also negated.\nHeightened (5th): range 30 feet; up to 10 creatures."
+}

@@ -1,0 +1,79 @@
+{
+ "actions": "Two Actions",
+ "actions_number": 4,
+ "bloodline_markdown": "",
+ "category": "spell",
+ "component": [
+  "somatic",
+  "verbal"
+ ],
+ "domain_markdown": "",
+ "duration": 3600,
+ "duration_raw": "1 hour",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "heighten": [
+  "5th"
+ ],
+ "heighten_group": [
+  "1st rank",
+  "Heightened 5th rank"
+ ],
+ "heighten_level": [
+  1,
+  5
+ ],
+ "id": "spell-206",
+ "level": 1,
+ "markdown": "<title level=\"1\" right=\"Spell 1\" pfs=\"Standard\">\n[Negate Aroma](/Spells.aspx?ID=206)\n<actions string=\"Two Actions\" />\n</title>\n\n<traits>\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n**Target** 1 willing creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n\n</column>\n\n---\n\nThe target loses its odor, preventing creatures from passively noticing its presence via smell alone, even if the creatures have precise or imprecise scent. A creature attempting a Perception check to Seek with scent and other senses might notice the lack of natural scent. If the target has any abilities that result from its smell, such as an overpowering scent, those abilities are also negated.\n\n---\n**Heightened (5th)** The range increases to 30 feet, and you can target up to 10 creatures.",
+ "name": "Negate Aroma",
+ "pfs": "Standard",
+ "primary_source": "Core Rulebook",
+ "primary_source_raw": "Core Rulebook pg. 354",
+ "primary_source_category": "Rulebooks",
+ "range": 0,
+ "range_raw": "touch",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2019-08-01",
+ "resistance": {},
+ "school": "abjuration",
+ "search_markdown": "<traits>\n<trait label=\"Abjuration\" url=\"/Traits.aspx?ID=2\" />\n</traits>\n\n<additional-info>\n**Source** [Core Rulebook](/Sources.aspx?ID=1) pg. 354\n\n**Traditions**\n[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)\n\n<row gap=\"medium\">\n\n**Cast** [somatic](/Rules.aspx?ID=283), [verbal](/Rules.aspx?ID=284)\n\n \n\n \n\n \n</row>\n\n<row gap=\"medium\">\n**Range** touch\n\n \n\n**Target** 1 willing creature\n</row>\n\n<row gap=\"medium\">\n\n**Duration** 1 hour\n</row>\n</additional-info>\n\n---\n\n<summary>\nSuppress a creature\u2019s scent.\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "Core Rulebook"
+ ],
+ "source_raw": [
+  "Core Rulebook pg. 354"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[Core Rulebook](/Sources.aspx?ID=1) pg. 354",
+ "speed": {},
+ "spell_type": "Spell",
+ "summary": "Suppress a creature\u2019s scent.",
+ "summary_markdown": "Suppress a creature\u2019s scent.",
+ "target": "1 willing creature",
+ "target_markdown": "1 willing creature",
+ "text": "Spell 1 Negate Aroma Two Actions Abjuration Source Core Rulebook pg. 354 Traditions Arcane, Primal Cast somatic, verbal Range touch Target 1 willing creature Duration 1 hour The target loses its odor, preventing creatures from passively noticing its presence via smell alone, even if the creatures have precise or imprecise scent. A creature attempting a Perception check to Seek with scent and other senses might notice the lack of natural scent. If the target has any abilities that result from its smell, such as an overpowering scent, those abilities are also negated. Heightened (5th) The range increases to 30 feet, and you can target up to 10 creatures.",
+ "tradition": [
+  "Arcane",
+  "Primal"
+ ],
+ "tradition_markdown": "[Arcane](/SpellLists.aspx?Tradition=1), [Primal](/SpellLists.aspx?Tradition=4)",
+ "trait": [
+  "Abjuration"
+ ],
+ "trait_group": [
+  "School"
+ ],
+ "trait_markdown": "[Abjuration](/Traits.aspx?ID=2)",
+ "trait_raw": [
+  "Abjuration"
+ ],
+ "type": "Spell",
+ "url": "/Spells.aspx?ID=206",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:25:03-08:00"
+}

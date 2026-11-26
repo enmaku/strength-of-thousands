@@ -1,0 +1,5 @@
+{
+ "hash": "1883a78eb0ea",
+ "front": "A small wooden chest appears and opens; it holds up to 10 Bulk. Closing it turns it into a key that takes the contents with it. The key can bring the chest back once.",
+ "back": "1. Use the miniature: a small wooden chest appears and immediately opens. It holds up to 10 Bulk.\n2. Close it: it transforms into a key, taking all stored items with it.\n3. Interact to turn the key in an imaginary lock: it becomes a chest again with all items still inside.\nAfter becoming a chest the second time, it remains a wooden chest forever."
+}

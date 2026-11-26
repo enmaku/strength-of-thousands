@@ -1,0 +1,5 @@
+{
+ "hash": "5a134d6da65f",
+ "front": "Turn a dead creature into a zombie. This copy: level 2 or lower only.",
+ "back": "Cost by zombie level: -1 or 0: 15 gp (rank 2); 1: 60 gp (rank 2); 2: 105 gp (rank 3).\nCrit Success: Undead created. If 4+ levels below you, may be your minion (max 4; 1 action to command, auditory, concentrate; it gets 2 actions). Else if intelligent: helpful. If unintelligent: give one simple command, which it pursues, ignoring later ones.\nSuccess: As crit, but a non-minion is only friendly if intelligent; if unintelligent it marauds, leaving you alone unless attacked.\nFailure: No undead.\nCrit Failure: Undead created; it hates you and tries to destroy you."
+}

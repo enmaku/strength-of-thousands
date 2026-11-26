@@ -1,0 +1,66 @@
+{
+ "base_item_markdown": "",
+ "bulk": 0.1,
+ "bulk_raw": "L",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3061",
+ "item_category": "Worn Items",
+ "item_child_id": [
+  "equipment-3061-2989",
+  "equipment-3061-2990"
+ ],
+ "item_subcategory": "Other Worn Items",
+ "legacy_id": [
+  "equipment-417"
+ ],
+ "level": 3,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 3+\"\n    pfs=\"Standard\"\n>\n[Bracers of Missile Deflection](/Equipment.aspx?ID=3061)\n</title>\n\n<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 286\n\n<row gap=\"medium\">\n\n**Usage** worn bracers\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThese bracers are made from plates of durable dawnsilver and gleam like the summer sun. \n\n**Activate** <actions string=\"Reaction\" /> ([manipulate](/Traits.aspx?ID=104)) **Frequency** once per day; **Trigger** A ranged weapon attack hits you but doesn't critically hit; **Requirements** You are aware of the attack and not off-guard; **Effect** The bracers send the missile off-course. You gain a +2 circumstance bonus to AC against the triggering attack. If this would cause the attack to be a failure, the attack misses you.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 3\"\npfs=\"Standard\"\n>\nBracers of Missile Deflection\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 286, [Core Rulebook](/Sources.aspx?ID=1) pg. 607\n\n**Price** 52 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 9\"\npfs=\"Standard\"\n>\nBracers of Missile Deflection (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 286, [Core Rulebook](/Sources.aspx?ID=1) pg. 607\n\n**Price** 650 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\nYou can activate the bracers once every 10 minutes.",
+ "name": "Bracers of Missile Deflection",
+ "pfs": "Standard",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 286",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Invested\" url=\"/Traits.aspx?ID=637\" />\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 286\n\n \n\n<row gap=\"medium\">\n \n\n**Usage** worn bracers\n\n**Bulk** L\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThese bracers are made from plates of durable dawnsilver and gleam like the summer sun. \n</summary>",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 286"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 286",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "These bracers are made from plates of durable dawnsilver and gleam like the summer sun. ",
+ "summary_markdown": "These bracers are made from plates of durable dawnsilver and gleam like the summer sun. ",
+ "text": "Item 3+ Bracers of Missile Deflection Invested Magical Source GM Core pg. 286 Usage worn bracers Bulk L These bracers are made from plates of durable dawnsilver and gleam like the summer sun. Activate Reaction (manipulate) Frequency once per day; Trigger A ranged weapon attack hits you but doesn't critically hit; Requirements You are aware of the attack and not off-guard; Effect The bracers send the missile off-course. You gain a +2 circumstance bonus to AC against the triggering attack. If this would cause the attack to be a failure, the attack misses you. Item 3 Bracers of Missile Deflection Source GM Core pg. 286, Core Rulebook pg. 607 Price 52 gp Item 9 Bracers of Missile Deflection (Greater) Source GM Core pg. 286, Core Rulebook pg. 607 Price 650 gp You can activate the bracers once every 10 minutes.",
+ "trait": [
+  "Invested",
+  "Magical"
+ ],
+ "trait_group": [
+  "Equipment",
+  "Mechanics"
+ ],
+ "trait_markdown": "[Invested](/Traits.aspx?ID=637), [Magical](/Traits.aspx?ID=644)",
+ "trait_raw": [
+  "Invested",
+  "Magical"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3061",
+ "usage": "worn bracers",
+ "usage_markdown": "worn bracers",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:02:47-08:00"
+}

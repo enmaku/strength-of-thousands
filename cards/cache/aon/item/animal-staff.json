@@ -1,0 +1,66 @@
+{
+ "base_item_markdown": "",
+ "bulk": 1,
+ "bulk_raw": "1",
+ "category": "equipment",
+ "exclude_from_search": false,
+ "is_standard_ancestry_feat": false,
+ "id": "equipment-3035",
+ "item_category": "Staves",
+ "item_child_id": [
+  "equipment-3035-2897",
+  "equipment-3035-2898",
+  "equipment-3035-2899"
+ ],
+ "legacy_id": [
+  "equipment-349"
+ ],
+ "level": 4,
+ "markdown": "<title\n    level=\"1\"\n    right=\"Item 4+\"\n    pfs=\"Standard\"\n>\n[Animal Staff](/Equipment.aspx?ID=3035)\n</title>\n\n<traits>\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=700\" />\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 278\n\n<row gap=\"medium\">\n\n**Usage** held in 1 hand\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n\n</column>\n\n---\n\nThis staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals. \n\n**Activate** <actions string=\"\" /> Cast a Spell;     **Effect** You expend a number of charges from the staff to cast a spell from its list.\n\n**Craft Requirements** Supply one casting of all listed ranks of all listed spells.\n\n<column gap=\"tiny\">\n\n</column>\n\n<title\nlevel=\"2\"\nright=\"Item 4\"\npfs=\"Standard\"\n>\nAnimal Staff\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 278, [Core Rulebook](/Sources.aspx?ID=1) pg. 593\n\n**Price** 90 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n<ul><li>**Cantrip** [_know the way_](/Spells.aspx?ID=1582)</li> <li>**1st** [_runic body_](/Spells.aspx?ID=1657), [_summon animal_](/Spells.aspx?ID=1694)</li> </ul>\n\n<title\nlevel=\"2\"\nright=\"Item 8\"\npfs=\"Standard\"\n>\nAnimal Staff (Greater)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 278, [Core Rulebook](/Sources.aspx?ID=1) pg. 593\n\n**Price** 460 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n<ul> <li>**2nd** [_animal messenger_](/Spells.aspx?ID=1441), [_speak with animals_](/Spells.aspx?ID=1680), summon animal</li> <li>**3rd** [_animal form_](/Spells.aspx?ID=1440), summon animal</li> </ul>\n\n<title\nlevel=\"2\"\nright=\"Item 12\"\npfs=\"Standard\"\n>\nAnimal Staff (Major)\n</title>\n\n<traits>\n\n</traits>\n\n<column gap=\"tiny\">\n\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 278, [Core Rulebook](/Sources.aspx?ID=1) pg. 593\n\n**Price** 1,900 gp\n\n<row gap=\"medium\">\n\n</row>\n\n</column>\n\n---\n\n<ul> <li>**4th** summon animal</li> <li>**5th** animal form, [_moon frenzy_](/Spells.aspx?ID=1609), summon animal</li> </ul>",
+ "name": "Animal Staff",
+ "pfs": "Standard",
+ "primary_source": "GM Core",
+ "primary_source_raw": "GM Core pg. 278",
+ "primary_source_category": "Rulebooks",
+ "rarity": "common",
+ "rarity_id": 1,
+ "release_date": "2023-11-15",
+ "resistance": {},
+ "search_markdown": "<traits>\n<trait label=\"Magical\" url=\"/Traits.aspx?ID=644\" />\n<trait label=\"Staff\" url=\"/Traits.aspx?ID=700\" />\n</traits>\n\n<additional-info>\n**Source** [GM Core](/Sources.aspx?ID=218) pg. 278\n\n \n\n<row gap=\"medium\">\n \n\n**Usage** held in 1 hand\n\n**Bulk** 1\n</row>\n\n<row gap=\"medium\">\n\n \n\n \n\n \n</row>\n</additional-info>\n\n---\n\n<summary>\nThis staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify \u2026\n</summary>",
+ "skill_mod": {},
+ "source": [
+  "GM Core"
+ ],
+ "source_raw": [
+  "GM Core pg. 278"
+ ],
+ "source_category": [
+  "Rulebooks"
+ ],
+ "source_markdown": "[GM Core](/Sources.aspx?ID=218) pg. 278",
+ "speed": {},
+ "spell_markdown": "",
+ "stage_markdown": "",
+ "summary": "This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify \u2026",
+ "summary_markdown": "This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify \u2026",
+ "text": "Item 4+ Animal Staff Magical Staff Source GM Core pg. 278 Usage held in 1 hand Bulk 1 This staff is topped with carved animal and monster heads. While wielding the staff, you gain a +2 circumstance bonus to Nature checks to identify animals. Activate Cast a Spell; Effect You expend a number of charges from the staff to cast a spell from its list. Craft Requirements Supply one casting of all listed ranks of all listed spells. Item 4 Animal Staff Source GM Core pg. 278, Core Rulebook pg. 593 Price 90 gp Cantrip know the way 1st runic body , summon animal Item 8 Animal Staff (Greater) Source GM Core pg. 278, Core Rulebook pg. 593 Price 460 gp 2nd animal messenger , speak with animals , summon animal 3rd animal form , summon animal Item 12 Animal Staff (Major) Source GM Core pg. 278, Core Rulebook pg. 593 Price 1,900 gp 4th summon animal 5th animal form, moon frenzy , summon animal",
+ "trait": [
+  "Magical",
+  "Staff"
+ ],
+ "trait_group": [
+  "Mechanics",
+  "Equipment"
+ ],
+ "trait_markdown": "[Magical](/Traits.aspx?ID=644), [Staff](/Traits.aspx?ID=700)",
+ "trait_raw": [
+  "Magical",
+  "Staff"
+ ],
+ "type": "Item",
+ "url": "/Equipment.aspx?ID=3035",
+ "usage": "held in 1 hand",
+ "usage_markdown": "held in 1 hand",
+ "weakness": {},
+ "_fetched_at": "2026-11-26T11:02:47-08:00"
+}

@@ -1,0 +1,5 @@
+{
+ "hash": "0919b2b6071f",
+ "front": "Ask about the results of a course of action while casting. Predicts up to 30 minutes ahead: good, bad, mixed or nothing.",
+ "back": "The GM reveals a best guess about results up to 30 minutes ahead: good, bad, mixed (a mix of good and bad) or nothing (nothing particularly good or bad).\nThe GM rolls a secret DC 6 flat check; on a failure the result is always \"nothing\", so you can't tell whether \"nothing\" is accurate.\nAsking about the same topic with another augury uses the first casting's secret roll. If circumstances change, a different result is possible."
+}
