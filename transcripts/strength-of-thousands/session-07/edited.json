@@ -59,7 +59,7 @@
     "character": null,
     "voice": "narrator",
     "contentType": "recap",
-    "text": "She knew about the party the whole time, but put on a decent show for the kids.",
+    "text": "Most of you could tell she knew about the party the whole time, but put on a decent show for the kids.",
     "mechanics": [],
     "sourceText": "Raven posers, it's a little.",
     "sourceSpeaker": "Kiri"
@@ -169,8 +169,21 @@
     "sourceSpeaker": "Kiri"
   },
   {
-    "id": 45,
+    "id": 3543,
     "index": 13,
+    "sceneId": "recap",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "recap",
+    "text": "Which you used to launch Haibram a second time, his projectile vomit adding a little delta V...",
+    "mechanics": [],
+    "sourceText": "Which you used to launch Haibram a second time, his projectile vomit adding a little delta V...",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 45,
+    "index": 14,
     "sceneId": "recap",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -183,7 +196,7 @@
   },
   {
     "id": 50,
-    "index": 14,
+    "index": 15,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -196,7 +209,7 @@
   },
   {
     "id": 53,
-    "index": 15,
+    "index": 16,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -209,7 +222,7 @@
   },
   {
     "id": 59,
-    "index": 16,
+    "index": 17,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -222,7 +235,7 @@
   },
   {
     "id": 60,
-    "index": 17,
+    "index": 18,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -235,7 +248,7 @@
   },
   {
     "id": 67,
-    "index": 18,
+    "index": 19,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -248,7 +261,7 @@
   },
   {
     "id": 68,
-    "index": 19,
+    "index": 20,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -261,7 +274,7 @@
   },
   {
     "id": 71,
-    "index": 20,
+    "index": 21,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -274,7 +287,7 @@
   },
   {
     "id": 74,
-    "index": 21,
+    "index": 22,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -287,7 +300,7 @@
   },
   {
     "id": 76,
-    "index": 22,
+    "index": 23,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -300,7 +313,7 @@
   },
   {
     "id": 77,
-    "index": 23,
+    "index": 24,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -313,7 +326,7 @@
   },
   {
     "id": 78,
-    "index": 24,
+    "index": 25,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -326,33 +339,33 @@
   },
   {
     "id": 80,
-    "index": 25,
+    "index": 26,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
     "voice": "player",
     "contentType": "game",
-    "text": "Okay.",
+    "text": "Okay... Why was construction abandoned?",
     "mechanics": [],
     "sourceText": "I would appreciate anything else you feel would be relevant or worth salvaging.",
     "sourceSpeaker": "Dave"
   },
   {
     "id": 81,
-    "index": 26,
+    "index": 27,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "He does not know why. Do you have questions?",
+    "text": "He does not know why, it was long ago. Do you have other questions?",
     "mechanics": [],
     "sourceText": "Okay.",
     "sourceSpeaker": "Lisa"
   },
   {
     "id": 83,
-    "index": 27,
+    "index": 28,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -365,11 +378,11 @@
   },
   {
     "id": 84,
-    "index": 28,
+    "index": 29,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
-    "voice": "Takulu Ot",
+    "voice": "narrator",
     "contentType": "game",
     "text": "\"The list is: Studies on the Habits and Migration Patterns of Birds and Drakes of the Continent of Garund. An Expanded History of the Lesser-Known Peoples of the Mwangi Expanse. The Worlds Between Worlds: Exploring the Planes and Demi-Planes. A treatise on the various communicative methods of non-vocally-projecting entities. And the collected field notes of the druid Mata Digemari.\"",
     "mechanics": [],
@@ -378,7 +391,7 @@
   },
   {
     "id": 91,
-    "index": 29,
+    "index": 30,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -391,7 +404,7 @@
   },
   {
     "id": 95,
-    "index": 30,
+    "index": 31,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -404,7 +417,7 @@
   },
   {
     "id": 98,
-    "index": 31,
+    "index": 32,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -417,7 +430,7 @@
   },
   {
     "id": 99,
-    "index": 32,
+    "index": 33,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -430,7 +443,7 @@
   },
   {
     "id": 104,
-    "index": 33,
+    "index": 34,
     "sceneId": "reading-list",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -443,7 +456,7 @@
   },
   {
     "id": 106,
-    "index": 34,
+    "index": 35,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -456,7 +469,7 @@
   },
   {
     "id": 107,
-    "index": 35,
+    "index": 36,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -469,7 +482,7 @@
   },
   {
     "id": 110,
-    "index": 36,
+    "index": 37,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -482,7 +495,7 @@
   },
   {
     "id": 119,
-    "index": 37,
+    "index": 38,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -495,7 +508,7 @@
   },
   {
     "id": 120,
-    "index": 38,
+    "index": 39,
     "sceneId": "reading-list",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -508,7 +521,7 @@
   },
   {
     "id": 121,
-    "index": 39,
+    "index": 40,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -521,7 +534,7 @@
   },
   {
     "id": 122,
-    "index": 40,
+    "index": 41,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -534,7 +547,7 @@
   },
   {
     "id": 125,
-    "index": 41,
+    "index": 42,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -547,7 +560,7 @@
   },
   {
     "id": 127,
-    "index": 42,
+    "index": 43,
     "sceneId": "reading-list",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -560,7 +573,7 @@
   },
   {
     "id": 128,
-    "index": 43,
+    "index": 44,
     "sceneId": "reading-list",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -573,7 +586,7 @@
   },
   {
     "id": 131,
-    "index": 44,
+    "index": 45,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -586,7 +599,7 @@
   },
   {
     "id": 133,
-    "index": 45,
+    "index": 46,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -599,7 +612,7 @@
   },
   {
     "id": 134,
-    "index": 46,
+    "index": 47,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -612,7 +625,7 @@
   },
   {
     "id": 136,
-    "index": 47,
+    "index": 48,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -625,7 +638,7 @@
   },
   {
     "id": 138,
-    "index": 48,
+    "index": 49,
     "sceneId": "reading-list",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -638,7 +651,7 @@
   },
   {
     "id": 141,
-    "index": 49,
+    "index": 50,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -651,7 +664,7 @@
   },
   {
     "id": 147,
-    "index": 50,
+    "index": 51,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -664,7 +677,7 @@
   },
   {
     "id": 150,
-    "index": 51,
+    "index": 52,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -677,7 +690,7 @@
   },
   {
     "id": 152,
-    "index": 52,
+    "index": 53,
     "sceneId": "reading-list",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -690,7 +703,7 @@
   },
   {
     "id": 153,
-    "index": 53,
+    "index": 54,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -703,7 +716,7 @@
   },
   {
     "id": 154,
-    "index": 54,
+    "index": 55,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -716,7 +729,7 @@
   },
   {
     "id": 157,
-    "index": 55,
+    "index": 56,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -729,7 +742,7 @@
   },
   {
     "id": 159,
-    "index": 56,
+    "index": 57,
     "sceneId": "reading-list",
     "speaker": "Dave",
     "character": null,
@@ -742,7 +755,7 @@
   },
   {
     "id": 162,
-    "index": 57,
+    "index": 58,
     "sceneId": "reading-list",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -755,7 +768,7 @@
   },
   {
     "id": 168,
-    "index": 58,
+    "index": 59,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -768,7 +781,7 @@
   },
   {
     "id": 173,
-    "index": 59,
+    "index": 60,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -781,7 +794,7 @@
   },
   {
     "id": 176,
-    "index": 60,
+    "index": 61,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -794,7 +807,7 @@
   },
   {
     "id": 179,
-    "index": 61,
+    "index": 62,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -807,7 +820,7 @@
   },
   {
     "id": 182,
-    "index": 62,
+    "index": 63,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -820,7 +833,7 @@
   },
   {
     "id": 184,
-    "index": 63,
+    "index": 64,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -833,7 +846,7 @@
   },
   {
     "id": 185,
-    "index": 64,
+    "index": 65,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -843,19 +856,6 @@
     "mechanics": [],
     "sourceText": "If they're getting rid of silver bells.",
     "sourceSpeaker": "Lisa"
-  },
-  {
-    "id": 188,
-    "index": 65,
-    "sceneId": "stump-approach",
-    "speaker": "Dave",
-    "character": null,
-    "voice": "narrator",
-    "contentType": "game",
-    "text": "What's the appropriate check?",
-    "mechanics": [],
-    "sourceText": "Hold on to those for a rainy need.",
-    "sourceSpeaker": "Kiri"
   },
   {
     "id": 200,
@@ -887,8 +887,8 @@
     "id": 208,
     "index": 68,
     "sceneId": "stump-approach",
-    "speaker": "Lisa",
-    "character": "Taraan Skyseeker",
+    "speaker": "Kiri",
+    "character": "Cy'An Copperbottom",
     "voice": "player",
     "contentType": "game",
     "text": "Can I use Guidance?",
@@ -897,8 +897,21 @@
     "sourceSpeaker": "Kiri"
   },
   {
-    "id": 212,
+    "id": 211,
     "index": 69,
+    "sceneId": null,
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "not for this.",
+    "mechanics": [],
+    "sourceText": "not for this.",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 212,
+    "index": 70,
     "sceneId": "stump-approach",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -911,7 +924,7 @@
   },
   {
     "id": 214,
-    "index": 70,
+    "index": 71,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -924,7 +937,7 @@
   },
   {
     "id": 220,
-    "index": 71,
+    "index": 72,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -937,7 +950,7 @@
   },
   {
     "id": 223,
-    "index": 72,
+    "index": 73,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -950,7 +963,7 @@
   },
   {
     "id": 234,
-    "index": 73,
+    "index": 74,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -963,7 +976,7 @@
   },
   {
     "id": 236,
-    "index": 74,
+    "index": 75,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -976,7 +989,7 @@
   },
   {
     "id": 239,
-    "index": 75,
+    "index": 76,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -989,7 +1002,7 @@
   },
   {
     "id": 242,
-    "index": 76,
+    "index": 77,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1002,7 +1015,7 @@
   },
   {
     "id": 245,
-    "index": 77,
+    "index": 78,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1015,7 +1028,7 @@
   },
   {
     "id": 247,
-    "index": 78,
+    "index": 79,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1028,7 +1041,7 @@
   },
   {
     "id": 253,
-    "index": 79,
+    "index": 80,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1041,7 +1054,7 @@
   },
   {
     "id": 255,
-    "index": 80,
+    "index": 81,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1054,7 +1067,7 @@
   },
   {
     "id": 257,
-    "index": 81,
+    "index": 82,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1067,7 +1080,7 @@
   },
   {
     "id": 258,
-    "index": 82,
+    "index": 83,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1080,7 +1093,7 @@
   },
   {
     "id": 259,
-    "index": 83,
+    "index": 84,
     "sceneId": "stump-approach",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -1093,7 +1106,7 @@
   },
   {
     "id": 260,
-    "index": 84,
+    "index": 85,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1106,7 +1119,7 @@
   },
   {
     "id": 262,
-    "index": 85,
+    "index": 86,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1119,7 +1132,7 @@
   },
   {
     "id": 265,
-    "index": 86,
+    "index": 87,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1132,7 +1145,7 @@
   },
   {
     "id": 266,
-    "index": 87,
+    "index": 88,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1145,7 +1158,7 @@
   },
   {
     "id": 271,
-    "index": 88,
+    "index": 89,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1158,7 +1171,7 @@
   },
   {
     "id": 272,
-    "index": 89,
+    "index": 90,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1171,7 +1184,7 @@
   },
   {
     "id": 283,
-    "index": 90,
+    "index": 91,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1184,7 +1197,7 @@
   },
   {
     "id": 284,
-    "index": 91,
+    "index": 92,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1196,8 +1209,86 @@
     "sourceSpeaker": "Lisa"
   },
   {
+    "id": 3544,
+    "index": 93,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "This was incorrect, you should have noticed things. My bad.",
+    "mechanics": [],
+    "sourceText": "This was incorrect, you should have noticed things. My bad",
+    "sourceSpeaker": "Dave"
+  },
+  {
+    "id": 3545,
+    "index": 94,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "You did find everything anyway...",
+    "mechanics": [],
+    "sourceText": "You did find everything anyway...",
+    "sourceSpeaker": "GM Note"
+  },
+  {
+    "id": 3546,
+    "index": 95,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Of course, there's a verbal component to this spell...",
+    "mechanics": [],
+    "sourceText": "Of course, there's a verbal component to this spell...",
+    "sourceSpeaker": "GM Note"
+  },
+  {
+    "id": 3547,
+    "index": 96,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "And I think Taraan cast it as a ritual...",
+    "mechanics": [],
+    "sourceText": "And I think Taraan cast it as a ritual...",
+    "sourceSpeaker": "GM Note"
+  },
+  {
+    "id": 3548,
+    "index": 97,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "So Taraan was probably reading magic and gesticulating wildly for ten minutes in a room full of sleeping Scrits...",
+    "mechanics": [],
+    "sourceText": "So Taraan was probably reading magic and gesticulating wildly for ten minutes in a room full of sleeping Scrits...",
+    "sourceSpeaker": "GM Note"
+  },
+  {
+    "id": 3549,
+    "index": 98,
+    "sceneId": "stump-approach",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "So I'm calling it even.",
+    "mechanics": [],
+    "sourceText": "So I'm calling it even.",
+    "sourceSpeaker": "GM Note"
+  },
+  {
     "id": 285,
-    "index": 92,
+    "index": 99,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1210,20 +1301,20 @@
   },
   {
     "id": 287,
-    "index": 93,
+    "index": 100,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "No. They don't usually attack things unless they're cornered, feel threatened, or are ordered to by the creepy talking stone thing.",
+    "text": "No. They don't usually attack things unless they're cornered, feel threatened, or are ordered to by the creepy talking stone thing. Some might be territorial, but so far none of the little pest gremlins have done anything more than throw some jars at you.",
     "mechanics": [],
     "sourceText": "No,",
     "sourceSpeaker": "Xander"
   },
   {
     "id": 288,
-    "index": 94,
+    "index": 101,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1236,7 +1327,7 @@
   },
   {
     "id": 290,
-    "index": 95,
+    "index": 102,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1249,7 +1340,7 @@
   },
   {
     "id": 295,
-    "index": 96,
+    "index": 103,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1262,7 +1353,7 @@
   },
   {
     "id": 298,
-    "index": 97,
+    "index": 104,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1275,7 +1366,7 @@
   },
   {
     "id": 299,
-    "index": 98,
+    "index": 105,
     "sceneId": "stump-approach",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -1288,7 +1379,7 @@
   },
   {
     "id": 300,
-    "index": 99,
+    "index": 106,
     "sceneId": "stump-approach",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1301,7 +1392,7 @@
   },
   {
     "id": 301,
-    "index": 100,
+    "index": 107,
     "sceneId": "stump-approach",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1314,7 +1405,7 @@
   },
   {
     "id": 302,
-    "index": 101,
+    "index": 108,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1326,8 +1417,21 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 304,
+    "index": 109,
+    "sceneId": null,
+    "speaker": "Matt",
+    "character": "Yggostrus",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Yep.",
+    "mechanics": [],
+    "sourceText": "Yep.",
+    "sourceSpeaker": "Matt"
+  },
+  {
     "id": 305,
-    "index": 102,
+    "index": 110,
     "sceneId": "stump-approach",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1340,7 +1444,7 @@
   },
   {
     "id": 308,
-    "index": 103,
+    "index": 111,
     "sceneId": "stump-approach",
     "speaker": "Dave",
     "character": null,
@@ -1352,21 +1456,8 @@
     "sourceSpeaker": "Lisa"
   },
   {
-    "id": 309,
-    "index": 104,
-    "sceneId": "stump-approach",
-    "speaker": "Xander",
-    "character": "Lithrei Woeborn",
-    "voice": "player",
-    "contentType": "game",
-    "text": "I think Figment would have been very useful.",
-    "mechanics": [],
-    "sourceText": "You'd have to open the door to find out.",
-    "sourceSpeaker": "Dave"
-  },
-  {
     "id": 310,
-    "index": 105,
+    "index": 112,
     "sceneId": "stump-approach",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -1379,7 +1470,7 @@
   },
   {
     "id": 312,
-    "index": 106,
+    "index": 113,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1392,33 +1483,33 @@
   },
   {
     "id": 337,
-    "index": 107,
+    "index": 114,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "In the center you see a whole bunch of desks — that's what those little grids are.",
+    "text": "In the center you see a whole bunch of desks.",
     "mechanics": [],
     "sourceText": "Okay.",
     "sourceSpeaker": "Dave"
   },
   {
     "id": 339,
-    "index": 108,
+    "index": 115,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "One is the entrance. Where do you want to be?",
+    "text": "Where do you want to be as you open the door?",
     "mechanics": [],
     "sourceText": "That's what those little grids are.",
     "sourceSpeaker": "Dave"
   },
   {
     "id": 343,
-    "index": 109,
+    "index": 116,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1431,7 +1522,7 @@
   },
   {
     "id": 344,
-    "index": 110,
+    "index": 117,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1444,20 +1535,20 @@
   },
   {
     "id": 346,
-    "index": 111,
+    "index": 118,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
     "voice": "Cy'An Copperbottom",
     "contentType": "game",
-    "text": "You're next to a bookshelf.",
+    "text": "You already are next to a bookshelf.",
     "mechanics": [],
     "sourceText": "I'm like next to the bookshelf.",
     "sourceSpeaker": "Xander"
   },
   {
     "id": 348,
-    "index": 112,
+    "index": 119,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -1470,11 +1561,11 @@
   },
   {
     "id": 352,
-    "index": 113,
+    "index": 120,
     "sceneId": "stump-foyer",
-    "speaker": "Kiri",
-    "character": "Cy'An Copperbottom",
-    "voice": "Cy'An Copperbottom",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
     "contentType": "game",
     "text": "You want your eidolon ahead of you?",
     "mechanics": [],
@@ -1483,7 +1574,7 @@
   },
   {
     "id": 353,
-    "index": 114,
+    "index": 121,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -1496,7 +1587,7 @@
   },
   {
     "id": 354,
-    "index": 115,
+    "index": 122,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1509,7 +1600,7 @@
   },
   {
     "id": 360,
-    "index": 116,
+    "index": 123,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1522,7 +1613,7 @@
   },
   {
     "id": 363,
-    "index": 117,
+    "index": 124,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1535,7 +1626,7 @@
   },
   {
     "id": 368,
-    "index": 118,
+    "index": 125,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1548,7 +1639,7 @@
   },
   {
     "id": 385,
-    "index": 119,
+    "index": 126,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1561,7 +1652,7 @@
   },
   {
     "id": 391,
-    "index": 120,
+    "index": 127,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1574,7 +1665,7 @@
   },
   {
     "id": 393,
-    "index": 121,
+    "index": 128,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -1587,7 +1678,7 @@
   },
   {
     "id": 396,
-    "index": 122,
+    "index": 129,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1600,7 +1691,7 @@
   },
   {
     "id": 407,
-    "index": 123,
+    "index": 130,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1613,7 +1704,7 @@
   },
   {
     "id": 409,
-    "index": 124,
+    "index": 131,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1626,7 +1717,7 @@
   },
   {
     "id": 410,
-    "index": 125,
+    "index": 132,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1639,7 +1730,7 @@
   },
   {
     "id": 412,
-    "index": 126,
+    "index": 133,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1652,7 +1743,7 @@
   },
   {
     "id": 413,
-    "index": 127,
+    "index": 134,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1665,7 +1756,7 @@
   },
   {
     "id": 417,
-    "index": 128,
+    "index": 135,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1678,7 +1769,7 @@
   },
   {
     "id": 423,
-    "index": 129,
+    "index": 136,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1691,7 +1782,7 @@
   },
   {
     "id": 424,
-    "index": 130,
+    "index": 137,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1704,7 +1795,7 @@
   },
   {
     "id": 427,
-    "index": 131,
+    "index": 138,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1717,7 +1808,7 @@
   },
   {
     "id": 431,
-    "index": 132,
+    "index": 139,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1730,7 +1821,7 @@
   },
   {
     "id": 433,
-    "index": 133,
+    "index": 140,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1743,7 +1834,7 @@
   },
   {
     "id": 434,
-    "index": 134,
+    "index": 141,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1756,20 +1847,20 @@
   },
   {
     "id": 439,
-    "index": 135,
+    "index": 142,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
     "voice": "Lithrei Woeborn",
     "contentType": "game",
-    "text": "It did say ink on the way in.",
+    "text": "We did see ink on the way in.",
     "mechanics": [],
     "sourceText": "so maybe one of them wants to educate themselves.",
     "sourceSpeaker": "Kiri"
   },
   {
     "id": 443,
-    "index": 136,
+    "index": 143,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -1782,7 +1873,7 @@
   },
   {
     "id": 446,
-    "index": 137,
+    "index": 144,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1795,7 +1886,7 @@
   },
   {
     "id": 450,
-    "index": 138,
+    "index": 145,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -1808,7 +1899,7 @@
   },
   {
     "id": 452,
-    "index": 139,
+    "index": 146,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1821,7 +1912,7 @@
   },
   {
     "id": 467,
-    "index": 140,
+    "index": 147,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1834,7 +1925,7 @@
   },
   {
     "id": 468,
-    "index": 141,
+    "index": 148,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1847,7 +1938,7 @@
   },
   {
     "id": 469,
-    "index": 142,
+    "index": 149,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1860,7 +1951,7 @@
   },
   {
     "id": 474,
-    "index": 143,
+    "index": 150,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1873,7 +1964,7 @@
   },
   {
     "id": 486,
-    "index": 144,
+    "index": 151,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1886,20 +1977,20 @@
   },
   {
     "id": 487,
-    "index": 145,
+    "index": 152,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
     "voice": "player",
     "contentType": "game",
-    "text": "The worm that eats the book, not the worm that eats books.",
+    "text": "The worm that eats books.",
     "mechanics": [],
     "sourceText": "They're kind of the bookworms in the negative sense, not the...",
     "sourceSpeaker": "Dave"
   },
   {
     "id": 490,
-    "index": 146,
+    "index": 153,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1912,7 +2003,7 @@
   },
   {
     "id": 492,
-    "index": 147,
+    "index": 154,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -1925,7 +2016,7 @@
   },
   {
     "id": 493,
-    "index": 148,
+    "index": 155,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -1938,7 +2029,7 @@
   },
   {
     "id": 501,
-    "index": 149,
+    "index": 156,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -1951,7 +2042,7 @@
   },
   {
     "id": 502,
-    "index": 150,
+    "index": 157,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1964,7 +2055,7 @@
   },
   {
     "id": 508,
-    "index": 151,
+    "index": 158,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -1977,7 +2068,7 @@
   },
   {
     "id": 509,
-    "index": 152,
+    "index": 159,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -1990,7 +2081,7 @@
   },
   {
     "id": 516,
-    "index": 153,
+    "index": 160,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2003,7 +2094,7 @@
   },
   {
     "id": 519,
-    "index": 154,
+    "index": 161,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2016,7 +2107,7 @@
   },
   {
     "id": 520,
-    "index": 155,
+    "index": 162,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2029,7 +2120,7 @@
   },
   {
     "id": 530,
-    "index": 156,
+    "index": 163,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2042,7 +2133,7 @@
   },
   {
     "id": 531,
-    "index": 157,
+    "index": 164,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2054,8 +2145,21 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 534,
+    "index": 165,
+    "sceneId": null,
+    "speaker": "Matt",
+    "character": "Yggostrus",
+    "voice": "player",
+    "contentType": "game",
+    "text": "fucking nat 20",
+    "mechanics": [],
+    "sourceText": "fucking lino",
+    "sourceSpeaker": "Matt"
+  },
+  {
     "id": 537,
-    "index": 158,
+    "index": 166,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2068,7 +2172,7 @@
   },
   {
     "id": 550,
-    "index": 159,
+    "index": 167,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2081,7 +2185,7 @@
   },
   {
     "id": 552,
-    "index": 160,
+    "index": 168,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2094,7 +2198,7 @@
   },
   {
     "id": 555,
-    "index": 161,
+    "index": 169,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2107,7 +2211,7 @@
   },
   {
     "id": 558,
-    "index": 162,
+    "index": 170,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2120,7 +2224,7 @@
   },
   {
     "id": 564,
-    "index": 163,
+    "index": 171,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2133,7 +2237,7 @@
   },
   {
     "id": 565,
-    "index": 164,
+    "index": 172,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2146,7 +2250,7 @@
   },
   {
     "id": 567,
-    "index": 165,
+    "index": 173,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2159,7 +2263,7 @@
   },
   {
     "id": 569,
-    "index": 166,
+    "index": 174,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2172,7 +2276,7 @@
   },
   {
     "id": 571,
-    "index": 167,
+    "index": 175,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2185,7 +2289,7 @@
   },
   {
     "id": 572,
-    "index": 168,
+    "index": 176,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2198,7 +2302,7 @@
   },
   {
     "id": 573,
-    "index": 169,
+    "index": 177,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2211,7 +2315,7 @@
   },
   {
     "id": 576,
-    "index": 170,
+    "index": 178,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2224,7 +2328,7 @@
   },
   {
     "id": 578,
-    "index": 171,
+    "index": 179,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2237,7 +2341,7 @@
   },
   {
     "id": 591,
-    "index": 172,
+    "index": 180,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2250,7 +2354,7 @@
   },
   {
     "id": 596,
-    "index": 173,
+    "index": 181,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2263,7 +2367,7 @@
   },
   {
     "id": 599,
-    "index": 174,
+    "index": 182,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2276,7 +2380,7 @@
   },
   {
     "id": 605,
-    "index": 175,
+    "index": 183,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2289,7 +2393,7 @@
   },
   {
     "id": 607,
-    "index": 176,
+    "index": 184,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2302,7 +2406,7 @@
   },
   {
     "id": 616,
-    "index": 177,
+    "index": 185,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2315,7 +2419,7 @@
   },
   {
     "id": 619,
-    "index": 178,
+    "index": 186,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2328,7 +2432,7 @@
   },
   {
     "id": 620,
-    "index": 179,
+    "index": 187,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2341,7 +2445,7 @@
   },
   {
     "id": 621,
-    "index": 180,
+    "index": 188,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2354,7 +2458,7 @@
   },
   {
     "id": 622,
-    "index": 181,
+    "index": 189,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2367,7 +2471,7 @@
   },
   {
     "id": 624,
-    "index": 182,
+    "index": 190,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2380,7 +2484,7 @@
   },
   {
     "id": 626,
-    "index": 183,
+    "index": 191,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2393,7 +2497,7 @@
   },
   {
     "id": 628,
-    "index": 184,
+    "index": 192,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2406,7 +2510,7 @@
   },
   {
     "id": 630,
-    "index": 185,
+    "index": 193,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2419,7 +2523,7 @@
   },
   {
     "id": 631,
-    "index": 186,
+    "index": 194,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2432,7 +2536,7 @@
   },
   {
     "id": 636,
-    "index": 187,
+    "index": 195,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2444,8 +2548,21 @@
     "sourceSpeaker": "Drew"
   },
   {
+    "id": 3550,
+    "index": 196,
+    "sceneId": "stump-foyer",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "I love a party that knows when planning time should have ended a while ago.",
+    "mechanics": [],
+    "sourceText": "I love a party that knows when planning time should have ended a while ago.",
+    "sourceSpeaker": "Kiri"
+  },
+  {
     "id": 637,
-    "index": 188,
+    "index": 197,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2458,7 +2575,7 @@
   },
   {
     "id": 640,
-    "index": 189,
+    "index": 198,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2471,7 +2588,7 @@
   },
   {
     "id": 642,
-    "index": 190,
+    "index": 199,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2484,20 +2601,20 @@
   },
   {
     "id": 643,
-    "index": 191,
+    "index": 200,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
     "voice": "Taraan Skyseeker",
     "contentType": "game",
-    "text": "We need to get to the books that they're under.",
+    "text": "We need to get to the bookshelves they're on top of. Which shelves have scrits?",
     "mechanics": [],
     "sourceText": "To what?",
     "sourceSpeaker": "Kiri"
   },
   {
     "id": 647,
-    "index": 192,
+    "index": 201,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2510,7 +2627,7 @@
   },
   {
     "id": 654,
-    "index": 193,
+    "index": 202,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2523,7 +2640,7 @@
   },
   {
     "id": 657,
-    "index": 194,
+    "index": 203,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2536,7 +2653,7 @@
   },
   {
     "id": 661,
-    "index": 195,
+    "index": 204,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2549,7 +2666,7 @@
   },
   {
     "id": 667,
-    "index": 196,
+    "index": 205,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2562,7 +2679,7 @@
   },
   {
     "id": 677,
-    "index": 197,
+    "index": 206,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2575,7 +2692,7 @@
   },
   {
     "id": 691,
-    "index": 198,
+    "index": 207,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2588,7 +2705,7 @@
   },
   {
     "id": 696,
-    "index": 199,
+    "index": 208,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2601,7 +2718,7 @@
   },
   {
     "id": 703,
-    "index": 200,
+    "index": 209,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2614,20 +2731,20 @@
   },
   {
     "id": 707,
-    "index": 201,
+    "index": 210,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
     "voice": "Taraan Skyseeker",
     "contentType": "game",
-    "text": "I'm gonna use Message on them and offer out the merciful bomb.",
+    "text": "I'm gonna use Message on them and offer out the merciful balm.",
     "mechanics": [],
     "sourceText": "For anyone that's drawing weapons,",
     "sourceSpeaker": "Drew"
   },
   {
     "id": 712,
-    "index": 202,
+    "index": 211,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2640,7 +2757,7 @@
   },
   {
     "id": 715,
-    "index": 203,
+    "index": 212,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2653,7 +2770,7 @@
   },
   {
     "id": 717,
-    "index": 204,
+    "index": 213,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2666,7 +2783,7 @@
   },
   {
     "id": 720,
-    "index": 205,
+    "index": 214,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2679,7 +2796,7 @@
   },
   {
     "id": 722,
-    "index": 206,
+    "index": 215,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2692,7 +2809,7 @@
   },
   {
     "id": 724,
-    "index": 207,
+    "index": 216,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2705,7 +2822,7 @@
   },
   {
     "id": 725,
-    "index": 208,
+    "index": 217,
     "sceneId": "stump-foyer",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2718,7 +2835,7 @@
   },
   {
     "id": 727,
-    "index": 209,
+    "index": 218,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2731,7 +2848,7 @@
   },
   {
     "id": 728,
-    "index": 210,
+    "index": 219,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2744,7 +2861,7 @@
   },
   {
     "id": 730,
-    "index": 211,
+    "index": 220,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2757,7 +2874,7 @@
   },
   {
     "id": 735,
-    "index": 212,
+    "index": 221,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2770,7 +2887,7 @@
   },
   {
     "id": 742,
-    "index": 213,
+    "index": 222,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2783,7 +2900,7 @@
   },
   {
     "id": 749,
-    "index": 214,
+    "index": 223,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2796,7 +2913,7 @@
   },
   {
     "id": 759,
-    "index": 215,
+    "index": 224,
     "sceneId": "stump-foyer",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2809,7 +2926,7 @@
   },
   {
     "id": 764,
-    "index": 216,
+    "index": 225,
     "sceneId": "stump-foyer",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -2821,21 +2938,21 @@
     "sourceSpeaker": "Drew"
   },
   {
-    "id": 769,
-    "index": 217,
-    "sceneId": "stump-foyer",
-    "speaker": "Lisa",
-    "character": "Taraan Skyseeker",
+    "id": 766,
+    "index": 226,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
     "voice": "player",
     "contentType": "game",
-    "text": "Guidance would damage stealth — it might alert him.",
+    "text": "2.",
     "mechanics": [],
-    "sourceText": "And a roll from you just to make sure we don't click down.",
-    "sourceSpeaker": "Dave"
+    "sourceText": "10.",
+    "sourceSpeaker": "Drew"
   },
   {
     "id": 773,
-    "index": 218,
+    "index": 227,
     "sceneId": "stump-foyer",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2847,8 +2964,21 @@
     "sourceSpeaker": "Lisa"
   },
   {
+    "id": 775,
+    "index": 228,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
+    "contentType": "game",
+    "text": "If I'm small, do I get a bonus for stealth?",
+    "mechanics": [],
+    "sourceText": "If I'm small, do I get a bonus for stealth?",
+    "sourceSpeaker": "Drew"
+  },
+  {
     "id": 778,
-    "index": 219,
+    "index": 229,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2861,7 +2991,7 @@
   },
   {
     "id": 799,
-    "index": 220,
+    "index": 230,
     "sceneId": "stump-foyer",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -2874,7 +3004,7 @@
   },
   {
     "id": 802,
-    "index": 221,
+    "index": 231,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2887,7 +3017,7 @@
   },
   {
     "id": 809,
-    "index": 222,
+    "index": 232,
     "sceneId": "stump-foyer",
     "speaker": "Dave",
     "character": null,
@@ -2900,7 +3030,7 @@
   },
   {
     "id": 813,
-    "index": 223,
+    "index": 233,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -2912,21 +3042,60 @@
     "sourceSpeaker": "Drew"
   },
   {
-    "id": 857,
-    "index": 224,
-    "sceneId": "scrit-fight",
-    "speaker": "Dave",
-    "character": null,
-    "voice": "narrator",
+    "id": 815,
+    "index": 234,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
     "contentType": "game",
-    "text": "Drew, your initiative was 10, so Solanum goes at 27. Lithrei is 25.",
+    "text": "No!",
     "mechanics": [],
-    "sourceText": "Oh, I have low light vision, nice.",
+    "sourceText": "No!",
     "sourceSpeaker": "Drew"
   },
   {
+    "id": 816,
+    "index": 235,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Oh, I'm sorry.",
+    "mechanics": [],
+    "sourceText": "Oh, I'm sorry.",
+    "sourceSpeaker": "Drew"
+  },
+  {
+    "id": 817,
+    "index": 236,
+    "sceneId": null,
+    "speaker": "Kiri",
+    "character": "Cy'An Copperbottom",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Damn it, my stealth was so good.",
+    "mechanics": [],
+    "sourceText": "Damn it, my stuff was so good.",
+    "sourceSpeaker": "Kiri"
+  },
+  {
     "id": 867,
-    "index": 225,
+    "index": 237,
+    "sceneId": "scrit-fight",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "For some reason the specch recognition bugged here and it thought everyone rolled 15, including me for some reason. Fun.",
+    "mechanics": [],
+    "sourceText": "I just touch on an ally.",
+    "sourceSpeaker": "Xander"
+  },
+  {
+    "id": 3551,
+    "index": 238,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -2934,12 +3103,12 @@
     "contentType": "game",
     "text": "The rolls actually played out exactly how I would have put them, thematically, so I'm happy with that. We start with Taraan, then Lithrei, then Yggo, then Cy, then the scrits, then Solanum.",
     "mechanics": [],
-    "sourceText": "I just touch on an ally.",
-    "sourceSpeaker": "Xander"
+    "sourceText": "The rolls actually played out exactly how I would have put them, thematically, so I'm happy with that. We start with Taraan, then Lithrei, then Yggo, then Cy, then the scrits, then Solanum.",
+    "sourceSpeaker": "Dave"
   },
   {
     "id": 879,
-    "index": 226,
+    "index": 239,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -2952,7 +3121,7 @@
   },
   {
     "id": 882,
-    "index": 227,
+    "index": 240,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -2965,7 +3134,7 @@
   },
   {
     "id": 883,
-    "index": 228,
+    "index": 241,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -2978,7 +3147,7 @@
   },
   {
     "id": 885,
-    "index": 229,
+    "index": 242,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -2991,7 +3160,7 @@
   },
   {
     "id": 898,
-    "index": 230,
+    "index": 243,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3004,7 +3173,7 @@
   },
   {
     "id": 940,
-    "index": 231,
+    "index": 244,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3017,7 +3186,7 @@
   },
   {
     "id": 946,
-    "index": 232,
+    "index": 245,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3029,8 +3198,21 @@
     "sourceSpeaker": "Dave"
   },
   {
+    "id": 3553,
+    "index": 246,
+    "sceneId": "scrit-fight",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Does True Strike work with spell attacks?",
+    "mechanics": [],
+    "sourceText": "Does True Strike work with spell attacks?",
+    "sourceSpeaker": "Lisa"
+  },
+  {
     "id": 950,
-    "index": 233,
+    "index": 247,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3043,7 +3225,7 @@
   },
   {
     "id": 957,
-    "index": 234,
+    "index": 248,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3056,7 +3238,7 @@
   },
   {
     "id": 961,
-    "index": 235,
+    "index": 249,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3069,7 +3251,7 @@
   },
   {
     "id": 967,
-    "index": 236,
+    "index": 250,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3082,7 +3264,7 @@
   },
   {
     "id": 969,
-    "index": 237,
+    "index": 251,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3095,7 +3277,7 @@
   },
   {
     "id": 973,
-    "index": 238,
+    "index": 252,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3108,20 +3290,33 @@
   },
   {
     "id": 979,
-    "index": 239,
+    "index": 253,
     "sceneId": "scrit-fight",
-    "speaker": "Dave",
-    "character": null,
-    "voice": "narrator",
+    "speaker": "Lisa",
+    "character": "Taraan Skyseeker",
+    "voice": "player",
     "contentType": "game",
-    "text": "It feels like a punch. He screeches — he was half asleep when you smacked him in the first place. This is the worst alarm clock ever.",
+    "text": "It's nonlethal. It feels like a punch.",
     "mechanics": [],
     "sourceText": "and he...",
     "sourceSpeaker": "Dave"
   },
   {
+    "id": 3554,
+    "index": 254,
+    "sceneId": "scrit-fight",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "He screeches — he was half asleep when you smacked him in the first place. This is the worst alarm clock ever.",
+    "mechanics": [],
+    "sourceText": "He screeches — he was half asleep when you smacked him in the first place. This is the worst alarm clock ever.",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 987,
-    "index": 240,
+    "index": 255,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3134,7 +3329,7 @@
   },
   {
     "id": 988,
-    "index": 241,
+    "index": 256,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3147,7 +3342,7 @@
   },
   {
     "id": 990,
-    "index": 242,
+    "index": 257,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3159,8 +3354,34 @@
     "sourceSpeaker": "Drew"
   },
   {
+    "id": 992,
+    "index": 258,
+    "sceneId": null,
+    "speaker": "Lisa",
+    "character": "Taraan Skyseeker",
+    "voice": "player",
+    "contentType": "game",
+    "text": "I do.",
+    "mechanics": [],
+    "sourceText": "I do.",
+    "sourceSpeaker": "Lisa"
+  },
+  {
+    "id": 994,
+    "index": 259,
+    "sceneId": null,
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "It would have been worse.",
+    "mechanics": [],
+    "sourceText": "It would have been worse.",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 995,
-    "index": 243,
+    "index": 260,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3173,7 +3394,7 @@
   },
   {
     "id": 999,
-    "index": 244,
+    "index": 261,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3186,7 +3407,7 @@
   },
   {
     "id": 1004,
-    "index": 245,
+    "index": 262,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3199,7 +3420,7 @@
   },
   {
     "id": 1009,
-    "index": 246,
+    "index": 263,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3212,7 +3433,7 @@
   },
   {
     "id": 1015,
-    "index": 247,
+    "index": 264,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3225,7 +3446,7 @@
   },
   {
     "id": 1019,
-    "index": 248,
+    "index": 265,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3238,7 +3459,7 @@
   },
   {
     "id": 1023,
-    "index": 249,
+    "index": 266,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3251,7 +3472,7 @@
   },
   {
     "id": 1028,
-    "index": 250,
+    "index": 267,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3264,7 +3485,7 @@
   },
   {
     "id": 1032,
-    "index": 251,
+    "index": 268,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3277,7 +3498,7 @@
   },
   {
     "id": 1042,
-    "index": 252,
+    "index": 269,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3290,7 +3511,7 @@
   },
   {
     "id": 1056,
-    "index": 253,
+    "index": 270,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3303,7 +3524,7 @@
   },
   {
     "id": 1057,
-    "index": 254,
+    "index": 271,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3316,7 +3537,7 @@
   },
   {
     "id": 1060,
-    "index": 255,
+    "index": 272,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3329,7 +3550,7 @@
   },
   {
     "id": 1066,
-    "index": 256,
+    "index": 273,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3341,8 +3562,47 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 1071,
+    "index": 274,
+    "sceneId": null,
+    "speaker": "Xander",
+    "character": "Lithrei Woeborn",
+    "voice": "player",
+    "contentType": "game",
+    "text": "The target must attempt a will-same each time, so the target uses hostile spell.",
+    "mechanics": [],
+    "sourceText": "The target must attempt a will-same each time, so the target uses hostile spell.",
+    "sourceSpeaker": "Xander"
+  },
+  {
+    "id": 1073,
+    "index": 275,
+    "sceneId": null,
+    "speaker": "Xander",
+    "character": "Lithrei Woeborn",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Well, they...",
+    "mechanics": [],
+    "sourceText": "Well, they...",
+    "sourceSpeaker": "Xander"
+  },
+  {
+    "id": 1074,
+    "index": 276,
+    "sceneId": null,
+    "speaker": "Xander",
+    "character": "Lithrei Woeborn",
+    "voice": "player",
+    "contentType": "game",
+    "text": "It'll still help with attacks for one round, right?",
+    "mechanics": [],
+    "sourceText": "It'll attack for one round,",
+    "sourceSpeaker": "Xander"
+  },
+  {
     "id": 1075,
-    "index": 257,
+    "index": 277,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3354,8 +3614,60 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 1078,
+    "index": 278,
+    "sceneId": null,
+    "speaker": "Kiri",
+    "character": "Cy'An Copperbottom",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Okay.",
+    "mechanics": [],
+    "sourceText": "Okay.",
+    "sourceSpeaker": "Kiri"
+  },
+  {
+    "id": 1079,
+    "index": 279,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Might as well.",
+    "mechanics": [],
+    "sourceText": "Might as well.",
+    "sourceSpeaker": "Drew"
+  },
+  {
+    "id": 1080,
+    "index": 280,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Do you want to back up?",
+    "mechanics": [],
+    "sourceText": "Do you want to back up?",
+    "sourceSpeaker": "Drew"
+  },
+  {
+    "id": 1081,
+    "index": 281,
+    "sceneId": null,
+    "speaker": "Xander",
+    "character": "Lithrei Woeborn",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Yeah, I'm gonna fall back.",
+    "mechanics": [],
+    "sourceText": "Yeah, I'm gonna fall back.",
+    "sourceSpeaker": "Xander"
+  },
+  {
     "id": 1082,
-    "index": 258,
+    "index": 282,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3368,7 +3680,7 @@
   },
   {
     "id": 1113,
-    "index": 259,
+    "index": 283,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3381,7 +3693,7 @@
   },
   {
     "id": 1116,
-    "index": 260,
+    "index": 284,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3394,7 +3706,7 @@
   },
   {
     "id": 1122,
-    "index": 261,
+    "index": 285,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -3407,7 +3719,7 @@
   },
   {
     "id": 1123,
-    "index": 262,
+    "index": 286,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3420,20 +3732,20 @@
   },
   {
     "id": 1128,
-    "index": 263,
+    "index": 287,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
     "voice": "Yggostrus",
     "contentType": "game",
-    "text": "I'm going to Act Together and give my eidolon three actions. First it attacks with its jaws, non-lethally — that's a nine, so I'll hero point it. Sixteen, so fourteen. Does that hit?",
+    "text": "I'm going to Act Together and give my eidolon three actions. First it attacks with its jaws, non-lethally — that's a nine, so I'll hero point it. Fourteen. Does that hit?",
     "mechanics": [],
     "sourceText": "gargle this.",
     "sourceSpeaker": "Kiri"
   },
   {
     "id": 1151,
-    "index": 264,
+    "index": 288,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3446,7 +3758,7 @@
   },
   {
     "id": 1164,
-    "index": 265,
+    "index": 289,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3459,7 +3771,7 @@
   },
   {
     "id": 1170,
-    "index": 266,
+    "index": 290,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3472,7 +3784,7 @@
   },
   {
     "id": 1183,
-    "index": 267,
+    "index": 291,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3485,7 +3797,7 @@
   },
   {
     "id": 1192,
-    "index": 268,
+    "index": 292,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3498,7 +3810,7 @@
   },
   {
     "id": 1203,
-    "index": 269,
+    "index": 293,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3510,8 +3822,21 @@
     "sourceSpeaker": "Kiri"
   },
   {
+    "id": 1215,
+    "index": 294,
+    "sceneId": null,
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Okay.",
+    "mechanics": [],
+    "sourceText": "Okay.",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 1218,
-    "index": 270,
+    "index": 295,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3524,7 +3849,7 @@
   },
   {
     "id": 1229,
-    "index": 271,
+    "index": 296,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3537,7 +3862,7 @@
   },
   {
     "id": 1232,
-    "index": 272,
+    "index": 297,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3550,20 +3875,33 @@
   },
   {
     "id": 1236,
-    "index": 273,
+    "index": 298,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
     "voice": "player",
     "contentType": "game",
-    "text": "Double damage dice, so that's five damage.",
+    "text": "Double damage dice, so that's... five whole damage.",
     "mechanics": [],
     "sourceText": "Oh!",
     "sourceSpeaker": "Matt"
   },
   {
+    "id": 1246,
+    "index": 299,
+    "sceneId": null,
+    "speaker": "Drew",
+    "character": "Solanum Calabash",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Donk.",
+    "mechanics": [],
+    "sourceText": "Donk.",
+    "sourceSpeaker": "Drew"
+  },
+  {
     "id": 1250,
-    "index": 274,
+    "index": 300,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3576,7 +3914,7 @@
   },
   {
     "id": 1265,
-    "index": 275,
+    "index": 301,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3589,7 +3927,7 @@
   },
   {
     "id": 1269,
-    "index": 276,
+    "index": 302,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3602,7 +3940,7 @@
   },
   {
     "id": 1270,
-    "index": 277,
+    "index": 303,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3615,7 +3953,7 @@
   },
   {
     "id": 1275,
-    "index": 278,
+    "index": 304,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3627,21 +3965,8 @@
     "sourceSpeaker": "Kiri"
   },
   {
-    "id": 1292,
-    "index": 279,
-    "sceneId": "scrit-fight",
-    "speaker": "Matt",
-    "character": "Yggostrus",
-    "voice": "player",
-    "contentType": "game",
-    "text": "I looked up persistent damage — it kicks in at the end of its turn. If the spell doesn't specify a duration, the GM decides, normally about a minute.",
-    "mechanics": [],
-    "sourceText": "I went and labeled them clockwise.",
-    "sourceSpeaker": "Kiri"
-  },
-  {
     "id": 1300,
-    "index": 280,
+    "index": 305,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3654,7 +3979,7 @@
   },
   {
     "id": 1307,
-    "index": 281,
+    "index": 306,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3667,7 +3992,7 @@
   },
   {
     "id": 1319,
-    "index": 282,
+    "index": 307,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3680,7 +4005,7 @@
   },
   {
     "id": 1329,
-    "index": 283,
+    "index": 308,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3693,7 +4018,7 @@
   },
   {
     "id": 1330,
-    "index": 284,
+    "index": 309,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3706,7 +4031,7 @@
   },
   {
     "id": 1335,
-    "index": 285,
+    "index": 310,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3719,7 +4044,7 @@
   },
   {
     "id": 1337,
-    "index": 286,
+    "index": 311,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3732,7 +4057,7 @@
   },
   {
     "id": 1339,
-    "index": 287,
+    "index": 312,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3745,7 +4070,7 @@
   },
   {
     "id": 1348,
-    "index": 288,
+    "index": 313,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3758,7 +4083,7 @@
   },
   {
     "id": 1356,
-    "index": 289,
+    "index": 314,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3771,7 +4096,7 @@
   },
   {
     "id": 1360,
-    "index": 290,
+    "index": 315,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -3784,7 +4109,7 @@
   },
   {
     "id": 1361,
-    "index": 291,
+    "index": 316,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3797,7 +4122,7 @@
   },
   {
     "id": 1371,
-    "index": 292,
+    "index": 317,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3810,7 +4135,7 @@
   },
   {
     "id": 1375,
-    "index": 293,
+    "index": 318,
     "sceneId": "scrit-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -3823,20 +4148,20 @@
   },
   {
     "id": 1385,
-    "index": 294,
+    "index": 319,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "Scrit number three is reasonably intelligent, so it sees its friend fail against Lithrei and goes after Solanum instead —",
+    "text": "Scrit number three is reasonably intelligent, so it sees its friend fail against Solanum and chooses another target.",
     "mechanics": [],
     "sourceText": "It is a dink.",
     "sourceSpeaker": "Matt"
   },
   {
     "id": 1389,
-    "index": 295,
+    "index": 320,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3849,7 +4174,7 @@
   },
   {
     "id": 1393,
-    "index": 296,
+    "index": 321,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3862,7 +4187,7 @@
   },
   {
     "id": 1397,
-    "index": 297,
+    "index": 322,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3875,7 +4200,7 @@
   },
   {
     "id": 1402,
-    "index": 298,
+    "index": 323,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3888,7 +4213,7 @@
   },
   {
     "id": 1403,
-    "index": 299,
+    "index": 324,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3901,7 +4226,7 @@
   },
   {
     "id": 1414,
-    "index": 300,
+    "index": 325,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -3914,7 +4239,7 @@
   },
   {
     "id": 1419,
-    "index": 301,
+    "index": 326,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3927,7 +4252,7 @@
   },
   {
     "id": 1423,
-    "index": 302,
+    "index": 327,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3940,7 +4265,7 @@
   },
   {
     "id": 1434,
-    "index": 303,
+    "index": 328,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3953,7 +4278,7 @@
   },
   {
     "id": 1436,
-    "index": 304,
+    "index": 329,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3966,7 +4291,7 @@
   },
   {
     "id": 1440,
-    "index": 305,
+    "index": 330,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -3979,7 +4304,7 @@
   },
   {
     "id": 1463,
-    "index": 306,
+    "index": 331,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -3992,7 +4317,7 @@
   },
   {
     "id": 1465,
-    "index": 307,
+    "index": 332,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4005,7 +4330,7 @@
   },
   {
     "id": 1477,
-    "index": 308,
+    "index": 333,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4018,7 +4343,7 @@
   },
   {
     "id": 1482,
-    "index": 309,
+    "index": 334,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4031,7 +4356,7 @@
   },
   {
     "id": 1488,
-    "index": 310,
+    "index": 335,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4044,7 +4369,7 @@
   },
   {
     "id": 1494,
-    "index": 311,
+    "index": 336,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4057,7 +4382,7 @@
   },
   {
     "id": 1499,
-    "index": 312,
+    "index": 337,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4070,7 +4395,7 @@
   },
   {
     "id": 1510,
-    "index": 313,
+    "index": 338,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4083,7 +4408,7 @@
   },
   {
     "id": 1513,
-    "index": 314,
+    "index": 339,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4096,7 +4421,7 @@
   },
   {
     "id": 1514,
-    "index": 315,
+    "index": 340,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4109,7 +4434,7 @@
   },
   {
     "id": 1517,
-    "index": 316,
+    "index": 341,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4122,7 +4447,7 @@
   },
   {
     "id": 1520,
-    "index": 317,
+    "index": 342,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4135,7 +4460,7 @@
   },
   {
     "id": 1523,
-    "index": 318,
+    "index": 343,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4148,7 +4473,7 @@
   },
   {
     "id": 1529,
-    "index": 319,
+    "index": 344,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4161,7 +4486,7 @@
   },
   {
     "id": 1537,
-    "index": 320,
+    "index": 345,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4174,7 +4499,7 @@
   },
   {
     "id": 1549,
-    "index": 321,
+    "index": 346,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4187,7 +4512,7 @@
   },
   {
     "id": 1552,
-    "index": 322,
+    "index": 347,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4200,7 +4525,7 @@
   },
   {
     "id": 1554,
-    "index": 323,
+    "index": 348,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4213,7 +4538,7 @@
   },
   {
     "id": 1555,
-    "index": 324,
+    "index": 349,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4226,7 +4551,7 @@
   },
   {
     "id": 1561,
-    "index": 325,
+    "index": 350,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4239,7 +4564,7 @@
   },
   {
     "id": 1566,
-    "index": 326,
+    "index": 351,
     "sceneId": "scrit-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4252,7 +4577,7 @@
   },
   {
     "id": 1590,
-    "index": 327,
+    "index": 352,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4265,7 +4590,7 @@
   },
   {
     "id": 1595,
-    "index": 328,
+    "index": 353,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4278,7 +4603,7 @@
   },
   {
     "id": 1605,
-    "index": 329,
+    "index": 354,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4290,8 +4615,21 @@
     "sourceSpeaker": "Lisa"
   },
   {
+    "id": 3555,
+    "index": 355,
+    "sceneId": "scrit-fight",
+    "speaker": "Dave",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "Taraan's turn.",
+    "mechanics": [],
+    "sourceText": "Taraan's turn.",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 1611,
-    "index": 330,
+    "index": 356,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4304,7 +4642,7 @@
   },
   {
     "id": 1617,
-    "index": 331,
+    "index": 357,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4317,7 +4655,7 @@
   },
   {
     "id": 1625,
-    "index": 332,
+    "index": 358,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4330,7 +4668,7 @@
   },
   {
     "id": 1626,
-    "index": 333,
+    "index": 359,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4343,7 +4681,7 @@
   },
   {
     "id": 1627,
-    "index": 334,
+    "index": 360,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4356,7 +4694,7 @@
   },
   {
     "id": 1631,
-    "index": 335,
+    "index": 361,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4369,7 +4707,7 @@
   },
   {
     "id": 1636,
-    "index": 336,
+    "index": 362,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4382,7 +4720,7 @@
   },
   {
     "id": 1639,
-    "index": 337,
+    "index": 363,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4395,7 +4733,7 @@
   },
   {
     "id": 1642,
-    "index": 338,
+    "index": 364,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4408,7 +4746,7 @@
   },
   {
     "id": 1644,
-    "index": 339,
+    "index": 365,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4421,7 +4759,7 @@
   },
   {
     "id": 1651,
-    "index": 340,
+    "index": 366,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4434,7 +4772,7 @@
   },
   {
     "id": 1657,
-    "index": 341,
+    "index": 367,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4447,20 +4785,20 @@
   },
   {
     "id": 1663,
-    "index": 342,
+    "index": 368,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "What's your spell DC? That is a fail — you said you were commanding it.",
+    "text": "That is a fail — you said you were commanding it, what are you commanding it to do?",
     "mechanics": [],
     "sourceText": "which is good.",
     "sourceSpeaker": "Lisa"
   },
   {
     "id": 1675,
-    "index": 343,
+    "index": 369,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4473,7 +4811,7 @@
   },
   {
     "id": 1690,
-    "index": 344,
+    "index": 370,
     "sceneId": "scrit-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4486,7 +4824,7 @@
   },
   {
     "id": 1697,
-    "index": 345,
+    "index": 371,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4499,7 +4837,7 @@
   },
   {
     "id": 1699,
-    "index": 346,
+    "index": 372,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4512,7 +4850,7 @@
   },
   {
     "id": 1710,
-    "index": 347,
+    "index": 373,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4525,7 +4863,7 @@
   },
   {
     "id": 1712,
-    "index": 348,
+    "index": 374,
     "sceneId": "scrit-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4538,7 +4876,7 @@
   },
   {
     "id": 1721,
-    "index": 349,
+    "index": 375,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4551,7 +4889,7 @@
   },
   {
     "id": 1765,
-    "index": 350,
+    "index": 376,
     "sceneId": "scrit-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4564,7 +4902,7 @@
   },
   {
     "id": 1772,
-    "index": 351,
+    "index": 377,
     "sceneId": "scrit-fight",
     "speaker": "Dave",
     "character": null,
@@ -4577,7 +4915,7 @@
   },
   {
     "id": 1777,
-    "index": 352,
+    "index": 378,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4590,7 +4928,7 @@
   },
   {
     "id": 1806,
-    "index": 353,
+    "index": 379,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4603,7 +4941,7 @@
   },
   {
     "id": 1817,
-    "index": 354,
+    "index": 380,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4616,7 +4954,7 @@
   },
   {
     "id": 1818,
-    "index": 355,
+    "index": 381,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -4629,7 +4967,7 @@
   },
   {
     "id": 1825,
-    "index": 356,
+    "index": 382,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4642,7 +4980,7 @@
   },
   {
     "id": 1830,
-    "index": 357,
+    "index": 383,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4654,8 +4992,21 @@
     "sourceSpeaker": "Xander"
   },
   {
+    "id": 3556,
+    "index": 384,
+    "sceneId": "silverfish-fight",
+    "speaker": "GM Note",
+    "character": null,
+    "voice": "narrator",
+    "contentType": "game",
+    "text": "I show the group a picture of one",
+    "mechanics": [],
+    "sourceText": "I show the group a picture of one",
+    "sourceSpeaker": "Dave"
+  },
+  {
     "id": 1842,
-    "index": 358,
+    "index": 385,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4668,7 +5019,7 @@
   },
   {
     "id": 1847,
-    "index": 359,
+    "index": 386,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4681,7 +5032,7 @@
   },
   {
     "id": 1849,
-    "index": 360,
+    "index": 387,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -4694,7 +5045,7 @@
   },
   {
     "id": 1854,
-    "index": 361,
+    "index": 388,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4707,7 +5058,7 @@
   },
   {
     "id": 1858,
-    "index": 362,
+    "index": 389,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4720,7 +5071,7 @@
   },
   {
     "id": 1874,
-    "index": 363,
+    "index": 390,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4733,7 +5084,7 @@
   },
   {
     "id": 1885,
-    "index": 364,
+    "index": 391,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4746,7 +5097,7 @@
   },
   {
     "id": 1889,
-    "index": 365,
+    "index": 392,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4759,7 +5110,7 @@
   },
   {
     "id": 1902,
-    "index": 366,
+    "index": 393,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4772,7 +5123,7 @@
   },
   {
     "id": 1917,
-    "index": 367,
+    "index": 394,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4785,7 +5136,7 @@
   },
   {
     "id": 1921,
-    "index": 368,
+    "index": 395,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4797,34 +5148,8 @@
     "sourceSpeaker": "Kiri"
   },
   {
-    "id": 1927,
-    "index": 369,
-    "sceneId": "silverfish-fight",
-    "speaker": "Kiri",
-    "character": "Cy'An Copperbottom",
-    "voice": "player",
-    "contentType": "game",
-    "text": "Have I been saying Taraan's name wrong this whole time? I've been saying Teran, like he's from the Black Cauldron.",
-    "mechanics": [],
-    "sourceText": "Jeez!",
-    "sourceSpeaker": "Drew"
-  },
-  {
-    "id": 1930,
-    "index": 370,
-    "sceneId": "silverfish-fight",
-    "speaker": "Lisa",
-    "character": "Taraan Skyseeker",
-    "voice": "player",
-    "contentType": "game",
-    "text": "Taraan. T-A-R-A-A-N.",
-    "mechanics": [],
-    "sourceText": "Teran.",
-    "sourceSpeaker": "Lisa"
-  },
-  {
     "id": 1934,
-    "index": 371,
+    "index": 396,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4836,34 +5161,21 @@
     "sourceSpeaker": "Kiri"
   },
   {
-    "id": 1940,
-    "index": 372,
-    "sceneId": "silverfish-fight",
-    "speaker": "Lisa",
-    "character": "Taraan Skyseeker",
-    "voice": "player",
-    "contentType": "game",
-    "text": "Gets flanking, I think.",
-    "mechanics": [],
-    "sourceText": "And then the Silverfish Swarm...",
-    "sourceSpeaker": "Dave"
-  },
-  {
-    "id": 1941,
-    "index": 373,
+    "id": 3557,
+    "index": 397,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
     "voice": "narrator",
     "contentType": "game",
-    "text": "It's already engaged with Taraan and flanking.",
+    "text": "Second attack hits.",
     "mechanics": [],
-    "sourceText": "Gets flanking, I think.",
-    "sourceSpeaker": "Lisa"
+    "sourceText": "Second attack hits.",
+    "sourceSpeaker": "Dave"
   },
   {
     "id": 1952,
-    "index": 374,
+    "index": 398,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4876,7 +5188,7 @@
   },
   {
     "id": 1967,
-    "index": 375,
+    "index": 399,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -4889,7 +5201,7 @@
   },
   {
     "id": 1976,
-    "index": 376,
+    "index": 400,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4902,7 +5214,7 @@
   },
   {
     "id": 1985,
-    "index": 377,
+    "index": 401,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4915,7 +5227,7 @@
   },
   {
     "id": 1999,
-    "index": 378,
+    "index": 402,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -4927,8 +5239,21 @@
     "sourceSpeaker": "Matt"
   },
   {
+    "id": 2001,
+    "index": 403,
+    "sceneId": null,
+    "speaker": "Matt",
+    "character": "Yggostrus",
+    "voice": "player",
+    "contentType": "game",
+    "text": "Okay.",
+    "mechanics": [],
+    "sourceText": "Okay.",
+    "sourceSpeaker": "Matt"
+  },
+  {
     "id": 2004,
-    "index": 379,
+    "index": 404,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4941,7 +5266,7 @@
   },
   {
     "id": 2016,
-    "index": 380,
+    "index": 405,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4954,7 +5279,7 @@
   },
   {
     "id": 2029,
-    "index": 381,
+    "index": 406,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4967,7 +5292,7 @@
   },
   {
     "id": 2037,
-    "index": 382,
+    "index": 407,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -4980,7 +5305,7 @@
   },
   {
     "id": 2055,
-    "index": 383,
+    "index": 408,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -4993,7 +5318,7 @@
   },
   {
     "id": 2058,
-    "index": 384,
+    "index": 409,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5006,7 +5331,7 @@
   },
   {
     "id": 2064,
-    "index": 385,
+    "index": 410,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5019,7 +5344,7 @@
   },
   {
     "id": 2082,
-    "index": 386,
+    "index": 411,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5032,7 +5357,7 @@
   },
   {
     "id": 2091,
-    "index": 387,
+    "index": 412,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5045,7 +5370,7 @@
   },
   {
     "id": 2098,
-    "index": 388,
+    "index": 413,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5058,7 +5383,7 @@
   },
   {
     "id": 2101,
-    "index": 389,
+    "index": 414,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5071,7 +5396,7 @@
   },
   {
     "id": 2102,
-    "index": 390,
+    "index": 415,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5084,7 +5409,7 @@
   },
   {
     "id": 2119,
-    "index": 391,
+    "index": 416,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5097,7 +5422,7 @@
   },
   {
     "id": 2124,
-    "index": 392,
+    "index": 417,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5110,7 +5435,7 @@
   },
   {
     "id": 2129,
-    "index": 393,
+    "index": 418,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5123,7 +5448,7 @@
   },
   {
     "id": 2132,
-    "index": 394,
+    "index": 419,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5136,7 +5461,7 @@
   },
   {
     "id": 2133,
-    "index": 395,
+    "index": 420,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5149,7 +5474,7 @@
   },
   {
     "id": 2144,
-    "index": 396,
+    "index": 421,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5162,7 +5487,7 @@
   },
   {
     "id": 2153,
-    "index": 397,
+    "index": 422,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5175,7 +5500,7 @@
   },
   {
     "id": 2155,
-    "index": 398,
+    "index": 423,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5188,7 +5513,7 @@
   },
   {
     "id": 2157,
-    "index": 399,
+    "index": 424,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5201,7 +5526,7 @@
   },
   {
     "id": 2160,
-    "index": 400,
+    "index": 425,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5214,7 +5539,7 @@
   },
   {
     "id": 2166,
-    "index": 401,
+    "index": 426,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5227,7 +5552,7 @@
   },
   {
     "id": 2177,
-    "index": 402,
+    "index": 427,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5240,7 +5565,7 @@
   },
   {
     "id": 2179,
-    "index": 403,
+    "index": 428,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5253,7 +5578,7 @@
   },
   {
     "id": 2191,
-    "index": 404,
+    "index": 429,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5266,7 +5591,7 @@
   },
   {
     "id": 2196,
-    "index": 405,
+    "index": 430,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5279,7 +5604,7 @@
   },
   {
     "id": 2224,
-    "index": 406,
+    "index": 431,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5292,7 +5617,7 @@
   },
   {
     "id": 2231,
-    "index": 407,
+    "index": 432,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5305,7 +5630,7 @@
   },
   {
     "id": 2232,
-    "index": 408,
+    "index": 433,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5318,7 +5643,7 @@
   },
   {
     "id": 2233,
-    "index": 409,
+    "index": 434,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5331,7 +5656,7 @@
   },
   {
     "id": 2239,
-    "index": 410,
+    "index": 435,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5344,7 +5669,7 @@
   },
   {
     "id": 2246,
-    "index": 411,
+    "index": 436,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5357,7 +5682,7 @@
   },
   {
     "id": 2249,
-    "index": 412,
+    "index": 437,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5370,7 +5695,7 @@
   },
   {
     "id": 2257,
-    "index": 413,
+    "index": 438,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5383,7 +5708,7 @@
   },
   {
     "id": 2270,
-    "index": 414,
+    "index": 439,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5396,7 +5721,7 @@
   },
   {
     "id": 2276,
-    "index": 415,
+    "index": 440,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -5409,7 +5734,7 @@
   },
   {
     "id": 2282,
-    "index": 416,
+    "index": 441,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5422,7 +5747,7 @@
   },
   {
     "id": 2295,
-    "index": 417,
+    "index": 442,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5435,7 +5760,7 @@
   },
   {
     "id": 2303,
-    "index": 418,
+    "index": 443,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5448,7 +5773,7 @@
   },
   {
     "id": 2311,
-    "index": 419,
+    "index": 444,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5461,7 +5786,7 @@
   },
   {
     "id": 2315,
-    "index": 420,
+    "index": 445,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5474,7 +5799,7 @@
   },
   {
     "id": 2321,
-    "index": 421,
+    "index": 446,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5487,7 +5812,7 @@
   },
   {
     "id": 2327,
-    "index": 422,
+    "index": 447,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5500,7 +5825,7 @@
   },
   {
     "id": 2336,
-    "index": 423,
+    "index": 448,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5513,7 +5838,7 @@
   },
   {
     "id": 2343,
-    "index": 424,
+    "index": 449,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5526,7 +5851,7 @@
   },
   {
     "id": 2346,
-    "index": 425,
+    "index": 450,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5539,7 +5864,7 @@
   },
   {
     "id": 2352,
-    "index": 426,
+    "index": 451,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5552,7 +5877,7 @@
   },
   {
     "id": 2356,
-    "index": 427,
+    "index": 452,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5565,7 +5890,7 @@
   },
   {
     "id": 2373,
-    "index": 428,
+    "index": 453,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -5578,7 +5903,7 @@
   },
   {
     "id": 2405,
-    "index": 429,
+    "index": 454,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5591,7 +5916,7 @@
   },
   {
     "id": 2423,
-    "index": 430,
+    "index": 455,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5604,7 +5929,7 @@
   },
   {
     "id": 2448,
-    "index": 431,
+    "index": 456,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5617,7 +5942,7 @@
   },
   {
     "id": 2460,
-    "index": 432,
+    "index": 457,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -5630,7 +5955,7 @@
   },
   {
     "id": 2466,
-    "index": 433,
+    "index": 458,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5643,7 +5968,7 @@
   },
   {
     "id": 2484,
-    "index": 434,
+    "index": 459,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5656,7 +5981,7 @@
   },
   {
     "id": 2505,
-    "index": 435,
+    "index": 460,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5669,7 +5994,7 @@
   },
   {
     "id": 2509,
-    "index": 436,
+    "index": 461,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5682,7 +6007,7 @@
   },
   {
     "id": 2513,
-    "index": 437,
+    "index": 462,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5695,7 +6020,7 @@
   },
   {
     "id": 2531,
-    "index": 438,
+    "index": 463,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5708,7 +6033,7 @@
   },
   {
     "id": 2537,
-    "index": 439,
+    "index": 464,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5721,7 +6046,7 @@
   },
   {
     "id": 2541,
-    "index": 440,
+    "index": 465,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5734,7 +6059,7 @@
   },
   {
     "id": 2549,
-    "index": 441,
+    "index": 466,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5747,7 +6072,7 @@
   },
   {
     "id": 2553,
-    "index": 442,
+    "index": 467,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5760,7 +6085,7 @@
   },
   {
     "id": 2560,
-    "index": 443,
+    "index": 468,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5773,7 +6098,7 @@
   },
   {
     "id": 2570,
-    "index": 444,
+    "index": 469,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5786,7 +6111,7 @@
   },
   {
     "id": 2575,
-    "index": 445,
+    "index": 470,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5799,7 +6124,7 @@
   },
   {
     "id": 2576,
-    "index": 446,
+    "index": 471,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5812,7 +6137,7 @@
   },
   {
     "id": 2579,
-    "index": 447,
+    "index": 472,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5825,7 +6150,7 @@
   },
   {
     "id": 2582,
-    "index": 448,
+    "index": 473,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5838,7 +6163,7 @@
   },
   {
     "id": 2589,
-    "index": 449,
+    "index": 474,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5851,7 +6176,7 @@
   },
   {
     "id": 2591,
-    "index": 450,
+    "index": 475,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5864,7 +6189,7 @@
   },
   {
     "id": 2598,
-    "index": 451,
+    "index": 476,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5877,7 +6202,7 @@
   },
   {
     "id": 2599,
-    "index": 452,
+    "index": 477,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5890,7 +6215,7 @@
   },
   {
     "id": 2623,
-    "index": 453,
+    "index": 478,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5903,7 +6228,7 @@
   },
   {
     "id": 2624,
-    "index": 454,
+    "index": 479,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -5916,7 +6241,7 @@
   },
   {
     "id": 2641,
-    "index": 455,
+    "index": 480,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5929,7 +6254,7 @@
   },
   {
     "id": 2645,
-    "index": 456,
+    "index": 481,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5942,7 +6267,7 @@
   },
   {
     "id": 2646,
-    "index": 457,
+    "index": 482,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5955,7 +6280,7 @@
   },
   {
     "id": 2656,
-    "index": 458,
+    "index": 483,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5968,7 +6293,7 @@
   },
   {
     "id": 2670,
-    "index": 459,
+    "index": 484,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -5981,7 +6306,7 @@
   },
   {
     "id": 2673,
-    "index": 460,
+    "index": 485,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -5994,7 +6319,7 @@
   },
   {
     "id": 2684,
-    "index": 461,
+    "index": 486,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6007,7 +6332,7 @@
   },
   {
     "id": 2688,
-    "index": 462,
+    "index": 487,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6020,7 +6345,7 @@
   },
   {
     "id": 2691,
-    "index": 463,
+    "index": 488,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6033,7 +6358,7 @@
   },
   {
     "id": 2704,
-    "index": 464,
+    "index": 489,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6046,7 +6371,7 @@
   },
   {
     "id": 2706,
-    "index": 465,
+    "index": 490,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6059,7 +6384,7 @@
   },
   {
     "id": 2714,
-    "index": 466,
+    "index": 491,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6072,7 +6397,7 @@
   },
   {
     "id": 2719,
-    "index": 467,
+    "index": 492,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6085,7 +6410,7 @@
   },
   {
     "id": 2720,
-    "index": 468,
+    "index": 493,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6098,7 +6423,7 @@
   },
   {
     "id": 2721,
-    "index": 469,
+    "index": 494,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6111,7 +6436,7 @@
   },
   {
     "id": 2737,
-    "index": 470,
+    "index": 495,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6124,7 +6449,7 @@
   },
   {
     "id": 2744,
-    "index": 471,
+    "index": 496,
     "sceneId": "silverfish-fight",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6137,7 +6462,7 @@
   },
   {
     "id": 2747,
-    "index": 472,
+    "index": 497,
     "sceneId": "silverfish-fight",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6150,7 +6475,7 @@
   },
   {
     "id": 2756,
-    "index": 473,
+    "index": 498,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6163,7 +6488,7 @@
   },
   {
     "id": 2760,
-    "index": 474,
+    "index": 499,
     "sceneId": "silverfish-fight",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6176,7 +6501,7 @@
   },
   {
     "id": 2764,
-    "index": 475,
+    "index": 500,
     "sceneId": "silverfish-fight",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6189,7 +6514,7 @@
   },
   {
     "id": 2776,
-    "index": 476,
+    "index": 501,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6202,7 +6527,7 @@
   },
   {
     "id": 2786,
-    "index": 477,
+    "index": 502,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -6215,7 +6540,7 @@
   },
   {
     "id": 2788,
-    "index": 478,
+    "index": 503,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -6228,7 +6553,7 @@
   },
   {
     "id": 2810,
-    "index": 479,
+    "index": 504,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6241,7 +6566,7 @@
   },
   {
     "id": 2819,
-    "index": 480,
+    "index": 505,
     "sceneId": "silverfish-fight",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -6254,7 +6579,7 @@
   },
   {
     "id": 2844,
-    "index": 481,
+    "index": 506,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6267,7 +6592,7 @@
   },
   {
     "id": 2863,
-    "index": 482,
+    "index": 507,
     "sceneId": "silverfish-fight",
     "speaker": "Dave",
     "character": null,
@@ -6280,7 +6605,7 @@
   },
   {
     "id": 2865,
-    "index": 483,
+    "index": 508,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6293,7 +6618,7 @@
   },
   {
     "id": 2868,
-    "index": 484,
+    "index": 509,
     "sceneId": "aftermath",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6306,7 +6631,7 @@
   },
   {
     "id": 2871,
-    "index": 485,
+    "index": 510,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6319,7 +6644,7 @@
   },
   {
     "id": 2879,
-    "index": 486,
+    "index": 511,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6332,7 +6657,7 @@
   },
   {
     "id": 2882,
-    "index": 487,
+    "index": 512,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6345,7 +6670,7 @@
   },
   {
     "id": 2885,
-    "index": 488,
+    "index": 513,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6358,7 +6683,7 @@
   },
   {
     "id": 2892,
-    "index": 489,
+    "index": 514,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6371,7 +6696,7 @@
   },
   {
     "id": 2893,
-    "index": 490,
+    "index": 515,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6384,7 +6709,7 @@
   },
   {
     "id": 2897,
-    "index": 491,
+    "index": 516,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6397,7 +6722,7 @@
   },
   {
     "id": 2906,
-    "index": 492,
+    "index": 517,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6410,7 +6735,7 @@
   },
   {
     "id": 2910,
-    "index": 493,
+    "index": 518,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6423,7 +6748,7 @@
   },
   {
     "id": 2915,
-    "index": 494,
+    "index": 519,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6436,7 +6761,7 @@
   },
   {
     "id": 2917,
-    "index": 495,
+    "index": 520,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6449,7 +6774,7 @@
   },
   {
     "id": 2921,
-    "index": 496,
+    "index": 521,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6462,7 +6787,7 @@
   },
   {
     "id": 2925,
-    "index": 497,
+    "index": 522,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6475,7 +6800,7 @@
   },
   {
     "id": 2928,
-    "index": 498,
+    "index": 523,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6488,7 +6813,7 @@
   },
   {
     "id": 2929,
-    "index": 499,
+    "index": 524,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6501,7 +6826,7 @@
   },
   {
     "id": 2933,
-    "index": 500,
+    "index": 525,
     "sceneId": "aftermath",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6514,7 +6839,7 @@
   },
   {
     "id": 2937,
-    "index": 501,
+    "index": 526,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6527,7 +6852,7 @@
   },
   {
     "id": 2945,
-    "index": 502,
+    "index": 527,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6540,7 +6865,7 @@
   },
   {
     "id": 2949,
-    "index": 503,
+    "index": 528,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6553,7 +6878,7 @@
   },
   {
     "id": 2952,
-    "index": 504,
+    "index": 529,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6566,7 +6891,7 @@
   },
   {
     "id": 2954,
-    "index": 505,
+    "index": 530,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6579,7 +6904,7 @@
   },
   {
     "id": 2961,
-    "index": 506,
+    "index": 531,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6592,7 +6917,7 @@
   },
   {
     "id": 2966,
-    "index": 507,
+    "index": 532,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6605,7 +6930,7 @@
   },
   {
     "id": 2971,
-    "index": 508,
+    "index": 533,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6618,7 +6943,7 @@
   },
   {
     "id": 2973,
-    "index": 509,
+    "index": 534,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6631,7 +6956,7 @@
   },
   {
     "id": 2976,
-    "index": 510,
+    "index": 535,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6644,7 +6969,7 @@
   },
   {
     "id": 2978,
-    "index": 511,
+    "index": 536,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6657,7 +6982,7 @@
   },
   {
     "id": 2981,
-    "index": 512,
+    "index": 537,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6670,7 +6995,7 @@
   },
   {
     "id": 2983,
-    "index": 513,
+    "index": 538,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6683,7 +7008,7 @@
   },
   {
     "id": 2993,
-    "index": 514,
+    "index": 539,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6696,7 +7021,7 @@
   },
   {
     "id": 2994,
-    "index": 515,
+    "index": 540,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6709,7 +7034,7 @@
   },
   {
     "id": 3002,
-    "index": 516,
+    "index": 541,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6722,7 +7047,7 @@
   },
   {
     "id": 3004,
-    "index": 517,
+    "index": 542,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6735,7 +7060,7 @@
   },
   {
     "id": 3005,
-    "index": 518,
+    "index": 543,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6748,7 +7073,7 @@
   },
   {
     "id": 3006,
-    "index": 519,
+    "index": 544,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6761,7 +7086,7 @@
   },
   {
     "id": 3007,
-    "index": 520,
+    "index": 545,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6774,7 +7099,7 @@
   },
   {
     "id": 3008,
-    "index": 521,
+    "index": 546,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6787,7 +7112,7 @@
   },
   {
     "id": 3015,
-    "index": 522,
+    "index": 547,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6800,7 +7125,7 @@
   },
   {
     "id": 3018,
-    "index": 523,
+    "index": 548,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6813,7 +7138,7 @@
   },
   {
     "id": 3022,
-    "index": 524,
+    "index": 549,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6826,7 +7151,7 @@
   },
   {
     "id": 3026,
-    "index": 525,
+    "index": 550,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6839,7 +7164,7 @@
   },
   {
     "id": 3027,
-    "index": 526,
+    "index": 551,
     "sceneId": "aftermath",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6852,7 +7177,7 @@
   },
   {
     "id": 3028,
-    "index": 527,
+    "index": 552,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6865,7 +7190,7 @@
   },
   {
     "id": 3029,
-    "index": 528,
+    "index": 553,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6878,7 +7203,7 @@
   },
   {
     "id": 3032,
-    "index": 529,
+    "index": 554,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6891,7 +7216,7 @@
   },
   {
     "id": 3034,
-    "index": 530,
+    "index": 555,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6904,7 +7229,7 @@
   },
   {
     "id": 3038,
-    "index": 531,
+    "index": 556,
     "sceneId": "aftermath",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6917,7 +7242,7 @@
   },
   {
     "id": 3040,
-    "index": 532,
+    "index": 557,
     "sceneId": "aftermath",
     "speaker": "Dave",
     "character": null,
@@ -6930,7 +7255,7 @@
   },
   {
     "id": 3042,
-    "index": 533,
+    "index": 558,
     "sceneId": "aftermath",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -6943,7 +7268,7 @@
   },
   {
     "id": 3046,
-    "index": 534,
+    "index": 559,
     "sceneId": "aftermath",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -6956,7 +7281,7 @@
   },
   {
     "id": 3048,
-    "index": 535,
+    "index": 560,
     "sceneId": "aftermath",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -6969,7 +7294,7 @@
   },
   {
     "id": 3051,
-    "index": 536,
+    "index": 561,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -6982,7 +7307,7 @@
   },
   {
     "id": 3053,
-    "index": 537,
+    "index": 562,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -6995,7 +7320,7 @@
   },
   {
     "id": 3054,
-    "index": 538,
+    "index": 563,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7008,7 +7333,7 @@
   },
   {
     "id": 3055,
-    "index": 539,
+    "index": 564,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7021,7 +7346,7 @@
   },
   {
     "id": 3057,
-    "index": 540,
+    "index": 565,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7034,7 +7359,7 @@
   },
   {
     "id": 3058,
-    "index": 541,
+    "index": 566,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7047,7 +7372,7 @@
   },
   {
     "id": 3060,
-    "index": 542,
+    "index": 567,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7060,7 +7385,7 @@
   },
   {
     "id": 3070,
-    "index": 543,
+    "index": 568,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7073,7 +7398,7 @@
   },
   {
     "id": 3078,
-    "index": 544,
+    "index": 569,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7086,7 +7411,7 @@
   },
   {
     "id": 3079,
-    "index": 545,
+    "index": 570,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7099,7 +7424,7 @@
   },
   {
     "id": 3086,
-    "index": 546,
+    "index": 571,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7112,7 +7437,7 @@
   },
   {
     "id": 3094,
-    "index": 547,
+    "index": 572,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7125,7 +7450,7 @@
   },
   {
     "id": 3098,
-    "index": 548,
+    "index": 573,
     "sceneId": "stump-search",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7138,7 +7463,7 @@
   },
   {
     "id": 3110,
-    "index": 549,
+    "index": 574,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7151,7 +7476,7 @@
   },
   {
     "id": 3122,
-    "index": 550,
+    "index": 575,
     "sceneId": "stump-search",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7164,7 +7489,7 @@
   },
   {
     "id": 3135,
-    "index": 551,
+    "index": 576,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7177,7 +7502,7 @@
   },
   {
     "id": 3140,
-    "index": 552,
+    "index": 577,
     "sceneId": "stump-search",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7190,7 +7515,7 @@
   },
   {
     "id": 3141,
-    "index": 553,
+    "index": 578,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7203,7 +7528,7 @@
   },
   {
     "id": 3145,
-    "index": 554,
+    "index": 579,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7216,7 +7541,7 @@
   },
   {
     "id": 3146,
-    "index": 555,
+    "index": 580,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7229,7 +7554,7 @@
   },
   {
     "id": 3152,
-    "index": 556,
+    "index": 581,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7242,7 +7567,7 @@
   },
   {
     "id": 3156,
-    "index": 557,
+    "index": 582,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7255,7 +7580,7 @@
   },
   {
     "id": 3161,
-    "index": 558,
+    "index": 583,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7268,7 +7593,7 @@
   },
   {
     "id": 3166,
-    "index": 559,
+    "index": 584,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7281,7 +7606,7 @@
   },
   {
     "id": 3172,
-    "index": 560,
+    "index": 585,
     "sceneId": "stump-search",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7294,7 +7619,7 @@
   },
   {
     "id": 3178,
-    "index": 561,
+    "index": 586,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7307,7 +7632,7 @@
   },
   {
     "id": 3184,
-    "index": 562,
+    "index": 587,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7320,7 +7645,7 @@
   },
   {
     "id": 3191,
-    "index": 563,
+    "index": 588,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7333,7 +7658,7 @@
   },
   {
     "id": 3194,
-    "index": 564,
+    "index": 589,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7346,7 +7671,7 @@
   },
   {
     "id": 3195,
-    "index": 565,
+    "index": 590,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7359,7 +7684,7 @@
   },
   {
     "id": 3198,
-    "index": 566,
+    "index": 591,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7372,7 +7697,7 @@
   },
   {
     "id": 3204,
-    "index": 567,
+    "index": 592,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7385,7 +7710,7 @@
   },
   {
     "id": 3207,
-    "index": 568,
+    "index": 593,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7398,7 +7723,7 @@
   },
   {
     "id": 3217,
-    "index": 569,
+    "index": 594,
     "sceneId": "stump-search",
     "speaker": "Matt",
     "character": "Yggostrus",
@@ -7411,7 +7736,7 @@
   },
   {
     "id": 3220,
-    "index": 570,
+    "index": 595,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7424,7 +7749,7 @@
   },
   {
     "id": 3226,
-    "index": 571,
+    "index": 596,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7437,7 +7762,7 @@
   },
   {
     "id": 3233,
-    "index": 572,
+    "index": 597,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7450,7 +7775,7 @@
   },
   {
     "id": 3237,
-    "index": 573,
+    "index": 598,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7463,7 +7788,7 @@
   },
   {
     "id": 3240,
-    "index": 574,
+    "index": 599,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7476,7 +7801,7 @@
   },
   {
     "id": 3248,
-    "index": 575,
+    "index": 600,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7489,7 +7814,7 @@
   },
   {
     "id": 3262,
-    "index": 576,
+    "index": 601,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7502,7 +7827,7 @@
   },
   {
     "id": 3269,
-    "index": 577,
+    "index": 602,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7515,7 +7840,7 @@
   },
   {
     "id": 3272,
-    "index": 578,
+    "index": 603,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7528,7 +7853,7 @@
   },
   {
     "id": 3273,
-    "index": 579,
+    "index": 604,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7541,7 +7866,7 @@
   },
   {
     "id": 3275,
-    "index": 580,
+    "index": 605,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7554,7 +7879,7 @@
   },
   {
     "id": 3277,
-    "index": 581,
+    "index": 606,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7567,7 +7892,7 @@
   },
   {
     "id": 3278,
-    "index": 582,
+    "index": 607,
     "sceneId": "stump-search",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -7580,7 +7905,7 @@
   },
   {
     "id": 3281,
-    "index": 583,
+    "index": 608,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7593,7 +7918,7 @@
   },
   {
     "id": 3287,
-    "index": 584,
+    "index": 609,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7606,7 +7931,7 @@
   },
   {
     "id": 3288,
-    "index": 585,
+    "index": 610,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7619,7 +7944,7 @@
   },
   {
     "id": 3290,
-    "index": 586,
+    "index": 611,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7632,7 +7957,7 @@
   },
   {
     "id": 3299,
-    "index": 587,
+    "index": 612,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7645,7 +7970,7 @@
   },
   {
     "id": 3301,
-    "index": 588,
+    "index": 613,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7658,7 +7983,7 @@
   },
   {
     "id": 3306,
-    "index": 589,
+    "index": 614,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7671,7 +7996,7 @@
   },
   {
     "id": 3310,
-    "index": 590,
+    "index": 615,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7684,7 +8009,7 @@
   },
   {
     "id": 3313,
-    "index": 591,
+    "index": 616,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7697,7 +8022,7 @@
   },
   {
     "id": 3320,
-    "index": 592,
+    "index": 617,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7710,7 +8035,7 @@
   },
   {
     "id": 3329,
-    "index": 593,
+    "index": 618,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7723,7 +8048,7 @@
   },
   {
     "id": 3332,
-    "index": 594,
+    "index": 619,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7736,7 +8061,7 @@
   },
   {
     "id": 3334,
-    "index": 595,
+    "index": 620,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7749,7 +8074,7 @@
   },
   {
     "id": 3344,
-    "index": 596,
+    "index": 621,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7762,7 +8087,7 @@
   },
   {
     "id": 3348,
-    "index": 597,
+    "index": 622,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7775,7 +8100,7 @@
   },
   {
     "id": 3354,
-    "index": 598,
+    "index": 623,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7788,7 +8113,7 @@
   },
   {
     "id": 3364,
-    "index": 599,
+    "index": 624,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7801,7 +8126,7 @@
   },
   {
     "id": 3370,
-    "index": 600,
+    "index": 625,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7814,7 +8139,7 @@
   },
   {
     "id": 3373,
-    "index": 601,
+    "index": 626,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7827,7 +8152,7 @@
   },
   {
     "id": 3378,
-    "index": 602,
+    "index": 627,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7840,7 +8165,7 @@
   },
   {
     "id": 3385,
-    "index": 603,
+    "index": 628,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7853,7 +8178,7 @@
   },
   {
     "id": 3391,
-    "index": 604,
+    "index": 629,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7866,7 +8191,7 @@
   },
   {
     "id": 3392,
-    "index": 605,
+    "index": 630,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7879,7 +8204,7 @@
   },
   {
     "id": 3397,
-    "index": 606,
+    "index": 631,
     "sceneId": "stump-search",
     "speaker": "Drew",
     "character": "Solanum Calabash",
@@ -7892,7 +8217,7 @@
   },
   {
     "id": 3410,
-    "index": 607,
+    "index": 632,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -7905,7 +8230,7 @@
   },
   {
     "id": 3411,
-    "index": 608,
+    "index": 633,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7918,7 +8243,7 @@
   },
   {
     "id": 3412,
-    "index": 609,
+    "index": 634,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7931,7 +8256,7 @@
   },
   {
     "id": 3426,
-    "index": 610,
+    "index": 635,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -7944,7 +8269,7 @@
   },
   {
     "id": 3428,
-    "index": 611,
+    "index": 636,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7957,7 +8282,7 @@
   },
   {
     "id": 3432,
-    "index": 612,
+    "index": 637,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -7970,7 +8295,7 @@
   },
   {
     "id": 3438,
-    "index": 613,
+    "index": 638,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7983,7 +8308,7 @@
   },
   {
     "id": 3445,
-    "index": 614,
+    "index": 639,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -7996,7 +8321,7 @@
   },
   {
     "id": 3454,
-    "index": 615,
+    "index": 640,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8009,7 +8334,7 @@
   },
   {
     "id": 3456,
-    "index": 616,
+    "index": 641,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8022,7 +8347,7 @@
   },
   {
     "id": 3459,
-    "index": 617,
+    "index": 642,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8035,7 +8360,7 @@
   },
   {
     "id": 3461,
-    "index": 618,
+    "index": 643,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8048,7 +8373,7 @@
   },
   {
     "id": 3463,
-    "index": 619,
+    "index": 644,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8061,7 +8386,7 @@
   },
   {
     "id": 3464,
-    "index": 620,
+    "index": 645,
     "sceneId": "stump-search",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -8074,7 +8399,7 @@
   },
   {
     "id": 3465,
-    "index": 621,
+    "index": 646,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8087,7 +8412,7 @@
   },
   {
     "id": 3467,
-    "index": 622,
+    "index": 647,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8100,7 +8425,7 @@
   },
   {
     "id": 3473,
-    "index": 623,
+    "index": 648,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8113,7 +8438,7 @@
   },
   {
     "id": 3477,
-    "index": 624,
+    "index": 649,
     "sceneId": "stump-search",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8126,7 +8451,7 @@
   },
   {
     "id": 3478,
-    "index": 625,
+    "index": 650,
     "sceneId": "stump-search",
     "speaker": "Lisa",
     "character": "Taraan Skyseeker",
@@ -8139,7 +8464,7 @@
   },
   {
     "id": 3484,
-    "index": 626,
+    "index": 651,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8152,7 +8477,7 @@
   },
   {
     "id": 3496,
-    "index": 627,
+    "index": 652,
     "sceneId": "stump-search",
     "speaker": "Dave",
     "character": null,
@@ -8165,7 +8490,7 @@
   },
   {
     "id": 3501,
-    "index": 628,
+    "index": 653,
     "sceneId": "session-close",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8178,7 +8503,7 @@
   },
   {
     "id": 3502,
-    "index": 629,
+    "index": 654,
     "sceneId": "session-close",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -8191,7 +8516,7 @@
   },
   {
     "id": 3503,
-    "index": 630,
+    "index": 655,
     "sceneId": "session-close",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8204,7 +8529,7 @@
   },
   {
     "id": 3505,
-    "index": 631,
+    "index": 656,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
@@ -8217,7 +8542,7 @@
   },
   {
     "id": 3507,
-    "index": 632,
+    "index": 657,
     "sceneId": "session-close",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8230,7 +8555,7 @@
   },
   {
     "id": 3513,
-    "index": 633,
+    "index": 658,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
@@ -8243,7 +8568,7 @@
   },
   {
     "id": 3516,
-    "index": 634,
+    "index": 659,
     "sceneId": "session-close",
     "speaker": "Xander",
     "character": "Lithrei Woeborn",
@@ -8256,7 +8581,7 @@
   },
   {
     "id": 3517,
-    "index": 635,
+    "index": 660,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
@@ -8269,7 +8594,7 @@
   },
   {
     "id": 3518,
-    "index": 636,
+    "index": 661,
     "sceneId": "session-close",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8282,7 +8607,7 @@
   },
   {
     "id": 3521,
-    "index": 637,
+    "index": 662,
     "sceneId": "session-close",
     "speaker": "Kiri",
     "character": "Cy'An Copperbottom",
@@ -8295,7 +8620,7 @@
   },
   {
     "id": 3529,
-    "index": 638,
+    "index": 663,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
@@ -8308,7 +8633,7 @@
   },
   {
     "id": 3531,
-    "index": 639,
+    "index": 664,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
@@ -8321,7 +8646,7 @@
   },
   {
     "id": 3534,
-    "index": 640,
+    "index": 665,
     "sceneId": "session-close",
     "speaker": "Dave",
     "character": null,
