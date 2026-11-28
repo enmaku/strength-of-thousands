@@ -2,11 +2,33 @@
   "lithrei-woeborn": {
     "name": null,
     "trait": "mental",
-    "held": null
+    "held": null,
+    "weapon": {
+      "pathbuilder": "Branch Implement (Lithrei)",
+      "proficiency": "simple",
+      "die": "d8",
+      "damageType": "S",
+      "potency": 0,
+      "striking": "",
+      "runes": [],
+      "attack": 4,
+      "damageBonus": 0
+    }
   },
   "taraan-skyseeker": {
     "name": "Margent",
     "trait": "mental",
-    "held": null
+    "held": null,
+    "weapon": {
+      "pathbuilder": "Margent",
+      "proficiency": "simple",
+      "die": "d4",
+      "damageType": "B",
+      "potency": 0,
+      "striking": "",
+      "runes": [],
+      "attack": 4,
+      "damageBonus": 0
+    }
   }
 }

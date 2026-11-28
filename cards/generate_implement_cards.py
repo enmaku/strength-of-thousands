@@ -6,9 +6,16 @@ Builds one combined sheet set for every active hero who can cast spells and has 
 rebuilt each run so no hero's typed values are lost. Rules: lessons/0013-branch-implements-gm-prep.html.
 
 Implement details the hero JSON can't hold live in cards/branch-implements.json, keyed by hero slug:
-    {"taraan-skyseeker": {"name": "Margent", "trait": "mental", "held": null}}
+    {"taraan-skyseeker": {"name": "Margent", "trait": "mental", "held": null,
+                          "weapon": {"pathbuilder": "Margent", "proficiency": "simple", "die": "d4", ...}}}
 "name" and "trait" fill those fields; "held" replaces the branch's example held benefit ("{n}" becomes the tier's
-+1/+2/+3). A null or missing key leaves that detail to the sources below.
++1/+2/+3). A null or missing key leaves that detail to the sources below. "weapon.pathbuilder" names the hero's
+Pathbuilder weapon that is the implement: its attack, damage and runes are read from the export every run; the stats
+stored beside it are the fallback when the export has no weapon by that name.
+
+The weapon block (a Strike line over, when the implement has runes, a "Runes:" field that wraps between runes) goes on the last face with room: under
+the emblem on an empty back, else at the bottom of a face whose rows still fit beside it, else on one more card. Every
+hero gets it; with no weapon recorded it prints blank to fill in.
 
 Spells come from Pathbuilder's "Other Spells (Staves etc)" caster, by rank, with stats and charge cost from AoN; a rank
 Pathbuilder lists replaces that rank's carried-over slots. With no trait from the file or the last print, a trait
@@ -148,7 +155,7 @@ def implement(hero):
     return {
         "hero": hero["displayName"], "slug": hero["slug"],
         "branch": branch, "branch_name": branches[branch]["displayName"], "emblem": emblem,
-        "vals": {"name": "", "trait": "", "held": "", "spells": {}}, "build": hero["build"], "filled": set(),
+        "vals": {"name": "", "trait": "", "held": "", "weapon": "", "runes": "", "spells": {}}, "build": hero["build"], "filled": set(),
         "level": level, "tier": tier_of(level), "slots": slots_of(level),
         "held": HELD[branch].format(n=held_bonus(level)),
         "free": highest + 1, "dotted": prepared, "char_level": hero["build"]["level"],
@@ -304,6 +311,32 @@ def first_front_header(imp, c):
     return lay
 
 
+WEAPON_W = 139.5 - 12  # widest weapon text: inner card width less Preview's field padding
+LINE_H = MIN_PT * 1.2
+
+
+def rune_lines(runes):
+    """'Runes: ...' broken between runes, never inside one's name; no lines at all when there are no runes."""
+    if not runes:
+        return []
+    lines, items = ["Runes:"], runes.split(" · ")
+    for k, item in enumerate(items):
+        trial = f"{lines[-1]} · {item}" if lines[-1] != "Runes:" else f"Runes: {item}"
+        tail = " ·" if k < len(items) - 1 else ""  # a line that breaks ends in " ·"
+        if lines[-1] != "Runes:" and fitz.get_text_length(trial + tail, "helv", MIN_PT) > WEAPON_W:
+            lines[-1] += " ·"
+            lines.append(item)
+        else:
+            lines[-1] = trial
+    return lines
+
+
+def block_height(imp):
+    """The weapon block: the rule above it, the Strike line, the runes lines (if any)."""
+    lines = rune_lines(imp["weapon"]["runes"])
+    return 6 + 11 + (len(lines) * LINE_H + 5 if lines else 0)
+
+
 CONT_FRONT_ROWS = 34   # later cards' fronts: name, "continued", rule
 BACK_ROWS = 17         # backs: name, rule
 
@@ -325,7 +358,10 @@ def take(groups, height):
 
 
 def plan(imp):
-    """[{'front': groups, 'back': groups}, ...] — one entry per physical card."""
+    """[{'front': groups, 'back': groups, 'weapon'?: face}, ...] — one entry per physical card.
+
+    Spells fill faces in order. The weapon block then takes the last face with room, latest card's back first: an
+    empty back (under the emblem), or a face whose rows still fit at ROW_MIN beside it; failing that, one more card."""
     c = inner(front_body(0)[2])
     rest, cards = list(imp["slots"]), []
     while rest or not cards:
@@ -333,6 +369,19 @@ def plan(imp):
         front, rest = take(rest, rows_area(c, top).height)
         back, rest = take(rest, rows_area(c, BACK_ROWS).height)
         cards.append({"front": front, "back": back})
+    need = block_height(imp)
+    for n in range(len(cards) - 1, -1, -1):
+        for face in ("back", "front"):
+            groups = cards[n][face]
+            if face == "back" and not groups:
+                cards[n]["weapon"] = face
+                return cards
+            top = (first_front_header(imp, c)["rows"] if n == 0 else CONT_FRONT_ROWS) if face == "front" else BACK_ROWS
+            rows = sum(k for _, k in groups) * ROW_MIN + GROUP_GAP * max(0, len(groups) - 1)
+            if rows + need <= rows_area(c, top).height:
+                cards[n]["weapon"] = face
+                return cards
+    cards.append({"front": [], "back": [], "weapon": "back"})
     return cards
 
 
@@ -408,9 +457,12 @@ def draw_front(page, i, imp, card, n, of):
         top = CONT_FRONT_ROWS
     if card["front"]:
         area = rows_area(c, top)
+        area.y1 -= block_height(imp) if card.get("weapon") == "front" else 0
         n_rows = sum(k for _, k in card["front"])
         area.y1 = min(area.y1, area.y0 + n_rows * ROW_MAX + GROUP_GAP * len(card["front"]))
         spell_rows(page, imp, f"{imp['slug']}.c{n}.front", card["front"], area)
+    if card.get("weapon") == "front":
+        weapon_block(page, imp, c, None)
     footer(page, c, imp, n, of)
 
 
@@ -420,6 +472,7 @@ def draw_back(page, fields, i, imp, card, n, of):
         name_field(page, imp, n, "back", c, c.y0 + 1, 10)
         page.draw_line((c.x0, c.y0 + 15), (c.x1, c.y0 + 15), color=(0, 0, 0), width=0.8)
         area = rows_area(c, BACK_ROWS)
+        area.y1 -= block_height(imp) if card.get("weapon") == "back" else 0
         n_rows = sum(k for _, k in card["back"])
         area.y1 = min(area.y1, area.y0 + n_rows * ROW_MAX + GROUP_GAP * len(card["back"]))
         spell_rows(page, imp, f"{imp['slug']}.c{n}.back", card["back"], area)
@@ -428,7 +481,22 @@ def draw_back(page, fields, i, imp, card, n, of):
         cx, side = (c.x0 + c.x1) / 2, 64  # a square box: keep_proportion stretches a square image to fill a wide one
         page.insert_image(fitz.Rect(cx - side / 2, mid - 50, cx + side / 2, mid + 14), filename=str(imp["emblem"]))
         name_field(page, imp, n, "back", c, mid + 20, 12)
+    if card.get("weapon") == "back":
+        weapon_block(page, imp, c, None if card["back"] else (c.y0 + c.y1) / 2 + 40)
     footer(page, c, imp, n, of)
+
+
+def weapon_block(page, imp, c, y):
+    """The Strike line over the wrapping runes field, at y (under the emblem) or, with y None, just above the footer."""
+    if y is None:
+        y = c.y1 - FOOTER_H - block_height(imp) + 6
+        page.draw_line((c.x0 + 20, y - 3), (c.x1 - 20, y - 3), color=GREY, width=0.4)
+    lines = rune_lines(imp["weapon"]["runes"])
+    field(page, f"{imp['slug']}.weapon", fitz.Rect(c.x0, y, c.x1, y + 10), "Helv", MIN_PT, True,
+          imp["weapon"]["strike"], imp, "weapon")
+    if lines:
+        field(page, f"{imp['slug']}.runes", fitz.Rect(c.x0, y + 10, c.x1, y + 10 + len(lines) * LINE_H + 5), "Helv",
+              MIN_PT, True, "\n".join(lines), imp, "runes", multiline=True)
 
 
 # ---------- typed values: carried over from the last print, overlaid by --fill ----------
@@ -447,7 +515,10 @@ def carry_over(imp):
                 if parts[0] != imp["slug"] or not v:
                     continue
                 m = re.fullmatch(r"r(\d+)s(\d+)", parts[-2]) if len(parts) > 2 else None
-                if parts[-1] in ("name", "trait", "held"):
+                if parts[-1] in ("name", "trait", "held", "weapon", "runes"):
+                    if parts[-1] == "runes":
+                        v = " · ".join(x.strip() for x in re.split(r"\s*·\s*|\n", re.sub(r"(?i)^runes:", "", v))
+                                       if x.strip())
                     vals[parts[-1]] = vals[parts[-1]] or v
                 elif m and parts[-1] in ("spell", "stats", "cost"):
                     vals["spells"].setdefault(int(m[1]), {}).setdefault(int(m[2]), {})[parts[-1]] = v
@@ -562,6 +633,7 @@ def details(imp):
                 notes.append(f"  REPLACED carried-over {key}: {imp['vals'][key]}")
             imp["vals"][key] = v
             imp["filled"].add(key)
+    notes += weapon(imp, entry)
     unprefix = lambda t: re.sub(r"(?i)^while held:\s*", "", t.strip())
     held, typed = unprefix(entry.get("held") or ""), unprefix(imp["vals"]["held"])
     if held:
@@ -571,6 +643,53 @@ def details(imp):
         imp["held"] = typed
         notes.append("  held benefit carried over as typed (save it to branch-implements.json, with {n}, to scale it)")
     return notes
+
+
+# ---------- the implement as a weapon ----------
+
+DICE = {"": 1, "striking": 2, "greaterStriking": 3, "majorStriking": 4}
+STRIKING = {"striking": "striking", "greaterStriking": "greater striking", "majorStriking": "major striking"}
+DAMAGE = {"B": "bludgeoning", "P": "piercing", "S": "slashing"}
+STAT_KEYS = ("proficiency", "die", "damageType", "potency", "striking", "runes", "attack", "damageBonus")
+
+
+def weapon(imp, entry):
+    """Set imp['weapon'] (Strike line, runes text without the 'Runes:' label) and return report lines.
+
+    Stats come from the Pathbuilder weapon DETAILS names (live: attack and runes follow every export), else from the
+    stats stored beside that name, else from what was typed on the last print."""
+    stored = entry.get("weapon") or {}
+    name = stored.get("pathbuilder")
+    live = next((w for w in imp["build"].get("weapons", []) if name and w.get("name") == name), None)
+    if live:
+        w = {"proficiency": live.get("prof", ""), "die": live.get("die", ""), "damageType": live.get("damageType", ""),
+             "potency": live.get("pot", 0), "striking": live.get("str", ""), "runes": live.get("runes", []),
+             "attack": live.get("attack"), "damageBonus": live.get("damageBonus", 0)}
+        note = f"  weapon from Pathbuilder's {name!r}"
+    elif any(k in stored for k in STAT_KEYS):
+        w = stored
+        note = "  weapon from branch-implements.json" + (f" (no {name!r} in Pathbuilder)" if name else "")
+    else:
+        imp["weapon"] = {"strike": imp["vals"]["weapon"], "runes": imp["vals"]["runes"]}
+        return ([f"  weapon: no {name!r} in Pathbuilder and no stats stored"] if name else []) + \
+               (["  weapon carried over as typed"] if imp["vals"]["weapon"] else [])
+    imp["weapon"] = {"strike": strike_line(w), "runes": " · ".join(
+        ([f"+{w['potency']}"] if w.get("potency") else []) + ([STRIKING[w["striking"]]] if w.get("striking") else [])
+        + [r.lower() for r in w.get("runes") or []])}
+    imp["filled"].update(("weapon", "runes"))
+    return [f"{note}: {imp['weapon']['strike']}" + (f"; runes {imp['weapon']['runes']}" if imp["weapon"]["runes"] else "")]
+
+
+def strike_line(w):
+    """'Simple · Strike +4 · 1d4 bludgeoning'; drops the proficiency when the line won't fit at MIN_PT."""
+    attack = f"Strike {w['attack']:+d}" if isinstance(w.get("attack"), int) else "Strike +?"
+    dice = f"{DICE[w.get('striking') or '']}{w.get('die', '')}"
+    bonus = f"+{w['damageBonus']}" if w.get("damageBonus") else ""
+    damage = f"{dice}{bonus} {DAMAGE.get(w.get('damageType', ''), w.get('damageType', ''))}".strip()
+    line = " · ".join(x for x in (w.get("proficiency", "").capitalize(), attack, damage) if x)
+    if fitz.get_text_length(line, "helv", MIN_PT) > WEAPON_W:
+        line = f"{attack} · {damage}"
+    return line
 
 
 def dropped(imp):
